@@ -25,10 +25,10 @@ const Header = () => {
     <header className="bg-background border-b border-border sticky top-0 z-50">
       <div className="container-blog">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
+          {/* Home Link */}
           <div className="flex-shrink-0">
             <Link to="/" className="block">
-              <h1 className="text-2xl font-bold text-foreground">nexus</h1>
+              <span className="sr-only">Home</span>
             </Link>
           </div>
 
