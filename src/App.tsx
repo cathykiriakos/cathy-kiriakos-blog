@@ -1,3 +1,6 @@
+// src/App.tsx
+// UPDATED VERSION - Replace your existing App.tsx with this
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -22,6 +25,10 @@ const About = lazy(() => import("./pages/About"));
 const Contact = lazy(() => import("./pages/Contact"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
+// NEW PAGES
+const MarketIntelligence = lazy(() => import("./pages/MarketIntelligence"));
+const Admin = lazy(() => import("./pages/Admin"));
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -32,25 +39,31 @@ const App = () => (
         <Toaster />
         <Sonner />
         <BrowserRouter>
-            <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
-              <Routes>
-                <Route path="/" element={<Index />} />
-                <Route path="/posts" element={<AllPosts />} />
-                <Route path="/business" element={<Business />} />
-                <Route path="/technology" element={<Technology />} />
-                <Route path="/podcast" element={<Podcast />} />
-                <Route path="/terms" element={<Terms />} />
-                <Route path="/privacy" element={<Privacy />} />
-                <Route path="/sitemap" element={<Sitemap />} />
-                <Route path="/search" element={<SearchResults />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/blog/:slug" element={<BlogDetail />} />
-                {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-                <Route path="*" element={<NotFound />} />
-              </Routes>
-            </Suspense>
-          </BrowserRouter>
+          <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
+            <Routes>
+              <Route path="/" element={<Index />} />
+              <Route path="/posts" element={<AllPosts />} />
+              <Route path="/business" element={<Business />} />
+              <Route path="/technology" element={<Technology />} />
+              <Route path="/podcast" element={<Podcast />} />
+              
+              {/* NEW ROUTES */}
+              <Route path="/market-intelligence" element={<MarketIntelligence />} />
+              <Route path="/admin" element={<Admin />} />
+              
+              <Route path="/terms" element={<Terms />} />
+              <Route path="/privacy" element={<Privacy />} />
+              <Route path="/sitemap" element={<Sitemap />} />
+              <Route path="/search" element={<SearchResults />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/blog/:slug" element={<BlogDetail />} />
+              
+              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </Suspense>
+        </BrowserRouter>
       </TooltipProvider>
     </ThemeProvider>
   </QueryClientProvider>
