@@ -78,7 +78,7 @@ const FeaturedArticle = ({
 // Default Featured Article
 export const DefaultFeaturedArticle = () => (
   <FeaturedArticle
-    title="Featured Article Title — Hero Content Showcase"
+    title="Cathy Kiriakos Chicago Born Data Innovator"
     author="AUTHOR NAME"
     category="CATEGORY"
     date="Date Format"
