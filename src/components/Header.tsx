@@ -1,6 +1,9 @@
+// src/components/Header.tsx
+// UPDATED VERSION - Replace your existing Header.tsx with this
+
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Search, Facebook, Twitter, Instagram, Menu, X } from 'lucide-react';
+import { Search, Facebook, Twitter, Instagram, Menu, X, BarChart3, Shield } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ThemeToggle from './ThemeToggle';
 
@@ -13,6 +16,7 @@ const Header = () => {
     { name: 'BUSINESS', href: '/business' },
     { name: 'TECHNOLOGY', href: '/technology' },
     { name: 'PODCAST', href: '/podcast' },
+    { name: 'MARKET INTEL', href: '/market-intelligence', icon: BarChart3 }, // NEW
   ];
 
   const socialLinks = [
@@ -28,6 +32,7 @@ const Header = () => {
           {/* Home Link */}
           <div className="flex-shrink-0">
             <Link to="/" className="block">
+              <span className="text-lg font-bold">Ni Enterprises</span>
               <span className="sr-only">Home</span>
             </Link>
           </div>
@@ -38,9 +43,10 @@ const Header = () => {
               <Link
                 key={item.name}
                 to={item.href}
-                className="nav-link"
+                className="nav-link flex items-center space-x-1"
               >
-                {item.name}
+                {item.icon && <item.icon className="h-4 w-4" />}
+                <span>{item.name}</span>
               </Link>
             ))}
           </nav>
@@ -63,6 +69,18 @@ const Header = () => {
             >
               <Search className="h-4 w-4" />
             </Button>
+
+            {/* Admin Button */}
+            <Button 
+              variant="outline" 
+              size="sm" 
+              aria-label="Admin panel"
+              onClick={() => navigate('/admin')}
+              title="Admin"
+            >
+              <Shield className="h-4 w-4" />
+            </Button>
+
             <ThemeToggle />
           </div>
 
@@ -85,12 +103,21 @@ const Header = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className="nav-link"
+                  className="nav-link flex items-center space-x-2"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  {item.name}
+                  {item.icon && <item.icon className="h-4 w-4" />}
+                  <span>{item.name}</span>
                 </Link>
               ))}
+              <Link
+                to="/admin"
+                className="nav-link flex items-center space-x-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                <Shield className="h-4 w-4" />
+                <span>ADMIN</span>
+              </Link>
             </nav>
             
             <div className="mt-6 space-y-4">
@@ -106,14 +133,14 @@ const Header = () => {
                 <ThemeToggle />
               </div>
               
-                <Button 
-                  variant="outline" 
-                  size="sm" 
-                  aria-label="Search articles"
-                  onClick={() => navigate('/search')}
-                >
-                  <Search className="h-4 w-4" />
-                </Button>
+              <Button 
+                variant="outline" 
+                size="sm" 
+                aria-label="Search articles"
+                onClick={() => navigate('/search')}
+              >
+                <Search className="h-4 w-4" />
+              </Button>
             </div>
           </div>
         )}
