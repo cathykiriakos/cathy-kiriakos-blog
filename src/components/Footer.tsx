@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h2 className="text-lg font-bold text-foreground">NiEnterprises</h2>
             <p className="text-sm text-muted-foreground">
-              A Exploring AI, technology, and business trends.
+              Exploring AI, innovation, and lifestyle trends.
             </p>
           </div>
           
@@ -16,8 +16,7 @@ const Footer = () => {
             <h3 className="font-medium text-foreground">Categories</h3>
             <ul className="space-y-2 text-sm">
               <li><Link to="/posts" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">Markets</Link></li>
-              <li><Link to="/technology" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">Technology</Link></li>
-              <li><Link to="/business" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">Business</Link></li>
+              <li><Link to="/innovation" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">Innovation</Link></li>
               <li><Link to="/posts" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">Lifestyle</Link></li>
             </ul>
           </div>

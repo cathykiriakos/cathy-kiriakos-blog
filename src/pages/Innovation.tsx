@@ -4,17 +4,80 @@ import BlogCard from '@/components/BlogCard';
 import PageFilter, { Post } from '@/components/PageFilter';
 import { useState } from 'react';
 import businessPost from '@/assets/business-post.jpg';
+import techPost from '@/assets/tech-post.jpg';
 import workLifestyle from '@/assets/work-lifestyle.jpg';
 
-const Business = () => {
+const Innovation = () => {
   const [filteredPosts, setFilteredPosts] = useState<Post[]>([]);
 
-  const businessPosts: Post[] = [
+  const innovationPosts: Post[] = [
+    // Technology Posts
+    {
+      title: "The Rise of Artificial Intelligence in Everyday Life",
+      category: "TECHNOLOGY",
+      subcategory: "Artificial Intelligence",
+      date: "September 18, 2025",
+      excerpt: "Exploring how AI is transforming industries and reshaping our daily experiences.",
+      image: techPost,
+      slug: "ai-everyday-life",
+      tags: ["AI", "Machine Learning", "Daily Tech"]
+    },
+    {
+      title: "Blockchain Beyond Cryptocurrency: Real-World Applications",
+      category: "TECHNOLOGY",
+      subcategory: "Blockchain",
+      date: "September 12, 2025",
+      excerpt: "Discovering innovative uses of blockchain technology across various sectors.",
+      image: workLifestyle,
+      slug: "blockchain-real-world-applications",
+      tags: ["Blockchain", "Innovation", "Real-world Applications"]
+    },
+    {
+      title: "The Future of Web Development: Trends to Watch in 2024",
+      category: "TECHNOLOGY",
+      subcategory: "Web Development",
+      date: "September 8, 2025",
+      excerpt: "Key technologies and frameworks shaping the next generation of web applications.",
+      image: techPost,
+      slug: "web-development-trends-2024",
+      tags: ["Web Development", "Frontend", "Future Trends"]
+    },
+    {
+      title: "Cybersecurity Best Practices for Small Businesses",
+      category: "TECHNOLOGY",
+      subcategory: "Cybersecurity",
+      date: "September 5, 2025",
+      excerpt: "Essential security measures every small business should implement to protect their data.",
+      image: workLifestyle,
+      slug: "cybersecurity-small-business",
+      tags: ["Cybersecurity", "Small Business", "Data Protection"]
+    },
+    {
+      title: "The Evolution of Mobile App Development",
+      category: "TECHNOLOGY",
+      subcategory: "Mobile Development",
+      date: "August 30, 2025",
+      excerpt: "From native to cross-platform: how mobile development approaches have transformed.",
+      image: techPost,
+      slug: "mobile-app-development-evolution",
+      tags: ["Mobile Development", "Cross-platform", "App Development"]
+    },
+    {
+      title: "Cloud Computing: Choosing the Right Solution for Your Business",
+      category: "TECHNOLOGY",
+      subcategory: "Cloud Computing",
+      date: "August 26, 2025",
+      excerpt: "A comprehensive guide to selecting the perfect cloud infrastructure for your needs.",
+      image: workLifestyle,
+      slug: "cloud-computing-business-guide",
+      tags: ["Cloud Computing", "Infrastructure", "Business Solutions"]
+    },
+    // Business Posts
     {
       title: "Sustainable Business Practices for Modern Entrepreneurs",
       category: "BUSINESS",
       subcategory: "Sustainability",
-      date: "September 15, 2025", 
+      date: "September 15, 2025",
       excerpt: "Learn how to build a sustainable business that benefits both profit and planet.",
       image: businessPost,
       slug: "sustainable-business-practices",
@@ -72,25 +135,27 @@ const Business = () => {
     }
   ];
 
-  const postsToShow = filteredPosts.length > 0 ? filteredPosts : businessPosts;
+  const postsToShow = filteredPosts.length > 0 ? filteredPosts : innovationPosts;
 
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      
+
       <main id="main-content" className="container-blog py-12">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Business
+            Innovation
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Insights and strategies for modern business leaders and entrepreneurs navigating today's competitive landscape.
+            Explore the intersection of business and technology. Discover insights on digital transformation, entrepreneurship, emerging technologies, and innovative business strategies.
           </p>
         </div>
 
         <PageFilter
-          posts={businessPosts}
+          posts={innovationPosts}
           onFilteredPostsChange={setFilteredPosts}
+          availableCategories={["TECHNOLOGY", "BUSINESS"]}
+          showCategoryFilter={true}
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -113,4 +178,4 @@ const Business = () => {
   );
 };
 
-export default Business;
+export default Innovation;
