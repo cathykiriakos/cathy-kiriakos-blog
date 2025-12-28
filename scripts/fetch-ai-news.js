@@ -1,8 +1,8 @@
 // scripts/fetch-ai-news.js
 // Fetches AI news from multiple sources and performs sentiment analysis
 
-const axios = require('axios');
-const { createClient } = require('@supabase/supabase-js');
+import axios from 'axios';
+import { createClient } from '@supabase/supabase-js';
 
 const supabase = createClient(
   process.env.SUPABASE_URL,

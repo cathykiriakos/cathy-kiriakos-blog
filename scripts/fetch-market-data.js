@@ -1,8 +1,8 @@
 // scripts/fetch-market-data.js
 // Fetches real-time stock data and updates Supabase
 
-const axios = require('axios');
-const { createClient } = require('@supabase/supabase-js');
+import axios from 'axios';
+import { createClient } from '@supabase/supabase-js';
 
 const supabase = createClient(
   process.env.SUPABASE_URL,
