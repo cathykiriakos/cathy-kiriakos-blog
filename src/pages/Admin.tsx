@@ -26,9 +26,9 @@ import {
   getNewsItems,
   getNewsletterSubscribers,
   getContactSubmissions
-} from '@/lib/supabase';
-import { POST_CATEGORIES, SENTIMENT_OPTIONS } from '@/types/database';
-import type { PostFormData, NewsFormData } from '@/types/database';
+} from '../../types/supabase';
+import { POST_CATEGORIES, SENTIMENT_OPTIONS } from '../../types/database';
+import type { PostFormData, NewsFormData } from '../../types/database';
 
 const Admin = () => {
   const [activeTab, setActiveTab] = useState('posts');
