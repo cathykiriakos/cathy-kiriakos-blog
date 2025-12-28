@@ -4,26 +4,14 @@ import BlogCard from '@/components/BlogCard';
 import PageFilter, { Post } from '@/components/PageFilter';
 import { useState } from 'react';
 import businessPost from '@/assets/business-post.jpg';
-import fashionPost from '@/assets/fashion-post.jpg';
 import techPost from '@/assets/tech-post.jpg';
 import lifestylePost from '@/assets/lifestyle-post.jpg';
-import fashionLifestyle from '@/assets/fashion-lifestyle.jpg';
 import workLifestyle from '@/assets/work-lifestyle.jpg';
 
 const AllPosts = () => {
   const [filteredPosts, setFilteredPosts] = useState<Post[]>([]);
 
   const blogPosts: Post[] = [
-    {
-      title: "The Rise of Fashion Blogging: The Role of Influencers in the Industry",
-      category: "FASHION",
-      subcategory: "Digital Fashion", 
-      date: "September 20, 2025",
-      excerpt: "Explore how fashion bloggers and influencers have transformed the industry landscape.",
-      image: fashionPost,
-      slug: "rise-of-fashion-blogging",
-      tags: ["Influencers", "Social Media", "Fashion Industry"]
-    },
     {
       title: "AI and Machine Learning: Transforming Business Operations",
       category: "TECHNOLOGY", 
@@ -63,16 +51,6 @@ const AllPosts = () => {
       image: workLifestyle,
       slug: "future-remote-work",
       tags: ["Remote Work", "Future Trends", "Digital Workplace"]
-    },
-    {
-      title: "Fashion Week Highlights: Trends That Define the Season",
-      category: "FASHION",
-      subcategory: "Fashion Events",
-      date: "September 8, 2025",
-      excerpt: "A comprehensive look at the standout moments from this season's fashion weeks.",
-      image: fashionLifestyle,
-      slug: "fashion-week-highlights",
-      tags: ["Fashion Week", "Trends", "Runway"]
     },
     {
       title: "Blockchain Technology: Beyond Cryptocurrency",
@@ -118,14 +96,14 @@ const AllPosts = () => {
             All Posts
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Discover our complete collection of articles covering fashion, technology, business, and lifestyle topics.
+            Discover our complete collection of articles covering technology, business, and lifestyle topics.
           </p>
         </div>
 
         <PageFilter
           posts={blogPosts}
           onFilteredPostsChange={setFilteredPosts}
-          availableCategories={["FASHION", "TECHNOLOGY", "BUSINESS", "LIFESTYLE"]}
+          availableCategories={["TECHNOLOGY", "BUSINESS", "LIFESTYLE"]}
           showCategoryFilter={true}
         />
 

@@ -16,7 +16,7 @@ const About = () => {
               About Nexus
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Exploring the intersection of fashion, technology, business, and lifestyle
+              Exploring the intersection of technology, business, and lifestyle
             </p>
           </div>
 
@@ -39,12 +39,12 @@ const About = () => {
               <div className="space-y-4 text-muted-foreground">
                 <p>
                   Welcome to Nexus, where diverse worlds converge. Founded with a passion for exploring 
-                  the connections between fashion, technology, business, and lifestyle, we believe that 
+                  the connections between technology, business, and lifestyle, we believe that 
                   the most interesting insights happen at the intersections.
                 </p>
                 <p>
                   Our mission is to provide thoughtful, well-researched content that helps you navigate 
-                  the complex landscape of modern life. Whether you're interested in the latest fashion 
+                  the complex landscape of modern life. Whether you're interested in emerging technologies, 
                   trends, emerging technologies, business strategies, or lifestyle optimization, we're 
                   here to guide your journey.
                 </p>
@@ -61,7 +61,7 @@ const About = () => {
                 <ul className="space-y-3">
                   <li className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-primary rounded-full"></div>
-                    <span className="text-muted-foreground">Fashion trends and style insights</span>
+                    <span className="text-muted-foreground">Digital transformation and trends</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-primary rounded-full"></div>

@@ -4,7 +4,7 @@ import BlogCard from '@/components/BlogCard';
 import PageFilter, { Post } from '@/components/PageFilter';
 import { useState } from 'react';
 import techPost from '@/assets/tech-post.jpg';
-import fashionLifestyle from '@/assets/fashion-lifestyle.jpg';
+import workLifestyle from '@/assets/work-lifestyle.jpg';
 
 const Technology = () => {
   const [filteredPosts, setFilteredPosts] = useState<Post[]>([]);
@@ -26,7 +26,7 @@ const Technology = () => {
       subcategory: "Blockchain",
       date: "September 12, 2025",
       excerpt: "Discovering innovative uses of blockchain technology across various sectors.",
-      image: fashionLifestyle,
+      image: workLifestyle,
       slug: "blockchain-real-world-applications",
       tags: ["Blockchain", "Innovation", "Real-world Applications"]
     },
@@ -46,7 +46,7 @@ const Technology = () => {
       subcategory: "Cybersecurity",
       date: "September 5, 2025",
       excerpt: "Essential security measures every small business should implement to protect their data.",
-      image: fashionLifestyle,
+      image: workLifestyle,
       slug: "cybersecurity-small-business",
       tags: ["Cybersecurity", "Small Business", "Data Protection"]
     },
@@ -66,7 +66,7 @@ const Technology = () => {
       subcategory: "Cloud Computing",
       date: "August 26, 2025",
       excerpt: "A comprehensive guide to selecting the perfect cloud infrastructure for your needs.",
-      image: fashionLifestyle,
+      image: workLifestyle,
       slug: "cloud-computing-business-guide",
       tags: ["Cloud Computing", "Infrastructure", "Business Solutions"]
     }

@@ -6,16 +6,16 @@ const Footer = () => {
       <div className="container-blog py-12">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h2 className="text-lg font-bold text-foreground">nexus</h2>
+            <h2 className="text-lg font-bold text-foreground">NiEnterprises</h2>
             <p className="text-sm text-muted-foreground">
-              A personal blog exploring fashion, technology, business, and lifestyle trends.
+              A Exploring AI, technology, and business trends.
             </p>
           </div>
           
           <div className="space-y-4">
             <h3 className="font-medium text-foreground">Categories</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link to="/posts" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">Fashion</Link></li>
+              <li><Link to="/posts" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">Markets</Link></li>
               <li><Link to="/technology" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">Technology</Link></li>
               <li><Link to="/business" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">Business</Link></li>
               <li><Link to="/posts" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">Lifestyle</Link></li>
@@ -35,13 +35,9 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="font-medium text-foreground">Connect</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded" aria-label="Follow us on Facebook">
-                <span className="sr-only">Facebook</span>
-                Facebook
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded" aria-label="Follow us on Twitter">
-                <span className="sr-only">Twitter</span>
-                Twitter
+              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded" aria-label="Follow me on LinkedIn">
+                <span className="sr-only">LinkedIn</span>
+                LinkedIn
               </a>
               <a href="#" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded" aria-label="Follow us on Instagram">
                 <span className="sr-only">Instagram</span>
@@ -53,7 +49,7 @@ const Footer = () => {
         
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2023 Nexus Blog. All rights reserved.
+            © 2025 NiEnterprises. All rights reserved.
           </p>
         </div>
       </div>

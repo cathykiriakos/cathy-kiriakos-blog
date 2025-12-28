@@ -61,7 +61,7 @@ const FeaturedArticle = ({
               asChild
             >
               <a
-                href="/blog/rise-of-fashion-blogging"
+                href="/blog/self-driving-cars-everything-you-need-to-know"
                 aria-label={`Read more about: ${title}`}
               >
                 READ MORE

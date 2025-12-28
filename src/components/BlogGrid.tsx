@@ -1,10 +1,8 @@
 import BlogCard from './BlogCard';
 import businessPost from '@/assets/business-post.jpg';
 import techPost from '@/assets/tech-post.jpg';
-import fashionPost from '@/assets/fashion-post.jpg';
 import lifestylePost from '@/assets/lifestyle-post.jpg';
 import workLifestyle from '@/assets/work-lifestyle.jpg';
-import fashionLifestyle from '@/assets/fashion-lifestyle.jpg';
 
 const blogPosts = [
   {
@@ -38,13 +36,13 @@ const blogPosts = [
     title: "Sample Title — Sample Description",
     category: "CATEGORY",
     date: "DATE", 
-    image: fashionLifestyle
+    image: workLifestyle
   },
   {
     title: "Content Title — Content Description",
     category: "CATEGORY",
     date: "DATE",
-    image: fashionPost
+    image: workLifestyle
   }
 ];
 

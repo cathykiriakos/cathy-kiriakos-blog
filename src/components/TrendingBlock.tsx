@@ -1,10 +1,8 @@
 import BlogCard from './BlogCard';
 import businessPost from '@/assets/business-post.jpg';
 import techPost from '@/assets/tech-post.jpg';
-import fashionPost from '@/assets/fashion-post.jpg';
 import lifestylePost from '@/assets/lifestyle-post.jpg';
 import workLifestyle from '@/assets/work-lifestyle.jpg';
-import fashionLifestyle from '@/assets/fashion-lifestyle.jpg';
 
 const trendingPosts = [
   {
@@ -26,7 +24,7 @@ const trendingPosts = [
     category: "CATEGORY",
     date: "DATE",
     excerpt: "Popular excerpt — Preview of why this content is trending.",
-    image: fashionLifestyle
+    image: workLifestyle
   },
   {
     title: "Trending Article — Content Highlight",
@@ -47,7 +45,7 @@ const trendingPosts = [
     category: "CATEGORY",
     date: "DATE",
     excerpt: "Summary excerpt — Brief overview of this hot trending content.",
-    image: fashionPost
+    image: workLifestyle
   }
 ];
 

@@ -9,10 +9,8 @@ import { Button } from '@/components/ui/button';
 
 // Import all post data
 import businessPost from '@/assets/business-post.jpg';
-import fashionPost from '@/assets/fashion-post.jpg';
 import techPost from '@/assets/tech-post.jpg';
 import lifestylePost from '@/assets/lifestyle-post.jpg';
-import fashionLifestyle from '@/assets/fashion-lifestyle.jpg';
 import workLifestyle from '@/assets/work-lifestyle.jpg';
 
 const SearchResults = () => {
@@ -22,23 +20,6 @@ const SearchResults = () => {
   
   // All posts data combined from different pages
   const allPosts = useMemo(() => [
-    // Fashion posts
-    {
-      title: "The Rise of Fashion Blogging: The Role of Influencers in the Industry",
-      category: "FASHION",
-      date: "September 20, 2025",
-      excerpt: "Explore how fashion bloggers and influencers have transformed the industry landscape.",
-      image: fashionPost,
-      slug: "rise-of-fashion-blogging"
-    },
-    {
-      title: "Fashion Week Highlights: Trends That Define the Season",
-      category: "FASHION", 
-      date: "September 8, 2024",
-      excerpt: "A comprehensive look at the standout moments from this season's fashion weeks.",
-      image: fashionLifestyle,
-      slug: "fashion-week-highlights"
-    },
     // Technology posts
     {
       title: "AI and Machine Learning: Transforming Business Operations",
@@ -61,7 +42,7 @@ const SearchResults = () => {
       category: "TECHNOLOGY",
       date: "September 12, 2024",
       excerpt: "Discovering innovative uses of blockchain technology across various sectors.",
-      image: fashionLifestyle,
+      image: workLifestyle,
       slug: "blockchain-real-world-applications"
     },
     {
@@ -77,7 +58,7 @@ const SearchResults = () => {
       category: "TECHNOLOGY",
       date: "September 5, 2024",
       excerpt: "Essential security measures every small business should implement to protect their data.",
-      image: fashionLifestyle,
+      image: workLifestyle,
       slug: "cybersecurity-small-business"
     },
     // Business posts
@@ -136,7 +117,7 @@ const SearchResults = () => {
       category: "PODCAST",
       date: "September 14, 2024",
       excerpt: "Industry experts discuss strategies for creating genuine connections with audiences online.",
-      image: fashionPost,
+      image: workLifestyle,
       slug: "authentic-brands-social-media"
     }
   ], []);

@@ -9,104 +9,12 @@ import ReadingProgress from '@/components/ReadingProgress';
 import TableOfContents from '@/components/TableOfContents';
 import RelatedPosts from '@/components/RelatedPosts';
 import BackToTop from '@/components/BackToTop';
-import fashionPost from '@/assets/fashion-post.jpg';
 import techPost from '@/assets/tech-post.jpg';
 import businessPost from '@/assets/business-post.jpg';
 import lifestylePost from '@/assets/lifestyle-post.jpg';
 import workLifestyle from '@/assets/work-lifestyle.jpg';
-import fashionLifestyle from '@/assets/fashion-lifestyle.jpg';
 
 const blogPosts = {
-  "rise-of-fashion-blogging": {
-    title: "The Rise of Fashion Blogging: The Role of Influencers in the Industry",
-    category: "FASHION",
-    date: "September 20, 2025",
-    readTime: "8 min read",
-    author: "MELVILLE",
-    authorAvatar: "/placeholder-avatar.jpg",
-    heroImage: fashionPost,
-    content: `
-      <p>The fashion industry has undergone a seismic shift in the past decade, with fashion blogging emerging as one of the most influential forces reshaping how we discover, consume, and interact with style. What began as personal style diaries has evolved into a billion-dollar industry that directly impacts fashion trends, consumer behavior, and brand strategies worldwide.</p>
-      
-      <p>From the early days of pioneering bloggers like Susanna Lau of Style Bubble and Tavi Gevinson of Style Rookie, to today's Instagram influencers with millions of followers, fashion blogging has democratized fashion commentary and created new pathways to influence that bypass traditional gatekeepers.</p>
-      
-      <h2 class="text-xl font-bold text-foreground mb-4 mt-8">The Evolution of Fashion Influence</h2>
-      
-      <p>Traditional fashion journalism once held exclusive power over trend-setting and style validation. Magazine editors and fashion critics were the sole arbiters of what was considered fashionable. However, the rise of digital platforms has fundamentally disrupted this hierarchy.</p>
-      
-      <img src="/src/assets/fashion-post.jpg" alt="Fashion blogger creating content" class="w-full rounded-lg my-6" />
-      
-      <p>Today's fashion influencers operate with unprecedented autonomy, building direct relationships with their audiences and creating authentic content that resonates on a personal level. This shift has forced established fashion media to adapt, with many traditional publications now collaborating with digital creators to maintain relevance.</p>
-      
-      <h2 class="text-xl font-bold text-foreground mb-4 mt-8">The Anatomy of Modern Fashion Influence</h2>
-      
-      <p>Contemporary fashion influencers operate across multiple platforms, each serving different purposes in their overall strategy:</p>
-      
-      <ul class="list-disc pl-6 my-4">
-        <li><strong>Instagram:</strong> Visual storytelling through curated feeds and Stories</li>
-        <li><strong>TikTok:</strong> Trend creation and viral fashion content</li>
-        <li><strong>YouTube:</strong> Long-form content including lookbooks and shopping hauls</li>
-        <li><strong>Blogs:</strong> In-depth fashion analysis and personal narratives</li>
-        <li><strong>Pinterest:</strong> Style inspiration and trend forecasting</li>
-      </ul>
-      
-      <img src="/src/assets/work-lifestyle.jpg" alt="Multi-platform content creation setup" class="w-full rounded-lg my-6" />
-      
-      <h2 class="text-xl font-bold text-foreground mb-4 mt-8">The Business of Fashion Blogging</h2>
-      
-      <p>What started as passion projects have transformed into sophisticated business enterprises. Successful fashion influencers now operate as media companies, employing teams for content creation, brand partnerships, and business development.</p>
-      
-      <p>The monetization strategies have diversified significantly:</p>
-      
-      <ul class="list-disc pl-6 my-4">
-        <li><strong>Brand Partnerships:</strong> Sponsored content and ambassadorships</li>
-        <li><strong>Affiliate Marketing:</strong> Commission-based product recommendations</li>
-        <li><strong>Product Lines:</strong> Private label fashion and beauty collaborations</li>
-        <li><strong>Digital Products:</strong> Style guides, courses, and exclusive content</li>
-        <li><strong>Event Hosting:</strong> Fashion shows, meet-and-greets, and brand activations</li>
-      </ul>
-      
-      <h2 class="text-xl font-bold text-foreground mb-4 mt-8">Impact on Consumer Behavior</h2>
-      
-      <p>Fashion influencers have fundamentally altered how consumers discover and purchase clothing. The traditional seasonal fashion cycle has given way to constant content creation and immediate shopping opportunities through features like Instagram Shopping and "link in bio" tools.</p>
-      
-      <img src="/src/assets/fashion-lifestyle.jpg" alt="Consumer shopping on mobile device" class="w-full rounded-lg my-6" />
-      
-      <p>Research indicates that 72% of Gen Z and millennial consumers have made fashion purchases directly influenced by social media content. This immediate connection between inspiration and purchase has created new challenges and opportunities for both brands and consumers.</p>
-      
-      <h2 class="text-xl font-bold text-foreground mb-4 mt-8">Challenges in the Influencer Economy</h2>
-      
-      <p>Despite its growth, the fashion influencer industry faces significant challenges:</p>
-      
-      <ul class="list-disc pl-6 my-4">
-        <li><strong>Authenticity Concerns:</strong> Balancing genuine recommendations with commercial partnerships</li>
-        <li><strong>Market Saturation:</strong> Standing out in an increasingly crowded field</li>
-        <li><strong>Platform Dependencies:</strong> Vulnerability to algorithm changes and platform policies</li>
-        <li><strong>Sustainability Issues:</strong> Pressure to constantly showcase new products</li>
-        <li><strong>Mental Health:</strong> The psychological impact of constant public scrutiny</li>
-      </ul>
-      
-      <h2 class="text-xl font-bold text-foreground mb-4 mt-8">The Sustainability Movement</h2>
-      
-      <p>A growing number of fashion influencers are pivoting toward sustainable fashion advocacy, using their platforms to promote conscious consumption, vintage shopping, and ethical brands. This shift reflects broader consumer awareness about fashion's environmental impact.</p>
-      
-      <p>Influencers like Venetia La Manna and Aditi Mayer have built substantial followings by focusing on sustainable fashion education, proving that conscious content can be both engaging and commercially successful.</p>
-      
-      <h2 class="text-xl font-bold text-foreground mb-4 mt-8">Technology and the Future of Fashion Influence</h2>
-      
-      <p>Emerging technologies are reshaping the landscape once again. Virtual reality shopping experiences, AI-powered style recommendations, and augmented reality try-on features are creating new possibilities for fashion content creation and consumer engagement.</p>
-      
-      <p>The rise of virtual influencers like Lil Miquela and the integration of NFTs in fashion are pushing the boundaries of what constitutes fashion influence in the digital age.</p>
-      
-      <h2 class="text-xl font-bold text-foreground mb-4 mt-8">Looking Ahead: The Next Chapter</h2>
-      
-      <p>As we look toward the future, fashion blogging and influence will likely become even more integrated with e-commerce, sustainability initiatives, and immersive technologies. The most successful influencers will be those who can adapt to changing platforms while maintaining authentic connections with their audiences.</p>
-      
-      <p>The democratization of fashion influence has permanently changed the industry landscape, creating opportunities for diverse voices and perspectives that were previously marginalized. This evolution continues to challenge traditional fashion hierarchies and create new pathways for creative expression and commercial success.</p>
-      
-      <p>Fashion blogging has proven that influence in the digital age is not about gatekeeping access to style, but about fostering communities, inspiring creativity, and making fashion more accessible to everyone.</p>
-    `
-  },
   "self-driving-cars-everything-you-need-to-know": {
     title: "Self-Driving Cars: Everything You Need to Know",
     category: "TECHNOLOGY",
@@ -241,7 +149,7 @@ const blogPosts = {
     readTime: "3 min read",
     author: "NEXUS",
     authorAvatar: "/placeholder-avatar.jpg",
-    heroImage: fashionPost,
+    heroImage: businessPost,
     content: `<p>This blog post could not be found. Please check the URL or return to the homepage.</p>`
   }
 };
@@ -254,12 +162,6 @@ const popularPosts = [
     image: businessPost
   },
   {
-    title: "Fashion and Celebrity Culture: The Influence of Celebrities on Style Trends",
-    category: "FASHION", 
-    date: "SEP 10, 2023",
-    image: fashionLifestyle
-  },
-  {
     title: "Self-Driving Cars: Everything You Need to Know",
     category: "TECHNOLOGY",
     date: "SEP 6, 2023", 
@@ -269,15 +171,6 @@ const popularPosts = [
 
 // Create all posts data for RelatedPosts component
 const allPosts = [
-  {
-    slug: "rise-of-fashion-blogging",
-    title: "The Rise of Fashion Blogging: The Role of Influencers in the Industry",
-    category: "FASHION",
-    date: "September 20, 2025",
-    readTime: "8 min read",
-    image: fashionPost,
-    excerpt: "Fashion blogging has emerged as one of the most influential forces reshaping how we discover, consume, and interact with style."
-  },
   {
     slug: "self-driving-cars-everything-you-need-to-know",
     title: "Self-Driving Cars: Everything You Need to Know",
@@ -437,7 +330,7 @@ const BlogDetail = () => {
             <div>
               <h3 className="text-lg font-bold text-foreground mb-6">Categories</h3>
               <div className="space-y-3">
-                {['Fashion', 'Technology', 'Business', 'Lifestyle'].map((category) => (
+                {['Technology', 'Business', 'Lifestyle'].map((category) => (
                   <a
                     key={category}
                     href={`/${category.toLowerCase()}`}

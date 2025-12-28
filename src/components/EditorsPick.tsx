@@ -3,10 +3,8 @@ import { Button } from '@/components/ui/button';
 import { useRef } from 'react';
 import businessPost from '@/assets/business-post.jpg';
 import techPost from '@/assets/tech-post.jpg';
-import fashionPost from '@/assets/fashion-post.jpg';
 import lifestylePost from '@/assets/lifestyle-post.jpg';
 import workLifestyle from '@/assets/work-lifestyle.jpg';
-import fashionLifestyle from '@/assets/fashion-lifestyle.jpg';
 
 interface PickItem {
   id: string;
@@ -27,7 +25,7 @@ const EditorsPick = () => {
       category: 'CATEGORY',
       date: 'DATE',
       excerpt: 'Editor pick excerpt — Brief preview of the featured article content.',
-      image: fashionLifestyle,
+      image: workLifestyle,
     },
     {
       id: '2',
@@ -67,7 +65,7 @@ const EditorsPick = () => {
       category: 'CATEGORY',
       date: 'DATE',
       excerpt: 'Highlight excerpt — Preview of this top recommended article.',
-      image: fashionPost,
+      image: workLifestyle,
     },
   ];
 

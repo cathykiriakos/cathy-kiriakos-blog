@@ -1,10 +1,8 @@
 import { useState } from 'react';
 import businessPost from '@/assets/business-post.jpg';
 import techPost from '@/assets/tech-post.jpg';
-import fashionPost from '@/assets/fashion-post.jpg';
 import lifestylePost from '@/assets/lifestyle-post.jpg';
 import workLifestyle from '@/assets/work-lifestyle.jpg';
-import fashionLifestyle from '@/assets/fashion-lifestyle.jpg';
 
 const masonryPosts = [
   {
@@ -28,7 +26,7 @@ const masonryPosts = [
     category: "CATEGORY",
     date: "DATE",
     excerpt: "Post summary — Short description of the content.",
-    image: fashionPost,
+    image: workLifestyle,
     height: "short"
   },
   {
@@ -52,7 +50,7 @@ const masonryPosts = [
     category: "CATEGORY",
     date: "DATE",
     excerpt: "Sample preview — Brief content preview text.",
-    image: fashionLifestyle,
+    image: workLifestyle,
     height: "short"
   },
   {

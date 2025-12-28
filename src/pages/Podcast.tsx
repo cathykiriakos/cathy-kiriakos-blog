@@ -4,7 +4,6 @@ import BlogCard from '@/components/BlogCard';
 import PageFilter, { Post } from '@/components/PageFilter';
 import { useState } from 'react';
 import lifestylePost from '@/assets/lifestyle-post.jpg';
-import fashionPost from '@/assets/fashion-post.jpg';
 import workLifestyle from '@/assets/work-lifestyle.jpg';
 
 const Podcast = () => {
@@ -27,7 +26,7 @@ const Podcast = () => {
       subcategory: "Brand Strategy",
       date: "September 14, 2025",
       excerpt: "Industry experts discuss strategies for creating genuine connections with audiences online.",
-      image: fashionPost,
+      image: workLifestyle,
       slug: "authentic-brands-social-media",
       tags: ["Brand Strategy", "Social Media", "Authenticity"]
     },
@@ -57,7 +56,7 @@ const Podcast = () => {
       subcategory: "Personal Development",
       date: "August 24, 2025",
       excerpt: "Learn how to craft and communicate your unique story in today's competitive market.",
-      image: fashionPost,
+      image: workLifestyle,
       slug: "art-personal-branding",
       tags: ["Personal Branding", "Career Development", "Self-Marketing"]
     },
