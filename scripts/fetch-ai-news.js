@@ -59,6 +59,7 @@ async function fetchNewsAPI() {
       url: article.url,
       published_date: article.publishedAt.split('T')[0],
       sentiment: analyzeSentiment(article.title + ' ' + article.description),
+      created_at: new Date().toISOString(),
     }));
   } catch (error) {
     console.error('NewsAPI error:', error.message);
@@ -82,6 +83,7 @@ async function fetchNYTimes() {
       url: article.web_url,
       published_date: article.pub_date.split('T')[0],
       sentiment: analyzeSentiment(article.headline.main + ' ' + article.abstract),
+      created_at: new Date().toISOString(),
     }));
   } catch (error) {
     console.error('NYT API error:', error.message);
@@ -106,6 +108,7 @@ async function fetchNPR() {
         url: story.link?.[0]?.$text || '',
         published_date: story.storyDate?.$text?.split(' ')[0] || new Date().toISOString().split('T')[0],
         sentiment: analyzeSentiment((story.title?.$text || '') + ' ' + (story.teaser?.$text || '')),
+        created_at: new Date().toISOString(),
       }));
     }
     return [];
@@ -141,20 +144,32 @@ async function updateAINews() {
 
   const existingTitles = new Set(existingNews?.map(n => n.title) || []);
   
-  // Filter out already saved articles
+  // Filter out already saved articles and validate data
   const newArticles = uniqueArticles.filter(article => 
-    !existingTitles.has(article.title) && article.title && article.summary
+    !existingTitles.has(article.title) && 
+    article.title && 
+    article.title.trim().length > 0 &&
+    article.summary && 
+    article.summary.trim().length > 0 &&
+    article.source &&
+    article.published_date &&
+    ['positive', 'neutral', 'negative'].includes(article.sentiment)
   );
 
-  console.log(`${newArticles.length} new articles to save`);
+  console.log(`${newArticles.length} valid new articles to save`);
 
   if (newArticles.length > 0) {
     const { data, error } = await supabase
       .from('news_items')
-      .insert(newArticles);
+      .upsert(newArticles, {
+        onConflict: 'title,published_date',
+        ignoreDuplicates: true
+      });
 
     if (error) {
-      console.error('Error inserting news:', error);
+      console.error('Error upserting news:', error);
+      console.error('Error details:', JSON.stringify(error, null, 2));
+      console.error('Sample article data:', JSON.stringify(newArticles[0], null, 2));
     } else {
       console.log(`✅ Successfully saved ${newArticles.length} news items`);
       

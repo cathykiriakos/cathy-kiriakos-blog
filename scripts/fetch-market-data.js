@@ -101,6 +101,7 @@ async function updateMarketData() {
         price: stockData.price,
         change_percent: stockData.change_percent,
         data_date: today,
+        created_at: new Date().toISOString(),
       });
     }
 
@@ -122,6 +123,8 @@ async function updateMarketData() {
 
     if (error) {
       console.error('Error upserting market data:', error);
+      console.error('Error details:', JSON.stringify(error, null, 2));
+      console.error('Sample record:', JSON.stringify(marketDataRecords[0], null, 2));
     } else {
       console.log(`✅ Successfully updated ${marketDataRecords.length} companies`);
       

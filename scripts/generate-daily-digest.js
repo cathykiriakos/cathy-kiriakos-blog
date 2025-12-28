@@ -126,7 +126,7 @@ async function generateDailyDigest() {
     // Optional: Create a database entry for the digest
     const { error: insertError } = await supabase
       .from('posts')
-      .insert({
+      .upsert({
         title: `Daily Market Intelligence Digest - ${today}`,
         slug: `daily-digest-${today}`,
         category: 'market-intelligence',
@@ -137,10 +137,14 @@ async function generateDailyDigest() {
         featured: false,
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString()
+      }, {
+        onConflict: 'slug',
+        ignoreDuplicates: true
       });
 
     if (insertError) {
       console.error('Error saving digest to database:', insertError);
+      console.error('Error details:', JSON.stringify(insertError, null, 2));
     } else {
       console.log('✅ Digest saved to database as draft post');
     }
