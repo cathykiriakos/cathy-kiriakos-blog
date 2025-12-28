@@ -26,8 +26,8 @@ const Contact = lazy(() => import("./pages/Contact"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 // NEW PAGES
-const MarketIntelligence = lazy(() => import("./pages/MarketIntelligence"));
-const Admin = lazy(() => import("./pages/Admin"));
+const MarketIntelligence = lazy(() => import("./pages/MarketIntelligence.tsx"));
+const Admin = lazy(() => import("./pages/Admin.tsx"));
 
 const queryClient = new QueryClient();
 
