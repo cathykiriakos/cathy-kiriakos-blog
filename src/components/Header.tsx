@@ -3,7 +3,7 @@
 
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Search, Facebook, Twitter, Instagram, Menu, BarChart3, Shield } from 'lucide-react';
+import { Search, Linkedin, Instagram, Menu, BarChart3, Shield, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ThemeToggle from './ThemeToggle';
 
@@ -19,8 +19,7 @@ const Header = () => {
   ];
 
   const socialLinks = [
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Twitter, href: '#', label: 'Twitter' },  
+    { icon: Linkedin, href: '#', label: 'LinkedIn' },
     { icon: Instagram, href: '#', label: 'Instagram' },
   ];
 
@@ -28,14 +27,6 @@ const Header = () => {
     <header className="bg-background border-b border-border sticky top-0 z-50">
       <div className="container-blog">
         <div className="flex items-center justify-between h-20">
-          {/* Home Link */}
-          <div className="flex-shrink-0">
-            <Link to="/" className="block">
-              <span className="text-lg font-bold">Ni Enterprises</span>
-              <span className="sr-only">Home</span>
-            </Link>
-          </div>
-
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8" role="navigation" aria-label="Main navigation">
             {navItems.map((item) => (

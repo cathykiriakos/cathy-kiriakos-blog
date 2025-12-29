@@ -1,55 +1,19 @@
 import BlogCard from './BlogCard';
-import businessPost from '@/assets/business-post.jpg';
-import techPost from '@/assets/tech-post.jpg';
-import lifestylePost from '@/assets/lifestyle-post.jpg';
-import workLifestyle from '@/assets/work-lifestyle.jpg';
 
-const trendingPosts = [
-  {
-    title: "Trending Title — Popular Content Description",
-    category: "CATEGORY",
-    date: "DATE",
-    excerpt: "Trending excerpt — Description of what makes this content popular.",
-    image: businessPost
-  },
-  {
-    title: "Hot Topic — Trending Article Summary",
-    category: "CATEGORY", 
-    date: "DATE",
-    excerpt: "Hot topic excerpt — Brief summary of this trending article.",
-    image: techPost
-  },
-  {
-    title: "Popular Post — Trending Content Preview",
-    category: "CATEGORY",
-    date: "DATE",
-    excerpt: "Popular excerpt — Preview of why this content is trending.",
-    image: workLifestyle
-  },
-  {
-    title: "Trending Article — Content Highlight",
-    category: "CATEGORY",
-    date: "DATE",
-    excerpt: "Article excerpt — Highlight of the trending topic discussion.",
-    image: workLifestyle
-  },
-  {
-    title: "Popular Content — Trending Description",
-    category: "CATEGORY",
-    date: "DATE",
-    excerpt: "Content excerpt — Description of this popular trending topic.",
-    image: lifestylePost
-  },
-  {
-    title: "Hot Content — Trending Summary",
-    category: "CATEGORY",
-    date: "DATE",
-    excerpt: "Summary excerpt — Brief overview of this hot trending content.",
-    image: workLifestyle
-  }
-];
+// TODO: Add your trending posts here or fetch from Supabase
+const trendingPosts: Array<{
+  title: string;
+  category: string;
+  date: string;
+  excerpt?: string;
+  image: string;
+}> = [];
 
 const TrendingBlock = () => {
+  if (trendingPosts.length === 0) {
+    return null; // Don't show this section if no trending posts
+  }
+
   return (
     <section className="container-blog py-16 bg-muted/30">
       <h2 id="trending-heading" className="section-title mb-8">Trending</h2>

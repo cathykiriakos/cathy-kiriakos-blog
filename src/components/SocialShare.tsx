@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Share2, Twitter, Facebook, Linkedin, Link, Check } from 'lucide-react';
+import { Share2, Linkedin, Link, Check } from 'lucide-react';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import { useToast } from '@/hooks/use-toast';
 
@@ -19,8 +19,6 @@ const SocialShare = ({ title, url = window.location.href, description = '' }: So
   const encodedDescription = encodeURIComponent(description);
 
   const shareLinks = {
-    twitter: `https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`,
-    facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,
     linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}&title=${encodedTitle}&summary=${encodedDescription}`,
   };
 
@@ -58,37 +56,15 @@ const SocialShare = ({ title, url = window.location.href, description = '' }: So
         <div className="space-y-3">
           <h4 className="font-medium text-sm">Share this article</h4>
           
-          <div className="grid grid-cols-2 gap-2">
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={() => openShare(shareLinks.twitter)}
-              className="gap-2 justify-start"
-            >
-              <Twitter className="h-4 w-4" />
-              Twitter
-            </Button>
-            
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={() => openShare(shareLinks.facebook)}
-              className="gap-2 justify-start"
-            >
-              <Facebook className="h-4 w-4" />
-              Facebook
-            </Button>
-            
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={() => openShare(shareLinks.linkedin)}
-              className="gap-2 justify-start col-span-2"
-            >
-              <Linkedin className="h-4 w-4" />
-              LinkedIn
-            </Button>
-          </div>
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={() => openShare(shareLinks.linkedin)}
+            className="w-full gap-2 justify-start"
+          >
+            <Linkedin className="h-4 w-4" />
+            LinkedIn
+          </Button>
           
           <Button
             variant="outline"

@@ -1,67 +1,14 @@
 import { useState } from 'react';
-import businessPost from '@/assets/business-post.jpg';
-import techPost from '@/assets/tech-post.jpg';
-import lifestylePost from '@/assets/lifestyle-post.jpg';
-import workLifestyle from '@/assets/work-lifestyle.jpg';
 
-const masonryPosts = [
-  {
-    title: "Featured Story — Main Content",
-    category: "CATEGORY",
-    date: "DATE",
-    excerpt: "Featured excerpt — Description of the main story content.",
-    image: businessPost,
-    height: "tall"
-  },
-  {
-    title: "Story Title — Content Preview",
-    category: "CATEGORY",
-    date: "DATE",
-    excerpt: "Story excerpt — Brief preview of the article content.",
-    image: techPost,
-    height: "medium"
-  },
-  {
-    title: "Post Title — Summary",
-    category: "CATEGORY",
-    date: "DATE",
-    excerpt: "Post summary — Short description of the content.",
-    image: workLifestyle,
-    height: "short"
-  },
-  {
-    title: "Article Title — Overview",
-    category: "CATEGORY",
-    date: "DATE",
-    excerpt: "Article overview — Brief summary of the topic.",
-    image: lifestylePost,
-    height: "medium"
-  },
-  {
-    title: "Content Title — Description",
-    category: "CATEGORY",
-    date: "DATE",
-    excerpt: "Content description — Summary of the article topic.",
-    image: workLifestyle,
-    height: "medium"
-  },
-  {
-    title: "Sample Title — Preview",
-    category: "CATEGORY",
-    date: "DATE",
-    excerpt: "Sample preview — Brief content preview text.",
-    image: workLifestyle,
-    height: "short"
-  },
-  {
-    title: "Example Title — Summary",
-    category: "CATEGORY",
-    date: "DATE",
-    excerpt: "Example summary — Description of the sample content.",
-    image: businessPost,
-    height: "medium"
-  }
-];
+// TODO: Add your featured stories here or fetch from Supabase
+const masonryPosts: Array<{
+  title: string;
+  category: string;
+  date: string;
+  excerpt: string;
+  image: string;
+  height: 'tall' | 'medium' | 'short';
+}> = [];
 
 const MasonryBlock = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
@@ -80,9 +27,13 @@ const MasonryBlock = () => {
   };
 
   // Ensure even number of items
-  const displayPosts = masonryPosts.length % 2 === 0 
-    ? masonryPosts 
+  const displayPosts = masonryPosts.length % 2 === 0
+    ? masonryPosts
     : masonryPosts.slice(0, -1);
+
+  if (displayPosts.length === 0) {
+    return null; // Don't show this section if no featured stories
+  }
 
   return (
     <section className="container-blog py-16">

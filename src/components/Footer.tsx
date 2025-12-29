@@ -4,20 +4,14 @@ const Footer = () => {
   return (
     <footer className="bg-muted border-t border-border" role="contentinfo">
       <div className="container-blog py-12">
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           <div className="space-y-4">
-            <h2 className="text-lg font-bold text-foreground">NiEnterprises</h2>
-            <p className="text-sm text-muted-foreground">
-              Exploring AI, innovation, and lifestyle trends.
-            </p>
-          </div>
-          
-          <div className="space-y-4">
-            <h3 className="font-medium text-foreground">Categories</h3>
+            <h3 className="font-medium text-foreground">Navigation</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link to="/posts" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">Markets</Link></li>
-              <li><Link to="/innovation" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">Innovation</Link></li>
-              <li><Link to="/posts" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">Lifestyle</Link></li>
+              <li><Link to="/posts" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">All Posts</Link></li>
+              <li><Link to="/market-intelligence" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">Market Intel</Link></li>
+              <li><Link to="/business & technology" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">Business & Technology</Link></li>
+              <li><Link to="/podcast" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">Podcast</Link></li>
             </ul>
           </div>
           
@@ -48,7 +42,7 @@ const Footer = () => {
         
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2025 NiEnterprises. All rights reserved.
+            © 2025 Cathy Kiriakos. All rights reserved.
           </p>
         </div>
       </div>
