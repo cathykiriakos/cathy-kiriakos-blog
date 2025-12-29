@@ -1,10 +1,6 @@
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useRef } from 'react';
-import businessPost from '@/assets/business-post.jpg';
-import techPost from '@/assets/tech-post.jpg';
-import lifestylePost from '@/assets/lifestyle-post.jpg';
-import workLifestyle from '@/assets/work-lifestyle.jpg';
 
 interface PickItem {
   id: string;
@@ -18,56 +14,8 @@ interface PickItem {
 const EditorsPick = () => {
   const scrollRef = useRef<HTMLDivElement>(null);
 
-  const picks: PickItem[] = [
-    {
-      id: '1',
-      title: 'Editor Pick Title — Featured Content Description',
-      category: 'CATEGORY',
-      date: 'DATE',
-      excerpt: 'Editor pick excerpt — Brief preview of the featured article content.',
-      image: workLifestyle,
-    },
-    {
-      id: '2',
-      title: 'Featured Article — Content Summary',
-      category: 'CATEGORY',
-      date: 'DATE',
-      excerpt: 'Article excerpt — Short description of what this featured content covers.',
-      image: techPost,
-    },
-    {
-      id: '3',
-      title: 'Pick Title — Article Preview',
-      category: 'CATEGORY',
-      date: 'DATE',
-      excerpt: 'Content preview — Description of the article topic and main points.',
-      image: lifestylePost,
-    },
-    {
-      id: '4',
-      title: 'Selected Content — Featured Description',
-      category: 'CATEGORY',
-      date: 'DATE',
-      excerpt: 'Featured excerpt — Summary of the highlighted article content.',
-      image: workLifestyle,
-    },
-    {
-      id: '5',
-      title: 'Editor Choice — Content Overview',
-      category: 'CATEGORY',
-      date: 'DATE',
-      excerpt: 'Choice excerpt — Brief overview of this specially selected content.',
-      image: businessPost,
-    },
-    {
-      id: '6',
-      title: 'Top Pick — Article Highlight',
-      category: 'CATEGORY',
-      date: 'DATE',
-      excerpt: 'Highlight excerpt — Preview of this top recommended article.',
-      image: workLifestyle,
-    },
-  ];
+  // TODO: Add your editor's picks here or fetch from Supabase
+  const picks: PickItem[] = [];
 
   const scroll = (direction: 'left' | 'right') => {
     if (scrollRef.current) {
@@ -78,6 +26,10 @@ const EditorsPick = () => {
       });
     }
   };
+
+  if (picks.length === 0) {
+    return null; // Don't show this section if no picks
+  }
 
   return (
     <section className="container-blog py-16">
@@ -131,22 +83,22 @@ const EditorsPick = () => {
                   loading="lazy"
                 />
               </div>
-              
+
               <div className="p-6">
                 <div className="flex items-center space-x-4 mb-3">
                   <span className="blog-meta">{pick.category}</span>
                   <span className="text-muted-foreground" aria-hidden="true">—</span>
                   <time className="blog-meta" dateTime="2023-09-10">{pick.date}</time>
                 </div>
-                
+
                 <h3 className="text-lg font-bold text-foreground leading-tight mb-3">
                   {pick.title}
                 </h3>
-                
+
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                   {pick.excerpt}
                 </p>
-                
+
                 <Button variant="outline" size="sm" className="text-xs font-medium">
                   READ MORE
                 </Button>

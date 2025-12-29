@@ -54,21 +54,23 @@ const FeaturedArticle = ({
             {excerpt}
           </p>
           
-          <div className="pt-4">
-            <Button 
-              variant="outline" 
-              size="sm"
-              asChild
-            >
-              <a
-                href="/blog/self-driving-cars-everything-you-need-to-know"
-                aria-label={`Read more about: ${title}`}
+          {category !== 'INTRODUCTION' && (
+            <div className="pt-4">
+              <Button
+                variant="outline"
+                size="sm"
+                asChild
               >
-                READ MORE
-                <span className="ml-2" aria-hidden="true">→</span>
-              </a>
-            </Button>
-          </div>
+                <a
+                  href="/blog/self-driving-cars-everything-you-need-to-know"
+                  aria-label={`Read more about: ${title}`}
+                >
+                  READ MORE
+                  <span className="ml-2" aria-hidden="true">→</span>
+                </a>
+              </Button>
+            </div>
+          )}
         </div>
       </div>
     </article>
@@ -78,11 +80,11 @@ const FeaturedArticle = ({
 // Default Featured Article
 export const DefaultFeaturedArticle = () => (
   <FeaturedArticle
-    title="Cathy Kiriakos Chicago Born Data Innovator"
-    author="AUTHOR NAME"
-    category="CATEGORY"
-    date="Date Format"
-    excerpt="Featured article description — This is where your main content excerpt would appear to give readers a preview of the full article."
+    title="Welcome to My World of Data Innovation"
+    author="Cathy Kiriakos"
+    category="INTRODUCTION"
+    date="Chicago, IL"
+    excerpt="I'm Cathy Kiriakos, a Chicago-born data innovator passionate about transforming how we capture and deliver data products. Currently developing Ni Data, an agent orchestration platform designed to revolutionize end-to-end data use case management and delivery. Through this space, I share insights on AI, market intelligence, and the evolving landscape of data-driven innovation."
     image={heroImage}
   />
 );
