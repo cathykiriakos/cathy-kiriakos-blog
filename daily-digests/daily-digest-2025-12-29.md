@@ -6,27 +6,27 @@
 
 ### 🚀 Top Performers
 
-- **TSMC** (TSM): +1.35%
-- **NVIDIA** (NVDA): +1.02%
-- **Snowflake** (SNOW): +0.88%
-- **Broadcom** (AVGO): +0.55%
-- **Oracle** (ORCL): +0.25%
+- **Intel** (INTC): +1.33%
+- **AMD** (AMD): +0.29%
+- **ARM Holdings** (ARM): +0.22%
+- **Apple** (AAPL): +0.13%
+- **Google/Alphabet** (GOOGL): +0.02%
 
 ### 📉 Biggest Declines
 
-- **ARM Holdings** (ARM): -1.15%
-- **Meta** (META): -0.64%
-- **Google/Alphabet** (GOOGL): -0.18%
-- **Apple** (AAPL): -0.15%
-- **Microsoft** (MSFT): -0.06%
+- **Oracle** (ORCL): -1.30%
+- **NVIDIA** (NVDA): -1.21%
+- **Qualcomm** (QCOM): -0.79%
+- **Broadcom** (AVGO): -0.78%
+- **Meta** (META): -0.69%
 
 ### 💰 Market Cap Leaders
 
-- **TSMC**: $15717.40B
-- **Apple**: $4183.02B
-- **Google/Alphabet**: $3856.17B
-- **Microsoft**: $3623.69B
-- **Amazon**: $2394.96B
+- **TSMC**: $15622.68B
+- **Apple**: $4188.53B
+- **Google/Alphabet**: $3856.79B
+- **Microsoft**: $3619.15B
+- **Amazon**: $2390.32B
 
 ## 📰 Latest AI News
 
