@@ -8,6 +8,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="font-medium text-foreground">Navigation</h3>
             <ul className="space-y-2 text-sm">
+              <li><Link to="/" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">Home</Link></li>
               <li><Link to="/posts" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">All Posts</Link></li>
               <li><Link to="/market-intelligence" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">Market Intel</Link></li>
               <li><Link to="/business-technology" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">Business & Technology</Link></li>
