@@ -114,6 +114,24 @@ async function updateMarketData() {
 
   // Upsert to Supabase
   if (marketDataRecords.length > 0) {
+    console.log(`Attempting to upsert ${marketDataRecords.length} market data records...`);
+
+    // First, try to check if we can select from the table to verify permissions
+    try {
+      const { data: testData, error: testError } = await supabase
+        .from('market_data')
+        .select('id')
+        .limit(1);
+
+      if (testError) {
+        console.error('Permission test failed:', testError);
+      } else {
+        console.log('✅ Database connection and permissions verified');
+      }
+    } catch (permError) {
+      console.error('Permission check error:', permError);
+    }
+
     const { data, error } = await supabase
       .from('market_data')
       .upsert(marketDataRecords, {
@@ -125,9 +143,30 @@ async function updateMarketData() {
       console.error('Error upserting market data:', error);
       console.error('Error details:', JSON.stringify(error, null, 2));
       console.error('Sample record:', JSON.stringify(marketDataRecords[0], null, 2));
+
+      // Try alternative approach: insert without upsert
+      console.log('Attempting alternative insert approach...');
+      try {
+        for (const record of marketDataRecords.slice(0, 1)) { // Test with just one record
+          const { data: insertData, error: insertError } = await supabase
+            .from('market_data')
+            .insert(record);
+
+          if (insertError) {
+            console.error('Single record insert also failed:', insertError);
+            console.error('This confirms RLS policy is blocking all inserts');
+          } else {
+            console.log('✅ Single record insert succeeded - RLS policy allows inserts');
+          }
+          break; // Only test one record
+        }
+      } catch (altError) {
+        console.error('Alternative insert approach failed:', altError);
+      }
+
     } else {
       console.log(`✅ Successfully updated ${marketDataRecords.length} companies`);
-      
+
       // Log summary
       const totalMarketCap = marketDataRecords.reduce((sum, r) => sum + r.market_cap, 0);
       console.log(`📊 Total market cap: $${totalMarketCap.toFixed(2)}B`);
