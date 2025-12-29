@@ -3,7 +3,7 @@
 
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Search, Linkedin, Instagram, Menu, BarChart3, Shield, X } from 'lucide-react';
+import { Search, Linkedin, Instagram, Menu, BarChart3, Shield, X, Home } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ThemeToggle from './ThemeToggle';
 
@@ -13,8 +13,8 @@ const Header = () => {
 
   const navItems = [
     { name: 'ALL POSTS', href: '/posts' },
-    { name: 'MARKET INTEL', href: '/market-intelligence', icon: BarChart3 }, // NEW
-    { name: 'BUSINESS & TECHNOLOGY', href: '/business & technology' },
+    { name: 'MARKET INTEL', href: '/market-intelligence', icon: BarChart3 },
+    { name: 'BUSINESS & TECHNOLOGY', href: '/business-technology' },
     { name: 'PODCAST', href: '/podcast' },
   ];
 
@@ -27,6 +27,12 @@ const Header = () => {
     <header className="bg-background border-b border-border sticky top-0 z-50">
       <div className="container-blog">
         <div className="flex items-center justify-between h-20">
+          {/* Home Button */}
+          <Link to="/" className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors">
+            <Home className="h-5 w-5" />
+            <span className="font-semibold hidden sm:inline">HOME</span>
+          </Link>
+
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8" role="navigation" aria-label="Main navigation">
             {navItems.map((item) => (
@@ -89,6 +95,14 @@ const Header = () => {
         {isMenuOpen && (
           <div className="lg:hidden border-t border-border py-4">
             <nav className="flex flex-col space-y-4" role="navigation" aria-label="Mobile navigation">
+              <Link
+                to="/"
+                className="nav-link flex items-center space-x-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                <Home className="h-4 w-4" />
+                <span>HOME</span>
+              </Link>
               {navItems.map((item) => (
                 <Link
                   key={item.name}

@@ -218,8 +218,7 @@ const MarketIntelligence = () => {
                 AI Market Intelligence
               </h1>
               <p className="text-lg text-muted-foreground max-w-3xl">
-                Real-time tracking of the AI revolution. We're not witnessing hype—we're living through 
-                the biggest market disruption since the Industrial Revolution. The data tells the story.
+                Let the data tell the story.
               </p>
             </div>
             <Button onClick={handleRefreshAll} variant="outline" size="sm">

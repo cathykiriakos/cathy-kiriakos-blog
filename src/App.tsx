@@ -27,6 +27,7 @@ const NotFound = lazy(() => import("./pages/NotFound"));
 // NEW PAGES
 const MarketIntelligence = lazy(() => import("./pages/MarketIntelligence.tsx"));
 const Admin = lazy(() => import("./pages/Admin.tsx"));
+const BusinessTechnology = lazy(() => import("./pages/BusinessTechnology.tsx"));
 
 const queryClient = new QueryClient();
 
@@ -47,6 +48,7 @@ const App = () => (
               
               {/* NEW ROUTES */}
               <Route path="/market-intelligence" element={<MarketIntelligence />} />
+              <Route path="/business-technology" element={<BusinessTechnology />} />
               <Route path="/admin" element={<Admin />} />
               
               <Route path="/terms" element={<Terms />} />
