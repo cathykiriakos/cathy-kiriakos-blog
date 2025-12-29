@@ -3,7 +3,7 @@
 
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Search, Linkedin, Instagram, Menu, BarChart3, Shield, X } from 'lucide-react';
+import { Search, Linkedin, Instagram, Menu, BarChart3, Shield, X, Home } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ThemeToggle from './ThemeToggle';
 
@@ -12,9 +12,10 @@ const Header = () => {
   const navigate = useNavigate();
 
   const navItems = [
+    { name: 'HOME', href: '/', icon: Home },
     { name: 'ALL POSTS', href: '/posts' },
-    { name: 'MARKET INTEL', href: '/market-intelligence', icon: BarChart3 }, // NEW
-    { name: 'BUSINESS & TECHNOLOGY', href: '/business & technology' },
+    { name: 'MARKET INTEL', href: '/market-intelligence', icon: BarChart3 },
+    { name: 'BUSINESS & TECHNOLOGY', href: '/business-technology' },
     { name: 'PODCAST', href: '/podcast' },
   ];
 
