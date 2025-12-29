@@ -159,6 +159,7 @@ async function updateAINews() {
   console.log(`${newArticles.length} valid new articles to save`);
 
   if (newArticles.length > 0) {
+    // Try upsert first (requires unique constraint)
     const { data, error } = await supabase
       .from('news_items')
       .upsert(newArticles, {
@@ -168,11 +169,41 @@ async function updateAINews() {
 
     if (error) {
       console.error('Error upserting news:', error);
-      console.error('Error details:', JSON.stringify(error, null, 2));
-      console.error('Sample article data:', JSON.stringify(newArticles[0], null, 2));
+
+      // Check if error is due to missing unique constraint (code 42P10)
+      if (error.code === '42P10') {
+        console.log('⚠️  Missing unique constraint on (title, published_date)');
+        console.log('📝 Please run the migration in supabase/migrations/add_unique_constraints.sql');
+        console.log('🔄 Falling back to simple insert (may create duplicates)...');
+
+        // Fallback: Try simple insert
+        const { data: insertData, error: insertError } = await supabase
+          .from('news_items')
+          .insert(newArticles);
+
+        if (insertError) {
+          console.error('Error inserting news items:', insertError);
+          console.error('Error details:', JSON.stringify(insertError, null, 2));
+          console.error('Sample article data:', JSON.stringify(newArticles[0], null, 2));
+        } else {
+          console.log(`✅ Successfully inserted ${newArticles.length} news items using fallback method`);
+          console.log('⚠️  Note: Without unique constraint, duplicates may occur over time');
+
+          // Log sentiment distribution
+          const sentimentCounts = newArticles.reduce((acc, article) => {
+            acc[article.sentiment] = (acc[article.sentiment] || 0) + 1;
+            return acc;
+          }, {});
+          console.log('📊 Sentiment distribution:', sentimentCounts);
+        }
+      } else {
+        // Other error - log details
+        console.error('Error details:', JSON.stringify(error, null, 2));
+        console.error('Sample article data:', JSON.stringify(newArticles[0], null, 2));
+      }
     } else {
       console.log(`✅ Successfully saved ${newArticles.length} news items`);
-      
+
       // Log sentiment distribution
       const sentimentCounts = newArticles.reduce((acc, article) => {
         acc[article.sentiment] = (acc[article.sentiment] || 0) + 1;
