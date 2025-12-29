@@ -132,6 +132,7 @@ async function updateMarketData() {
       console.error('Permission check error:', permError);
     }
 
+    // Try upsert first (requires unique constraint)
     const { data, error } = await supabase
       .from('market_data')
       .upsert(marketDataRecords, {
@@ -141,27 +142,46 @@ async function updateMarketData() {
 
     if (error) {
       console.error('Error upserting market data:', error);
-      console.error('Error details:', JSON.stringify(error, null, 2));
-      console.error('Sample record:', JSON.stringify(marketDataRecords[0], null, 2));
 
-      // Try alternative approach: insert without upsert
-      console.log('Attempting alternative insert approach...');
-      try {
-        for (const record of marketDataRecords.slice(0, 1)) { // Test with just one record
-          const { data: insertData, error: insertError } = await supabase
-            .from('market_data')
-            .insert(record);
+      // Check if error is due to missing unique constraint (code 42P10)
+      if (error.code === '42P10') {
+        console.log('⚠️  Missing unique constraint on (ticker, data_date)');
+        console.log('📝 Please run the migration in supabase/migrations/add_unique_constraints.sql');
+        console.log('🔄 Falling back to delete-then-insert approach...');
 
-          if (insertError) {
-            console.error('Single record insert also failed:', insertError);
-            console.error('This confirms RLS policy is blocking all inserts');
-          } else {
-            console.log('✅ Single record insert succeeded - RLS policy allows inserts');
-          }
-          break; // Only test one record
+        // Fallback: Delete today's records first, then insert new ones
+        const today = new Date().toISOString().split('T')[0];
+        const { error: deleteError } = await supabase
+          .from('market_data')
+          .delete()
+          .eq('data_date', today);
+
+        if (deleteError) {
+          console.error('Error deleting existing records:', deleteError);
+        } else {
+          console.log(`🗑️  Deleted existing records for ${today}`);
         }
-      } catch (altError) {
-        console.error('Alternative insert approach failed:', altError);
+
+        // Now insert the new records
+        const { data: insertData, error: insertError } = await supabase
+          .from('market_data')
+          .insert(marketDataRecords);
+
+        if (insertError) {
+          console.error('Error inserting market data:', insertError);
+          console.error('Error details:', JSON.stringify(insertError, null, 2));
+          console.error('Sample record:', JSON.stringify(marketDataRecords[0], null, 2));
+        } else {
+          console.log(`✅ Successfully inserted ${marketDataRecords.length} companies using fallback method`);
+
+          // Log summary
+          const totalMarketCap = marketDataRecords.reduce((sum, r) => sum + r.market_cap, 0);
+          console.log(`📊 Total market cap: $${totalMarketCap.toFixed(2)}B`);
+        }
+      } else {
+        // Other error - log details
+        console.error('Error details:', JSON.stringify(error, null, 2));
+        console.error('Sample record:', JSON.stringify(marketDataRecords[0], null, 2));
       }
 
     } else {
