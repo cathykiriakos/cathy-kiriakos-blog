@@ -40,20 +40,20 @@ const MarketIntelligence = () => {
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
 
   // Fetch real market data
-  const { data: marketData, isLoading: marketLoading, refetch: refetchMarket } = useQuery<MarketData[]>({
+  const { data: marketData, isLoading: marketLoading, error: marketError, refetch: refetchMarket } = useQuery<MarketData[]>({
     queryKey: ['marketData'],
     queryFn: getLatestMarketData,
     refetchInterval: 5 * 60 * 1000, // Refetch every 5 minutes
   });
 
   // Fetch private valuations
-  const { data: privateValuations, refetch: refetchPrivate } = useQuery<PrivateValuation[]>({
+  const { data: privateValuations, error: privateError, refetch: refetchPrivate } = useQuery<PrivateValuation[]>({
     queryKey: ['privateValuations'],
     queryFn: getPrivateValuations,
   });
 
   // Fetch news items
-  const { data: newsItems, refetch: refetchNews } = useQuery<NewsItem[]>({
+  const { data: newsItems, error: newsError, refetch: refetchNews } = useQuery<NewsItem[]>({
     queryKey: ['newsItems'],
     queryFn: () => getNewsItems(20),
     refetchInterval: 15 * 60 * 1000, // Refetch every 15 minutes
@@ -319,24 +319,52 @@ const MarketIntelligence = () => {
             </div>
           </CardHeader>
           <CardContent>
-            {activeView === 'trend' && sentimentData.length > 0 ? (
-              <ResponsiveContainer width="100%" height={300}>
-                <BarChart data={sentimentData}>
-                  <CartesianGrid strokeDasharray="3 3" className="stroke-muted" />
-                  <XAxis dataKey="week" className="text-xs" />
-                  <YAxis className="text-xs" domain={[0, 100]} />
-                  <Tooltip 
-                    contentStyle={{ 
-                      backgroundColor: 'hsl(var(--card))', 
-                      border: '1px solid hsl(var(--border))' 
-                    }} 
-                  />
-                  <Bar dataKey="sentiment" fill="hsl(var(--primary))" name="Sentiment Score" />
-                </BarChart>
-              </ResponsiveContainer>
+            {activeView === 'trend' ? (
+              sentimentData.length > 0 ? (
+                <ResponsiveContainer width="100%" height={300}>
+                  <BarChart data={sentimentData}>
+                    <CartesianGrid strokeDasharray="3 3" className="stroke-muted" />
+                    <XAxis dataKey="week" className="text-xs" />
+                    <YAxis className="text-xs" domain={[0, 100]} />
+                    <Tooltip
+                      contentStyle={{
+                        backgroundColor: 'hsl(var(--card))',
+                        border: '1px solid hsl(var(--border))'
+                      }}
+                    />
+                    <Bar dataKey="sentiment" fill="hsl(var(--primary))" name="Sentiment Score" />
+                  </BarChart>
+                </ResponsiveContainer>
+              ) : (
+                <div className="text-center py-12">
+                  <p className="text-muted-foreground">📈 No sentiment data available yet</p>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    Sentiment analysis will appear once news data is collected
+                  </p>
+                </div>
+              )
+            ) : newsError ? (
+              <div className="text-center py-8">
+                <p className="text-destructive mb-2">⚠️ Error loading news</p>
+                <p className="text-sm text-muted-foreground mb-4">{newsError.message}</p>
+                <Button onClick={() => refetchNews()} variant="outline" size="sm">
+                  Try Again
+                </Button>
+              </div>
+            ) : !newsItems || newsItems.length === 0 ? (
+              <div className="text-center py-12">
+                <p className="text-muted-foreground mb-2">📰 No news items yet</p>
+                <p className="text-sm text-muted-foreground mb-4">
+                  The GitHub Action will fetch AI news daily at 9 AM UTC.
+                </p>
+                <Button onClick={() => refetchNews()} variant="outline" size="sm">
+                  <RefreshCw className="h-4 w-4 mr-2" />
+                  Check for News
+                </Button>
+              </div>
             ) : (
               <div className="space-y-4">
-                {newsItems?.map((item) => (
+                {newsItems.map((item) => (
                   <NewsCard key={item.id} item={item} />
                 ))}
               </div>
@@ -408,6 +436,25 @@ const MarketIntelligence = () => {
             <CardContent>
               {marketLoading ? (
                 <p className="text-muted-foreground">Loading market data...</p>
+              ) : marketError ? (
+                <div className="text-center py-8">
+                  <p className="text-destructive mb-2">⚠️ Error loading market data</p>
+                  <p className="text-sm text-muted-foreground mb-4">{marketError.message}</p>
+                  <Button onClick={() => refetchMarket()} variant="outline" size="sm">
+                    Try Again
+                  </Button>
+                </div>
+              ) : !filteredMarketData || filteredMarketData.length === 0 ? (
+                <div className="text-center py-8">
+                  <p className="text-muted-foreground mb-2">📊 No market data available yet</p>
+                  <p className="text-sm text-muted-foreground mb-4">
+                    The GitHub Action will populate data daily at 9 AM UTC.
+                  </p>
+                  <Button onClick={() => refetchMarket()} variant="outline" size="sm">
+                    <RefreshCw className="h-4 w-4 mr-2" />
+                    Check for Data
+                  </Button>
+                </div>
               ) : (
                 <div className="space-y-3">
                   {filteredMarketData.map((company) => (
@@ -423,9 +470,11 @@ const MarketIntelligence = () => {
                   ))}
                 </div>
               )}
-              <p className="text-xs text-muted-foreground mt-4">
-                📊 Data updates every 5 minutes • Last updated: {new Date().toLocaleTimeString()}
-              </p>
+              {filteredMarketData && filteredMarketData.length > 0 && (
+                <p className="text-xs text-muted-foreground mt-4">
+                  📊 Data updates every 5 minutes • Last updated: {new Date().toLocaleTimeString()}
+                </p>
+              )}
             </CardContent>
           </Card>
 
@@ -436,20 +485,39 @@ const MarketIntelligence = () => {
               <CardDescription>Last reported valuations</CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="space-y-3">
-                {privateValuations?.map((company) => (
-                  <CompanyRow
-                    key={company.id}
-                    name={company.company_name}
-                    ticker={company.last_update}
-                    price={company.valuation}
-                    type="private"
-                  />
-                ))}
-              </div>
-              <p className="text-xs text-muted-foreground mt-4">
-                💰 Valuations from last funding rounds
-              </p>
+              {privateError ? (
+                <div className="text-center py-8">
+                  <p className="text-destructive mb-2">⚠️ Error loading private valuations</p>
+                  <p className="text-sm text-muted-foreground mb-4">{privateError.message}</p>
+                  <Button onClick={() => refetchPrivate()} variant="outline" size="sm">
+                    Try Again
+                  </Button>
+                </div>
+              ) : !privateValuations || privateValuations.length === 0 ? (
+                <div className="text-center py-8">
+                  <p className="text-muted-foreground mb-2">💰 No private valuations yet</p>
+                  <p className="text-sm text-muted-foreground">
+                    Add private company valuations via the Admin panel
+                  </p>
+                </div>
+              ) : (
+                <div className="space-y-3">
+                  {privateValuations.map((company) => (
+                    <CompanyRow
+                      key={company.id}
+                      name={company.company_name}
+                      ticker={company.last_update}
+                      price={company.valuation}
+                      type="private"
+                    />
+                  ))}
+                </div>
+              )}
+              {privateValuations && privateValuations.length > 0 && (
+                <p className="text-xs text-muted-foreground mt-4">
+                  💰 Valuations from last funding rounds
+                </p>
+              )}
             </CardContent>
           </Card>
         </div>
