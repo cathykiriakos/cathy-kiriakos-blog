@@ -55,7 +55,7 @@ supabase db push
 
 This migration configures Row Level Security to allow:
 
-#### For All Three Tables (market_data, news_items, daily_digests):
+#### For Both Tables (market_data, news_items):
 
 **Public Access (Frontend)**:
 - ✅ **SELECT** (read) - Anyone can view the data
