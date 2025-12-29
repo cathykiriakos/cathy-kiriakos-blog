@@ -80,11 +80,11 @@ const FeaturedArticle = ({
 // Default Featured Article
 export const DefaultFeaturedArticle = () => (
   <FeaturedArticle
-    title="Welcome to My World of Data Innovation"
+    title="Ni - New Innovation - or just a silly place."
     author="Cathy Kiriakos"
     category="INTRODUCTION"
     date="Chicago, IL"
-    excerpt="I'm Cathy Kiriakos, a Chicago-born data innovator passionate about transforming how we capture and deliver data products. Currently developing Ni Data, an agent orchestration platform designed to revolutionize end-to-end data use case management and delivery. Through this space, I share insights on AI, market intelligence, and the evolving landscape of data-driven innovation."
+    excerpt="I have a strong aptitude for pattern recognition. When I see breakdowns in process, I jump at the opportunity to resolve them and make value stronger and fail safe. Ni Data is my data solution enabling automation of the data SDLC process for modern data-driven organizations. Use this page as a mechanism to stay up to date on my AI journey, tools and tricks for smart decision making, and current news."
     image={heroImage}
   />
 );
