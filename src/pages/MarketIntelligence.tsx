@@ -46,10 +46,12 @@ const MarketIntelligence = () => {
     refetchInterval: 5 * 60 * 1000, // Refetch every 5 minutes
   });
 
-  // Fetch private valuations
+  // Fetch private valuations (optional - table may not exist yet)
   const { data: privateValuations, error: privateError, refetch: refetchPrivate } = useQuery<PrivateValuation[]>({
     queryKey: ['privateValuations'],
     queryFn: getPrivateValuations,
+    retry: false, // Don't retry if table doesn't exist
+    enabled: false, // Disable for now - table doesn't exist
   });
 
   // Fetch news items
@@ -58,6 +60,18 @@ const MarketIntelligence = () => {
     queryFn: () => getNewsItems(20),
     refetchInterval: 15 * 60 * 1000, // Refetch every 15 minutes
   });
+
+  // Debug logging
+  useEffect(() => {
+    console.log('🔍 Market Data Debug:');
+    console.log('  - Loading:', marketLoading);
+    console.log('  - Error:', marketError);
+    console.log('  - Data count:', marketData?.length || 0);
+    if (marketData && marketData.length > 0) {
+      console.log('  - Sample record:', marketData[0]);
+    }
+    console.log('  - News count:', newsItems?.length || 0);
+  }, [marketData, marketLoading, marketError, newsItems]);
 
   // Fetch historical data for charts (last 6 months)
   const { data: historicalData } = useQuery({
