@@ -27,14 +27,14 @@ const Header = () => {
   return (
     <header className="bg-background border-b border-border sticky top-0 z-50">
       <div className="container-blog">
-        <div className="flex items-center justify-between h-20">
-          {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-8" role="navigation" aria-label="Main navigation">
+        <div className="flex items-center justify-center h-20">
+          {/* Desktop Navigation - Centered */}
+          <nav className="hidden lg:flex items-center space-x-6 xl:space-x-8 flex-1 justify-center" role="navigation" aria-label="Main navigation">
             {navItems.map((item) => (
               <Link
                 key={item.name}
                 to={item.href}
-                className="nav-link flex items-center space-x-1"
+                className="nav-link flex items-center space-x-1 whitespace-nowrap"
               >
                 {item.icon && <item.icon className="h-4 w-4" />}
                 <span>{item.name}</span>
@@ -42,8 +42,8 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* Social Links & Search */}
-          <div className="hidden lg:flex items-center space-x-4">
+          {/* Social Links & Search - Right Side */}
+          <div className="hidden lg:flex items-center space-x-3 ml-auto">
             {socialLinks.map(({ icon: Icon, href, label }) => (
               <Button key={label} variant="outline" size="sm" asChild>
                 <a href={href} aria-label={label}>
@@ -79,7 +79,7 @@ const Header = () => {
           <Button
             variant="ghost"
             size="sm"
-            className="lg:hidden"
+            className="lg:hidden absolute right-4"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
