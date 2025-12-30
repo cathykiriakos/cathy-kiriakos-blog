@@ -20,7 +20,7 @@ const Header = () => {
   ];
 
   const socialLinks = [
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/catherine-kiriakos', label: 'LinkedIn' },
     { icon: Instagram, href: '#', label: 'Instagram' },
   ];
 
