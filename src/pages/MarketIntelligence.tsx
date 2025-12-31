@@ -83,31 +83,49 @@ const MarketIntelligence = () => {
     },
   });
 
-  // Process chart data
+  // Process chart data - stacked by company
   const chartData = useMemo(() => {
     if (!historicalData || historicalData.length === 0) return [];
 
-    // Group by date and aggregate
+    // Group by date with individual company market caps
     const dataByDate = historicalData.reduce((acc, item) => {
       const date = item.data_date;
       if (!acc[date]) {
-        acc[date] = { date, aiMarketCap: 0, chipMarketCap: 0, count: 0 };
+        acc[date] = { date };
       }
-      
-      if (item.company_type === 'ai') {
-        acc[date].aiMarketCap += item.market_cap || 0;
-      } else if (item.company_type === 'chip') {
-        acc[date].chipMarketCap += item.market_cap || 0;
-      }
-      acc[date].count++;
-      
+
+      // Add each company's market cap as a separate key
+      const companyKey = item.ticker || item.company_name;
+      acc[date][companyKey] = (item.market_cap || 0);
+
       return acc;
     }, {} as Record<string, any>);
 
     return Object.values(dataByDate)
       .sort((a: any, b: any) => a.date.localeCompare(b.date))
-      .slice(-180); // Last 180 days
+      .slice(-30); // Last 30 days for better readability
   }, [historicalData]);
+
+  // Get unique companies for chart legend
+  const uniqueCompanies = useMemo(() => {
+    if (!historicalData || historicalData.length === 0) return [];
+    const companies = [...new Set(historicalData.map(item => item.ticker || item.company_name))];
+    return companies.sort();
+  }, [historicalData]);
+
+  // Color palette for companies
+  const companyColors = useMemo(() => {
+    const colors = [
+      '#8b5cf6', '#ec4899', '#f59e0b', '#10b981', '#3b82f6',
+      '#ef4444', '#8b5cf6', '#06b6d4', '#84cc16', '#f97316',
+      '#6366f1', '#14b8a6', '#f43f5e', '#a855f7'
+    ];
+    const colorMap: Record<string, string> = {};
+    uniqueCompanies.forEach((company, index) => {
+      colorMap[company] = colors[index % colors.length];
+    });
+    return colorMap;
+  }, [uniqueCompanies]);
 
   // Calculate sentiment from news
   const sentimentData = useMemo(() => {
@@ -140,11 +158,22 @@ const MarketIntelligence = () => {
     }));
   }, [newsItems]);
 
-  // Filter and sort companies
+  // Filter and sort companies (with de-duplication)
   const filteredMarketData = useMemo(() => {
     if (!marketData) return [];
 
-    let filtered = marketData;
+    // De-duplicate: keep only latest entry per ticker
+    const uniqueCompanies = Object.values(
+      marketData.reduce((acc, company) => {
+        const existing = acc[company.ticker];
+        if (!existing || new Date(company.created_at) > new Date(existing.created_at)) {
+          acc[company.ticker] = company;
+        }
+        return acc;
+      }, {} as Record<string, MarketData>)
+    );
+
+    let filtered = uniqueCompanies;
 
     // Filter by type
     if (companyTypeFilter !== 'all') {
@@ -153,7 +182,7 @@ const MarketIntelligence = () => {
 
     // Filter by search
     if (searchQuery) {
-      filtered = filtered.filter(c => 
+      filtered = filtered.filter(c =>
         c.company_name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         c.ticker?.toLowerCase().includes(searchQuery.toLowerCase())
       );
@@ -162,7 +191,7 @@ const MarketIntelligence = () => {
     // Sort
     filtered = [...filtered].sort((a, b) => {
       let aVal, bVal;
-      
+
       switch (sortBy) {
         case 'name':
           aVal = a.company_name;
@@ -243,7 +272,7 @@ const MarketIntelligence = () => {
         </div>
 
         {/* Key Metrics */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <MetricCard
             title="AI Companies Market Cap"
             value={`$${metrics.aiMarketCap.toFixed(2)}T`}
@@ -267,48 +296,178 @@ const MarketIntelligence = () => {
           />
         </div>
 
-        {/* Market Trends Chart */}
-        {chartData.length > 0 && (
+        {/* Market Cap Breakdown Tables */}
+        {filteredMarketData && filteredMarketData.length > 0 && (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            {/* AI Companies Breakdown */}
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg">AI Companies Breakdown</CardTitle>
+                <CardDescription>
+                  Total: ${metrics.aiMarketCap.toFixed(2)}T
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-2">
+                  {filteredMarketData
+                    .filter(c => c.company_type === 'ai')
+                    .sort((a, b) => (b.market_cap || 0) - (a.market_cap || 0))
+                    .map((company) => (
+                      <div key={company.id} className="flex justify-between items-center text-sm border-b border-border pb-2 last:border-0">
+                        <span className="font-medium">{company.company_name}</span>
+                        <span className="text-muted-foreground">${(company.market_cap || 0).toFixed(0)}B</span>
+                      </div>
+                    ))}
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Chip Makers Breakdown */}
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg">Chip Makers Breakdown</CardTitle>
+                <CardDescription>
+                  Total: ${metrics.chipMarketCap.toFixed(2)}T
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-2">
+                  {filteredMarketData
+                    .filter(c => c.company_type === 'chip')
+                    .sort((a, b) => (b.market_cap || 0) - (a.market_cap || 0))
+                    .map((company) => (
+                      <div key={company.id} className="flex justify-between items-center text-sm border-b border-border pb-2 last:border-0">
+                        <span className="font-medium">{company.company_name}</span>
+                        <span className="text-muted-foreground">${(company.market_cap || 0).toFixed(0)}B</span>
+                      </div>
+                    ))}
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        )}
+
+        {/* Sentiment Explanation */}
+        {newsItems && newsItems.length > 0 && (
           <Card className="mb-12">
             <CardHeader>
-              <CardTitle>Market Cap Trends (Last 6 Months)</CardTitle>
+              <CardTitle>Market Sentiment Insights</CardTitle>
+              <CardDescription>Understanding the {metrics.avgSentiment.toFixed(0)}% sentiment score</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-semibold mb-2">What This Means</h4>
+                  <p className="text-sm text-muted-foreground">
+                    The {metrics.avgSentiment.toFixed(0)}% sentiment score indicates{' '}
+                    {metrics.avgSentiment >= 70 ? 'strongly positive' :
+                     metrics.avgSentiment >= 50 ? 'moderately positive' :
+                     metrics.avgSentiment >= 30 ? 'neutral to slightly negative' : 'negative'}{' '}
+                    market sentiment based on AI news analysis. This score is calculated from{' '}
+                    {newsItems.length} recent news articles covering AI developments, investments, and market trends.
+                  </p>
+                </div>
+                <div className="grid grid-cols-3 gap-4 pt-4 border-t">
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-green-600">
+                      {newsItems.filter(n => n.sentiment === 'positive').length}
+                    </div>
+                    <div className="text-xs text-muted-foreground">Positive</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-gray-600">
+                      {newsItems.filter(n => n.sentiment === 'neutral').length}
+                    </div>
+                    <div className="text-xs text-muted-foreground">Neutral</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-red-600">
+                      {newsItems.filter(n => n.sentiment === 'negative').length}
+                    </div>
+                    <div className="text-xs text-muted-foreground">Negative</div>
+                  </div>
+                </div>
+                <div className="pt-4 border-t">
+                  <h4 className="font-semibold mb-2">Key Drivers</h4>
+                  <ul className="space-y-1 text-sm text-muted-foreground">
+                    {metrics.avgSentiment >= 70 && (
+                      <>
+                        <li>• Strong investor confidence in AI sector</li>
+                        <li>• Positive earnings reports and revenue growth</li>
+                        <li>• Breakthrough AI innovations and product launches</li>
+                      </>
+                    )}
+                    {metrics.avgSentiment >= 50 && metrics.avgSentiment < 70 && (
+                      <>
+                        <li>• Steady growth in AI adoption across industries</li>
+                        <li>• Balanced news coverage of opportunities and challenges</li>
+                        <li>• Ongoing investment in AI infrastructure</li>
+                      </>
+                    )}
+                    {metrics.avgSentiment < 50 && (
+                      <>
+                        <li>• Regulatory concerns affecting AI companies</li>
+                        <li>• Market volatility or economic uncertainties</li>
+                        <li>• Mixed performance in recent earnings</li>
+                      </>
+                    )}
+                  </ul>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        )}
+
+        {/* Market Trends Chart - Stacked Bar Chart by Company */}
+        {chartData.length > 0 && uniqueCompanies.length > 0 && (
+          <Card className="mb-12">
+            <CardHeader>
+              <CardTitle>Market Cap Trends by Company (Last 30 Days)</CardTitle>
               <CardDescription>
-                Real-time tracking of AI and semiconductor market growth
+                Stacked view showing individual company contributions to total market cap
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <ResponsiveContainer width="100%" height={350}>
-                <LineChart data={chartData}>
+              <ResponsiveContainer width="100%" height={400}>
+                <BarChart data={chartData}>
                   <CartesianGrid strokeDasharray="3 3" className="stroke-muted" />
-                  <XAxis 
-                    dataKey="date" 
+                  <XAxis
+                    dataKey="date"
                     className="text-xs"
                     tickFormatter={(date) => new Date(date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+                    angle={-45}
+                    textAnchor="end"
+                    height={80}
                   />
-                  <YAxis className="text-xs" />
-                  <Tooltip 
-                    contentStyle={{ 
-                      backgroundColor: 'hsl(var(--card))', 
-                      border: '1px solid hsl(var(--border))' 
-                    }} 
+                  <YAxis
+                    className="text-xs"
+                    label={{ value: 'Market Cap ($B)', angle: -90, position: 'insideLeft' }}
                   />
-                  <Legend />
-                  <Line 
-                    type="monotone" 
-                    dataKey="aiMarketCap" 
-                    stroke="hsl(var(--primary))" 
-                    strokeWidth={2} 
-                    name="AI Companies ($B)" 
+                  <Tooltip
+                    contentStyle={{
+                      backgroundColor: 'hsl(var(--card))',
+                      border: '1px solid hsl(var(--border))'
+                    }}
+                    formatter={(value: any) => `$${value.toFixed(2)}B`}
                   />
-                  <Line 
-                    type="monotone" 
-                    dataKey="chipMarketCap" 
-                    stroke="hsl(var(--chart-2))" 
-                    strokeWidth={2} 
-                    name="Chip Makers ($B)" 
+                  <Legend
+                    wrapperStyle={{ paddingTop: '20px' }}
+                    iconType="square"
                   />
-                </LineChart>
+                  {uniqueCompanies.map((company) => (
+                    <Bar
+                      key={company}
+                      dataKey={company}
+                      stackId="marketCap"
+                      fill={companyColors[company]}
+                      name={company}
+                    />
+                  ))}
+                </BarChart>
               </ResponsiveContainer>
+              <div className="mt-4 text-sm text-muted-foreground text-center">
+                <p>Each bar represents the total market cap with individual company contributions stacked</p>
+              </div>
             </CardContent>
           </Card>
         )}

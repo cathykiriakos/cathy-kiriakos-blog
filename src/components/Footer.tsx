@@ -29,11 +29,11 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="font-medium text-foreground">Connect</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded" aria-label="Follow me on LinkedIn">
+              <a href="https://www.linkedin.com/in/catherine-kiriakos" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded" aria-label="Follow me on LinkedIn">
                 <span className="sr-only">LinkedIn</span>
                 LinkedIn
               </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded" aria-label="Follow us on Instagram">
+              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded" aria-label="Follow me on Instagram">
                 <span className="sr-only">Instagram</span>
                 Instagram
               </a>

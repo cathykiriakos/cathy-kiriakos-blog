@@ -3,88 +3,21 @@ import Footer from '@/components/Footer';
 import BlogCard from '@/components/BlogCard';
 import PageFilter, { Post } from '@/components/PageFilter';
 import { useState } from 'react';
-import businessPost from '@/assets/business-post.jpg';
-import techPost from '@/assets/tech-post.jpg';
-import lifestylePost from '@/assets/lifestyle-post.jpg';
-import workLifestyle from '@/assets/work-lifestyle.jpg';
+import { useQuery } from '@tanstack/react-query';
+import { getPosts } from '@/lib/supabase';
+import { Button } from '@/components/ui/button';
+import { Plus } from 'lucide-react';
 
 const AllPosts = () => {
   const [filteredPosts, setFilteredPosts] = useState<Post[]>([]);
 
-  const blogPosts: Post[] = [
-    {
-      title: "AI and Machine Learning: Transforming Business Operations",
-      category: "TECHNOLOGY", 
-      subcategory: "Artificial Intelligence",
-      date: "September 18, 2025",
-      excerpt: "Discover how artificial intelligence is revolutionizing the way businesses operate.",
-      image: techPost,
-      slug: "ai-machine-learning-business",
-      tags: ["AI", "Machine Learning", "Business Automation"]
-    },
-    {
-      title: "Sustainable Business Practices for Modern Entrepreneurs",
-      category: "BUSINESS",
-      subcategory: "Sustainability",
-      date: "September 15, 2025", 
-      excerpt: "Learn how to build a sustainable business that benefits both profit and planet.",
-      image: businessPost,
-      slug: "sustainable-business-practices",
-      tags: ["Sustainability", "Green Business", "Entrepreneurship"]
-    },
-    {
-      title: "Mindful Living: Creating Balance in a Busy World",
-      category: "LIFESTYLE",
-      subcategory: "Wellness",
-      date: "September 12, 2025",
-      excerpt: "Practical tips for incorporating mindfulness into your daily routine.",
-      image: lifestylePost,
-      slug: "mindful-living-balance",
-      tags: ["Mindfulness", "Wellness", "Work-Life Balance"]
-    },
-    {
-      title: "The Future of Remote Work: Trends and Predictions",
-      category: "BUSINESS",
-      subcategory: "Future of Work",
-      date: "September 10, 2025",
-      excerpt: "Analyzing the evolution of remote work and what lies ahead.",
-      image: workLifestyle,
-      slug: "future-remote-work",
-      tags: ["Remote Work", "Future Trends", "Digital Workplace"]
-    },
-    {
-      title: "Blockchain Technology: Beyond Cryptocurrency",
-      category: "TECHNOLOGY",
-      subcategory: "Blockchain",
-      date: "September 5, 2025",
-      excerpt: "Exploring innovative applications of blockchain in various industries.",
-      image: techPost,
-      slug: "blockchain-beyond-crypto",
-      tags: ["Blockchain", "Cryptocurrency", "Innovation"]
-    },
-    {
-      title: "Building a Personal Brand in the Digital Age",
-      category: "BUSINESS",
-      subcategory: "Personal Branding",
-      date: "September 3, 2025",
-      excerpt: "Essential strategies for creating and maintaining your online presence.",
-      image: businessPost,
-      slug: "personal-brand-digital-age",
-      tags: ["Personal Branding", "Digital Marketing", "Online Presence"]
-    },
-    {
-      title: "Wellness Trends: What's Actually Worth Your Time",
-      category: "LIFESTYLE",
-      subcategory: "Health Trends",
-      date: "September 1, 2025",
-      excerpt: "Separating wellness fads from genuinely beneficial practices.",
-      image: lifestylePost,
-      slug: "wellness-trends-worth-time",
-      tags: ["Health", "Wellness Trends", "Self-Care"]
-    }
-  ];
+  // Fetch published posts from Supabase
+  const { data: blogPosts, isLoading, error } = useQuery({
+    queryKey: ['allPosts'],
+    queryFn: () => getPosts({ published: true }),
+  });
 
-  const postsToShow = filteredPosts.length > 0 ? filteredPosts : blogPosts;
+  const postsToShow = filteredPosts.length > 0 ? filteredPosts : (blogPosts || []);
 
   return (
     <div className="min-h-screen bg-background">
@@ -100,27 +33,52 @@ const AllPosts = () => {
           </p>
         </div>
 
-        <PageFilter
-          posts={blogPosts}
-          onFilteredPostsChange={setFilteredPosts}
-          availableCategories={["TECHNOLOGY", "BUSINESS", "LIFESTYLE"]}
-          showCategoryFilter={true}
-        />
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {postsToShow.map((post, index) => (
-            <BlogCard
-              key={post.slug}
-              title={post.title}
-              category={post.category}
-              date={post.date}
-              excerpt={post.excerpt}
-              image={post.image}
-              href={`/blog/${post.slug}`}
-              isSmall={false}
+        {isLoading ? (
+          <div className="text-center py-16">
+            <p className="text-muted-foreground">Loading posts...</p>
+          </div>
+        ) : error ? (
+          <div className="text-center py-16">
+            <p className="text-destructive mb-4">Error loading posts</p>
+            <p className="text-sm text-muted-foreground">{error.message}</p>
+          </div>
+        ) : !blogPosts || blogPosts.length === 0 ? (
+          <div className="text-center py-16 max-w-2xl mx-auto">
+            <p className="text-muted-foreground text-lg mb-6">
+              No posts yet. Start creating content to share your insights on AI, data, and technology!
+            </p>
+            <Button asChild>
+              <a href="/admin">
+                <Plus className="h-4 w-4 mr-2" />
+                Create Your First Post
+              </a>
+            </Button>
+          </div>
+        ) : (
+          <>
+            <PageFilter
+              posts={blogPosts}
+              onFilteredPostsChange={setFilteredPosts}
+              availableCategories={["TECHNOLOGY", "BUSINESS", "LIFESTYLE", "AI", "DATA"]}
+              showCategoryFilter={true}
             />
-          ))}
-        </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+              {postsToShow.map((post) => (
+                <BlogCard
+                  key={post.slug}
+                  title={post.title}
+                  category={post.category}
+                  date={post.date}
+                  excerpt={post.excerpt}
+                  image={post.image}
+                  href={`/blog/${post.slug}`}
+                  isSmall={false}
+                />
+              ))}
+            </div>
+          </>
+        )}
       </main>
       <Footer />
     </div>
