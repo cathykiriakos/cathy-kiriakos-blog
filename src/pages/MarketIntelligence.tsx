@@ -83,31 +83,49 @@ const MarketIntelligence = () => {
     },
   });
 
-  // Process chart data
+  // Process chart data - stacked by company
   const chartData = useMemo(() => {
     if (!historicalData || historicalData.length === 0) return [];
 
-    // Group by date and aggregate
+    // Group by date with individual company market caps
     const dataByDate = historicalData.reduce((acc, item) => {
       const date = item.data_date;
       if (!acc[date]) {
-        acc[date] = { date, aiMarketCap: 0, chipMarketCap: 0, count: 0 };
+        acc[date] = { date };
       }
-      
-      if (item.company_type === 'ai') {
-        acc[date].aiMarketCap += item.market_cap || 0;
-      } else if (item.company_type === 'chip') {
-        acc[date].chipMarketCap += item.market_cap || 0;
-      }
-      acc[date].count++;
-      
+
+      // Add each company's market cap as a separate key
+      const companyKey = item.ticker || item.company_name;
+      acc[date][companyKey] = (item.market_cap || 0);
+
       return acc;
     }, {} as Record<string, any>);
 
     return Object.values(dataByDate)
       .sort((a: any, b: any) => a.date.localeCompare(b.date))
-      .slice(-180); // Last 180 days
+      .slice(-30); // Last 30 days for better readability
   }, [historicalData]);
+
+  // Get unique companies for chart legend
+  const uniqueCompanies = useMemo(() => {
+    if (!historicalData || historicalData.length === 0) return [];
+    const companies = [...new Set(historicalData.map(item => item.ticker || item.company_name))];
+    return companies.sort();
+  }, [historicalData]);
+
+  // Color palette for companies
+  const companyColors = useMemo(() => {
+    const colors = [
+      '#8b5cf6', '#ec4899', '#f59e0b', '#10b981', '#3b82f6',
+      '#ef4444', '#8b5cf6', '#06b6d4', '#84cc16', '#f97316',
+      '#6366f1', '#14b8a6', '#f43f5e', '#a855f7'
+    ];
+    const colorMap: Record<string, string> = {};
+    uniqueCompanies.forEach((company, index) => {
+      colorMap[company] = colors[index % colors.length];
+    });
+    return colorMap;
+  }, [uniqueCompanies]);
 
   // Calculate sentiment from news
   const sentimentData = useMemo(() => {
@@ -400,48 +418,56 @@ const MarketIntelligence = () => {
           </Card>
         )}
 
-        {/* Market Trends Chart */}
-        {chartData.length > 0 && (
+        {/* Market Trends Chart - Stacked Bar Chart by Company */}
+        {chartData.length > 0 && uniqueCompanies.length > 0 && (
           <Card className="mb-12">
             <CardHeader>
-              <CardTitle>Market Cap Trends (Last 6 Months)</CardTitle>
+              <CardTitle>Market Cap Trends by Company (Last 30 Days)</CardTitle>
               <CardDescription>
-                Real-time tracking of AI and semiconductor market growth
+                Stacked view showing individual company contributions to total market cap
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <ResponsiveContainer width="100%" height={350}>
-                <LineChart data={chartData}>
+              <ResponsiveContainer width="100%" height={400}>
+                <BarChart data={chartData}>
                   <CartesianGrid strokeDasharray="3 3" className="stroke-muted" />
-                  <XAxis 
-                    dataKey="date" 
+                  <XAxis
+                    dataKey="date"
                     className="text-xs"
                     tickFormatter={(date) => new Date(date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+                    angle={-45}
+                    textAnchor="end"
+                    height={80}
                   />
-                  <YAxis className="text-xs" />
-                  <Tooltip 
-                    contentStyle={{ 
-                      backgroundColor: 'hsl(var(--card))', 
-                      border: '1px solid hsl(var(--border))' 
-                    }} 
+                  <YAxis
+                    className="text-xs"
+                    label={{ value: 'Market Cap ($B)', angle: -90, position: 'insideLeft' }}
                   />
-                  <Legend />
-                  <Line 
-                    type="monotone" 
-                    dataKey="aiMarketCap" 
-                    stroke="hsl(var(--primary))" 
-                    strokeWidth={2} 
-                    name="AI Companies ($B)" 
+                  <Tooltip
+                    contentStyle={{
+                      backgroundColor: 'hsl(var(--card))',
+                      border: '1px solid hsl(var(--border))'
+                    }}
+                    formatter={(value: any) => `$${value.toFixed(2)}B`}
                   />
-                  <Line 
-                    type="monotone" 
-                    dataKey="chipMarketCap" 
-                    stroke="hsl(var(--chart-2))" 
-                    strokeWidth={2} 
-                    name="Chip Makers ($B)" 
+                  <Legend
+                    wrapperStyle={{ paddingTop: '20px' }}
+                    iconType="square"
                   />
-                </LineChart>
+                  {uniqueCompanies.map((company) => (
+                    <Bar
+                      key={company}
+                      dataKey={company}
+                      stackId="marketCap"
+                      fill={companyColors[company]}
+                      name={company}
+                    />
+                  ))}
+                </BarChart>
               </ResponsiveContainer>
+              <div className="mt-4 text-sm text-muted-foreground text-center">
+                <p>Each bar represents the total market cap with individual company contributions stacked</p>
+              </div>
             </CardContent>
           </Card>
         )}
