@@ -1,4 +1,5 @@
 import heroImage from '@/assets/hero-image.jpg';
+// import knightImage from '@/assets/nidata-knight.jpg'; // Uncomment once knight image is uploaded
 import { Button } from '@/components/ui/button';
 
 interface FeaturedArticleProps {
@@ -8,6 +9,7 @@ interface FeaturedArticleProps {
   date: string;
   excerpt: string;
   image: string;
+  knightImage?: string;
 }
 
 const FeaturedArticle = ({
@@ -16,24 +18,41 @@ const FeaturedArticle = ({
   category,
   date,
   excerpt,
-  image
+  image,
+  knightImage
 }: FeaturedArticleProps) => {
   return (
     <article className="container-blog py-16">
       <div className="grid lg:grid-cols-2 gap-12 items-start">
         {/* Image */}
-        <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
-          <img
-            src={image}
-            alt={`Featured article: ${title} - A professional image related to ${category.toLowerCase()}`}
-            className="object-cover object-top w-full h-full transition-transform duration-700 hover:scale-105"
-            loading="eager"
-            decoding="async"
-            fetchPriority="high"
-            width="592"
-            height="444"
-            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 80vw, 592px"
-          />
+        <div className="space-y-6">
+          <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
+            <img
+              src={image}
+              alt={`Featured article: ${title} - A professional image related to ${category.toLowerCase()}`}
+              className="object-cover object-top w-full h-full transition-transform duration-700 hover:scale-105"
+              loading="eager"
+              decoding="async"
+              fetchPriority="high"
+              width="592"
+              height="444"
+              sizes="(max-width: 768px) 100vw, (max-width: 1024px) 80vw, 592px"
+            />
+          </div>
+
+          {/* Knight Image */}
+          {knightImage && (
+            <div className="relative aspect-square overflow-hidden rounded-lg">
+              <img
+                src={knightImage}
+                alt="NiData Knight - The guardian of data pipelines"
+                className="object-cover w-full h-full transition-transform duration-700 hover:scale-105"
+                loading="lazy"
+                width="592"
+                height="592"
+              />
+            </div>
+          )}
         </div>
 
         {/* Content */}
@@ -128,6 +147,7 @@ This blog is my notebook at the intersection of human curiosity, agentic orchest
 
 Welcome to NiData. We promise the data will be better than our British accents.`}
     image={heroImage}
+    // knightImage={knightImage} // Uncomment once knight image is uploaded
   />
 );
 
