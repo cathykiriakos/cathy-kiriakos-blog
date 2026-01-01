@@ -2,22 +2,41 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BlogCard from '@/components/BlogCard';
 import PageFilter, { Post } from '@/components/PageFilter';
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { getPosts } from '@/lib/supabase';
 import { Button } from '@/components/ui/button';
 import { Plus } from 'lucide-react';
+import type { Post as DbPost } from '@/types/database';
 
 const AllPosts = () => {
   const [filteredPosts, setFilteredPosts] = useState<Post[]>([]);
 
   // Fetch published posts from Supabase
-  const { data: blogPosts, isLoading, error } = useQuery({
+  const { data: dbPosts, isLoading, error } = useQuery<DbPost[]>({
     queryKey: ['allPosts'],
     queryFn: () => getPosts({ published: true }),
   });
 
-  const postsToShow = filteredPosts.length > 0 ? filteredPosts : (blogPosts || []);
+  // Map database posts to component format with fallback image
+  const blogPosts = useMemo(() => {
+    if (!dbPosts) return [];
+
+    return dbPosts.map(post => ({
+      title: post.title,
+      category: post.category,
+      date: new Date(post.created_at).toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+      }),
+      excerpt: post.excerpt,
+      image: post.image_url || 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80', // Tech/AI placeholder
+      slug: post.slug,
+    }));
+  }, [dbPosts]);
+
+  const postsToShow = filteredPosts.length > 0 ? filteredPosts : blogPosts;
 
   return (
     <div className="min-h-screen bg-background">
