@@ -18,11 +18,13 @@ import {
 } from '@/components/ui/select';
 import { Switch } from '@/components/ui/switch';
 import { useToast } from '@/hooks/use-toast';
-import { PlusCircle, Newspaper, Settings, Mail } from 'lucide-react';
-import { 
-  createPost, 
-  createNewsItem, 
-  getPosts, 
+import { PlusCircle, Newspaper, Settings, Mail, Pencil, Trash2 } from 'lucide-react';
+import {
+  createPost,
+  updatePost,
+  deletePost,
+  createNewsItem,
+  getPosts,
   getNewsItems,
   getNewsletterSubscribers,
   getContactSubmissions
@@ -57,6 +59,7 @@ const Admin = () => {
   });
 
   // Form states
+  const [editingPostId, setEditingPostId] = useState<string | null>(null);
   const [postForm, setPostForm] = useState<PostFormData>({
     title: '',
     category: POST_CATEGORIES[0],
@@ -81,25 +84,62 @@ const Admin = () => {
     mutationFn: createPost,
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['adminPosts'] });
+      queryClient.invalidateQueries({ queryKey: ['allPosts'] });
+      queryClient.invalidateQueries({ queryKey: ['blogGridPosts'] });
       toast({
         title: 'Success!',
         description: 'Blog post created successfully.',
       });
-      setPostForm({
-        title: '',
-        category: POST_CATEGORIES[0],
-        excerpt: '',
-        content: '',
-        image_url: '',
-        published: false,
-        featured: false,
-      });
+      resetPostForm();
     },
     onError: (error: any) => {
       console.error('Post creation error:', error);
       toast({
         title: 'Error',
         description: error.message || 'Failed to create post. Please check console for details.',
+        variant: 'destructive',
+      });
+    },
+  });
+
+  const updatePostMutation = useMutation({
+    mutationFn: ({ id, data }: { id: string; data: Partial<PostFormData> }) => updatePost(id, data),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['adminPosts'] });
+      queryClient.invalidateQueries({ queryKey: ['allPosts'] });
+      queryClient.invalidateQueries({ queryKey: ['blogGridPosts'] });
+      toast({
+        title: 'Success!',
+        description: 'Blog post updated successfully.',
+      });
+      resetPostForm();
+    },
+    onError: (error: any) => {
+      console.error('Post update error:', error);
+      toast({
+        title: 'Error',
+        description: error.message || 'Failed to update post. Please check console for details.',
+        variant: 'destructive',
+      });
+    },
+  });
+
+  const deletePostMutation = useMutation({
+    mutationFn: deletePost,
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['adminPosts'] });
+      queryClient.invalidateQueries({ queryKey: ['allPosts'] });
+      queryClient.invalidateQueries({ queryKey: ['blogGridPosts'] });
+      toast({
+        title: 'Success!',
+        description: 'Blog post deleted successfully.',
+      });
+    },
+    onError: (error: any) => {
+      console.error('Post deletion error:', error);
+      toast({
+        title: 'Error',
+        description: error.message || 'Failed to delete post.',
         variant: 'destructive',
       });
     },
@@ -131,10 +171,49 @@ const Admin = () => {
     },
   });
 
+  // Helper functions
+  const resetPostForm = () => {
+    setEditingPostId(null);
+    setPostForm({
+      title: '',
+      category: POST_CATEGORIES[0],
+      excerpt: '',
+      content: '',
+      image_url: '',
+      published: false,
+      featured: false,
+    });
+  };
+
+  const handleEditPost = (post: any) => {
+    setEditingPostId(post.id);
+    setPostForm({
+      title: post.title,
+      category: post.category,
+      excerpt: post.excerpt,
+      content: post.content,
+      image_url: post.image_url || '',
+      published: post.published,
+      featured: post.featured,
+    });
+    // Scroll to top of form
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleDeletePost = (id: string, title: string) => {
+    if (window.confirm(`Are you sure you want to delete "${title}"?`)) {
+      deletePostMutation.mutate(id);
+    }
+  };
+
   // Handlers
   const handlePostSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    createPostMutation.mutate(postForm);
+    if (editingPostId) {
+      updatePostMutation.mutate({ id: editingPostId, data: postForm });
+    } else {
+      createPostMutation.mutate(postForm);
+    }
   };
 
   const handleNewsSubmit = (e: React.FormEvent) => {
@@ -178,10 +257,23 @@ const Admin = () => {
           <TabsContent value="posts" className="space-y-6">
             <Card>
               <CardHeader>
-                <CardTitle>Create New Post</CardTitle>
-                <CardDescription>
-                  Write and publish blog posts to your site
-                </CardDescription>
+                <div className="flex items-center justify-between">
+                  <div>
+                    <CardTitle>{editingPostId ? 'Edit Post' : 'Create New Post'}</CardTitle>
+                    <CardDescription>
+                      {editingPostId ? 'Update your blog post' : 'Write and publish blog posts to your site'}
+                    </CardDescription>
+                  </div>
+                  {editingPostId && (
+                    <Button
+                      type="button"
+                      variant="outline"
+                      onClick={resetPostForm}
+                    >
+                      Cancel Edit
+                    </Button>
+                  )}
+                </div>
               </CardHeader>
               <CardContent>
                 <form onSubmit={handlePostSubmit} className="space-y-6">
@@ -279,12 +371,15 @@ const Admin = () => {
                     </div>
                   </div>
 
-                  <Button 
-                    type="submit" 
+                  <Button
+                    type="submit"
                     className="w-full"
-                    disabled={createPostMutation.isPending}
+                    disabled={createPostMutation.isPending || updatePostMutation.isPending}
                   >
-                    {createPostMutation.isPending ? 'Creating...' : 'Create Post'}
+                    {editingPostId
+                      ? (updatePostMutation.isPending ? 'Updating...' : 'Update Post')
+                      : (createPostMutation.isPending ? 'Creating...' : 'Create Post')
+                    }
                   </Button>
                 </form>
               </CardContent>
@@ -303,10 +398,10 @@ const Admin = () => {
                   {allPosts?.map((post) => (
                     <div
                       key={post.id}
-                      className="flex items-center justify-between p-3 border border-border rounded-lg"
+                      className="flex items-center justify-between p-3 border border-border rounded-lg hover:bg-accent/50 transition-colors"
                     >
-                      <div>
-                        <p className="font-medium">{post.title}</p>
+                      <div className="flex-1">
+                        <p className="font-medium">{post.title || '(No title)'}</p>
                         <p className="text-sm text-muted-foreground">
                           {post.category} • {new Date(post.created_at).toLocaleDateString()}
                         </p>
@@ -322,6 +417,27 @@ const Admin = () => {
                             Featured
                           </span>
                         )}
+                        {!post.published && (
+                          <span className="px-2 py-1 bg-yellow-500/20 text-yellow-700 dark:text-yellow-400 text-xs rounded">
+                            Draft
+                          </span>
+                        )}
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          onClick={() => handleEditPost(post)}
+                          className="h-8 w-8 p-0"
+                        >
+                          <Pencil className="h-4 w-4" />
+                        </Button>
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          onClick={() => handleDeletePost(post.id, post.title)}
+                          className="h-8 w-8 p-0 text-destructive hover:text-destructive"
+                        >
+                          <Trash2 className="h-4 w-4" />
+                        </Button>
                       </div>
                     </div>
                   ))}
