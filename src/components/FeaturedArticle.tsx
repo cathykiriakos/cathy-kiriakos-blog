@@ -99,7 +99,7 @@ const FeaturedArticle = ({
 // Default Featured Article
 export const DefaultFeaturedArticle = () => (
   <FeaturedArticle
-    title="Ni! New Innovation"
+    title="NI! New Innovation.... or just a silly place"
     author="Cathy Kiriakos"
     category="INTRODUCTION"
     date="Oak Park, IL"

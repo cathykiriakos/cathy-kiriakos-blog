@@ -157,7 +157,7 @@ const BusinessTechnology = () => {
                   category={post.category || 'Uncategorized'}
                   date={new Date(post.created_at).toLocaleDateString()}
                   excerpt={post.excerpt}
-                  image={post.featured_image || '/placeholder.svg'}
+                  image={post.image_url || '/placeholder.svg'}
                 />
               ))}
             </div>
