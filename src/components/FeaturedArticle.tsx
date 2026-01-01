@@ -20,13 +20,13 @@ const FeaturedArticle = ({
 }: FeaturedArticleProps) => {
   return (
     <article className="container-blog py-16">
-      <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div className="grid lg:grid-cols-2 gap-12 items-start">
         {/* Image */}
         <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
           <img
             src={image}
             alt={`Featured article: ${title} - A professional image related to ${category.toLowerCase()}`}
-            className="object-cover w-full h-full transition-transform duration-700 hover:scale-105"
+            className="object-cover object-top w-full h-full transition-transform duration-700 hover:scale-105"
             loading="eager"
             decoding="async"
             fetchPriority="high"
