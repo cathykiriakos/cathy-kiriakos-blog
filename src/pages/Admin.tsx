@@ -95,10 +95,11 @@ const Admin = () => {
         featured: false,
       });
     },
-    onError: () => {
+    onError: (error: any) => {
+      console.error('Post creation error:', error);
       toast({
         title: 'Error',
-        description: 'Failed to create post. Please try again.',
+        description: error.message || 'Failed to create post. Please check console for details.',
         variant: 'destructive',
       });
     },
