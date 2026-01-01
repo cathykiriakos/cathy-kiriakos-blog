@@ -1,4 +1,6 @@
 import { useParams } from 'react-router-dom';
+import { useMemo } from 'react';
+import { marked } from 'marked';
 import { useQuery } from '@tanstack/react-query';
 import { getPostBySlug } from '@/lib/supabase';
 import Header from '@/components/Header';
@@ -65,6 +67,16 @@ const BlogDetail = () => {
   const wordCount = post.content.split(/\s+/).length;
   const readTime = Math.ceil(wordCount / 200);
 
+  // Convert Markdown content to HTML when content appears to be Markdown.
+  // If content already contains HTML tags, render as-is.
+  const contentHtml = useMemo(() => {
+    if (!post || !post.content) return '';
+    const content = post.content;
+    const looksLikeHtml = /<\/?[a-z][\s\S]*>/i.test(content);
+    if (looksLikeHtml) return content;
+    return marked.parse(content || '');
+  }, [post?.content]);
+
   return (
     <div className="min-h-screen bg-background">
       <ReadingProgress />
@@ -108,16 +120,11 @@ const BlogDetail = () => {
               {/* Hero Image */}
               {post.image_url && (
                 <div className="mb-8">
-                  <img
-                    src={post.image_url}
-                    alt={post.title}
-                    className="w-full aspect-[16/10] object-cover rounded-lg"
+                  <div
+                    className="prose prose-lg max-w-none text-foreground article-content prose-headings:text-foreground prose-headings:font-bold prose-headings:mb-4 prose-headings:mt-8 prose-p:text-muted-foreground prose-p:leading-relaxed prose-p:mb-6 prose-ul:text-muted-foreground prose-li:text-muted-foreground prose-img:rounded-lg prose-img:my-6 prose-strong:text-foreground"
+                    data-article-content
+                    dangerouslySetInnerHTML={{ __html: contentHtml }}
                   />
-                </div>
-              )}
-
-              {/* Article Content */}
-              <div
                 className="prose prose-lg max-w-none text-foreground article-content
                   prose-headings:text-foreground prose-headings:font-bold prose-headings:mb-4 prose-headings:mt-8
                   prose-p:text-muted-foreground prose-p:leading-relaxed prose-p:mb-6
