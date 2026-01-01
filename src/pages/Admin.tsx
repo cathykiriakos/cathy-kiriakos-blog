@@ -95,10 +95,11 @@ const Admin = () => {
         featured: false,
       });
     },
-    onError: () => {
+    onError: (error: any) => {
+      console.error('Post creation error:', error);
       toast({
         title: 'Error',
-        description: 'Failed to create post. Please try again.',
+        description: error.message || 'Failed to create post. Please check console for details.',
         variant: 'destructive',
       });
     },
@@ -222,8 +223,12 @@ const Admin = () => {
                       id="image_url"
                       value={postForm.image_url}
                       onChange={(e) => setPostForm({ ...postForm, image_url: e.target.value })}
-                      placeholder="https://example.com/image.jpg"
+                      placeholder="https://images.unsplash.com/photo-..."
                     />
+                    <p className="text-xs text-muted-foreground">
+                      Tip: Use <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Unsplash</a> for free images.
+                      Right-click image → Copy Image Address. Leave blank for default tech image.
+                    </p>
                   </div>
 
                   <div className="space-y-2">
