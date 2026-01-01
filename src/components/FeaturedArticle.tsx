@@ -1,5 +1,5 @@
 import heroImage from '@/assets/hero-image.jpg';
-// import knightImage from '@/assets/nidata-knight.jpg'; // Uncomment once knight image is uploaded
+import knightImage from '@/assets/nidata-knight.png';
 import { Button } from '@/components/ui/button';
 
 interface FeaturedArticleProps {
@@ -26,7 +26,7 @@ const FeaturedArticle = ({
       <div className="grid lg:grid-cols-2 gap-12 items-start">
         {/* Image */}
         <div className="space-y-6">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
+          <div className="relative aspect-[2/3] overflow-hidden rounded-lg">
             <img
               src={image}
               alt={`Featured article: ${title} - A professional image related to ${category.toLowerCase()}`}
@@ -35,7 +35,7 @@ const FeaturedArticle = ({
               decoding="async"
               fetchPriority="high"
               width="592"
-              height="444"
+              height="888"
               sizes="(max-width: 768px) 100vw, (max-width: 1024px) 80vw, 592px"
             />
           </div>
@@ -147,7 +147,7 @@ This blog is my notebook at the intersection of human curiosity, agentic orchest
 
 Welcome to NiData. We promise the data will be better than our British accents.`}
     image={heroImage}
-    // knightImage={knightImage} // Uncomment once knight image is uploaded
+    knightImage={knightImage}
   />
 );
 
