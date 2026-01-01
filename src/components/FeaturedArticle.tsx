@@ -1,5 +1,5 @@
 import heroImage from '@/assets/hero-image.jpg';
-// import knightImage from '@/assets/nidata-knight.jpg'; // Uncomment once knight image is uploaded
+import knightImage from '@/assets/nidata-knight.png';
 import { Button } from '@/components/ui/button';
 
 interface FeaturedArticleProps {
@@ -147,7 +147,7 @@ This blog is my notebook at the intersection of human curiosity, agentic orchest
 
 Welcome to NiData. We promise the data will be better than our British accents.`}
     image={heroImage}
-    // knightImage={knightImage} // Uncomment once knight image is uploaded
+    knightImage={knightImage}
   />
 );
 
