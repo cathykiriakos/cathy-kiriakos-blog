@@ -8,6 +8,7 @@ interface BlogCardProps {
   image: string;
   href?: string;
   isSmall?: boolean;
+  layout?: 'vertical' | 'horizontal';
 }
 
 const BlogCard = ({
@@ -17,10 +18,54 @@ const BlogCard = ({
   excerpt,
   image,
   href = '#',
-  isSmall = false
+  isSmall = false,
+  layout = 'horizontal'
 }: BlogCardProps) => {
   const articleUrl = href === '#' ? `/blog/${title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '')}` : href;
-  
+
+  if (layout === 'horizontal') {
+    // Horizontal layout: Image on left, content on right
+    return (
+      <article className="blog-card group cursor-pointer transition-all duration-300 hover:shadow-lg border border-transparent hover:border-black">
+        <Link to={articleUrl} className="flex gap-4 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label={`Read article: ${title}`}>
+          {/* Image */}
+          <div className="relative overflow-hidden w-48 h-32 flex-shrink-0">
+            <img
+              src={image}
+              alt={`Article image for: ${title} - A professional photo related to ${category.toLowerCase()}`}
+              className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
+              loading="lazy"
+              decoding="async"
+              width="192"
+              height="128"
+              sizes="192px"
+            />
+          </div>
+
+          {/* Content */}
+          <div className="py-2 space-y-2 flex-1">
+            <div className="flex items-center space-x-2">
+              <span className="blog-meta">{category}</span>
+              <span className="text-muted-foreground text-xs" aria-hidden="true">—</span>
+              <time className="blog-meta" dateTime="2023-09-10">{date}</time>
+            </div>
+
+            <h3 className="font-bold text-foreground leading-tight group-hover:text-black transition-colors text-lg">
+              {title}
+            </h3>
+
+            {excerpt && (
+              <p className="text-sm text-muted-foreground leading-relaxed line-clamp-2">
+                {excerpt}
+              </p>
+            )}
+          </div>
+        </Link>
+      </article>
+    );
+  }
+
+  // Vertical layout: Image on top, content below (original layout)
   return (
     <article className="blog-card group cursor-pointer transition-all duration-300 hover:shadow-lg border border-transparent hover:border-black">
       <Link to={articleUrl} className="block focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" aria-label={`Read article: ${title}`}>
@@ -45,13 +90,13 @@ const BlogCard = ({
             <span className="text-muted-foreground text-xs" aria-hidden="true">—</span>
             <time className="blog-meta" dateTime="2023-09-10">{date}</time>
           </div>
-          
+
           <h3 className={`font-bold text-foreground leading-tight group-hover:text-black transition-colors ${
             isSmall ? 'text-base' : 'text-lg'
           }`}>
             {title}
           </h3>
-          
+
           {excerpt && !isSmall && (
             <p className="text-sm text-muted-foreground leading-relaxed">
               {excerpt}
