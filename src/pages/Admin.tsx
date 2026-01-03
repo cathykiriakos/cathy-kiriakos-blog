@@ -31,6 +31,7 @@ import {
 } from '../../types/supabase';
 import { POST_CATEGORIES, SENTIMENT_OPTIONS } from '../../types/database';
 import type { PostFormData, NewsFormData } from '../../types/database';
+import ImageUpload from '@/components/ImageUpload';
 
 const Admin = () => {
   const [activeTab, setActiveTab] = useState('posts');
@@ -309,19 +310,12 @@ const Admin = () => {
                     </div>
                   </div>
 
-                  <div className="space-y-2">
-                    <Label htmlFor="image_url">Image URL (optional)</Label>
-                    <Input
-                      id="image_url"
-                      value={postForm.image_url}
-                      onChange={(e) => setPostForm({ ...postForm, image_url: e.target.value })}
-                      placeholder="https://images.unsplash.com/photo-..."
-                    />
-                    <p className="text-xs text-muted-foreground">
-                      Tip: Use <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Unsplash</a> for free images.
-                      Right-click image → Copy Image Address. Leave blank for default tech image.
-                    </p>
-                  </div>
+                  <ImageUpload
+                    label="Featured Image (optional)"
+                    currentImageUrl={postForm.image_url}
+                    onUrlChange={(url) => setPostForm({ ...postForm, image_url: url })}
+                    showUrlInput={true}
+                  />
 
                   <div className="space-y-2">
                     <Label htmlFor="excerpt">Excerpt</Label>
@@ -344,7 +338,17 @@ const Admin = () => {
                       placeholder="Write your post content here..."
                       rows={12}
                       required
+                      className="font-mono"
                     />
+                    <div className="text-xs text-muted-foreground space-y-1">
+                      <p className="font-semibold">Formatting Tips:</p>
+                      <ul className="list-disc list-inside space-y-0.5 ml-2">
+                        <li><strong>Line breaks are preserved:</strong> Press Enter once for a line break, twice for a new paragraph</li>
+                        <li><strong>Markdown supported:</strong> Use # for headings, **bold**, *italic*, [link](url)</li>
+                        <li><strong>Images:</strong> Upload images above, then copy URL and use ![alt text](image-url) to embed</li>
+                        <li><strong>Lists:</strong> Start lines with * or - for bullets, 1. for numbered lists</li>
+                      </ul>
+                    </div>
                   </div>
 
                   <div className="flex items-center space-x-8">
