@@ -43,17 +43,17 @@ const BlogGrid = () => {
           </p>
         </div>
       ) : (
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="space-y-6">
           {blogPosts.map((post, index) => (
             <BlogCard
               key={post.slug}
               title={post.title}
               category={post.category}
               date={post.date}
-              excerpt={index < 3 ? post.excerpt : undefined}
+              excerpt={post.excerpt}
               image={post.image}
               href={`/blog/${post.slug}`}
-              isSmall={index >= 3}
+              layout="horizontal"
             />
           ))}
         </div>
