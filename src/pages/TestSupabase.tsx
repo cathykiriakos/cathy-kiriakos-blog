@@ -2,7 +2,7 @@
 // Access at: /test-supabase
 
 import { useEffect, useState } from 'react';
-import { supabase } from '@/integrations/supabase/client';
+import { supabase } from '@/lib/supabase';
 
 const TestSupabase = () => {
   const [status, setStatus] = useState('Testing...');
