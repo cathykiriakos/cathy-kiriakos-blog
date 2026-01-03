@@ -32,6 +32,7 @@ import {
 import { POST_CATEGORIES, SENTIMENT_OPTIONS } from '../../types/database';
 import type { PostFormData, NewsFormData } from '../../types/database';
 import ImageUpload from '@/components/ImageUpload';
+import RichTextEditor from '@/components/RichTextEditor';
 
 const Admin = () => {
   const [activeTab, setActiveTab] = useState('posts');
@@ -77,6 +78,8 @@ const Admin = () => {
     sentiment: 'positive',
     summary: '',
     url: '',
+    image_url: '',
+    featured: false,
     published_date: new Date().toISOString().split('T')[0],
   });
 
@@ -160,6 +163,8 @@ const Admin = () => {
         sentiment: 'positive',
         summary: '',
         url: '',
+        image_url: '',
+        featured: false,
         published_date: new Date().toISOString().split('T')[0],
       });
     },
@@ -331,22 +336,19 @@ const Admin = () => {
 
                   <div className="space-y-2">
                     <Label htmlFor="content">Content</Label>
-                    <Textarea
-                      id="content"
-                      value={postForm.content}
-                      onChange={(e) => setPostForm({ ...postForm, content: e.target.value })}
+                    <RichTextEditor
+                      content={postForm.content}
+                      onChange={(html) => setPostForm({ ...postForm, content: html })}
                       placeholder="Write your post content here..."
-                      rows={12}
-                      required
-                      className="font-mono"
                     />
                     <div className="text-xs text-muted-foreground space-y-1">
-                      <p className="font-semibold">Formatting Tips:</p>
+                      <p className="font-semibold">Rich Text Editor Features:</p>
                       <ul className="list-disc list-inside space-y-0.5 ml-2">
-                        <li><strong>Line breaks are preserved:</strong> Press Enter once for a line break, twice for a new paragraph</li>
-                        <li><strong>Markdown supported:</strong> Use # for headings, **bold**, *italic*, [link](url)</li>
-                        <li><strong>Images:</strong> Upload images above, then copy URL and use ![alt text](image-url) to embed</li>
-                        <li><strong>Lists:</strong> Start lines with * or - for bullets, 1. for numbered lists</li>
+                        <li><strong>Formatting toolbar:</strong> Bold, italic, underline, headings, lists, alignment</li>
+                        <li><strong>Font choices:</strong> Select different fonts from the dropdown</li>
+                        <li><strong>Auto-format:</strong> Click the "Auto Format" button to clean up spacing</li>
+                        <li><strong>Images & Links:</strong> Use the toolbar buttons to add images and links</li>
+                        <li><strong>Shortcuts:</strong> Ctrl+B (bold), Ctrl+I (italic), Ctrl+U (underline)</li>
                       </ul>
                     </div>
                   </div>
@@ -522,13 +524,26 @@ const Admin = () => {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="news-url">URL (optional)</Label>
+                    <Label htmlFor="news-url">Article URL (optional)</Label>
                     <Input
                       id="news-url"
                       value={newsForm.url}
                       onChange={(e) => setNewsForm({ ...newsForm, url: e.target.value })}
                       placeholder="https://example.com/article"
                     />
+                  </div>
+
+                  <div className="space-y-2">
+                    <Label htmlFor="news-image-url">Image URL (optional)</Label>
+                    <Input
+                      id="news-image-url"
+                      value={newsForm.image_url}
+                      onChange={(e) => setNewsForm({ ...newsForm, image_url: e.target.value })}
+                      placeholder="https://example.com/image.jpg"
+                    />
+                    <p className="text-xs text-muted-foreground">
+                      Image will be displayed left-aligned in the headline section
+                    </p>
                   </div>
 
                   <div className="space-y-2">
@@ -541,6 +556,17 @@ const Admin = () => {
                       rows={4}
                       required
                     />
+                  </div>
+
+                  <div className="flex items-center space-x-2">
+                    <Switch
+                      id="news-featured"
+                      checked={newsForm.featured}
+                      onCheckedChange={(checked) =>
+                        setNewsForm({ ...newsForm, featured: checked })
+                      }
+                    />
+                    <Label htmlFor="news-featured">Feature on Market Intelligence page</Label>
                   </div>
 
                   <Button 

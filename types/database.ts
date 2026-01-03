@@ -23,6 +23,8 @@ export interface NewsItem {
   sentiment: 'positive' | 'neutral' | 'negative';
   summary: string;
   url?: string;
+  image_url?: string;
+  featured: boolean;
   published_date: string;
   created_at: string;
 }
@@ -102,6 +104,8 @@ export interface NewsFormData {
   sentiment: 'positive' | 'neutral' | 'negative';
   summary: string;
   url?: string;
+  image_url?: string;
+  featured?: boolean;
   published_date: string;
 }
 
