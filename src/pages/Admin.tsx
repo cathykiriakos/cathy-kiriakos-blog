@@ -77,6 +77,8 @@ const Admin = () => {
     sentiment: 'positive',
     summary: '',
     url: '',
+    image_url: '',
+    featured: false,
     published_date: new Date().toISOString().split('T')[0],
   });
 
@@ -160,6 +162,8 @@ const Admin = () => {
         sentiment: 'positive',
         summary: '',
         url: '',
+        image_url: '',
+        featured: false,
         published_date: new Date().toISOString().split('T')[0],
       });
     },
@@ -522,13 +526,26 @@ const Admin = () => {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="news-url">URL (optional)</Label>
+                    <Label htmlFor="news-url">Article URL (optional)</Label>
                     <Input
                       id="news-url"
                       value={newsForm.url}
                       onChange={(e) => setNewsForm({ ...newsForm, url: e.target.value })}
                       placeholder="https://example.com/article"
                     />
+                  </div>
+
+                  <div className="space-y-2">
+                    <Label htmlFor="news-image-url">Image URL (optional)</Label>
+                    <Input
+                      id="news-image-url"
+                      value={newsForm.image_url}
+                      onChange={(e) => setNewsForm({ ...newsForm, image_url: e.target.value })}
+                      placeholder="https://example.com/image.jpg"
+                    />
+                    <p className="text-xs text-muted-foreground">
+                      Image will be displayed left-aligned in the headline section
+                    </p>
                   </div>
 
                   <div className="space-y-2">
@@ -541,6 +558,17 @@ const Admin = () => {
                       rows={4}
                       required
                     />
+                  </div>
+
+                  <div className="flex items-center space-x-2">
+                    <Switch
+                      id="news-featured"
+                      checked={newsForm.featured}
+                      onCheckedChange={(checked) =>
+                        setNewsForm({ ...newsForm, featured: checked })
+                      }
+                    />
+                    <Label htmlFor="news-featured">Feature on Market Intelligence page</Label>
                   </div>
 
                   <Button 

@@ -11,6 +11,7 @@ import { Button } from '@/components/ui/button';
 import { TrendingUp, Cpu, BarChart3, RefreshCw } from 'lucide-react';
 import { getLatestMarketData, getNewsItems, getMarketDataByDate } from '@/lib/supabase';
 import type { NewsItem, MarketData } from '@/types/database';
+import NewsHeadlines from '@/components/NewsHeadlines';
 import { 
   LineChart, 
   Line, 
@@ -240,6 +241,15 @@ const MarketIntelligence = () => {
             icon={<BarChart3 className="h-5 w-5" />}
           />
         </div>
+
+        {/* Today's Headlines Section */}
+        {newsItems && newsItems.length > 0 && (
+          <NewsHeadlines
+            newsItems={newsItems}
+            maxItems={3}
+            autoSelect={newsItems.filter(item => item.featured).length === 0} // Auto-select if no featured items
+          />
+        )}
 
         {/* Market Cap Breakdown Tables */}
         {filteredMarketData && filteredMarketData.length > 0 && (
