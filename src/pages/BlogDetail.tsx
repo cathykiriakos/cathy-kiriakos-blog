@@ -23,6 +23,34 @@ const BlogDetail = () => {
     enabled: !!slug,
   });
 
+  // Convert Markdown content to HTML - MUST be before any early returns
+  const contentHtml = useMemo(() => {
+    if (!post || !post.content) return '';
+    const content = post.content;
+
+    // Check if content contains HTML tags
+    const looksLikeHtml = /<\/?[a-z][\s\S]*>/i.test(content);
+    if (looksLikeHtml) return content;
+
+    // Check if content appears to use markdown syntax
+    const hasMarkdown = /^#{1,6}\s|^\*\*|^__|\[.*\]\(.*\)|^\* |^\- |^\d+\. |^> /m.test(content);
+
+    if (hasMarkdown) {
+      // Parse as markdown
+      return marked.parse(content || '');
+    } else {
+      // Plain text: preserve line breaks
+      const paragraphs = content.split('\n\n');
+      const htmlContent = paragraphs
+        .map(para => {
+          const withBreaks = para.replace(/\n/g, '<br>');
+          return `<p>${withBreaks}</p>`;
+        })
+        .join('');
+      return htmlContent;
+    }
+  }, [post?.content]);
+
   if (isLoading) {
     return (
       <div className="min-h-screen bg-background">
@@ -66,38 +94,6 @@ const BlogDetail = () => {
   // Calculate read time (roughly 200 words per minute)
   const wordCount = post.content.split(/\s+/).length;
   const readTime = Math.ceil(wordCount / 200);
-
-  // Convert Markdown content to HTML when content appears to be Markdown.
-  // If content already contains HTML tags, render as-is.
-  // Preserves line breaks and spacing for plain text.
-  const contentHtml = useMemo(() => {
-    if (!post || !post.content) return '';
-    const content = post.content;
-
-    // Check if content contains HTML tags
-    const looksLikeHtml = /<\/?[a-z][\s\S]*>/i.test(content);
-    if (looksLikeHtml) return content;
-
-    // Check if content appears to use markdown syntax
-    const hasMarkdown = /^#{1,6}\s|^\*\*|^__|\[.*\]\(.*\)|^\* |^\- |^\d+\. |^> /m.test(content);
-
-    if (hasMarkdown) {
-      // Parse as markdown
-      return marked.parse(content || '');
-    } else {
-      // Plain text: preserve line breaks
-      // Convert double line breaks to paragraphs
-      // Convert single line breaks to <br> tags
-      const paragraphs = content.split('\n\n');
-      const htmlContent = paragraphs
-        .map(para => {
-          const withBreaks = para.replace(/\n/g, '<br>');
-          return `<p>${withBreaks}</p>`;
-        })
-        .join('');
-      return htmlContent;
-    }
-  }, [post?.content]);
 
   return (
     <div className="min-h-screen bg-background">
