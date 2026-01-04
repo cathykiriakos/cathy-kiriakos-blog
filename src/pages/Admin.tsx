@@ -346,6 +346,7 @@ const Admin = () => {
                       <ul className="list-disc list-inside space-y-0.5 ml-2">
                         <li><strong>Formatting toolbar:</strong> Bold, italic, underline, headings, lists, alignment</li>
                         <li><strong>Font choices:</strong> Select different fonts from the dropdown</li>
+                        <li><strong>Import Markdown:</strong> Click "Import MD" to paste Markdown content</li>
                         <li><strong>Auto-format:</strong> Click the "Auto Format" button to clean up spacing</li>
                         <li><strong>Images & Links:</strong> Use the toolbar buttons to add images and links</li>
                         <li><strong>Shortcuts:</strong> Ctrl+B (bold), Ctrl+I (italic), Ctrl+U (underline)</li>
