@@ -16,6 +16,8 @@ const BlogDetail = lazy(() => import("./pages/BlogDetail"));
 const AllPosts = lazy(() => import("./pages/AllPosts"));
 const Innovation = lazy(() => import("./pages/Innovation"));
 const Podcast = lazy(() => import("./pages/Podcast"));
+const Video = lazy(() => import("./pages/Video"));
+const MediaDetail = lazy(() => import("./pages/MediaDetail"));
 const Terms = lazy(() => import("./pages/Terms"));
 const Privacy = lazy(() => import("./pages/Privacy"));
 const Sitemap = lazy(() => import("./pages/Sitemap"));
@@ -46,13 +48,14 @@ const App = () => (
               <Route path="/posts" element={<AllPosts />} />
               <Route path="/innovation" element={<Innovation />} />
               <Route path="/podcast" element={<Podcast />} />
-              
+              <Route path="/video" element={<Video />} />
+
               {/* NEW ROUTES */}
               <Route path="/market-intelligence" element={<MarketIntelligence />} />
               <Route path="/business-technology" element={<BusinessTechnology />} />
               <Route path="/admin" element={<Admin />} />
               <Route path="/test-supabase" element={<TestSupabase />} />
-              
+
               <Route path="/terms" element={<Terms />} />
               <Route path="/privacy" element={<Privacy />} />
               <Route path="/sitemap" element={<Sitemap />} />
@@ -60,6 +63,7 @@ const App = () => (
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/blog/:slug" element={<BlogDetail />} />
+              <Route path="/media/:slug" element={<MediaDetail />} />
               
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />

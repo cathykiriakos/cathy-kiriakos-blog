@@ -2,15 +2,19 @@
 // Supabase client configuration and helper functions
 
 import { createClient } from '@supabase/supabase-js';
-import type { 
-  Post, 
-  NewsItem, 
-  MarketData, 
+import type {
+  Post,
+  NewsItem,
+  MarketData,
   PrivateValuation,
   ContactFormData,
   NewsletterFormData,
   PostFormData,
-  NewsFormData
+  NewsFormData,
+  MediaContent,
+  MediaFormData,
+  SocialMediaPost,
+  SocialMediaFormData
 } from './database';
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || '';
@@ -263,7 +267,7 @@ export const getContactSubmissions = async () => {
 };
 
 export const updateContactStatus = async (
-  id: string, 
+  id: string,
   status: 'unread' | 'read' | 'responded'
 ) => {
   const { data, error } = await supabase
@@ -275,4 +279,143 @@ export const updateContactStatus = async (
 
   if (error) throw error;
   return data;
+};
+
+// ==================== MEDIA CONTENT ====================
+
+export const getMediaContent = async (options?: {
+  media_type?: 'video' | 'podcast' | 'audio';
+  limit?: number;
+  published?: boolean;
+}) => {
+  let query = supabase
+    .from('media_content')
+    .select('*')
+    .order('published_date', { ascending: false });
+
+  if (options?.media_type) {
+    query = query.eq('media_type', options.media_type);
+  }
+
+  if (options?.published !== undefined) {
+    query = query.eq('published', options.published);
+  }
+
+  if (options?.limit) {
+    query = query.limit(options.limit);
+  }
+
+  const { data, error } = await query;
+
+  if (error) throw error;
+  return data as MediaContent[];
+};
+
+export const getMediaBySlug = async (slug: string) => {
+  const { data, error } = await supabase
+    .from('media_content')
+    .select('*')
+    .eq('slug', slug)
+    .eq('published', true)
+    .single();
+
+  if (error) throw error;
+  return data as MediaContent;
+};
+
+export const getFeaturedMedia = async (limit = 3) => {
+  const { data, error } = await supabase
+    .from('media_content')
+    .select('*')
+    .eq('featured', true)
+    .eq('published', true)
+    .order('published_date', { ascending: false })
+    .limit(limit);
+
+  if (error) throw error;
+  return data as MediaContent[];
+};
+
+export const createMedia = async (media: MediaFormData) => {
+  // Generate slug from title
+  const slug = media.title
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
+
+  const { data, error } = await supabase
+    .from('media_content')
+    .insert([{ ...media, slug, published_date: new Date().toISOString() }])
+    .select()
+    .single();
+
+  if (error) throw error;
+  return data as MediaContent;
+};
+
+export const updateMedia = async (id: string, media: Partial<MediaFormData>) => {
+  const { data, error } = await supabase
+    .from('media_content')
+    .update({ ...media, updated_at: new Date().toISOString() })
+    .eq('id', id)
+    .select()
+    .single();
+
+  if (error) throw error;
+  return data as MediaContent;
+};
+
+export const deleteMedia = async (id: string) => {
+  const { error } = await supabase
+    .from('media_content')
+    .delete()
+    .eq('id', id);
+
+  if (error) throw error;
+};
+
+export const incrementViewCount = async (id: string) => {
+  const { error } = await supabase.rpc('increment_view_count', { media_id: id });
+  if (error) console.error('Error incrementing view count:', error);
+};
+
+// ==================== SOCIAL MEDIA ====================
+
+export const getSocialMediaPosts = async (contentId?: string) => {
+  let query = supabase
+    .from('social_media_posts')
+    .select('*')
+    .order('created_at', { ascending: false });
+
+  if (contentId) {
+    query = query.eq('content_id', contentId);
+  }
+
+  const { data, error } = await query;
+
+  if (error) throw error;
+  return data as SocialMediaPost[];
+};
+
+export const createSocialMediaPost = async (post: Partial<SocialMediaPost>) => {
+  const { data, error } = await supabase
+    .from('social_media_posts')
+    .insert([post])
+    .select()
+    .single();
+
+  if (error) throw error;
+  return data as SocialMediaPost;
+};
+
+export const updateSocialMediaPost = async (id: string, post: Partial<SocialMediaPost>) => {
+  const { data, error } = await supabase
+    .from('social_media_posts')
+    .update({ ...post, updated_at: new Date().toISOString() })
+    .eq('id', id)
+    .select()
+    .single();
+
+  if (error) throw error;
+  return data as SocialMediaPost;
 };

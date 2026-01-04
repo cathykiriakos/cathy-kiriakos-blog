@@ -133,3 +133,79 @@ export type PostCategory = typeof POST_CATEGORIES[number];
 // Sentiment options
 export const SENTIMENT_OPTIONS = ['positive', 'neutral', 'negative'] as const;
 export type Sentiment = typeof SENTIMENT_OPTIONS[number];
+
+// Media content types
+export interface MediaContent {
+  id: string;
+  title: string;
+  slug: string;
+  description?: string;
+  media_type: 'video' | 'podcast' | 'audio';
+  hosting_type: 'youtube' | 'vimeo' | 'spotify' | 'soundcloud' | 'self-hosted';
+  embed_url?: string;
+  media_url?: string;
+  duration?: number;
+  thumbnail_url?: string;
+  transcript?: string;
+  show_notes?: string;
+  category?: string;
+  tags?: string[];
+  season?: number;
+  episode_number?: number;
+  published: boolean;
+  featured: boolean;
+  published_date?: string;
+  created_at: string;
+  updated_at: string;
+  view_count: number;
+  download_count: number;
+}
+
+export interface MediaFormData {
+  title: string;
+  description?: string;
+  media_type: 'video' | 'podcast' | 'audio';
+  hosting_type: 'youtube' | 'vimeo' | 'spotify' | 'soundcloud' | 'self-hosted';
+  embed_url?: string;
+  media_url?: string;
+  duration?: number;
+  thumbnail_url?: string;
+  transcript?: string;
+  show_notes?: string;
+  category?: string;
+  tags?: string[];
+  season?: number;
+  episode_number?: number;
+  published: boolean;
+  featured: boolean;
+}
+
+// Social media types
+export interface SocialMediaPost {
+  id: string;
+  content_id?: string;
+  content_type: 'blog' | 'video' | 'podcast';
+  platform: 'twitter' | 'linkedin' | 'facebook' | 'mastodon' | 'bluesky' | 'medium';
+  post_text: string;
+  post_url?: string;
+  status: 'draft' | 'scheduled' | 'published' | 'failed';
+  scheduled_for?: string;
+  published_at?: string;
+  platform_metadata?: any;
+  error_message?: string;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface SocialMediaFormData {
+  content_id?: string;
+  content_type: 'blog' | 'video' | 'podcast';
+  platforms: string[];
+  post_text: string;
+  scheduled_for?: string;
+}
+
+// Media hosting options
+export const MEDIA_TYPES = ['video', 'podcast', 'audio'] as const;
+export const HOSTING_TYPES = ['youtube', 'vimeo', 'spotify', 'soundcloud', 'self-hosted'] as const;
+export const SOCIAL_PLATFORMS = ['twitter', 'linkedin', 'facebook', 'mastodon', 'bluesky', 'medium'] as const;

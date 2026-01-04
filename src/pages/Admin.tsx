@@ -18,7 +18,7 @@ import {
 } from '@/components/ui/select';
 import { Switch } from '@/components/ui/switch';
 import { useToast } from '@/hooks/use-toast';
-import { PlusCircle, Newspaper, Settings, Mail, Pencil, Trash2 } from 'lucide-react';
+import { PlusCircle, Newspaper, Settings, Mail, Pencil, Trash2, Video } from 'lucide-react';
 import {
   createPost,
   updatePost,
@@ -27,10 +27,14 @@ import {
   getPosts,
   getNewsItems,
   getNewsletterSubscribers,
-  getContactSubmissions
+  getContactSubmissions,
+  getMediaContent,
+  createMedia,
+  updateMedia,
+  deleteMedia
 } from '../../types/supabase';
-import { POST_CATEGORIES, SENTIMENT_OPTIONS } from '../../types/database';
-import type { PostFormData, NewsFormData } from '../../types/database';
+import { POST_CATEGORIES, SENTIMENT_OPTIONS, MEDIA_TYPES, HOSTING_TYPES } from '../../types/database';
+import type { PostFormData, NewsFormData, MediaFormData } from '../../types/database';
 import ImageUpload from '@/components/ImageUpload';
 import RichTextEditor from '@/components/RichTextEditor';
 
@@ -60,8 +64,14 @@ const Admin = () => {
     queryFn: getContactSubmissions,
   });
 
+  const { data: allMedia } = useQuery({
+    queryKey: ['adminMedia'],
+    queryFn: () => getMediaContent({ published: undefined }),
+  });
+
   // Form states
   const [editingPostId, setEditingPostId] = useState<string | null>(null);
+  const [editingMediaId, setEditingMediaId] = useState<string | null>(null);
   const [postForm, setPostForm] = useState<PostFormData>({
     title: '',
     category: POST_CATEGORIES[0],
@@ -81,6 +91,25 @@ const Admin = () => {
     image_url: '',
     featured: false,
     published_date: new Date().toISOString().split('T')[0],
+  });
+
+  const [mediaForm, setMediaForm] = useState<MediaFormData>({
+    title: '',
+    description: '',
+    media_type: 'video',
+    hosting_type: 'youtube',
+    embed_url: '',
+    media_url: '',
+    duration: undefined,
+    thumbnail_url: '',
+    transcript: '',
+    show_notes: '',
+    category: '',
+    tags: [],
+    season: undefined,
+    episode_number: undefined,
+    published: false,
+    featured: false,
   });
 
   // Mutations
@@ -177,6 +206,71 @@ const Admin = () => {
     },
   });
 
+  const createMediaMutation = useMutation({
+    mutationFn: createMedia,
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['adminMedia'] });
+      queryClient.invalidateQueries({ queryKey: ['videos'] });
+      queryClient.invalidateQueries({ queryKey: ['podcasts'] });
+      toast({
+        title: 'Success!',
+        description: 'Media created successfully.',
+      });
+      resetMediaForm();
+    },
+    onError: (error: any) => {
+      console.error('Media creation error:', error);
+      toast({
+        title: 'Error',
+        description: error.message || 'Failed to create media.',
+        variant: 'destructive',
+      });
+    },
+  });
+
+  const updateMediaMutation = useMutation({
+    mutationFn: ({ id, data }: { id: string; data: Partial<MediaFormData> }) => updateMedia(id, data),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['adminMedia'] });
+      queryClient.invalidateQueries({ queryKey: ['videos'] });
+      queryClient.invalidateQueries({ queryKey: ['podcasts'] });
+      toast({
+        title: 'Success!',
+        description: 'Media updated successfully.',
+      });
+      resetMediaForm();
+    },
+    onError: (error: any) => {
+      console.error('Media update error:', error);
+      toast({
+        title: 'Error',
+        description: error.message || 'Failed to update media.',
+        variant: 'destructive',
+      });
+    },
+  });
+
+  const deleteMediaMutation = useMutation({
+    mutationFn: deleteMedia,
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['adminMedia'] });
+      queryClient.invalidateQueries({ queryKey: ['videos'] });
+      queryClient.invalidateQueries({ queryKey: ['podcasts'] });
+      toast({
+        title: 'Success!',
+        description: 'Media deleted successfully.',
+      });
+    },
+    onError: (error: any) => {
+      console.error('Media deletion error:', error);
+      toast({
+        title: 'Error',
+        description: error.message || 'Failed to delete media.',
+        variant: 'destructive',
+      });
+    },
+  });
+
   // Helper functions
   const resetPostForm = () => {
     setEditingPostId(null);
@@ -212,6 +306,57 @@ const Admin = () => {
     }
   };
 
+  const resetMediaForm = () => {
+    setEditingMediaId(null);
+    setMediaForm({
+      title: '',
+      description: '',
+      media_type: 'video',
+      hosting_type: 'youtube',
+      embed_url: '',
+      media_url: '',
+      duration: undefined,
+      thumbnail_url: '',
+      transcript: '',
+      show_notes: '',
+      category: '',
+      tags: [],
+      season: undefined,
+      episode_number: undefined,
+      published: false,
+      featured: false,
+    });
+  };
+
+  const handleEditMedia = (media: any) => {
+    setEditingMediaId(media.id);
+    setMediaForm({
+      title: media.title,
+      description: media.description || '',
+      media_type: media.media_type,
+      hosting_type: media.hosting_type,
+      embed_url: media.embed_url || '',
+      media_url: media.media_url || '',
+      duration: media.duration,
+      thumbnail_url: media.thumbnail_url || '',
+      transcript: media.transcript || '',
+      show_notes: media.show_notes || '',
+      category: media.category || '',
+      tags: media.tags || [],
+      season: media.season,
+      episode_number: media.episode_number,
+      published: media.published,
+      featured: media.featured,
+    });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleDeleteMedia = (id: string, title: string) => {
+    if (window.confirm(`Are you sure you want to delete "${title}"?`)) {
+      deleteMediaMutation.mutate(id);
+    }
+  };
+
   // Handlers
   const handlePostSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -227,6 +372,15 @@ const Admin = () => {
     createNewsMutation.mutate(newsForm);
   };
 
+  const handleMediaSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (editingMediaId) {
+      updateMediaMutation.mutate({ id: editingMediaId, data: mediaForm });
+    } else {
+      createMediaMutation.mutate(mediaForm);
+    }
+  };
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -240,10 +394,14 @@ const Admin = () => {
         </div>
 
         <Tabs value={activeTab} onValueChange={setActiveTab}>
-          <TabsList className="grid w-full grid-cols-4">
+          <TabsList className="grid w-full grid-cols-5">
             <TabsTrigger value="posts">
               <PlusCircle className="mr-2 h-4 w-4" />
               Posts
+            </TabsTrigger>
+            <TabsTrigger value="media">
+              <Video className="mr-2 h-4 w-4" />
+              Media
             </TabsTrigger>
             <TabsTrigger value="news">
               <Newspaper className="mr-2 h-4 w-4" />
@@ -441,6 +599,292 @@ const Admin = () => {
                           variant="ghost"
                           size="sm"
                           onClick={() => handleDeletePost(post.id, post.title)}
+                          className="h-8 w-8 p-0 text-destructive hover:text-destructive"
+                        >
+                          <Trash2 className="h-4 w-4" />
+                        </Button>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          </TabsContent>
+
+          {/* Create Media Tab */}
+          <TabsContent value="media" className="space-y-6">
+            <Card>
+              <CardHeader>
+                <div className="flex items-center justify-between">
+                  <div>
+                    <CardTitle>{editingMediaId ? 'Edit Media' : 'Add New Media'}</CardTitle>
+                    <CardDescription>
+                      {editingMediaId ? 'Update your media content' : 'Add videos or podcast episodes'}
+                    </CardDescription>
+                  </div>
+                  {editingMediaId && (
+                    <Button
+                      type="button"
+                      variant="outline"
+                      onClick={resetMediaForm}
+                    >
+                      Cancel Edit
+                    </Button>
+                  )}
+                </div>
+              </CardHeader>
+              <CardContent>
+                <form onSubmit={handleMediaSubmit} className="space-y-6">
+                  {/* Title and Media Type */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="space-y-2">
+                      <Label htmlFor="media-title">Title</Label>
+                      <Input
+                        id="media-title"
+                        value={mediaForm.title}
+                        onChange={(e) => setMediaForm({ ...mediaForm, title: e.target.value })}
+                        placeholder="Enter media title"
+                        required
+                      />
+                    </div>
+
+                    <div className="space-y-2">
+                      <Label htmlFor="media-type">Media Type</Label>
+                      <Select
+                        value={mediaForm.media_type}
+                        onValueChange={(value: any) => setMediaForm({ ...mediaForm, media_type: value })}
+                      >
+                        <SelectTrigger>
+                          <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent>
+                          {MEDIA_TYPES.map((type) => (
+                            <SelectItem key={type} value={type}>
+                              {type.charAt(0).toUpperCase() + type.slice(1)}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
+                  </div>
+
+                  {/* Hosting Type and Embed URL */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="space-y-2">
+                      <Label htmlFor="hosting-type">Hosting Platform</Label>
+                      <Select
+                        value={mediaForm.hosting_type}
+                        onValueChange={(value: any) => setMediaForm({ ...mediaForm, hosting_type: value })}
+                      >
+                        <SelectTrigger>
+                          <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent>
+                          {HOSTING_TYPES.map((type) => (
+                            <SelectItem key={type} value={type}>
+                              {type.charAt(0).toUpperCase() + type.slice(1)}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
+
+                    <div className="space-y-2">
+                      <Label htmlFor="embed-url">Embed/Video URL</Label>
+                      <Input
+                        id="embed-url"
+                        value={mediaForm.embed_url}
+                        onChange={(e) => setMediaForm({ ...mediaForm, embed_url: e.target.value })}
+                        placeholder="https://youtube.com/watch?v=... or https://open.spotify.com/episode/..."
+                      />
+                      <p className="text-xs text-muted-foreground">
+                        Paste the URL from YouTube, Spotify, Vimeo, or SoundCloud
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Thumbnail */}
+                  <ImageUpload
+                    label="Thumbnail (optional)"
+                    currentImageUrl={mediaForm.thumbnail_url}
+                    onUrlChange={(url) => setMediaForm({ ...mediaForm, thumbnail_url: url })}
+                    showUrlInput={true}
+                  />
+
+                  {/* Description */}
+                  <div className="space-y-2">
+                    <Label htmlFor="media-description">Description</Label>
+                    <Textarea
+                      id="media-description"
+                      value={mediaForm.description}
+                      onChange={(e) => setMediaForm({ ...mediaForm, description: e.target.value })}
+                      placeholder="Brief description"
+                      rows={3}
+                    />
+                  </div>
+
+                  {/* Duration, Category, Episode Info */}
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div className="space-y-2">
+                      <Label htmlFor="duration">Duration (seconds)</Label>
+                      <Input
+                        id="duration"
+                        type="number"
+                        value={mediaForm.duration || ''}
+                        onChange={(e) => setMediaForm({ ...mediaForm, duration: e.target.value ? parseInt(e.target.value) : undefined })}
+                        placeholder="e.g., 1800"
+                      />
+                    </div>
+
+                    {mediaForm.media_type === 'podcast' && (
+                      <>
+                        <div className="space-y-2">
+                          <Label htmlFor="season">Season</Label>
+                          <Input
+                            id="season"
+                            type="number"
+                            value={mediaForm.season || ''}
+                            onChange={(e) => setMediaForm({ ...mediaForm, season: e.target.value ? parseInt(e.target.value) : undefined })}
+                            placeholder="e.g., 1"
+                          />
+                        </div>
+
+                        <div className="space-y-2">
+                          <Label htmlFor="episode">Episode</Label>
+                          <Input
+                            id="episode"
+                            type="number"
+                            value={mediaForm.episode_number || ''}
+                            onChange={(e) => setMediaForm({ ...mediaForm, episode_number: e.target.value ? parseInt(e.target.value) : undefined })}
+                            placeholder="e.g., 5"
+                          />
+                        </div>
+                      </>
+                    )}
+
+                    {mediaForm.media_type === 'video' && (
+                      <div className="space-y-2">
+                        <Label htmlFor="video-category">Category</Label>
+                        <Input
+                          id="video-category"
+                          value={mediaForm.category}
+                          onChange={(e) => setMediaForm({ ...mediaForm, category: e.target.value })}
+                          placeholder="e.g., Tutorial, Interview"
+                        />
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Show Notes */}
+                  <div className="space-y-2">
+                    <Label htmlFor="show-notes">Show Notes / Description</Label>
+                    <RichTextEditor
+                      content={mediaForm.show_notes || ''}
+                      onChange={(html) => setMediaForm({ ...mediaForm, show_notes: html })}
+                      placeholder="Add detailed show notes or video description..."
+                    />
+                  </div>
+
+                  {/* Transcript */}
+                  <div className="space-y-2">
+                    <Label htmlFor="transcript">Transcript (optional)</Label>
+                    <Textarea
+                      id="transcript"
+                      value={mediaForm.transcript}
+                      onChange={(e) => setMediaForm({ ...mediaForm, transcript: e.target.value })}
+                      placeholder="Full transcript for accessibility"
+                      rows={5}
+                    />
+                  </div>
+
+                  {/* Publish Options */}
+                  <div className="flex items-center space-x-8">
+                    <div className="flex items-center space-x-2">
+                      <Switch
+                        id="media-published"
+                        checked={mediaForm.published}
+                        onCheckedChange={(checked) =>
+                          setMediaForm({ ...mediaForm, published: checked })
+                        }
+                      />
+                      <Label htmlFor="media-published">Publish immediately</Label>
+                    </div>
+
+                    <div className="flex items-center space-x-2">
+                      <Switch
+                        id="media-featured"
+                        checked={mediaForm.featured}
+                        onCheckedChange={(checked) =>
+                          setMediaForm({ ...mediaForm, featured: checked })
+                        }
+                      />
+                      <Label htmlFor="media-featured">Feature on homepage</Label>
+                    </div>
+                  </div>
+
+                  <Button
+                    type="submit"
+                    className="w-full"
+                    disabled={createMediaMutation.isPending || updateMediaMutation.isPending}
+                  >
+                    {editingMediaId
+                      ? (updateMediaMutation.isPending ? 'Updating...' : 'Update Media')
+                      : (createMediaMutation.isPending ? 'Creating...' : 'Create Media')
+                    }
+                  </Button>
+                </form>
+              </CardContent>
+            </Card>
+
+            {/* Recent Media */}
+            <Card>
+              <CardHeader>
+                <CardTitle>Recent Media</CardTitle>
+                <CardDescription>
+                  {allMedia?.length || 0} total items
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-3">
+                  {allMedia?.map((media) => (
+                    <div
+                      key={media.id}
+                      className="flex items-center justify-between p-3 border border-border rounded-lg hover:bg-accent/50 transition-colors"
+                    >
+                      <div className="flex-1">
+                        <p className="font-medium">{media.title || '(No title)'}</p>
+                        <p className="text-sm text-muted-foreground">
+                          {media.media_type} • {media.hosting_type} • {new Date(media.created_at).toLocaleDateString()}
+                        </p>
+                      </div>
+                      <div className="flex items-center space-x-2">
+                        {media.published && (
+                          <span className="px-2 py-1 bg-green-500/20 text-green-700 dark:text-green-400 text-xs rounded">
+                            Published
+                          </span>
+                        )}
+                        {media.featured && (
+                          <span className="px-2 py-1 bg-blue-500/20 text-blue-700 dark:text-blue-400 text-xs rounded">
+                            Featured
+                          </span>
+                        )}
+                        {!media.published && (
+                          <span className="px-2 py-1 bg-yellow-500/20 text-yellow-700 dark:text-yellow-400 text-xs rounded">
+                            Draft
+                          </span>
+                        )}
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          onClick={() => handleEditMedia(media)}
+                          className="h-8 w-8 p-0"
+                        >
+                          <Pencil className="h-4 w-4" />
+                        </Button>
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          onClick={() => handleDeleteMedia(media.id, media.title)}
                           className="h-8 w-8 p-0 text-destructive hover:text-destructive"
                         >
                           <Trash2 className="h-4 w-4" />
