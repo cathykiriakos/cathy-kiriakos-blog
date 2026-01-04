@@ -34,8 +34,10 @@ import {
   Redo,
   Wand2,
   RemoveFormatting,
+  FileText,
 } from 'lucide-react';
 import { useCallback, useEffect } from 'react';
+import { marked } from 'marked';
 
 interface RichTextEditorProps {
   content: string;
@@ -138,6 +140,24 @@ const RichTextEditor = ({ content, onChange, placeholder = 'Start writing...' }:
       editor.chain().focus().unsetFontFamily().run();
     } else {
       editor.chain().focus().setFontFamily(font).run();
+    }
+  }, [editor]);
+
+  const importMarkdown = useCallback(() => {
+    if (!editor) return;
+
+    const markdown = window.prompt('Paste your Markdown content here:');
+
+    if (markdown) {
+      try {
+        // Convert markdown to HTML
+        const html = marked.parse(markdown);
+        // Set the content in the editor
+        editor.commands.setContent(html);
+      } catch (error) {
+        console.error('Error parsing markdown:', error);
+        alert('Error parsing markdown. Please check your markdown syntax.');
+      }
     }
   }, [editor]);
 
@@ -331,6 +351,17 @@ const RichTextEditor = ({ content, onChange, placeholder = 'Start writing...' }:
 
         {/* Auto Format & Clear */}
         <div className="flex gap-1">
+          <Button
+            type="button"
+            variant="outline"
+            size="sm"
+            onClick={importMarkdown}
+            title="Import Markdown"
+            className="h-8 text-xs px-2"
+          >
+            <FileText className="h-4 w-4 mr-1" />
+            Import MD
+          </Button>
           <Button
             type="button"
             variant="outline"
