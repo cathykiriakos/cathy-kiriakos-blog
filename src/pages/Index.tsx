@@ -1,10 +1,8 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import EditorsPick from '@/components/EditorsPick';
-import TrendingBlock from '@/components/TrendingBlock';
-import MasonryBlock from '@/components/MasonryBlock';
 import BlogGrid from '@/components/BlogGrid';
 import HomeSections from '@/components/HomeSections';
+import heroImage from '@/assets/hero-image.jpg';
 
 const Index = () => {
   return (
@@ -12,17 +10,21 @@ const Index = () => {
       <Header />
       <main id="main-content">
         <div className="container-blog py-16">
-          <HomeSections />
+          <div className="grid grid-cols-1 lg:grid-cols-[2fr_3fr] gap-12 items-start">
+            {/* Left: Profile Image */}
+            <div className="lg:sticky lg:top-24">
+              <img
+                src={heroImage}
+                alt="Cathy Kiriakos"
+                className="w-full h-auto object-cover rounded-lg"
+              />
+            </div>
+            {/* Right: About Me and following sections */}
+            <div>
+              <HomeSections />
+            </div>
+          </div>
         </div>
-        <section aria-labelledby="editors-pick-heading">
-          <EditorsPick />
-        </section>
-        <section aria-labelledby="trending-heading">
-          <TrendingBlock />
-        </section>
-        <section aria-labelledby="masonry-heading">
-          <MasonryBlock />
-        </section>
         <section aria-labelledby="all-posts-heading">
           <BlogGrid />
         </section>
