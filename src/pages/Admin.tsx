@@ -40,10 +40,10 @@ type SectionKey = 'about_me' | 'my_principles' | 'reflections_on_ai' | 'my_resum
 interface HomeSection { section_key: string; content: string; }
 
 const HOME_SECTION_LABELS: { key: SectionKey; label: string }[] = [
-  { key: 'about_me', label: 'About Me' },
-  { key: 'my_principles', label: 'My Principles' },
-  { key: 'reflections_on_ai', label: 'Reflections on AI' },
-  { key: 'my_resume', label: 'My Resume' },
+  { key: 'about_me', label: 'My Journey' },
+  { key: 'my_principles', label: 'Principles for Life & Work' },
+  { key: 'reflections_on_ai', label: 'Agentic Revolution Reflections? How the way we work changes now' },
+  { key: 'my_resume', label: 'Resume' },
 ];
 
 const Admin = () => {
