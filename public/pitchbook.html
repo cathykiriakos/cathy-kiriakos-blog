@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NiData – Automated Data Ingestion Requirements Platform</title>
+  <style>
+    /* ── Reset & base ───────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:        #0b0f1a;
+      --surface:   #111827;
+      --card:      #1a2235;
+      --accent:    #3b82f6;
+      --accent2:   #8b5cf6;
+      --accent3:   #06b6d4;
+      --green:     #10b981;
+      --orange:    #f59e0b;
+      --red:       #ef4444;
+      --text:      #f1f5f9;
+      --muted:     #94a3b8;
+      --border:    rgba(255,255,255,0.08);
+      --glow:      rgba(59,130,246,0.35);
+      --glow2:     rgba(139,92,246,0.35);
+    }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* ── Navigation ─────────────────────────────────────────────────── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0.75rem 2.5rem;
+      background: rgba(11,15,26,0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-logo {
+      font-size: 1.4rem; font-weight: 800; letter-spacing: -0.5px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .nav-links { display: flex; gap: 1.75rem; list-style: none; }
+    .nav-links a {
+      color: var(--muted); text-decoration: none; font-size: 0.85rem;
+      font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--text); }
+    .nav-cta {
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #fff; border: none; padding: 0.5rem 1.25rem;
+      border-radius: 6px; font-weight: 600; font-size: 0.85rem;
+      cursor: pointer; text-decoration: none; transition: opacity 0.2s;
+    }
+    .nav-cta:hover { opacity: 0.85; }
+
+    /* ── Slide layout ───────────────────────────────────────────────── */
+    section {
+      min-height: 100vh;
+      display: flex; flex-direction: column; justify-content: center;
+      padding: 6rem 5vw 4rem;
+      position: relative;
+    }
+    .container { max-width: 1180px; margin: 0 auto; width: 100%; }
+
+    /* ── Utility ────────────────────────────────────────────────────── */
+    .tag {
+      display: inline-block;
+      background: rgba(59,130,246,0.15);
+      color: var(--accent); border: 1px solid rgba(59,130,246,0.4);
+      border-radius: 100px; padding: 0.25rem 0.9rem;
+      font-size: 0.78rem; font-weight: 600; letter-spacing: 0.08em;
+      text-transform: uppercase; margin-bottom: 1rem;
+    }
+    h1 { font-size: clamp(2.4rem, 5vw, 4rem); font-weight: 800; line-height: 1.1; }
+    h2 { font-size: clamp(1.8rem, 3.5vw, 2.8rem); font-weight: 800; line-height: 1.2; }
+    h3 { font-size: 1.2rem; font-weight: 700; }
+    .grad {
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .lead { font-size: 1.15rem; color: var(--muted); max-width: 660px; margin-top: 1rem; }
+    .divider { height: 1px; background: var(--border); margin: 4rem 0; }
+
+    /* ── Glow blobs ─────────────────────────────────────────────────── */
+    .blob {
+      position: absolute; border-radius: 50%; filter: blur(100px);
+      opacity: 0.18; pointer-events: none;
+    }
+    .blob-blue  { width: 600px; height: 600px; background: var(--accent); }
+    .blob-purple{ width: 500px; height: 500px; background: var(--accent2); }
+    .blob-cyan  { width: 400px; height: 400px; background: var(--accent3); }
+
+    /* ── SLIDE 1 – Hero ─────────────────────────────────────────────── */
+    #hero {
+      background: radial-gradient(ellipse 70% 60% at 30% 40%, rgba(59,130,246,0.12) 0%, transparent 70%),
+                  radial-gradient(ellipse 50% 50% at 80% 70%, rgba(139,92,246,0.10) 0%, transparent 70%);
+    }
+    .hero-eyebrow { margin-bottom: 1.5rem; }
+    .hero-title { margin-bottom: 1.5rem; }
+    .hero-sub { font-size: 1.25rem; color: var(--muted); max-width: 680px; margin-bottom: 2.5rem; }
+    .hero-ctas { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #fff; border: none; padding: 0.8rem 2rem;
+      border-radius: 8px; font-weight: 700; font-size: 1rem;
+      cursor: pointer; text-decoration: none;
+      box-shadow: 0 4px 24px var(--glow);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 32px var(--glow2); }
+    .btn-secondary {
+      background: transparent; color: var(--text);
+      border: 1px solid var(--border); padding: 0.8rem 2rem;
+      border-radius: 8px; font-weight: 600; font-size: 1rem;
+      cursor: pointer; text-decoration: none;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .btn-secondary:hover { border-color: var(--accent); background: rgba(59,130,246,0.06); }
+    .hero-badges { display: flex; gap: 0.75rem; margin-top: 2rem; flex-wrap: wrap; }
+    .badge {
+      display: flex; align-items: center; gap: 0.4rem;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 8px; padding: 0.4rem 0.85rem;
+      font-size: 0.82rem; color: var(--muted);
+    }
+    .badge .dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+    .dot-green  { background: var(--green); box-shadow: 0 0 6px var(--green); }
+    .dot-blue   { background: var(--accent); box-shadow: 0 0 6px var(--accent); }
+    .dot-purple { background: var(--accent2); box-shadow: 0 0 6px var(--accent2); }
+
+    /* ── SLIDE 2 – Problem ──────────────────────────────────────────── */
+    #problem { background: var(--surface); }
+    .problem-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 2.5rem; margin-top: 3rem; align-items: center;
+    }
+    .pain-list { list-style: none; display: flex; flex-direction: column; gap: 1.25rem; }
+    .pain-item {
+      display: flex; gap: 1rem; align-items: flex-start;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 1.25rem 1.5rem;
+    }
+    .pain-icon {
+      width: 40px; height: 40px; border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.2rem; flex-shrink: 0;
+    }
+    .pain-icon.red   { background: rgba(239,68,68,0.15); }
+    .pain-icon.amber { background: rgba(245,158,11,0.15); }
+    .pain-icon.teal  { background: rgba(6,182,212,0.15); }
+    .stat-panel {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 2.5rem; text-align: center;
+    }
+    .big-stat { font-size: 4.5rem; font-weight: 900; line-height: 1; }
+    .big-stat.red { color: var(--red); }
+    .stat-label { color: var(--muted); font-size: 1rem; margin-top: 0.5rem; }
+    .vs-arrow {
+      display: flex; align-items: center; gap: 1rem;
+      margin: 1.5rem 0; justify-content: center;
+    }
+    .vs-box {
+      flex: 1; background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border); border-radius: 10px;
+      padding: 1rem; text-align: center;
+    }
+    .vs-box .val { font-size: 1.8rem; font-weight: 800; }
+    .vs-box .lbl { font-size: 0.78rem; color: var(--muted); margin-top: 0.2rem; }
+    .val.bad  { color: var(--red); }
+    .val.good { color: var(--green); }
+    .arrow-icon { font-size: 1.5rem; color: var(--muted); }
+
+    /* ── SLIDE 3 – Solution ─────────────────────────────────────────── */
+    #solution {
+      background: radial-gradient(ellipse 60% 50% at 80% 30%, rgba(139,92,246,0.10) 0%, transparent 70%);
+    }
+    .solution-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem; margin-top: 3rem;
+    }
+    .feat-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 14px; padding: 1.75rem;
+      transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
+    }
+    .feat-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(59,130,246,0.15);
+    }
+    .feat-icon {
+      width: 48px; height: 48px; border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.4rem; margin-bottom: 1rem;
+    }
+    .ic-blue   { background: rgba(59,130,246,0.15); }
+    .ic-purple { background: rgba(139,92,246,0.15); }
+    .ic-cyan   { background: rgba(6,182,212,0.15); }
+    .ic-green  { background: rgba(16,185,129,0.15); }
+    .ic-amber  { background: rgba(245,158,11,0.15); }
+    .feat-card h3 { margin-bottom: 0.5rem; }
+    .feat-card p  { color: var(--muted); font-size: 0.9rem; }
+
+    /* ── SLIDE 4 – Metrics ──────────────────────────────────────────── */
+    #metrics { background: var(--surface); }
+    .metrics-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem; margin-top: 3rem;
+    }
+    .metric-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 14px; padding: 2rem 1.5rem; text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .metric-card::after {
+      content: ''; position: absolute; bottom: 0; left: 0; right: 0;
+      height: 3px;
+    }
+    .metric-card.m-blue::after   { background: var(--accent); }
+    .metric-card.m-purple::after { background: var(--accent2); }
+    .metric-card.m-green::after  { background: var(--green); }
+    .metric-card.m-cyan::after   { background: var(--accent3); }
+    .metric-number {
+      font-size: 3.2rem; font-weight: 900; line-height: 1;
+      margin-bottom: 0.5rem;
+    }
+    .metric-card.m-blue   .metric-number { color: var(--accent); }
+    .metric-card.m-purple .metric-number { color: var(--accent2); }
+    .metric-card.m-green  .metric-number { color: var(--green); }
+    .metric-card.m-cyan   .metric-number { color: var(--accent3); }
+    .metric-label { color: var(--muted); font-size: 0.9rem; }
+    .metric-sub   { font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem; opacity: 0.7; }
+
+    /* ── SLIDE 5 – Pipeline ─────────────────────────────────────────── */
+    #pipeline {
+      background: radial-gradient(ellipse 50% 60% at 20% 60%, rgba(59,130,246,0.09) 0%, transparent 70%);
+    }
+    .pipeline-wrap { margin-top: 3rem; }
+    .pipeline-steps {
+      display: flex; flex-direction: column; gap: 0;
+    }
+    .pipeline-step {
+      display: flex; align-items: flex-start; gap: 1.5rem;
+      padding: 1.5rem 0; position: relative;
+    }
+    .pipeline-step:not(:last-child)::after {
+      content: ''; position: absolute;
+      left: 27px; top: 56px; bottom: 0; width: 2px;
+      background: linear-gradient(to bottom, var(--accent), var(--accent2));
+      opacity: 0.4;
+    }
+    .step-num {
+      width: 56px; height: 56px; border-radius: 50%; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem; font-weight: 800; z-index: 1;
+    }
+    .step-body { flex: 1; background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 1.25rem 1.5rem; }
+    .step-body h3 { margin-bottom: 0.35rem; }
+    .step-body p  { color: var(--muted); font-size: 0.88rem; }
+    .step-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.6rem; }
+    .step-tag {
+      background: rgba(255,255,255,0.06); border: 1px solid var(--border);
+      border-radius: 4px; padding: 0.15rem 0.55rem;
+      font-size: 0.72rem; color: var(--muted);
+    }
+    /* colours per step */
+    .sn1 { background: linear-gradient(135deg,#3b82f6,#2563eb); color:#fff; }
+    .sn2 { background: linear-gradient(135deg,#8b5cf6,#7c3aed); color:#fff; }
+    .sn3 { background: linear-gradient(135deg,#06b6d4,#0891b2); color:#fff; }
+    .sn4 { background: linear-gradient(135deg,#10b981,#059669); color:#fff; }
+    .sn5 { background: linear-gradient(135deg,#f59e0b,#d97706); color:#fff; }
+    .sn6 { background: linear-gradient(135deg,#ef4444,#dc2626); color:#fff; }
+    .sn7 { background: linear-gradient(135deg,#a855f7,#9333ea); color:#fff; }
+    /* 2-col layout for steps */
+    .pipeline-cols {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 3rem;
+    }
+    .pipeline-col-steps { display: flex; flex-direction: column; gap: 0; }
+
+    /* ── SLIDE 6 – Architecture ─────────────────────────────────────── */
+    #architecture { background: var(--surface); }
+    .arch-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 3rem; margin-top: 3rem; align-items: start;
+    }
+    .arch-layer {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 1.25rem 1.5rem; margin-bottom: 0.75rem;
+      display: flex; align-items: center; gap: 1rem;
+    }
+    .arch-layer-icon {
+      width: 40px; height: 40px; border-radius: 8px;
+      display: flex; align-items: center; justify-content: center; font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+    .arch-connector {
+      display: flex; justify-content: center; color: var(--muted);
+      font-size: 1.2rem; margin: -0.2rem 0; opacity: 0.6;
+    }
+    .deploy-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .deploy-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 14px; padding: 1.5rem;
+    }
+    .deploy-card h3 { margin-bottom: 0.75rem; }
+    .deploy-card ul { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .deploy-card ul li { color: var(--muted); font-size: 0.88rem; }
+    .deploy-card ul li::before { content: '✓ '; color: var(--green); }
+    .deploy-pill {
+      display: inline-block; border-radius: 5px; padding: 0.2rem 0.6rem;
+      font-size: 0.75rem; font-weight: 700; margin-bottom: 0.6rem;
+    }
+    .dp-databricks { background: rgba(255,165,0,0.15); color: #fbbf24; }
+    .dp-docker     { background: rgba(6,182,212,0.15);  color: var(--accent3); }
+
+    /* ── SLIDE 7 – Agents ───────────────────────────────────────────── */
+    #agents {
+      background: radial-gradient(ellipse 60% 50% at 70% 40%, rgba(139,92,246,0.09) 0%, transparent 70%);
+    }
+    .agents-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.25rem; margin-top: 3rem;
+    }
+    .agent-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 1.25rem 1.5rem;
+      display: flex; gap: 1rem; align-items: flex-start;
+      transition: border-color 0.2s;
+    }
+    .agent-card:hover { border-color: var(--accent2); }
+    .agent-num {
+      width: 36px; height: 36px; border-radius: 50%; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.8rem; font-weight: 800;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #fff;
+    }
+    .agent-card h3 { font-size: 1rem; margin-bottom: 0.25rem; }
+    .agent-card p  { color: var(--muted); font-size: 0.82rem; }
+
+    /* ── SLIDE 8 – CTA ──────────────────────────────────────────────── */
+    #cta {
+      background: radial-gradient(ellipse 80% 60% at 50% 50%,
+        rgba(59,130,246,0.15) 0%, rgba(139,92,246,0.10) 40%, transparent 70%);
+      text-align: center;
+    }
+    #cta h2 { font-size: clamp(2rem, 4vw, 3.2rem); margin-bottom: 1rem; }
+    #cta .lead { margin: 0 auto 2.5rem; }
+    .cta-stack { display: flex; flex-direction: column; align-items: center; gap: 1.5rem; }
+    .cta-btns  { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+    .cta-note  { color: var(--muted); font-size: 0.85rem; }
+    .deploy-row {
+      display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;
+      margin-top: 1.5rem;
+    }
+    .deploy-opt {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 1.25rem 2rem; text-align: center; min-width: 200px;
+    }
+    .deploy-opt .d-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+    .deploy-opt h3 { font-size: 1rem; margin-bottom: 0.25rem; }
+    .deploy-opt p  { color: var(--muted); font-size: 0.82rem; }
+
+    /* ── Footer ─────────────────────────────────────────────────────── */
+    footer {
+      background: var(--surface); border-top: 1px solid var(--border);
+      padding: 2rem 5vw; display: flex; justify-content: space-between;
+      align-items: center; flex-wrap: wrap; gap: 1rem;
+    }
+    footer .logo {
+      font-size: 1.2rem; font-weight: 800;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    footer .copy { color: var(--muted); font-size: 0.82rem; }
+
+    /* ── Animations ─────────────────────────────────────────────────── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(28px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes pulse {
+      0%,100% { opacity: 0.18; }
+      50%      { opacity: 0.28; }
+    }
+    .animate { opacity: 0; animation: fadeUp 0.6s ease forwards; }
+    .blob { animation: pulse 6s ease-in-out infinite; }
+    .delay-1 { animation-delay: 0.1s; }
+    .delay-2 { animation-delay: 0.2s; }
+    .delay-3 { animation-delay: 0.35s; }
+    .delay-4 { animation-delay: 0.5s; }
+    .delay-5 { animation-delay: 0.65s; }
+
+    /* ── Responsive ─────────────────────────────────────────────────── */
+    @media (max-width: 768px) {
+      nav { padding: 0.75rem 1.25rem; }
+      .nav-links { display: none; }
+      section { padding: 5rem 1.25rem 3rem; }
+      .problem-grid, .arch-grid, .pipeline-cols { grid-template-columns: 1fr; }
+      .deploy-cards { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Navigation ───────────────────────────────────────────────────── -->
+<nav>
+  <span class="nav-logo">NiData</span>
+  <ul class="nav-links">
+    <li><a href="#problem">Problem</a></li>
+    <li><a href="#solution">Solution</a></li>
+    <li><a href="#metrics">Impact</a></li>
+    <li><a href="#pipeline">Pipeline</a></li>
+    <li><a href="#architecture">Architecture</a></li>
+    <li><a href="#agents">Agents</a></li>
+  </ul>
+  <a class="nav-cta" href="#cta">Get Started</a>
+</nav>
+
+<!-- ── SLIDE 1 – Hero ───────────────────────────────────────────────── -->
+<section id="hero">
+  <div class="blob blob-blue" style="top:-100px;left:-150px;"></div>
+  <div class="blob blob-purple" style="bottom:-80px;right:-100px;"></div>
+  <div class="container">
+    <div class="hero-eyebrow animate">
+      <span class="tag">Enterprise AI Platform · February 2026</span>
+    </div>
+    <h1 class="hero-title animate delay-1">
+      Data Ingestion Requirements<br>
+      <span class="grad">Redefined by AI</span>
+    </h1>
+    <p class="hero-sub animate delay-2">
+      NiData transforms manual data ingestion requirements gathering from a
+      <strong style="color:var(--text)">2–3 week</strong> process into
+      <strong style="color:var(--green)">2 hours</strong> — delivering
+      <strong style="color:var(--text)">98% efficiency gains</strong> through
+      a 15-agent AI-powered automation platform.
+    </p>
+    <div class="hero-ctas animate delay-3">
+      <a class="btn-primary" href="#solution">See How It Works</a>
+      <a class="btn-secondary" href="#cta">Deploy Now</a>
+    </div>
+    <div class="hero-badges animate delay-4">
+      <span class="badge"><span class="dot dot-green"></span>Multi-Agent Delivery Pipeline</span>
+      <span class="badge"><span class="dot dot-blue"></span>Databricks &amp; Docker</span>
+      <span class="badge"><span class="dot dot-purple"></span>BI Metadata Intelligence</span>
+      <span class="badge"><span class="dot dot-green"></span>PII Detection &amp; Masking</span>
+      <span class="badge"><span class="dot dot-blue"></span>Knowledge Graph Context</span>
+    </div>
+  </div>
+</section>
+
+<!-- ── SLIDE 2 – Problem ─────────────────────────────────────────────── -->
+<section id="problem">
+  <div class="container">
+    <span class="tag animate">The Problem</span>
+    <h2 class="animate delay-1">Manual Requirements Gathering<br>is <span class="grad">Broken</span></h2>
+    <div class="problem-grid">
+      <ul class="pain-list">
+        <li class="pain-item animate delay-2">
+          <div class="pain-icon red">⏳</div>
+          <div>
+            <h3>2–3 Week Timelines</h3>
+            <p style="color:var(--muted);font-size:0.9rem;margin-top:0.3rem">
+              Manual requirements capture from spreadsheets, emails, and meetings creates weeks of back-and-forth before a single line of code is written.
+            </p>
+          </div>
+        </li>
+        <li class="pain-item animate delay-3">
+          <div class="pain-icon amber">🔁</div>
+          <div>
+            <h3>Inconsistent Documentation</h3>
+            <p style="color:var(--muted);font-size:0.9rem;margin-top:0.3rem">
+              Every analyst documents differently. Requirements drift, critical BI logic gets lost, and PII risks go undetected until it's too late.
+            </p>
+          </div>
+        </li>
+        <li class="pain-item animate delay-4">
+          <div class="pain-icon teal">🔍</div>
+          <div>
+            <h3>No End-to-End Lineage</h3>
+            <p style="color:var(--muted);font-size:0.9rem;margin-top:0.3rem">
+              Tracing data from source systems to Tableau dashboards or Power BI reports requires multiple tools, months of tribal knowledge, and guesswork.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <div class="stat-panel animate delay-2">
+        <div class="big-stat red">2–3</div>
+        <div class="stat-label">weeks per ingestion requirement (before NiData)</div>
+        <div class="vs-arrow">
+          <div class="vs-box">
+            <div class="val bad">3 weeks</div>
+            <div class="lbl">Manual process</div>
+          </div>
+          <div class="arrow-icon">→</div>
+          <div class="vs-box">
+            <div class="val good">2 hours</div>
+            <div class="lbl">With NiData</div>
+          </div>
+        </div>
+        <p style="color:var(--muted);font-size:0.88rem;margin-top:0.5rem">
+          Automated extraction, structuring, and artifact generation — no more spreadsheet archaeology.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SLIDE 3 – Solution ────────────────────────────────────────────── -->
+<section id="solution">
+  <div class="blob blob-purple" style="top:10%;right:-200px;"></div>
+  <div class="container">
+    <span class="tag animate">The Solution</span>
+    <h2 class="animate delay-1">One Platform. <span class="grad">Complete Automation.</span></h2>
+    <p class="lead animate delay-2">
+      NiData combines a 7-agent delivery pipeline, 8 BI-enhanced AI agents, knowledge graph context, and enterprise-grade BI integrations into a single, deployable platform.
+    </p>
+    <div class="solution-grid">
+      <div class="feat-card animate delay-2">
+        <div class="feat-icon ic-blue">🤖</div>
+        <h3>7-Agent Delivery Pipeline</h3>
+        <p>Sequential AI chain producing SQL DDL, pytest test suites, Markdown summaries, and SDLC artifacts — not raw JSON.</p>
+      </div>
+      <div class="feat-card animate delay-3">
+        <div class="feat-icon ic-purple">🧠</div>
+        <h3>BI Metadata Intelligence</h3>
+        <p>Direct extraction from Tableau PostgreSQL repositories and Power BI XMLA endpoints — DAX, LOD expressions, calculated fields preserved.</p>
+      </div>
+      <div class="feat-card animate delay-4">
+        <div class="feat-icon ic-cyan">🕸️</div>
+        <h3>Knowledge Graph Context</h3>
+        <p>Graph-based long-term memory with multi-hop impact analysis and end-to-end lineage from source to BI visualization.</p>
+      </div>
+      <div class="feat-card animate delay-2">
+        <div class="feat-icon ic-green">🛡️</div>
+        <h3>PII Detection &amp; Masking</h3>
+        <p>Automated PII identification with configurable masking strategies: HASH, TOKENIZE, REDACT, and ENCRYPT.</p>
+      </div>
+      <div class="feat-card animate delay-3">
+        <div class="feat-icon ic-amber">📊</div>
+        <h3>Gold Layer Reconciliation</h3>
+        <p>Automated testing between BI report calculations and source data — closing the loop on data quality validation.</p>
+      </div>
+      <div class="feat-card animate delay-4">
+        <div class="feat-icon ic-blue">🔄</div>
+        <h3>Feedback Loop / Miss Analysis</h3>
+        <p>Continuous improvement mechanism that logs validation failures and user feedback to improve future pipeline runs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SLIDE 4 – Metrics ─────────────────────────────────────────────── -->
+<section id="metrics">
+  <div class="container">
+    <span class="tag animate">Business Impact</span>
+    <h2 class="animate delay-1">Measurable Results, <span class="grad">Immediately</span></h2>
+    <div class="metrics-grid">
+      <div class="metric-card m-blue animate delay-2">
+        <div class="metric-number">98%</div>
+        <div class="metric-label">Time Savings</div>
+        <div class="metric-sub">Requirements gathered in 2 hrs vs 2–3 weeks</div>
+      </div>
+      <div class="metric-card m-purple animate delay-3">
+        <div class="metric-number">15</div>
+        <div class="metric-label">AI Agents</div>
+        <div class="metric-sub">7 delivery + 8 BI-enhanced agents working in sequence</div>
+      </div>
+      <div class="metric-card m-green animate delay-4">
+        <div class="metric-number">26</div>
+        <div class="metric-label">Database Tables</div>
+        <div class="metric-sub">Fully configured schema deployed automatically</div>
+      </div>
+      <div class="metric-card m-cyan animate delay-5">
+        <div class="metric-number">2</div>
+        <div class="metric-label">Deploy Targets</div>
+        <div class="metric-sub">Databricks (Unity Catalog) or Docker (PostgreSQL)</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SLIDE 5 – Pipeline ────────────────────────────────────────────── -->
+<section id="pipeline">
+  <div class="container">
+    <span class="tag animate">7-Agent Delivery Pipeline</span>
+    <h2 class="animate delay-1">From Use Case to <span class="grad">Production Artifacts</span></h2>
+    <p class="lead animate delay-2">
+      Each agent in the sequential chain receives the full output of its predecessor, building context progressively to produce production-ready, actionable deliverables.
+    </p>
+    <div class="pipeline-cols animate delay-3">
+      <div class="pipeline-col-steps">
+        <div class="pipeline-step">
+          <div class="step-num sn1">1</div>
+          <div class="step-body">
+            <h3>Assessment &amp; Discovery</h3>
+            <p>Ingests BI requirements, scores completeness, and identifies gaps before any design begins.</p>
+            <div class="step-tags">
+              <span class="step-tag">Gap analysis</span>
+              <span class="step-tag">Completeness scoring</span>
+            </div>
+          </div>
+        </div>
+        <div class="pipeline-step">
+          <div class="step-num sn2">2</div>
+          <div class="step-body">
+            <h3>Data Architect</h3>
+            <p>Designs Medallion architecture with networking, security, RBAC, PII strategy, and NFRs.</p>
+            <div class="step-tags">
+              <span class="step-tag">Medallion design</span>
+              <span class="step-tag">RBAC</span>
+              <span class="step-tag">NFRs</span>
+            </div>
+          </div>
+        </div>
+        <div class="pipeline-step">
+          <div class="step-num sn3">3</div>
+          <div class="step-body">
+            <h3>Data Modeling</h3>
+            <p>Produces conceptual and physical models with dimensions (SCD), facts, and grain definitions.</p>
+            <div class="step-tags">
+              <span class="step-tag">SCD types</span>
+              <span class="step-tag">Fact tables</span>
+              <span class="step-tag">Grain</span>
+            </div>
+          </div>
+        </div>
+        <div class="pipeline-step">
+          <div class="step-num sn4">4</div>
+          <div class="step-body">
+            <h3>Senior Data Engineering</h3>
+            <p>Generates PII masking SQL, Bronze/Silver/Gold transformations, pipeline configs, and lineage.</p>
+            <div class="step-tags">
+              <span class="step-tag">SQL DDL</span>
+              <span class="step-tag">Medallion layers</span>
+              <span class="step-tag">Lineage</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pipeline-col-steps">
+        <div class="pipeline-step">
+          <div class="step-num sn5">5</div>
+          <div class="step-body">
+            <h3>Quality Engineering</h3>
+            <p>Delivers DQ test suite, DDL validation, BI reconciliation tests, and PII masking verification.</p>
+            <div class="step-tags">
+              <span class="step-tag">pytest suites</span>
+              <span class="step-tag">BI reconciliation</span>
+            </div>
+          </div>
+        </div>
+        <div class="pipeline-step">
+          <div class="step-num sn6">6</div>
+          <div class="step-body">
+            <h3>BSA Agent</h3>
+            <p>Generates full SDLC artifacts: Epics, Features, User Stories, and Spikes aligned to delivery.</p>
+            <div class="step-tags">
+              <span class="step-tag">Epics</span>
+              <span class="step-tag">User Stories</span>
+              <span class="step-tag">Spikes</span>
+            </div>
+          </div>
+        </div>
+        <div class="pipeline-step">
+          <div class="step-num sn7">7</div>
+          <div class="step-body">
+            <h3>Review &amp; Summary</h3>
+            <p>Final audit and alignment scoring. Produces a "Path to 100% Alignment" report for stakeholders.</p>
+            <div class="step-tags">
+              <span class="step-tag">Alignment score</span>
+              <span class="step-tag">Audit report</span>
+            </div>
+          </div>
+        </div>
+        <div class="pipeline-step" style="padding-bottom:0;">
+          <div class="step-num" style="background:var(--card);border:1px solid var(--border);color:var(--muted);">📦</div>
+          <div class="step-body" style="background:rgba(59,130,246,0.07);border-color:rgba(59,130,246,0.3);">
+            <h3 style="color:var(--accent)">Artifacts Delivered</h3>
+            <p>SQL DDL scripts · pytest test suites · Markdown summaries · SDLC artifacts</p>
+            <div class="step-tags">
+              <span class="step-tag" style="border-color:rgba(59,130,246,0.4);color:var(--accent)">Streamlit Viewer</span>
+              <span class="step-tag" style="border-color:rgba(59,130,246,0.4);color:var(--accent)">Download Support</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SLIDE 6 – Architecture ─────────────────────────────────────────── -->
+<section id="architecture">
+  <div class="container">
+    <span class="tag animate">Architecture</span>
+    <h2 class="animate delay-1">Built for <span class="grad">Enterprise Scale</span></h2>
+    <div class="arch-grid animate delay-2">
+      <!-- Left: layered stack -->
+      <div>
+        <div class="arch-layer">
+          <div class="arch-layer-icon ic-blue">🖥️</div>
+          <div>
+            <h3 style="font-size:1rem;">Streamlit Web UI</h3>
+            <p style="color:var(--muted);font-size:0.83rem;">Use case capture, artifact viewer, bulk CSV loader</p>
+          </div>
+        </div>
+        <div class="arch-connector">↕</div>
+        <div class="arch-layer">
+          <div class="arch-layer-icon ic-purple">🤖</div>
+          <div>
+            <h3 style="font-size:1rem;">AI Agent Framework</h3>
+            <p style="color:var(--muted);font-size:0.83rem;">8 BI-enhanced agents + 7-agent delivery pipeline</p>
+          </div>
+        </div>
+        <div class="arch-connector">↕</div>
+        <div class="arch-layer">
+          <div class="arch-layer-icon ic-cyan">🕸️</div>
+          <div>
+            <h3 style="font-size:1rem;">Knowledge Graph Layer</h3>
+            <p style="color:var(--muted);font-size:0.83rem;">Entity relationships, lineage, multi-hop impact analysis</p>
+          </div>
+        </div>
+        <div class="arch-connector">↕</div>
+        <div class="arch-layer">
+          <div class="arch-layer-icon ic-green">🗄️</div>
+          <div>
+            <h3 style="font-size:1rem;">Database Layer</h3>
+            <p style="color:var(--muted);font-size:0.83rem;">Unity Catalog (Delta Lake) or PostgreSQL — 26 tables</p>
+          </div>
+        </div>
+        <div class="arch-connector">↕</div>
+        <div class="arch-layer">
+          <div class="arch-layer-icon ic-amber">📊</div>
+          <div>
+            <h3 style="font-size:1rem;">BI Platform Connectors</h3>
+            <p style="color:var(--muted);font-size:0.83rem;">Tableau PostgreSQL · Power BI XMLA · TWB/TWBX parsing</p>
+          </div>
+        </div>
+      </div>
+      <!-- Right: deployment options -->
+      <div>
+        <h3 style="margin-bottom:1.25rem;color:var(--muted);font-weight:600;font-size:0.9rem;text-transform:uppercase;letter-spacing:0.08em;">Dual Deployment Options</h3>
+        <div class="deploy-cards">
+          <div class="deploy-card">
+            <div class="deploy-pill dp-databricks">☁️ Databricks</div>
+            <h3>Cloud-Native</h3>
+            <ul>
+              <li>Unity Catalog governance</li>
+              <li>Delta Lake format</li>
+              <li>Auto-scaling compute</li>
+              <li>Managed infrastructure</li>
+              <li>Foundation Model endpoints</li>
+              <li>Secret scope management</li>
+            </ul>
+          </div>
+          <div class="deploy-card">
+            <div class="deploy-pill dp-docker">🐳 Docker</div>
+            <h3>On-Premises</h3>
+            <ul>
+              <li>PostgreSQL backend</li>
+              <li>docker-compose setup</li>
+              <li>Platform-agnostic</li>
+              <li>Fixed infra costs</li>
+              <li>OpenAI / Anthropic APIs</li>
+              <li>Full infrastructure control</li>
+            </ul>
+          </div>
+        </div>
+        <div style="background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.25rem 1.5rem;margin-top:1rem;">
+          <h3 style="font-size:1rem;margin-bottom:0.5rem;">BI Integrations</h3>
+          <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.75rem;">
+            <span class="step-tag" style="font-size:0.8rem;padding:0.3rem 0.75rem;">Tableau TWB/TWBX</span>
+            <span class="step-tag" style="font-size:0.8rem;padding:0.3rem 0.75rem;">Power BI DAX</span>
+            <span class="step-tag" style="font-size:0.8rem;padding:0.3rem 0.75rem;">LOD Expressions</span>
+            <span class="step-tag" style="font-size:0.8rem;padding:0.3rem 0.75rem;">XMLA Endpoints</span>
+            <span class="step-tag" style="font-size:0.8rem;padding:0.3rem 0.75rem;">Tableau PostgreSQL</span>
+            <span class="step-tag" style="font-size:0.8rem;padding:0.3rem 0.75rem;">Source-to-Viz Maps</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SLIDE 7 – Agents ──────────────────────────────────────────────── -->
+<section id="agents">
+  <div class="blob blob-cyan" style="bottom:-100px;left:-100px;"></div>
+  <div class="container">
+    <span class="tag animate">8 BI-Enhanced AI Agents</span>
+    <h2 class="animate delay-1">Intelligence at Every <span class="grad">Layer</span></h2>
+    <p class="lead animate delay-2">
+      Each agent is BI-aware, graph-informed, and PII-sensitive — operating as part of a coordinated system rather than an isolated tool.
+    </p>
+    <div class="agents-grid animate delay-3">
+      <div class="agent-card">
+        <div class="agent-num">1</div>
+        <div>
+          <h3>Requirements Analyzer</h3>
+          <p>Extracts requirements with BI metadata blending — DAX measures, LOD expressions, calculated fields.</p>
+        </div>
+      </div>
+      <div class="agent-card">
+        <div class="agent-num">2</div>
+        <div>
+          <h3>Architecture Designer</h3>
+          <p>Designs system architecture using graph-informed context from the knowledge layer.</p>
+        </div>
+      </div>
+      <div class="agent-card">
+        <div class="agent-num">3</div>
+        <div>
+          <h3>Code Generator</h3>
+          <p>Generates ETL and transformation code with full BI logic preservation.</p>
+        </div>
+      </div>
+      <div class="agent-card">
+        <div class="agent-num">4</div>
+        <div>
+          <h3>Test Case Generator</h3>
+          <p>Creates tests including Gold Layer reconciliation against live BI report outputs.</p>
+        </div>
+      </div>
+      <div class="agent-card">
+        <div class="agent-num">5</div>
+        <div>
+          <h3>Documentation Generator</h3>
+          <p>Generates technical documentation with lineage visualizations embedded.</p>
+        </div>
+      </div>
+      <div class="agent-card">
+        <div class="agent-num">6</div>
+        <div>
+          <h3>Quality Validator</h3>
+          <p>Validates data quality with automated PII detection and configurable masking strategies.</p>
+        </div>
+      </div>
+      <div class="agent-card">
+        <div class="agent-num">7</div>
+        <div>
+          <h3>Lineage Mapper</h3>
+          <p>Maps end-to-end data lineage from source systems to BI visualizations.</p>
+        </div>
+      </div>
+      <div class="agent-card">
+        <div class="agent-num">8</div>
+        <div>
+          <h3>Impact Analyzer</h3>
+          <p>Multi-hop graph traversal for comprehensive change impact analysis across the data estate.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SLIDE 8 – CTA ─────────────────────────────────────────────────── -->
+<section id="cta">
+  <div class="blob blob-blue"  style="top:-100px;left:-100px;"></div>
+  <div class="blob blob-purple" style="bottom:-100px;right:-100px;"></div>
+  <div class="container cta-stack">
+    <span class="tag animate">Get Started</span>
+    <h2 class="animate delay-1">
+      Ready to Reclaim <span class="grad">2–3 Weeks</span><br>Per Project?
+    </h2>
+    <p class="lead animate delay-2">
+      Deploy NiData in minutes on your infrastructure of choice. The same AI-powered automation, your environment, your data.
+    </p>
+    <div class="cta-btns animate delay-3">
+      <a class="btn-primary" href="https://github.com/cathykiriakos/NiData" target="_blank" rel="noopener">View on GitHub</a>
+      <a class="btn-secondary" href="../README.md">Read the Docs</a>
+    </div>
+    <div class="deploy-row animate delay-4">
+      <div class="deploy-opt">
+        <div class="d-icon">☁️</div>
+        <h3>Databricks</h3>
+        <p>Cloud-native · Unity Catalog · Auto-scaling</p>
+      </div>
+      <div class="deploy-opt">
+        <div class="d-icon">🐳</div>
+        <h3>Docker</h3>
+        <p>On-premises · PostgreSQL · docker-compose up</p>
+      </div>
+    </div>
+    <p class="cta-note animate delay-5">Open source. MIT License. Dual deployment — no vendor lock-in.</p>
+  </div>
+</section>
+
+<!-- ── Footer ────────────────────────────────────────────────────────── -->
+<footer>
+  <span class="logo">NiData</span>
+  <span class="copy">Automated Data Ingestion Requirements Platform · 2026</span>
+  <span class="copy" style="font-size:0.75rem;opacity:0.6;">Built with 15 AI agents · Databricks &amp; Docker</span>
+</footer>
+
+<script>
+  /* Intersection Observer for scroll-triggered animations */
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.querySelectorAll('.animate').forEach(el => {
+          el.style.animationPlayState = 'running';
+        });
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('section').forEach(s => io.observe(s));
+
+  /* Pause animations until in view */
+  document.querySelectorAll('.animate').forEach(el => {
+    el.style.animationPlayState = 'paused';
+  });
+  /* Hero animates immediately */
+  document.querySelectorAll('#hero .animate').forEach(el => {
+    el.style.animationPlayState = 'running';
+  });
+
+  /* Smooth active nav link highlight */
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-links a');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => {
+      if (window.scrollY >= s.offsetTop - 120) current = s.id;
+    });
+    navLinks.forEach(a => {
+      a.style.color = a.getAttribute('href') === '#' + current
+        ? 'var(--text)' : '';
+    });
+  }, { passive: true });
+</script>
+</body>
+</html>

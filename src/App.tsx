@@ -25,6 +25,7 @@ const Contact = lazy(() => import("./pages/Contact"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 // NEW PAGES
+const NiData = lazy(() => import("./pages/NiData.tsx"));
 const MarketIntelligence = lazy(() => import("./pages/MarketIntelligence.tsx"));
 const Admin = lazy(() => import("./pages/Admin.tsx"));
 const BusinessTechnology = lazy(() => import("./pages/BusinessTechnology.tsx"));
@@ -48,6 +49,7 @@ const App = () => (
               <Route path="/podcast" element={<Podcast />} />
               
               {/* NEW ROUTES */}
+              <Route path="/ni-data" element={<NiData />} />
               <Route path="/market-intelligence" element={<MarketIntelligence />} />
               <Route path="/business-technology" element={<BusinessTechnology />} />
               <Route path="/admin" element={<Admin />} />
