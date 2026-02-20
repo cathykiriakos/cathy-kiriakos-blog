@@ -35,7 +35,7 @@ const SectionBlock = ({
   <section id={id} className="mb-10">
     <h2 className="text-5xl font-bold text-foreground leading-tight mb-4">{title}</h2>
     <div
-      className="prose prose-neutral dark:prose-invert max-w-none text-base text-muted-foreground leading-relaxed"
+      className="rich-content text-base text-muted-foreground"
       dangerouslySetInnerHTML={{ __html: content }}
     />
   </section>
