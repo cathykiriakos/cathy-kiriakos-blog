@@ -5,6 +5,7 @@ import EditorsPick from '@/components/EditorsPick';
 import TrendingBlock from '@/components/TrendingBlock';
 import MasonryBlock from '@/components/MasonryBlock';
 import BlogGrid from '@/components/BlogGrid';
+import HomeSections from '@/components/HomeSections';
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
       <Header />
       <main id="main-content">
         <DefaultFeaturedArticle />
+        <HomeSections />
         <section aria-labelledby="editors-pick-heading">
           <EditorsPick />
         </section>
@@ -31,3 +33,4 @@ const Index = () => {
 };
 
 export default Index;
+
