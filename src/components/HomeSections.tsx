@@ -34,17 +34,10 @@ const SectionBlock = ({
 }) => (
   <section id={id} className="mb-10">
     <h2 className="featured-title mb-4">{title}</h2>
-    <div className="prose prose-neutral dark:prose-invert max-w-none">
-      {content.split('\n').map((line, i) =>
-        line.trim() === '' ? (
-          <br key={i} />
-        ) : (
-          <p key={i} className="text-base text-muted-foreground leading-relaxed mb-3">
-            {line}
-          </p>
-        )
-      )}
-    </div>
+    <div
+      className="prose prose-neutral dark:prose-invert max-w-none text-base text-muted-foreground leading-relaxed"
+      dangerouslySetInnerHTML={{ __html: content }}
+    />
   </section>
 );
 
