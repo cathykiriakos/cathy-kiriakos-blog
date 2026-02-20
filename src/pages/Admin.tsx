@@ -327,18 +327,13 @@ const Admin = () => {
               <CardContent className="space-y-8">
                 {HOME_SECTION_LABELS.map(({ key, label }) => (
                   <div key={key} className="space-y-3">
-                    <Label htmlFor={`section-${key}`} className="text-base font-semibold">
-                      {label}
-                    </Label>
-                    <Textarea
-                      id={`section-${key}`}
-                      value={getSectionContent(key)}
-                      onChange={(e) =>
-                        setSectionDrafts((prev) => ({ ...prev, [key]: e.target.value }))
+                    <Label className="text-base font-semibold">{label}</Label>
+                    <RichTextEditor
+                      content={getSectionContent(key)}
+                      onChange={(html) =>
+                        setSectionDrafts((prev) => ({ ...prev, [key]: html }))
                       }
                       placeholder={`Write your ${label} content here...`}
-                      rows={6}
-                      className="font-mono text-sm"
                     />
                     <Button
                       onClick={() =>
