@@ -1,6 +1,6 @@
 import heroImage from '@/assets/hero-image.jpg';
-import knightImage from '@/assets/nidata-knight.png';
 import { Button } from '@/components/ui/button';
+
 
 interface FeaturedArticleProps {
   title: string;
@@ -147,7 +147,6 @@ This blog is my notebook at the intersection of human curiosity, agentic orchest
 
 Welcome to NiData. We promise the data will be better than our British accents.`}
     image={heroImage}
-    knightImage={knightImage}
   />
 );
 

@@ -18,7 +18,7 @@ import {
 } from '@/components/ui/select';
 import { Switch } from '@/components/ui/switch';
 import { useToast } from '@/hooks/use-toast';
-import { PlusCircle, Newspaper, Settings, Mail, Pencil, Trash2 } from 'lucide-react';
+import { PlusCircle, Newspaper, Settings, Mail, Pencil, Trash2, LayoutDashboard } from 'lucide-react';
 import {
   createPost,
   updatePost,
@@ -33,13 +33,65 @@ import { POST_CATEGORIES, SENTIMENT_OPTIONS } from '../../types/database';
 import type { PostFormData, NewsFormData } from '../../types/database';
 import ImageUpload from '@/components/ImageUpload';
 import RichTextEditor from '@/components/RichTextEditor';
+import { supabase } from '@/integrations/supabase/client';
+
+
+type SectionKey = 'about_me' | 'my_principles' | 'reflections_on_ai' | 'my_resume';
+interface HomeSection { section_key: string; content: string; }
+
+const HOME_SECTION_LABELS: { key: SectionKey; label: string }[] = [
+  { key: 'about_me', label: 'About Me' },
+  { key: 'my_principles', label: 'My Principles' },
+  { key: 'reflections_on_ai', label: 'Reflections on AI' },
+  { key: 'my_resume', label: 'My Resume' },
+];
 
 const Admin = () => {
   const [activeTab, setActiveTab] = useState('posts');
   const { toast } = useToast();
   const queryClient = useQueryClient();
 
-  // Fetch data
+  // Fetch home sections
+  const { data: homeSections = [] } = useQuery<HomeSection[]>({
+    queryKey: ['home_sections'],
+    queryFn: async () => {
+      const { data, error } = await supabase
+        .from('home_sections')
+        .select('section_key, content');
+      if (error) throw error;
+      return data ?? [];
+    },
+  });
+
+  // Local state for editing home sections
+  const [sectionDrafts, setSectionDrafts] = useState<Record<string, string>>({});
+
+  const getSectionContent = (key: string) =>
+    sectionDrafts[key] ?? homeSections.find((s) => s.section_key === key)?.content ?? '';
+
+  const updateSectionMutation = useMutation({
+    mutationFn: async ({ key, content }: { key: string; content: string }) => {
+      const { error } = await supabase
+        .from('home_sections')
+        .update({ content, updated_at: new Date().toISOString() })
+        .eq('section_key', key);
+      if (error) throw error;
+    },
+    onSuccess: (_data, variables) => {
+      queryClient.invalidateQueries({ queryKey: ['home_sections'] });
+      setSectionDrafts((prev) => {
+        const next = { ...prev };
+        delete next[variables.key];
+        return next;
+      });
+      toast({ title: 'Saved!', description: 'Section updated successfully.' });
+    },
+    onError: () => {
+      toast({ title: 'Error', description: 'Failed to save section.', variant: 'destructive' });
+    },
+  });
+
+
   const { data: allPosts } = useQuery({
     queryKey: ['adminPosts'],
     queryFn: () => getPosts({ published: undefined }),
@@ -240,7 +292,11 @@ const Admin = () => {
         </div>
 
         <Tabs value={activeTab} onValueChange={setActiveTab}>
-          <TabsList className="grid w-full grid-cols-4">
+          <TabsList className="grid w-full grid-cols-5">
+            <TabsTrigger value="home">
+              <LayoutDashboard className="mr-2 h-4 w-4" />
+              Home
+            </TabsTrigger>
             <TabsTrigger value="posts">
               <PlusCircle className="mr-2 h-4 w-4" />
               Posts
@@ -258,6 +314,47 @@ const Admin = () => {
               Config
             </TabsTrigger>
           </TabsList>
+
+          {/* Home Sections Tab */}
+          <TabsContent value="home" className="space-y-6">
+            <Card>
+              <CardHeader>
+                <CardTitle>Home Page Sections</CardTitle>
+                <CardDescription>
+                  Edit the content for each section displayed on the home page.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-8">
+                {HOME_SECTION_LABELS.map(({ key, label }) => (
+                  <div key={key} className="space-y-3">
+                    <Label htmlFor={`section-${key}`} className="text-base font-semibold">
+                      {label}
+                    </Label>
+                    <Textarea
+                      id={`section-${key}`}
+                      value={getSectionContent(key)}
+                      onChange={(e) =>
+                        setSectionDrafts((prev) => ({ ...prev, [key]: e.target.value }))
+                      }
+                      placeholder={`Write your ${label} content here...`}
+                      rows={6}
+                      className="font-mono text-sm"
+                    />
+                    <Button
+                      onClick={() =>
+                        updateSectionMutation.mutate({ key, content: getSectionContent(key) })
+                      }
+                      disabled={updateSectionMutation.isPending}
+                      size="sm"
+                    >
+                      {updateSectionMutation.isPending ? 'Saving...' : `Save ${label}`}
+                    </Button>
+                  </div>
+                ))}
+              </CardContent>
+            </Card>
+          </TabsContent>
+
 
           {/* Create Post Tab */}
           <TabsContent value="posts" className="space-y-6">
