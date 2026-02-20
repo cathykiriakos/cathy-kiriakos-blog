@@ -350,3 +350,53 @@ All colors MUST be HSL.
     @apply text-gray-400 float-left h-0 pointer-events-none;
   }
 }
+
+/*
+ * ProseMirror list & paragraph overrides — written OUTSIDE any @layer so they
+ * sit above all layered CSS (base, components, utilities) in the cascade and
+ * cannot be beaten by Tailwind preflight resets or Typography plugin rules.
+ */
+.ProseMirror p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.ProseMirror ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.ProseMirror ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.ProseMirror li {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  display: list-item;
+}
+
+.ProseMirror li > p {
+  margin: 0;
+}
+
+.ProseMirror ul ul {
+  list-style-type: circle;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.ProseMirror ul ul ul {
+  list-style-type: square;
+}
+
+.ProseMirror ol ol {
+  list-style-type: lower-alpha;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
