@@ -639,13 +639,11 @@ const Admin = () => {
                   />
 
                   <div className="space-y-2">
-                    <Label htmlFor="reflection-thought">Thought / Caption</Label>
-                    <Textarea
-                      id="reflection-thought"
-                      value={reflectionForm.thought}
-                      onChange={(e) => setReflectionForm({ ...reflectionForm, thought: e.target.value })}
+                    <Label>Thought / Caption</Label>
+                    <RichTextEditor
+                      content={reflectionForm.thought ?? ''}
+                      onChange={(html) => setReflectionForm({ ...reflectionForm, thought: html })}
                       placeholder="Share your thought or a brief caption..."
-                      rows={4}
                     />
                   </div>
 
