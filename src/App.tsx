@@ -30,6 +30,7 @@ const MarketIntelligence = lazy(() => import("./pages/MarketIntelligence.tsx"));
 const Admin = lazy(() => import("./pages/Admin.tsx"));
 const BusinessTechnology = lazy(() => import("./pages/BusinessTechnology.tsx"));
 const TestSupabase = lazy(() => import("./pages/TestSupabase.tsx"));
+const PersonalReflections = lazy(() => import("./pages/PersonalReflections.tsx"));
 
 const queryClient = new QueryClient();
 
@@ -54,6 +55,7 @@ const App = () => (
               <Route path="/business-technology" element={<BusinessTechnology />} />
               <Route path="/admin" element={<Admin />} />
               <Route path="/test-supabase" element={<TestSupabase />} />
+              <Route path="/personal-reflections" element={<PersonalReflections />} />
               
               <Route path="/terms" element={<Terms />} />
               <Route path="/privacy" element={<Privacy />} />

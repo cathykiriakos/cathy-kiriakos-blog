@@ -17,6 +17,7 @@ const Header = () => {
     { name: 'NI DATA', href: '/ni-data' },
     { name: 'MARKET INTEL', href: '/market-intelligence', icon: BarChart3 },
     { name: 'BUSINESS & TECHNOLOGY', href: '/business-technology' },
+    { name: 'PERSONAL REFLECTIONS', href: '/personal-reflections' },
     { name: 'PODCAST', href: '/podcast' },
   ];
 
