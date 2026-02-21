@@ -18,7 +18,7 @@ import {
 } from '@/components/ui/select';
 import { Switch } from '@/components/ui/switch';
 import { useToast } from '@/hooks/use-toast';
-import { PlusCircle, Newspaper, Settings, Mail, Pencil, Trash2, LayoutDashboard } from 'lucide-react';
+import { PlusCircle, Newspaper, Settings, Mail, Pencil, Trash2, LayoutDashboard, BookOpen } from 'lucide-react';
 import {
   createPost,
   updatePost,
@@ -69,6 +69,10 @@ const Admin = () => {
   const [sectionDrafts, setSectionDrafts] = useState<Record<string, string>>({});
   const [titleDrafts, setTitleDrafts] = useState<Record<string, string>>({});
 
+  // Personal Reflections draft state
+  const [prTitleDraft, setPrTitleDraft] = useState('');
+  const [prContentDraft, setPrContentDraft] = useState('');
+
   const getSectionContent = (key: string) =>
     sectionDrafts[key] ?? homeSections.find((s) => s.section_key === key)?.content ?? '';
 
@@ -97,6 +101,45 @@ const Admin = () => {
     },
   });
 
+
+  // Fetch personal reflections section
+  const { data: prSection } = useQuery<HomeSection | null>({
+    queryKey: ['home_sections', 'personal_reflections'],
+    queryFn: async () => {
+      const { data, error } = await supabase
+        .from('home_sections')
+        .select('section_key, content, title')
+        .eq('section_key', 'personal_reflections')
+        .maybeSingle();
+      if (error) throw error;
+      return data ?? null;
+    },
+  });
+
+  const getPrTitle = () => prTitleDraft || prSection?.title || 'Personal Reflections';
+  const getPrContent = () => prContentDraft || prSection?.content || '';
+
+  const updatePrMutation = useMutation({
+    mutationFn: async ({ title, content }: { title: string; content: string }) => {
+      const { error } = await supabase
+        .from('home_sections')
+        .upsert(
+          { section_key: 'personal_reflections', content, title, updated_at: new Date().toISOString() },
+          { onConflict: 'section_key' }
+        );
+      if (error) throw error;
+    },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['home_sections', 'personal_reflections'] });
+      setPrTitleDraft('');
+      setPrContentDraft('');
+      toast({ title: 'Saved!', description: 'Personal Reflections updated successfully.' });
+    },
+    onError: (error: any) => {
+      console.error('Personal Reflections save error:', error);
+      toast({ title: 'Error', description: 'Failed to save Personal Reflections.', variant: 'destructive' });
+    },
+  });
 
   const { data: allPosts } = useQuery({
     queryKey: ['adminPosts'],
@@ -298,10 +341,14 @@ const Admin = () => {
         </div>
 
         <Tabs value={activeTab} onValueChange={setActiveTab}>
-          <TabsList className="grid w-full grid-cols-5">
+          <TabsList className="grid w-full grid-cols-6">
             <TabsTrigger value="home">
               <LayoutDashboard className="mr-2 h-4 w-4" />
               Home
+            </TabsTrigger>
+            <TabsTrigger value="personal-reflections">
+              <BookOpen className="mr-2 h-4 w-4" />
+              Reflections
             </TabsTrigger>
             <TabsTrigger value="posts">
               <PlusCircle className="mr-2 h-4 w-4" />
@@ -379,6 +426,48 @@ const Admin = () => {
             </Card>
           </TabsContent>
 
+
+          {/* Personal Reflections Tab */}
+          <TabsContent value="personal-reflections" className="space-y-6">
+            <Card>
+              <CardHeader>
+                <CardTitle>Personal Reflections</CardTitle>
+                <CardDescription>
+                  Edit the title and content for the Personal Reflections page.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="space-y-1">
+                  <Label htmlFor="pr-title" className="text-sm text-muted-foreground">
+                    Page Title
+                  </Label>
+                  <Input
+                    id="pr-title"
+                    value={getPrTitle()}
+                    onChange={(e) => setPrTitleDraft(e.target.value)}
+                    placeholder="e.g. Personal Reflections"
+                    className="text-base font-semibold"
+                  />
+                </div>
+                <div className="space-y-1">
+                  <Label className="text-sm text-muted-foreground">Content</Label>
+                  <RichTextEditor
+                    content={getPrContent()}
+                    onChange={(html) => setPrContentDraft(html)}
+                    placeholder="Write your personal reflections here..."
+                  />
+                </div>
+                <Button
+                  onClick={() =>
+                    updatePrMutation.mutate({ title: getPrTitle(), content: getPrContent() })
+                  }
+                  disabled={updatePrMutation.isPending}
+                >
+                  {updatePrMutation.isPending ? 'Saving...' : 'Save Personal Reflections'}
+                </Button>
+              </CardContent>
+            </Card>
+          </TabsContent>
 
           {/* Create Post Tab */}
           <TabsContent value="posts" className="space-y-6">
