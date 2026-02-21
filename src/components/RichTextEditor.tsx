@@ -76,7 +76,7 @@ const RichTextEditor = ({ content, onChange, placeholder = 'Start writing...' }:
     content,
     editorProps: {
       attributes: {
-        class: 'prose prose-sm sm:prose lg:prose-lg max-w-none focus:outline-none min-h-[300px] p-4 border rounded-md',
+        class: 'prose prose-neutral dark:prose-invert sm:prose lg:prose-lg max-w-none focus:outline-none min-h-[300px] p-4 border rounded-md',
       },
     },
     onUpdate: ({ editor }) => {

@@ -167,6 +167,74 @@ All colors MUST be HSL.
     @apply text-2xl font-bold text-foreground mb-8;
   }
 
+  /* Rich text content rendered from TipTap HTML */
+  .rich-content p {
+    @apply mb-4 leading-relaxed;
+  }
+
+  .rich-content p:last-child {
+    @apply mb-0;
+  }
+
+  .rich-content ul {
+    @apply list-disc pl-6 mb-4 space-y-1;
+  }
+
+  .rich-content ol {
+    @apply list-decimal pl-6 mb-4 space-y-1;
+  }
+
+  .rich-content li {
+    @apply leading-relaxed;
+  }
+
+  .rich-content li > ul,
+  .rich-content li > ol {
+    @apply mt-1 mb-0;
+  }
+
+  .rich-content h1 {
+    @apply text-3xl font-bold mt-6 mb-3;
+  }
+
+  .rich-content h2 {
+    @apply text-2xl font-bold mt-5 mb-2;
+  }
+
+  .rich-content h3 {
+    @apply text-xl font-bold mt-4 mb-2;
+  }
+
+  .rich-content h4 {
+    @apply text-lg font-bold mt-3 mb-1;
+  }
+
+  .rich-content strong {
+    @apply font-semibold text-foreground;
+  }
+
+  .rich-content em {
+    @apply italic;
+  }
+
+  .rich-content blockquote {
+    @apply border-l-4 border-border pl-4 my-4 italic;
+  }
+
+  .rich-content a {
+    @apply text-primary underline hover:no-underline;
+  }
+
+  .rich-content hr {
+    @apply my-6 border-t border-border;
+  }
+
+  .rich-content br {
+    display: block;
+    content: "";
+    margin-top: 0.5rem;
+  }
+
   /* Skip to content and focus styles for accessibility */
   .sr-only {
     position: absolute;
@@ -281,4 +349,54 @@ All colors MUST be HSL.
     content: attr(data-placeholder);
     @apply text-gray-400 float-left h-0 pointer-events-none;
   }
+}
+
+/*
+ * ProseMirror list & paragraph overrides — written OUTSIDE any @layer so they
+ * sit above all layered CSS (base, components, utilities) in the cascade and
+ * cannot be beaten by Tailwind preflight resets or Typography plugin rules.
+ */
+.ProseMirror p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.ProseMirror ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.ProseMirror ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.ProseMirror li {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  display: list-item;
+}
+
+.ProseMirror li > p {
+  margin: 0;
+}
+
+.ProseMirror ul ul {
+  list-style-type: circle;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.ProseMirror ul ul ul {
+  list-style-type: square;
+}
+
+.ProseMirror ol ol {
+  list-style-type: lower-alpha;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
