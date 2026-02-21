@@ -119,6 +119,23 @@ export interface NewsletterFormData {
   email: string;
 }
 
+export interface Reflection {
+  id: string;
+  title: string;
+  thought?: string;
+  image_url?: string;
+  published: boolean;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface ReflectionFormData {
+  title: string;
+  thought?: string;
+  image_url?: string;
+  published: boolean;
+}
+
 // Category options
 export const POST_CATEGORIES = [
   'AI Innovation',
