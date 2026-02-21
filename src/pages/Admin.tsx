@@ -36,15 +36,16 @@ import RichTextEditor from '@/components/RichTextEditor';
 import { supabase } from '@/integrations/supabase/client';
 
 
-type SectionKey = 'about_me' | 'my_principles' | 'reflections_on_ai' | 'my_resume';
+type SectionKey = 'about_me' | 'my_principles' | 'reflections_on_ai' | 'personal_reflections' | 'my_resume';
 interface HomeSection { section_key: string; content: string; title: string; }
 
-const SECTION_KEYS: SectionKey[] = ['about_me', 'my_principles', 'reflections_on_ai', 'my_resume'];
+const SECTION_KEYS: SectionKey[] = ['about_me', 'my_principles', 'reflections_on_ai', 'personal_reflections', 'my_resume'];
 
 const DEFAULT_TITLES: Record<SectionKey, string> = {
   about_me: 'About Me',
   my_principles: 'My Principles',
   reflections_on_ai: 'Reflections on AI',
+  personal_reflections: 'Personal Reflections',
   my_resume: 'Resume',
 };
 

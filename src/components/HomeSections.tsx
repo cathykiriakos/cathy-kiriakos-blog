@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import { supabase } from '@/integrations/supabase/client';
 
-type SectionKey = 'about_me' | 'my_principles' | 'reflections_on_ai' | 'my_resume';
+type SectionKey = 'about_me' | 'my_principles' | 'reflections_on_ai' | 'personal_reflections' | 'my_resume';
 
 interface HomeSectionData {
   section_key: string;
@@ -13,6 +13,7 @@ const DEFAULT_TITLES: Record<SectionKey, string> = {
   about_me: 'About Me',
   my_principles: 'My Principles',
   reflections_on_ai: 'Reflections on AI',
+  personal_reflections: 'Personal Reflections',
   my_resume: 'Resume',
 };
 
@@ -20,6 +21,7 @@ const SECTION_IDS: Record<SectionKey, string> = {
   about_me: 'about-me',
   my_principles: 'my-principles',
   reflections_on_ai: 'reflections-on-ai',
+  personal_reflections: 'personal-reflections',
   my_resume: 'my-resume',
 };
 
@@ -45,7 +47,7 @@ const SectionBlock = ({ id, title, content }: { id: string; title: string; conte
   </section>
 );
 
-const SECTION_ORDER: SectionKey[] = ['about_me', 'my_principles', 'reflections_on_ai', 'my_resume'];
+const SECTION_ORDER: SectionKey[] = ['about_me', 'my_principles', 'reflections_on_ai', 'personal_reflections', 'my_resume'];
 
 const HomeSections = () => {
   const { data: sections = [], isLoading } = useHomeSections();
