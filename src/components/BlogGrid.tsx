@@ -8,7 +8,7 @@ const BlogGrid = () => {
   // Fetch published posts from Supabase
   const { data: dbPosts, isLoading } = useQuery<DbPost[]>({
     queryKey: ['blogGridPosts'],
-    queryFn: () => getPosts({ published: true, limit: 6 }),
+    queryFn: () => getPosts({ published: true }),
   });
 
   // Map database posts to component format with fallback image
