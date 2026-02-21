@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { supabase } from '@/integrations/supabase/client';
-import { getReflections, getPosts } from '@/lib/supabase';
+import { getReflections, getCategories, getPostsByCategories } from '@/lib/supabase';
 import type { Reflection, Post } from '@/types/database';
 
 const usePageTitle = () =>
@@ -21,18 +21,6 @@ const usePageTitle = () =>
     },
   });
 
-const useReflectionItems = () =>
-  useQuery<Reflection[]>({
-    queryKey: ['reflections'],
-    queryFn: () => getReflections(true),
-  });
-
-const useReflectionPosts = () =>
-  useQuery<Post[]>({
-    queryKey: ['reflectionPosts'],
-    queryFn: () => getPosts({ category: 'Personal Reflections', published: true }),
-  });
-
 // Unified card type for display
 type CardItem =
   | { kind: 'reflection'; id: string; title: string; thought?: string; image_url?: string; created_at: string }
@@ -40,13 +28,36 @@ type CardItem =
 
 const PersonalReflections = () => {
   const { data: section } = usePageTitle();
-  const { data: reflectionItems, isLoading: loadingReflections } = useReflectionItems();
-  const { data: posts, isLoading: loadingPosts } = useReflectionPosts();
 
-  const title = section?.title || 'Personal Reflections';
+  const { data: reflectionItems, isLoading: loadingReflections } = useQuery<Reflection[]>({
+    queryKey: ['reflections'],
+    queryFn: () => getReflections(true),
+  });
+
+  // Dynamically fetch which categories are mapped to this page
+  const { data: allCategories } = useQuery({
+    queryKey: ['categories'],
+    queryFn: getCategories,
+  });
+
+  const prCategoryNames = useMemo(() => {
+    if (!allCategories) return null;
+    const names = allCategories
+      .filter((c) => c.page === 'personal-reflections')
+      .map((c) => c.name);
+    return names.length > 0 ? names : ['Personal Reflections']; // fallback
+  }, [allCategories]);
+
+  const { data: posts, isLoading: loadingPosts } = useQuery<Post[]>({
+    queryKey: ['reflectionPosts', prCategoryNames],
+    queryFn: () => getPostsByCategories(prCategoryNames!),
+    enabled: prCategoryNames !== null,
+  });
+
   const isLoading = loadingReflections || loadingPosts;
+  const title = section?.title || 'Personal Reflections';
 
-  // Merge both sources, sorted newest first
+  // Merge both sources sorted newest first
   const cards = useMemo<CardItem[]>(() => {
     const fromReflections: CardItem[] = (reflectionItems ?? []).map((r) => ({
       kind: 'reflection',
