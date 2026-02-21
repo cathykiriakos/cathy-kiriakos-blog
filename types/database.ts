@@ -119,6 +119,27 @@ export interface NewsletterFormData {
   email: string;
 }
 
+export interface Category {
+  id: string;
+  name: string;
+  page?: string | null;
+  created_at: string;
+}
+
+export interface CategoryFormData {
+  name: string;
+  page?: string | null;
+}
+
+// Pages that categories can be mapped to
+export const SITE_PAGES = [
+  { label: 'All Posts only', value: '' },
+  { label: 'NiData', value: 'ni-data' },
+  { label: 'Personal Reflections', value: 'personal-reflections' },
+  { label: 'Business & Technology', value: 'business-technology' },
+  { label: 'Market Intelligence', value: 'market-intelligence' },
+] as const;
+
 export interface Reflection {
   id: string;
   title: string;
@@ -142,7 +163,8 @@ export const POST_CATEGORIES = [
   'Culture',
   'Management',
   'Data Engineering',
-  'NiData Journey'
+  'NiData Journey',
+  'Personal Reflections'
 ] as const;
 
 export type PostCategory = typeof POST_CATEGORIES[number];

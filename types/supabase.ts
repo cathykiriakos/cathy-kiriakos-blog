@@ -12,7 +12,9 @@ import type {
   PostFormData,
   NewsFormData,
   Reflection,
-  ReflectionFormData
+  ReflectionFormData,
+  Category,
+  CategoryFormData
 } from './database';
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || '';
@@ -326,4 +328,54 @@ export const deleteReflection = async (id: string) => {
     .eq('id', id);
 
   if (error) throw error;
+};
+
+// ==================== CATEGORIES ====================
+
+export const getCategories = async () => {
+  const { data, error } = await supabase
+    .from('categories')
+    .select('*')
+    .order('name', { ascending: true });
+
+  if (error) throw error;
+  return data as Category[];
+};
+
+export const createCategory = async (cat: CategoryFormData) => {
+  const { data, error } = await supabase
+    .from('categories')
+    .insert([{ name: cat.name, page: cat.page || null }])
+    .select()
+    .single();
+
+  if (error) throw error;
+  return data as Category;
+};
+
+export const deleteCategory = async (id: string) => {
+  const { error } = await supabase
+    .from('categories')
+    .delete()
+    .eq('id', id);
+
+  if (error) throw error;
+};
+
+export const getPostsByCategories = async (categoryNames: string[], publishedOnly = true) => {
+  if (categoryNames.length === 0) return [] as Post[];
+
+  let query = supabase
+    .from('posts')
+    .select('*')
+    .in('category', categoryNames)
+    .order('created_at', { ascending: false });
+
+  if (publishedOnly) {
+    query = query.eq('published', true);
+  }
+
+  const { data, error } = await query;
+  if (error) throw error;
+  return data as Post[];
 };

@@ -4,13 +4,26 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BlogCard from '@/components/BlogCard';
 import knightImage from '@/assets/nidata-knight.png';
-import { getPosts } from '@/lib/supabase';
+import { getCategories, getPostsByCategories } from '@/lib/supabase';
 import type { Post } from '@/types/database';
 
 const NiData = () => {
+  // Fetch all categories and derive the ones mapped to this page
+  const { data: allCategories } = useQuery({
+    queryKey: ['categories'],
+    queryFn: getCategories,
+  });
+
+  const niDataCategoryNames = useMemo(() => {
+    if (!allCategories) return null; // still loading
+    const names = allCategories.filter((c) => c.page === 'ni-data').map((c) => c.name);
+    return names.length > 0 ? names : ['NiData Journey']; // fallback to default
+  }, [allCategories]);
+
   const { data: dbPosts, isLoading } = useQuery<Post[]>({
-    queryKey: ['niDataPosts'],
-    queryFn: () => getPosts({ category: 'NiData Journey', published: true }),
+    queryKey: ['niDataPosts', niDataCategoryNames],
+    queryFn: () => getPostsByCategories(niDataCategoryNames!),
+    enabled: niDataCategoryNames !== null,
   });
 
   const posts = useMemo(() => {

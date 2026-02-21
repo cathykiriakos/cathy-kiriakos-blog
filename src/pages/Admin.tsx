@@ -18,7 +18,7 @@ import {
 } from '@/components/ui/select';
 import { Switch } from '@/components/ui/switch';
 import { useToast } from '@/hooks/use-toast';
-import { PlusCircle, Newspaper, Settings, Mail, Pencil, Trash2, LayoutDashboard, BookOpen } from 'lucide-react';
+import { PlusCircle, Newspaper, Settings, Mail, Pencil, Trash2, LayoutDashboard, BookOpen, Tag } from 'lucide-react';
 import {
   createPost,
   updatePost,
@@ -32,9 +32,12 @@ import {
   createReflection,
   updateReflection,
   deleteReflection,
+  getCategories,
+  createCategory,
+  deleteCategory,
 } from '../../types/supabase';
-import { POST_CATEGORIES, SENTIMENT_OPTIONS } from '../../types/database';
-import type { PostFormData, NewsFormData, ReflectionFormData } from '../../types/database';
+import { POST_CATEGORIES, SENTIMENT_OPTIONS, SITE_PAGES } from '../../types/database';
+import type { PostFormData, NewsFormData, ReflectionFormData, CategoryFormData } from '../../types/database';
 import ImageUpload from '@/components/ImageUpload';
 import RichTextEditor from '@/components/RichTextEditor';
 import { supabase } from '@/integrations/supabase/client';
@@ -164,6 +167,52 @@ const Admin = () => {
     queryKey: ['contacts'],
     queryFn: getContactSubmissions,
   });
+
+  const { data: dbCategories } = useQuery({
+    queryKey: ['categories'],
+    queryFn: getCategories,
+  });
+
+  // Derive the dropdown options: use DB categories when loaded, otherwise fall back to hardcoded
+  const categoryOptions: string[] = dbCategories?.map((c) => c.name) ?? [...POST_CATEGORIES];
+
+  // Category form state
+  const [categoryForm, setCategoryForm] = useState<CategoryFormData>({ name: '', page: '' });
+
+  const createCategoryMutation = useMutation({
+    mutationFn: createCategory,
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['categories'] });
+      setCategoryForm({ name: '', page: '' });
+      toast({ title: 'Category added!', description: 'The new category is now available when creating posts.' });
+    },
+    onError: (error: any) => {
+      toast({ title: 'Error', description: error.message || 'Failed to add category.', variant: 'destructive' });
+    },
+  });
+
+  const deleteCategoryMutation = useMutation({
+    mutationFn: deleteCategory,
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['categories'] });
+      toast({ title: 'Category removed.' });
+    },
+    onError: (error: any) => {
+      toast({ title: 'Error', description: error.message || 'Failed to remove category.', variant: 'destructive' });
+    },
+  });
+
+  const handleCategorySubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!categoryForm.name.trim()) return;
+    createCategoryMutation.mutate(categoryForm);
+  };
+
+  const handleDeleteCategory = (id: string, name: string) => {
+    if (window.confirm(`Remove category "${name}"? Posts already using it will keep their category label.`)) {
+      deleteCategoryMutation.mutate(id);
+    }
+  };
 
   const { data: reflections } = useQuery({
     queryKey: ['adminReflections'],
@@ -737,7 +786,7 @@ const Admin = () => {
                           <SelectValue />
                         </SelectTrigger>
                         <SelectContent>
-                          {POST_CATEGORIES.map((cat) => (
+                          {categoryOptions.map((cat) => (
                             <SelectItem key={cat} value={cat}>
                               {cat}
                             </SelectItem>
@@ -1106,7 +1155,94 @@ const Admin = () => {
           </TabsContent>
 
           {/* Config Tab */}
-          <TabsContent value="config">
+          <TabsContent value="config" className="space-y-6">
+
+            {/* Category Management */}
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Tag className="h-5 w-5" />
+                  Post Categories
+                </CardTitle>
+                <CardDescription>
+                  Create and manage the category labels available when writing posts. Assign a page so posts
+                  with that category automatically appear in that section of the site.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-6">
+                {/* Create form */}
+                <form onSubmit={handleCategorySubmit} className="space-y-4">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className="space-y-2">
+                      <Label htmlFor="cat-name">Category Name</Label>
+                      <Input
+                        id="cat-name"
+                        value={categoryForm.name}
+                        onChange={(e) => setCategoryForm({ ...categoryForm, name: e.target.value })}
+                        placeholder="e.g. Leadership, AI Ethics…"
+                        required
+                      />
+                    </div>
+                    <div className="space-y-2">
+                      <Label htmlFor="cat-page">Appears on page</Label>
+                      <Select
+                        value={categoryForm.page ?? ''}
+                        onValueChange={(val) => setCategoryForm({ ...categoryForm, page: val })}
+                      >
+                        <SelectTrigger id="cat-page">
+                          <SelectValue placeholder="Select a page…" />
+                        </SelectTrigger>
+                        <SelectContent>
+                          {SITE_PAGES.map((p) => (
+                            <SelectItem key={p.value} value={p.value}>
+                              {p.label}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
+                  </div>
+                  <Button type="submit" disabled={createCategoryMutation.isPending}>
+                    {createCategoryMutation.isPending ? 'Adding…' : 'Add Category'}
+                  </Button>
+                </form>
+
+                {/* Existing categories */}
+                <div className="border-t pt-4 space-y-2">
+                  <p className="text-sm font-medium text-muted-foreground mb-3">
+                    {dbCategories?.length ?? 0} categories
+                  </p>
+                  {dbCategories?.map((cat) => {
+                    const pageLabel = SITE_PAGES.find((p) => p.value === (cat.page ?? ''))?.label ?? 'All Posts only';
+                    return (
+                      <div
+                        key={cat.id}
+                        className="flex items-center justify-between p-3 border border-border rounded-lg"
+                      >
+                        <div>
+                          <span className="font-medium">{cat.name}</span>
+                          <span className="ml-3 text-xs text-muted-foreground">{pageLabel}</span>
+                        </div>
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          className="h-8 w-8 p-0 text-destructive hover:text-destructive"
+                          onClick={() => handleDeleteCategory(cat.id, cat.name)}
+                          disabled={deleteCategoryMutation.isPending}
+                        >
+                          <Trash2 className="h-4 w-4" />
+                        </Button>
+                      </div>
+                    );
+                  })}
+                  {(!dbCategories || dbCategories.length === 0) && (
+                    <p className="text-sm text-muted-foreground italic">No categories yet.</p>
+                  )}
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* API Configuration */}
             <Card>
               <CardHeader>
                 <CardTitle>API Configuration</CardTitle>
