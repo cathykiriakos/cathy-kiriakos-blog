@@ -37,14 +37,16 @@ import { supabase } from '@/integrations/supabase/client';
 
 
 type SectionKey = 'about_me' | 'my_principles' | 'reflections_on_ai' | 'my_resume';
-interface HomeSection { section_key: string; content: string; }
+interface HomeSection { section_key: string; content: string; title: string; }
 
-const HOME_SECTION_LABELS: { key: SectionKey; label: string }[] = [
-  { key: 'about_me', label: 'My Journey' },
-  { key: 'my_principles', label: 'Principles for Life & Work' },
-  { key: 'reflections_on_ai', label: 'Agentic Revolution Reflections? How the way we work changes now' },
-  { key: 'my_resume', label: 'Resume' },
-];
+const SECTION_KEYS: SectionKey[] = ['about_me', 'my_principles', 'reflections_on_ai', 'my_resume'];
+
+const DEFAULT_TITLES: Record<SectionKey, string> = {
+  about_me: 'About Me',
+  my_principles: 'My Principles',
+  reflections_on_ai: 'Reflections on AI',
+  my_resume: 'Resume',
+};
 
 const Admin = () => {
   const [activeTab, setActiveTab] = useState('posts');
@@ -57,36 +59,40 @@ const Admin = () => {
     queryFn: async () => {
       const { data, error } = await supabase
         .from('home_sections')
-        .select('section_key, content');
+        .select('section_key, content, title');
       if (error) throw error;
       return data ?? [];
     },
   });
 
-  // Local state for editing home sections
+  // Local draft state for editing home sections
   const [sectionDrafts, setSectionDrafts] = useState<Record<string, string>>({});
+  const [titleDrafts, setTitleDrafts] = useState<Record<string, string>>({});
 
   const getSectionContent = (key: string) =>
     sectionDrafts[key] ?? homeSections.find((s) => s.section_key === key)?.content ?? '';
 
+  const getSectionTitle = (key: SectionKey) =>
+    titleDrafts[key] ?? homeSections.find((s) => s.section_key === key)?.title ?? DEFAULT_TITLES[key];
+
   const updateSectionMutation = useMutation({
-    mutationFn: async ({ key, content }: { key: string; content: string }) => {
+    mutationFn: async ({ key, content, title }: { key: string; content: string; title: string }) => {
       const { error } = await supabase
         .from('home_sections')
-        .update({ content, updated_at: new Date().toISOString() })
-        .eq('section_key', key);
+        .upsert(
+          { section_key: key, content, title, updated_at: new Date().toISOString() },
+          { onConflict: 'section_key' }
+        );
       if (error) throw error;
     },
     onSuccess: (_data, variables) => {
       queryClient.invalidateQueries({ queryKey: ['home_sections'] });
-      setSectionDrafts((prev) => {
-        const next = { ...prev };
-        delete next[variables.key];
-        return next;
-      });
+      setSectionDrafts((prev) => { const next = { ...prev }; delete next[variables.key]; return next; });
+      setTitleDrafts((prev) => { const next = { ...prev }; delete next[variables.key]; return next; });
       toast({ title: 'Saved!', description: 'Section updated successfully.' });
     },
-    onError: () => {
+    onError: (error: any) => {
+      console.error('Section save error:', error);
       toast({ title: 'Error', description: 'Failed to save section.', variant: 'destructive' });
     },
   });
@@ -325,27 +331,50 @@ const Admin = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-8">
-                {HOME_SECTION_LABELS.map(({ key, label }) => (
-                  <div key={key} className="space-y-3">
-                    <Label className="text-base font-semibold">{label}</Label>
-                    <RichTextEditor
-                      content={getSectionContent(key)}
-                      onChange={(html) =>
-                        setSectionDrafts((prev) => ({ ...prev, [key]: html }))
-                      }
-                      placeholder={`Write your ${label} content here...`}
-                    />
-                    <Button
-                      onClick={() =>
-                        updateSectionMutation.mutate({ key, content: getSectionContent(key) })
-                      }
-                      disabled={updateSectionMutation.isPending}
-                      size="sm"
-                    >
-                      {updateSectionMutation.isPending ? 'Saving...' : `Save ${label}`}
-                    </Button>
-                  </div>
-                ))}
+                {SECTION_KEYS.map((key) => {
+                  const currentTitle = getSectionTitle(key);
+                  return (
+                    <div key={key} className="space-y-3 pb-6 border-b border-border last:border-0 last:pb-0">
+                      <div className="space-y-1">
+                        <Label htmlFor={`title-${key}`} className="text-sm text-muted-foreground">
+                          Section Title
+                        </Label>
+                        <Input
+                          id={`title-${key}`}
+                          value={currentTitle}
+                          onChange={(e) =>
+                            setTitleDrafts((prev) => ({ ...prev, [key]: e.target.value }))
+                          }
+                          placeholder="Section title (e.g. About Me, My Journey...)"
+                          className="text-base font-semibold"
+                        />
+                      </div>
+                      <div className="space-y-1">
+                        <Label className="text-sm text-muted-foreground">Content</Label>
+                        <RichTextEditor
+                          content={getSectionContent(key)}
+                          onChange={(html) =>
+                            setSectionDrafts((prev) => ({ ...prev, [key]: html }))
+                          }
+                          placeholder={`Write your ${currentTitle} content here...`}
+                        />
+                      </div>
+                      <Button
+                        onClick={() =>
+                          updateSectionMutation.mutate({
+                            key,
+                            content: getSectionContent(key),
+                            title: currentTitle,
+                          })
+                        }
+                        disabled={updateSectionMutation.isPending}
+                        size="sm"
+                      >
+                        {updateSectionMutation.isPending ? 'Saving...' : `Save "${currentTitle}"`}
+                      </Button>
+                    </div>
+                  );
+                })}
               </CardContent>
             </Card>
           </TabsContent>
