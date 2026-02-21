@@ -1,8 +1,34 @@
+import { useQuery } from '@tanstack/react-query';
+import { useMemo } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import BlogCard from '@/components/BlogCard';
 import knightImage from '@/assets/nidata-knight.png';
+import { getPosts } from '@/lib/supabase';
+import type { Post } from '@/types/database';
 
 const NiData = () => {
+  const { data: dbPosts, isLoading } = useQuery<Post[]>({
+    queryKey: ['niDataPosts'],
+    queryFn: () => getPosts({ category: 'NiData Journey', published: true }),
+  });
+
+  const posts = useMemo(() => {
+    if (!dbPosts) return [];
+    return dbPosts.map((post) => ({
+      title: post.title,
+      category: post.category,
+      date: new Date(post.created_at).toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      }),
+      excerpt: post.excerpt,
+      image: post.image_url || 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80',
+      slug: post.slug,
+    }));
+  }, [dbPosts]);
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -73,6 +99,37 @@ const NiData = () => {
               loading="lazy"
             />
           </div>
+        </section>
+
+        {/* NiData Journey Posts */}
+        <section className="container-blog py-12">
+          <h2 className="text-3xl font-bold mb-2">NiData Journey</h2>
+          <p className="text-muted-foreground mb-8">All posts tagged with the NiData Journey</p>
+
+          {isLoading ? (
+            <div className="text-center py-12">
+              <p className="text-muted-foreground">Loading posts...</p>
+            </div>
+          ) : posts.length === 0 ? (
+            <p className="text-muted-foreground italic">
+              No NiData Journey posts yet. Create posts in the admin panel with the "NiData Journey" category.
+            </p>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {posts.map((post) => (
+                <BlogCard
+                  key={post.slug}
+                  title={post.title}
+                  category={post.category}
+                  date={post.date}
+                  excerpt={post.excerpt}
+                  image={post.image}
+                  href={`/blog/${post.slug}`}
+                  isSmall={false}
+                />
+              ))}
+            </div>
+          )}
         </section>
       </main>
       <Footer />

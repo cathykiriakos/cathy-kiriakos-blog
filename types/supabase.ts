@@ -2,15 +2,17 @@
 // Supabase client configuration and helper functions
 
 import { createClient } from '@supabase/supabase-js';
-import type { 
-  Post, 
-  NewsItem, 
-  MarketData, 
+import type {
+  Post,
+  NewsItem,
+  MarketData,
   PrivateValuation,
   ContactFormData,
   NewsletterFormData,
   PostFormData,
-  NewsFormData
+  NewsFormData,
+  Reflection,
+  ReflectionFormData
 } from './database';
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || '';
@@ -263,7 +265,7 @@ export const getContactSubmissions = async () => {
 };
 
 export const updateContactStatus = async (
-  id: string, 
+  id: string,
   status: 'unread' | 'read' | 'responded'
 ) => {
   const { data, error } = await supabase
@@ -275,4 +277,53 @@ export const updateContactStatus = async (
 
   if (error) throw error;
   return data;
+};
+
+// ==================== REFLECTIONS ====================
+
+export const getReflections = async (publishedOnly = false) => {
+  let query = supabase
+    .from('reflections')
+    .select('*')
+    .order('created_at', { ascending: false });
+
+  if (publishedOnly) {
+    query = query.eq('published', true);
+  }
+
+  const { data, error } = await query;
+  if (error) throw error;
+  return data as Reflection[];
+};
+
+export const createReflection = async (reflection: ReflectionFormData) => {
+  const { data, error } = await supabase
+    .from('reflections')
+    .insert([reflection])
+    .select()
+    .single();
+
+  if (error) throw error;
+  return data as Reflection;
+};
+
+export const updateReflection = async (id: string, reflection: Partial<ReflectionFormData>) => {
+  const { data, error } = await supabase
+    .from('reflections')
+    .update({ ...reflection, updated_at: new Date().toISOString() })
+    .eq('id', id)
+    .select()
+    .single();
+
+  if (error) throw error;
+  return data as Reflection;
+};
+
+export const deleteReflection = async (id: string) => {
+  const { error } = await supabase
+    .from('reflections')
+    .delete()
+    .eq('id', id);
+
+  if (error) throw error;
 };

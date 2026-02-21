@@ -27,10 +27,14 @@ import {
   getPosts,
   getNewsItems,
   getNewsletterSubscribers,
-  getContactSubmissions
+  getContactSubmissions,
+  getReflections,
+  createReflection,
+  updateReflection,
+  deleteReflection,
 } from '../../types/supabase';
 import { POST_CATEGORIES, SENTIMENT_OPTIONS } from '../../types/database';
-import type { PostFormData, NewsFormData } from '../../types/database';
+import type { PostFormData, NewsFormData, ReflectionFormData } from '../../types/database';
 import ImageUpload from '@/components/ImageUpload';
 import RichTextEditor from '@/components/RichTextEditor';
 import { supabase } from '@/integrations/supabase/client';
@@ -160,6 +164,90 @@ const Admin = () => {
     queryKey: ['contacts'],
     queryFn: getContactSubmissions,
   });
+
+  const { data: reflections } = useQuery({
+    queryKey: ['adminReflections'],
+    queryFn: () => getReflections(false),
+  });
+
+  // Reflection form state
+  const [editingReflectionId, setEditingReflectionId] = useState<string | null>(null);
+  const [reflectionForm, setReflectionForm] = useState<ReflectionFormData>({
+    title: '',
+    thought: '',
+    image_url: '',
+    published: true,
+  });
+
+  const createReflectionMutation = useMutation({
+    mutationFn: createReflection,
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['adminReflections'] });
+      queryClient.invalidateQueries({ queryKey: ['reflections'] });
+      toast({ title: 'Success!', description: 'Reflection added successfully.' });
+      resetReflectionForm();
+    },
+    onError: (error: any) => {
+      toast({ title: 'Error', description: error.message || 'Failed to add reflection.', variant: 'destructive' });
+    },
+  });
+
+  const updateReflectionMutation = useMutation({
+    mutationFn: ({ id, data }: { id: string; data: Partial<ReflectionFormData> }) =>
+      updateReflection(id, data),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['adminReflections'] });
+      queryClient.invalidateQueries({ queryKey: ['reflections'] });
+      toast({ title: 'Success!', description: 'Reflection updated successfully.' });
+      resetReflectionForm();
+    },
+    onError: (error: any) => {
+      toast({ title: 'Error', description: error.message || 'Failed to update reflection.', variant: 'destructive' });
+    },
+  });
+
+  const deleteReflectionMutation = useMutation({
+    mutationFn: deleteReflection,
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['adminReflections'] });
+      queryClient.invalidateQueries({ queryKey: ['reflections'] });
+      toast({ title: 'Deleted', description: 'Reflection removed.' });
+    },
+    onError: (error: any) => {
+      toast({ title: 'Error', description: error.message || 'Failed to delete reflection.', variant: 'destructive' });
+    },
+  });
+
+  const resetReflectionForm = () => {
+    setEditingReflectionId(null);
+    setReflectionForm({ title: '', thought: '', image_url: '', published: true });
+  };
+
+  const handleEditReflection = (r: any) => {
+    setEditingReflectionId(r.id);
+    setReflectionForm({
+      title: r.title,
+      thought: r.thought || '',
+      image_url: r.image_url || '',
+      published: r.published,
+    });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleDeleteReflection = (id: string, title: string) => {
+    if (window.confirm(`Delete reflection "${title}"?`)) {
+      deleteReflectionMutation.mutate(id);
+    }
+  };
+
+  const handleReflectionSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (editingReflectionId) {
+      updateReflectionMutation.mutate({ id: editingReflectionId, data: reflectionForm });
+    } else {
+      createReflectionMutation.mutate(reflectionForm);
+    }
+  };
 
   // Form states
   const [editingPostId, setEditingPostId] = useState<string | null>(null);
@@ -429,11 +517,12 @@ const Admin = () => {
 
           {/* Personal Reflections Tab */}
           <TabsContent value="personal-reflections" className="space-y-6">
+            {/* Page Title */}
             <Card>
               <CardHeader>
-                <CardTitle>Personal Reflections</CardTitle>
+                <CardTitle>Page Title</CardTitle>
                 <CardDescription>
-                  Edit the title and content for the Personal Reflections page.
+                  Edit the title displayed at the top of the Personal Reflections page.
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -449,22 +538,155 @@ const Admin = () => {
                     className="text-base font-semibold"
                   />
                 </div>
-                <div className="space-y-1">
-                  <Label className="text-sm text-muted-foreground">Content</Label>
-                  <RichTextEditor
-                    content={getPrContent()}
-                    onChange={(html) => setPrContentDraft(html)}
-                    placeholder="Write your personal reflections here..."
-                  />
-                </div>
                 <Button
                   onClick={() =>
-                    updatePrMutation.mutate({ title: getPrTitle(), content: getPrContent() })
+                    updatePrMutation.mutate({ title: getPrTitle(), content: prSection?.content || '' })
                   }
                   disabled={updatePrMutation.isPending}
+                  size="sm"
                 >
-                  {updatePrMutation.isPending ? 'Saving...' : 'Save Personal Reflections'}
+                  {updatePrMutation.isPending ? 'Saving...' : 'Save Title'}
                 </Button>
+              </CardContent>
+            </Card>
+
+            {/* Add / Edit Reflection */}
+            <Card>
+              <CardHeader>
+                <div className="flex items-center justify-between">
+                  <div>
+                    <CardTitle>{editingReflectionId ? 'Edit Reflection' : 'Add New Reflection'}</CardTitle>
+                    <CardDescription>
+                      {editingReflectionId
+                        ? 'Update this thought, image, or headline.'
+                        : 'Add a thought, image, or headline to the Personal Reflections page.'}
+                    </CardDescription>
+                  </div>
+                  {editingReflectionId && (
+                    <Button type="button" variant="outline" onClick={resetReflectionForm}>
+                      Cancel Edit
+                    </Button>
+                  )}
+                </div>
+              </CardHeader>
+              <CardContent>
+                <form onSubmit={handleReflectionSubmit} className="space-y-6">
+                  <div className="space-y-2">
+                    <Label htmlFor="reflection-title">Headline</Label>
+                    <Input
+                      id="reflection-title"
+                      value={reflectionForm.title}
+                      onChange={(e) => setReflectionForm({ ...reflectionForm, title: e.target.value })}
+                      placeholder="Enter a headline or title"
+                      required
+                    />
+                  </div>
+
+                  <ImageUpload
+                    label="Image (optional)"
+                    currentImageUrl={reflectionForm.image_url}
+                    onUrlChange={(url) => setReflectionForm({ ...reflectionForm, image_url: url })}
+                    showUrlInput={true}
+                  />
+
+                  <div className="space-y-2">
+                    <Label htmlFor="reflection-thought">Thought / Caption</Label>
+                    <Textarea
+                      id="reflection-thought"
+                      value={reflectionForm.thought}
+                      onChange={(e) => setReflectionForm({ ...reflectionForm, thought: e.target.value })}
+                      placeholder="Share your thought or a brief caption..."
+                      rows={4}
+                    />
+                  </div>
+
+                  <div className="flex items-center space-x-2">
+                    <Switch
+                      id="reflection-published"
+                      checked={reflectionForm.published}
+                      onCheckedChange={(checked) =>
+                        setReflectionForm({ ...reflectionForm, published: checked })
+                      }
+                    />
+                    <Label htmlFor="reflection-published">Publish immediately</Label>
+                  </div>
+
+                  <Button
+                    type="submit"
+                    className="w-full"
+                    disabled={createReflectionMutation.isPending || updateReflectionMutation.isPending}
+                  >
+                    {editingReflectionId
+                      ? (updateReflectionMutation.isPending ? 'Updating...' : 'Update Reflection')
+                      : (createReflectionMutation.isPending ? 'Adding...' : 'Add Reflection')}
+                  </Button>
+                </form>
+              </CardContent>
+            </Card>
+
+            {/* Existing Reflections */}
+            <Card>
+              <CardHeader>
+                <CardTitle>Reflections</CardTitle>
+                <CardDescription>{reflections?.length || 0} total items</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-3">
+                  {reflections?.map((r) => (
+                    <div
+                      key={r.id}
+                      className="flex items-center justify-between p-3 border border-border rounded-lg hover:bg-accent/50 transition-colors"
+                    >
+                      <div className="flex items-center gap-3 flex-1 min-w-0">
+                        {r.image_url && (
+                          <img
+                            src={r.image_url}
+                            alt={r.title}
+                            className="w-14 h-14 object-cover rounded flex-shrink-0"
+                          />
+                        )}
+                        <div className="min-w-0">
+                          <p className="font-medium truncate">{r.title}</p>
+                          {r.thought && (
+                            <p className="text-sm text-muted-foreground line-clamp-1">{r.thought}</p>
+                          )}
+                        </div>
+                      </div>
+                      <div className="flex items-center space-x-2 ml-3 flex-shrink-0">
+                        {r.published ? (
+                          <span className="px-2 py-1 bg-green-500/20 text-green-700 dark:text-green-400 text-xs rounded">
+                            Published
+                          </span>
+                        ) : (
+                          <span className="px-2 py-1 bg-yellow-500/20 text-yellow-700 dark:text-yellow-400 text-xs rounded">
+                            Draft
+                          </span>
+                        )}
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          onClick={() => handleEditReflection(r)}
+                          className="h-8 w-8 p-0"
+                        >
+                          <Pencil className="h-4 w-4" />
+                        </Button>
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          onClick={() => handleDeleteReflection(r.id, r.title)}
+                          className="h-8 w-8 p-0 text-destructive hover:text-destructive"
+                        >
+                          <Trash2 className="h-4 w-4" />
+                        </Button>
+                      </div>
+                    </div>
+                  ))}
+                  {(!reflections || reflections.length === 0) && (
+                    <p className="text-sm text-muted-foreground italic text-center py-4">
+                      No reflections yet. Add your first thought above.
+                    </p>
+                  )}
+                </div>
               </CardContent>
             </Card>
           </TabsContent>
