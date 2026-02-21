@@ -131,9 +131,10 @@ export interface CategoryFormData {
   page?: string | null;
 }
 
-// Pages that categories can be mapped to
+// Pages that categories can be mapped to.
+// 'none' is the UI sentinel for "no specific page" — stored as NULL in the database.
 export const SITE_PAGES = [
-  { label: 'All Posts only', value: '' },
+  { label: 'All Posts only', value: 'none' },
   { label: 'NiData', value: 'ni-data' },
   { label: 'Personal Reflections', value: 'personal-reflections' },
   { label: 'Business & Technology', value: 'business-technology' },
