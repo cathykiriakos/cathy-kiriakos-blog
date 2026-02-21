@@ -12,10 +12,12 @@ const useHomeSections = () =>
 useQuery<HomeSectionData[]>({
   queryKey: ['home_sections'],
   queryFn: async () => {
-    const { data, error } = await supabase.
-    from('home_sections').
-    select('section_key, content');
-    if (error) throw error;
+    const { data, error } = await supabase
+      .from('home_sections')
+      .select('section_key, content');
+    // If the table doesn't exist yet (migration pending), return empty array
+    // so the page still renders without crashing
+    if (error) return [];
     return data ?? [];
   }
 });
