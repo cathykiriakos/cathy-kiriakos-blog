@@ -117,7 +117,10 @@ const PersonalReflections = () => {
                       <div className="p-5 space-y-2">
                         <h2 className="font-bold text-foreground leading-tight text-lg">{card.title}</h2>
                         {card.thought && (
-                          <p className="text-sm text-muted-foreground leading-relaxed">{card.thought}</p>
+                          <div
+                            className="prose prose-sm prose-neutral dark:prose-invert max-w-none text-sm text-muted-foreground leading-relaxed"
+                            dangerouslySetInnerHTML={{ __html: card.thought }}
+                          />
                         )}
                         <p className="text-xs text-muted-foreground/60">
                           {new Date(card.created_at).toLocaleDateString('en-US', {
