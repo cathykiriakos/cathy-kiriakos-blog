@@ -146,6 +146,7 @@ export interface Reflection {
   title: string;
   thought?: string;
   image_url?: string;
+  video_url?: string;
   published: boolean;
   created_at: string;
   updated_at: string;
@@ -155,6 +156,7 @@ export interface ReflectionFormData {
   title: string;
   thought?: string;
   image_url?: string;
+  video_url?: string;
   published: boolean;
 }
 

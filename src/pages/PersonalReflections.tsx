@@ -21,9 +21,45 @@ const usePageTitle = () =>
     },
   });
 
+// Detect video type and return an embeddable element
+const VideoEmbed = ({ url }: { url: string }) => {
+  const yt = url.match(/(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)([^&\s?]+)/);
+  if (yt) {
+    return (
+      <div className="relative aspect-video">
+        <iframe
+          src={`https://www.youtube.com/embed/${yt[1]}`}
+          className="w-full h-full"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          loading="lazy"
+        />
+      </div>
+    );
+  }
+  const vimeo = url.match(/vimeo\.com\/(\d+)/);
+  if (vimeo) {
+    return (
+      <div className="relative aspect-video">
+        <iframe
+          src={`https://player.vimeo.com/video/${vimeo[1]}`}
+          className="w-full h-full"
+          allowFullScreen
+          loading="lazy"
+        />
+      </div>
+    );
+  }
+  return (
+    <div className="relative aspect-video">
+      <video src={url} controls className="w-full h-full object-cover" />
+    </div>
+  );
+};
+
 // Unified card type for display
 type CardItem =
-  | { kind: 'reflection'; id: string; title: string; thought?: string; image_url?: string; created_at: string }
+  | { kind: 'reflection'; id: string; title: string; thought?: string; image_url?: string; video_url?: string; created_at: string }
   | { kind: 'post'; slug: string; title: string; excerpt: string; image_url?: string; created_at: string };
 
 const PersonalReflections = () => {
@@ -65,6 +101,7 @@ const PersonalReflections = () => {
       title: r.title,
       thought: r.thought,
       image_url: r.image_url,
+      video_url: r.video_url,
       created_at: r.created_at,
     }));
     const fromPosts: CardItem[] = (posts ?? []).map((p) => ({
@@ -104,7 +141,9 @@ const PersonalReflections = () => {
                       key={`r-${card.id}`}
                       className="group border border-border rounded-lg overflow-hidden hover:shadow-md transition-shadow duration-300"
                     >
-                      {card.image_url && (
+                      {card.video_url ? (
+                        <VideoEmbed url={card.video_url} />
+                      ) : card.image_url ? (
                         <div className="relative aspect-[4/3] overflow-hidden">
                           <img
                             src={card.image_url}
@@ -113,7 +152,7 @@ const PersonalReflections = () => {
                             loading="lazy"
                           />
                         </div>
-                      )}
+                      ) : null}
                       <div className="p-5 space-y-2">
                         <h2 className="font-bold text-foreground leading-tight text-lg">{card.title}</h2>
                         {card.thought && (

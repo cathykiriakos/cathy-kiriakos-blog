@@ -226,6 +226,7 @@ const Admin = () => {
     title: '',
     thought: '',
     image_url: '',
+    video_url: '',
     published: true,
   });
 
@@ -270,7 +271,7 @@ const Admin = () => {
 
   const resetReflectionForm = () => {
     setEditingReflectionId(null);
-    setReflectionForm({ title: '', thought: '', image_url: '', published: true });
+    setReflectionForm({ title: '', thought: '', image_url: '', video_url: '', published: true });
   };
 
   const handleEditReflection = (r: any) => {
@@ -279,6 +280,7 @@ const Admin = () => {
       title: r.title,
       thought: r.thought || '',
       image_url: r.image_url || '',
+      video_url: r.video_url || '',
       published: r.published,
     });
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -655,6 +657,19 @@ const Admin = () => {
                     onUrlChange={(url) => setReflectionForm({ ...reflectionForm, image_url: url })}
                     showUrlInput={true}
                   />
+
+                  <div className="space-y-2">
+                    <Label htmlFor="reflection-video">Video URL (optional)</Label>
+                    <Input
+                      id="reflection-video"
+                      value={reflectionForm.video_url ?? ''}
+                      onChange={(e) => setReflectionForm({ ...reflectionForm, video_url: e.target.value })}
+                      placeholder="YouTube, Vimeo, or direct .mp4 URL"
+                    />
+                    <p className="text-xs text-muted-foreground">
+                      If both image and video are provided, video takes priority in the display.
+                    </p>
+                  </div>
 
                   <div className="space-y-2">
                     <Label>Thought / Caption</Label>
