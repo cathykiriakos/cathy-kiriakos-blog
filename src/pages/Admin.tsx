@@ -24,6 +24,7 @@ import {
   updatePost,
   deletePost,
   createNewsItem,
+  deleteNewsItem,
   getPosts,
   getNewsItems,
   getNewsletterSubscribers,
@@ -414,6 +415,23 @@ const Admin = () => {
       });
     },
   });
+
+  const deleteNewsMutation = useMutation({
+    mutationFn: deleteNewsItem,
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['adminNews'] });
+      toast({ title: 'Deleted', description: 'News item removed.' });
+    },
+    onError: () => {
+      toast({ title: 'Error', description: 'Failed to delete news item.', variant: 'destructive' });
+    },
+  });
+
+  const handleDeleteNewsItem = (id: string, title: string) => {
+    if (window.confirm(`Remove "${title}"?`)) {
+      deleteNewsMutation.mutate(id);
+    }
+  };
 
   // Helper functions
   const resetPostForm = () => {
@@ -1070,25 +1088,36 @@ const Admin = () => {
                   {newsItems?.map((item) => (
                     <div
                       key={item.id}
-                      className="flex items-center justify-between p-3 border border-border rounded-lg"
+                      className="flex items-center justify-between p-3 border border-border rounded-lg hover:bg-accent/50 transition-colors"
                     >
-                      <div>
-                        <p className="font-medium">{item.title}</p>
+                      <div className="flex-1 min-w-0 mr-3">
+                        <p className="font-medium truncate">{item.title}</p>
                         <p className="text-sm text-muted-foreground">
                           {item.source} • {new Date(item.published_date).toLocaleDateString()}
                         </p>
                       </div>
-                      <span
-                        className={`px-2 py-1 rounded text-xs font-semibold ${
-                          item.sentiment === 'positive'
-                            ? 'bg-green-500/20 text-green-700 dark:text-green-400'
-                            : item.sentiment === 'negative'
-                            ? 'bg-red-500/20 text-red-700 dark:text-red-400'
-                            : 'bg-gray-500/20 text-gray-700 dark:text-gray-400'
-                        }`}
-                      >
-                        {item.sentiment}
-                      </span>
+                      <div className="flex items-center gap-2 flex-shrink-0">
+                        <span
+                          className={`px-2 py-1 rounded text-xs font-semibold ${
+                            item.sentiment === 'positive'
+                              ? 'bg-green-500/20 text-green-700 dark:text-green-400'
+                              : item.sentiment === 'negative'
+                              ? 'bg-red-500/20 text-red-700 dark:text-red-400'
+                              : 'bg-gray-500/20 text-gray-700 dark:text-gray-400'
+                          }`}
+                        >
+                          {item.sentiment}
+                        </span>
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          className="h-8 w-8 p-0 text-destructive hover:text-destructive"
+                          onClick={() => handleDeleteNewsItem(item.id, item.title)}
+                          disabled={deleteNewsMutation.isPending}
+                        >
+                          <Trash2 className="h-4 w-4" />
+                        </Button>
+                      </div>
                     </div>
                   ))}
                 </div>
