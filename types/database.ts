@@ -142,7 +142,8 @@ export const POST_CATEGORIES = [
   'Culture',
   'Management',
   'Data Engineering',
-  'NiData Journey'
+  'NiData Journey',
+  'Personal Reflections'
 ] as const;
 
 export type PostCategory = typeof POST_CATEGORIES[number];
