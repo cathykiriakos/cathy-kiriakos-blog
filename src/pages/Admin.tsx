@@ -1186,8 +1186,8 @@ const Admin = () => {
                     <div className="space-y-2">
                       <Label htmlFor="cat-page">Appears on page</Label>
                       <Select
-                        value={categoryForm.page ?? ''}
-                        onValueChange={(val) => setCategoryForm({ ...categoryForm, page: val })}
+                        value={categoryForm.page || 'none'}
+                        onValueChange={(val) => setCategoryForm({ ...categoryForm, page: val === 'none' ? null : val })}
                       >
                         <SelectTrigger id="cat-page">
                           <SelectValue placeholder="Select a page…" />
@@ -1213,7 +1213,7 @@ const Admin = () => {
                     {dbCategories?.length ?? 0} categories
                   </p>
                   {dbCategories?.map((cat) => {
-                    const pageLabel = SITE_PAGES.find((p) => p.value === (cat.page ?? ''))?.label ?? 'All Posts only';
+                    const pageLabel = SITE_PAGES.find((p) => p.value === (cat.page ?? 'none'))?.label ?? 'All Posts only';
                     return (
                       <div
                         key={cat.id}
