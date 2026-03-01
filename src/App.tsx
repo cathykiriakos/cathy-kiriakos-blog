@@ -24,10 +24,13 @@ const About = lazy(() => import("./pages/About"));
 const Contact = lazy(() => import("./pages/Contact"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
+import AdminGuard from "./components/AdminGuard";
+
 // NEW PAGES
 const NiData = lazy(() => import("./pages/NiData.tsx"));
 const MarketIntelligence = lazy(() => import("./pages/MarketIntelligence.tsx"));
 const Admin = lazy(() => import("./pages/Admin.tsx"));
+const AdminLogin = lazy(() => import("./pages/AdminLogin.tsx"));
 const BusinessTechnology = lazy(() => import("./pages/BusinessTechnology.tsx"));
 const TestSupabase = lazy(() => import("./pages/TestSupabase.tsx"));
 const PersonalReflections = lazy(() => import("./pages/PersonalReflections.tsx"));
@@ -53,7 +56,8 @@ const App = () => (
               <Route path="/ni-data" element={<NiData />} />
               <Route path="/market-intelligence" element={<MarketIntelligence />} />
               <Route path="/business-technology" element={<BusinessTechnology />} />
-              <Route path="/admin" element={<Admin />} />
+              <Route path="/admin/login" element={<AdminLogin />} />
+              <Route path="/admin" element={<AdminGuard><Admin /></AdminGuard>} />
               <Route path="/test-supabase" element={<TestSupabase />} />
               <Route path="/personal-reflections" element={<PersonalReflections />} />
               

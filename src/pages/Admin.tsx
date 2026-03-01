@@ -18,7 +18,8 @@ import {
 } from '@/components/ui/select';
 import { Switch } from '@/components/ui/switch';
 import { useToast } from '@/hooks/use-toast';
-import { PlusCircle, Newspaper, Settings, Mail, Pencil, Trash2, LayoutDashboard, BookOpen, Tag } from 'lucide-react';
+import { PlusCircle, Newspaper, Settings, Mail, Pencil, Trash2, LayoutDashboard, BookOpen, Tag, LogOut, Share2, Linkedin, Facebook, CheckCircle2, XCircle, Loader2 } from 'lucide-react';
+import { Checkbox } from '@/components/ui/checkbox';
 import {
   createPost,
   updatePost,
@@ -60,6 +61,86 @@ const Admin = () => {
   const [activeTab, setActiveTab] = useState('posts');
   const { toast } = useToast();
   const queryClient = useQueryClient();
+
+  const handleSignOut = async () => {
+    await supabase.auth.signOut();
+    window.location.href = '/admin/login';
+  };
+
+  // ── Social Cross-Posting State ──────────────────────────────────────────────
+  type SocialPlatform = 'linkedin' | 'facebook' | 'instagram' | 'threads';
+  const SOCIAL_PLATFORMS: { id: SocialPlatform; label: string; icon: React.ReactNode }[] = [
+    { id: 'linkedin',  label: 'LinkedIn',  icon: <Linkedin className="h-4 w-4" /> },
+    { id: 'facebook',  label: 'Facebook',  icon: <Facebook className="h-4 w-4" /> },
+    { id: 'instagram', label: 'Instagram', icon: <span className="text-xs font-bold">IG</span> },
+    { id: 'threads',   label: 'Threads',   icon: <span className="text-xs font-bold">@</span> },
+  ];
+  const [socialSelectedPost, setSocialSelectedPost] = useState<string>('');
+  const [socialPlatforms, setSocialPlatforms] = useState<SocialPlatform[]>(['linkedin']);
+  const [socialPosting, setSocialPosting] = useState(false);
+  const [socialResults, setSocialResults] = useState<Record<string, { ok: boolean; error?: string }> | null>(null);
+
+  const toggleSocialPlatform = (platform: SocialPlatform) => {
+    setSocialPlatforms((prev) =>
+      prev.includes(platform) ? prev.filter((p) => p !== platform) : [...prev, platform]
+    );
+  };
+
+  const handleSocialPost = async () => {
+    if (!socialSelectedPost || socialPlatforms.length === 0) return;
+
+    const { data: { session } } = await supabase.auth.getSession();
+    if (!session) {
+      toast({ title: 'Not authenticated', variant: 'destructive' });
+      return;
+    }
+
+    const post = allPosts?.find((p) => p.id === socialSelectedPost);
+    if (!post) return;
+
+    const siteUrl = window.location.origin;
+    const postUrl = `${siteUrl}/blog/${post.slug}`;
+
+    setSocialPosting(true);
+    setSocialResults(null);
+
+    try {
+      const res = await fetch(
+        `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/social-post`,
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${session.access_token}`,
+            apikey: import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY,
+          },
+          body: JSON.stringify({
+            platforms: socialPlatforms,
+            title: post.title,
+            excerpt: post.excerpt || '',
+            url: postUrl,
+            imageUrl: post.image_url || undefined,
+          }),
+        }
+      );
+
+      const data = await res.json();
+      setSocialResults(data.results);
+
+      const allOk = Object.values(data.results as Record<string, { ok: boolean }>).every((r) => r.ok);
+      toast({
+        title: allOk ? 'Posted successfully!' : 'Some platforms failed',
+        description: allOk
+          ? `"${post.title}" was published to ${socialPlatforms.join(', ')}.`
+          : 'Check results below for details.',
+        variant: allOk ? 'default' : 'destructive',
+      });
+    } catch (err) {
+      toast({ title: 'Network error', description: String(err), variant: 'destructive' });
+    } finally {
+      setSocialPosting(false);
+    }
+  };
 
   // Fetch home sections
   const { data: homeSections = [] } = useQuery<HomeSection[]>({
@@ -490,15 +571,26 @@ const Admin = () => {
       <Header />
       
       <main id="main-content" className="container-blog py-16">
-        <div className="mb-8">
-          <h1 className="text-4xl font-bold mb-2">Admin Panel</h1>
-          <p className="text-muted-foreground">
-            Manage your content, track engagement, and configure settings
-          </p>
+        <div className="mb-8 flex items-start justify-between">
+          <div>
+            <h1 className="text-4xl font-bold mb-2">Admin Panel</h1>
+            <p className="text-muted-foreground">
+              Manage your content, track engagement, and configure settings
+            </p>
+          </div>
+          <Button
+            variant="outline"
+            size="sm"
+            className="gap-2 shrink-0"
+            onClick={handleSignOut}
+          >
+            <LogOut className="h-4 w-4" />
+            Sign out
+          </Button>
         </div>
 
         <Tabs value={activeTab} onValueChange={setActiveTab}>
-          <TabsList className="grid w-full grid-cols-6">
+          <TabsList className="grid w-full grid-cols-7">
             <TabsTrigger value="home">
               <LayoutDashboard className="mr-2 h-4 w-4" />
               Home
@@ -514,6 +606,10 @@ const Admin = () => {
             <TabsTrigger value="news">
               <Newspaper className="mr-2 h-4 w-4" />
               News
+            </TabsTrigger>
+            <TabsTrigger value="social">
+              <Share2 className="mr-2 h-4 w-4" />
+              Social
             </TabsTrigger>
             <TabsTrigger value="subscribers">
               <Mail className="mr-2 h-4 w-4" />
@@ -1135,6 +1231,153 @@ const Admin = () => {
                       </div>
                     </div>
                   ))}
+                </div>
+              </CardContent>
+            </Card>
+          </TabsContent>
+
+          {/* Social Publishing Tab */}
+          <TabsContent value="social" className="space-y-6">
+            <Card>
+              <CardHeader>
+                <CardTitle>Post to Social Media</CardTitle>
+                <CardDescription>
+                  Publish a post directly to your connected social platforms.
+                  Requires API tokens set as Supabase secrets — see{' '}
+                  <code className="text-xs bg-muted px-1 rounded">supabase/functions/social-post/index.ts</code>{' '}
+                  for setup instructions.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-6">
+                {/* Step 1 — Select content */}
+                <div className="space-y-2">
+                  <Label>1. Select a post to share</Label>
+                  <Select value={socialSelectedPost} onValueChange={setSocialSelectedPost}>
+                    <SelectTrigger>
+                      <SelectValue placeholder="Choose a post…" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {allPosts?.map((p) => (
+                        <SelectItem key={p.id} value={p.id}>
+                          {p.title}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                {/* Preview */}
+                {socialSelectedPost && (() => {
+                  const p = allPosts?.find((x) => x.id === socialSelectedPost);
+                  if (!p) return null;
+                  return (
+                    <div className="rounded-lg border p-4 bg-muted/30 space-y-1 text-sm">
+                      <p className="font-semibold">{p.title}</p>
+                      {p.excerpt && <p className="text-muted-foreground line-clamp-2">{p.excerpt}</p>}
+                      <p className="text-xs text-primary">{window.location.origin}/blog/{p.slug}</p>
+                    </div>
+                  );
+                })()}
+
+                {/* Step 2 — Select platforms */}
+                <div className="space-y-3">
+                  <Label>2. Select platforms</Label>
+                  <div className="grid grid-cols-2 gap-3">
+                    {SOCIAL_PLATFORMS.map(({ id, label, icon }) => (
+                      <div
+                        key={id}
+                        className={`flex items-center gap-3 rounded-lg border p-3 cursor-pointer transition-colors ${
+                          socialPlatforms.includes(id)
+                            ? 'border-primary bg-primary/5'
+                            : 'border-border hover:border-muted-foreground'
+                        }`}
+                        onClick={() => toggleSocialPlatform(id)}
+                      >
+                        <Checkbox
+                          checked={socialPlatforms.includes(id)}
+                          onCheckedChange={() => toggleSocialPlatform(id)}
+                        />
+                        <span className="text-muted-foreground">{icon}</span>
+                        <span className="text-sm font-medium">{label}</span>
+                      </div>
+                    ))}
+                  </div>
+                  <p className="text-xs text-muted-foreground">
+                    Instagram requires your post to have a featured image.
+                  </p>
+                </div>
+
+                {/* Step 3 — Post Now */}
+                <Button
+                  className="w-full gap-2"
+                  disabled={!socialSelectedPost || socialPlatforms.length === 0 || socialPosting}
+                  onClick={handleSocialPost}
+                >
+                  {socialPosting
+                    ? <><Loader2 className="h-4 w-4 animate-spin" /> Posting…</>
+                    : <><Share2 className="h-4 w-4" /> Post Now to {socialPlatforms.length === SOCIAL_PLATFORMS.length ? 'all platforms' : socialPlatforms.join(', ')}</>
+                  }
+                </Button>
+
+                {/* Results */}
+                {socialResults && (
+                  <div className="space-y-2">
+                    <p className="text-sm font-medium">Results</p>
+                    {Object.entries(socialResults).map(([platform, result]) => (
+                      <div
+                        key={platform}
+                        className={`flex items-start gap-2 rounded-lg border p-3 text-sm ${
+                          result.ok ? 'border-green-200 bg-green-50 dark:border-green-900 dark:bg-green-950' : 'border-destructive/30 bg-destructive/5'
+                        }`}
+                      >
+                        {result.ok
+                          ? <CheckCircle2 className="h-4 w-4 text-green-600 dark:text-green-400 mt-0.5 shrink-0" />
+                          : <XCircle className="h-4 w-4 text-destructive mt-0.5 shrink-0" />
+                        }
+                        <div>
+                          <span className="font-medium capitalize">{platform}</span>
+                          {!result.ok && result.error && (
+                            <p className="text-xs text-destructive mt-0.5">{result.error}</p>
+                          )}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </CardContent>
+            </Card>
+
+            {/* Setup Guide */}
+            <Card>
+              <CardHeader>
+                <CardTitle>Platform Setup Guide</CardTitle>
+                <CardDescription>
+                  One-time developer app setup required for each platform before posting will work.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4 text-sm">
+                <div className="space-y-1">
+                  <p className="font-semibold flex items-center gap-2"><Linkedin className="h-4 w-4" /> LinkedIn</p>
+                  <ol className="list-decimal list-inside space-y-1 text-muted-foreground ml-2">
+                    <li>Go to <a href="https://www.linkedin.com/developers/apps" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">linkedin.com/developers/apps</a> → Create App</li>
+                    <li>Request "Share on LinkedIn" product (instant approval)</li>
+                    <li>Generate token with scopes: <code className="bg-muted px-1 rounded">w_member_social</code></li>
+                    <li>Set Supabase secrets: <code className="bg-muted px-1 rounded">LINKEDIN_ACCESS_TOKEN</code> and <code className="bg-muted px-1 rounded">LINKEDIN_AUTHOR_URN</code></li>
+                  </ol>
+                </div>
+                <div className="space-y-1">
+                  <p className="font-semibold flex items-center gap-2"><Facebook className="h-4 w-4" /> Facebook Page + Instagram + Threads</p>
+                  <ol className="list-decimal list-inside space-y-1 text-muted-foreground ml-2">
+                    <li>Go to <a href="https://developers.facebook.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">developers.facebook.com</a> → Create App → Business type</li>
+                    <li>Add "Pages API" product → generate a Page Access Token</li>
+                    <li>For Instagram: connect your IG Business account to a Facebook Page, then get the IG Account ID</li>
+                    <li>For Threads: add "Threads API" product (requires app review from Meta)</li>
+                    <li>Set Supabase secrets: <code className="bg-muted px-1 rounded">META_ACCESS_TOKEN</code>, <code className="bg-muted px-1 rounded">META_PAGE_ID</code>, <code className="bg-muted px-1 rounded">META_INSTAGRAM_ACCOUNT_ID</code>, <code className="bg-muted px-1 rounded">META_THREADS_USER_ID</code></li>
+                  </ol>
+                </div>
+                <div className="rounded-lg bg-muted p-3 text-xs text-muted-foreground">
+                  <strong>Deploy the Edge Function:</strong><br />
+                  Run <code>supabase functions deploy social-post</code> from your project root after setting secrets.
                 </div>
               </CardContent>
             </Card>
