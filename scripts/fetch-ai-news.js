@@ -46,8 +46,10 @@ function analyzeSentiment(text) {
 }
 
 async function fetchNewsAPI() {
+  if (!NEWS_API_KEY) return [];
+
   console.log('Fetching from NewsAPI...');
-  
+
   try {
     const url = `https://newsapi.org/v2/everything?q=artificial+intelligence+OR+AI+OR+machine+learning+OR+DeepSeek+OR+OpenAI+OR+Anthropic&sortBy=publishedAt&language=en&apiKey=${NEWS_API_KEY}`;
     const response = await axios.get(url);
