@@ -23,7 +23,6 @@ async function generateDailyDigest() {
 
     if (marketError) {
       console.error('Error fetching market data:', marketError);
-      return;
     }
 
     // Fetch today's news
@@ -36,7 +35,6 @@ async function generateDailyDigest() {
 
     if (newsError) {
       console.error('Error fetching news:', newsError);
-      return;
     }
 
     // Generate digest content
