@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { List } from 'lucide-react';
+import { sanitizeHtml } from '@/lib/sanitize';
 
 interface TocItem {
   id: string;
@@ -19,7 +20,7 @@ const TableOfContents = ({ content }: TableOfContentsProps) => {
   useEffect(() => {
     // Extract headings from content
     const tempDiv = document.createElement('div');
-    tempDiv.innerHTML = content;
+    tempDiv.innerHTML = sanitizeHtml(content);
     
     const headings = tempDiv.querySelectorAll('h1, h2, h3, h4, h5, h6');
     const items: TocItem[] = [];
@@ -40,7 +41,7 @@ const TableOfContents = ({ content }: TableOfContentsProps) => {
     // Update the actual DOM with IDs
     const articleContent = document.querySelector('[data-article-content]');
     if (articleContent) {
-      articleContent.innerHTML = tempDiv.innerHTML;
+      articleContent.innerHTML = sanitizeHtml(tempDiv.innerHTML);
     }
   }, [content]);
 
