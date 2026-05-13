@@ -1,5 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 import { supabase } from '@/integrations/supabase/client';
+import { sanitizeHtml } from '@/lib/sanitize';
 
 type SectionKey = 'about_me' | 'my_principles' | 'reflections_on_ai' | 'my_resume';
 
@@ -40,7 +41,7 @@ const SectionBlock = ({ id, title, content }: { id: string; title: string; conte
     <h2 className="font-bold text-foreground leading-tight mb-4 text-4xl">{title}</h2>
     <div
       className="prose prose-neutral dark:prose-invert max-w-none text-base text-muted-foreground leading-relaxed"
-      dangerouslySetInnerHTML={{ __html: content }}
+      dangerouslySetInnerHTML={{ __html: sanitizeHtml(content) }}
     />
   </section>
 );
