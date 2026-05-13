@@ -14,33 +14,6 @@ export type Database = {
   }
   public: {
     Tables: {
-      contact_submissions: {
-        Row: {
-          created_at: string
-          email: string
-          id: string
-          message: string
-          name: string
-          status: string
-        }
-        Insert: {
-          created_at?: string
-          email: string
-          id?: string
-          message: string
-          name: string
-          status?: string
-        }
-        Update: {
-          created_at?: string
-          email?: string
-          id?: string
-          message?: string
-          name?: string
-          status?: string
-        }
-        Relationships: []
-      }
       home_sections: {
         Row: {
           content: string
@@ -62,183 +35,6 @@ export type Database = {
           section_key?: string
           title?: string
           updated_at?: string
-        }
-        Relationships: []
-      }
-      market_data: {
-        Row: {
-          change_percent: number | null
-          company_name: string
-          company_type: string
-          created_at: string
-          data_date: string
-          id: string
-          market_cap: number | null
-          price: number | null
-          ticker: string
-          volume: number | null
-        }
-        Insert: {
-          change_percent?: number | null
-          company_name: string
-          company_type: string
-          created_at?: string
-          data_date: string
-          id?: string
-          market_cap?: number | null
-          price?: number | null
-          ticker: string
-          volume?: number | null
-        }
-        Update: {
-          change_percent?: number | null
-          company_name?: string
-          company_type?: string
-          created_at?: string
-          data_date?: string
-          id?: string
-          market_cap?: number | null
-          price?: number | null
-          ticker?: string
-          volume?: number | null
-        }
-        Relationships: []
-      }
-      news_items: {
-        Row: {
-          created_at: string
-          featured: boolean
-          id: string
-          image_url: string | null
-          published_date: string
-          sentiment: string | null
-          source: string | null
-          summary: string | null
-          title: string
-          url: string | null
-        }
-        Insert: {
-          created_at?: string
-          featured?: boolean
-          id?: string
-          image_url?: string | null
-          published_date: string
-          sentiment?: string | null
-          source?: string | null
-          summary?: string | null
-          title: string
-          url?: string | null
-        }
-        Update: {
-          created_at?: string
-          featured?: boolean
-          id?: string
-          image_url?: string | null
-          published_date?: string
-          sentiment?: string | null
-          source?: string | null
-          summary?: string | null
-          title?: string
-          url?: string | null
-        }
-        Relationships: []
-      }
-      newsletter_subscribers: {
-        Row: {
-          email: string
-          id: string
-          subscribed: boolean
-          subscribed_at: string
-          unsubscribed_at: string | null
-        }
-        Insert: {
-          email: string
-          id?: string
-          subscribed?: boolean
-          subscribed_at?: string
-          unsubscribed_at?: string | null
-        }
-        Update: {
-          email?: string
-          id?: string
-          subscribed?: boolean
-          subscribed_at?: string
-          unsubscribed_at?: string | null
-        }
-        Relationships: []
-      }
-      posts: {
-        Row: {
-          author: string | null
-          category: string | null
-          content: string | null
-          created_at: string
-          excerpt: string | null
-          featured: boolean
-          id: string
-          image_url: string | null
-          published: boolean
-          slug: string
-          title: string
-          updated_at: string
-        }
-        Insert: {
-          author?: string | null
-          category?: string | null
-          content?: string | null
-          created_at?: string
-          excerpt?: string | null
-          featured?: boolean
-          id?: string
-          image_url?: string | null
-          published?: boolean
-          slug: string
-          title: string
-          updated_at?: string
-        }
-        Update: {
-          author?: string | null
-          category?: string | null
-          content?: string | null
-          created_at?: string
-          excerpt?: string | null
-          featured?: boolean
-          id?: string
-          image_url?: string | null
-          published?: boolean
-          slug?: string
-          title?: string
-          updated_at?: string
-        }
-        Relationships: []
-      }
-      private_valuations: {
-        Row: {
-          company_name: string
-          company_type: string | null
-          created_at: string
-          id: string
-          last_update: string | null
-          updated_at: string
-          valuation: string | null
-        }
-        Insert: {
-          company_name: string
-          company_type?: string | null
-          created_at?: string
-          id?: string
-          last_update?: string | null
-          updated_at?: string
-          valuation?: string | null
-        }
-        Update: {
-          company_name?: string
-          company_type?: string | null
-          created_at?: string
-          id?: string
-          last_update?: string | null
-          updated_at?: string
-          valuation?: string | null
         }
         Relationships: []
       }
@@ -283,13 +79,13 @@ export type Tables<
     : never
   : DefaultSchemaTableNameOrOptions extends keyof (DefaultSchema["Tables"] &
         DefaultSchema["Views"])
-  ? (DefaultSchema["Tables"] &
-      DefaultSchema["Views"])[DefaultSchemaTableNameOrOptions] extends {
-      Row: infer R
-    }
-    ? R
+    ? (DefaultSchema["Tables"] &
+        DefaultSchema["Views"])[DefaultSchemaTableNameOrOptions] extends {
+        Row: infer R
+      }
+      ? R
+      : never
     : never
-  : never
 
 export type TablesInsert<
   DefaultSchemaTableNameOrOptions extends
@@ -309,12 +105,12 @@ export type TablesInsert<
     ? I
     : never
   : DefaultSchemaTableNameOrOptions extends keyof DefaultSchema["Tables"]
-  ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
-      Insert: infer I
-    }
-    ? I
+    ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
+        Insert: infer I
+      }
+      ? I
+      : never
     : never
-  : never
 
 export type TablesUpdate<
   DefaultSchemaTableNameOrOptions extends
@@ -334,12 +130,12 @@ export type TablesUpdate<
     ? U
     : never
   : DefaultSchemaTableNameOrOptions extends keyof DefaultSchema["Tables"]
-  ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
-      Update: infer U
-    }
-    ? U
+    ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
+        Update: infer U
+      }
+      ? U
+      : never
     : never
-  : never
 
 export type Enums<
   DefaultSchemaEnumNameOrOptions extends
@@ -355,8 +151,8 @@ export type Enums<
 }
   ? DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"][EnumName]
   : DefaultSchemaEnumNameOrOptions extends keyof DefaultSchema["Enums"]
-  ? DefaultSchema["Enums"][DefaultSchemaEnumNameOrOptions]
-  : never
+    ? DefaultSchema["Enums"][DefaultSchemaEnumNameOrOptions]
+    : never
 
 export type CompositeTypes<
   PublicCompositeTypeNameOrOptions extends
@@ -372,8 +168,8 @@ export type CompositeTypes<
 }
   ? DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions["schema"]]["CompositeTypes"][CompositeTypeName]
   : PublicCompositeTypeNameOrOptions extends keyof DefaultSchema["CompositeTypes"]
-  ? DefaultSchema["CompositeTypes"][PublicCompositeTypeNameOrOptions]
-  : never
+    ? DefaultSchema["CompositeTypes"][PublicCompositeTypeNameOrOptions]
+    : never
 
 export const Constants = {
   public: {

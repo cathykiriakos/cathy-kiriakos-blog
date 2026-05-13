@@ -12,6 +12,7 @@ import ReadingProgress from '@/components/ReadingProgress';
 import TableOfContents from '@/components/TableOfContents';
 import RelatedPosts from '@/components/RelatedPosts';
 import BackToTop from '@/components/BackToTop';
+import { sanitizeHtml } from '@/lib/sanitize';
 
 const BlogDetail = () => {
   const { slug } = useParams();
@@ -155,7 +156,7 @@ const BlogDetail = () => {
               <div
                 className="prose prose-lg max-w-none text-foreground article-content prose-headings:text-foreground prose-headings:font-bold prose-headings:mb-4 prose-headings:mt-8 prose-p:text-muted-foreground prose-p:leading-relaxed prose-p:mb-6 prose-ul:text-muted-foreground prose-li:text-muted-foreground prose-img:rounded-lg prose-img:my-6 prose-strong:text-foreground"
                 data-article-content
-                dangerouslySetInnerHTML={{ __html: contentHtml }}
+                dangerouslySetInnerHTML={{ __html: sanitizeHtml(contentHtml) }}
               />
             </article>
 

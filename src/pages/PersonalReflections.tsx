@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import { supabase } from '@/integrations/supabase/client';
 import { getReflections, getCategories, getPostsByCategories } from '@/lib/supabase';
 import type { Reflection, Post } from '@/types/database';
+import { sanitizeHtml } from '@/lib/sanitize';
 
 const usePageTitle = () =>
   useQuery({
@@ -158,7 +159,7 @@ const PersonalReflections = () => {
                         {card.thought && (
                           <div
                             className="prose prose-sm prose-neutral dark:prose-invert max-w-none text-sm text-muted-foreground leading-relaxed"
-                            dangerouslySetInnerHTML={{ __html: card.thought }}
+                            dangerouslySetInnerHTML={{ __html: sanitizeHtml(card.thought) }}
                           />
                         )}
                         <p className="text-xs text-muted-foreground/60">
