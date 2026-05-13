@@ -5,17 +5,20 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { useToast } from '@/hooks/use-toast';
 
-const ALLOWED_EMAIL = import.meta.env.VITE_ALLOWED_ADMIN_EMAIL;
+const ALLOWED_EMAILS: string[] = (import.meta.env.VITE_ALLOWED_ADMIN_EMAIL ?? '')
+  .split(',')
+  .map((e: string) => e.trim())
+  .filter(Boolean);
 
 const AdminLogin = () => {
   const navigate = useNavigate();
   const { toast } = useToast();
   const [isLoading, setIsLoading] = useState(false);
 
-  // If already signed in with the authorized email, go straight to admin
+  // If already signed in with an authorized email, go straight to admin
   useEffect(() => {
     supabase.auth.getSession().then(({ data: { session } }) => {
-      if (session?.user?.email === ALLOWED_EMAIL) {
+      if (ALLOWED_EMAILS.includes(session?.user?.email ?? '')) {
         navigate('/admin');
       }
     });

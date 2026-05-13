@@ -4,9 +4,12 @@ import { supabase } from '@/integrations/supabase/client';
 import { Button } from '@/components/ui/button';
 import type { User } from '@supabase/supabase-js';
 
-// Set VITE_ALLOWED_ADMIN_EMAIL in your .env file to your Gmail address.
-// Only that email will be granted access to /admin.
-const ALLOWED_EMAIL = import.meta.env.VITE_ALLOWED_ADMIN_EMAIL;
+// Comma-separated list of emails allowed into /admin.
+// e.g. VITE_ALLOWED_ADMIN_EMAIL="you@gmail.com,admin@yourdomain.com"
+const ALLOWED_EMAILS: string[] = (import.meta.env.VITE_ALLOWED_ADMIN_EMAIL ?? '')
+  .split(',')
+  .map((e: string) => e.trim())
+  .filter(Boolean);
 
 interface AdminGuardProps {
   children: React.ReactNode;
@@ -45,8 +48,8 @@ const AdminGuard = ({ children }: AdminGuardProps) => {
     return <Navigate to="/admin/login" replace />;
   }
 
-  // Signed in but not the authorized email → access denied
-  if (ALLOWED_EMAIL && user.email !== ALLOWED_EMAIL) {
+  // Signed in but not an authorized email → access denied
+  if (ALLOWED_EMAILS.length > 0 && !ALLOWED_EMAILS.includes(user.email ?? '')) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-background">
         <div className="text-center space-y-4 max-w-md mx-4">
