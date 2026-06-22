@@ -5,13 +5,33 @@ import type { Database } from './types';
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
 const SUPABASE_PUBLISHABLE_KEY = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
 
+// True only when both build-time env vars were inlined by Vite. When false the
+// app renders a friendly configuration error (see main.tsx) instead of crashing
+// to a blank page — these values are baked in at BUILD time, not read at runtime.
+export const isSupabaseConfigured = Boolean(SUPABASE_URL && SUPABASE_PUBLISHABLE_KEY);
+
+if (!isSupabaseConfigured) {
+  console.error(
+    '[Supabase] Missing build-time env vars VITE_SUPABASE_URL and/or ' +
+      'VITE_SUPABASE_PUBLISHABLE_KEY. Vite inlines these at build time, so they ' +
+      'must be set in the build configuration (e.g. Cloudflare → Settings → Build → ' +
+      'Variables and secrets), then redeploy.'
+  );
+}
+
 // Import the supabase client like this:
 // import { supabase } from "@/integrations/supabase/client";
 
-export const supabase = createClient<Database>(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY, {
-  auth: {
-    storage: localStorage,
-    persistSession: true,
-    autoRefreshToken: true,
+// Fall back to a syntactically valid placeholder when unconfigured so createClient
+// does not throw at module load — that throw is what blanks the entire app.
+export const supabase = createClient<Database>(
+  SUPABASE_URL || 'https://placeholder.supabase.co',
+  SUPABASE_PUBLISHABLE_KEY || 'placeholder-anon-key',
+  {
+    auth: {
+      storage: localStorage,
+      persistSession: true,
+      autoRefreshToken: true,
+    }
   }
-});
+);
