@@ -23,6 +23,9 @@ Personal blog and market-data dashboard for Cathy Kiriakos.
 
 ```
 scripts/                  Node scripts run by CI and manually
+  lib/signal-taxonomy.js  Shared pillar/institutional taxonomy, classifier,
+                          and sentiment analyzer — single source of truth used
+                          by fetch-ai-news.js and generate-daily-digest.js
   check-api-health.js     Validates all API keys; exits non-zero on failure
   fetch-market-data.js    Pulls stock data for tracked tickers → Supabase
   fetch-ai-news.js        Pulls AI news from NewsAPI / NYT / NPR, classifies it
@@ -30,7 +33,10 @@ scripts/                  Node scripts run by CI and manually
                           Governance-as-Code, Human-Centric Design) + a UChicago
                           institutional-signal filter, scores relevance, writes
                           data/weekly_signal.json, and upserts → Supabase
-  generate-daily-digest.js Assembles daily digest rows in Supabase
+  generate-daily-digest.js Assembles the daily digest (markdown + Supabase
+                          draft post); news section is classified through the
+                          shared taxonomy — Institutional Signal first, then
+                          grouped by pillar, then an "Also on the Radar" list
   generate-weekly-post.js Reads data/weekly_signal.json and generates a weekly
                           summary blog post (markdown + YAML front matter) under
                           content/weekly-summaries/ — Institutional Highlights
