@@ -31,7 +31,17 @@ scripts/                  Node scripts run by CI and manually
                           institutional-signal filter, scores relevance, writes
                           data/weekly_signal.json, and upserts → Supabase
   generate-daily-digest.js Assembles daily digest rows in Supabase
+  generate-weekly-post.js Reads data/weekly_signal.json and generates a weekly
+                          summary blog post (markdown + YAML front matter) under
+                          content/weekly-summaries/ — Institutional Highlights
+                          (UChicago/Booth) on top, then a table grouped by the
+                          three pillars; pillar names become front-matter tags
+  fixtures/               Sample data for testing scripts without API keys
   test-database.js        Smoke-tests Supabase connectivity
+
+content/
+  weekly-summaries/       Generated weekly summary posts
+                          (weekly-summary-YYYY-MM-DD.md)
 
 supabase/
   migrations/             SQL migrations (applied via Supabase CLI)
