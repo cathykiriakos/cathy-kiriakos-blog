@@ -12,7 +12,8 @@ Personal blog and market-data dashboard for Cathy Kiriakos.
 - **Stack:** Vite + React + TypeScript, Tailwind CSS, shadcn/ui, TipTap editor
 - **Data layer:** Supabase (PostgreSQL + Edge Functions + Storage)
 - **Market data:** Alpha Vantage API → `scripts/fetch-market-data.js` → Supabase
-- **News:** NewsAPI + NYT API → `scripts/fetch-ai-news.js` → Supabase
+- **News:** NewsAPI + NYT API → `scripts/fetch-ai-news.js` → pillar-classified
+  signal (`data/weekly_signal.json`) + Supabase
 - **Deploy:** Lovable (frontend), Supabase (backend)
 - **CI:** GitHub Actions (`.github/workflows/`)
 
@@ -24,7 +25,11 @@ Personal blog and market-data dashboard for Cathy Kiriakos.
 scripts/                  Node scripts run by CI and manually
   check-api-health.js     Validates all API keys; exits non-zero on failure
   fetch-market-data.js    Pulls stock data for tracked tickers → Supabase
-  fetch-ai-news.js        Pulls AI news from NewsAPI / NYT → Supabase
+  fetch-ai-news.js        Pulls AI news from NewsAPI / NYT / NPR, classifies it
+                          against the three content pillars (Applied AI,
+                          Governance-as-Code, Human-Centric Design) + a UChicago
+                          institutional-signal filter, scores relevance, writes
+                          data/weekly_signal.json, and upserts → Supabase
   generate-daily-digest.js Assembles daily digest rows in Supabase
   test-database.js        Smoke-tests Supabase connectivity
 
