@@ -1,0 +1,51 @@
+[
+  {
+    "title": "UChicago Booth's Center for Applied AI launches agentic-governance research lab",
+    "source": "Chicago Booth Review",
+    "summary": "The Booth School of Business announced a new lab at the Center for Applied AI studying mecha-nudges and automated compliance for enterprise AI agents.",
+    "url": "https://example.com/booth-applied-ai-lab",
+    "published_date": "2026-07-09"
+  },
+  {
+    "title": "Model Context Protocol adoption doubles as context engines go mainstream",
+    "source": "TechCrunch",
+    "summary": "Enterprises are standardizing on MCP for AI agent orchestration, with context engineering emerging as a core discipline.",
+    "url": "https://example.com/mcp-adoption",
+    "published_date": "2026-07-08"
+  },
+  {
+    "title": "EU AI Act enforcement begins: guardrails-as-code becomes a compliance requirement",
+    "source": "Reuters",
+    "summary": "Regulators say programmatic guardrails and AI audit trails will be required for high-risk systems under the EU AI Act.",
+    "url": "https://example.com/eu-ai-act-guardrails",
+    "published_date": "2026-07-07"
+  },
+  {
+    "title": "Why human-in-the-loop design is winning: cognitive load studies reshape AI interfaces",
+    "source": "New York Times",
+    "summary": "New user research shows AI interfaces that protect cognitive load and keep humans in the loop earn dramatically higher user trust.",
+    "url": "https://example.com/hitl-cognitive-load",
+    "published_date": "2026-07-06"
+  },
+  {
+    "title": "Regulators push back against AI vendors over model risk disclosures",
+    "source": "Financial Times",
+    "summary": "AI governance and oversight requirements tighten as compliance deadlines approach for large model providers.",
+    "url": "https://example.com/regulators-push-back",
+    "published_date": "2026-07-08"
+  },
+  {
+    "title": "Local sports team wins championship in dramatic overtime",
+    "source": "ESPN",
+    "summary": "The championship game came down to the final seconds in a thrilling overtime finish.",
+    "url": "https://example.com/sports-championship",
+    "published_date": "2026-07-09"
+  },
+  {
+    "title": "OpenAI announces new consumer chatbot features",
+    "source": "The Verge",
+    "summary": "A grab bag of consumer-facing AI updates arrived this morning.",
+    "url": "https://example.com/consumer-chatbot",
+    "published_date": "2026-07-09"
+  }
+]

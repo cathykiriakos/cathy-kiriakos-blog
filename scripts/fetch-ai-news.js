@@ -69,7 +69,7 @@ async function fetchNewsAPI() {
         },
       });
 
-      for (const article of response.data.articles || []) {
+      for (const article of response.data?.articles || []) {
         articles.push({
           title: article.title,
           source: article.source?.name || 'NewsAPI',
@@ -95,7 +95,7 @@ async function fetchNYTimes() {
   const articles = [];
 
   for (const [i, q] of NYT_QUERIES.entries()) {
-    if (i > 0) await sleep(6000); // NYT article search allows ~5 requests/minute
+    if (i > 0) await sleep(12000); // NYT article search allows 5 requests/minute (12s interval)
 
     try {
       const response = await axios.get(
@@ -110,7 +110,7 @@ async function fetchNYTimes() {
         }
       );
 
-      for (const article of response.data.response?.docs || []) {
+      for (const article of response.data?.response?.docs || []) {
         articles.push({
           title: article.headline?.main || '',
           source: 'New York Times',
@@ -136,7 +136,7 @@ async function fetchNPR() {
     const url = `https://api.npr.org/query?searchTerm=artificial+intelligence&apiKey=${NPR_API_KEY}&output=JSON&numResults=10`;
     const response = await axios.get(url);
 
-    if (response.data.list?.story) {
+    if (response.data?.list?.story) {
       return response.data.list.story.map(story => ({
         title: story.title?.$text || story.title || '',
         source: 'NPR',
@@ -247,10 +247,14 @@ async function saveToSupabase(articles) {
 
   const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY);
 
-  const { data: existingNews } = await supabase
+  const { data: existingNews, error: fetchError } = await supabase
     .from('news_items')
     .select('title')
     .gte('published_date', windowStart());
+
+  if (fetchError) {
+    console.error('Error fetching existing news items:', fetchError);
+  }
 
   const existingTitles = new Set(existingNews?.map(n => n.title) || []);
 
