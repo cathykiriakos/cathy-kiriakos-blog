@@ -1,73 +1,108 @@
-# Welcome to your Lovable project
+# Cathy Kiriakos — Blog & Market Intelligence
 
-## Project info
+Personal blog and market-data dashboard covering AI, data, and technology.
+The site pairs a React frontend with a Supabase backend and a set of
+scheduled data pipelines that pull market data and AI news, classify the
+news against three content pillars, and generate daily digests and weekly
+summary posts automatically.
 
-**URL**: https://lovable.dev/projects/65c2f9ed-16cc-427a-af29-7a59108fd09a
+## Tech stack
 
-## How can I edit this code?
+- **Frontend:** Vite 5 + React 18 + TypeScript, Tailwind CSS, shadcn/ui
+  (Radix primitives), TipTap rich-text editor, TanStack Query, React Router,
+  Recharts
+- **Backend:** Supabase — PostgreSQL, Edge Functions (Deno), Storage
+- **Automation:** Node 22 scripts under `scripts/`, run by GitHub Actions
+- **Hosting:** Lovable (frontend); a `wrangler.toml` is also present for
+  serving the `dist/` build via Cloudflare Workers static assets
 
-There are several ways of editing your application.
+## Repository layout
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/65c2f9ed-16cc-427a-af29-7a59108fd09a) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+src/                      React app (components, pages, hooks, Supabase client)
+scripts/                  Node scripts run by CI and manually
+  lib/signal-taxonomy.js  Shared pillar/institutional taxonomy + classifier
+  fetch-market-data.js    Alpha Vantage stock data → Supabase
+  fetch-ai-news.js        NewsAPI / NYT / NPR → classified signal + Supabase
+  generate-daily-digest.js  Daily digest (markdown + Supabase draft post)
+  generate-weekly-post.js Weekly summary post from data/weekly_signal.json
+  check-api-health.js     Validates all API keys; exits non-zero on failure
+  test-database.js        Supabase connectivity smoke test
+  fixtures/               Sample data for running scripts without API keys
+content/weekly-summaries/ Generated weekly posts (weekly-summary-YYYY-MM-DD.md)
+daily-digests/            Generated daily digest markdown
+supabase/                 Migrations, Edge Functions (social-post), config
+.github/workflows/        Scheduled automation (see below)
 ```
 
-**Edit a file directly in GitHub**
+## Automated pipelines
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+| Workflow | Schedule (UTC) | What it does |
+|----------|----------------|--------------|
+| `dailyMarketUpdate.yml` | Daily 09:00 | Fetches market data + AI news, generates the daily digest, commits results |
+| `weeklySummary.yml` | Sundays 13:00 | Refreshes the weekly news signal and generates a weekly summary post |
+| `api-health-check.yml` | Mondays 08:00 | Validates all API keys and Supabase connectivity |
 
-**Use GitHub Codespaces**
+Each workflow opens a labeled GitHub issue on failure
+(`daily-job-failure`, `weekly-post-failure`, `api-health-failure`) and
+skips duplicates while one is already open.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+News classification is keyword/taxonomy-based (no LLM calls): articles are
+scored against three content pillars — Applied AI, Governance-as-Code, and
+Human-Centric Design — plus a UChicago/Booth institutional-signal filter.
+The taxonomy lives in `scripts/lib/signal-taxonomy.js` and is shared by the
+news fetcher and the digest/weekly generators.
 
-## What technologies are used for this project?
+## Local development
 
-This project is built with:
+Requires Node.js 22+ and npm.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```sh
+npm ci            # install dependencies
+npm run dev       # dev server on http://localhost:5173
+npm run build     # production build (acceptance check)
+npm run lint      # ESLint (acceptance check)
+npm run preview   # preview the production build
+```
 
-## How can I deploy this project?
+There is no test suite; `npm run build` + `npm run lint` are the acceptance
+checks before merging.
 
-Simply open [Lovable](https://lovable.dev/projects/65c2f9ed-16cc-427a-af29-7a59108fd09a) and click on Share -> Publish.
+### Running the data scripts locally
 
-## Can I connect a custom domain to my Lovable project?
+The scripts read credentials from environment variables (in CI these come
+from GitHub Secrets):
 
-Yes, you can!
+| Variable | Used by | Source |
+|----------|---------|--------|
+| `SUPABASE_URL` | all scripts | Supabase Dashboard → Settings → API |
+| `SUPABASE_SERVICE_KEY` | all scripts | Supabase Dashboard → Settings → API |
+| `ALPHA_VANTAGE_KEY` | fetch-market-data | alphavantage.co |
+| `NEWS_API_KEY` | fetch-ai-news | newsapi.org |
+| `NYT_API_KEY` | fetch-ai-news | developer.nytimes.com |
+| `NPR_API_KEY` | fetch-ai-news (optional) | npr.org developer |
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+```sh
+# health check
+SUPABASE_URL=<url> SUPABASE_SERVICE_KEY=<key> node scripts/check-api-health.js
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+# run the digest against fixture data (no API keys needed)
+NEWS_FIXTURES_PATH=scripts/fixtures/ai_news.sample.json \
+DIGEST_FIXTURES_PATH=scripts/fixtures/daily_digest.sample.json \
+node scripts/generate-daily-digest.js
+```
+
+## Editing via Lovable
+
+This project can also be edited through
+[Lovable](https://lovable.dev/projects/65c2f9ed-16cc-427a-af29-7a59108fd09a);
+changes made there are committed back to this repo, and pushed changes are
+reflected in Lovable. Publishing is done from Lovable via Share → Publish.
+
+## Further documentation
+
+- `CLAUDE.md` — maintenance runbooks (CI failures, dependency updates,
+  Supabase health) and agent conventions
+- `supabase/SETUP_INSTRUCTIONS.md` — backend setup
+- `MARKET_DATA_SETUP_GUIDE.md` — market-data pipeline setup
+- `CONTENT_MANAGEMENT_GUIDE.md` — managing posts and content
