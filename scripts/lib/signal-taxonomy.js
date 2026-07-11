@@ -232,9 +232,13 @@ export function analyzeSentiment(text) {
     'warning', 'danger', 'falling', 'plunge', 'worry', 'fear',
   ];
 
-  const lowerText = text.toLowerCase();
-  const positiveCount = positiveWords.filter(w => lowerText.includes(w)).length;
-  const negativeCount = negativeWords.filter(w => lowerText.includes(w)).length;
+  // Leading word boundary keeps stem matches (gain → gains) while avoiding
+  // mid-word false positives (gain in "against", loss in "blossom").
+  const lowerText = String(text || '').toLowerCase();
+  const hits = words =>
+    words.filter(w => new RegExp(`\\b${w}`).test(lowerText)).length;
+  const positiveCount = hits(positiveWords);
+  const negativeCount = hits(negativeWords);
 
   if (positiveCount > negativeCount) return 'positive';
   if (negativeCount > positiveCount) return 'negative';

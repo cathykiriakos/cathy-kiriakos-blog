@@ -63,6 +63,10 @@ src/
 .github/workflows/
   dailyMarketUpdate.yml   Runs daily at 09:00 UTC; fetches data + commits
   api-health-check.yml    Runs every Monday at 08:00 UTC; validates keys
+  weeklySummary.yml       Runs Sundays at 13:00 UTC; refreshes the weekly
+                          signal, generates the weekly summary post, commits
+                          (falls back to the last committed signal if the
+                          news fetch fails)
 ```
 
 ---
@@ -84,9 +88,10 @@ src/
 
 - `daily-job-failure` — opened automatically by `dailyMarketUpdate.yml` on failure
 - `api-health-failure` — opened automatically by `api-health-check.yml` on failure
+- `weekly-post-failure` — opened automatically by `weeklySummary.yml` on failure
 
-Both workflows de-duplicate: they skip creating an issue if one is already open
-with the relevant label. Close the issue after the fix is verified.
+All three workflows de-duplicate: they skip creating an issue if one is already
+open with the relevant label. Close the issue after the fix is verified.
 
 ---
 
