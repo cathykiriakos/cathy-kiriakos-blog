@@ -12,7 +12,8 @@ Personal blog and market-data dashboard for Cathy Kiriakos.
 - **Stack:** Vite + React + TypeScript, Tailwind CSS, shadcn/ui, TipTap editor
 - **Data layer:** Supabase (PostgreSQL + Edge Functions + Storage)
 - **Market data:** Alpha Vantage API → `scripts/fetch-market-data.js` → Supabase
-- **News:** NewsAPI + NYT API → `scripts/fetch-ai-news.js` → Supabase
+- **News:** NewsAPI + NYT API → `scripts/fetch-ai-news.js` → pillar-classified
+  signal (`data/weekly_signal.json`) + Supabase
 - **Deploy:** Lovable (frontend), Supabase (backend)
 - **CI:** GitHub Actions (`.github/workflows/`)
 
@@ -22,11 +23,31 @@ Personal blog and market-data dashboard for Cathy Kiriakos.
 
 ```
 scripts/                  Node scripts run by CI and manually
+  lib/signal-taxonomy.js  Shared pillar/institutional taxonomy, classifier,
+                          and sentiment analyzer — single source of truth used
+                          by fetch-ai-news.js and generate-daily-digest.js
   check-api-health.js     Validates all API keys; exits non-zero on failure
   fetch-market-data.js    Pulls stock data for tracked tickers → Supabase
-  fetch-ai-news.js        Pulls AI news from NewsAPI / NYT → Supabase
-  generate-daily-digest.js Assembles daily digest rows in Supabase
+  fetch-ai-news.js        Pulls AI news from NewsAPI / NYT / NPR, classifies it
+                          against the three content pillars (Applied AI,
+                          Governance-as-Code, Human-Centric Design) + a UChicago
+                          institutional-signal filter, scores relevance, writes
+                          data/weekly_signal.json, and upserts → Supabase
+  generate-daily-digest.js Assembles the daily digest (markdown + Supabase
+                          draft post); news section is classified through the
+                          shared taxonomy — Institutional Signal first, then
+                          grouped by pillar, then an "Also on the Radar" list
+  generate-weekly-post.js Reads data/weekly_signal.json and generates a weekly
+                          summary blog post (markdown + YAML front matter) under
+                          content/weekly-summaries/ — Institutional Highlights
+                          (UChicago/Booth) on top, then a table grouped by the
+                          three pillars; pillar names become front-matter tags
+  fixtures/               Sample data for testing scripts without API keys
   test-database.js        Smoke-tests Supabase connectivity
+
+content/
+  weekly-summaries/       Generated weekly summary posts
+                          (weekly-summary-YYYY-MM-DD.md)
 
 supabase/
   migrations/             SQL migrations (applied via Supabase CLI)
@@ -42,6 +63,10 @@ src/
 .github/workflows/
   dailyMarketUpdate.yml   Runs daily at 09:00 UTC; fetches data + commits
   api-health-check.yml    Runs every Monday at 08:00 UTC; validates keys
+  weeklySummary.yml       Runs Sundays at 13:00 UTC; refreshes the weekly
+                          signal, generates the weekly summary post, commits
+                          (falls back to the last committed signal if the
+                          news fetch fails)
 ```
 
 ---
@@ -63,9 +88,10 @@ src/
 
 - `daily-job-failure` — opened automatically by `dailyMarketUpdate.yml` on failure
 - `api-health-failure` — opened automatically by `api-health-check.yml` on failure
+- `weekly-post-failure` — opened automatically by `weeklySummary.yml` on failure
 
-Both workflows de-duplicate: they skip creating an issue if one is already open
-with the relevant label. Close the issue after the fix is verified.
+All three workflows de-duplicate: they skip creating an issue if one is already
+open with the relevant label. Close the issue after the fix is verified.
 
 ---
 

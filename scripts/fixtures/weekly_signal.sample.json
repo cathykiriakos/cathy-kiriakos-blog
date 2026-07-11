@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-07-05T09:00:00.000Z",
+  "window_days": 7,
+  "item_count": 6,
+  "pillars": [
+    {
+      "id": "applied_ai",
+      "name": "Applied AI",
+      "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
+      "item_count": 2
+    },
+    {
+      "id": "governance_as_code",
+      "name": "Governance-as-Code",
+      "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
+      "item_count": 2
+    },
+    {
+      "id": "human_centric_design",
+      "name": "Human-Centric Design",
+      "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
+      "item_count": 1
+    }
+  ],
+  "institutional_signal": {
+    "id": "institutional_signal",
+    "name": "Institutional Signal",
+    "description": "Tracking for University of Chicago, UChicago Booth, Center for Applied AI, Polsky Center, and keywords like \"mecha-nudges\".",
+    "tracked_keywords": [
+      "university of chicago",
+      "uchicago booth",
+      "uchicago",
+      "chicago booth",
+      "booth school of business",
+      "center for applied ai",
+      "polsky center",
+      "mecha-nudges"
+    ],
+    "item_count": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "title": "UChicago Booth's Center for Applied AI launches agentic-governance research lab",
+      "source": "Chicago Booth Review",
+      "url": "https://example.com/booth-applied-ai-lab",
+      "summary": "The Booth School of Business announced a new lab at the Center for Applied AI studying mecha-nudges and automated compliance for enterprise AI agents.",
+      "published_date": "2026-07-03",
+      "relevance_score": 42,
+      "primary_pillar": "governance_as_code",
+      "pillars": ["governance_as_code"],
+      "institutional_signal": true,
+      "matched_keywords": ["uchicago booth", "center for applied ai", "mecha-nudges", "automated compliance"],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 2,
+      "title": "Model Context Protocol adoption doubles as context engines go mainstream | with a pipe in the title",
+      "source": "TechCrunch",
+      "url": "https://example.com/mcp-adoption",
+      "summary": "Enterprises are standardizing on MCP for AI agent orchestration, with context engineering emerging as a core discipline.",
+      "published_date": "2026-07-02",
+      "relevance_score": 31,
+      "primary_pillar": "applied_ai",
+      "pillars": ["applied_ai"],
+      "institutional_signal": false,
+      "matched_keywords": ["model context protocol", "MCP", "orchestration", "context engineering"],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 3,
+      "title": "EU AI Act enforcement begins: guardrails-as-code becomes a compliance requirement",
+      "source": "Reuters",
+      "url": "https://example.com/eu-ai-act-guardrails",
+      "summary": "Regulators say programmatic guardrails and AI audit trails will be required for high-risk systems under the EU AI Act.",
+      "published_date": "2026-07-01",
+      "relevance_score": 28,
+      "primary_pillar": "governance_as_code",
+      "pillars": ["governance_as_code"],
+      "institutional_signal": false,
+      "matched_keywords": ["guardrail", "eu ai act", "ai audit", "compliance"],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 4,
+      "title": "Why human-in-the-loop design is winning: cognitive load studies reshape AI interfaces",
+      "source": "New York Times",
+      "url": "https://example.com/hitl-cognitive-load",
+      "summary": "New user research shows AI interfaces that protect cognitive load and keep humans in the loop earn dramatically higher user trust.",
+      "published_date": "2026-06-30",
+      "relevance_score": 26,
+      "primary_pillar": "human_centric_design",
+      "pillars": ["human_centric_design"],
+      "institutional_signal": false,
+      "matched_keywords": ["human-in-the-loop", "cognitive load", "ai interface", "user research", "user trust"],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 5,
+      "title": "Multi-agent RAG pipelines hit production at three Fortune 500 companies",
+      "source": "VentureBeat",
+      "url": "https://example.com/multi-agent-rag",
+      "summary": "Retrieval-augmented multi-agent systems are moving from demos to production, with tool use and orchestration as the hard parts.",
+      "published_date": "2026-06-29",
+      "relevance_score": 22,
+      "primary_pillar": "applied_ai",
+      "pillars": ["applied_ai"],
+      "institutional_signal": false,
+      "matched_keywords": ["multi-agent", "RAG", "retrieval-augmented", "tool use", "in production"],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 6,
+      "title": "Anthropic publishes red-teaming playbook for agentic AI oversight",
+      "source": "NPR",
+      "url": "https://example.com/red-teaming-playbook",
+      "summary": "The playbook covers AI oversight, model risk assessment, and responsible AI deployment for agentic systems.",
+      "published_date": "2026-06-28",
+      "relevance_score": 20,
+      "primary_pillar": "governance_as_code",
+      "pillars": ["governance_as_code"],
+      "institutional_signal": false,
+      "matched_keywords": ["red-teaming", "ai oversight", "model risk", "responsible ai"],
+      "sentiment": "neutral"
+    }
+  ]
+}

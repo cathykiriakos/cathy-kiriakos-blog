@@ -1,12 +1,18 @@
-# .github/workflows/daily-market-update.yml
-# Automated daily updates for market data and AI news
+# .github/workflows/weeklySummary.yml
+# Generates the weekly AI signal summary post every Sunday.
+#
+# Flow: refresh the weekly signal (fetch-ai-news.js) → generate the post
+# (generate-weekly-post.js) → commit both to main. If the fetch fails
+# (API outage / rate limit), the generator falls back to the last
+# data/weekly_signal.json committed by the daily job, so a post is still
+# produced from the most recent good signal.
 
-name: Daily Market & News Update
+name: Weekly AI Signal Post
 
 on:
   schedule:
-    # Runs every day at 9 AM UTC (4 AM EST, 3 AM Chicago)
-    - cron: '0 9 * * *'
+    # Sundays at 13:00 UTC (7/8 AM Chicago)
+    - cron: '0 13 * * 0'
   workflow_dispatch: # Allows manual triggering
 
 # Allow pushing commits and opening issues
@@ -15,10 +21,13 @@ permissions:
   issues: write
 
 jobs:
-  update-market-data:
+  generate-weekly-post:
     runs-on: ubuntu-latest
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+      # Post dates are derived from local time; pin to Cathy's timezone so
+      # the calendar date never depends on the runner's clock.
+      TZ: America/Chicago
 
     steps:
       - name: Checkout repository
@@ -35,32 +44,22 @@ jobs:
           missing=""
           [ -z "$SUPABASE_URL" ] && missing="$missing SUPABASE_URL"
           [ -z "$SUPABASE_SERVICE_KEY" ] && missing="$missing SUPABASE_SERVICE_KEY"
-          [ -z "$ALPHA_VANTAGE_KEY" ] && missing="$missing ALPHA_VANTAGE_KEY"
           [ -z "$NEWS_API_KEY" ] && missing="$missing NEWS_API_KEY"
           if [ -n "$missing" ]; then
             echo "⚠️ Missing or empty secrets:$missing"
-            echo "Market data and/or news fetching will be skipped or fail."
+            echo "News fetching may fail; the post will fall back to the last committed signal."
           else
             echo "✅ All required secrets are present"
           fi
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-          ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Fetch Market Data
-        continue-on-error: true
-        env:
-          ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-        run: node scripts/fetch-market-data.js
-
-      - name: Fetch AI News & Build Weekly Signal
+      - name: Refresh Weekly Signal
         continue-on-error: true
         env:
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
@@ -71,18 +70,15 @@ jobs:
           WEEKLY_SIGNAL_PATH: data/weekly_signal.json
         run: node scripts/fetch-ai-news.js
 
-      - name: Generate Daily Digest
-        env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-        run: node scripts/generate-daily-digest.js
+      - name: Generate Weekly Summary Post
+        run: node scripts/generate-weekly-post.js
 
-      - name: Commit updated data (optional - if storing in repo)
+      - name: Commit weekly post
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add -A
-          git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Daily market & news update $(date +'%Y-%m-%d')"
+          git add data/weekly_signal.json content/weekly-summaries
+          git diff --staged --quiet || git commit -m "🤖 Weekly AI signal post $(date +'%Y-%m-%d')"
           git push || echo "No changes to push"
 
       - name: Open GitHub Issue on failure
@@ -96,7 +92,7 @@ jobs:
             const { data: open } = await github.rest.issues.listForRepo({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              labels: 'daily-job-failure',
+              labels: 'weekly-post-failure',
               state: 'open',
             });
 
@@ -108,7 +104,7 @@ jobs:
             const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
 
             const body = [
-              '## ❌ Daily Market & News Job Failed',
+              '## ❌ Weekly AI Signal Post Job Failed',
               '',
               `The scheduled workflow failed on **${today}**.`,
               '',
@@ -116,12 +112,13 @@ jobs:
               '',
               '## Likely causes',
               '',
-              '1. A GitHub Secret is missing, expired, or was rotated — check the "Validate secrets" step in the logs',
-              '2. An external API is down or rate-limited',
+              '1. `data/weekly_signal.json` is missing or malformed — check the "Generate Weekly Summary Post" step output',
+              '2. A GitHub Secret is missing, expired, or was rotated — check the "Validate secrets" step in the logs',
+              '3. An external news API is down or rate-limited',
               '',
               '## Secrets to verify',
               '',
-              '`SUPABASE_URL` · `SUPABASE_SERVICE_KEY` · `ALPHA_VANTAGE_KEY` · `NYT_API_KEY`',
+              '`SUPABASE_URL` · `SUPABASE_SERVICE_KEY` · `NEWS_API_KEY` · `NYT_API_KEY`',
               '',
               'Update at: **Settings → Secrets and variables → Actions**',
               '',
@@ -131,9 +128,9 @@ jobs:
             const { data: issue } = await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `❌ Daily market job failed — ${today}`,
+              title: `❌ Weekly AI signal post job failed — ${today}`,
               body,
-              labels: ['daily-job-failure'],
+              labels: ['weekly-post-failure'],
             });
 
             console.log(`Opened issue: ${issue.html_url}`);
