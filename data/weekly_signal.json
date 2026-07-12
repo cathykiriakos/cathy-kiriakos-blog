@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T10:40:05.115Z",
+  "generated_at": "2026-07-12T14:24:47.781Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -13,7 +13,7 @@
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 10
+      "item_count": 9
     },
     {
       "id": "human_centric_design",
@@ -41,47 +41,25 @@
   "items": [
     {
       "rank": 1,
-      "title": "ratel-ai 0.4.2rc1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/ratel-ai/0.4.2rc1/",
-      "summary": "Python SDK for Ratel — context engineering platform for AI agents. BM25 tool retrieval, MCP ingestion, framework-neutral capability tools.",
+      "title": "Cognizant (CTSH) Launches Neuro AI Trust Platform for AI Governance",
+      "source": "Yahoo Entertainment",
+      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_d8ee0049-fb34-4ff8-bfb9-bab67f9b2a33",
+      "summary": "If you click 'Accept all', we and our partners, including 249 who are part of the IAB Transparency &amp; Consent Framework, will also store and / or access information on a device (in other words, us…",
       "published_date": "2026-07-11",
-      "relevance_score": 19,
-      "primary_pillar": "applied_ai",
+      "relevance_score": 18,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "context engine",
-        "context engineering",
-        "ai agent"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 2,
-      "title": "Anthropic reveals first large-scale cyberattack orchestrated by agentic AI",
-      "source": "4sysops.com",
-      "url": "https://4sysops.com/archives/anthropic-reveals-first-large-scale-cyberattack-orchestrated-by-agentic-ai/",
-      "summary": "In late 2025, Anthropic identified a sophisticated espionage campaign where a Chinese state-sponsored group hijacked the Claude Code assistant to target approximately 30 global organizations. The attackers utilized the Model Context Protocol (MCP), a standard…",
-      "published_date": "2026-07-11",
-      "relevance_score": 18,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "model context protocol",
-        "MCP",
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 3,
       "title": "Barndoor adds SCIM support for Okta, automating user and group provisioning",
       "source": "PRNewswire",
       "url": "https://www.prnewswire.com/news-releases/barndoor-adds-scim-support-for-okta-automating-user-and-group-provisioning-302822364.html",
@@ -103,7 +81,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "pyxon-governance added to PyPI",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/pyxon-governance/",
@@ -124,27 +102,28 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 5,
-      "title": "Workato expands Agent Studio with Headless API, AI guardrails",
-      "source": "Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/07/10/workato-headless-api-agent-guardrails/",
-      "summary": "Workato has announced two new capabilities for Agent Studio: Headless API and Agent Guardrails. Headless API lets Genies, Workato’s AI agents built on Agent Studio, be embedded into any business application surface, on web, mobile, or inside another agent’s o…",
-      "published_date": "2026-07-10",
+      "rank": 4,
+      "title": "secchecker 0.4.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/secchecker/0.4.0/",
+      "summary": "Static security scanner for AI agents, MCP tools, and LLM applications. Finds prompt injection, tool poisoning, and agentic vulnerabilities. OWASP LLM Top 10 (2025) tagged.",
+      "published_date": "2026-07-11",
       "relevance_score": 15,
-      "primary_pillar": "governance_as_code",
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
+        "agentic",
         "ai agent",
-        "guardrail"
+        "llm application"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "isa-agent-sdk 0.3.38",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/isa-agent-sdk/0.3.38/",
@@ -165,7 +144,7 @@
       "sentiment": "positive"
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "isa-agent-sdk 0.3.37",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/isa-agent-sdk/0.3.37/",
@@ -186,7 +165,7 @@
       "sentiment": "positive"
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "isa-agent-sdk 0.3.35",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/isa-agent-sdk/0.3.35/",
@@ -207,7 +186,7 @@
       "sentiment": "positive"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "isa-agent-sdk 0.3.34",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/isa-agent-sdk/0.3.34/",
@@ -228,7 +207,7 @@
       "sentiment": "positive"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "isa-agent-sdk 0.3.33",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/isa-agent-sdk/0.3.33/",
@@ -249,7 +228,7 @@
       "sentiment": "positive"
     },
     {
-      "rank": 11,
+      "rank": 10,
       "title": "RecordPoint launches global partner program as AI adoption drives surge in data governance demand",
       "source": "PRNewswire",
       "url": "https://www.prnewswire.com/news-releases/recordpoint-launches-global-partner-program-as-ai-adoption-drives-surge-in-data-governance-demand-302821861.html",
@@ -268,7 +247,7 @@
       "sentiment": "positive"
     },
     {
-      "rank": 12,
+      "rank": 11,
       "title": "overrule 0.1.0",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/overrule/0.1.0/",
@@ -288,31 +267,11 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 13,
-      "title": "overrule added to PyPI",
+      "rank": 12,
+      "title": "empirica-mcp 1.12.17",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/overrule/",
-      "summary": "Runtime AI governance SDK — intercept, evaluate, and enforce compliance policies on LLM and agent tool calls.",
-      "published_date": "2026-07-10",
-      "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance",
-        "compliance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "Show HN: AI Agent Audit for Free",
-      "source": "Github.com",
-      "url": "https://github.com/sinewaveai/agent-security-scanner-mcp",
-      "summary": "Security scanner MCP server for AI coding agents. Prompt injection firewall, package hallucination detection (4.3M+ packages), 1000+ vulnerability rules with AST &amp; taint analysis, auto-fix. - s...",
+      "url": "https://pypi.org/project/empirica-mcp/1.12.17/",
+      "summary": "MCP server for Empirica — AI measurement and calibration tools via Model Context Protocol",
       "published_date": "2026-07-11",
       "relevance_score": 12,
       "primary_pillar": "applied_ai",
@@ -321,13 +280,13 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "model context protocol",
+        "MCP"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 15,
+      "rank": 13,
       "title": "conciergent 0.1.1",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/conciergent/0.1.1/",
@@ -347,7 +306,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 16,
+      "rank": 14,
       "title": "Microsoft’s Brad Smith criticizes US AI regulation for lack of clarity",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/microsoft-brad-smith-ai-regulation-clarity/",
@@ -366,7 +325,7 @@
       "sentiment": "positive"
     },
     {
-      "rank": 17,
+      "rank": 15,
       "title": "The Replicant in Your Directory: AI Agents and the Identity Security Gap",
       "source": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/",
@@ -386,7 +345,7 @@
       "sentiment": "positive"
     },
     {
-      "rank": 18,
+      "rank": 16,
       "title": "verdant 0.1.0",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/verdant/0.1.0/",
@@ -405,7 +364,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 19,
+      "rank": 17,
       "title": "verdant added to PyPI",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/verdant/",
@@ -424,11 +383,11 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 20,
-      "title": "agentropic added to PyPI",
+      "rank": 18,
+      "title": "misata 0.8.1.30",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/agentropic/",
-      "summary": "A minimal, hackable agentic framework: LLM calls via litellm, @tool-decorated functions, and MCP server support.",
+      "url": "https://pypi.org/project/misata/0.8.1.30/",
+      "summary": "Outcome-conformant synthetic data: realistic multi-table test data that hits the revenue curves, rates, and aggregates you declare, exactly. From a sentence, YAML, or your database. No ML model, no real data. MCP server for AI agents.",
       "published_date": "2026-07-11",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -438,7 +397,45 @@
       "institutional_signal": false,
       "matched_keywords": [
         "MCP",
-        "agentic"
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "agent-memory-os 0.12.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/agent-memory-os/0.12.1/",
+      "summary": "Local-first, MCP-native memory engine for AI agents with RAM cache and context-budgeted recall.",
+      "published_date": "2026-07-11",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 20,
+      "title": "freecase-mcp 0.1.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/freecase-mcp/0.1.0/",
+      "summary": "MCP connector for searching the Freecase legal corpus (case law + statutes) from AI agents.",
+      "published_date": "2026-07-11",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     }
