@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T14:24:47.781Z",
+  "generated_at": "2026-07-13T12:12:01.398Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 14
+      "item_count": 11
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 9
+      "item_count": 10
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 6
+      "item_count": 4
     }
   ],
   "institutional_signal": {
@@ -41,6 +41,25 @@
   "items": [
     {
       "rank": 1,
+      "title": "Launches Neuro AI Trust Platform for AI Governance",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/88783056913d7f5d",
+      "summary": "Cognizant Technology Solutions Corporation (NASDAQ:CTSH) is one of the best large cap stocks to buy according to analysts. On July 1, Cognizant announced the launch of Cognizant Neuro AI Trust, a new platform designed to provide enterprises with continuous go…",
+      "published_date": "2026-07-11",
+      "relevance_score": 18,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 2,
       "title": "Cognizant (CTSH) Launches Neuro AI Trust Platform for AI Governance",
       "source": "Yahoo Entertainment",
       "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_d8ee0049-fb34-4ff8-bfb9-bab67f9b2a33",
@@ -59,29 +78,26 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 2,
-      "title": "Barndoor adds SCIM support for Okta, automating user and group provisioning",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/barndoor-adds-scim-support-for-okta-automating-user-and-group-provisioning-302822364.html",
-      "summary": "SCIM ties Barndoor AI governance to Okta, revoking access at offboarding and surfacing policy before rollout NEW YORK, July 10, 2026 /PRNewswire/ -- Barndoor, the governance platform for AI agents and MCP-connected tools, today announced support for SCIM (Sys…",
-      "published_date": "2026-07-10",
-      "relevance_score": 17,
-      "primary_pillar": "governance_as_code",
+      "rank": 3,
+      "title": "Show HN: Spendict – a performance marketer's verdict for AI agents, over MCP",
+      "source": "Spendict.com",
+      "url": "https://www.spendict.com/",
+      "summary": "An MCP server (and REST API) that gives an AI agent a performance marketer's judgment: design a targeting strategy, audit a campaign build, gate an ad creative before spend, diagnose a live campaign. Each is a deterministic, server-verified verdict.",
+      "published_date": "2026-07-12",
+      "relevance_score": 16,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
         "MCP",
-        "ai agent",
-        "ai governance",
-        "governance"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "pyxon-governance added to PyPI",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/pyxon-governance/",
@@ -102,31 +118,10 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 4,
-      "title": "secchecker 0.4.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/secchecker/0.4.0/",
-      "summary": "Static security scanner for AI agents, MCP tools, and LLM applications. Finds prompt injection, tool poisoning, and agentic vulnerabilities. OWASP LLM Top 10 (2025) tagged.",
-      "published_date": "2026-07-11",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "agentic",
-        "ai agent",
-        "llm application"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 5,
-      "title": "isa-agent-sdk 0.3.38",
+      "title": "isa-agent-sdk 0.3.40",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.3.38/",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.3.40/",
       "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
       "published_date": "2026-07-11",
       "relevance_score": 15,
@@ -145,96 +140,33 @@
     },
     {
       "rank": 6,
-      "title": "isa-agent-sdk 0.3.37",
+      "title": "vaara 1.25.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.3.37/",
-      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
-      "published_date": "2026-07-11",
-      "relevance_score": 15,
+      "url": "https://pypi.org/project/vaara/1.25.0/",
+      "summary": "Runtime evidence layer for AI agents under the EU AI Act: policy-gated tool calls, hash-chained tamper-evident audit trails with external time anchoring, and independently verifiable attestation plus execution receipts per MCP tool call",
+      "published_date": "2026-07-12",
+      "relevance_score": 12,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai",
-        "human_centric_design"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
         "MCP",
         "ai agent",
-        "human-in-the-loop"
+        "eu ai act"
       ],
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "rank": 7,
-      "title": "isa-agent-sdk 0.3.35",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.3.35/",
-      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
-      "published_date": "2026-07-11",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent",
-        "human-in-the-loop"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 8,
-      "title": "isa-agent-sdk 0.3.34",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.3.34/",
-      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
-      "published_date": "2026-07-11",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent",
-        "human-in-the-loop"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 9,
-      "title": "isa-agent-sdk 0.3.33",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.3.33/",
-      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
-      "published_date": "2026-07-11",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent",
-        "human-in-the-loop"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 10,
       "title": "RecordPoint launches global partner program as AI adoption drives surge in data governance demand",
       "source": "PRNewswire",
       "url": "https://www.prnewswire.com/news-releases/recordpoint-launches-global-partner-program-as-ai-adoption-drives-surge-in-data-governance-demand-302821861.html",
       "summary": "New channel-first strategy gives resellers, consultancies and systems integrators a route into the fastest-growing budget line in regulated IT SEATTLE, July 10, 2026 /PRNewswire/ -- RecordPoint, the global data and AI governance platform, today announced the …",
       "published_date": "2026-07-10",
-      "relevance_score": 13,
+      "relevance_score": 12,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -247,51 +179,12 @@
       "sentiment": "positive"
     },
     {
-      "rank": 11,
-      "title": "overrule 0.1.0",
+      "rank": 8,
+      "title": "openai-iztro-agents 0.2.2",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/overrule/0.1.0/",
-      "summary": "Runtime AI governance SDK — intercept, evaluate, and enforce compliance policies on LLM and agent tool calls.",
-      "published_date": "2026-07-10",
-      "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance",
-        "compliance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "empirica-mcp 1.12.17",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/empirica-mcp/1.12.17/",
-      "summary": "MCP server for Empirica — AI measurement and calibration tools via Model Context Protocol",
-      "published_date": "2026-07-11",
-      "relevance_score": 12,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "model context protocol",
-        "MCP"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 13,
-      "title": "conciergent 0.1.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/conciergent/0.1.1/",
-      "summary": "Turn an OpenAPI spec or any MCP server into a Slack or LINE chatbot, with in-chat OAuth, human-in-the-loop approval, and surface-native rich replies.",
-      "published_date": "2026-07-11",
+      "url": "https://pypi.org/project/openai-iztro-agents/0.2.2/",
+      "summary": "Build your own Ziwei or Qimen agent on the OpenAI Agents SDK - hosted astrology models plus your own local tools, MCP, and human-in-the-loop.",
+      "published_date": "2026-07-12",
       "relevance_score": 12,
       "primary_pillar": "human_centric_design",
       "pillars": [
@@ -306,7 +199,26 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 14,
+      "rank": 9,
+      "title": "Show HN: AgentTransfer – open-source file transfer for AI agents (one Go binary)",
+      "source": "Github.com",
+      "url": "https://github.com/shehryarsaroya/agenttransfer",
+      "summary": "Open-source file transfer for AI agents — every agent gets an email address, a folder, and an inbox. Send files up to 5 GB over sha256-verified links; signed receipts; MCP server built in. One Go b...",
+      "published_date": "2026-07-11",
+      "relevance_score": 12,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
       "title": "Microsoft’s Brad Smith criticizes US AI regulation for lack of clarity",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/microsoft-brad-smith-ai-regulation-clarity/",
@@ -325,33 +237,108 @@
       "sentiment": "positive"
     },
     {
-      "rank": 15,
-      "title": "The Replicant in Your Directory: AI Agents and the Identity Security Gap",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/",
-      "summary": "AI agents are accelerating the growth of non-human identities, making it harder for organizations to understand what exists, who owns it, and what it can access. Netwrix explains why stronger visibility and identity governance are essential as AI expands the …",
-      "published_date": "2026-07-10",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
+      "rank": 11,
+      "title": "ashmatics-aigov-tools 0.7.3",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/ashmatics-aigov-tools/0.7.3/",
+      "summary": "Ashmatics Clinical AI Governance Framework - Content management, validation, and compilation",
+      "published_date": "2026-07-11",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
+        "ai governance",
         "governance"
       ],
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
-      "rank": 16,
+      "rank": 12,
+      "title": "maigp-client 5.1.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/maigp-client/5.1.0/",
+      "summary": "MAIGP (Mediated AI Governance Protocol) client — consent-based runtime AI governance",
+      "published_date": "2026-07-11",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "c4reqber added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/c4reqber/",
+      "summary": "Cognitive exoskeleton for AI agents — MCP-native discovery pipeline",
+      "published_date": "2026-07-12",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "synaptiq 1.5.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/synaptiq/1.5.1/",
+      "summary": "Graph-powered code intelligence engine — indexes codebases into a knowledge graph, exposed via MCP tools for AI agents and a CLI for developers.",
+      "published_date": "2026-07-12",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
       "title": "verdant 0.1.0",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/verdant/0.1.0/",
       "summary": "VERDANT SDK for inspectable AI governance",
       "published_date": "2026-07-10",
-      "relevance_score": 10,
+      "relevance_score": 9,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "verdant added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/verdant/",
+      "summary": "VERDANT SDK for inspectable AI governance",
+      "published_date": "2026-07-10",
+      "relevance_score": 9,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -365,77 +352,75 @@
     },
     {
       "rank": 17,
-      "title": "verdant added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/verdant/",
-      "summary": "VERDANT SDK for inspectable AI governance",
-      "published_date": "2026-07-10",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "title": "The interface has left the building",
+      "source": "Uxdesign.cc",
+      "url": "https://uxdesign.cc/the-interface-has-left-the-building-8fdb558d33a9",
+      "summary": "How chat, voice, and agentic AI are rewriting the first principles of UX design",
+      "published_date": "2026-07-12",
+      "relevance_score": 9,
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "governance_as_code"
+        "applied_ai",
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "agentic",
+        "UX"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 18,
-      "title": "misata 0.8.1.30",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/misata/0.8.1.30/",
-      "summary": "Outcome-conformant synthetic data: realistic multi-table test data that hits the revenue curves, rates, and aggregates you declare, exactly. From a sentence, YAML, or your database. No ML model, no real data. MCP server for AI agents.",
-      "published_date": "2026-07-11",
-      "relevance_score": 9,
+      "title": "Show HN: Runeward: Sandboxing AI agents with policy gates",
+      "source": "Github.io",
+      "url": "https://runewardd.github.io/runeward/",
+      "summary": "Article URL: https://runewardd.github.io/runeward/\nComments URL: https://news.ycombinator.com/item?id=48879713\nPoints: 1\n# Comments: 0",
+      "published_date": "2026-07-12",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 19,
-      "title": "agent-memory-os 0.12.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/agent-memory-os/0.12.1/",
-      "summary": "Local-first, MCP-native memory engine for AI agents with RAM cache and context-budgeted recall.",
+      "title": "Show HN: BoundFlow – an open-source control plane for AI agents",
+      "source": "Github.com",
+      "url": "https://github.com/boundflow/boundflow",
+      "summary": "Open-source control plane for AI agents that take real actions: policy-dictated lifecycle controls, approvals, durable execution, audit receipts, and observability. - boundflow/boundflow",
       "published_date": "2026-07-11",
-      "relevance_score": 9,
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "freecase-mcp 0.1.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/freecase-mcp/0.1.0/",
-      "summary": "MCP connector for searching the Freecase legal corpus (case law + statutes) from AI agents.",
+      "title": "Terraform共通モジュールをチーム横断で“変えられる”運用へ ― リリースと適用の分離",
+      "source": "Speakerdeck.com",
+      "url": "https://speakerdeck.com/kekke_n/terraformgong-tong-moziyuruwotimuheng-duan-de-bian-erareru-yun-yong-he-ririsutoshi-yong-nofen-li",
+      "summary": "Taking LLMs out of the black box: A practical guide to human-in-the-loop distillation",
       "published_date": "2026-07-11",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
+      "relevance_score": 8,
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "applied_ai"
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "human-in-the-loop"
       ],
       "sentiment": "neutral"
     }
