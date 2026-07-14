@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T12:12:01.398Z",
+  "generated_at": "2026-07-14T10:53:26.542Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 11
+      "item_count": 14
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 10
+      "item_count": 6
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 4
+      "item_count": 2
     }
   ],
   "institutional_signal": {
@@ -41,11 +41,11 @@
   "items": [
     {
       "rank": 1,
-      "title": "Launches Neuro AI Trust Platform for AI Governance",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/88783056913d7f5d",
-      "summary": "Cognizant Technology Solutions Corporation (NASDAQ:CTSH) is one of the best large cap stocks to buy according to analysts. On July 1, Cognizant announced the launch of Cognizant Neuro AI Trust, a new platform designed to provide enterprises with continuous go…",
-      "published_date": "2026-07-11",
+      "title": "What AI Governance Demands",
+      "source": "Project Syndicate",
+      "url": "https://www.project-syndicate.org/commentary/ai-governance-framework-by-ana-palacio-2026-07",
+      "summary": "AI governance must account for everything from the technology’s material requirements to its effects on communities, businesses, labor markets, the environment, and strategic competition. To this end, a framework of verification-based trust—broader than natio…",
+      "published_date": "2026-07-13",
       "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -60,11 +60,11 @@
     },
     {
       "rank": 2,
-      "title": "Cognizant (CTSH) Launches Neuro AI Trust Platform for AI Governance",
-      "source": "Yahoo Entertainment",
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_d8ee0049-fb34-4ff8-bfb9-bab67f9b2a33",
-      "summary": "If you click 'Accept all', we and our partners, including 249 who are part of the IAB Transparency &amp; Consent Framework, will also store and / or access information on a device (in other words, us…",
-      "published_date": "2026-07-11",
+      "title": "【株式会社Elith】企業のAI活用を安全に加速する専門組織「Elith AI Governance Lab」を設立",
+      "source": "Prtimes.jp",
+      "url": "https://prtimes.jp/main/html/rd/p/000000174.000121022.html",
+      "summary": "[株式会社Elith]\n[画像1: https://prcdn.freetls.fastly.net/release_image/121022/174/121022-174-9ab6b32a0f455f15c306e7be54fb3519-1920x1080.png?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bound...",
+      "published_date": "2026-07-13",
       "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -79,30 +79,32 @@
     },
     {
       "rank": 3,
-      "title": "Show HN: Spendict – a performance marketer's verdict for AI agents, over MCP",
-      "source": "Spendict.com",
-      "url": "https://www.spendict.com/",
-      "summary": "An MCP server (and REST API) that gives an AI agent a performance marketer's judgment: design a targeting strategy, audit a campaign build, gate an ad creative before spend, diagnose a live campaign. Each is a deterministic, server-verified verdict.",
-      "published_date": "2026-07-12",
+      "title": "Ant Group Open-Sources SingGuard-NSFA to Establish New Security Paradigms for Autonomous AI Agents",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/ant-group-open-sources-singguard-nsfa-to-establish-new-security-paradigms-for-autonomous-ai-agents",
+      "summary": "HANGZHOU, China — Ant Group’s AI Security Lab today announced the open-source release of SingGuard-NSFA, a specialized security guardrail framework designed specifically for autonomous AI agents. The framework secures agentic AI systems against operational th…",
+      "published_date": "2026-07-13",
       "relevance_score": 16,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "agentic",
+        "ai agent",
+        "guardrail"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 4,
-      "title": "pyxon-governance added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/pyxon-governance/",
-      "summary": "Country-aware AI governance scoring for LLMs and RAG (Ollama probes + policy evidence)",
-      "published_date": "2026-07-11",
+      "title": "IBM Bob Gets Multi-Agent Muscle and a Cost Dashboard for Enterprise Coding",
+      "source": "DevOps.com",
+      "url": "https://devops.com/ibm-bob-gets-multi-agent-muscle-and-a-cost-dashboard-for-enterprise-coding/",
+      "summary": "IBM Bob adds multi-agent coordination, cost analytics, and modernization workflows for IBM Z, IBM i, and Java as AI governance takes center stage.",
+      "published_date": "2026-07-13",
       "relevance_score": 16,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -111,7 +113,7 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "RAG",
+        "multi-agent",
         "ai governance",
         "governance"
       ],
@@ -119,54 +121,88 @@
     },
     {
       "rank": 5,
-      "title": "isa-agent-sdk 0.3.40",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.3.40/",
-      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
-      "published_date": "2026-07-11",
-      "relevance_score": 15,
+      "title": "Building AI Workflows with LangGraph: State Management and Multi-Agent Orchestration",
+      "source": "C-sharpcorner.com",
+      "url": "https://www.c-sharpcorner.com/article/building-ai-workflows-with-langgraph-state-management-and-multi-agent-orchestra/",
+      "summary": "Master AI workflows with LangGraph! Explore state management, multi-agent orchestration, and build complex, scalable AI applications.",
+      "published_date": "2026-07-13",
+      "relevance_score": 16,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent",
-        "human-in-the-loop"
+        "orchestration",
+        "multi-agent"
       ],
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "rank": 6,
-      "title": "vaara 1.25.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/vaara/1.25.0/",
-      "summary": "Runtime evidence layer for AI agents under the EU AI Act: policy-gated tool calls, hash-chained tamper-evident audit trails with external time anchoring, and independently verifiable attestation plus execution receipts per MCP tool call",
-      "published_date": "2026-07-12",
-      "relevance_score": 12,
+      "title": "How AI is Enabling Cloud Flexibility",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/3b66c6c05f80e845",
+      "summary": "As AWS marks 20 years of the cloud, we explore how AI is reshaping how systems are built and managed — making them more portable and putting control in the hands of the customer. Using open standards like Model Context Protocol, AI agents can coordinate workl…",
+      "published_date": "2026-07-13",
+      "relevance_score": 11,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent",
-        "eu ai act"
+        "model context protocol",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 7,
-      "title": "RecordPoint launches global partner program as AI adoption drives surge in data governance demand",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/recordpoint-launches-global-partner-program-as-ai-adoption-drives-surge-in-data-governance-demand-302821861.html",
-      "summary": "New channel-first strategy gives resellers, consultancies and systems integrators a route into the fastest-growing budget line in regulated IT SEATTLE, July 10, 2026 /PRNewswire/ -- RecordPoint, the global data and AI governance platform, today announced the …",
-      "published_date": "2026-07-10",
-      "relevance_score": 12,
+      "title": "Show HN: Call to Control AI Agents via the Web",
+      "source": "Diffforge.ai",
+      "url": "https://diffforge.ai/",
+      "summary": "Opensource Project I'm working on\nI wanted more control of my coding agents (Codex, Claude Code, Open Code) especially if I am outside, so I made it accessible via an ADE Client (Agentic Development Environment) and the Cloud. On the web you can message and v…",
+      "published_date": "2026-07-13",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "AI Agent Standards: What Do We Need To Know? via @sejournal, @chrisgreenseo",
+      "source": "Substack.com",
+      "url": "https://chrisgreenseo.substack.com/p/ai-agent-standards-what-do-we-need",
+      "summary": "Overwhelmed by agentic web acronyms? Map each protocol to the problem it solves before deciding which ones deserve your attention.\nThe post AI Agent Standards: What Do We Need To Know? appeared first on Search Engine Journal.",
+      "published_date": "2026-07-13",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 9,
+      "title": "Why conversational AI is redefining your security perimeter",
+      "source": "Techtarget.com",
+      "url": "https://www.techtarget.com/searchsecurity/feature/Why-conversational-AI-is-redefining-your-security-perimeter",
+      "summary": "As employees become more accustomed to using AI, they might be getting a little too comfortable. Learn how strong AI governance helps manage this new human risk.",
+      "published_date": "2026-07-13",
+      "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -176,36 +212,35 @@
         "ai governance",
         "governance"
       ],
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
-      "rank": 8,
-      "title": "openai-iztro-agents 0.2.2",
+      "rank": 10,
+      "title": "ashmatics-aigov-tools 0.7.4",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/openai-iztro-agents/0.2.2/",
-      "summary": "Build your own Ziwei or Qimen agent on the OpenAI Agents SDK - hosted astrology models plus your own local tools, MCP, and human-in-the-loop.",
+      "url": "https://pypi.org/project/ashmatics-aigov-tools/0.7.4/",
+      "summary": "Ashmatics Clinical AI Governance Framework - Content management, validation, and compilation",
       "published_date": "2026-07-12",
-      "relevance_score": 12,
-      "primary_pillar": "human_centric_design",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
-        "human_centric_design"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "human-in-the-loop"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 9,
-      "title": "Show HN: AgentTransfer – open-source file transfer for AI agents (one Go binary)",
-      "source": "Github.com",
-      "url": "https://github.com/shehryarsaroya/agenttransfer",
-      "summary": "Open-source file transfer for AI agents — every agent gets an email address, a folder, and an inbox. Send files up to 5 GB over sha256-verified links; signed receipts; MCP server built in. One Go b...",
-      "published_date": "2026-07-11",
-      "relevance_score": 12,
+      "rank": 11,
+      "title": "grp-mcp 0.52.6",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/grp-mcp/0.52.6/",
+      "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
+      "published_date": "2026-07-13",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -218,69 +253,31 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 10,
-      "title": "Microsoft’s Brad Smith criticizes US AI regulation for lack of clarity",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/microsoft-brad-smith-ai-regulation-clarity/",
-      "summary": "Unclear AI regulations hinder tech investment and innovation, highlighting the need for structured governance to ensure industry stability.\nThe post Microsoft’s Brad Smith criticizes US AI regulation for lack of clarity appeared first on Crypto Briefing.",
-      "published_date": "2026-07-11",
-      "relevance_score": 11,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "governance",
-        "ai regulation"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 11,
-      "title": "ashmatics-aigov-tools 0.7.3",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/ashmatics-aigov-tools/0.7.3/",
-      "summary": "Ashmatics Clinical AI Governance Framework - Content management, validation, and compilation",
-      "published_date": "2026-07-11",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 12,
-      "title": "maigp-client 5.1.0",
+      "title": "clio-kit 2.3.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/maigp-client/5.1.0/",
-      "summary": "MAIGP (Mediated AI Governance Protocol) client — consent-based runtime AI governance",
-      "published_date": "2026-07-11",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "url": "https://pypi.org/project/clio-kit/2.3.0/",
+      "summary": "CLIO Kit - MCP Servers, Clients, and Tools for AI Agents",
+      "published_date": "2026-07-13",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 13,
-      "title": "c4reqber added to PyPI",
+      "title": "grp-mcp 0.52.5",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/c4reqber/",
-      "summary": "Cognitive exoskeleton for AI agents — MCP-native discovery pipeline",
-      "published_date": "2026-07-12",
+      "url": "https://pypi.org/project/grp-mcp/0.52.5/",
+      "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
+      "published_date": "2026-07-13",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -295,11 +292,11 @@
     },
     {
       "rank": 14,
-      "title": "synaptiq 1.5.1",
+      "title": "matlab-mcp-python 2.1.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/synaptiq/1.5.1/",
-      "summary": "Graph-powered code intelligence engine — indexes codebases into a knowledge graph, exposed via MCP tools for AI agents and a CLI for developers.",
-      "published_date": "2026-07-12",
+      "url": "https://pypi.org/project/matlab-mcp-python/2.1.0/",
+      "summary": "MCP server exposing MATLAB capabilities to AI agents",
+      "published_date": "2026-07-13",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -314,105 +311,47 @@
     },
     {
       "rank": 15,
-      "title": "verdant 0.1.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/verdant/0.1.0/",
-      "summary": "VERDANT SDK for inspectable AI governance",
-      "published_date": "2026-07-10",
-      "relevance_score": 9,
-      "primary_pillar": "governance_as_code",
+      "title": "Chinese internet firms sign AI agent data protection pact",
+      "source": "TechNode",
+      "url": "http://technode.com/2026/07/13/chinese-internet-firms-sign-ai-agent-data-protection-pact/",
+      "summary": "The China Internet Association released a self-regulatory pact on personal information protection for AI agents at a forum in Beijing, with Baidu, Tencent, Alibaba, Volcengine, and 27 other internet companies among the first signatories. The pact is aimed at …",
+      "published_date": "2026-07-13",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 16,
-      "title": "verdant added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/verdant/",
-      "summary": "VERDANT SDK for inspectable AI governance",
-      "published_date": "2026-07-10",
-      "relevance_score": 9,
-      "primary_pillar": "governance_as_code",
+      "title": "Ethereum Foundation Deploys AI Agents to Hunt Bugs in Protocol Code",
+      "source": "The Daily Hodl",
+      "url": "https://dailyhodl.com/2026/07/13/ethereum-foundation-deploys-ai-agents-to-hunt-bugs-in-protocol-code/",
+      "summary": "Ethereum Foundation's Protocol Security team used coordinated AI agents to scan protocol code, uncovering real bugs including a remotely-triggerable panic in libp2p's gossipsub, now fixed as CVE-2026-34219.\nThe post Ethereum Foundation Deploys AI Agents to Hu…",
+      "published_date": "2026-07-13",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "The interface has left the building",
-      "source": "Uxdesign.cc",
-      "url": "https://uxdesign.cc/the-interface-has-left-the-building-8fdb558d33a9",
-      "summary": "How chat, voice, and agentic AI are rewriting the first principles of UX design",
-      "published_date": "2026-07-12",
-      "relevance_score": 9,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "UX"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "Show HN: Runeward: Sandboxing AI agents with policy gates",
-      "source": "Github.io",
-      "url": "https://runewardd.github.io/runeward/",
-      "summary": "Article URL: https://runewardd.github.io/runeward/\nComments URL: https://news.ycombinator.com/item?id=48879713\nPoints: 1\n# Comments: 0",
-      "published_date": "2026-07-12",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 19,
-      "title": "Show HN: BoundFlow – an open-source control plane for AI agents",
-      "source": "Github.com",
-      "url": "https://github.com/boundflow/boundflow",
-      "summary": "Open-source control plane for AI agents that take real actions: policy-dictated lifecycle controls, approvals, durable execution, audit receipts, and observability. - boundflow/boundflow",
-      "published_date": "2026-07-11",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 20,
-      "title": "Terraform共通モジュールをチーム横断で“変えられる”運用へ ― リリースと適用の分離",
-      "source": "Speakerdeck.com",
-      "url": "https://speakerdeck.com/kekke_n/terraformgong-tong-moziyuruwotimuheng-duan-de-bian-erareru-yun-yong-he-ririsutoshi-yong-nofen-li",
-      "summary": "Taking LLMs out of the black box: A practical guide to human-in-the-loop distillation",
-      "published_date": "2026-07-11",
+      "title": "hitl-server 2.1.7",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/hitl-server/2.1.7/",
+      "summary": "HITL Server - Human-in-the-Loop 服务端（个人端，iLink + WeCom AI）",
+      "published_date": "2026-07-13",
       "relevance_score": 8,
       "primary_pillar": "human_centric_design",
       "pillars": [
@@ -421,6 +360,60 @@
       "institutional_signal": false,
       "matched_keywords": [
         "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "hitl-server added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/hitl-server/",
+      "summary": "HITL Server - Human-in-the-Loop 服务端（个人端，iLink + WeCom AI）",
+      "published_date": "2026-07-13",
+      "relevance_score": 8,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "AI Observability Explained: Monitoring LLMs, Agents, and RAG Applications",
+      "source": "C-sharpcorner.com",
+      "url": "https://www.c-sharpcorner.com/article/ai-observability-explained-monitoring-llms-agents-and-rag-applications/",
+      "summary": "Understand AI Observability: Monitor LLMs, agents, and RAG for better performance, reduced costs, and increased trust.",
+      "published_date": "2026-07-13",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "RAG"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 20,
+      "title": "AI Agent Memory Patterns: Short-Term, Long-Term, and Semantic Memory Explained",
+      "source": "C-sharpcorner.com",
+      "url": "https://www.c-sharpcorner.com/article/ai-agent-memory-patterns-short-term-long-term-and-semantic-memory-explained/",
+      "summary": "Unlock AI agent potential with Short-Term, Long-Term, and Semantic Memory. Build smarter, context-aware, and personalized AI systems.",
+      "published_date": "2026-07-13",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
       ],
       "sentiment": "neutral"
     }
