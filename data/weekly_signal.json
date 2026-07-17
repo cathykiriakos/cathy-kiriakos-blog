@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T11:06:18.654Z",
+  "generated_at": "2026-07-17T10:53:02.170Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 8
+      "item_count": 9
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 6
+      "item_count": 12
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 3
+      "item_count": 1
     }
   ],
   "institutional_signal": {
@@ -36,17 +36,17 @@
       "polsky center",
       "mecha-nudges"
     ],
-    "item_count": 7
+    "item_count": 1
   },
   "items": [
     {
       "rank": 1,
-      "title": "Fortinet expands FortiEndpoint with AI governance and data loss prevention",
-      "source": "4sysops.com",
-      "url": "https://4sysops.com/archives/fortinet-expands-fortiendpoint-with-ai-governance-and-data-loss-prevention/",
-      "summary": "Fortinet has updated its FortiEndpoint platform to include specialized visibility and control features for managing artificial intelligence applications. The solution centralizes the monitoring of AI agents and browser-based services to help security teams id…",
-      "published_date": "2026-07-15",
-      "relevance_score": 21,
+      "title": "AI Agents with Cloud Credentials Are Outrunning Billing Guardrails Built for Human-Speed Mistakes",
+      "source": "InfoQ.com",
+      "url": "https://www.infoq.com/news/2026/07/ai-agents-billing-guardrails/",
+      "summary": "A three-person agency received a $14,000 AWS bill in one day after attackers extracted static access keys and burned Claude invocations on Bedrock. Combined with May's DN42 incident, where an autonomous agent provisioned $6,531 of oversized infrastructure in …",
+      "published_date": "2026-07-16",
+      "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
@@ -55,18 +55,17 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent",
-        "ai governance",
-        "governance"
+        "guardrail"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 2,
-      "title": "Heralding The Next Chapter Of AI Governance For The Public Sector",
-      "source": "Forbes",
-      "url": "https://www.forbes.com/sites/lanceeliot/2026/07/15/heralding-the-next-chapter-of-ai-governance-for-the-public-sector/",
-      "summary": "AI governance is growing in acceptance in the public sector, deservedly so. There are crucial factors at play. An AI Insider analysis and scoop.",
-      "published_date": "2026-07-15",
+      "title": "Xi Jinping to Address Global AI Governance Summit in Shanghai",
+      "source": "Sputnikglobe.com",
+      "url": "https://sputnikglobe.com/20260716/xi-jinping-to-address-global-ai-governance-summit-in-shanghai-1124454500.html",
+      "summary": "The 2026 World AI Conference (WAIC) and High-Level Meeting on Global AI Governance will be held in Shanghai from July 17 to 20. Chinese President Xi Jinping will attend the opening ceremony and deliver a keynote address.",
+      "published_date": "2026-07-16",
       "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -81,11 +80,49 @@
     },
     {
       "rank": 3,
-      "title": "isa-agent-sdk 0.3.50",
+      "title": "SANS Warns of AI Governance Gap as Use by Security Teams Surges",
+      "source": "Infosecurity Magazine",
+      "url": "https://www.infosecurity-magazine.com/news/sans-warns-of-ai-governance-gap/",
+      "summary": "SANS Institute says governance programs are still nascent even as AI failures and threats grow",
+      "published_date": "2026-07-16",
+      "relevance_score": 18,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 4,
+      "title": "Most enterprise AI governance is already out of date",
+      "source": "TechRadar",
+      "url": "https://www.techradar.com/pro/most-enterprise-ai-governance-is-already-out-of-date",
+      "summary": "Governance frameworks need to operate as flexible policies integrated into core functions and operations of an organization.",
+      "published_date": "2026-07-16",
+      "relevance_score": 18,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 5,
+      "title": "isa-agent-sdk 0.3.54",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.3.50/",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.3.54/",
       "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
-      "published_date": "2026-07-15",
+      "published_date": "2026-07-16",
       "relevance_score": 15,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -101,34 +138,13 @@
       "sentiment": "positive"
     },
     {
-      "rank": 4,
-      "title": "Nudge Security Unveils AI Agents to Mitigate Escalating Risks from Hidden OAuth Grants and Browser Extensions",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/nudge-security-unveils-ai-agents-to-mitigate-escalating-risks-from-hidden-oauth-grants-and-browser-extensions-302824148.html",
-      "summary": "New agentic capabilities scale security governance across the exploding attack surface created by shadow AI, SaaS sprawl, and non-human identities. AUSTIN, Texas, July 15, 2026 /PRNewswire/ -- Nudge Security, the leader in AI and SaaS security governance, tod…",
-      "published_date": "2026-07-15",
-      "relevance_score": 14,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent",
-        "governance"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 5,
+      "rank": 6,
       "title": "UChicago Law bans laptops and phones for first-year students, mandates in-class exams starting this fall",
       "source": "TechSpot",
       "url": "https://www.techspot.com/news/113111-uchicago-law-bans-laptops-phones-first-year-students.html",
       "summary": "In its announcement, the law school said the changes are a response to the way AI is disrupting higher education. \"With AI disrupting higher education, our commitment to rigorous legal education must also mean being open to rapid adaptation,\" the school said.…",
       "published_date": "2026-07-14",
-      "relevance_score": 12,
+      "relevance_score": 11,
       "primary_pillar": "institutional_signal",
       "pillars": [],
       "institutional_signal": true,
@@ -138,70 +154,50 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
-      "title": "Oracle unveils AI-native builder for agentic apps in Fusion platform",
-      "source": "Verdict",
-      "url": "https://www.verdict.co.uk/oracle-ai-native-builder-fusion/",
-      "summary": "Oracle AI-native builder in AI Agent Studio for Fusion lets customers build and run Fusion Agentic Applications in Fusion Cloud.",
-      "published_date": "2026-07-15",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 7,
-      "title": "Anthropic expands hiring push to address AI safety risks",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/anthropic-expands-hiring-ai-safety-risks/",
-      "summary": "Anthropic's hiring surge for AI safety roles highlights the industry's urgent need for responsible AI development and oversight mechanisms.\nThe post Anthropic expands hiring push to address AI safety risks appeared first on Crypto Briefing.",
-      "published_date": "2026-07-15",
-      "relevance_score": 11,
+      "title": "China's Xi to outline AI diplomacy vision at key Shanghai forum",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-xi-to-outline-ai-diplomacy-vision-at-key-shanghai-forum/articleshow/132429969.cms",
+      "summary": "President Xi Jinping will present China's ambitious AI governance vision at a Shanghai forum. Huawei will debut its advanced AI computing system, showcasing domestic technological progress. This event serves as a geopolitical stage for China's AI strategy. Be…",
+      "published_date": "2026-07-16",
+      "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "responsible ai",
-        "ai safety"
+        "ai governance",
+        "governance"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 8,
-      "title": "m8tes 2.4.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/m8tes/2.4.0/",
-      "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
-      "published_date": "2026-07-14",
-      "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
+      "title": "China's Xi Jinping to outline AI diplomacy vision at key Shanghai forum",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/chinas-xi-jinping-to-outline-ai-diplomacy-vision-at-key-shanghai-forum/articleshow/132429615.cms",
+      "summary": "President Xi Jinping will present China's ambitious AI governance vision at a Shanghai forum. Huawei will debut its advanced AI computing cluster, showcasing domestic technological progress. This event marks a key moment for China's global AI influence and co…",
+      "published_date": "2026-07-16",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
-        "human_centric_design"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "human-in-the-loop"
+        "ai governance",
+        "governance"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 9,
-      "title": "arqera-cli added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/arqera-cli/",
-      "summary": "ARQERA CLI -- AI governance from your terminal",
-      "published_date": "2026-07-15",
+      "title": "China’s Xi to outline AI diplomacy vision at key Shanghai forum",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/63b96ccfcc58eb8a",
+      "summary": "Stocks end higher as PPI data, Mag 7 gains offset slide in chips, Iran tensions\nBy Laurie Chen\nBEIJING, July 16 (Reuters) - Chinese President Xi Jinping is expected to outline an ambitious vision for China’s role in global AI governance at a forum on Friday, …",
+      "published_date": "2026-07-16",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -212,14 +208,14 @@
         "ai governance",
         "governance"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 10,
-      "title": "eve-coreguard 0.2.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/eve-coreguard/0.2.0/",
-      "summary": "EVE CoreGuard SDK - AI Governance Enforcement in One API Call",
+      "title": "Sandler Partners and Liminal Announce Strategic Partnership to Bring Secure Generative AI Solutions to Enterprise Customers Nationwide",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/sandler-partners-and-liminal-announce-strategic-partnership-to-bring-secure-generative-ai-solutions-to-enterprise-customers-nationwide-302826788.html",
+      "summary": "This new partnership gives Sandler Partners' extensive network of technology experts access to Liminal's enterprise AI governance and enablement platform. REDONDO BEACH, Calif., July 15, 2026 /PRNewswire/ -- Sandler Partners, the nation's leading independent …",
       "published_date": "2026-07-15",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
@@ -231,15 +227,15 @@
         "ai governance",
         "governance"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 11,
-      "title": "rtfm-ai 0.24.11",
+      "title": "hol-guard 2.0.1095",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/rtfm-ai/0.24.11/",
-      "summary": "RTFM — The open retrieval layer for AI agents. Indexes code, docs, legal, research, data. Extensible parser system. Serves surgical context via MCP.",
-      "published_date": "2026-07-15",
+      "url": "https://pypi.org/project/hol-guard/2.0.1095/",
+      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+      "published_date": "2026-07-16",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -254,29 +250,48 @@
     },
     {
       "rank": 12,
-      "title": "Backed by $60M in funding, Oak steps out of stealth to fix the identity mess that AI agents are making worse",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/15/backed-by-60m-in-funding-oak-steps-out-of-stealth-to-fix-the-identity-mess-that-ai-agents-are-making-worse/",
-      "summary": "Cofounded by senior entrepreneur Shai Morag, Israeli identity management startup Oak is emerging out of stealth with $60 million in seed funding.",
-      "published_date": "2026-07-15",
-      "relevance_score": 8,
+      "title": "misata 0.8.7",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/misata/0.8.7/",
+      "summary": "Outcome-conformant synthetic data: realistic multi-table test data that hits the revenue curves, rates, and aggregates you declare, exactly. From a sentence, YAML, or your database. No ML model, no real data. MCP server for AI agents.",
+      "published_date": "2026-07-16",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 13,
-      "title": "Cadence extends its AI agents beyond chips with AuraStack for circuit boards and packaging",
-      "source": "SiliconANGLE News",
-      "url": "https://siliconangle.com/2026/07/15/cadence-extends-ai-agents-beyond-chips-aurastack-circuit-boards-packaging/",
-      "summary": "Integrated circuit and electronic hardware design company Cadence Design Systems Inc. today announced a new artificial intelligence agent that assists with packaging and system design, the step after silicon has been customized and produced, marking how chips…",
-      "published_date": "2026-07-15",
+      "title": "The agentic commerce gold rush risks repeating ecommerce's biggest mistakes",
+      "source": "TechRadar",
+      "url": "https://www.techradar.com/pro/the-agentic-commerce-gold-rush-risks-repeating-ecommerces-biggest-mistakes",
+      "summary": "AI shopping agents promise growth, but merchants may be underestimating the risks.",
+      "published_date": "2026-07-16",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "Autonomous AI agent economy faces infrastructure gaps: Visa, Artemis",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/autonomous-ai-agent-economy-infrastructure-gaps-visa-artemis",
+      "summary": "Autonomous AI agents need infrastructure with quicker settlement and cheaper transaction costs to see more commercial adoption, according to Visa and Artemis.",
+      "published_date": "2026-07-16",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -289,116 +304,114 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 14,
-      "title": "Sean Green Built the Gallery World’s First CRM. Now He’s Building Its First A.I. Agents.",
-      "source": "Observer",
-      "url": "https://observer.com/2026/07/arts-sean-green-arternal-ai-agents-galleries-reggie-sal/",
-      "summary": "He describes ARTERNAL's approach as \"human in the loop,\" with people still responsible for oversight, final sign-off and all tasks requiring judgment.",
-      "published_date": "2026-07-14",
+      "rank": 15,
+      "title": "traccia 0.1.25",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/traccia/0.1.25/",
+      "summary": "Production-ready distributed tracing SDK for AI agents and LLM applications",
+      "published_date": "2026-07-16",
       "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "To AI-Proof Lawyers, Some Law Schools Restrict Technology",
-      "source": "Inside Higher Ed",
-      "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/07/14/ai-proof-lawyers-some-law-schools-restrict",
-      "summary": "To AI-Proof Lawyers, Some Law Schools Restrict Technology\n\n \n\n\n \nkathryn.palmer…\n\nTue, 07/14/2026 - 03:00 AM\n\nLast week, the University of Chicago Law School announced a ban on laptops, tablets and phones in the classroom. The goal is to help students develop…",
-      "published_date": "2026-07-14",
-      "relevance_score": 8,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
-      "matched_keywords": [
-        "university of chicago"
+        "ai agent",
+        "llm application"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 16,
-      "title": "AI Takes a Loss in New Law School Policy",
-      "source": "Newser",
-      "url": "https://www.newser.com/story/392746/ai-takes-a-loss-in-new-law-school-policy.html",
-      "summary": "First-year law students at the University of Chicago will be eyes forward instead of looking at their own screens next school year. The law school is prohibiting phones, laptops, and tablets in classrooms as part of a new push to blunt overreliance on artific…",
-      "published_date": "2026-07-13",
-      "relevance_score": 7,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
-      "matched_keywords": [
-        "university of chicago"
+      "title": "AI, Cloud, Compliance: All of It Depends on Data You’ve Never Verified",
+      "source": "Cloudtweaks.com",
+      "url": "https://cloudtweaks.com/2026/07/ai-compliance-data-verified/",
+      "summary": "AI, Cloud and Compliance As CFOs evaluate investments in AI, cloud infrastructure, SaaS applications, and compliance initiatives, there’s one question they should ask first: Do we have a complete and accurate picture of the technology we already own and opera…",
+      "published_date": "2026-07-16",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
       ],
-      "sentiment": "negative"
+      "institutional_signal": false,
+      "matched_keywords": [
+        "compliance"
+      ],
+      "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "Law School Bans Laptops and Phones as AI Cheating Scandal Grows",
-      "source": "Futurism",
-      "url": "https://futurism.com/future-society/law-school-bans-laptops-ai",
-      "summary": "University of Chicago Law said it would ban phones and laptops in its freshman courses as part of its strategy to counter rampant AI usage.",
-      "published_date": "2026-07-13",
-      "relevance_score": 7,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
+      "title": "As AI scales, is meaningful governance possible?",
+      "source": "TechRadar",
+      "url": "https://www.techradar.com/pro/as-ai-scales-is-meaningful-governance-possible",
+      "summary": "With adoption accelerating so rapidly, governance is rising to the top of the AI agenda.",
+      "published_date": "2026-07-16",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
       "matched_keywords": [
-        "university of chicago"
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 18,
-      "title": "The law school at the U of C bans devices in the classroom",
-      "source": "Whyevolutionistrue.com",
-      "url": "https://whyevolutionistrue.com/2026/07/12/the-law-school-at-the-u-of-c-bans-devices-in-the-classroom/",
-      "summary": "Speaking of AI, I wish the rest of the University of Chicago would adhere to our Law School’s new dictum, reported in the article below from WGN9 (click to read): An excerpt: Some students at the University of Chicago will have to learn how to do their work t…",
-      "published_date": "2026-07-12",
-      "relevance_score": 7,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
+      "title": "safelabs-eval 0.2.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/safelabs-eval/0.2.2/",
+      "summary": "OWASP-aligned red-teaming and evaluation framework for AI agents",
+      "published_date": "2026-07-16",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
       "matched_keywords": [
-        "university of chicago"
+        "ai agent",
+        "red-teaming"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 19,
-      "title": "AI-enabled cheating is forcing some schools to go analog",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/d24be151862931f3",
-      "summary": "Felix Kästle/picture alliance via Getty Images\nColleges are trying to adapt to the rise of AI and promote students' independent thinking.\nThe University of Chicago Law School just rolled out an in-class laptop ban for first-year students.\nAs AI becomes more i…",
-      "published_date": "2026-07-11",
-      "relevance_score": 7,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
-      "matched_keywords": [
-        "university of chicago"
+      "title": "PraisonAI 4.6.150",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/praisonai/4.6.150/",
+      "summary": "PraisonAI is an AI Agents Framework with Self Reflection. PraisonAI application combines PraisonAI Agents, AutoGen, and CrewAI into a low-code solution for building and managing multi-agent LLM systems, focusing on simplicity, customisation, and efficient hum…",
+      "published_date": "2026-07-16",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
       ],
-      "sentiment": "neutral"
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "multi-agent"
+      ],
+      "sentiment": "positive"
     },
     {
       "rank": 20,
-      "title": "AI backlash reaches major university with bold ban on laptops and phones for law students",
-      "source": "Fox News",
-      "url": "https://www.foxnews.com/media/ai-backlash-reaches-major-university-bold-ban-laptops-phones-students",
-      "summary": "The University of Chicago will bar first year law students from using laptops, tablets and phones in class starting this fall to combat AI reliance.",
-      "published_date": "2026-07-10",
-      "relevance_score": 7,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
+      "title": "How responsible AI is changing the way organizations assess humanitarian needs",
+      "source": "Cisco.com",
+      "url": "https://blogs.cisco.com/?p=494856",
+      "summary": "In a humanitarian crisis, good data is essential, but collecting it responsibly is as critical as collecting it fast. Our partner Kobo is using responsible AI to help field teams collect humanitarian data quickly — and safely.",
+      "published_date": "2026-07-16",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
       "matched_keywords": [
-        "university of chicago"
+        "responsible ai"
       ],
       "sentiment": "neutral"
     }
