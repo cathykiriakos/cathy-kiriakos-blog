@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T10:53:02.170Z",
+  "generated_at": "2026-07-18T10:23:40.979Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 9
+      "item_count": 10
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 12
+      "item_count": 10
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 1
+      "item_count": 2
     }
   ],
   "institutional_signal": {
@@ -36,36 +36,35 @@
       "polsky center",
       "mecha-nudges"
     ],
-    "item_count": 1
+    "item_count": 2
   },
   "items": [
     {
       "rank": 1,
-      "title": "AI Agents with Cloud Credentials Are Outrunning Billing Guardrails Built for Human-Speed Mistakes",
-      "source": "InfoQ.com",
-      "url": "https://www.infoq.com/news/2026/07/ai-agents-billing-guardrails/",
-      "summary": "A three-person agency received a $14,000 AWS bill in one day after attackers extracted static access keys and burned Claude invocations on Bedrock. Combined with May's DN42 incident, where an autonomous agent provisioned $6,531 of oversized infrastructure in …",
-      "published_date": "2026-07-16",
+      "title": "Chair's Statement of the 2026 World Artificial Intelligence Conference & High-Level Meeting on Global AI Governance",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/china/2026/07/china-260717-prc-mofa01.htm",
+      "summary": "The 2026 World Artificial Intelligence Conference & High-Level Meeting on Global AI Governance was held in Shanghai, China from July 17 to 20. President Xi Jinping of the People's Republic of China attended the opening ceremony of the Conference and delivered…",
+      "published_date": "2026-07-17",
       "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "guardrail"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 2,
-      "title": "Xi Jinping to Address Global AI Governance Summit in Shanghai",
-      "source": "Sputnikglobe.com",
-      "url": "https://sputnikglobe.com/20260716/xi-jinping-to-address-global-ai-governance-summit-in-shanghai-1124454500.html",
-      "summary": "The 2026 World AI Conference (WAIC) and High-Level Meeting on Global AI Governance will be held in Shanghai from July 17 to 20. Chinese President Xi Jinping will attend the opening ceremony and deliver a keynote address.",
-      "published_date": "2026-07-16",
+      "title": "Chinese president calls for fair global AI governance, unveils support for developing nations",
+      "source": "Vanguard",
+      "url": "https://www.vanguardngr.com/2026/07/chinese-president-calls-for-fair-global-ai-governance-unveils-support-for-developing-nations/",
+      "summary": "SHANGHAI – Chinese President Xi Jinping on Friday called for a fair and inclusive global system for artificial intelligence (AI) governance, urging countries to strengthen international cooperation to ensure the technology benefits humanity while addressing i…",
+      "published_date": "2026-07-17",
       "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -80,11 +79,11 @@
     },
     {
       "rank": 3,
-      "title": "SANS Warns of AI Governance Gap as Use by Security Teams Surges",
-      "source": "Infosecurity Magazine",
-      "url": "https://www.infosecurity-magazine.com/news/sans-warns-of-ai-governance-gap/",
-      "summary": "SANS Institute says governance programs are still nascent even as AI failures and threats grow",
-      "published_date": "2026-07-16",
+      "title": "China moves to institutionalize its vision for global AI governance as Xi launches cooperation body",
+      "source": "Digitimes",
+      "url": "https://www.digitimes.com/news/a20260717VL212/china-ai-governance-shanghai-2026.html",
+      "summary": "China used the opening of the 2026 World Artificial Intelligence Conference (WAIC) in Shanghai to institutionalize its bid to shape global governance of artificial intelligence (AI), with President Xi Jinping unveiling a package of measures aimed at the devel…",
+      "published_date": "2026-07-17",
       "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -95,15 +94,15 @@
         "ai governance",
         "governance"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 4,
-      "title": "Most enterprise AI governance is already out of date",
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/pro/most-enterprise-ai-governance-is-already-out-of-date",
-      "summary": "Governance frameworks need to operate as flexible policies integrated into core functions and operations of an organization.",
-      "published_date": "2026-07-16",
+      "title": "Indonesia strengthens AI governance through WAICO membership",
+      "source": "Antaranews.com",
+      "url": "https://en.antaranews.com/news/423023/indonesia-strengthens-ai-governance-through-waico-membership",
+      "summary": "Indonesia has strengthened its global artificial intelligence (AI) role by becoming one of the 29 founding members of the World Artificial Intelligence ...",
+      "published_date": "2026-07-17",
       "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -118,11 +117,32 @@
     },
     {
       "rank": 5,
-      "title": "isa-agent-sdk 0.3.54",
+      "title": "secchecker 0.4.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.3.54/",
+      "url": "https://pypi.org/project/secchecker/0.4.1/",
+      "summary": "Static security scanner for AI agents, MCP tools, and LLM applications. Finds prompt injection, tool poisoning, and agentic vulnerabilities. OWASP LLM Top 10 (2025) tagged.",
+      "published_date": "2026-07-17",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "agentic",
+        "ai agent",
+        "llm application"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 6,
+      "title": "isa-agent-sdk 0.3.57",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.3.57/",
       "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
-      "published_date": "2026-07-16",
+      "published_date": "2026-07-17",
       "relevance_score": 15,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -138,7 +158,83 @@
       "sentiment": "positive"
     },
     {
-      "rank": 6,
+      "rank": 7,
+      "title": "Generative AI in the Real World: Agentic Coding with Chelsea Troy",
+      "source": "Oreilly.com",
+      "url": "https://www.oreilly.com/radar/podcast/generative-ai-in-the-real-world-agentic-coding-with-chelsea-troy/",
+      "summary": "The tech industry is measuring AI productivity all wrong, and Mozilla MLOps engineer and University of Chicago instructor Chelsea Troy makes a strong case for why. The real opportunity, she argues, isn’t shipping more code faster but finally having the bandwi…",
+      "published_date": "2026-07-16",
+      "relevance_score": 14,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": true,
+      "matched_keywords": [
+        "agentic",
+        "university of chicago"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "mcp-server-spira 2.0.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/mcp-server-spira/2.0.0/",
+      "summary": "A Model Context Protocol (MCP) server enabling AI assistants to interact with Spira by Inflectra.",
+      "published_date": "2026-07-17",
+      "relevance_score": 12,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 9,
+      "title": "Satya Nadella criticizes Anthropic AI guardrails for being overly restrictive",
+      "source": "4sysops.com",
+      "url": "https://4sysops.com/archives/satya-nadella-criticizes-anthropic-ai-guardrails-for-being-overly-restrictive/",
+      "summary": "Microsoft CEO Satya Nadella recently criticized the restrictive nature of Anthropic’s high-end Fable 5 AI model during an internal meeting with engineers. He described the model as being \"editorially controlled,\" arguing that its frequent refusal of user requ…",
+      "published_date": "2026-07-17",
+      "relevance_score": 12,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "pingwa 0.4.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/pingwa/0.4.1/",
+      "summary": "WhatsApp notifications for AI agents with zero setup — no Meta account, no templates, curl to WhatsApp in 60s. Two-way human-in-the-loop.",
+      "published_date": "2026-07-16",
+      "relevance_score": 11,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 11,
       "title": "UChicago Law bans laptops and phones for first-year students, mandates in-class exams starting this fall",
       "source": "TechSpot",
       "url": "https://www.techspot.com/news/113111-uchicago-law-bans-laptops-phones-first-year-students.html",
@@ -154,163 +250,13 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 7,
-      "title": "China's Xi to outline AI diplomacy vision at key Shanghai forum",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinas-xi-to-outline-ai-diplomacy-vision-at-key-shanghai-forum/articleshow/132429969.cms",
-      "summary": "President Xi Jinping will present China's ambitious AI governance vision at a Shanghai forum. Huawei will debut its advanced AI computing system, showcasing domestic technological progress. This event serves as a geopolitical stage for China's AI strategy. Be…",
-      "published_date": "2026-07-16",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 8,
-      "title": "China's Xi Jinping to outline AI diplomacy vision at key Shanghai forum",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/chinas-xi-jinping-to-outline-ai-diplomacy-vision-at-key-shanghai-forum/articleshow/132429615.cms",
-      "summary": "President Xi Jinping will present China's ambitious AI governance vision at a Shanghai forum. Huawei will debut its advanced AI computing cluster, showcasing domestic technological progress. This event marks a key moment for China's global AI influence and co…",
-      "published_date": "2026-07-16",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 9,
-      "title": "China’s Xi to outline AI diplomacy vision at key Shanghai forum",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/63b96ccfcc58eb8a",
-      "summary": "Stocks end higher as PPI data, Mag 7 gains offset slide in chips, Iran tensions\nBy Laurie Chen\nBEIJING, July 16 (Reuters) - Chinese President Xi Jinping is expected to outline an ambitious vision for China’s role in global AI governance at a forum on Friday, …",
-      "published_date": "2026-07-16",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 10,
-      "title": "Sandler Partners and Liminal Announce Strategic Partnership to Bring Secure Generative AI Solutions to Enterprise Customers Nationwide",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/sandler-partners-and-liminal-announce-strategic-partnership-to-bring-secure-generative-ai-solutions-to-enterprise-customers-nationwide-302826788.html",
-      "summary": "This new partnership gives Sandler Partners' extensive network of technology experts access to Liminal's enterprise AI governance and enablement platform. REDONDO BEACH, Calif., July 15, 2026 /PRNewswire/ -- Sandler Partners, the nation's leading independent …",
-      "published_date": "2026-07-15",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 11,
-      "title": "hol-guard 2.0.1095",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/hol-guard/2.0.1095/",
-      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-      "published_date": "2026-07-16",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 12,
-      "title": "misata 0.8.7",
+      "title": "openagentd 1.112.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/misata/0.8.7/",
-      "summary": "Outcome-conformant synthetic data: realistic multi-table test data that hits the revenue curves, rates, and aggregates you declare, exactly. From a sentence, YAML, or your database. No ML model, no real data. MCP server for AI agents.",
-      "published_date": "2026-07-16",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 13,
-      "title": "The agentic commerce gold rush risks repeating ecommerce's biggest mistakes",
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/pro/the-agentic-commerce-gold-rush-risks-repeating-ecommerces-biggest-mistakes",
-      "summary": "AI shopping agents promise growth, but merchants may be underestimating the risks.",
-      "published_date": "2026-07-16",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "Autonomous AI agent economy faces infrastructure gaps: Visa, Artemis",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/autonomous-ai-agent-economy-infrastructure-gaps-visa-artemis",
-      "summary": "Autonomous AI agents need infrastructure with quicker settlement and cheaper transaction costs to see more commercial adoption, according to Visa and Artemis.",
-      "published_date": "2026-07-16",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "traccia 0.1.25",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/traccia/0.1.25/",
-      "summary": "Production-ready distributed tracing SDK for AI agents and LLM applications",
-      "published_date": "2026-07-16",
-      "relevance_score": 8,
+      "url": "https://pypi.org/project/openagentd/1.112.1/",
+      "summary": "Self-hosted AI agents — streaming chat, tool use, persistent memory, multi-agent teams",
+      "published_date": "2026-07-17",
+      "relevance_score": 10,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -318,55 +264,20 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent",
-        "llm application"
+        "multi-agent",
+        "tool use"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 16,
-      "title": "AI, Cloud, Compliance: All of It Depends on Data You’ve Never Verified",
-      "source": "Cloudtweaks.com",
-      "url": "https://cloudtweaks.com/2026/07/ai-compliance-data-verified/",
-      "summary": "AI, Cloud and Compliance As CFOs evaluate investments in AI, cloud infrastructure, SaaS applications, and compliance initiatives, there’s one question they should ask first: Do we have a complete and accurate picture of the technology we already own and opera…",
-      "published_date": "2026-07-16",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "compliance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "As AI scales, is meaningful governance possible?",
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/pro/as-ai-scales-is-meaningful-governance-possible",
-      "summary": "With adoption accelerating so rapidly, governance is rising to the top of the AI agenda.",
-      "published_date": "2026-07-16",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "safelabs-eval 0.2.2",
+      "rank": 13,
+      "title": "floe-guard 0.5.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/safelabs-eval/0.2.2/",
-      "summary": "OWASP-aligned red-teaming and evaluation framework for AI agents",
-      "published_date": "2026-07-16",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
+      "url": "https://pypi.org/project/floe-guard/0.5.0/",
+      "summary": "Local budget guardrail for AI agents — hard-stops a runaway loop before its next LLM call crosses a spend ceiling. No account, no network.",
+      "published_date": "2026-07-17",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
         "governance_as_code"
@@ -374,44 +285,140 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent",
-        "red-teaming"
+        "guardrail"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 19,
-      "title": "PraisonAI 4.6.150",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/praisonai/4.6.150/",
-      "summary": "PraisonAI is an AI Agents Framework with Self Reflection. PraisonAI application combines PraisonAI Agents, AutoGen, and CrewAI into a low-code solution for building and managing multi-agent LLM systems, focusing on simplicity, customisation, and efficient hum…",
-      "published_date": "2026-07-16",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "multi-agent"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 20,
-      "title": "How responsible AI is changing the way organizations assess humanitarian needs",
-      "source": "Cisco.com",
-      "url": "https://blogs.cisco.com/?p=494856",
-      "summary": "In a humanitarian crisis, good data is essential, but collecting it responsibly is as critical as collecting it fast. Our partner Kobo is using responsible AI to help field teams collect humanitarian data quickly — and safely.",
-      "published_date": "2026-07-16",
-      "relevance_score": 8,
+      "rank": 14,
+      "title": "China’s Xi says AI should not be dominated by one country",
+      "source": "The Punch",
+      "url": "https://punchng.com/chinas-xi-says-ai-should-not-be-dominated-by-one-country/",
+      "summary": "President Xi Jinping calls for international cooperation on AI governance, urging against single-country dominance and overstretching national security con\n\nRead More: https://punchng.com/chinas-xi-says-ai-should-not-be-dominated-by-one-country/",
+      "published_date": "2026-07-17",
+      "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "responsible ai"
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "The privacy watchdog hasn’t forgotten Grok’s sexualized deepfakes. Neither should you",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/e1741850b0fb2a67",
+      "summary": "J.B. Branch is the director of Federal AI Governance and Technology Policy at Public Citizen.\nThe Office of the Privacy Commissioner of Canada delivered a remarkable rebuke to Elon Musk’s companies last month.\nAfter investigating xAI and X, Privacy Commission…",
+      "published_date": "2026-07-17",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "Xi pitches China as leader of new global AI order, challenging US dominance",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/xi-pitches-china-as-leader-of-new-global-ai-order-challenging-us-dominance/articleshow/132455439.cms",
+      "summary": "Chinese President Xi Jinping promoted open-source artificial intelligence at a major tech conference. He urged nations to embrace this technology and pledged support for developing countries. China aims to shape global AI governance and create new standards f…",
+      "published_date": "2026-07-17",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "Join us: Building Secure Healthcare Systems",
+      "source": "Thoughtbot.com",
+      "url": "https://feed.thoughtbot.com/link/24077/17381619/join-us-building-secure-healthcare-systems",
+      "summary": "Register for our July 30 panel on reducing risk through better architecture, AI governance, and developer workflows, featuring David Pace of Merck and Joël Quenneville and Clarissa Borges of thoughtbot.",
+      "published_date": "2026-07-17",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 18,
+      "title": "misata 0.8.7.4",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/misata/0.8.7.4/",
+      "summary": "Outcome-conformant synthetic data: realistic multi-table test data that hits the revenue curves, rates, and aggregates you declare, exactly. From a sentence, YAML, or your database. No ML model, no real data. MCP server for AI agents.",
+      "published_date": "2026-07-17",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "tfmodsearch 0.23.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/tfmodsearch/0.23.0/",
+      "summary": "TFModSearch — MCP server for AI agents (Claude Code, Codex, Claude Desktop) to search Terraform AWS modules with hybrid search engine combining semantic similarity (sentence-transformers), BM25 text relevance, and keyword matching. FastMCP-based, CPU-only inf…",
+      "published_date": "2026-07-17",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 20,
+      "title": "columna-server 0.2.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/columna-server/0.2.0/",
+      "summary": "Columna MCP server — a library of Manifolds exposed to AI agents over MCP, one contract (the four moods as data).",
+      "published_date": "2026-07-17",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     }
