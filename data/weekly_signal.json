@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T10:40:18.588Z",
+  "generated_at": "2026-07-19T14:22:06.074Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,7 +7,7 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 8
+      "item_count": 9
     },
     {
       "id": "governance_as_code",
@@ -101,6 +101,27 @@
     },
     {
       "rank": 4,
+      "title": "nablr 4.3.7",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/nablr/4.3.7/",
+      "summary": "nablr — AI-powered SDLC governance. 19 expert personas enforcing quality gates via Model Context Protocol (MCP).",
+      "published_date": "2026-07-18",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 5,
       "title": "Global Times: Head-of-state diplomacy shines at WAIC, fostering ties and advancing global governance consensus",
       "source": "PRNewswire",
       "url": "https://www.prnewswire.com/news-releases/global-times-head-of-state-diplomacy-shines-at-waic-fostering-ties-and-advancing-global-governance-consensus-302828946.html",
@@ -119,7 +140,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "How Smartsheet built a remote MCP server on AWS",
       "source": "Amazon.com",
       "url": "https://aws.amazon.com/blogs/machine-learning/how-smartsheet-built-a-remote-mcp-server-on-aws/",
@@ -139,7 +160,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Generative AI in the Real World: Agentic Coding with Chelsea Troy",
       "source": "Oreilly.com",
       "url": "https://www.oreilly.com/radar/podcast/generative-ai-in-the-real-world-agentic-coding-with-chelsea-troy/",
@@ -158,40 +179,21 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 7,
-      "title": "sef-agents 4.3.7",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/sef-agents/4.3.7/",
-      "summary": "SEF Agents — AI-powered guidance for the Synchronous Engineering Framework. Built on Model Context Protocol (MCP).",
-      "published_date": "2026-07-18",
-      "relevance_score": 12,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "model context protocol",
-        "MCP"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 8,
-      "title": "sef-agents 4.3.6",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/sef-agents/4.3.6/",
-      "summary": "SEF Agents — AI-powered guidance for the Synchronous Engineering Framework. Built on Model Context Protocol (MCP).",
+      "title": "Alibaba Cloud launches Agent Native Cloud to scale enterprise AI agents",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/alibaba-cloud-launches-agent-native-cloud-to-scale-enterprise-ai-agents/",
+      "summary": "Alibaba Cloud launched Agent Native Cloud, introducing enterprise-grade capabilities including AgentTeams and Agentic Computer.\nThe post Alibaba Cloud launches Agent Native Cloud to scale enterprise AI agents appeared first on Crypto Briefing.",
       "published_date": "2026-07-18",
-      "relevance_score": 12,
+      "relevance_score": 11,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol",
-        "MCP"
+        "agentic",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
@@ -386,29 +388,10 @@
     },
     {
       "rank": 19,
-      "title": "arifos 1!2026.7.17",
+      "title": "hol-guard 2.0.1115",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/arifos/1!2026.7.17/",
-      "summary": "arifOS v1!2026.7.17 — Constitutional AI Governance Kernel. 8 kernel ABI capabilities → 6 public tools (arif_verb_noun, generated from arifosmcp/abi/capability_registry.json), dynamic F1-F13 enforcement via ConstitutionKernel + FloorEvaluator, VAULT999 immutab…",
-      "published_date": "2026-07-17",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 20,
-      "title": "clauderizer 1.11.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/clauderizer/1.11.0/",
-      "summary": "Drop-in, MCP-native working memory for AI agents: gameplans, phases, a dependency graph, and post-hoc cascade — over plain markdown.",
+      "url": "https://pypi.org/project/hol-guard/2.0.1115/",
+      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
       "published_date": "2026-07-18",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -418,6 +401,24 @@
       "institutional_signal": false,
       "matched_keywords": [
         "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 20,
+      "title": "Don't Want to Give AI Agents Your Logins? Here's How to Avoid It With 1Password for Claude",
+      "source": "PCMag.com",
+      "url": "https://uk.pcmag.com/ai/166216/giving-an-ai-agent-your-password-heres-how-1password-means-you-dont-have",
+      "summary": "With 1Password for Claude, the chatbot can complete browser tasks that require logins and one-time passcodes, without you handing over passwords to Anthropic's chatbot.\nAI agents are more capable than ever, but even if you're comfortable with one completing a…",
+      "published_date": "2026-07-18",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
         "ai agent"
       ],
       "sentiment": "neutral"
