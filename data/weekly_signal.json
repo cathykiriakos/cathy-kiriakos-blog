@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T14:22:06.074Z",
+  "generated_at": "2026-07-20T11:51:09.073Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,13 +7,13 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 9
+      "item_count": 12
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 12
+      "item_count": 7
     },
     {
       "id": "human_centric_design",
@@ -41,23 +41,20 @@
   "items": [
     {
       "rank": 1,
-      "title": "Show HN: LIA – a self-hosted multi-agent AI assistant (FastAPI and LangGraph)",
-      "source": "Github.com",
-      "url": "https://github.com/jgouviergmail/LIA-Assistant",
-      "summary": "Open-source multi-agent AI assistant powered by LangGraph, FastAPI &amp; Next.js — 16+ agents, Human-in-the-Loop, MCP integration, voice TTS, RAG, 500+ metrics, 6 languages. - jgouviergmail/LIA-Ass...",
-      "published_date": "2026-07-17",
-      "relevance_score": 21,
-      "primary_pillar": "applied_ai",
+      "title": "China launches global AI governance organization as Xi Jinping positions Beijing against US tech dominance",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/china-ai-governance-waico-xi-jinping/",
+      "summary": "Xi Jinping launches WAICO at the 2026 World AI Conference, challenging US tech dominance with open-source AI governance standards targeting the Global\nThe post China launches global AI governance organization as Xi Jinping positions Beijing against US tech do…",
+      "published_date": "2026-07-19",
+      "relevance_score": 18,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
-        "human_centric_design"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "multi-agent",
-        "RAG",
-        "human-in-the-loop"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
@@ -82,12 +79,12 @@
     },
     {
       "rank": 3,
-      "title": "Xi Jinping Calls For Inclusive Global AI Governance",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/33b73e697c058b5c",
-      "summary": "Chinese President Xi Jinping has called for a more inclusive global framework for artificial intelligence, arguing that no single country should dominate the development or governance of the technology. \nAccording to the report, speaking at the World Artifici…",
-      "published_date": "2026-07-17",
-      "relevance_score": 18,
+      "title": "Could Your AI Systems Already Be High-Risk Under the EU AI Act?",
+      "source": "Kdnuggets.com",
+      "url": "https://www.kdnuggets.com/2026/07/airia/could-your-ai-systems-already-be-high-risk-under-the-eu-ai-act",
+      "summary": "Access the on-demand webinar to understand what the latest guidance means for your AI governance program and what your organization should do next.",
+      "published_date": "2026-07-19",
+      "relevance_score": 16,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -95,33 +92,75 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai governance",
-        "governance"
+        "governance",
+        "eu ai act"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 4,
-      "title": "nablr 4.3.7",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/nablr/4.3.7/",
-      "summary": "nablr — AI-powered SDLC governance. 19 expert personas enforcing quality gates via Model Context Protocol (MCP).",
-      "published_date": "2026-07-18",
+      "title": "Kazakhstan President calls for human-centric AI, echoing India's vision",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/kazakhstan-president-calls-for-human-centric-ai-echoing-indias-vision/articleshow/132493281.cms",
+      "summary": "Kazakhstan's President Tokayev addressed the urgent call for fair global governance of artificial intelligence at a conference in Shanghai. He stressed the importance of offering equal development chances in the thriving AI sector for every nation. Promoting …",
+      "published_date": "2026-07-19",
       "relevance_score": 15,
-      "primary_pillar": "applied_ai",
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "applied_ai",
-        "governance_as_code"
+        "governance_as_code",
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol",
-        "MCP",
-        "governance"
+        "governance",
+        "human-centered"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 5,
+      "title": "isa-agent-sdk 0.3.59",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.3.59/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-07-19",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 6,
+      "title": "isa-agent-sdk 0.3.58",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.3.58/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-07-19",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 7,
       "title": "Global Times: Head-of-state diplomacy shines at WAIC, fostering ties and advancing global governance consensus",
       "source": "PRNewswire",
       "url": "https://www.prnewswire.com/news-releases/global-times-head-of-state-diplomacy-shines-at-waic-fostering-ties-and-advancing-global-governance-consensus-302828946.html",
@@ -140,27 +179,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
-      "title": "How Smartsheet built a remote MCP server on AWS",
-      "source": "Amazon.com",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-smartsheet-built-a-remote-mcp-server-on-aws/",
-      "summary": "In this post, we cover a high-level view of the Smartsheet remote MCP architecture, with a focus on the AWS infrastructure behind it. This includes security, governance, scaling and deployment, and the AI-specific optimizations Smartsheet built on AWS.",
-      "published_date": "2026-07-17",
-      "relevance_score": 13,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
+      "rank": 8,
       "title": "Generative AI in the Real World: Agentic Coding with Chelsea Troy",
       "source": "Oreilly.com",
       "url": "https://www.oreilly.com/radar/podcast/generative-ai-in-the-real-world-agentic-coding-with-chelsea-troy/",
@@ -179,61 +198,40 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 8,
-      "title": "Alibaba Cloud launches Agent Native Cloud to scale enterprise AI agents",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/alibaba-cloud-launches-agent-native-cloud-to-scale-enterprise-ai-agents/",
-      "summary": "Alibaba Cloud launched Agent Native Cloud, introducing enterprise-grade capabilities including AgentTeams and Agentic Computer.\nThe post Alibaba Cloud launches Agent Native Cloud to scale enterprise AI agents appeared first on Crypto Briefing.",
-      "published_date": "2026-07-18",
-      "relevance_score": 11,
+      "rank": 9,
+      "title": "sef-agents 4.3.11",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/sef-agents/4.3.11/",
+      "summary": "SEF Agents — AI-powered guidance for the Synchronous Engineering Framework. Built on Model Context Protocol (MCP).",
+      "published_date": "2026-07-19",
+      "relevance_score": 12,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "m8tes 2.6.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/m8tes/2.6.0/",
-      "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
-      "published_date": "2026-07-18",
-      "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "human-in-the-loop"
+        "model context protocol",
+        "MCP"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 10,
-      "title": "m8tes 2.5.1",
+      "title": "empirica-mcp 1.12.28",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/m8tes/2.5.1/",
-      "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
-      "published_date": "2026-07-17",
-      "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
+      "url": "https://pypi.org/project/empirica-mcp/1.12.28/",
+      "summary": "MCP server for Empirica — AI measurement and calibration tools via Model Context Protocol",
+      "published_date": "2026-07-19",
+      "relevance_score": 12,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "human-in-the-loop"
+        "model context protocol",
+        "MCP"
       ],
       "sentiment": "neutral"
     },
@@ -255,6 +253,25 @@
     },
     {
       "rank": 12,
+      "title": "eve-coreguard 0.2.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/eve-coreguard/0.2.1/",
+      "summary": "EVE CoreGuard SDK - AI Governance Enforcement in One API Call",
+      "published_date": "2026-07-19",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
       "title": "China makes its latest play to become dominant player in AI",
       "source": "The Irish Times",
       "url": "https://www.irishtimes.com/business/2026/07/18/china-makes-its-latest-play-to-become-dominant-player-in-ai/",
@@ -273,126 +290,107 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 13,
-      "title": "axonflow 9.0.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/axonflow/9.0.0/",
-      "summary": "AxonFlow Python SDK - Enterprise AI Governance in 3 Lines of Code",
-      "published_date": "2026-07-18",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 14,
-      "title": "aetherlab 0.5.2",
+      "title": "smart_terminal_mcp 0.1.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/aetherlab/0.5.2/",
-      "summary": "Official AetherLab Python SDK - AI guardrails, LLM safety, and content moderation via the AetherLab compliance API.",
-      "published_date": "2026-07-17",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "url": "https://pypi.org/project/smart-terminal-mcp/0.1.0/",
+      "summary": "An MCP server that adds local terminal automation capabilities to AI agents.",
+      "published_date": "2026-07-19",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail",
-        "compliance"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 15,
-      "title": "arifos 1!2026.7.17.post4",
+      "title": "smart_terminal_mcp added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/arifos/1!2026.7.17.post4/",
-      "summary": "mcp-name: io.github.ariffazil/arifos | .ariffazil/arifos | arifOS v1!2026.7.17.post4 — Constitutional AI Governance Kernel. 8 kernel ABI capabilities → 6 public tools (arif_verb_noun, generated from arifosmcp/abi/capability_registry.json), dynamic F1-F13 enfo…",
-      "published_date": "2026-07-17",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "url": "https://pypi.org/project/smart-terminal-mcp/",
+      "summary": "An MCP server that adds local terminal automation capabilities to AI agents.",
+      "published_date": "2026-07-19",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 16,
-      "title": "arifos 1!2026.7.17.post3",
+      "title": "memry 0.2.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/arifos/1!2026.7.17.post3/",
-      "summary": "mcp-name: io.github.ariffazil/arifos | arifOS v1!2026.7.17.post3 — Constitutional AI Governance Kernel. 8 kernel ABI capabilities → 6 public tools (arif_verb_noun, generated from arifosmcp/abi/capability_registry.json), dynamic F1-F13 enforcement via Constitu…",
-      "published_date": "2026-07-17",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "url": "https://pypi.org/project/memry/0.2.0/",
+      "summary": "The open, self-hostable memory layer for AI agents. MCP-native, local-first, research-grade.",
+      "published_date": "2026-07-19",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "aetherlab 0.5.1",
+      "title": "hol-guard 2.0.1123",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/aetherlab/0.5.1/",
-      "summary": "Official AetherLab Python SDK - AI guardrails, LLM safety, and content moderation via the AetherLab compliance API.",
-      "published_date": "2026-07-17",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "url": "https://pypi.org/project/hol-guard/2.0.1123/",
+      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+      "published_date": "2026-07-19",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail",
-        "compliance"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 18,
-      "title": "arifos 1!2026.7.17.post2",
+      "title": "clio-kit 2.5.19",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/arifos/1!2026.7.17.post2/",
-      "summary": "arifOS v1!2026.7.17.post2 — Constitutional AI Governance Kernel. 8 kernel ABI capabilities → 6 public tools (arif_verb_noun, generated from arifosmcp/abi/capability_registry.json), dynamic F1-F13 enforcement via ConstitutionKernel + FloorEvaluator, VAULT999 i…",
-      "published_date": "2026-07-17",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "url": "https://pypi.org/project/clio-kit/2.5.19/",
+      "summary": "CLIO Kit - MCP Servers, Clients, and Tools for AI Agents",
+      "published_date": "2026-07-19",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 19,
-      "title": "hol-guard 2.0.1115",
+      "title": "clio-kit 2.5.18",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/hol-guard/2.0.1115/",
-      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-      "published_date": "2026-07-18",
+      "url": "https://pypi.org/project/clio-kit/2.5.18/",
+      "summary": "CLIO Kit - MCP Servers, Clients, and Tools for AI Agents",
+      "published_date": "2026-07-19",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -407,19 +405,20 @@
     },
     {
       "rank": 20,
-      "title": "Don't Want to Give AI Agents Your Logins? Here's How to Avoid It With 1Password for Claude",
-      "source": "PCMag.com",
-      "url": "https://uk.pcmag.com/ai/166216/giving-an-ai-agent-your-password-heres-how-1password-means-you-dont-have",
-      "summary": "With 1Password for Claude, the chatbot can complete browser tasks that require logins and one-time passcodes, without you handing over passwords to Anthropic's chatbot.\nAI agents are more capable than ever, but even if you're comfortable with one completing a…",
+      "title": "agencydotai added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/agencydotai/",
+      "summary": "Asynchronous Event-Driven Multi-Agent AI Orchestration Framework",
       "published_date": "2026-07-18",
-      "relevance_score": 8,
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "orchestration",
+        "multi-agent"
       ],
       "sentiment": "neutral"
     }
