@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T11:14:17.684Z",
+  "generated_at": "2026-07-22T11:14:46.779Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 14
+      "item_count": 11
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 9
+      "item_count": 10
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 5
+      "item_count": 1
     }
   ],
   "institutional_signal": {
@@ -41,11 +41,11 @@
   "items": [
     {
       "rank": 1,
-      "title": "China's four major global initiatives inject balanced multilateral vision into fragmented global AI governance: UN resident coordinator in China",
-      "source": "GlobeNewswire",
-      "url": "https://www.globenewswire.com/news-release/2026/07/20/3329528/0/en/China-s-four-major-global-initiatives-inject-balanced-multilateral-vision-into-fragmented-global-AI-governance-UN-resident-coordinator-in-China.html",
-      "summary": "UN resident coordinator Stephen Jackson discusses how China's four global initiatives contribute to balanced AI governance and sustainable development....",
-      "published_date": "2026-07-20",
+      "title": "Symposium on Cyber, International Law and Artificial Intelligence in Armed Conflict: Piercing the Veil – Why Siloed AI Governance Is Untenable",
+      "source": "Opiniojuris.org",
+      "url": "http://opiniojuris.org/2026/07/21/symposium-on-international-law-and-artificial-intelligence-in-armed-conflict-piercing-the-veil-why-siloed-ai-governance-is-untenable/",
+      "summary": "[Jimena Sofía Viveros Álvarez is a senior international lawyer and peace and security expert, CEO of IQuilibriumAI, OECD and UNESCO AI Expert, and former Member of the UNSG HLAB and GC-REAIM Commissioner] Contemporary armed conflicts defy the boundaries that …",
+      "published_date": "2026-07-21",
       "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -60,11 +60,11 @@
     },
     {
       "rank": 2,
-      "title": "Africa: President Xi Jinping’s vision for inclusive AI governance",
-      "source": "The Punch",
-      "url": "https://punchng.com/africa-president-xi-jinpings-vision-for-inclusive-ai-governance/",
-      "summary": "Explore President Xi Jinping’s vision for inclusive AI governance in Africa, focusing on access, fairness, responsibility, innovation, cooperation, and adv\n\nRead More: https://punchng.com/africa-president-xi-jinpings-vision-for-inclusive-ai-governance/",
-      "published_date": "2026-07-20",
+      "title": "Financial institutions in India have unanswered questions about AI governance that need attention",
+      "source": "Livemint",
+      "url": "https://www.livemint.com/opinion/online-views/financial-institutions-ai-governance-banking-reserve-bank-of-india-rbi-artificial-intelligence-11784551392066.html",
+      "summary": "A feedback window for the Reserve Bank of India's draft guidance on risk management in the context of AI governance is about to close. It sets out a clear set of principles. But financial entities also need clarity on how exactly to uphold them.",
+      "published_date": "2026-07-21",
       "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -75,157 +75,31 @@
         "ai governance",
         "governance"
       ],
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
       "rank": 3,
-      "title": "regula-ai 1.7.7",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/regula-ai/1.7.7/",
-      "summary": "AI governance risk indication for code — EU AI Act, South Korea, Colorado. Multi-jurisdiction compliance at the point of creation",
-      "published_date": "2026-07-20",
-      "relevance_score": 16,
-      "primary_pillar": "governance_as_code",
+      "title": "Avalara Survey: Finance Leaders are Racing to Deploy AI Agents Before Governance is Ready",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/avalara-survey-finance-leaders-are-racing-to-deploy-ai-agents-before-governance-is-ready-302830382.html",
+      "summary": "Nine in 10 finance leaders say they are under pressure to prove AI ROI, while only 7% say their organizations prioritize governance over deployment speed DURHAM, N.C., July 21, 2026 /PRNewswire/ -- Avalara, Inc., the agentic AI leader in global tax and compli…",
+      "published_date": "2026-07-21",
+      "relevance_score": 17,
+      "primary_pillar": "applied_ai",
       "pillars": [
+        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance",
-        "compliance",
-        "eu ai act"
+        "agentic",
+        "ai agent",
+        "governance"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 4,
-      "title": "regula-ai 1.7.6",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/regula-ai/1.7.6/",
-      "summary": "AI governance risk indication for code — EU AI Act, South Korea, Colorado. Multi-jurisdiction compliance at the point of creation",
-      "published_date": "2026-07-20",
-      "relevance_score": 16,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance",
-        "compliance",
-        "eu ai act"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 5,
-      "title": "isa-agent-sdk 0.3.65",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.3.65/",
-      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
-      "published_date": "2026-07-20",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent",
-        "human-in-the-loop"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 6,
-      "title": "isa-agent-sdk 0.3.64",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.3.64/",
-      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
-      "published_date": "2026-07-20",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent",
-        "human-in-the-loop"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 7,
-      "title": "isa-agent-sdk 0.3.63",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.3.63/",
-      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
-      "published_date": "2026-07-20",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent",
-        "human-in-the-loop"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 8,
-      "title": "isa-agent-sdk 0.3.62",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.3.62/",
-      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
-      "published_date": "2026-07-20",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent",
-        "human-in-the-loop"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 9,
-      "title": "isa-agent-sdk 0.3.61",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.3.61/",
-      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
-      "published_date": "2026-07-20",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent",
-        "human-in-the-loop"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 10,
       "title": "Generative AI in the Real World: Agentic Coding with Chelsea Troy",
       "source": "Oreilly.com",
       "url": "https://www.oreilly.com/radar/podcast/generative-ai-in-the-real-world-agentic-coding-with-chelsea-troy/",
@@ -244,12 +118,31 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 11,
-      "title": "China’s Xi Jinping declares Beijing champion of new global AI order",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/china-xi-jinping-global-ai-order/",
-      "summary": "Xi Jinping proposes a 29-country AI governance body at WAIC, conspicuously excluding blockchain and crypto, deepening the US-China tech divide.\nThe post China’s Xi Jinping declares Beijing champion of new global AI order appeared first on Crypto Briefing.",
-      "published_date": "2026-07-20",
+      "rank": 5,
+      "title": "Weak AI Regulation Is Worse Than No Regulation, Researchers Claim",
+      "source": "Gizmodo.com",
+      "url": "https://gizmodo.com/weak-ai-regulation-is-worse-than-no-regulation-researchers-claim-2000787983",
+      "summary": "Game theory says the best AI safety regulation is strict and targets everyone in the supply chain, according to the paper.",
+      "published_date": "2026-07-21",
+      "relevance_score": 11,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai safety",
+        "ai regulation"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 6,
+      "title": "Perforce's Latest Survey Finds Confidence vs. Reality Gap with Data Protection",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/perforces-latest-survey-finds-confidence-vs-reality-gap-with-data-protection-302830124.html",
+      "summary": "98% of survey respondents are confident in their ability to protect sensitive data, but 34% have experienced breaches or theft. MINNEAPOLIS, July 21, 2026 /PRNewswire/ -- Perforce Software, the modern DevOps Tech Stack that ensures AI governance, today announ…",
+      "published_date": "2026-07-21",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -263,12 +156,31 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 12,
-      "title": "grp-mcp 0.66.0",
+      "rank": 7,
+      "title": "The Hidden Factors That Influence Software Valuation",
+      "source": "C-sharpcorner.com",
+      "url": "https://www.c-sharpcorner.com/article/the-hidden-factors-that-influence-software-valuation/",
+      "summary": "Uncover 15 hidden factors influencing software valuation beyond financials, from technical debt to AI governance. Elevate your understanding.",
+      "published_date": "2026-07-21",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "grp-mcp 0.68.3",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/grp-mcp/0.66.0/",
+      "url": "https://pypi.org/project/grp-mcp/0.68.3/",
       "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
-      "published_date": "2026-07-20",
+      "published_date": "2026-07-21",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -282,12 +194,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 13,
-      "title": "grp-mcp 0.65.0",
+      "rank": 9,
+      "title": "grp-mcp 0.68.2",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/grp-mcp/0.65.0/",
+      "url": "https://pypi.org/project/grp-mcp/0.68.2/",
       "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
-      "published_date": "2026-07-20",
+      "published_date": "2026-07-21",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -296,36 +208,93 @@
       "institutional_signal": false,
       "matched_keywords": [
         "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "grp-mcp 0.68.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/grp-mcp/0.68.0/",
+      "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
+      "published_date": "2026-07-21",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 11,
+      "title": "sanctum-engine 0.3.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/sanctum-engine/0.3.0/",
+      "summary": "A minimal, local-first orchestration engine for AI agents: cyclic state graphs executed by supersteps (Pregel/BSP).",
+      "published_date": "2026-07-21",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "orchestration",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 12,
+      "title": "Jitterbit iPaaS Wins 2026 CODiE Award for Best Integration Platform",
+      "source": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/07/21/3330264/0/en/Jitterbit-iPaaS-Wins-2026-CODiE-Award-for-Best-Integration-Platform.html",
+      "summary": "Tech industry accolade recognizes Jitterbit’s AI-infused platform for elite cross-system orchestration, deep compliance architecture & rapid time-to-value.",
+      "published_date": "2026-07-21",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "orchestration",
+        "compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "Your Mac mini needs these 8 upgrades to make a serious AI agent",
+      "source": "Macworld",
+      "url": "https://www.macworld.com/article/3188045/your-mac-mini-needs-these-8-upgrades-to-make-a-serious-ai-agent.html",
+      "summary": "Macworld\n\n\n\r\n\n\n\n\nThe Mac mini is Apple’s most versatile Mac, offering a lot of processing power in a box that can fit in the palm of your hand. It’s also Apple’s most affordable desktop Mac, which has made it popular among enthusiasts, especially AI fans. Eve…",
+      "published_date": "2026-07-21",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 14,
-      "title": "brainlayer 1.5.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/brainlayer/1.5.0/",
-      "summary": "Persistent memory MCP server for AI agents — 13 tools, semantic search, knowledge graph, on-device SQLite",
-      "published_date": "2026-07-20",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "Building AI-ready careers with Applied Gen AI and Agentic AI program from TalentSprint, part of Accenture",
-      "source": "The Times of India",
-      "url": "https://timesofindia.indiatimes.com/education/building-ai-ready-careers-with-applied-gen-ai-and-agentic-ai-program-from-talentsprint-part-of-accenture/articleshow/132512562.cms",
-      "summary": "Education News: The current AI transition is not a single technological change but a rapid progression through multiple stages. Businesses first adopted predictive AI.",
-      "published_date": "2026-07-20",
+      "title": "Agentic AI in the enterprise: Why architecture matters more than marketing claims",
+      "source": "TechRadar",
+      "url": "https://www.techradar.com/pro/agentic-ai-in-the-enterprise-why-architecture-matters-more-than-marketing-claims",
+      "summary": "Most \"AI-powered\" marketing tools are just rule engines in disguise. Here's how to tell the difference.",
+      "published_date": "2026-07-21",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -338,89 +307,29 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 16,
-      "title": "network-aiops 0.6.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/network-aiops/0.6.0/",
-      "summary": "Governed multi-vendor network device operations for AI agents (NAPALM) with a built-in governance harness (audit, budget, undo, risk tiers)",
-      "published_date": "2026-07-20",
+      "rank": 15,
+      "title": "“Grow a Spine”: All-In Podcast Pushes Back on AI Regulation and Calls PayPal’s $60 Takeover Offer Just an Opening Bid",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/ad73683e8cbe23a8",
+      "summary": "The post “Grow a Spine”: All-In Podcast Pushes Back on AI Regulation and Calls PayPal’s $60 Takeover Offer Just an Opening Bid appeared first on 24/7 Wall St..\nOn a recent episode of the All-In Podcast, co-host David Sacks discussed two issues facing tech inv…",
+      "published_date": "2026-07-21",
       "relevance_score": 8,
-      "primary_pillar": "applied_ai",
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "governance"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 17,
-      "title": "k8s-aiops 0.7.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/k8s-aiops/0.7.0/",
-      "summary": "Governed Kubernetes operations for AI agents with a built-in governance harness (audit, budget, undo, risk tiers)",
-      "published_date": "2026-07-20",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "governance"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 18,
-      "title": "Integrate Laravel Boost Tools into Any AI Agent for Specific Projects via CLI Skills",
-      "source": "Github.com",
-      "url": "https://github.com/vuthaihoc/laravel-boost-as-skills?utm_source=laravelnews&utm_medium=link&utm_campaign=laravelnews",
-      "summary": "Use laravel boost mcp as skills instead of mcp. Contribute to vuthaihoc/laravel-boost-as-skills development by creating an account on GitHub.",
-      "published_date": "2026-07-20",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 19,
-      "title": "Show HN: Hail.so – Open-source phone, SMS and email for agents and humans, v0.15",
-      "source": "Github.com",
-      "url": "https://github.com/hail-hq/hail/",
-      "summary": "Hello builders,I built Hail because I got tired of wiring together Twilio, email providers, compliance rules, and model providers every time I wanted an AI agent to communicate with users.Good to be back with this new release of Hail (previous post in comment…",
-      "published_date": "2026-07-20",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "compliance"
+        "ai regulation"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 20,
-      "title": "AI Transparency: Governance, Explainability, and Data Practices",
-      "source": "Databricks.com",
-      "url": "https://www.databricks.com/blog/ai-transparency",
-      "summary": "* AI transparency documents an AI system's data, model behavior, and decision-making processes, and is distinct from explainability and interpretability, which address narrower questions about individual predictions and internal model logic.\r\n* Regulatory pre…",
+      "rank": 16,
+      "title": "Trump administration's head of AI safety agency resigns after 3 months on job",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/20/trumps-head-of-ai-safety-agency-caisi-resigns-after-months-on-job.html",
+      "summary": "Arvind Raman, the director of National Institute of Standards and Technology, will serve as acting director of CAISI, according to a spokesperson",
       "published_date": "2026-07-20",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
@@ -429,7 +338,79 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "governance"
+        "ai safety"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "Presentation: Engineering AI for Creativity and Curiosity on Mobile",
+      "source": "InfoQ.com",
+      "url": "https://www.infoq.com/presentations/ai-mobile/",
+      "summary": "Bhavuk Jain discusses translating foundational AI into scalable mobile products. He shares the engineering challenges behind AI Wallpapers and Circle to Search, detailing how to implement robust runtime guardrails, fine-tuning, and seamless OS integration. Fo…",
+      "published_date": "2026-07-21",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 18,
+      "title": "Building AI Chat Applications with ASP.NET Core and Server-Sent Events",
+      "source": "C-sharpcorner.com",
+      "url": "https://www.c-sharpcorner.com/article/building-ai-chat-applications-with-asp-net-core-and-server-sent-events/",
+      "summary": "Build real-time AI chat apps with ASP.NET Core and Server-Sent Events (SSE). Stream AI responses for a faster, interactive user experience.",
+      "published_date": "2026-07-21",
+      "relevance_score": 6,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "user experience"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "auths 0.1.16",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/auths/0.1.16/",
+      "summary": "Auths Python SDK - decentralized identity for developers and AI agents",
+      "published_date": "2026-07-21",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 20,
+      "title": "hound-mcp 11.1.4",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/hound-mcp/11.1.4/",
+      "summary": "Web research for AI agents. Fetch any page with anti-bot bypass plus web search. $0 forever. No scrapling dependency: hound uses primp + patchright directly. Graceful degradation when browser deps are unavailable (HTTP-only mode on Termux/Android). Token-opti…",
+      "published_date": "2026-07-21",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
       ],
       "sentiment": "neutral"
     }
