@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T11:09:09.818Z",
+  "generated_at": "2026-07-25T10:39:33.719Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 17
+      "item_count": 14
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 4
+      "item_count": 2
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 0
+      "item_count": 4
     }
   ],
   "institutional_signal": {
@@ -41,12 +41,31 @@
   "items": [
     {
       "rank": 1,
+      "title": "Model Context Protocol (MCP) Explained for .NET Developers",
+      "source": "C-sharpcorner.com",
+      "url": "https://www.c-sharpcorner.com/article/model-context-protocol-mcp-explained-for-net-developers2/",
+      "summary": "Learn how Model Context Protocol (MCP) standardizes AI tool interaction for .NET developers, simplifying integrations with external systems.",
+      "published_date": "2026-07-24",
+      "relevance_score": 22,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 2,
       "title": "Worldwide NFT, Inc. Announces Sponsorship of UChicago Science Incubator",
       "source": "GlobeNewswire",
       "url": "https://www.globenewswire.com/news-release/2026/07/22/3331366/0/en/Worldwide-NFT-Inc-Announces-Sponsorship-of-UChicago-Science-Incubator.html",
       "summary": "Worldwide NFT, Inc. (OTC: WNFT) announces it finalized a sponsorship for the 2026-27 academic year of the University of Chicago’s Science Incubator....",
       "published_date": "2026-07-22",
-      "relevance_score": 18,
+      "relevance_score": 17,
       "primary_pillar": "institutional_signal",
       "pillars": [],
       "institutional_signal": true,
@@ -57,31 +76,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 2,
-      "title": "Article: Multi-Agent AI for Production Security Operations: An A2A and MCP Architecture in a 5G Core",
-      "source": "InfoQ.com",
-      "url": "https://www.infoq.com/articles/multi-agent-security-operations/",
-      "summary": "The bottleneck in a mature SOC is rarely analyst triage; rather, it is the detection-engineering team's ability to keep the rule base aligned with a threat landscape that evolves faster than rules can be written. Learn how multi-agent system for production se…",
-      "published_date": "2026-07-23",
-      "relevance_score": 16,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "multi-agent"
-      ],
-      "sentiment": "negative"
-    },
-    {
       "rank": 3,
-      "title": "huimei 0.6.39",
+      "title": "huimei 0.6.48",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/huimei/0.6.39/",
+      "url": "https://pypi.org/project/huimei/0.6.48/",
       "summary": "MCP Server & CLI for social media automation — let AI agents publish to TikTok, Instagram, YouTube, Douyin, XHS, Bilibili and 15+ platforms via Model Context Protocol",
-      "published_date": "2026-07-23",
+      "published_date": "2026-07-24",
       "relevance_score": 15,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -97,32 +97,32 @@
     },
     {
       "rank": 4,
-      "title": "OpenAI’s rogue hacking incident was a warning shot. Will it be a wake-up call to finally create AI safety regulation?",
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/07/22/openais-rogue-hacking-incident-was-a-warning-shot-will-it-be-a-wake-up-call-to-finally-create-ai-safety-regulation/",
-      "summary": "AI policy experts and safety researchers call the AI agents' attack on Hugging Face \"a wake up call.\"",
-      "published_date": "2026-07-22",
-      "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
+      "title": "isa-agent-sdk 0.3.69",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.3.69/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-07-24",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai",
-        "governance_as_code"
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
         "ai agent",
-        "ai safety",
-        "ai policy"
+        "human-in-the-loop"
       ],
-      "sentiment": "negative"
+      "sentiment": "positive"
     },
     {
       "rank": 5,
-      "title": "naas-abi 2.46.1",
+      "title": "pyveil 0.2.5",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/naas-abi/2.46.1/",
-      "summary": "Multi-agent orchestrator and knowledge graph management system for AI orchestration, providing comprehensive coordination of specialized AI agents and semantic data management capabilities",
-      "published_date": "2026-07-23",
+      "url": "https://pypi.org/project/pyveil/0.2.5/",
+      "summary": "Local PII and secret redaction for Python LLM apps, AI agents, tool calls, and MCP",
+      "published_date": "2026-07-24",
       "relevance_score": 12,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -130,77 +130,74 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "orchestration",
+        "MCP",
         "ai agent",
-        "multi-agent"
+        "llm application"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 6,
-      "title": "How CIOs can navigate federal, state AI regulation uncertainty",
-      "source": "Techtarget.com",
-      "url": "https://www.techtarget.com/searchcio/news/366646236/How-CIOs-can-navigate-federal-state-AI-regulation-uncertainty",
-      "summary": "AI laws are evolving across the EU, U.S. states and the U.S. federal government. An effective governance framework helps organizations meet requirements across all jurisdictions.",
-      "published_date": "2026-07-23",
-      "relevance_score": 11,
+      "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/5c92266bff5dc362",
+      "summary": "For months, AI giants have devised special vetted programs and strict guardrails to limit the use of their models by malicious hackers. But these limits are now hindering the work of legitimate network defenders, as well as that of offensive cybersecurity res…",
+      "published_date": "2026-07-24",
+      "relevance_score": 12,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "governance",
-        "ai regulation"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
-      "title": "eve-coreguard 0.2.5",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/eve-coreguard/0.2.5/",
-      "summary": "EVE CoreGuard SDK - AI Governance Enforcement in One API Call",
-      "published_date": "2026-07-23",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
-      "title": "OpenAI blamed a hacking event on its AI models gone rogue. Here is what to know",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/07/23/g-s1-135085/openai-hacking-ai-models",
-      "summary": "The incident is stirring debates over the need for stronger AI guardrails and the extent to which AI agents are capable of acting on their own.",
-      "published_date": "2026-07-23",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
         "guardrail"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 9,
-      "title": "agent-tool-store 2.1.11",
+      "rank": 7,
+      "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers | TechCrunch",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+      "summary": "We spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI’s and Anthropic’s guardrails affect their work.",
+      "published_date": "2026-07-24",
+      "relevance_score": 12,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "memry 0.2.14",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/agent-tool-store/2.1.11/",
-      "summary": "ToolStore v2 — MCP Client + Skills Manager + MCP Server. The universal tool platform for AI agents.",
-      "published_date": "2026-07-23",
+      "url": "https://pypi.org/project/memry/0.2.14/",
+      "summary": "The open, self-hostable memory layer for AI agents. MCP-native, local-first, research-grade.",
+      "published_date": "2026-07-24",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 9,
+      "title": "memry 0.2.13",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/memry/0.2.13/",
+      "summary": "The open, self-hostable memory layer for AI agents. MCP-native, local-first, research-grade.",
+      "published_date": "2026-07-24",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -215,48 +212,11 @@
     },
     {
       "rank": 10,
-      "title": "datahub-agent-context 1.6.0.9.post1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/datahub-agent-context/1.6.0.9.post1/",
-      "summary": "DataHub Agent Context - MCP Tools for AI Agents",
-      "published_date": "2026-07-23",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
-      "title": "POLL OF THE DAY: Are you worried about the potential of AI agents, after Hugging Face hack?",
-      "source": "Dailymail.com",
-      "url": "https://www.dailymail.com/news/article-15998899/Poll-OpenAI-worried-potential-AI-agents-Hugging-Face-hack.html",
-      "summary": "The maker of ChatGPT has admitted that a powerful version of its artificial intelligence program went rogue and hacked another technology firm.",
-      "published_date": "2026-07-23",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 12,
-      "title": "Invertis University becomes India’s fifth Google Agentic AI University",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/news/education/invertis-university-becomes-indias-fifth-google-agentic-ai-university/article71257431.ece",
-      "summary": "The initiative will bring AI-powered learning and research to over 10,000 students and staff, alongside a Centre of Excellence and industry-focused programmes in AI, cloud computing and cybersecurity",
-      "published_date": "2026-07-23",
+      "title": "Agentic Engineering Without the Admin Overhead: Why AgentFactory Wins on Setup",
+      "source": "C-sharpcorner.com",
+      "url": "https://www.c-sharpcorner.com/article/agentic-engineering-without-the-admin-overhead-why-agentfactory-wins-on-setup/",
+      "summary": "AgentFactory by Gate2ASI AI offers enterprise AI setup without technical overhead, using natural language and wizards for instant productivity.",
+      "published_date": "2026-07-24",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -269,11 +229,47 @@
       "sentiment": "neutral"
     },
     {
+      "rank": 11,
+      "title": "Building RAG Applications in C# with Semantic Kernel and Azure AI Search",
+      "source": "C-sharpcorner.com",
+      "url": "https://www.c-sharpcorner.com/article/building-rag-applications-in-c-sharp-with-semantic-kernel-and-azure-ai-search/",
+      "summary": "Build C# RAG apps with Semantic Kernel & Azure AI Search. Ground LLMs in your data for accurate, context-aware responses.",
+      "published_date": "2026-07-24",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "RAG"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 12,
+      "title": "HubSpot Debuts Agent Hub to Unify AI Agents",
+      "source": "CMSWire",
+      "url": "https://www.cmswire.com/customer-experience/hubspot-debuts-agent-hub-to-unify-ai-agents/",
+      "summary": "New public beta gives go-to-market teams a single console to build, monitor and coordinate AI agents across sales, marketing and service.\nContinue reading...",
+      "published_date": "2026-07-23",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
       "rank": 13,
-      "title": "The foundation agentic AI can’t function without",
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/pro/the-foundation-agentic-ai-cant-function-without",
-      "summary": "Enterprises can no longer afford to treat the middleware layer as an afterthought.",
+      "title": "The Rise of Agentic SRE: Humans, Agents, and Reliability",
+      "source": "Dzone.com",
+      "url": "https://dzone.com/articles/rise-of-agentic-sre",
+      "summary": "Site reliability engineering has always been about reducing toil, improving resilience and helping teams respond to incidents with speed and confidence. Agentic SRE takes this idea further, allowing AI systems to observe, reason, and act within operational wo…",
       "published_date": "2026-07-23",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
@@ -288,65 +284,65 @@
     },
     {
       "rank": 14,
-      "title": "deepanalysts 0.7.5",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/deepanalysts/0.7.5/",
-      "summary": "LangChain/LangGraph middleware for building AI agents with memory, skills, and filesystem support",
-      "published_date": "2026-07-23",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
+      "title": "OpenAI Launches ChatGPT Health Feature for All US Adults, Adding Apple Health and Medical Records Access",
+      "source": "Ibtimes.com.au",
+      "url": "https://www.ibtimes.com.au/openai-health-feature-chatgpt-personalised-insights-1872838",
+      "summary": "OpenAI's new Health in ChatGPT feature allows U.S. users to securely connect Apple Health data and medical records for personalised health insights, enhancing user experience with context-aware health information.",
+      "published_date": "2026-07-24",
+      "relevance_score": 6,
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "applied_ai"
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "user experience"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 15,
-      "title": "agentnet-cli 0.4.0",
+      "title": "aicamel added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/agentnet-cli/0.4.0/",
-      "summary": "Detect AI agents and connect them to the Agent-net marketplace",
+      "url": "https://pypi.org/project/aicamel/",
+      "summary": "AI-driven UI/UX automation & testing. Drives any software through its real UI (web, desktop, or pixels) — no target-app API required.",
       "published_date": "2026-07-23",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
+      "relevance_score": 6,
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "applied_ai"
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "UX"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 16,
-      "title": "capforge 0.6.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/capforge/0.6.1/",
-      "summary": "Policy-as-Code SDK for AI agents with signed capability manifests and runtime authorization.",
+      "title": "AT&T Cozing Up To AI Has Made Its Customer Service Outrageously Poor; Company’s Andi Chatbot Refuses To Hand Over Reins To A Human, Beginning A “Death Loop”",
+      "source": "Wccftech",
+      "url": "https://wccftech.com/att-andi-ai-chatbot-death-loop-conversation-with-customer/",
+      "summary": "The acceleration of AI to help improve efficiency and upgrade the user experience might have been the original intention of U.S. carriers like AT&T, but the end result isn’t what subscribers were hoping to see. One customer hoping to talk to a human being to …",
       "published_date": "2026-07-23",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
+      "relevance_score": 6,
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "applied_ai"
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "user experience"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "shadersight 0.6.1",
+      "title": "everos 1.2.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/shadersight/0.6.1/",
-      "summary": "Shader review built exclusively for AI agents: a material or node graph in, exact physics + cost + preview out.",
-      "published_date": "2026-07-23",
+      "url": "https://pypi.org/project/everos/1.2.0/",
+      "summary": "EverOS — local-first markdown memory framework for AI agents and user chats; lightweight, dev-friendly, small-team",
+      "published_date": "2026-07-24",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -360,11 +356,11 @@
     },
     {
       "rank": 18,
-      "title": "shadersight added to PyPI",
+      "title": "experia 0.2.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/shadersight/",
-      "summary": "Shader review built exclusively for AI agents: a material or node graph in, exact physics + cost + preview out.",
-      "published_date": "2026-07-23",
+      "url": "https://pypi.org/project/experia/0.2.1/",
+      "summary": "The open-source experience learning layer for AI agents.",
+      "published_date": "2026-07-24",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -378,11 +374,11 @@
     },
     {
       "rank": 19,
-      "title": "pcbsight 0.5.1",
+      "title": "experia added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/pcbsight/0.5.1/",
-      "summary": "PCB review built exclusively for AI agents: a .kicad_pcb in, exact connectivity/clearance/current findings out.",
-      "published_date": "2026-07-23",
+      "url": "https://pypi.org/project/experia/",
+      "summary": "The open-source experience learning layer for AI agents.",
+      "published_date": "2026-07-24",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -396,11 +392,11 @@
     },
     {
       "rank": 20,
-      "title": "pcbsight added to PyPI",
+      "title": "alice-memory 0.14.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/pcbsight/",
-      "summary": "PCB review built exclusively for AI agents: a .kicad_pcb in, exact connectivity/clearance/current findings out.",
-      "published_date": "2026-07-23",
+      "url": "https://pypi.org/project/alice-memory/0.14.0/",
+      "summary": "Alice: the continuity layer for AI agents. Local-first memory with provenance, open loops, resumption, and review-governed writes.",
+      "published_date": "2026-07-24",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
