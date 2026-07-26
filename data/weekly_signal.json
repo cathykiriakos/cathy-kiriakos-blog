@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T10:39:33.719Z",
+  "generated_at": "2026-07-26T10:49:30.178Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,13 +7,13 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 14
+      "item_count": 13
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 2
+      "item_count": 4
     },
     {
       "id": "human_centric_design",
@@ -41,11 +41,11 @@
   "items": [
     {
       "rank": 1,
-      "title": "Model Context Protocol (MCP) Explained for .NET Developers",
-      "source": "C-sharpcorner.com",
-      "url": "https://www.c-sharpcorner.com/article/model-context-protocol-mcp-explained-for-net-developers2/",
-      "summary": "Learn how Model Context Protocol (MCP) standardizes AI tool interaction for .NET developers, simplifying integrations with external systems.",
-      "published_date": "2026-07-24",
+      "title": "AI Root Cause Analysis Shifts from Model Reasoning to Context Engineering",
+      "source": "InfoQ.com",
+      "url": "https://www.infoq.com/news/2026/07/ai-rca-context-engineering/",
+      "summary": "Engineers are increasingly arguing that modern LLMs can already reason through root cause analysis once given correctly prepared context, shifting the hard problem to the pipelines that correlate telemetry. A Coroot experiment across eleven models offers earl…",
+      "published_date": "2026-07-25",
       "relevance_score": 22,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -53,10 +53,10 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol",
-        "MCP"
+        "context engine",
+        "context engineering"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 2,
@@ -77,31 +77,11 @@
     },
     {
       "rank": 3,
-      "title": "huimei 0.6.48",
+      "title": "isa-agent-sdk 0.3.71",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/huimei/0.6.48/",
-      "summary": "MCP Server & CLI for social media automation — let AI agents publish to TikTok, Instagram, YouTube, Douyin, XHS, Bilibili and 15+ platforms via Model Context Protocol",
-      "published_date": "2026-07-24",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "model context protocol",
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 4,
-      "title": "isa-agent-sdk 0.3.69",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.3.69/",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.3.71/",
       "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
-      "published_date": "2026-07-24",
+      "published_date": "2026-07-25",
       "relevance_score": 15,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -117,68 +97,89 @@
       "sentiment": "positive"
     },
     {
+      "rank": 4,
+      "title": "Its AI agent spent days hacking a company, but sources say OpenAI did not notice for a week",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/info-tech/its-ai-agent-spent-days-hacking-a-company-but-sources-say-openai-did-not-notice-for-a-week/article71265782.ece",
+      "summary": "As OpenAI faces backlash from its AI agent’s breach of Hugging Face, experts warn about the implications for AI safety and risks of more autonomous systems",
+      "published_date": "2026-07-25",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "ai safety"
+      ],
+      "sentiment": "negative"
+    },
+    {
       "rank": 5,
-      "title": "pyveil 0.2.5",
+      "title": "openagentd 1.120.4",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/pyveil/0.2.5/",
-      "summary": "Local PII and secret redaction for Python LLM apps, AI agents, tool calls, and MCP",
-      "published_date": "2026-07-24",
-      "relevance_score": 12,
+      "url": "https://pypi.org/project/openagentd/1.120.4/",
+      "summary": "Self-hosted AI agents — streaming chat, tool use, persistent memory, multi-agent teams",
+      "published_date": "2026-07-25",
+      "relevance_score": 10,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
         "ai agent",
-        "llm application"
+        "multi-agent",
+        "tool use"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 6,
-      "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/5c92266bff5dc362",
-      "summary": "For months, AI giants have devised special vetted programs and strict guardrails to limit the use of their models by malicious hackers. But these limits are now hindering the work of legitimate network defenders, as well as that of offensive cybersecurity res…",
+      "title": "coalex 1.13.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/coalex/1.13.0/",
+      "summary": "Coalex Python SDK for AI governance observability",
       "published_date": "2026-07-24",
-      "relevance_score": 12,
+      "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 7,
-      "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers | TechCrunch",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
-      "summary": "We spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI’s and Anthropic’s guardrails affect their work.",
+      "title": "UX-Context Design: Using UX Knowledge to Inform AI-Generated Design",
+      "source": "Nngroup.com",
+      "url": "https://www.nngroup.com/articles/ux-context-design/",
+      "summary": "As more interface work is AI-generated, the output of research and design shifts from documents written for humans to curated context that guides AI.",
       "published_date": "2026-07-24",
-      "relevance_score": 12,
-      "primary_pillar": "governance_as_code",
+      "relevance_score": 10,
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "governance_as_code"
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "UX"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 8,
-      "title": "memry 0.2.14",
+      "title": "rtfm-ai 0.25.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/memry/0.2.14/",
-      "summary": "The open, self-hostable memory layer for AI agents. MCP-native, local-first, research-grade.",
-      "published_date": "2026-07-24",
+      "url": "https://pypi.org/project/rtfm-ai/0.25.0/",
+      "summary": "RTFM — The open retrieval layer for AI agents. Indexes code, docs, legal, research, data. Extensible parser system. Serves surgical context via MCP.",
+      "published_date": "2026-07-25",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -193,66 +194,29 @@
     },
     {
       "rank": 9,
-      "title": "memry 0.2.13",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/memry/0.2.13/",
-      "summary": "The open, self-hostable memory layer for AI agents. MCP-native, local-first, research-grade.",
-      "published_date": "2026-07-24",
-      "relevance_score": 9,
+      "title": "Show HN: AgentState – Open-source resilience and caching proxy for AI agents",
+      "source": "Github.com",
+      "url": "https://github.com/aleenz1102/AgentState",
+      "summary": "Article URL: https://github.com/aleenz1102/AgentState\nComments URL: https://news.ycombinator.com/item?id=49046038\nPoints: 1\n# Comments: 0",
+      "published_date": "2026-07-25",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 10,
-      "title": "Agentic Engineering Without the Admin Overhead: Why AgentFactory Wins on Setup",
-      "source": "C-sharpcorner.com",
-      "url": "https://www.c-sharpcorner.com/article/agentic-engineering-without-the-admin-overhead-why-agentfactory-wins-on-setup/",
-      "summary": "AgentFactory by Gate2ASI AI offers enterprise AI setup without technical overhead, using natural language and wizards for instant productivity.",
-      "published_date": "2026-07-24",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
-      "title": "Building RAG Applications in C# with Semantic Kernel and Azure AI Search",
-      "source": "C-sharpcorner.com",
-      "url": "https://www.c-sharpcorner.com/article/building-rag-applications-in-c-sharp-with-semantic-kernel-and-azure-ai-search/",
-      "summary": "Build C# RAG apps with Semantic Kernel & Azure AI Search. Ground LLMs in your data for accurate, context-aware responses.",
-      "published_date": "2026-07-24",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "RAG"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "HubSpot Debuts Agent Hub to Unify AI Agents",
-      "source": "CMSWire",
-      "url": "https://www.cmswire.com/customer-experience/hubspot-debuts-agent-hub-to-unify-ai-agents/",
-      "summary": "New public beta gives go-to-market teams a single console to build, monitor and coordinate AI agents across sales, marketing and service.\nContinue reading...",
-      "published_date": "2026-07-23",
+      "title": "From Marketing Playbook To Cyber Weapon: How Claude AI Agents Are Redefining Offensive Security And IT Automation + Video",
+      "source": "Undercodetesting.com",
+      "url": "https://undercodetesting.com/from-marketing-playbook-to-cyber-weapon-how-claude-ai-agents-are-redefining-offensive-security-and-it-automation-video/",
+      "summary": "From Marketing Playbook to Cyber Weapon: How Claude AI Agents Are Redefining Offensive Security and IT Automation + Video - \"Undercode Testing\": Monitor",
+      "published_date": "2026-07-25",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -265,12 +229,48 @@
       "sentiment": "neutral"
     },
     {
+      "rank": 11,
+      "title": "Google signs EU AI Act code of practice on transparency, joining Microsoft and OpenAI",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/google-eu-ai-act-transparency-code/",
+      "summary": "Google joins the EU AI Act's GPAI Code of Practice alongside OpenAI, Microsoft, and Amazon, with transparency obligations taking effect August 2,\nThe post Google signs EU AI Act code of practice on transparency, joining Microsoft and OpenAI appeared first on …",
+      "published_date": "2026-07-24",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "eu ai act"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 12,
+      "title": "Show HN: AI codebase analyser and auto-fixer",
+      "source": "Getdebug.dev",
+      "url": "https://www.getdebug.dev/blog/python-ai-app-prefilters",
+      "summary": "The difference is the mindset shift of \"human-in-the-loop\" approach to debugging. I believe security is so critical that AI should never execute every action end to end.\n\nComments URL: https://news.ycombinator.com/item?id=49045992\nPoints: 1\n# Comments: 0",
+      "published_date": "2026-07-25",
+      "relevance_score": 8,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
       "rank": 13,
-      "title": "The Rise of Agentic SRE: Humans, Agents, and Reliability",
-      "source": "Dzone.com",
-      "url": "https://dzone.com/articles/rise-of-agentic-sre",
-      "summary": "Site reliability engineering has always been about reducing toil, improving resilience and helping teams respond to incidents with speed and confidence. Agentic SRE takes this idea further, allowing AI systems to observe, reason, and act within operational wo…",
-      "published_date": "2026-07-23",
+      "title": "Mediagenix will introduce new agentic AI solution at IBC 2026",
+      "source": "Provideocoalition.com",
+      "url": "https://www.provideocoalition.com/mediagenix-will-introduce-new-agentic-ai-solution-at-ibc-2026/",
+      "summary": "Mediagenix will be exhibiting in Hall 1 at IBC this September, and its trusted agentic AI operating model for the real-time media enterprise will be one of the highlights during the show.  A global leader in smart content solutions to profitably connect the r…",
+      "published_date": "2026-07-24",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -284,29 +284,29 @@
     },
     {
       "rank": 14,
-      "title": "OpenAI Launches ChatGPT Health Feature for All US Adults, Adding Apple Health and Medical Records Access",
-      "source": "Ibtimes.com.au",
-      "url": "https://www.ibtimes.com.au/openai-health-feature-chatgpt-personalised-insights-1872838",
-      "summary": "OpenAI's new Health in ChatGPT feature allows U.S. users to securely connect Apple Health data and medical records for personalised health insights, enhancing user experience with context-aware health information.",
+      "title": "Is OpenAI's New Presence Agent Ready to Replace Your Contact Center?",
+      "source": "CMSWire",
+      "url": "https://www.cmswire.com/customer-experience/is-openais-new-presence-agent-ready-to-replace-your-contact-center/",
+      "summary": "Presence pairs OpenAI models with policies and guardrails for customer service. Is it a CCaaS platform, or something else?\nContinue reading...",
       "published_date": "2026-07-24",
-      "relevance_score": 6,
-      "primary_pillar": "human_centric_design",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "human_centric_design"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "user experience"
+        "guardrail"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 15,
-      "title": "aicamel added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/aicamel/",
-      "summary": "AI-driven UI/UX automation & testing. Drives any software through its real UI (web, desktop, or pixels) — no target-app API required.",
-      "published_date": "2026-07-23",
+      "title": "As ADA Anniversary Approaches, University of Phoenix Survey Highlights AI's Potential to Advance Accessibility in Work and Learning",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/as-ada-anniversary-approaches-university-of-phoenix-survey-highlights-ais-potential-to-advance-accessibility-in-work-and-learning-302834448.html",
+      "summary": "Survey conducted by The Harris Poll on behalf of University of Phoenix finds among those already using AI in the workplace, 60% say AI has improved their knowledge of and ability to use accessibility standards and guidelines. PHOENIX, July 24, 2026 /PRNewswir…",
+      "published_date": "2026-07-24",
       "relevance_score": 6,
       "primary_pillar": "human_centric_design",
       "pillars": [
@@ -314,35 +314,35 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "UX"
+        "accessibility"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 16,
-      "title": "AT&T Cozing Up To AI Has Made Its Customer Service Outrageously Poor; Company’s Andi Chatbot Refuses To Hand Over Reins To A Human, Beginning A “Death Loop”",
-      "source": "Wccftech",
-      "url": "https://wccftech.com/att-andi-ai-chatbot-death-loop-conversation-with-customer/",
-      "summary": "The acceleration of AI to help improve efficiency and upgrade the user experience might have been the original intention of U.S. carriers like AT&T, but the end result isn’t what subscribers were hoping to see. One customer hoping to talk to a human being to …",
-      "published_date": "2026-07-23",
-      "relevance_score": 6,
-      "primary_pillar": "human_centric_design",
+      "title": "sonagram 0.2.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/sonagram/0.2.1/",
+      "summary": "Map a music library's analysis into a kglite knowledge graph for AI agents",
+      "published_date": "2026-07-25",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "user experience"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "everos 1.2.0",
+      "title": "motley-slayer 0.9.12",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/everos/1.2.0/",
-      "summary": "EverOS — local-first markdown memory framework for AI agents and user chats; lightweight, dev-friendly, small-team",
-      "published_date": "2026-07-24",
+      "url": "https://pypi.org/project/motley-slayer/0.9.12/",
+      "summary": "A lightweight, agent-first semantic layer for AI agents",
+      "published_date": "2026-07-25",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -356,11 +356,11 @@
     },
     {
       "rank": 18,
-      "title": "experia 0.2.1",
+      "title": "markov-protocols added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/experia/0.2.1/",
-      "summary": "The open-source experience learning layer for AI agents.",
-      "published_date": "2026-07-24",
+      "url": "https://pypi.org/project/markov-protocols/",
+      "summary": "A deterministic finite state machine for modeling workflows that guide AI agents.",
+      "published_date": "2026-07-25",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -374,11 +374,11 @@
     },
     {
       "rank": 19,
-      "title": "experia added to PyPI",
+      "title": "ya-agent-sdk 1.16.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/experia/",
-      "summary": "The open-source experience learning layer for AI agents.",
-      "published_date": "2026-07-24",
+      "url": "https://pypi.org/project/ya-agent-sdk/1.16.1/",
+      "summary": "Application framework for building AI agents with Pydantic AI - environment abstractions, session management, and hierarchical agent patterns",
+      "published_date": "2026-07-25",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -392,11 +392,11 @@
     },
     {
       "rank": 20,
-      "title": "alice-memory 0.14.0",
+      "title": "saka-nlp 0.3.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/alice-memory/0.14.0/",
-      "summary": "Alice: the continuity layer for AI agents. Local-first memory with provenance, open loops, resumption, and review-governed writes.",
-      "published_date": "2026-07-24",
+      "url": "https://pypi.org/project/saka-nlp/0.3.0/",
+      "summary": "Saka-NLP: Indonesian Language Processing with Prompting and Agentic AI Support",
+      "published_date": "2026-07-25",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -404,7 +404,7 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "agentic"
       ],
       "sentiment": "neutral"
     }
