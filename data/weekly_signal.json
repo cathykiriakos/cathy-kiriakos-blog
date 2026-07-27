@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T14:26:36.226Z",
+  "generated_at": "2026-07-27T12:30:13.510Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 13
+      "item_count": 14
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 3
+      "item_count": 5
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 5
+      "item_count": 1
     }
   ],
   "institutional_signal": {
@@ -58,6 +58,166 @@
     },
     {
       "rank": 2,
+      "title": "chess-mcp-server 0.1.13rc9",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/chess-mcp-server/0.1.13rc9/",
+      "summary": "A Model Context Protocol (MCP) server for playing Chess with AI Agents.",
+      "published_date": "2026-07-26",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 3,
+      "title": "chess-mcp-server 0.1.13rc8",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/chess-mcp-server/0.1.13rc8/",
+      "summary": "A Model Context Protocol (MCP) server for playing Chess with AI Agents.",
+      "published_date": "2026-07-26",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 4,
+      "title": "chess-mcp-server 0.1.13rc7",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/chess-mcp-server/0.1.13rc7/",
+      "summary": "A Model Context Protocol (MCP) server for playing Chess with AI Agents.",
+      "published_date": "2026-07-26",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 5,
+      "title": "chess-mcp-server 0.1.13rc6",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/chess-mcp-server/0.1.13rc6/",
+      "summary": "A Model Context Protocol (MCP) server for playing Chess with AI Agents.",
+      "published_date": "2026-07-26",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 6,
+      "title": "chess-mcp-server 0.1.13rc4",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/chess-mcp-server/0.1.13rc4/",
+      "summary": "A Model Context Protocol (MCP) server for playing Chess with AI Agents.",
+      "published_date": "2026-07-26",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 7,
+      "title": "chess-mcp-server 0.1.13rc3",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/chess-mcp-server/0.1.13rc3/",
+      "summary": "A Model Context Protocol (MCP) server for playing Chess with AI Agents.",
+      "published_date": "2026-07-26",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "chess-mcp-server 0.1.13rc2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/chess-mcp-server/0.1.13rc2/",
+      "summary": "A Model Context Protocol (MCP) server for playing Chess with AI Agents.",
+      "published_date": "2026-07-26",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 9,
+      "title": "chess-mcp-server 0.1.13rc1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/chess-mcp-server/0.1.13rc1/",
+      "summary": "A Model Context Protocol (MCP) server for playing Chess with AI Agents.",
+      "published_date": "2026-07-26",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
       "title": "isa-agent-sdk 0.3.72",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/isa-agent-sdk/0.3.72/",
@@ -78,33 +238,69 @@
       "sentiment": "positive"
     },
     {
-      "rank": 3,
-      "title": "isa-agent-sdk 0.3.71",
+      "rank": 11,
+      "title": "nextcloud-mcp-server 0.151.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.3.71/",
-      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
-      "published_date": "2026-07-25",
-      "relevance_score": 15,
+      "url": "https://pypi.org/project/nextcloud-mcp-server/0.151.0/",
+      "summary": "Model Context Protocol (MCP) server for Nextcloud integration - enables AI assistants to interact with Nextcloud data",
+      "published_date": "2026-07-26",
+      "relevance_score": 12,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent",
-        "human-in-the-loop"
+        "model context protocol",
+        "MCP"
       ],
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
-      "rank": 4,
-      "title": "coalex 1.13.0",
+      "rank": 12,
+      "title": "Salesforce vs. ServiceNow: Which Agentic AI Stock Is Actually the Better Buy Right Now?",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/48e86d01f3d2bdee",
+      "summary": "Artificial intelligence (AI) is revolutionizing the software industry. AI is making it easier to develop software, while AI agents, digital workers that can autonomously perform tasks, might be the future for enterprises. It creates an uncertain future, but o…",
+      "published_date": "2026-07-26",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "agentic-ledger 0.3.0a2",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/coalex/1.13.0/",
-      "summary": "Coalex Python SDK for AI governance observability",
-      "published_date": "2026-07-24",
+      "url": "https://pypi.org/project/agentic-ledger/0.3.0a2/",
+      "summary": "Runtime observability for AI agents — see exactly what your agent did, why it did it, and what it cost.",
+      "published_date": "2026-07-26",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "Manufacturing’s next AI phase is about integration, accountability and quality",
+      "source": "Digital Journal",
+      "url": "https://www.digitaljournal.com/article/manufacturings-next-ai-phase-is-about-integration-accountability-and-quality/",
+      "summary": "Canada’s shift toward an incremental AI governance model places greater responsibility on manufacturers to embed accountability and decision‑governance into their systems now, rather than waiting for detailed regulations to emerge. At the same time, AI‑driven…",
+      "published_date": "2026-07-25",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -118,200 +314,87 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 5,
-      "title": "UX-Context Design: Using UX Knowledge to Inform AI-Generated Design",
-      "source": "Nngroup.com",
-      "url": "https://www.nngroup.com/articles/ux-context-design/",
-      "summary": "As more interface work is AI-generated, the output of research and design shifts from documents written for humans to curated context that guides AI.",
-      "published_date": "2026-07-24",
-      "relevance_score": 10,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "UX"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 6,
-      "title": "x-use-mcp 2.3.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/x-use-mcp/2.3.1/",
-      "summary": "Browser-native AI agents for X (Twitter): multi-account, MCP-ready, no API keys required.",
-      "published_date": "2026-07-25",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
-      "title": "agent-memory-os 1.8.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/agent-memory-os/1.8.0/",
-      "summary": "Local-first, MCP-native memory engine for AI agents with RAM cache and context-budgeted recall.",
-      "published_date": "2026-07-25",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
-      "title": "inspeximus 1.56.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/inspeximus/1.56.0/",
-      "summary": "The self-correcting memory layer for AI agents: when a fact is corrected, Inspeximus serves the new value and resists the old one resurfacing. Zero-dependency single file + MCP server — value-ranked recall, per-type decay, consolidation, revert, and tamper-ev…",
-      "published_date": "2026-07-25",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "mnemoai-assistant 1.7.2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/mnemoai-assistant/1.7.2/",
-      "summary": "Mnemo AI — a local agentic AI assistant (LangGraph + MCP) that learns and remembers, with multi-provider model support.",
-      "published_date": "2026-07-25",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 10,
-      "title": "slideforge-mcp 5.5.2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/slideforge-mcp/5.5.2/",
-      "summary": "Local stdio MCP server for SlideForge — the deterministic PowerPoint compiler for AI agents. Thin REST client over api.slideforge.dev.",
-      "published_date": "2026-07-25",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
-      "title": "inspeximus 1.55.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/inspeximus/1.55.0/",
-      "summary": "The self-correcting memory layer for AI agents: when a fact is corrected, Inspeximus serves the new value and resists the old one resurfacing. Zero-dependency single file + MCP server — value-ranked recall, per-type decay, consolidation, revert, and tamper-ev…",
-      "published_date": "2026-07-25",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "hol-guard 2.1.23",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/hol-guard/2.1.23/",
-      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-      "published_date": "2026-07-25",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 13,
-      "title": "mcp-tollbooth 0.3.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/mcp-tollbooth/0.3.0/",
-      "summary": "A security gateway for AI agents: a transparent MCP proxy that enforces policy, DLP, and audit on every tool call and result.",
-      "published_date": "2026-07-25",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "KDnuggets Weekly Roundup: Week of July 20, 2026",
-      "source": "Kdnuggets.com",
-      "url": "https://www.kdnuggets.com/kdnuggets-weekly-roundup-2026-07-20",
-      "summary": "Top 5 MCP Servers for High Performance Agentic Development • 10 Newsletters Keeping You Ahead in AI • Kaggle + Google’s Free 5-Day Agentic AI Course • Language Model Hallucination Evaluation with GraphEval",
-      "published_date": "2026-07-25",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 15,
-      "title": "Karnataka partners with Anthropic to explore AI for governance, shifting from e-government to i-government",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/karnataka-anthropic-ai-governance-partnership/",
-      "summary": "Karnataka state is in exploratory talks with Anthropic to bring Claude AI into governance, education, and public services as part of an\nThe post Karnataka partners with Anthropic to explore AI for governance, shifting from e-government to i-government appeare…",
+      "title": "ashmatics-aigov-tools 0.7.7",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/ashmatics-aigov-tools/0.7.7/",
+      "summary": "Ashmatics Clinical AI Governance Framework - Content management, validation, and compilation",
+      "published_date": "2026-07-25",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "ashmatics-aigov-tools 0.7.5",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/ashmatics-aigov-tools/0.7.5/",
+      "summary": "Ashmatics Clinical AI Governance Framework - Content management, validation, and compilation",
+      "published_date": "2026-07-25",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "grp-mcp 0.73.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/grp-mcp/0.73.0/",
+      "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
+      "published_date": "2026-07-26",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "inspeximus 1.68.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/inspeximus/1.68.0/",
+      "summary": "The self-correcting memory layer for AI agents: when a fact is corrected, Inspeximus serves the new value and resists the old one resurfacing. Zero-dependency single file + MCP server — value-ranked recall, per-type decay, consolidation, revert, and tamper-ev…",
+      "published_date": "2026-07-26",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "aegis-ai-governance 0.9.0b1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/aegis-ai-governance/0.9.0b1/",
+      "summary": "Deterministic, fail-closed governance enforcement for AI model invocations.",
       "published_date": "2026-07-25",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
@@ -322,97 +405,25 @@
       "matched_keywords": [
         "governance"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "rank": 16,
-      "title": "Show HN: AgentState – Open-source resilience and caching proxy for AI agents",
-      "source": "Github.com",
-      "url": "https://github.com/aleenz1102/AgentState",
-      "summary": "Article URL: https://github.com/aleenz1102/AgentState\nComments URL: https://news.ycombinator.com/item?id=49046038\nPoints: 1\n# Comments: 0",
+      "rank": 20,
+      "title": "aegis-ai-governance added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/aegis-ai-governance/",
+      "summary": "Deterministic, fail-closed governance enforcement for AI model invocations.",
       "published_date": "2026-07-25",
       "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "Show HN: AI codebase analyser and auto-fixer",
-      "source": "Getdebug.dev",
-      "url": "https://www.getdebug.dev/blog/python-ai-app-prefilters",
-      "summary": "The difference is the mindset shift of \"human-in-the-loop\" approach to debugging. I believe security is so critical that AI should never execute every action end to end.\n\nComments URL: https://news.ycombinator.com/item?id=49045992\nPoints: 1\n# Comments: 0",
-      "published_date": "2026-07-25",
-      "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "Mediagenix will introduce new agentic AI solution at IBC 2026",
-      "source": "Provideocoalition.com",
-      "url": "https://www.provideocoalition.com/mediagenix-will-introduce-new-agentic-ai-solution-at-ibc-2026/",
-      "summary": "Mediagenix will be exhibiting in Hall 1 at IBC this September, and its trusted agentic AI operating model for the real-time media enterprise will be one of the highlights during the show.  A global leader in smart content solutions to profitably connect the r…",
-      "published_date": "2026-07-24",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 19,
-      "title": "Is OpenAI's New Presence Agent Ready to Replace Your Contact Center?",
-      "source": "CMSWire",
-      "url": "https://www.cmswire.com/customer-experience/is-openais-new-presence-agent-ready-to-replace-your-contact-center/",
-      "summary": "Presence pairs OpenAI models with policies and guardrails for customer service. Is it a CCaaS platform, or something else?\nContinue reading...",
-      "published_date": "2026-07-24",
-      "relevance_score": 7,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "governance"
       ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 20,
-      "title": "As ADA Anniversary Approaches, University of Phoenix Survey Highlights AI's Potential to Advance Accessibility in Work and Learning",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/as-ada-anniversary-approaches-university-of-phoenix-survey-highlights-ais-potential-to-advance-accessibility-in-work-and-learning-302834448.html",
-      "summary": "Survey conducted by The Harris Poll on behalf of University of Phoenix finds among those already using AI in the workplace, 60% say AI has improved their knowledge of and ability to use accessibility standards and guidelines. PHOENIX, July 24, 2026 /PRNewswir…",
-      "published_date": "2026-07-24",
-      "relevance_score": 6,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "accessibility"
-      ],
-      "sentiment": "positive"
+      "sentiment": "negative"
     }
   ]
 }
