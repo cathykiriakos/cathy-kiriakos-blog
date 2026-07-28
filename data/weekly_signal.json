@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T12:30:13.510Z",
+  "generated_at": "2026-07-28T11:24:00.738Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 14
+      "item_count": 11
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 5
+      "item_count": 7
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 1
+      "item_count": 4
     }
   ],
   "institutional_signal": {
@@ -41,6 +41,48 @@
   "items": [
     {
       "rank": 1,
+      "title": "AI Governance and Autonomous AI Agent Governance: From Controlling Models to Governing Digital Actors - Human-in-the-Loop Is Not Enough",
+      "source": "C-sharpcorner.com",
+      "url": "https://www.c-sharpcorner.com/article/ai-governance-and-autonomous-ai-agent-governance-from-controlling-models-to-gov/",
+      "summary": "AI governance evolves from model control to governing autonomous digital actors, emphasizing identity, authorization, and accountability for responsible operations.",
+      "published_date": "2026-07-26",
+      "relevance_score": 36,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "ai governance",
+        "governance",
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 2,
+      "title": "IMF urges central banks to tighten AI governance against financial risks",
+      "source": "Vanguard",
+      "url": "https://www.vanguardngr.com/2026/07/imf-urges-central-banks-to-tighten-ai-governance-against-financial-risks/",
+      "summary": "By Emma Ujah,  Abuja Bureau Chief The International Monetary Fund (IMF) has called on central banks and financial regulators to strengthen governance frameworks for Artificial Intelligence (AI), warning that the rapid adoption of the technology across the fin…",
+      "published_date": "2026-07-27",
+      "relevance_score": 18,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 3,
       "title": "Worldwide NFT, Inc. Announces Sponsorship of UChicago Science Incubator",
       "source": "GlobeNewswire",
       "url": "https://www.globenewswire.com/news-release/2026/07/22/3331366/0/en/Worldwide-NFT-Inc-Announces-Sponsorship-of-UChicago-Science-Incubator.html",
@@ -57,100 +99,58 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 2,
-      "title": "chess-mcp-server 0.1.13rc9",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/chess-mcp-server/0.1.13rc9/",
-      "summary": "A Model Context Protocol (MCP) server for playing Chess with AI Agents.",
-      "published_date": "2026-07-26",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "model context protocol",
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 3,
-      "title": "chess-mcp-server 0.1.13rc8",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/chess-mcp-server/0.1.13rc8/",
-      "summary": "A Model Context Protocol (MCP) server for playing Chess with AI Agents.",
-      "published_date": "2026-07-26",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "model context protocol",
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 4,
-      "title": "chess-mcp-server 0.1.13rc7",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/chess-mcp-server/0.1.13rc7/",
-      "summary": "A Model Context Protocol (MCP) server for playing Chess with AI Agents.",
-      "published_date": "2026-07-26",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
+      "title": "Article: An Evolutionary Architecture Pattern for Managing AI’s Pace of Change",
+      "source": "InfoQ.com",
+      "url": "https://www.infoq.com/articles/evolutionary-architecture-pattern/",
+      "summary": "Traditional API gateways assume deterministic services and simple schemas - assumptions agentic AI breaks. Discover why enterprise engineering leaders are adopting AI Gateways as an evolutionary architecture seam. Centralize guardrails, model routing, agent i…",
+      "published_date": "2026-07-27",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol",
-        "MCP",
-        "ai agent"
+        "agentic",
+        "guardrail"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 5,
-      "title": "chess-mcp-server 0.1.13rc6",
+      "title": "arifos 1!2026.7.26",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/chess-mcp-server/0.1.13rc6/",
-      "summary": "A Model Context Protocol (MCP) server for playing Chess with AI Agents.",
+      "url": "https://pypi.org/project/arifos/1!2026.7.26/",
+      "summary": "mcp-name: io.github.ariffazil/arifos | .ariffazil/arifos | arifOS v1!2026.7.26 — Constitutional AI Governance Kernel. 8 kernel ABI capabilities → 6 public tools (arif_verb_noun, generated from arifosmcp/abi/capability_registry.json), dynamic F1-F13 enforcemen…",
       "published_date": "2026-07-26",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol",
-        "MCP",
-        "ai agent"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 6,
-      "title": "chess-mcp-server 0.1.13rc4",
+      "title": "grp-mcp 0.79.10",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/chess-mcp-server/0.1.13rc4/",
-      "summary": "A Model Context Protocol (MCP) server for playing Chess with AI Agents.",
-      "published_date": "2026-07-26",
-      "relevance_score": 15,
+      "url": "https://pypi.org/project/grp-mcp/0.79.10/",
+      "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
+      "published_date": "2026-07-27",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol",
         "MCP",
         "ai agent"
       ],
@@ -158,39 +158,37 @@
     },
     {
       "rank": 7,
-      "title": "chess-mcp-server 0.1.13rc3",
+      "title": "mnemoai-assistant 1.7.8",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/chess-mcp-server/0.1.13rc3/",
-      "summary": "A Model Context Protocol (MCP) server for playing Chess with AI Agents.",
-      "published_date": "2026-07-26",
-      "relevance_score": 15,
+      "url": "https://pypi.org/project/mnemoai-assistant/1.7.8/",
+      "summary": "Mnemo AI — a local agentic AI assistant (LangGraph + MCP) that learns and remembers, with multi-provider model support.",
+      "published_date": "2026-07-27",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol",
         "MCP",
-        "ai agent"
+        "agentic"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 8,
-      "title": "chess-mcp-server 0.1.13rc2",
+      "title": "okto-pulse 0.3.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/chess-mcp-server/0.1.13rc2/",
-      "summary": "A Model Context Protocol (MCP) server for playing Chess with AI Agents.",
-      "published_date": "2026-07-26",
-      "relevance_score": 15,
+      "url": "https://pypi.org/project/okto-pulse/0.3.0/",
+      "summary": "Okto Pulse — spec-driven project management with AI agents via MCP. Local-first, single command setup.",
+      "published_date": "2026-07-27",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol",
         "MCP",
         "ai agent"
       ],
@@ -198,19 +196,18 @@
     },
     {
       "rank": 9,
-      "title": "chess-mcp-server 0.1.13rc1",
+      "title": "grp-mcp 0.79.9",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/chess-mcp-server/0.1.13rc1/",
-      "summary": "A Model Context Protocol (MCP) server for playing Chess with AI Agents.",
-      "published_date": "2026-07-26",
-      "relevance_score": 15,
+      "url": "https://pypi.org/project/grp-mcp/0.79.9/",
+      "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
+      "published_date": "2026-07-27",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol",
         "MCP",
         "ai agent"
       ],
@@ -218,174 +215,165 @@
     },
     {
       "rank": 10,
-      "title": "isa-agent-sdk 0.3.72",
+      "title": "grp-mcp 0.79.8",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.3.72/",
-      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
-      "published_date": "2026-07-25",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent",
-        "human-in-the-loop"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 11,
-      "title": "nextcloud-mcp-server 0.151.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/nextcloud-mcp-server/0.151.0/",
-      "summary": "Model Context Protocol (MCP) server for Nextcloud integration - enables AI assistants to interact with Nextcloud data",
-      "published_date": "2026-07-26",
-      "relevance_score": 12,
+      "url": "https://pypi.org/project/grp-mcp/0.79.8/",
+      "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
+      "published_date": "2026-07-27",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol",
-        "MCP"
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 11,
+      "title": "grp-mcp 0.79.7",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/grp-mcp/0.79.7/",
+      "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
+      "published_date": "2026-07-27",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "Salesforce vs. ServiceNow: Which Agentic AI Stock Is Actually the Better Buy Right Now?",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/48e86d01f3d2bdee",
-      "summary": "Artificial intelligence (AI) is revolutionizing the software industry. AI is making it easier to develop software, while AI agents, digital workers that can autonomously perform tasks, might be the future for enterprises. It creates an uncertain future, but o…",
-      "published_date": "2026-07-26",
-      "relevance_score": 11,
+      "title": "Nono gives AI agents kernel-level controls and short-lived credentials",
+      "source": "4sysops.com",
+      "url": "https://4sysops.com/archives/nono-gives-ai-agents-kernel-level-controls-and-short-lived-credentials/",
+      "summary": "Nono is an open-source sandbox for AI agents that enforces file, tool, and network policies at the operating-system kernel. Its Agent Tool Sandboxing feature adds short-lived “phantom” credentials, keeping real secrets outside the agent while allowing approve…",
+      "published_date": "2026-07-27",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 13,
-      "title": "agentic-ledger 0.3.0a2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/agentic-ledger/0.3.0a2/",
-      "summary": "Runtime observability for AI agents — see exactly what your agent did, why it did it, and what it cost.",
-      "published_date": "2026-07-26",
-      "relevance_score": 11,
+      "title": "Keyfactor Announces Intent to Acquire Cofide to Bring Verified Identity to AI Agents and Cloud Workloads",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/keyfactor-announces-intent-to-acquire-cofide-to-bring-verified-identity-to-ai-agents-and-cloud-workloads-302834309.html",
+      "summary": "The acquisition will extend the Keyfactor Trust Control Plane to workloads and AI agents, giving security teams one system to manage and govern every non-human identity across the enterprise. ATLANTA and STOCKHOLM, July 27, 2026 /PRNewswire/ -- Keyfactor, the…",
+      "published_date": "2026-07-27",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 14,
-      "title": "Manufacturing’s next AI phase is about integration, accountability and quality",
-      "source": "Digital Journal",
-      "url": "https://www.digitaljournal.com/article/manufacturings-next-ai-phase-is-about-integration-accountability-and-quality/",
-      "summary": "Canada’s shift toward an incremental AI governance model places greater responsibility on manufacturers to embed accountability and decision‑governance into their systems now, rather than waiting for detailed regulations to emerge. At the same time, AI‑driven…",
-      "published_date": "2026-07-25",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "title": "Klaviyo Expands Integration with Anthropic to Bring Agentic Marketing Workflows to Claude",
+      "source": "Nasdaq",
+      "url": "https://www.nasdaq.com/press-release/klaviyo-expands-integration-anthropic-bring-agentic-marketing-workflows-claude-2026",
+      "summary": "Connect Klaviyo’ s autonomous B2C CRM with Anthropic’ s Claude- helping brands turn customer data into reports, insights, and campaign-ready assets faster.. BOSTON& SAN FRANCISCO---- Klaviyo, the autonomous B2C CRM, today announced an expanded integration wit…",
+      "published_date": "2026-07-27",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "agentic"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 15,
-      "title": "ashmatics-aigov-tools 0.7.7",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/ashmatics-aigov-tools/0.7.7/",
-      "summary": "Ashmatics Clinical AI Governance Framework - Content management, validation, and compilation",
-      "published_date": "2026-07-25",
-      "relevance_score": 10,
+      "title": "APEC promotes responsible AI to support regional economic advancement",
+      "source": "Antaranews.com",
+      "url": "https://en.antaranews.com/news/424137/apec-promotes-responsible-ai-to-support-regional-economic-advancement",
+      "summary": "Asia-Pacific Economic Cooperation (APEC) member economies pledged to strengthen the development of responsible artificial intelligence (AI) during a ...",
+      "published_date": "2026-07-27",
+      "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "responsible ai"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 16,
-      "title": "ashmatics-aigov-tools 0.7.5",
+      "title": "downbeat 0.14.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/ashmatics-aigov-tools/0.7.5/",
-      "summary": "Ashmatics Clinical AI Governance Framework - Content management, validation, and compilation",
-      "published_date": "2026-07-25",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "url": "https://pypi.org/project/downbeat/0.14.0/",
+      "summary": "Local, human-in-the-loop message bus for coordinating parallel AI coding-agent sessions on one machine",
+      "published_date": "2026-07-27",
+      "relevance_score": 8,
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "governance_as_code"
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "human-in-the-loop"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "grp-mcp 0.73.0",
+      "title": "downbeat 0.13.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/grp-mcp/0.73.0/",
-      "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
-      "published_date": "2026-07-26",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
+      "url": "https://pypi.org/project/downbeat/0.13.0/",
+      "summary": "Local, human-in-the-loop message bus for coordinating parallel AI coding-agent sessions on one machine",
+      "published_date": "2026-07-27",
+      "relevance_score": 8,
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "applied_ai"
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "human-in-the-loop"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 18,
-      "title": "inspeximus 1.68.0",
+      "title": "downbeat 0.12.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/inspeximus/1.68.0/",
-      "summary": "The self-correcting memory layer for AI agents: when a fact is corrected, Inspeximus serves the new value and resists the old one resurfacing. Zero-dependency single file + MCP server — value-ranked recall, per-type decay, consolidation, revert, and tamper-ev…",
-      "published_date": "2026-07-26",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
+      "url": "https://pypi.org/project/downbeat/0.12.0/",
+      "summary": "Local, human-in-the-loop message bus for coordinating parallel AI coding-agent sessions on one machine",
+      "published_date": "2026-07-27",
+      "relevance_score": 8,
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "applied_ai"
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "human-in-the-loop"
       ],
       "sentiment": "neutral"
     },
@@ -396,7 +384,7 @@
       "url": "https://pypi.org/project/aegis-ai-governance/0.9.0b1/",
       "summary": "Deterministic, fail-closed governance enforcement for AI model invocations.",
       "published_date": "2026-07-25",
-      "relevance_score": 8,
+      "relevance_score": 7,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -414,7 +402,7 @@
       "url": "https://pypi.org/project/aegis-ai-governance/",
       "summary": "Deterministic, fail-closed governance enforcement for AI model invocations.",
       "published_date": "2026-07-25",
-      "relevance_score": 8,
+      "relevance_score": 7,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
