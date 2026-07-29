@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T11:24:00.738Z",
+  "generated_at": "2026-07-29T11:31:35.804Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 11
+      "item_count": 16
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 7
+      "item_count": 6
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 4
+      "item_count": 3
     }
   ],
   "institutional_signal": {
@@ -36,115 +36,37 @@
       "polsky center",
       "mecha-nudges"
     ],
-    "item_count": 1
+    "item_count": 0
   },
   "items": [
     {
       "rank": 1,
-      "title": "AI Governance and Autonomous AI Agent Governance: From Controlling Models to Governing Digital Actors - Human-in-the-Loop Is Not Enough",
-      "source": "C-sharpcorner.com",
-      "url": "https://www.c-sharpcorner.com/article/ai-governance-and-autonomous-ai-agent-governance-from-controlling-models-to-gov/",
-      "summary": "AI governance evolves from model control to governing autonomous digital actors, emphasizing identity, authorization, and accountability for responsible operations.",
-      "published_date": "2026-07-26",
-      "relevance_score": 36,
+      "title": "Coupa Releases FY26 Sustainability Report Outlining Progress in AI Governance and Climate Commitments",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/coupa-releases-fy26-sustainability-report-outlining-progress-in-ai-governance-and-climate-commitments-302835715.html",
+      "summary": "Report highlights sustainable business practices serving customers' sustainability, resilience, and compliance goals FOSTER CITY, Calif., July 28, 2026 /PRNewswire/ -- Coupa, the leading platform for autonomous spend management celebrating 20 years of spend m…",
+      "published_date": "2026-07-28",
+      "relevance_score": 21,
       "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
-        "governance_as_code",
-        "human_centric_design"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
         "ai governance",
         "governance",
-        "human-in-the-loop"
+        "compliance"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 2,
-      "title": "IMF urges central banks to tighten AI governance against financial risks",
-      "source": "Vanguard",
-      "url": "https://www.vanguardngr.com/2026/07/imf-urges-central-banks-to-tighten-ai-governance-against-financial-risks/",
-      "summary": "By Emma Ujah,  Abuja Bureau Chief The International Monetary Fund (IMF) has called on central banks and financial regulators to strengthen governance frameworks for Artificial Intelligence (AI), warning that the rapid adoption of the technology across the fin…",
-      "published_date": "2026-07-27",
-      "relevance_score": 18,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 3,
-      "title": "Worldwide NFT, Inc. Announces Sponsorship of UChicago Science Incubator",
-      "source": "GlobeNewswire",
-      "url": "https://www.globenewswire.com/news-release/2026/07/22/3331366/0/en/Worldwide-NFT-Inc-Announces-Sponsorship-of-UChicago-Science-Incubator.html",
-      "summary": "Worldwide NFT, Inc. (OTC: WNFT) announces it finalized a sponsorship for the 2026-27 academic year of the University of Chicago’s Science Incubator....",
-      "published_date": "2026-07-22",
-      "relevance_score": 17,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
-      "matched_keywords": [
-        "university of chicago",
-        "uchicago"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 4,
-      "title": "Article: An Evolutionary Architecture Pattern for Managing AI’s Pace of Change",
-      "source": "InfoQ.com",
-      "url": "https://www.infoq.com/articles/evolutionary-architecture-pattern/",
-      "summary": "Traditional API gateways assume deterministic services and simple schemas - assumptions agentic AI breaks. Discover why enterprise engineering leaders are adopting AI Gateways as an evolutionary architecture seam. Centralize guardrails, model routing, agent i…",
-      "published_date": "2026-07-27",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 5,
-      "title": "arifos 1!2026.7.26",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/arifos/1!2026.7.26/",
-      "summary": "mcp-name: io.github.ariffazil/arifos | .ariffazil/arifos | arifOS v1!2026.7.26 — Constitutional AI Governance Kernel. 8 kernel ABI capabilities → 6 public tools (arif_verb_noun, generated from arifosmcp/abi/capability_registry.json), dynamic F1-F13 enforcemen…",
-      "published_date": "2026-07-26",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 6,
-      "title": "grp-mcp 0.79.10",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/grp-mcp/0.79.10/",
-      "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
-      "published_date": "2026-07-27",
-      "relevance_score": 9,
+      "title": "Show HN: OpsCat – A single-binary software catalog with MCP for AI agents",
+      "source": "Github.com",
+      "url": "https://github.com/sumant1122/opscat",
+      "summary": " Zero-config, single-binary Software Catalog, Interactive 2D Dependency Graph & native MCP Engine for Platform Engineering - sumant1122/opscat",
+      "published_date": "2026-07-28",
+      "relevance_score": 16,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -157,31 +79,115 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 7,
-      "title": "mnemoai-assistant 1.7.8",
+      "rank": 3,
+      "title": "isa-agent-sdk 0.3.75",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/mnemoai-assistant/1.7.8/",
-      "summary": "Mnemo AI — a local agentic AI assistant (LangGraph + MCP) that learns and remembers, with multi-provider model support.",
-      "published_date": "2026-07-27",
-      "relevance_score": 9,
+      "url": "https://pypi.org/project/isa-agent-sdk/0.3.75/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-07-28",
+      "relevance_score": 15,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
         "MCP",
-        "agentic"
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 4,
+      "title": "isa-agent-sdk 0.3.74",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.3.74/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-07-28",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 5,
+      "title": "Hush Security raises $30M to tackle AI agent governance as non-human identity security heats up",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/hush-security-30m-ai-agent-governance/",
+      "summary": "Hush Security's funding highlights the growing need for robust governance in AI identity management, crucial for securing digital ecosystems.\nThe post Hush Security raises $30M to tackle AI agent governance as non-human identity security heats up appeared fir…",
+      "published_date": "2026-07-28",
+      "relevance_score": 14,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 6,
+      "title": "OX Security Becomes First Prompt-to-Runtime Security Platform, Leading the Evolving AINAPP Category",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/ox-security-becomes-first-prompt-to-runtime-security-platform-leading-the-evolving-ainapp-category-302835427.html",
+      "summary": "OX Security's platform is the first to govern the full agentic development lifecycle — from prompt to runtime — spanning AI governance, code security, cloud enforcement, and agentic pentesting in a single platform. NEW YORK, July 28, 2026 /PRNewswire/ -- OX S…",
+      "published_date": "2026-07-28",
+      "relevance_score": 13,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 7,
+      "title": "m8tes 2.7.3",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/m8tes/2.7.3/",
+      "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
+      "published_date": "2026-07-27",
+      "relevance_score": 11,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "human-in-the-loop"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 8,
-      "title": "okto-pulse 0.3.0",
+      "title": "compartment 3.5.2",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/okto-pulse/0.3.0/",
-      "summary": "Okto Pulse — spec-driven project management with AI agents via MCP. Local-first, single command setup.",
-      "published_date": "2026-07-27",
+      "url": "https://pypi.org/project/compartment/3.5.2/",
+      "summary": "Compartment - high-security, fully offline, encrypted vector memory for AI agents (MCP)",
+      "published_date": "2026-07-28",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -196,11 +202,11 @@
     },
     {
       "rank": 9,
-      "title": "grp-mcp 0.79.9",
+      "title": "llre 0.1.2",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/grp-mcp/0.79.9/",
-      "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
-      "published_date": "2026-07-27",
+      "url": "https://pypi.org/project/llre/0.1.2/",
+      "summary": "AI-native coding memory — lore/doc that AI agents read and write directly (MCP)",
+      "published_date": "2026-07-28",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -215,11 +221,11 @@
     },
     {
       "rank": 10,
-      "title": "grp-mcp 0.79.8",
+      "title": "interloper-mcp 0.45.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/grp-mcp/0.79.8/",
-      "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
-      "published_date": "2026-07-27",
+      "url": "https://pypi.org/project/interloper-mcp/0.45.1/",
+      "summary": "Interloper MCP server — read-only platform access for AI agents",
+      "published_date": "2026-07-28",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -234,11 +240,11 @@
     },
     {
       "rank": 11,
-      "title": "grp-mcp 0.79.7",
+      "title": "stata-mcp 1.21.2",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/grp-mcp/0.79.7/",
-      "summary": "MCP server exposing Acumatica ERP (contract-based REST API) as tools for AI agents. Multi-instance, OAuth2.",
-      "published_date": "2026-07-27",
+      "url": "https://pypi.org/project/stata-mcp/1.21.2/",
+      "summary": "MCP-for-Stata: one-command install of a Stata MCP server for Claude Code, Codex, OpenClaw, and 7+ AI agents. Run Stata do-files through natural language.",
+      "published_date": "2026-07-28",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -253,11 +259,11 @@
     },
     {
       "rank": 12,
-      "title": "Nono gives AI agents kernel-level controls and short-lived credentials",
-      "source": "4sysops.com",
-      "url": "https://4sysops.com/archives/nono-gives-ai-agents-kernel-level-controls-and-short-lived-credentials/",
-      "summary": "Nono is an open-source sandbox for AI agents that enforces file, tool, and network policies at the operating-system kernel. Its Agent Tool Sandboxing feature adds short-lived “phantom” credentials, keeping real secrets outside the agent while allowing approve…",
-      "published_date": "2026-07-27",
+      "title": "Why Smart Companies Are Building ‘Circuit Breakers’ for AI Agents Before It’s Too Late",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/3b19eed4636fa0bc",
+      "summary": "As companies hand more authority to AI agents, many are overlooking a growing risk: these systems behave more like digital insiders than software tools. Here’s how leaders can protect their organizations.",
+      "published_date": "2026-07-28",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -267,33 +273,15 @@
       "matched_keywords": [
         "ai agent"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 13,
-      "title": "Keyfactor Announces Intent to Acquire Cofide to Bring Verified Identity to AI Agents and Cloud Workloads",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/keyfactor-announces-intent-to-acquire-cofide-to-bring-verified-identity-to-ai-agents-and-cloud-workloads-302834309.html",
-      "summary": "The acquisition will extend the Keyfactor Trust Control Plane to workloads and AI agents, giving security teams one system to manage and govern every non-human identity across the enterprise. ATLANTA and STOCKHOLM, July 27, 2026 /PRNewswire/ -- Keyfactor, the…",
-      "published_date": "2026-07-27",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "Klaviyo Expands Integration with Anthropic to Bring Agentic Marketing Workflows to Claude",
-      "source": "Nasdaq",
-      "url": "https://www.nasdaq.com/press-release/klaviyo-expands-integration-anthropic-bring-agentic-marketing-workflows-claude-2026",
-      "summary": "Connect Klaviyo’ s autonomous B2C CRM with Anthropic’ s Claude- helping brands turn customer data into reports, insights, and campaign-ready assets faster.. BOSTON& SAN FRANCISCO---- Klaviyo, the autonomous B2C CRM, today announced an expanded integration wit…",
-      "published_date": "2026-07-27",
+      "title": "Act Security raises $60M to take action against agentic access sprawl at the infrastructure layer",
+      "source": "SiliconANGLE News",
+      "url": "https://siliconangle.com/2026/07/28/act-security-raises-60m-take-action-agentic-access-sprawl-infrastructure-layer/",
+      "summary": "Cloud security startup Act Security Ltd. says it’s primed and ready to help enterprises safely deploy artificial intelligence agents at large scale after raising $60 million in funding across two rounds. The company was founded last year and closed on a hefty…",
+      "published_date": "2026-07-28",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -306,11 +294,11 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 15,
-      "title": "APEC promotes responsible AI to support regional economic advancement",
-      "source": "Antaranews.com",
-      "url": "https://en.antaranews.com/news/424137/apec-promotes-responsible-ai-to-support-regional-economic-advancement",
-      "summary": "Asia-Pacific Economic Cooperation (APEC) member economies pledged to strengthen the development of responsible artificial intelligence (AI) during a ...",
+      "rank": 14,
+      "title": "Weak AI Regulation Could Be Worse Than None at All",
+      "source": "Singularity Hub",
+      "url": "https://singularityhub.com/2026/07/27/weak-ai-regulation-could-be-worse-than-none-at-all/#article",
+      "summary": "A Cornell University study uses game theory to model how poorly designed AI regulation could backfire.\nThe post Weak AI Regulation Could Be Worse Than None at All appeared first on SingularityHub.",
       "published_date": "2026-07-27",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
@@ -319,99 +307,117 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "responsible ai"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 16,
-      "title": "downbeat 0.14.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/downbeat/0.14.0/",
-      "summary": "Local, human-in-the-loop message bus for coordinating parallel AI coding-agent sessions on one machine",
-      "published_date": "2026-07-27",
-      "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "human-in-the-loop"
+        "ai regulation"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 17,
-      "title": "downbeat 0.13.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/downbeat/0.13.0/",
-      "summary": "Local, human-in-the-loop message bus for coordinating parallel AI coding-agent sessions on one machine",
+      "rank": 15,
+      "title": "Nvidia CEO Jensen Huang takes AI regulation push to Capitol Hill",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/nvidia-huang-capitol-hill-ai-regulation/",
+      "summary": "Federal AI regulation could streamline innovation and investment but risks stifling decentralized projects, impacting crypto-AI dynamics.\nThe post Nvidia CEO Jensen Huang takes AI regulation push to Capitol Hill appeared first on Crypto Briefing.",
       "published_date": "2026-07-27",
       "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "human_centric_design"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "human-in-the-loop"
+        "ai regulation"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "Nvidia, 40 firms launch AI safety alliance - without Google or OpenAI",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/81e315a737d02786",
+      "summary": "Nvidia, the leading maker of artificial intelligence (AI) chips, and nearly 40 other technology companies have launched an AI safety alliance, with members including Microsoft, IBM, SAP, Dell, Palantir and SpaceXAI.\nNotably absent from the new alliance, howev…",
+      "published_date": "2026-07-28",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai safety"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 17,
+      "title": "physiclaw 0.3.18",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/physiclaw/0.3.18/",
+      "summary": "Give AI agents a physical finger to operate any phone — robotic stylus + camera, no APIs needed.",
+      "published_date": "2026-07-28",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 18,
-      "title": "downbeat 0.12.0",
+      "title": "sage-agent-sdk 11.14.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/downbeat/0.12.0/",
-      "summary": "Local, human-in-the-loop message bus for coordinating parallel AI coding-agent sessions on one machine",
-      "published_date": "2026-07-27",
-      "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
+      "url": "https://pypi.org/project/sage-agent-sdk/11.14.1/",
+      "summary": "Python SDK for SAGE — Sovereign Agent Governed Experience. Persistent, consensus-validated memory for AI agents.",
+      "published_date": "2026-07-28",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "human-in-the-loop"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 19,
-      "title": "aegis-ai-governance 0.9.0b1",
+      "title": "preloop 0.13.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/aegis-ai-governance/0.9.0b1/",
-      "summary": "Deterministic, fail-closed governance enforcement for AI model invocations.",
-      "published_date": "2026-07-25",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
+      "url": "https://pypi.org/project/preloop/0.13.1/",
+      "summary": "Preloop - Control plane & safety layer for your agentic AI workforce",
+      "published_date": "2026-07-28",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "governance"
+        "agentic"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "aegis-ai-governance added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/aegis-ai-governance/",
-      "summary": "Deterministic, fail-closed governance enforcement for AI model invocations.",
-      "published_date": "2026-07-25",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
+      "title": "Whatfix Expands Its Deployment to Generali Global Corporate & Commercial's AGORA Underwriting Platform Across 27 Countries",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/whatfix-expands-its-deployment-to-generali-global-corporate--commercials-agora-underwriting-platform-across-27-countries-302836011.html",
+      "summary": "AI-powered in-app guidance, analytics, and intelligent agents to support global underwriting operations SAN JOSE, Calif., July 28, 2026 /PRNewswire/ -- Whatfix, the global leader in agentic digital adoption platform for enterprises, today announced that Gener…",
+      "published_date": "2026-07-28",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "governance"
+        "agentic"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ]
 }
