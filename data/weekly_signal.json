@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T14:25:46.053Z",
+  "generated_at": "2026-08-03T12:30:44.498Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,7 +7,7 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 15
+      "item_count": 16
     },
     {
       "id": "governance_as_code",
@@ -19,7 +19,7 @@
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 5
+      "item_count": 8
     }
   ],
   "institutional_signal": {
@@ -46,7 +46,7 @@
       "url": "http://www.forrester.com/blogs/what-optimizely-customer-zero-teaches-about-agentic-ai-governance/",
       "summary": "This is the story behind writing Customer Zero Case Study: Optimizely Shows AI Success Requires Operating Model Governance. When I Went Looking For Agentic Marketing, I Found A Constraint Early in my career, my dad handed me a copy of The Goal by Eliyahu Gold…",
       "published_date": "2026-07-31",
-      "relevance_score": 24,
+      "relevance_score": 23,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
@@ -67,7 +67,7 @@
       "url": "https://origin-main.com/laravel/laracon-us-2026-key-announcements/",
       "summary": "Discover key announcements from Laracon US 2026, including Laravel LSP, CPX, scale-to-zero MySQL, debounced jobs, and Human-in-the-Loop AI guardrails.",
       "published_date": "2026-07-31",
-      "relevance_score": 24,
+      "relevance_score": 23,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
@@ -84,28 +84,114 @@
     },
     {
       "rank": 3,
-      "title": "ModelOp to Present “The AI Factory” with Manulife at Ai4 2026: How Frictionless AI Governance Powers Faster, Safer AI Delivery",
-      "source": "GlobeNewswire",
-      "url": "https://www.globenewswire.com/news-release/2026/07/31/3336832/0/en/ModelOp-to-Present-The-AI-Factory-with-Manulife-at-Ai4-2026-How-Frictionless-AI-Governance-Powers-Faster-Safer-AI-Delivery.html",
-      "summary": "ModelOp to Present \"The AI Factory\" with Manulife at Ai4 2026: How Frictionless AI Governance Powers Faster, Safer AI Delivery...",
-      "published_date": "2026-07-31",
-      "relevance_score": 18,
-      "primary_pillar": "governance_as_code",
+      "title": "isa-agent-sdk 0.5.9",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.5.9/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-08-02",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai",
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "MCP",
+        "ai agent",
+        "human-in-the-loop"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 4,
-      "title": "isa-agent-sdk 0.4.16",
+      "title": "isa-agent-sdk 0.5.8",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.4.16/",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.5.8/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-08-02",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 5,
+      "title": "isa-agent-sdk 0.5.6",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.5.6/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-08-02",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 6,
+      "title": "isa-agent-sdk 0.5.5",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.5.5/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-08-02",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 7,
+      "title": "isa-agent-sdk 0.5.4",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.5.4/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-08-02",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 8,
+      "title": "isa-agent-sdk 0.5.3",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.5.3/",
       "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
       "published_date": "2026-08-01",
       "relevance_score": 15,
@@ -123,7 +209,7 @@
       "sentiment": "positive"
     },
     {
-      "rank": 5,
+      "rank": 9,
       "title": "execlave-sdk 1.6.0",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/execlave-sdk/1.6.0/",
@@ -144,25 +230,45 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
-      "title": "AI in Formula One: Competitive advantage is all about the human in the loop",
-      "source": "ZDNet",
-      "url": "https://www.zdnet.com/article/ai-in-formula-one-competitive-advantage-is-all-about-the-human-in-the-loop/",
-      "summary": "Professional handcraft is the key to unlocking value from emerging technology and data, suggest Aston Martin Aramco F1 executives and partners.",
-      "published_date": "2026-08-01",
-      "relevance_score": 14,
-      "primary_pillar": "human_centric_design",
+      "rank": 10,
+      "title": "lexigram-ai-governance added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/lexigram-ai-governance/",
+      "summary": "AI governance for the Lexigram Framework — policy enforcement, audit trails, budget tracking",
+      "published_date": "2026-08-02",
+      "relevance_score": 13,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "human_centric_design"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "human-in-the-loop"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 7,
+      "rank": 11,
+      "title": "lexigram-ai-governance 0.1.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/lexigram-ai-governance/0.1.2/",
+      "summary": "AI governance for the Lexigram Framework — policy enforcement, audit trails, budget tracking",
+      "published_date": "2026-08-02",
+      "relevance_score": 13,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 12,
       "title": "IBM and The University of Chicago Demonstrate Quantum Advantage, Establishing Trusted Quantum Computation on Logical Circuits",
       "source": "PRNewswire",
       "url": "https://www.prnewswire.com/news-releases/ibm-and-the-university-of-chicago-demonstrate-quantum-advantage-establishing-trusted-quantum-computation-on-logical-circuits-302838890.html",
@@ -178,12 +284,32 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 8,
-      "title": "nextcloud-mcp-server 0.157.0",
+      "rank": 13,
+      "title": "tuiml 0.1.8",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/nextcloud-mcp-server/0.157.0/",
+      "url": "https://pypi.org/project/tuiml/0.1.8/",
+      "summary": "An open-source agentic ML ecosystem with a clean Python API, MCP server for AI agents, and a community Hub for sharing algorithms, datasets, and models",
+      "published_date": "2026-08-02",
+      "relevance_score": 12,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "nextcloud-mcp-server 0.160.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/nextcloud-mcp-server/0.160.1/",
       "summary": "Model Context Protocol (MCP) server for Nextcloud integration - enables AI assistants to interact with Nextcloud data",
-      "published_date": "2026-08-01",
+      "published_date": "2026-08-02",
       "relevance_score": 12,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -197,168 +323,72 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 9,
-      "title": "Robinhood CEO Vlad Tenev Thinks AI Agents Could Transform the Crypto Market. Here's What That Means for Investors",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/299732971606f963",
-      "summary": "Robinhood CEO Vlad Tenev Thinks AI Agents Could Transform the Crypto Market. Here's What That Means for Investors\nAgentic artificial intelligence takes automated trading to a new level. Unlike trading bots that follow preset rules, AI agents can actually act …",
-      "published_date": "2026-08-01",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 10,
-      "title": "GreenCore Solutions Corp. (GSC) Launches -- Agency Partner Program (APP) -- AI Agents for Agency CPG Clients",
-      "source": "PR Newswire UK",
-      "url": "https://www.prnewswire.co.uk/news-releases/greencore-solutions-corp-gsc-launches--agency-partner-program-app--ai-agents-for-agency-cpg-clients-302840465.html",
-      "summary": "At 9.5 million AI Agent transactions a month, GSC leads the market — the right choice for white-label B2B in CPG and retail grocery, the accounts agencies already know well. Agencies are the known experts of the CPG space, and B2B just went agentic — 4–6x the…",
-      "published_date": "2026-08-01",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
-      "title": "m8tes 2.10.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/m8tes/2.10.0/",
-      "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
-      "published_date": "2026-07-31",
-      "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "lelu-agent-auth-sdk 0.4.2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/lelu-agent-auth-sdk/0.4.2/",
-      "summary": "Python SDK for Lelu — framework-agnostic authorization engine for AI agents with confidence-aware controls, Docker deployment, and human-in-the-loop workflows",
-      "published_date": "2026-07-31",
-      "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 13,
-      "title": "codegraph-brain 0.9.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/codegraph-brain/0.9.0/",
-      "summary": "Semantic code graph for AI agents — deterministic FQN resolution, impact analysis and architectural drift gates, exposed over MCP.",
-      "published_date": "2026-08-01",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "mcp-timer 0.2.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/mcp-timer/0.2.1/",
-      "summary": "MCP Timer Server - Wait and scheduled timing tools for AI agents",
-      "published_date": "2026-08-01",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 15,
-      "title": "hol-guard 2.2.0a117",
+      "title": "naas-abi 2.51.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/hol-guard/2.2.0a117/",
-      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-      "published_date": "2026-08-01",
-      "relevance_score": 9,
+      "url": "https://pypi.org/project/naas-abi/2.51.1/",
+      "summary": "Multi-agent orchestrator and knowledge graph management system for AI orchestration, providing comprehensive coordination of specialized AI agents and semantic data management capabilities",
+      "published_date": "2026-08-02",
+      "relevance_score": 12,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "orchestration",
+        "ai agent",
+        "multi-agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 16,
-      "title": "codegraph-brain 0.8.0",
+      "title": "nextcloud-mcp-server 0.160.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/codegraph-brain/0.8.0/",
-      "summary": "Semantic code graph for AI agents — deterministic FQN resolution, impact analysis and architectural drift gates, exposed over MCP.",
-      "published_date": "2026-08-01",
-      "relevance_score": 9,
+      "url": "https://pypi.org/project/nextcloud-mcp-server/0.160.0/",
+      "summary": "Model Context Protocol (MCP) server for Nextcloud integration - enables AI assistants to interact with Nextcloud data",
+      "published_date": "2026-08-02",
+      "relevance_score": 12,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "model context protocol",
+        "MCP"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "veldt-kya 0.4.5",
+      "title": "agentic-ledger 0.8.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/veldt-kya/0.4.5/",
-      "summary": "KYA (Know Your Agents) — Open-source trust, governance, and evidentiary assurance infrastructure for autonomous systems. Built on KYP (Know Your Principal), a unified trust model for human users, AI agents, service accounts, and machine identities.",
-      "published_date": "2026-08-01",
-      "relevance_score": 8,
+      "url": "https://pypi.org/project/agentic-ledger/0.8.1/",
+      "summary": "Runtime observability for AI agents — see exactly what your agent did, why it did it, and what it cost.",
+      "published_date": "2026-08-02",
+      "relevance_score": 11,
       "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "nucleus-mcp 1.16.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/nucleus-mcp/1.16.2/",
+      "summary": "Sovereign Agent OS — Persistent Memory, Governance & Compliance for AI Agents",
+      "published_date": "2026-08-02",
+      "relevance_score": 11,
+      "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
         "governance_as_code"
@@ -366,61 +396,47 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent",
-        "governance"
+        "governance",
+        "compliance"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 18,
-      "title": "Shopify’s 13x AI-Referral Surge Hides the Real Agentic Commerce Story",
-      "source": "Forkast.news",
-      "url": "https://forkast.news/shopifys-13x-ai-referral-surge-hides-the-real-agentic-commerce-story/",
-      "summary": "The platform's Q1 2026 data is the strongest evidence yet that AI is reshaping discovery—but the gap between referral influence and agent-executed transactions is where the structural question lives.",
-      "published_date": "2026-08-01",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "positive"
-    },
-    {
       "rank": 19,
-      "title": "Why Inference Governance has Become More Crucial For Enterprises - Entrepreneur India",
-      "source": "Entrepreneur",
-      "url": "https://india.entrepreneur.com/technology/why-inference-governance-has-become-more-crucial-for-enterprises",
-      "summary": "By 2029, according to Gartner, most privacy incidents will not be from the leakage of PIIs but from AI-generated inferences about individuals.",
-      "published_date": "2026-07-31",
-      "relevance_score": 8,
+      "title": "EU AI Act: creators get no grace period for labeling AI content",
+      "source": "Notebookcheck.net",
+      "url": "https://www.notebookcheck.net/EU-AI-Act-creators-get-no-grace-period-for-labeling-AI-content.1358267.0.html",
+      "summary": "Article 50 of the AI Regulation took effect today. Anyone who publishes deepfakes or AI-generated texts for professional purposes or to generate revenue must clearly label them as such, whether on YouTube or on their own blog. The transition period, which las…",
+      "published_date": "2026-08-02",
+      "relevance_score": 11,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "governance"
+        "ai regulation",
+        "eu ai act"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "‘Clarity of Thought and Responsibility’: Can the Pope Move the Needle on AI Regulation?",
-      "source": "Publishingperspectives.com",
-      "url": "https://publishingperspectives.com/2026/07/clarity-of-thought-and-responsibility-can-the-pope-move-the-needle-on-ai-regulation/",
-      "summary": "Amid a growing chorus of voices calling for sensible regulation of AI and the tech industry comes a somewhat surprising addition: Pope Leo XIV, who, in a May encyclical, presented what observers have praised as one of the most cogent arguments yet for an ethi…",
-      "published_date": "2026-07-31",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
+      "title": "notiformer 1.2.3",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/notiformer/1.2.3/",
+      "summary": "Official Python SDK for Notiformer — human-in-the-loop approval gates and push notifications for AI agents.",
+      "published_date": "2026-08-02",
+      "relevance_score": 11,
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "governance_as_code"
+        "applied_ai",
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai regulation"
+        "ai agent",
+        "human-in-the-loop"
       ],
       "sentiment": "neutral"
     }
