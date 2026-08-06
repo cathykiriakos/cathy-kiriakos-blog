@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T11:26:11.629Z",
+  "generated_at": "2026-08-06T11:28:43.433Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 11
+      "item_count": 12
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 14
+      "item_count": 9
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 2
+      "item_count": 4
     }
   ],
   "institutional_signal": {
@@ -36,38 +36,36 @@
       "polsky center",
       "mecha-nudges"
     ],
-    "item_count": 1
+    "item_count": 0
   },
   "items": [
     {
       "rank": 1,
-      "title": "Designing Human-in-the-Loop Approval Workflows for Enterprise AI Agents",
+      "title": "Bulletproof Tool Calling in Enterprise LangGraph: Validation, RAG, and Multi-Agent State",
       "source": "C-sharpcorner.com",
-      "url": "https://www.c-sharpcorner.com/article/designing-human-in-the-loop-approval-workflows-for-enterprise-ai-agents/",
-      "summary": "Implement human-in-the-loop approval workflows for enterprise AI agents in .NET to mitigate risks of unconstrained execution and ensure compliance.",
-      "published_date": "2026-08-04",
-      "relevance_score": 23,
-      "primary_pillar": "human_centric_design",
+      "url": "https://www.c-sharpcorner.com/article/bulletproof-tool-calling-in-enterprise-langgraph-validation-rag-and-multi-age/",
+      "summary": "Master bulletproof tool calling in enterprise LangGraph with Pydantic validation, RAG, and multi-agent state for robust LLM applications.",
+      "published_date": "2026-08-05",
+      "relevance_score": 17,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code",
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "compliance",
-        "human-in-the-loop"
+        "multi-agent",
+        "RAG",
+        "llm application"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 2,
-      "title": "apowerb 0.1.8",
+      "title": "onem2m-mcp 0.3.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/apowerb/0.1.8/",
-      "summary": "Agentic framework for building and deploying AI agents with flexible orchestration, custom tool integration, RAG, Text-to-SQL, webhooks, and billing.",
-      "published_date": "2026-08-04",
+      "url": "https://pypi.org/project/onem2m-mcp/0.3.0/",
+      "summary": "Expose a oneM2M CSE to AI agents via the Model Context Protocol (MCP)",
+      "published_date": "2026-08-05",
       "relevance_score": 15,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -75,20 +73,39 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "orchestration",
-        "agentic",
-        "ai agent",
-        "RAG"
+        "model context protocol",
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 3,
-      "title": "isa-agent-sdk 0.5.17",
+      "title": "onem2m-mcp added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.5.17/",
+      "url": "https://pypi.org/project/onem2m-mcp/",
+      "summary": "Expose a oneM2M CSE to AI agents via the Model Context Protocol (MCP)",
+      "published_date": "2026-08-05",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 4,
+      "title": "isa-agent-sdk 0.5.25",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.5.25/",
       "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
-      "published_date": "2026-08-04",
+      "published_date": "2026-08-05",
       "relevance_score": 15,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -104,69 +121,130 @@
       "sentiment": "positive"
     },
     {
-      "rank": 4,
-      "title": "Zenity secures $125m Series C funding for AI agent governance",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/4a1c78dfd1252fc6",
-      "summary": "Zenity has completed a $125m Series C funding round, led by Norwest, to support its ambitions to expand globally and further develop its AI security and governance platform.\nAccording to Zenity, the investment follows increased demand from enterprises seeking…",
-      "published_date": "2026-08-04",
-      "relevance_score": 14,
+      "rank": 5,
+      "title": "isa-agent-sdk 0.5.26",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.5.26/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-08-05",
+      "relevance_score": 15,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai",
-        "governance_as_code"
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
         "ai agent",
-        "governance"
+        "human-in-the-loop"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
-      "rank": 5,
-      "title": "EU AI Act Transparency Rules Put Financial Institutions on Compliance Front Line",
-      "source": "pymnts.com",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/eu-ai-act-transparency-rules-put-financial-institutions-on-compliance-front-line/",
-      "summary": "The European Union’s landmark AI Act entered a new phase on Sunday (Aug. 2) as the regulation’s transparency provisions became enforceable. With that step, the compliance burden shifts from artificial intelligence (AI) developers alone to banks, insurers, pay…",
-      "published_date": "2026-08-03",
-      "relevance_score": 14,
+      "rank": 6,
+      "title": "isa-agent-sdk 0.5.23",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.5.23/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-08-05",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 7,
+      "title": "Trump meets AI giants, Senate Dems decry ‘unpredictable’ governance — and cheap Chinese AI looms as giant security risk",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/a5dd748ba2989fe6",
+      "summary": "As the White House meets Tuesday with AI companies to discuss a finished voluntary framework for testing frontier AI models’ cybersecurity risks, Senate Democrats are blaming the Trump administration’s lack of clarity on AI governance for fueling an increase …",
+      "published_date": "2026-08-04",
+      "relevance_score": 13,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "compliance",
-        "eu ai act"
+        "ai governance",
+        "governance"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "rank": 6,
-      "title": "IBM and The University of Chicago Demonstrate Quantum Advantage, Establishing Trusted Quantum Computation on Logical Circuits",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/ibm-and-the-university-of-chicago-demonstrate-quantum-advantage-establishing-trusted-quantum-computation-on-logical-circuits-302838890.html",
-      "summary": "Scientists used a new error correction method to encode 70 logical qubits and crack a classically intractable problem. The quantum computation finished in approximately 15 minutes — a task that would demand infeasible amounts of time with leading classical co…",
-      "published_date": "2026-07-30",
-      "relevance_score": 13,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
+      "rank": 8,
+      "title": "AI guardrails fall to simple claims and fragmented prompts, Cisco Talos finds",
+      "source": "4sysops.com",
+      "url": "https://4sysops.com/archives/ai-guardrails-fall-to-simple-claims-and-fragmented-prompts-cisco-talos-finds/",
+      "summary": "Cisco Talos researchers found that AI cyberattack safeguards often fail against basic social engineering rather than sophisticated jailbreaks. Claiming ownership of a target, invoking a bug bounty, or splitting an operation into harmless-looking tasks can be …",
+      "published_date": "2026-08-05",
+      "relevance_score": 12,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
       "matched_keywords": [
-        "university of chicago"
+        "guardrail"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 9,
+      "title": "Bypassing AI guardrails is so easy a script kiddie can do it",
+      "source": "Slashdot.org",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184859684",
+      "summary": "Claiming 'it's my server' was often enough to persuade models to help",
+      "published_date": "2026-08-05",
+      "relevance_score": 12,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 7,
-      "title": "National Australia Bank to stress-test security of its agentic AI platform",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/nab-agentic-ai-security-testing/",
-      "summary": "NAB's AI security stress-test highlights the urgent need for robust governance in autonomous AI systems to prevent regulatory and reputational risks.\nThe post National Australia Bank to stress-test security of its agentic AI platform appeared first on Crypto …",
-      "published_date": "2026-08-04",
+      "rank": 10,
+      "title": "Safebooks AI Achieves SOC 1 Certification, Advancing Auditability and Transparency in Agentic Finance",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/safebooks-ai-achieves-soc-1-certification-advancing-auditability-and-transparency-in-agentic-finance-302843490.html",
+      "summary": "Giving enterprise finance teams the confidence to deploy AI agents across critical financial processes. SAN FRANCISCO, Aug. 5, 2026 /PRNewswire/ -- Safebooks AI, the leading AI platform for enterprise finance teams, today announced the completion of its SOC 1…",
+      "published_date": "2026-08-05",
       "relevance_score": 11,
       "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 11,
+      "title": "aiactguard added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/aiactguard/",
+      "summary": "Drop-in EU AI Act compliance middleware for agentic AI frameworks — audit trails, risk classification, and human-approval gates in one decorator.",
+      "published_date": "2026-08-05",
+      "relevance_score": 11,
+      "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
         "governance_as_code"
@@ -174,77 +252,57 @@
       "institutional_signal": false,
       "matched_keywords": [
         "agentic",
+        "compliance",
+        "eu ai act"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 12,
+      "title": "m8tes 2.15.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/m8tes/2.15.0/",
+      "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
+      "published_date": "2026-08-05",
+      "relevance_score": 11,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "JPMorgan CEO Jamie Dimon pushes new effort to tackle AI risks across industries",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/jpmorgan-dimon-ai-risks-initiative/",
+      "summary": "Dimon's AI governance push could set industry standards, influencing financial sectors and crypto markets, emphasizing systemic risk management.\nThe post JPMorgan CEO Jamie Dimon pushes new effort to tackle AI risks across industries appeared first on Crypto …",
+      "published_date": "2026-08-05",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
         "governance"
       ],
       "sentiment": "negative"
     },
     {
-      "rank": 8,
-      "title": "provenrail 0.2.17",
+      "rank": 14,
+      "title": "lorekeep 0.15.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/provenrail/0.2.17/",
-      "summary": "Guardrails for AI agents, with a receipt. Blocks destructive tool calls (rm -rf, terraform destroy, force push, DROP TABLE, leaked keys) before they run, and signs every decision into an off-box, hash-chained record anyone can verify.",
-      "published_date": "2026-08-04",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "provenrail 0.2.16",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/provenrail/0.2.16/",
-      "summary": "Guardrails for AI agents, with a receipt. Blocks destructive tool calls (rm -rf, terraform destroy, force push, DROP TABLE, leaked keys) before they run, and signs every decision into an off-box, hash-chained record anyone can verify.",
-      "published_date": "2026-08-04",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 10,
-      "title": "provenrail 0.2.15",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/provenrail/0.2.15/",
-      "summary": "Guardrails for AI agents, with a receipt. Blocks destructive tool calls (rm -rf, terraform destroy, force push, DROP TABLE, leaked keys) before they run, and signs every decision into an off-box, hash-chained record anyone can verify.",
-      "published_date": "2026-08-04",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
-      "title": "macaroonnetwork-mcp 0.2.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/macaroonnetwork-mcp/0.2.0/",
-      "summary": "MCP client for Macaroon Network -- discover and buy from a live marketplace where AI agents pay per query in Bitcoin over Lightning.",
-      "published_date": "2026-08-04",
+      "url": "https://pypi.org/project/lorekeep/0.15.0/",
+      "summary": "Temporal knowledge graph for AI agents via MCP",
+      "published_date": "2026-08-05",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -258,84 +316,31 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 12,
-      "title": "How governance gaps are creating a shadow AI risk for finance leaders",
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/pro/how-governance-gaps-are-creating-a-shadow-ai-risk-for-finance-leaders",
-      "summary": "The risk, if left unaddressed introduces a significant shadow AI risk with consequences that far outweigh productivity gains",
-      "published_date": "2026-08-04",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 13,
-      "title": "Britain Says it Is Open to AI Regulation if Voluntary Safeguards Fall Short",
-      "source": "Insurance Journal",
-      "url": "https://www.insurancejournal.com/news/international/2026/08/04/880112.htm",
-      "summary": "Britain would consider regulating advanced AI models if its current voluntary system for testing them before deployment no longer proved sufficient to protect the public, AI Minister Kanishka Narayan told Reuters. Britain has favored a light-touch approach to…",
-      "published_date": "2026-08-04",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai regulation"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 14,
-      "title": "What Is Code Governance? Enterprise Guide for Modern Software",
-      "source": "C-sharpcorner.com",
-      "url": "https://www.c-sharpcorner.com/article/what-is-code-governance-enterprise-guide-for-modern-software/",
-      "summary": "Learn what Code Governance is, why enterprises need it, key frameworks, best practices, AI code governance, and software risk management strategies.",
-      "published_date": "2026-08-04",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "governance"
-      ],
-      "sentiment": "negative"
-    },
-    {
       "rank": 15,
-      "title": "AI at Work Is a Global Governance Stress Test",
-      "source": "Columbia.edu",
-      "url": "https://clsbluesky.law.columbia.edu/2026/08/04/ai-at-work-is-a-global-governance-stress-test/",
-      "summary": "Artificial intelligence at work is not merely a productivity story; it is a governance stress test. Unlike earlier waves of automation, which displaced routine, codifiable tasks, contemporary AI reaches into nonroutine, judgment-heavy work—drafting, summarizi…",
-      "published_date": "2026-08-04",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
+      "title": "hol-guard 2.2.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/hol-guard/2.2.2/",
+      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+      "published_date": "2026-08-05",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "governance"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 16,
-      "title": "IM 882: AI Rubberz? - From Fart Apps to AI Agents The Journey of a Tech Rulemaker",
-      "source": "Twit.tv",
-      "url": "https://twit.tv/shows/intelligent-machines/episodes/882",
-      "summary": "Meet the insider who wrote the App Store's rules and now battles AI's wildest frontier: protecting identities from deepfake abuse and digital piracy. Discover why the fight for online authenticity just got a whole lot messier.<ul> \n<li>OpenAI reportedly finds…",
-      "published_date": "2026-08-04",
+      "title": "A debate is brewing over the risks and rewards of serving ads to AI agents",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/dcc8db2a00f7cc62",
+      "summary": "John Keeble/Getty Images\nA version of this post appears in the CMO Insider newsletter.\nSign up for Business Insider's weekly marketing newsletter.\nAds designed to influence AI agents rather than human consumers are emerging as a new marketing channel. They're…",
+      "published_date": "2026-08-05",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -345,14 +350,14 @@
       "matched_keywords": [
         "ai agent"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 17,
-      "title": "Bacolod: Negros lawmaker pushes AI regulation to protect workers",
-      "source": "Rpnradio.com",
-      "url": "https://rpnradio.com/bacolod-negros-lawmaker-pushes-ai-regulation-to-protect-workers/",
-      "summary": "BACOLOD CITY — Negros Occidental 3rd District Rep. Javier Miguel Benitez called for a Philippine artificial intelligence policy that promotes innovation while protecting workers, particularly those in the creative economy. President Ferdinand Marcos Jr. said …",
+      "title": "Trump meets AI giants, Senate Dems decry ‘unpredictable’ governance—and cheap Chinese AI looms as giant security risk",
+      "source": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/technology/ai/articles/trump-meets-ai-giants-senate-212432296.html",
+      "summary": "While Democrats say the lack of clear rules will lead American firms to choose Chinese AI companies over domestic ones, experts say it’s the cost.",
       "published_date": "2026-08-04",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
@@ -361,17 +366,17 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai regulation"
+        "governance"
       ],
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
       "rank": 18,
-      "title": "A Patchwork Approach to AI Regulation Is Best—for Now",
-      "source": "Foreign Policy",
-      "url": "http://foreignpolicy.com/2026/08/03/artificial-intelligence-ai-regulation-safety-california-new-york-pope-leo/",
-      "summary": "Many want a global treaty to govern AI risk. California and New York may already be writing it.",
-      "published_date": "2026-08-03",
+      "title": "Trump meets AI giants, Senate Dems decry ‘unpredictable’ governance — and cheap Chinese AI looms as giant security risk",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/08/04/trump-ai-regulation-china-national-security/",
+      "summary": "While Democrats say the lack of clear rules will lead to American firms choosing Chinese AI companies over domestic ones, experts say it's the cost.",
+      "published_date": "2026-08-04",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -379,44 +384,43 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai regulation"
+        "governance"
       ],
       "sentiment": "negative"
     },
     {
       "rank": 19,
-      "title": "Darktrace Advances Behavioral Security to Protect AI Agents, People and Infrastructure",
-      "source": "GlobeNewswire",
-      "url": "https://www.globenewswire.com/news-release/2026/08/03/3337816/0/en/Darktrace-Advances-Behavioral-Security-to-Protect-AI-Agents-People-and-Infrastructure.html",
-      "summary": "The Darktrace Behavioral Defense Platform delivers unified visibility, continuous behavioral monitoring, and autonomous response across AI, people, and infrastructure, enabling organizations to secure what AI can do. The Darktrace Behavioral Defense Platform …",
-      "published_date": "2026-08-03",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 20,
-      "title": "Britain signals willingness to regulate AI if voluntary safeguards fall short",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/uk-ai-regulation-voluntary-safeguards/",
-      "summary": "The UK's potential shift to binding AI regulation could significantly impact tech sectors, prompting stricter compliance and transparency demands.\nThe post Britain signals willingness to regulate AI if voluntary safeguards fall short appeared first on Crypto …",
-      "published_date": "2026-08-03",
-      "relevance_score": 8,
+      "title": "RBI weighs AI playbook for lenders as they ramp up tech use",
+      "source": "Livemint",
+      "url": "https://www.livemint.com/industry/banking/rbi-ai-guidelines-banking-artificial-intelligence-regulations-india-11785837336033.html",
+      "summary": "RBI is discussing comprehensive AI guidelines for banks and non-bank lenders, signalling a shift from issue-specific norms to a broader regulatory framework. The move aims to provide clearer guardrails as financial institutions accelerate AI adoption.",
+      "published_date": "2026-08-05",
+      "relevance_score": 7,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "compliance",
-        "ai regulation"
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 20,
+      "title": "What Happens When AI Policy Meets a Real Classroom?",
+      "source": "Edsurge.com",
+      "url": "https://edsurge.com/news/what-happens-when-ai-policy-meets-a-real-classroom",
+      "summary": "One national study, one local leader, and a reality check on how schools are really regulating AI.",
+      "published_date": "2026-08-05",
+      "relevance_score": 6,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai policy"
       ],
       "sentiment": "neutral"
     }
