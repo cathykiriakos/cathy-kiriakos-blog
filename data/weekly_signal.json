@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T10:06:49.247Z",
+  "generated_at": "2026-08-08T09:44:16.918Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 12
+      "item_count": 17
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 11
+      "item_count": 5
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 3
+      "item_count": 2
     }
   ],
   "institutional_signal": {
@@ -41,51 +41,32 @@
   "items": [
     {
       "rank": 1,
-      "title": "The AI Governance Best Practices Every Small Business Owner Needs to Know",
-      "source": "Entrepreneur",
-      "url": "https://www.entrepreneur.com/building-a-business/the-ai-governance-best-practices-every-small-business-owner-needs-to-know",
-      "summary": "AI can transform your small business, but without proper governance, it can also create costly compliance risks.",
-      "published_date": "2026-08-05",
-      "relevance_score": 21,
+      "title": "Google paper reveals AI agents can rationally cooperate through similarity inference",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/ai-agents-cooperate-similarity-inference/",
+      "summary": "AI's ability to cooperate through similarity inference challenges traditional game theory, impacting AI governance and regulatory frameworks.\nThe post Google paper reveals AI agents can rationally cooperate through similarity inference appeared first on Crypt…",
+      "published_date": "2026-08-07",
+      "relevance_score": 16,
       "primary_pillar": "governance_as_code",
       "pillars": [
+        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "ai agent",
         "ai governance",
-        "governance",
-        "compliance"
+        "governance"
       ],
       "sentiment": "negative"
     },
     {
       "rank": 2,
-      "title": "AI models from Anthropic, OpenAI act independently in tests: AI Security Institute",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/ai-models-from-anthropic-openai-act-independently-in-tests-ai-security-institute/",
-      "summary": "The report highlights growing concerns over AI governance and reliability, potentially affecting market confidence and investment strategies.\nThe post AI models from Anthropic, OpenAI act independently in tests: AI Security Institute appeared first on Crypto …",
-      "published_date": "2026-08-06",
-      "relevance_score": 16,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance",
-        "eu ai act"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 3,
-      "title": "apowerb 0.1.15",
+      "title": "apowerb 0.1.19",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/apowerb/0.1.15/",
+      "url": "https://pypi.org/project/apowerb/0.1.19/",
       "summary": "Agentic framework for building and deploying AI agents with flexible orchestration, custom tool integration, RAG, Text-to-SQL, webhooks, and billing.",
-      "published_date": "2026-08-06",
+      "published_date": "2026-08-07",
       "relevance_score": 15,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -101,79 +82,148 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 4,
-      "title": "isa-agent-sdk 0.5.29",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.5.29/",
-      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "rank": 3,
+      "title": "Claude and Microsoft 365 Copilot AI Agents Named Champions in Info-Tech Research Group's 2026 Agentic AI Platforms Data Quadrant",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/claude-and-microsoft-365-copilot-ai-agents-named-champions-in-info-tech-research-group-s-2026-agentic-ai-platforms-data-quadrant-832627123.html",
+      "summary": "Based on verified end-user feedback collected through Info-Tech Research Group's SoftwareReviews platform, the 2026 Agentic AI Platforms Data Quadrant Report evaluates platforms designed to support agent-driven workflows, enterprise integration, and AI govern…",
       "published_date": "2026-08-06",
-      "relevance_score": 15,
+      "relevance_score": 14,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "human_centric_design"
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 4,
+      "title": "Show HN: AgisHub – pay-per-call tools for AI agents over x402 (USDC on Base)",
+      "source": "Agishub.com",
+      "url": "https://api.agishub.com/try",
+      "summary": "Show HN: AgisHub – 30 tools for AI agents, free via MCP, paid via x402\n\nComments URL: https://news.ycombinator.com/item?id=49207617\nPoints: 2\n# Comments: 0",
+      "published_date": "2026-08-07",
+      "relevance_score": 12,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
         "MCP",
-        "ai agent",
-        "human-in-the-loop"
+        "ai agent"
       ],
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "rank": 5,
-      "title": "ceadly 0.3.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/ceadly/0.3.0/",
-      "summary": "Authorization and human-in-the-loop governance for enterprise AI agents.",
-      "published_date": "2026-08-06",
-      "relevance_score": 14,
-      "primary_pillar": "human_centric_design",
+      "title": "「Claude」シリーズ第5世代のプロンプトやモデルの選び方を図解した書籍が無償公開／Anthropicの公式ドキュメント2本を日本語で図解した『Claude 5世代 マスターガイド』【Book Watch/ニュース】",
+      "source": "Impress.co.jp",
+      "url": "https://forest.watch.impress.co.jp/docs/bookwatch/news/2131651.html",
+      "summary": "エンタープライズ向けにAIエージェント導入支援やAIエージェント作成アシスタント「connon」の運営を行っている（株）Renewerは、Anthropic社の公式ドキュメント『The new rules of context engineering for Claude 5 generation models』と『Claude models explained: choosing the best model for your use case』をもとにした解説書『Claude 5世代 マスターガイド』を無…",
+      "published_date": "2026-08-07",
+      "relevance_score": 12,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code",
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "governance",
-        "human-in-the-loop"
+        "context engine",
+        "context engineering"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 6,
-      "title": "ceadly 0.2.0",
+      "title": "naas-abi 2.52.3",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/ceadly/0.2.0/",
-      "summary": "Authorization and human-in-the-loop governance for enterprise AI agents.",
-      "published_date": "2026-08-06",
-      "relevance_score": 14,
-      "primary_pillar": "human_centric_design",
+      "url": "https://pypi.org/project/naas-abi/2.52.3/",
+      "summary": "Multi-agent orchestrator and knowledge graph management system for AI orchestration, providing comprehensive coordination of specialized AI agents and semantic data management capabilities",
+      "published_date": "2026-08-07",
+      "relevance_score": 12,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code",
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "orchestration",
         "ai agent",
-        "governance",
-        "human-in-the-loop"
+        "multi-agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 7,
-      "title": "Building trusted agentic AI in financial services: From data to autonomous action",
-      "source": "Elastic.co",
-      "url": "https://www.elastic.co/blog/building-trusted-agentic-ai-in-financial-services",
-      "summary": "Learn why trusted context — not just powerful AI models — is the foundation for scaling agentic AI in financial services. Discover how unified data, observability, enterprise search, and governance enable trusted autonomous operations.",
+      "title": "Route Amazon Bedrock Guardrails interventions to Amazon Security Lake",
+      "source": "Amazon.com",
+      "url": "https://aws.amazon.com/blogs/security/route-amazon-bedrock-guardrails-interventions-to-amazon-security-lake/",
+      "summary": "Security teams investigating AI-related incidents need guardrail intervention data alongside their existing security telemetry. Routing Amazon Bedrock Guardrails violations to Amazon Security Lake makes this possible. With this integration, you can query guar…",
       "published_date": "2026-08-06",
+      "relevance_score": 12,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "Rootly Drops Small PR Rule as Agentic AI Changes Code Review Economics",
+      "source": "InfoQ.com",
+      "url": "https://www.infoq.com/news/2026/08/rootly-small-pr-agentic-ai/",
+      "summary": "Incident management platform provider Rootly has published an account of its decision to drop its long-standing small pull request rule, arguing that the practice no longer serves its purpose now that AI agents generate most of its code. The company describes…",
+      "published_date": "2026-08-07",
       "relevance_score": 11,
       "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 9,
+      "title": "What the first year of EU AI Act transparency enforcement could look like",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/08/07/edwin-weijdema-veeam-eu-ai-act-transparency/",
+      "summary": "In this Help Net Security interview, Edwin Weijdema, Field CTO at Veeam, answers questions on Article 50 of the EU AI Act and what the first year of enforcement might bring. He explains why corrective orders will likely outnumber large fines, when an AI agent…",
+      "published_date": "2026-08-07",
+      "relevance_score": 11,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "eu ai act"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "As Enterprises Rush to Autonomous Security, New Omdia Market Update Points to Practitioner Governance as the Differentiator",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/as-enterprises-rush-to-autonomous-security-new-omdia-market-update-points-to-practitioner-governance-as-the-differentiator-302845534.html",
+      "summary": "A 2026 market update to Omdia's technical validation examines managed agentic SOC delivery on Google Security Operations, finding that governance, not autonomy, is what separates measurable outcomes from AI hype. OVERLAND PARK, Kan., Aug. 6, 2026 /PRNewswire/…",
+      "published_date": "2026-08-06",
+      "relevance_score": 11,
+      "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
         "governance_as_code"
@@ -183,53 +233,34 @@
         "agentic",
         "governance"
       ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 8,
-      "title": "keel-sdk 0.4.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/keel-sdk/0.4.1/",
-      "summary": "Drop-in replacements for OpenAI, Anthropic, Google, xAI, and Meta SDKs with built-in AI governance. One import change adds permit-first policy enforcement, budget controls, audit trails, and usage reporting to every AI call.",
-      "published_date": "2026-08-05",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
       "sentiment": "neutral"
     },
     {
-      "rank": 9,
-      "title": "keel-sdk 0.4.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/keel-sdk/0.4.0/",
-      "summary": "Drop-in replacements for OpenAI, Anthropic, Google, xAI, and Meta SDKs with built-in AI governance. One import change adds permit-first policy enforcement, budget controls, audit trails, and usage reporting to every AI call.",
-      "published_date": "2026-08-05",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 10,
-      "title": "clio-kit 2.7.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/clio-kit/2.7.0/",
-      "summary": "CLIO Kit - MCP Servers, Clients, and Tools for AI Agents",
+      "rank": 11,
+      "title": "What are Agentic Workflows?",
+      "source": "Databricks.com",
+      "url": "https://www.databricks.com/blog/agentic-workflows",
+      "summary": "* Agentic workflows are AI-driven processes where autonomous agents plan, execute, and refine multi-step tasks through continuous loops of reasoning, tool use, and feedback.\r\n* Unlike traditional automation, agentic workflows adapt at runtime, selecting tools…",
       "published_date": "2026-08-06",
+      "relevance_score": 10,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "tool use"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 12,
+      "title": "lorekeep 0.21.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/lorekeep/0.21.0/",
+      "summary": "Temporal knowledge graph for AI agents via MCP",
+      "published_date": "2026-08-07",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -243,11 +274,87 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 11,
-      "title": "Synapse - dashboard for AI agents built with the Laravel AI SDK",
-      "source": "Github.com",
-      "url": "https://github.com/RedberryProducts/synapse/releases/tag/v0.1.0?utm_source=laravelnews&utm_medium=link&utm_campaign=laravelnews",
-      "summary": "Synapse v0.1.0\nWe're releasing the first version of Synapse, a development dashboard for AI agents built with the Laravel AI SDK. Install it, open a URL, and start working with the agents already i...",
+      "rank": 13,
+      "title": "browser-runtime-mcp 0.2.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/browser-runtime-mcp/0.2.0/",
+      "summary": "MCP server that gives AI agents real-time access to browser runtime errors, console logs, and page diagnostics via a Chrome Extension.",
+      "published_date": "2026-08-07",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "glassflow-rius 0.8.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/glassflow-rius/0.8.2/",
+      "summary": "GlassFlow Rius SDK — OpenTelemetry-native tracing for AI agents and LLM applications.",
+      "published_date": "2026-08-07",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "llm application"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "OSL Group Launches OSL AgentPay — Multi-Stablecoin Payment Infrastructure for AI Agents",
+      "source": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/08/07/3340938/0/en/osl-group-launches-osl-agentpay-multi-stablecoin-payment-infrastructure-for-ai-agents.html",
+      "summary": "OSL AgentPay enables developer AI agents to make autonomous intent-based payments via stablecoins, empowering the rapidly growing AI-driven economic activity worldwide.",
+      "published_date": "2026-08-07",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "Keepit AI Truth Cloud protects the data behind enterprise AI",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/08/07/keepit-ai-truth-cloud-data-protection/",
+      "summary": "Keepit announced AI Truth Cloud, transforming backup from a compliance requirement into the strategically valuable data asset an organization can hold. As AI agents take on business-critical decisions, AI Truth Cloud positions Keepit as the sovereign source o…",
+      "published_date": "2026-08-07",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "Trump’s tech ties come under bipartisan fire following limited response to AI agents going rogue",
+      "source": "The Jerusalem Post",
+      "url": "https://www.jpost.com/business-and-innovation/all-news/article-904803",
+      "summary": "After AI agents from OpenAI and Anthropic went rogue and hacked other companies, the Trump administration's response is now under the lens of bipartisan scrutiny.",
       "published_date": "2026-08-06",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
@@ -261,29 +368,47 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 12,
-      "title": "Nvidia is quietly staffing a new AI safety team as it doubles down on open models",
-      "source": "Business Insider",
-      "url": "https://www.businessinsider.com/nvidia-staffs-new-ai-safety-team-push-for-open-models-2026-8#article",
-      "summary": "Nvidia is staffing a new AI safety team, signaling a bigger investment in secure AI as it doubles down on open-weight models.",
-      "published_date": "2026-08-06",
+      "rank": 18,
+      "title": "extralit-server 0.7.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/extralit-server/0.7.0/",
+      "summary": "Open-source tool for accurate & fast scientific literature data extraction with LLM and human-in-the-loop.",
+      "published_date": "2026-08-07",
       "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "governance_as_code"
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai safety"
+        "human-in-the-loop"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 13,
-      "title": "IIFL Capital partners with Flytxt to leverage Agentic AI for sustainable AUM growth",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/iifl-capital-partners-with-flytxt-to-leverage-agentic-ai-for-sustainable-aum-growth-302843749.html",
-      "summary": "DUBAI, UAE, Aug. 6, 2026 /PRNewswire/ -- Flytxt, a leading provider of Enterprise AI solutions for Marketplace Optimisation, today announced that IIFL Capital Services Limited, a full-service investment and wealth management firm, has adopted its award winnin…",
+      "rank": 19,
+      "title": "extralit 0.7.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/extralit/0.7.0/",
+      "summary": "Open-source tool for accurate & fast scientific literature data extraction with LLM and human-in-the-loop.",
+      "published_date": "2026-08-07",
+      "relevance_score": 8,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 20,
+      "title": "Agentic AI security tests enterprise defenses as scale outpaces strategy",
+      "source": "SiliconANGLE News",
+      "url": "https://siliconangle.com/2026/08/06/agentic-ai-security-requires-human-oversight-blackhat/",
+      "summary": "Cybersecurity leaders are confronting an inflection point as agentic AI security becomes the defining challenge of this year’s threat landscape, with attackers and defenders racing to harness autonomous tools at unprecedented speed and scale. That urgency was…",
       "published_date": "2026-08-06",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
@@ -294,134 +419,7 @@
       "matched_keywords": [
         "agentic"
       ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 14,
-      "title": "Karnataka, Anthropic discuss AI partnership for governance, skilling, & deeptech",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/karnataka-anthropic-discuss-ai-partnership-for-governance-skilling-deeptech/articleshow/132995883.cms",
-      "summary": "Karnataka is discussing a long-term partnership with Anthropic for AI adoption. This collaboration aims to boost AI across governance, education, and healthcare sectors. Discussions focused on deploying AI solutions and ensuring responsible data privacy. The …",
-      "published_date": "2026-08-06",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "governance"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 15,
-      "title": "AI Agents Can’t Read Your Pricing. That’s Becoming A Revenue Problem.",
-      "source": "Forrester.com",
-      "url": "https://www.forrester.com/blogs/ai-agents-cant-read-your-pricing-thats-becoming-a-revenue-problem/",
-      "summary": "By Lisa Singer and Beth Caplow For years, B2B software companies obsessed over discoverability. Could buyers find their website? Could they rank in search? Could analysts, review sites, and influencers tell the right story? But a new challenge is emerging: Ca…",
-      "published_date": "2026-08-05",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
       "sentiment": "negative"
-    },
-    {
-      "rank": 16,
-      "title": "AI Agents Can’t Read Your Pricing, And It’s Becoming A Revenue Problem",
-      "source": "Forrester.com",
-      "url": "https://www.forrester.com/blogs/ai-agents-cant-read-your-pricing-and-its-becoming-a-revenue-problem/",
-      "summary": "For years, B2B software companies obsessed over discoverability. Could buyers find their website? Could they rank in search? Could analysts, review sites, and influencers tell the right story? But a new challenge is emerging: Can AI buying agents find and und…",
-      "published_date": "2026-08-05",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 17,
-      "title": "Why human approval is not enough: The growing need for AI agent observability",
-      "source": "Digital Journal",
-      "url": "https://www.digitaljournal.com/article/why-human-approval-is-not-enough-the-growing-need-for-ai-agent-observability/",
-      "summary": "As AI agents gain greater autonomy, organizations should ask a simple question before implementing approval checkpoints: Can the reviewer understand why the agent reached its conclusion?\nThe post Why human approval is not enough: The growing need for AI agent…",
-      "published_date": "2026-08-05",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 18,
-      "title": "AI adoption in finance hits 76%, governance and AI-centric operating models key to future edge: KPMG",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-adoption-in-finance-hits-76-governance-and-ai-centric-operating-models-key-to-future-edge-kpmg/articleshow/132989233.cms",
-      "summary": "Artificial intelligence (AI) has reached an inflection point in finance, with 76% of organisations already using it in financial planning. However, while adoption is outpacing organisations' ability to scale AI across the enterprise, the next competitive edge…",
-      "published_date": "2026-08-06",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 19,
-      "title": "AI Code Audits Explained: How to Review AI-Generated Code Before Production",
-      "source": "C-sharpcorner.com",
-      "url": "https://www.c-sharpcorner.com/article/ai-code-audits-explained-how-to-review-ai-generated-code-before-production/",
-      "summary": "Learn how enterprise AI code audits evaluate AI-generated code for security, governance, software provenance, compliance, and production readiness.",
-      "published_date": "2026-08-06",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "governance",
-        "compliance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 20,
-      "title": "neuromem 0.23.2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/neuromem/0.23.2/",
-      "summary": "Memory management framework for AI agents",
-      "published_date": "2026-08-06",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
     }
   ]
 }
