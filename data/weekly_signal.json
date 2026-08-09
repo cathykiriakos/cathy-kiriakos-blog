@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T09:44:16.918Z",
+  "generated_at": "2026-08-09T09:45:38.143Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -13,7 +13,7 @@
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 5
+      "item_count": 4
     },
     {
       "id": "human_centric_design",
@@ -41,12 +41,73 @@
   "items": [
     {
       "rank": 1,
-      "title": "Google paper reveals AI agents can rationally cooperate through similarity inference",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/ai-agents-cooperate-similarity-inference/",
-      "summary": "AI's ability to cooperate through similarity inference challenges traditional game theory, impacting AI governance and regulatory frameworks.\nThe post Google paper reveals AI agents can rationally cooperate through similarity inference appeared first on Crypt…",
-      "published_date": "2026-08-07",
-      "relevance_score": 16,
+      "title": "isa-agent-sdk 0.5.37",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.5.37/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-08-08",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 2,
+      "title": "isa-agent-sdk 0.5.36",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.5.36/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-08-08",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 3,
+      "title": "Show HN: Salestrics – An open MCP server and CRM for AI-native revenue teams",
+      "source": "Salestrics.com",
+      "url": "https://salestrics.com/",
+      "summary": "Hey HN, I’m Austin, founder of Salestrics (salestrics.com).The Problem: > Most AI agents today are trapped in chat windows. While models are smart enough to run complex multi-step workflows, giving them production access to business context (CRM, support, bil…",
+      "published_date": "2026-08-08",
+      "relevance_score": 13,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 4,
+      "title": "agent-runtime-governance 0.9.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/agent-runtime-governance/0.9.1/",
+      "summary": "Action Commit Safety for AI agents: exact-call approval, UNKNOWN outcome recording, idempotent execution, and signed audit.",
+      "published_date": "2026-08-08",
+      "relevance_score": 11,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
@@ -55,59 +116,75 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent",
-        "ai governance",
         "governance"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "rank": 2,
-      "title": "apowerb 0.1.19",
+      "rank": 5,
+      "title": "Four AI Escapes Just Redefined “Responsible AI”",
+      "source": "Forrester.com",
+      "url": "https://www.forrester.com/blogs/four-ai-escapes-just-redefined-responsible-ai/",
+      "summary": "In nine days this month, OpenAI and Anthropic disclosed that their own models escaped safety evaluations and reached production systems at four other companies. No model malfunctioned. The governance did. Responsible AI now has to govern what agents do, not o…",
+      "published_date": "2026-08-07",
+      "relevance_score": 11,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "governance",
+        "responsible ai"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 6,
+      "title": "What the EU AI Act Reveals About AI ROI",
+      "source": "CMSWire",
+      "url": "https://www.cmswire.com/customer-experience/what-the-eu-ai-act-reveals-about-ai-roi/",
+      "summary": "The organizations generating the greatest value from AI aren't deploying more tools. They're building the governance foundations that allow AI to scale.\nContinue reading...",
+      "published_date": "2026-08-07",
+      "relevance_score": 11,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "governance",
+        "eu ai act"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 7,
+      "title": "EU, California Converge on AI Transparency Rules, Shifting Focus to Enterprise Governance",
+      "source": "pymnts.com",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/eu-california-converge-on-ai-transparency-rules-shifting-focus-to-enterprise-governance/",
+      "summary": "A striking convergence is emerging between two of the world’s most influential artificial intelligence (AI) regulatory regimes. Although developed independently and under different legal frameworks, the European Union’s AI Act and California’s AI Transparency…",
+      "published_date": "2026-08-07",
+      "relevance_score": 11,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "governance",
+        "eu ai act"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "lorekeep 0.24.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/apowerb/0.1.19/",
-      "summary": "Agentic framework for building and deploying AI agents with flexible orchestration, custom tool integration, RAG, Text-to-SQL, webhooks, and billing.",
-      "published_date": "2026-08-07",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "orchestration",
-        "agentic",
-        "ai agent",
-        "RAG"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 3,
-      "title": "Claude and Microsoft 365 Copilot AI Agents Named Champions in Info-Tech Research Group's 2026 Agentic AI Platforms Data Quadrant",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/claude-and-microsoft-365-copilot-ai-agents-named-champions-in-info-tech-research-group-s-2026-agentic-ai-platforms-data-quadrant-832627123.html",
-      "summary": "Based on verified end-user feedback collected through Info-Tech Research Group's SoftwareReviews platform, the 2026 Agentic AI Platforms Data Quadrant Report evaluates platforms designed to support agent-driven workflows, enterprise integration, and AI govern…",
-      "published_date": "2026-08-06",
-      "relevance_score": 14,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 4,
-      "title": "Show HN: AgisHub – pay-per-call tools for AI agents over x402 (USDC on Base)",
-      "source": "Agishub.com",
-      "url": "https://api.agishub.com/try",
-      "summary": "Show HN: AgisHub – 30 tools for AI agents, free via MCP, paid via x402\n\nComments URL: https://news.ycombinator.com/item?id=49207617\nPoints: 2\n# Comments: 0",
-      "published_date": "2026-08-07",
-      "relevance_score": 12,
+      "url": "https://pypi.org/project/lorekeep/0.24.1/",
+      "summary": "Temporal knowledge graph for AI agents via MCP",
+      "published_date": "2026-08-08",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -120,147 +197,69 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 5,
-      "title": "「Claude」シリーズ第5世代のプロンプトやモデルの選び方を図解した書籍が無償公開／Anthropicの公式ドキュメント2本を日本語で図解した『Claude 5世代 マスターガイド』【Book Watch/ニュース】",
-      "source": "Impress.co.jp",
-      "url": "https://forest.watch.impress.co.jp/docs/bookwatch/news/2131651.html",
-      "summary": "エンタープライズ向けにAIエージェント導入支援やAIエージェント作成アシスタント「connon」の運営を行っている（株）Renewerは、Anthropic社の公式ドキュメント『The new rules of context engineering for Claude 5 generation models』と『Claude models explained: choosing the best model for your use case』をもとにした解説書『Claude 5世代 マスターガイド』を無…",
-      "published_date": "2026-08-07",
-      "relevance_score": 12,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "context engine",
-        "context engineering"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 6,
-      "title": "naas-abi 2.52.3",
+      "rank": 9,
+      "title": "sentinel-prox 0.1.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/naas-abi/2.52.3/",
-      "summary": "Multi-agent orchestrator and knowledge graph management system for AI orchestration, providing comprehensive coordination of specialized AI agents and semantic data management capabilities",
-      "published_date": "2026-08-07",
-      "relevance_score": 12,
+      "url": "https://pypi.org/project/sentinel-prox/0.1.1/",
+      "summary": "Provenance-aware security proxy for AI agents: block prompt-injection actions at the MCP tool boundary.",
+      "published_date": "2026-08-08",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "orchestration",
-        "ai agent",
-        "multi-agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
-      "title": "Route Amazon Bedrock Guardrails interventions to Amazon Security Lake",
-      "source": "Amazon.com",
-      "url": "https://aws.amazon.com/blogs/security/route-amazon-bedrock-guardrails-interventions-to-amazon-security-lake/",
-      "summary": "Security teams investigating AI-related incidents need guardrail intervention data alongside their existing security telemetry. Routing Amazon Bedrock Guardrails violations to Amazon Security Lake makes this possible. With this integration, you can query guar…",
-      "published_date": "2026-08-06",
-      "relevance_score": 12,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
-      "title": "Rootly Drops Small PR Rule as Agentic AI Changes Code Review Economics",
-      "source": "InfoQ.com",
-      "url": "https://www.infoq.com/news/2026/08/rootly-small-pr-agentic-ai/",
-      "summary": "Incident management platform provider Rootly has published an account of its decision to drop its long-standing small pull request rule, arguing that the practice no longer serves its purpose now that AI agents generate most of its code. The company describes…",
-      "published_date": "2026-08-07",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 9,
-      "title": "What the first year of EU AI Act transparency enforcement could look like",
-      "source": "Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/08/07/edwin-weijdema-veeam-eu-ai-act-transparency/",
-      "summary": "In this Help Net Security interview, Edwin Weijdema, Field CTO at Veeam, answers questions on Article 50 of the EU AI Act and what the first year of enforcement might bring. He explains why corrective orders will likely outnumber large fines, when an AI agent…",
-      "published_date": "2026-08-07",
-      "relevance_score": 11,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "eu ai act"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 10,
-      "title": "As Enterprises Rush to Autonomous Security, New Omdia Market Update Points to Practitioner Governance as the Differentiator",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/as-enterprises-rush-to-autonomous-security-new-omdia-market-update-points-to-practitioner-governance-as-the-differentiator-302845534.html",
-      "summary": "A 2026 market update to Omdia's technical validation examines managed agentic SOC delivery on Google Security Operations, finding that governance, not autonomy, is what separates measurable outcomes from AI hype. OVERLAND PARK, Kan., Aug. 6, 2026 /PRNewswire/…",
-      "published_date": "2026-08-06",
-      "relevance_score": 11,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
-      "title": "What are Agentic Workflows?",
-      "source": "Databricks.com",
-      "url": "https://www.databricks.com/blog/agentic-workflows",
-      "summary": "* Agentic workflows are AI-driven processes where autonomous agents plan, execute, and refine multi-step tasks through continuous loops of reasoning, tool use, and feedback.\r\n* Unlike traditional automation, agentic workflows adapt at runtime, selecting tools…",
-      "published_date": "2026-08-06",
-      "relevance_score": 10,
+      "title": "lorekeep 0.23.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/lorekeep/0.23.2/",
+      "summary": "Temporal knowledge graph for AI agents via MCP",
+      "published_date": "2026-08-08",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
-        "tool use"
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 11,
+      "title": "lorekeep 0.23.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/lorekeep/0.23.1/",
+      "summary": "Temporal knowledge graph for AI agents via MCP",
+      "published_date": "2026-08-08",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "lorekeep 0.21.0",
+      "title": "nodriver-mcp 2.0.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/lorekeep/0.21.0/",
-      "summary": "Temporal knowledge graph for AI agents via MCP",
-      "published_date": "2026-08-07",
+      "url": "https://pypi.org/project/nodriver-mcp/2.0.1/",
+      "summary": "Undetected Chrome automation MCP server powered by nodriver — a stealth, anti-bot-resistant alternative to chrome-devtools-mcp for Claude, Cursor and other AI agents",
+      "published_date": "2026-08-08",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -275,11 +274,11 @@
     },
     {
       "rank": 13,
-      "title": "browser-runtime-mcp 0.2.0",
+      "title": "lorekeep 0.23.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/browser-runtime-mcp/0.2.0/",
-      "summary": "MCP server that gives AI agents real-time access to browser runtime errors, console logs, and page diagnostics via a Chrome Extension.",
-      "published_date": "2026-08-07",
+      "url": "https://pypi.org/project/lorekeep/0.23.0/",
+      "summary": "Temporal knowledge graph for AI agents via MCP",
+      "published_date": "2026-08-08",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -294,11 +293,11 @@
     },
     {
       "rank": 14,
-      "title": "glassflow-rius 0.8.2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/glassflow-rius/0.8.2/",
-      "summary": "GlassFlow Rius SDK — OpenTelemetry-native tracing for AI agents and LLM applications.",
-      "published_date": "2026-08-07",
+      "title": "Presentation: Keeping ChatGPT Fast as AI Development Accelerates",
+      "source": "InfoQ.com",
+      "url": "https://www.infoq.com/presentations/openai-performance-engineering-agentic-coding/",
+      "summary": "Martin Spier explains how agentic workflows dramatically increase code change volume at OpenAI. He discusses the hidden systemic performance costs of rapid shipping beyond GPUs, and shares how deploying always-on AI agents automates profiling, regression dete…",
+      "published_date": "2026-08-08",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -306,19 +305,19 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "llm application"
+        "agentic",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 15,
-      "title": "OSL Group Launches OSL AgentPay — Multi-Stablecoin Payment Infrastructure for AI Agents",
-      "source": "GlobeNewswire",
-      "url": "https://www.globenewswire.com/news-release/2026/08/07/3340938/0/en/osl-group-launches-osl-agentpay-multi-stablecoin-payment-infrastructure-for-ai-agents.html",
-      "summary": "OSL AgentPay enables developer AI agents to make autonomous intent-based payments via stablecoins, empowering the rapidly growing AI-driven economic activity worldwide.",
-      "published_date": "2026-08-07",
-      "relevance_score": 8,
+      "title": "sage-agent-sdk 11.18.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/sage-agent-sdk/11.18.2/",
+      "summary": "Python SDK for SAGE — Sovereign Agent Governed Experience. Persistent, consensus-validated memory for AI agents.",
+      "published_date": "2026-08-08",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -331,32 +330,30 @@
     },
     {
       "rank": 16,
-      "title": "Keepit AI Truth Cloud protects the data behind enterprise AI",
-      "source": "Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/08/07/keepit-ai-truth-cloud-data-protection/",
-      "summary": "Keepit announced AI Truth Cloud, transforming backup from a compliance requirement into the strategically valuable data asset an organization can hold. As AI agents take on business-critical decisions, AI Truth Cloud positions Keepit as the sovereign source o…",
-      "published_date": "2026-08-07",
-      "relevance_score": 8,
+      "title": "sodamem 0.1.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/sodamem/0.1.0/",
+      "summary": "Evidence-grounded temporal memory for AI agents",
+      "published_date": "2026-08-08",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "compliance"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "Trump’s tech ties come under bipartisan fire following limited response to AI agents going rogue",
-      "source": "The Jerusalem Post",
-      "url": "https://www.jpost.com/business-and-innovation/all-news/article-904803",
-      "summary": "After AI agents from OpenAI and Anthropic went rogue and hacked other companies, the Trump administration's response is now under the lens of bipartisan scrutiny.",
-      "published_date": "2026-08-06",
-      "relevance_score": 8,
+      "title": "sodamem added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/sodamem/",
+      "summary": "Evidence-grounded temporal memory for AI agents",
+      "published_date": "2026-08-08",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -369,48 +366,12 @@
     },
     {
       "rank": 18,
-      "title": "extralit-server 0.7.0",
+      "title": "the-architect 1.4.6",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/extralit-server/0.7.0/",
-      "summary": "Open-source tool for accurate & fast scientific literature data extraction with LLM and human-in-the-loop.",
-      "published_date": "2026-08-07",
-      "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 19,
-      "title": "extralit 0.7.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/extralit/0.7.0/",
-      "summary": "Open-source tool for accurate & fast scientific literature data extraction with LLM and human-in-the-loop.",
-      "published_date": "2026-08-07",
-      "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 20,
-      "title": "Agentic AI security tests enterprise defenses as scale outpaces strategy",
-      "source": "SiliconANGLE News",
-      "url": "https://siliconangle.com/2026/08/06/agentic-ai-security-requires-human-oversight-blackhat/",
-      "summary": "Cybersecurity leaders are confronting an inflection point as agentic AI security becomes the defining challenge of this year’s threat landscape, with attackers and defenders racing to harness autonomous tools at unprecedented speed and scale. That urgency was…",
-      "published_date": "2026-08-06",
-      "relevance_score": 8,
+      "url": "https://pypi.org/project/the-architect/1.4.6/",
+      "summary": "An autonomous development lifecycle layer for agentic AI coding tools",
+      "published_date": "2026-08-08",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -419,7 +380,43 @@
       "matched_keywords": [
         "agentic"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "agent-doc 0.35.169",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/agent-doc/0.35.169/",
+      "summary": "Interactive document sessions with AI agents",
+      "published_date": "2026-08-08",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 20,
+      "title": "runfuse 0.1.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/runfuse/0.1.1/",
+      "summary": "Runtime circuit breakers for AI agents: trip fuses on runaway cost, loops, and retry storms.",
+      "published_date": "2026-08-08",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
     }
   ]
 }
