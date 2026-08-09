@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T09:45:38.143Z",
+  "generated_at": "2026-08-09T13:44:10.745Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 17
+      "item_count": 15
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 4
+      "item_count": 5
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 2
+      "item_count": 7
     }
   ],
   "institutional_signal": {
@@ -41,6 +41,90 @@
   "items": [
     {
       "rank": 1,
+      "title": "isa-agent-sdk 0.5.41",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.5.41/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-08-08",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 2,
+      "title": "isa-agent-sdk 0.5.40",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.5.40/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-08-08",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 3,
+      "title": "isa-agent-sdk 0.5.39",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.5.39/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-08-08",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 4,
+      "title": "isa-agent-sdk 0.5.38",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.5.38/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-08-08",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 5,
       "title": "isa-agent-sdk 0.5.37",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/isa-agent-sdk/0.5.37/",
@@ -61,7 +145,7 @@
       "sentiment": "positive"
     },
     {
-      "rank": 2,
+      "rank": 6,
       "title": "isa-agent-sdk 0.5.36",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/isa-agent-sdk/0.5.36/",
@@ -82,7 +166,7 @@
       "sentiment": "positive"
     },
     {
-      "rank": 3,
+      "rank": 7,
       "title": "Show HN: Salestrics – An open MCP server and CRM for AI-native revenue teams",
       "source": "Salestrics.com",
       "url": "https://salestrics.com/",
@@ -101,27 +185,26 @@
       "sentiment": "negative"
     },
     {
-      "rank": 4,
-      "title": "agent-runtime-governance 0.9.1",
+      "rank": 8,
+      "title": "mlflow-mcp 0.4.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/agent-runtime-governance/0.9.1/",
-      "summary": "Action Commit Safety for AI agents: exact-call approval, UNKNOWN outcome recording, idempotent execution, and signed audit.",
+      "url": "https://pypi.org/project/mlflow-mcp/0.4.1/",
+      "summary": "A Model Context Protocol (MCP) server for MLflow - enables LLMs to interact with MLflow experiments, runs, metrics, and models",
       "published_date": "2026-08-08",
-      "relevance_score": 11,
-      "primary_pillar": "governance_as_code",
+      "relevance_score": 12,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "governance"
+        "model context protocol",
+        "MCP"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 5,
+      "rank": 9,
       "title": "Four AI Escapes Just Redefined “Responsible AI”",
       "source": "Forrester.com",
       "url": "https://www.forrester.com/blogs/four-ai-escapes-just-redefined-responsible-ai/",
@@ -140,7 +223,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
+      "rank": 10,
       "title": "What the EU AI Act Reveals About AI ROI",
       "source": "CMSWire",
       "url": "https://www.cmswire.com/customer-experience/what-the-eu-ai-act-reveals-about-ai-roi/",
@@ -159,7 +242,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 7,
+      "rank": 11,
       "title": "EU, California Converge on AI Transparency Rules, Shifting Focus to Enterprise Governance",
       "source": "pymnts.com",
       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/eu-california-converge-on-ai-transparency-rules-shifting-focus-to-enterprise-governance/",
@@ -178,86 +261,105 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 8,
-      "title": "lorekeep 0.24.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/lorekeep/0.24.1/",
-      "summary": "Temporal knowledge graph for AI agents via MCP",
-      "published_date": "2026-08-08",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "sentinel-prox 0.1.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/sentinel-prox/0.1.1/",
-      "summary": "Provenance-aware security proxy for AI agents: block prompt-injection actions at the MCP tool boundary.",
-      "published_date": "2026-08-08",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 10,
-      "title": "lorekeep 0.23.2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/lorekeep/0.23.2/",
-      "summary": "Temporal knowledge graph for AI agents via MCP",
-      "published_date": "2026-08-08",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
-      "title": "lorekeep 0.23.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/lorekeep/0.23.1/",
-      "summary": "Temporal knowledge graph for AI agents via MCP",
-      "published_date": "2026-08-08",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 12,
-      "title": "nodriver-mcp 2.0.1",
+      "title": "m8tes 2.16.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/nodriver-mcp/2.0.1/",
+      "url": "https://pypi.org/project/m8tes/2.16.0/",
+      "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
+      "published_date": "2026-08-08",
+      "relevance_score": 11,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "How to Keep Your AI Agents Useful After You Build Them",
+      "source": "Asianefficiency.com",
+      "url": "https://www.asianefficiency.com/technology/why-agents-go-untouched/",
+      "summary": "Last updated: 2026-07-06 I run hands-on AI workshops in Austin where participants spend most of the day building their first agent from scratch. Triggers, conditions, actions, integrations — by the end, everyone has something working. They leave excited. The …",
+      "published_date": "2026-08-08",
+      "relevance_score": 10,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "hands-on"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "Show HN: A free DOCX editor with MCP server for editing",
+      "source": "Revise.io",
+      "url": "https://revise.io/help/mcp-server",
+      "summary": "Connect Claude Desktop, ChatGPT, Codex Desktop, OpenClaw, or any MCP-capable assistant to Revise. Agents can draft, edit, export, and share documents on your behalf — even before you have an account. Includes the full tool-by-tool reference.",
+      "published_date": "2026-08-08",
+      "relevance_score": 10,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "guardian-ai-monitor 0.1.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/guardian-ai-monitor/0.1.0/",
+      "summary": "AI governance and monitoring system",
+      "published_date": "2026-08-08",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "guardian-ai-monitor added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/guardian-ai-monitor/",
+      "summary": "AI governance and monitoring system",
+      "published_date": "2026-08-08",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "nodriver-mcp 2.1.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/nodriver-mcp/2.1.0/",
       "summary": "Undetected Chrome automation MCP server powered by nodriver — a stealth, anti-bot-resistant alternative to chrome-devtools-mcp for Claude, Cursor and other AI agents",
       "published_date": "2026-08-08",
       "relevance_score": 9,
@@ -273,11 +375,11 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 13,
-      "title": "lorekeep 0.23.0",
+      "rank": 18,
+      "title": "hol-guard 3.0.0a20",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/lorekeep/0.23.0/",
-      "summary": "Temporal knowledge graph for AI agents via MCP",
+      "url": "https://pypi.org/project/hol-guard/3.0.0a20/",
+      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
       "published_date": "2026-08-08",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -292,128 +394,39 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 14,
-      "title": "Presentation: Keeping ChatGPT Fast as AI Development Accelerates",
-      "source": "InfoQ.com",
-      "url": "https://www.infoq.com/presentations/openai-performance-engineering-agentic-coding/",
-      "summary": "Martin Spier explains how agentic workflows dramatically increase code change volume at OpenAI. He discusses the hidden systemic performance costs of rapid shipping beyond GPUs, and shares how deploying always-on AI agents automates profiling, regression dete…",
-      "published_date": "2026-08-08",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "sage-agent-sdk 11.18.2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/sage-agent-sdk/11.18.2/",
-      "summary": "Python SDK for SAGE — Sovereign Agent Governed Experience. Persistent, consensus-validated memory for AI agents.",
-      "published_date": "2026-08-08",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "sodamem 0.1.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/sodamem/0.1.0/",
-      "summary": "Evidence-grounded temporal memory for AI agents",
-      "published_date": "2026-08-08",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "sodamem added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/sodamem/",
-      "summary": "Evidence-grounded temporal memory for AI agents",
-      "published_date": "2026-08-08",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "the-architect 1.4.6",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/the-architect/1.4.6/",
-      "summary": "An autonomous development lifecycle layer for agentic AI coding tools",
-      "published_date": "2026-08-08",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 19,
-      "title": "agent-doc 0.35.169",
+      "title": "hol-guard 2.2.31",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/agent-doc/0.35.169/",
-      "summary": "Interactive document sessions with AI agents",
+      "url": "https://pypi.org/project/hol-guard/2.2.31/",
+      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
       "published_date": "2026-08-08",
-      "relevance_score": 5,
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "runfuse 0.1.1",
+      "title": "tube-bridge 1.0.2",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/runfuse/0.1.1/",
-      "summary": "Runtime circuit breakers for AI agents: trip fuses on runaway cost, loops, and retry storms.",
+      "url": "https://pypi.org/project/tube-bridge/1.0.2/",
+      "summary": "Tube Bridge — YouTube MCP server for AI agents. 16 tools: search, transcripts, semantic corpus, comments. Zero keys + optional API v3.",
       "published_date": "2026-08-08",
-      "relevance_score": 5,
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
