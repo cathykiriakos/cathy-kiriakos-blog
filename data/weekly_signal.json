@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T10:13:41.494Z",
+  "generated_at": "2026-08-14T10:08:57.138Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -13,13 +13,13 @@
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 7
+      "item_count": 12
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 1
+      "item_count": 3
     }
   ],
   "institutional_signal": {
@@ -42,10 +42,10 @@
     {
       "rank": 1,
       "title": "Agentic profiles for effective AI governance",
-      "source": "Nature.com",
-      "url": "https://www.nature.com/articles/s41586-026-10805-z",
-      "summary": "A framework comprising four dimensions—autonomy, efficacy, goal complexity and generality—is proposed for characterizing AI agents, supporting&nbsp;the construction of agentic profiles for the effective governance of different AI agents.",
-      "published_date": "2026-08-12",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/808d5582ce36d729",
+      "summary": "Abstract\nThe creation of effective governance mechanisms for artificial intelligence (AI) agents requires a deeper understanding of their core properties and the implications they have for deployment. This paper provides a characterization of AI agents that f…",
+      "published_date": "2026-08-13",
       "relevance_score": 27,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -63,125 +63,172 @@
     },
     {
       "rank": 2,
-      "title": "Show HN: Askance, a human-in-the-loop GUI for agentic coding",
-      "source": "Github.com",
-      "url": "https://github.com/tobico/askance",
-      "summary": "A simple and beautiful human-in-the-loop GUI for answering questions from an AI coding agent such as Claude Code, either in the browser or on the go with your phone. - tobico/askance",
-      "published_date": "2026-08-12",
-      "relevance_score": 20,
-      "primary_pillar": "human_centric_design",
+      "title": "What is AI governance and how to operationalize it?",
+      "source": "Etherionconsulting.com",
+      "url": "https://www.etherionconsulting.com/blog/what-is-ai-governance-and-how-to-operationalize-it/",
+      "summary": "AI Governance is the set of processes, standards, and guardrails that keep AI and agentic systems safe, ethical, and aligned with human-defined objectives. Here's how to actually operationalize it.",
+      "published_date": "2026-08-13",
+      "relevance_score": 26,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "guardrail",
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 3,
+      "title": "isa-agent-sdk 0.5.55",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.5.55/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-08-13",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai",
         "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 3,
-      "title": "NGP VAN Launches NGP VAN Interface, Bringing Agentic AI to Democratic and Progressive Campaigns Ahead of Midterm Elections",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/ngp-van-launches-ngp-van-interface-bringing-agentic-ai-to-democratic-and-progressive-campaigns-ahead-of-midterm-elections-302849380.html",
-      "summary": "WASHINGTON, Aug. 12, 2026 /PRNewswire/ -- Today, NGP VAN, the leading technology provider for Democratic and progressive campaigns, announced the launch of NGP VAN Interface, the most powerful Model Context Protocol (MCP) solution purpose-built for Democratic…",
-      "published_date": "2026-08-12",
-      "relevance_score": 18,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "model context protocol",
         "MCP",
-        "agentic"
+        "ai agent",
+        "human-in-the-loop"
       ],
       "sentiment": "positive"
     },
     {
       "rank": 4,
-      "title": "nextcloud-mcp-server 0.171.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/nextcloud-mcp-server/0.171.0/",
-      "summary": "Model Context Protocol (MCP) server for Nextcloud integration - enables AI assistants to interact with Nextcloud data",
+      "title": "Billtrust CTO Says a 1% AI Error Rate Can Create 100 Problems a Day",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/ddc66f49ff391c2d",
+      "summary": "Clean data, strong governance and meaningful human oversight are essential to agentic AI, Billtrust Chief Technology Officer John Landy writes in a new PYMNTS eBook, “Building the Agent-Ready Payments Enterprise.”\nThe artificial intelligence terminology has s…",
+      "published_date": "2026-08-13",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "governance",
+        "human oversight"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 5,
+      "title": "Transparency, trust and AI: Why data governance is the next competitive advantage",
+      "source": "Digital Journal",
+      "url": "https://www.digitaljournal.com/article/transparency-trust-and-ai-why-data-governance-is-the-next-competitive-advantage/",
+      "summary": "For Canadian businesses operating in an increasingly AI-driven marketplace, the message is becoming clear: trust, evidence, and accountability are rapidly moving from compliance concerns to strategic necessities.\nThe post Transparency, trust and AI: Why data …",
       "published_date": "2026-08-12",
-      "relevance_score": 12,
+      "relevance_score": 11,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "governance",
+        "compliance"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 6,
+      "title": "Can AI Companies Regulate Themselves?",
+      "source": "Upenn.edu",
+      "url": "https://knowledge.wharton.upenn.edu/podcast/this-week-in-business/can-ai-companies-regulate-themselves/",
+      "summary": "Wharton professor of legal studies and business ethics Kevin Werbach explains why AI governance is so difficult, why companies can't be left to regulate themselves, and what governments need to do as AI becomes more powerful.…Read More",
+      "published_date": "2026-08-12",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 7,
+      "title": "New EU Guidelines For AI Labelling",
+      "source": "Smashingmagazine.com",
+      "url": "https://www.smashingmagazine.com/2026/08/eu-guidelines-ai-labelling/",
+      "summary": "New EU guidelines, why AI sparkles aren’t enough, when AI labels are required, and what the rules mean for AI-powered features and products. Brought to you by Design Patterns For AI Interfaces, **friendly video courses on UX** and design patterns by Vitaly.",
+      "published_date": "2026-08-13",
+      "relevance_score": 9,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "UX",
+        "ai interface"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "clio-kit 2.9.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/clio-kit/2.9.0/",
+      "summary": "CLIO Kit - MCP Servers, Clients, and Tools for AI Agents",
+      "published_date": "2026-08-13",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol",
-        "MCP"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 5,
-      "title": "HAL 9000 was right: AI guardrails matter more than perfect models",
-      "source": "Techtarget.com",
-      "url": "https://www.techtarget.com/ai/opinion/HAL-9000-was-right-AI-guardrails-matter-more-than-perfect-models",
-      "summary": "2001: A Space Odyssey's HAL killed its crew because no one told it humans mattered more than the mission. Today's AI needs that lesson: guardrails over goals, boundaries over logic.",
-      "published_date": "2026-08-11",
-      "relevance_score": 12,
-      "primary_pillar": "governance_as_code",
+      "rank": 9,
+      "title": "wikifier 4.6.12",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/wikifier/4.6.12/",
+      "summary": "Zero-dependency agent-to-agent codebase wiki for LLMs and AI agents. Autonomously maintained via record-change and mark-green for token-efficient lookup of files, dependencies, health, and summaries — across tiny scripts to 50k+ monorepos. Optional MCP server…",
+      "published_date": "2026-08-13",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "MCP",
+        "ai agent"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
-      "rank": 6,
-      "title": "Missouri lawmakers push for AI guardrails",
-      "source": "STLtoday.com",
-      "url": "https://www.stltoday.com/news/local/government-politics/article_40a9d92a-311e-4ef1-b3b0-304a5a906192.html",
-      "summary": "Members of the House's Future Caucus said their legislation will focus on AI accountability, creating guardrails around water and power consumption, and requiring  human involvement in AI-assisted medical decisions.",
-      "published_date": "2026-08-11",
-      "relevance_score": 12,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
-      "title": "AI-Generated Code Can Accelerate Defects and Technical Debt Without Clear Guardrails, Says Info-Tech Research Group",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/ai-generated-code-can-accelerate-defects-and-technical-debt-without-clear-guardrails-says-info-tech-research-group-302848623.html",
-      "summary": "AI-generated code is introducing quality, security, and maintainability issues into the software development lifecycle as adoption of AI-assisted development expands. Without proper oversight, organizations risk embedding defects and inconsistent standards ac…",
-      "published_date": "2026-08-11",
-      "relevance_score": 12,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 8,
-      "title": "Inside Real Estate Advances AI Strategy by Launching ComplianceAI and Direct AI Assistant Integration with BoldTrail BackOffice",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/inside-real-estate-advances-ai-strategy-by-launching-complianceai-and-direct-ai-assistant-integration-with-boldtrail-backoffice-302848325.html",
-      "summary": "New autonomous compliance capability, powered by SetWave, launches this week. Inside Real Estate also confirms early MCP support, letting AI assistants like Claude and ChatGPT work hands-on and perform headless transactions securely within your BackOffice. MU…",
-      "published_date": "2026-08-11",
-      "relevance_score": 11,
+      "rank": 10,
+      "title": "csoai 0.1.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/csoai/0.1.2/",
+      "summary": "Council of AI — signed, deterministic AI-governance measurement: CLI + MCP server + agent-callable verifier",
+      "published_date": "2026-08-13",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai",
@@ -190,109 +237,151 @@
       "institutional_signal": false,
       "matched_keywords": [
         "MCP",
-        "hands-on",
-        "compliance"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 9,
-      "title": "Operationalizing agentic AI: The Day 0-2 blueprint for enterprise infrastructure",
-      "source": "Redhat.com",
-      "url": "https://www.redhat.com/en/blog/operationalizing-agentic-ai-day-0-2-blueprint-enterprise-infrastructure",
-      "summary": "Your agent works. It reasons, calls tools, and returns answers in the demo that impress everyone. But between that notebook and a production deployment sits a gap having nothing to do with your model or your framework. Three failures hit a single AI agent dep…",
-      "published_date": "2026-08-12",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 10,
-      "title": "Designing Zero-Trust Tool Authorization for MCP Clients",
-      "source": "C-sharpcorner.com",
-      "url": "https://www.c-sharpcorner.com/article/designing-zero-trust-tool-authorization-for-mcp-clients/",
-      "summary": "Implement zero-trust for MCP tool authorization. Secure AI applications by enforcing granular permissions and least privilege.",
-      "published_date": "2026-08-12",
-      "relevance_score": 10,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP"
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 11,
-      "title": "70% of Brazilians Expect to Shop With AI Agents by 2028",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/e3e1f4ab3b6a4c53",
-      "summary": "Brazilian shoppers don’t leave their digital habits at the store entrance. They bring their phones into the aisle, compare prices on the spot and check whether a merchant accepts the payment method they want to use. Increasingly, they also bring AI along for …",
-      "published_date": "2026-08-12",
-      "relevance_score": 8,
+      "title": "csoai 0.1.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/csoai/0.1.1/",
+      "summary": "Council of AI — signed, deterministic AI-governance measurement: CLI + MCP server + agent-callable verifier",
+      "published_date": "2026-08-13",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "MCP",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "Testing AI Agents Against Unauthorized Data Access",
-      "source": "C-sharpcorner.com",
-      "url": "https://www.c-sharpcorner.com/article/testing-ai-agents-against-unauthorized-data-access2/",
-      "summary": "Secure AI agents by rigorously testing authorization, preventing unauthorized data access, and validating every interaction path. Essential for robust AI security.",
-      "published_date": "2026-08-12",
-      "relevance_score": 8,
+      "title": "csoai 0.1.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/csoai/0.1.0/",
+      "summary": "Council of AI — signed, deterministic AI-governance measurement: CLI + MCP server + agent-callable verifier",
+      "published_date": "2026-08-13",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "MCP",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 13,
-      "title": "Progressive lawmakers prepare AI regulation push",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/72cc9fe694077d25",
-      "summary": "The News\nCongressional progressives are starting to pitch a multi-pronged artificial intelligence and Big Tech regulation plan, and they hope to find common ground with civil libertarian-minded lawmakers on the right.\n“The foundational idea here is that you s…",
-      "published_date": "2026-08-12",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
+      "title": "csoai added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/csoai/",
+      "summary": "Council of AI — signed, deterministic AI-governance measurement: CLI + MCP server + agent-callable verifier",
+      "published_date": "2026-08-13",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
+        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai regulation"
+        "MCP",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 14,
-      "title": "The Different Philosophies Driving AI Regulation Today",
-      "source": "Upenn.edu",
-      "url": "https://knowledge.wharton.upenn.edu/article/the-different-philosophies-driving-ai-regulation-today/",
-      "summary": "Wharton’s Cornelia Walther explains how different countries are approaching AI regulation and what that means for business leaders.…Read More",
-      "published_date": "2026-08-11",
+      "title": "Cedar Launches Agentic Platform to Help Providers Collect from Healthcare's Fastest-Growing Payer: Patients",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/cedar-launches-agentic-platform-to-help-providers-collect-from-healthcares-fastest-growing-payer-patients-302850225.html",
+      "summary": "Building on Cedar's proven agentic success, Kora Platform marks the next evolution of AI-driven patient financial resolution NEW YORK, Aug. 13, 2026 /PRNewswire/ -- Cedar, a leader in AI-driven patient financial engagement, today announced the Kora Platform. …",
+      "published_date": "2026-08-13",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 15,
+      "title": "Taiwan says AI agents helped hack its government in four days",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/taiwan-ai-driven-hacking-campaign-open-claw",
+      "summary": "Taiwan says it spent part of last month fending off a hacking campaign that leaned on artificial intelligence to do the heavy lifting. The island’s Ministry of Digital Affairs, through its National Institute of Cyber Security, disclosed that government agenci…",
+      "published_date": "2026-08-13",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "OpenAI-Hugging Face incident raises AI liability concerns",
+      "source": "Techtarget.com",
+      "url": "https://www.techtarget.com/it-strategy/feature/OpenAI-Hugging-Face-incident-raises-AI-liability-concerns",
+      "summary": "AI agents create new liability risks for enterprises. CIOs must understand vendor contracts, insurance and governance practices before deploying autonomous systems.",
+      "published_date": "2026-08-13",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "governance"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 17,
+      "title": "Why AI Agents Make Broken Customer Data Worse, Not Better",
+      "source": "CMSWire",
+      "url": "https://www.cmswire.com/digital-experience/why-ai-agents-make-broken-customer-data-worse-not-better/",
+      "summary": "An enterprise AI leader breaks down what happens when agents inherit fragmented systems.\nContinue reading...",
+      "published_date": "2026-08-12",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "Governance 1: Intro",
+      "source": "Hrexaminer.com",
+      "url": "https://www.hrexaminer.com/p/governance-1-intro",
+      "summary": "AI Implementation Requires A Complex Structure of Governance and Risk Management",
+      "published_date": "2026-08-12",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -300,17 +389,17 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai regulation"
+        "governance"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "rank": 15,
-      "title": "PentestGPT: Open-source automated penetration testing agentic framework",
-      "source": "Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/08/12/pentestgpt-open-source/",
-      "summary": "PentestGPT is an open-source penetration testing agent that points a large language model at a target and lets it work. In its default mode it runs recon, then exploit, then walkthrough, each stage feeding the next. Switch it to pentest mode and the stages be…",
-      "published_date": "2026-08-12",
+      "rank": 19,
+      "title": "What You Cannot See Will Break Your LLM App: A Practitioner Guide to Production Observability",
+      "source": "DevOps.com",
+      "url": "https://devops.com/what-you-cannot-see-will-break-your-llm-app-a-practitioner-guide-to-production-observability/",
+      "summary": "Traditional application observability was built around a simple mental model: Your code runs, metrics come out and when something breaks, the logs tell you why. Large language models (LLMs) break that model in ways that are not obvious until you have shipped …",
+      "published_date": "2026-08-13",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -318,97 +407,25 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "Odine and OdineLabs File Two Patent Applications Focused on Enterprise AI Technologies",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/odine-and-odinelabs-file-two-patent-applications-focused-on-enterprise-ai-technologies-302849578.html",
-      "summary": "The two patent applications cover technologies designed to enable AI agents to connect with enterprise systems, plan operational workflows, and execute tasks securely within predefined boundaries. ISTANBUL, Aug. 12, 2026 /PRNewswire/ -- Odine, a global techno…",
-      "published_date": "2026-08-12",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "Ryanair signs a five-year AI deal with Google Cloud, and a second cloud to fall back on",
-      "source": "The Next Web",
-      "url": "https://thenextweb.com/news/ryanair-google-cloud-five-year-ai-partnership",
-      "summary": "Ryanair has signed a five-year data and AI partnership with Google Cloud, rolling out Google Workspace and Google Cloud services to 35,000 employees and making Gemini Enterprise, Google’s agentic AI platform, the centrepiece of how Europe’s largest carrier in…",
-      "published_date": "2026-08-12",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "WEX Turns a Three-Person Team Into an AI Blueprint",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/cb2752f159402aa6",
-      "summary": "Agentic AI changes more than workflows, it changes how an organization operates, WEX Chief Digital Officer Karen Stroup writes in a new PYMNTS eBook, “Building the Agent-Ready Payments Enterprise.”\nEvery conversation I’ve been in about agentic AI arrives at t…",
-      "published_date": "2026-08-12",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 19,
-      "title": "Enterprise AI needs a new model for behavioral intelligence",
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/pro/enterprise-ai-needs-a-new-model-for-behavioral-intelligence",
-      "summary": "AI agents are transforming enterprise operations, behavioral intelligence must now catch up.",
-      "published_date": "2026-08-12",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
+        "llm application"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "Designing Multi-Tenant Agent Identity with On-Behalf-Of Token Exchange",
-      "source": "C-sharpcorner.com",
-      "url": "https://www.c-sharpcorner.com/article/designing-multi-tenant-agent-identity-with-on-behalf-of-token-exchange/",
-      "summary": "Secure multi-tenant AI agents by mastering On-Behalf-Of token exchange for robust identity propagation and tenant isolation.",
-      "published_date": "2026-08-12",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
+      "title": "On AI Policy, Students Have Plenty to Say",
+      "source": "Edsurge.com",
+      "url": "https://edsurge.com/news/on-ai-policy-students-have-plenty-to-say",
+      "summary": "At a gathering in Boston, ‘student senators’ proposed a first-of-its-kind national AI policy for K-12 classrooms.",
+      "published_date": "2026-08-13",
+      "relevance_score": 6,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "ai policy"
       ],
       "sentiment": "neutral"
     }
