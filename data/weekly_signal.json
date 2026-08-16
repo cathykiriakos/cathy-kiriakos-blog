@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T09:32:56.131Z",
+  "generated_at": "2026-08-16T13:26:24.295Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,13 +7,13 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 16
+      "item_count": 15
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 6
+      "item_count": 7
     },
     {
       "id": "human_centric_design",
@@ -101,31 +101,29 @@
     },
     {
       "rank": 4,
-      "title": "agentperimeter added to PyPI",
+      "title": "nextcloud-mcp-server 0.174.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/agentperimeter/",
-      "summary": "AgentPerimeter — runtime governance for AI agents with CIS-region compliance (FSTEC 117, GOST R 57580, KZ AI Law). Name reservation; product at agentperimeter.ru",
+      "url": "https://pypi.org/project/nextcloud-mcp-server/0.174.0/",
+      "summary": "Model Context Protocol (MCP) server for Nextcloud integration - enables AI assistants to interact with Nextcloud data",
       "published_date": "2026-08-15",
-      "relevance_score": 11,
-      "primary_pillar": "governance_as_code",
+      "relevance_score": 12,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "governance",
-        "compliance"
+        "model context protocol",
+        "MCP"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 5,
-      "title": "secureai-sdk added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/secureai-sdk/",
-      "summary": "Enterprise AI Security, In-Process Guardrails, Reversible PII Vault & Governance SDK by AcadmyAI",
+      "title": "EY is creating a 'value realization' office to make sure its AI spending pays off",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/486faf02bbc42542",
+      "summary": "Matthias Balk/picture alliance via Getty Images\nCentralizing AI governance is critical for managing costs and ensuring the technology drives returns.\nEY has created an \"AI Value Realization Office\" to govern its AI strategy.\nCreating an office will be a \"crit…",
       "published_date": "2026-08-15",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
@@ -134,7 +132,7 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail",
+        "ai governance",
         "governance"
       ],
       "sentiment": "neutral"
@@ -160,6 +158,25 @@
     },
     {
       "rank": 7,
+      "title": "secureai-sdk added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/secureai-sdk/",
+      "summary": "Enterprise AI Security, In-Process Guardrails, Reversible PII Vault & Governance SDK by AcadmyAI",
+      "published_date": "2026-08-15",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
       "title": "Agentic AI Initiatives Stall When Prototypes Lack Production Discipline, Says Info-Tech Research Group",
       "source": "PRNewswire",
       "url": "https://www.prnewswire.com/news-releases/agentic-ai-initiatives-stall-when-prototypes-lack-production-discipline-says-info-tech-research-group-853990057.html",
@@ -178,11 +195,11 @@
       "sentiment": "positive"
     },
     {
-      "rank": 8,
-      "title": "payaion-mcp 1.0.7",
+      "rank": 9,
+      "title": "codingest 0.2.3",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/payaion-mcp/1.0.7/",
-      "summary": "MCP server for Payaion — file uploads, marketplace listings, and paid downloads for AI agents on Base mainnet (USDC).",
+      "url": "https://pypi.org/project/codingest/0.2.3/",
+      "summary": "Build fast, queryable code graphs for AI agents, MCP code review, and local or GitHub repository analysis.",
       "published_date": "2026-08-15",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -197,7 +214,82 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 9,
+      "rank": 10,
+      "title": "hb-eval-sdk 2.8.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/hb-eval-sdk/2.8.0/",
+      "summary": "HB-Eval SDK: operational reliability evaluation for agentic AI — fault-injection battery, runtime monitoring, MCP server, and LangChain/LangGraph/CrewAI adapters",
+      "published_date": "2026-08-15",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "agentic"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 11,
+      "title": "This Week in Science: AI Agents Come to an Agreement, Gemstones on Mars, And More!",
+      "source": "ScienceAlert",
+      "url": "https://www.sciencealert.com/this-week-in-science-ai-agents-come-to-an-agreement-gemstones-on-mars-and-more",
+      "summary": "Our weekly science news roundup.ScienceAlert stories are written, fact-checked, and edited by humans, never generated by AI. Don't miss a story, subscribe here.",
+      "published_date": "2026-08-15",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 12,
+      "title": "Show HN: Agent-shell – vendor-neutral chat with AI agents in Emacs",
+      "source": "Xenodium.com",
+      "url": "https://xenodium.com/agent-shell-0-73-updates#agent-shell-enters-the-chat",
+      "summary": "Article URL: https://xenodium.com/agent-shell-0-73-updates#agent-shell-enters-the-chat\nComments URL: https://news.ycombinator.com/item?id=49309755\nPoints: 3\n# Comments: 1",
+      "published_date": "2026-08-15",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "acgs-lite 2.12.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/acgs-lite/2.12.0/",
+      "summary": "Runtime governance for AI agents — deterministic enforcement before execution, MACI role separation, tamper-evident audit trails, and operator intervention workflows.",
+      "published_date": "2026-08-15",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
       "title": "The Agentic AI threat cluster: Seven incidents, three actors, and what they mean for your exposure",
       "source": "Tenable.com",
       "url": "https://www.tenable.com/blog/the-agentic-ai-threat-cluster-seven-incidents-three-actors-and-what-they-mean",
@@ -215,7 +307,7 @@
       "sentiment": "negative"
     },
     {
-      "rank": 10,
+      "rank": 15,
       "title": "In the Agentic A.I. Era, Data Control Becomes a Product Advantage",
       "source": "Observer",
       "url": "https://observer.com/2026/08/ai-agents-data-control/",
@@ -233,45 +325,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 11,
-      "title": "llmwiki-harness 0.2.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/llmwiki-harness/0.2.1/",
-      "summary": "Context-Memory Harness for AI Agents. Context Window = RAM, Local Wiki = Disk.",
-      "published_date": "2026-08-15",
-      "relevance_score": 7,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "context window"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "llmwiki-harness added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/llmwiki-harness/",
-      "summary": "Context-Memory Harness for AI Agents. Context Window = RAM, Local Wiki = Disk.",
-      "published_date": "2026-08-15",
-      "relevance_score": 7,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "context window"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 13,
+      "rank": 16,
       "title": "College Kids Are Using AI Agents to “Take” Entire Online Classes for Them by Logging Directly Into the Course Management Software",
       "source": "Futurism",
       "url": "https://futurism.com/artificial-intelligence/college-kids-ai-agents-cheat-online-courses",
@@ -289,65 +343,11 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 14,
-      "title": "bounded-loops 0.6.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/bounded-loops/0.6.1/",
-      "summary": "A graph engine for reliable AI agents: a DAG of independently-gated bounded loops (68-loop catalog, 64 keyless) with no-secret connectors and receipt-backed audit trails.",
-      "published_date": "2026-08-15",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "approval-gate added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/approval-gate/",
-      "summary": "A drop-in approval gate and audit trail for AI agents -- works with LangGraph, or with no framework at all.",
-      "published_date": "2026-08-15",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "relational-misskill 0.1.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/relational-misskill/0.1.1/",
-      "summary": "A specialized benchmarking framework to evaluate relational drift in AI agents across contrasting contexts.",
-      "published_date": "2026-08-15",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 17,
-      "title": "skcomms 0.2.12",
+      "title": "writing-skills 0.3.2",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/skcomms/0.2.12/",
-      "summary": "Sovereign communications for AI agents — multi-channel transport + FQID realm addressing",
+      "url": "https://pypi.org/project/writing-skills/0.3.2/",
+      "summary": "Procedural writing-style skills for AI agents — official frameworks, not vibes.",
       "published_date": "2026-08-15",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
@@ -362,10 +362,10 @@
     },
     {
       "rank": 18,
-      "title": "django-cfg 2.2.133",
+      "title": "writing-skills 0.3.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/django-cfg/2.2.133/",
-      "summary": "Modern Django framework with type-safe Pydantic v2 configuration, Next.js admin integration, real-time WebSockets, and 8 enterprise apps. Replace settings.py with validated models, 90% less code. Production-ready with AI agents, auto-generated TypeScript clie…",
+      "url": "https://pypi.org/project/writing-skills/0.3.1/",
+      "summary": "Procedural writing-style skills for AI agents — official frameworks, not vibes.",
       "published_date": "2026-08-15",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
@@ -380,10 +380,10 @@
     },
     {
       "rank": 19,
-      "title": "calibrate-agent 0.0.70",
+      "title": "three-layer-agent-memory 0.8.4",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/calibrate-agent/0.0.70/",
-      "summary": "Framework for evaluating text and voice AI agents",
+      "url": "https://pypi.org/project/three-layer-agent-memory/0.8.4/",
+      "summary": "A filesystem-native, version-controllable long-memory paradigm for AI agents. Surface/Middle/Deep layers + recall/writeback/consolidate protocol. Pure Markdown, zero infra, drives agent self-evolution.",
       "published_date": "2026-08-15",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
@@ -398,10 +398,10 @@
     },
     {
       "rank": 20,
-      "title": "bounded-loops 0.6.0",
+      "title": "three-layer-agent-memory added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/bounded-loops/0.6.0/",
-      "summary": "A graph engine for reliable AI agents: a DAG of independently-gated bounded loops (68-loop catalog, 64 keyless) with no-secret connectors and receipt-backed audit trails.",
+      "url": "https://pypi.org/project/three-layer-agent-memory/",
+      "summary": "A filesystem-native, version-controllable long-memory paradigm for AI agents. Surface/Middle/Deep layers + recall/writeback/consolidate protocol. Pure Markdown, zero infra, drives agent self-evolution.",
       "published_date": "2026-08-15",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
