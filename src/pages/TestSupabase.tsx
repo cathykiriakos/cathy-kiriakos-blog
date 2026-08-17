@@ -96,7 +96,7 @@ const TestSupabase = () => {
             <h2 className="text-xl font-semibold mb-2">What This Means</h2>
             <ul className="space-y-2 text-sm">
               <li>✅ <strong>Connected! Found X records</strong> - Everything works! Data is loading correctly.</li>
-              <li>❌ <strong>Environment variables not set</strong> - Need to add VITE_SUPABASE_URL and VITE_SUPABASE_PUBLISHABLE_KEY in Lovable settings.</li>
+              <li>❌ <strong>Environment variables not set</strong> - Need to set VITE_SUPABASE_URL and VITE_SUPABASE_PUBLISHABLE_KEY in your .env / build environment.</li>
               <li>❌ <strong>Could not find the table</strong> - Tables don't exist yet. Run the SQL migration in Supabase.</li>
               <li>❌ <strong>Row-level security</strong> - RLS is blocking access. Need to disable RLS on public tables.</li>
             </ul>

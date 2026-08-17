@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+# cathy-kiriakos-blog
 
-## Project info
+Personal blog and market-data dashboard for Cathy Kiriakos, live at
+**https://blog.kiriakosai.com**.
 
-**URL**: https://lovable.dev/projects/65c2f9ed-16cc-427a-af29-7a59108fd09a
+## Tech stack
 
-## How can I edit this code?
+- **Vite** + **React** + **TypeScript**
+- **Tailwind CSS** + **shadcn/ui**
+- **TipTap** rich-text editor
+- **Supabase** (PostgreSQL + Edge Functions + Storage) for the data layer
+- **Cloudflare Workers** for hosting and edge Open Graph previews
+- **GitHub Actions** for the daily/weekly data pipelines
 
-There are several ways of editing your application.
+## Local development
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/65c2f9ed-16cc-427a-af29-7a59108fd09a) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Requires Node.js & npm ([install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)).
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# 1. Clone the repository
 git clone <YOUR_GIT_URL>
+cd cathy-kiriakos-blog
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
+# 2. Install dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 3. Start the dev server (http://localhost:8080)
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Other commands:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```sh
+npm run build   # production build (TypeScript compile + Vite bundle → ./dist)
+npm run lint    # ESLint
+npm run preview # preview the production build locally
+```
 
-**Use GitHub Codespaces**
+## Hosting & deployment
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The site is hosted entirely on **Cloudflare Workers** and served from the custom
+domain `blog.kiriakosai.com`. A single Worker (`cloudflare-worker.js`) both:
 
-## What technologies are used for this project?
+1. serves the static SPA build in `./dist` via the Workers static-assets binding
+   (configured in `wrangler.toml`), and
+2. intercepts social-crawler requests (Facebook, LinkedIn, Threads, Slack,
+   Discord, …) to return per-article Open Graph tags for rich link previews.
 
-This project is built with:
+To deploy:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```sh
+npm run build       # produces ./dist
+npx wrangler deploy # uploads the Worker + static assets to Cloudflare
+```
 
-## How can I deploy this project?
+See the header comment in `cloudflare-worker.js` and `DEPLOYMENT_GUIDE.md` for
+the full setup, including the Worker environment variables and custom-domain
+binding.
 
-Simply open [Lovable](https://lovable.dev/projects/65c2f9ed-16cc-427a-af29-7a59108fd09a) and click on Share -> Publish.
+## Backend & data pipelines
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- **Supabase** holds posts, market data, and news. See `MARKET_DATA_SETUP_GUIDE.md`
+  and `CLAUDE.md` for schema and runbooks.
+- **GitHub Actions** (`.github/workflows/`) run the daily market/news update, the
+  weekly summary, and the API health check. Required secrets are documented in
+  `CLAUDE.md`.
