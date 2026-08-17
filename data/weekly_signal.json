@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T13:26:24.295Z",
+  "generated_at": "2026-08-17T09:48:39.839Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,13 +7,13 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 15
+      "item_count": 14
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 7
+      "item_count": 9
     },
     {
       "id": "human_centric_design",
@@ -46,7 +46,7 @@
       "url": "https://www.atlassian.com/blog/rovo/ai-governance-built-in",
       "summary": "Every organization is in the middle of an agentic transformation. Teams everywhere are rapidly building and deploying agents that access data, trigger workflows, and influence decisions, often without centralized oversight. That shift happened fast. Faster th…",
       "published_date": "2026-08-14",
-      "relevance_score": 21,
+      "relevance_score": 20,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
@@ -67,7 +67,7 @@
       "url": "https://www.pymnts.com/insurance/2026/insurance-regulators-get-schooled-ai-governance/",
       "summary": "Insurance regulators are moving artificial intelligence governance from the policy manual into the examination file. On Thursday (Aug. 13) at its Summer National Meeting, the National Association of Insurance Commissioners provided an update on its AI Risk Ev…",
       "published_date": "2026-08-14",
-      "relevance_score": 18,
+      "relevance_score": 17,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -81,6 +81,46 @@
     },
     {
       "rank": 3,
+      "title": "redmtz 1.6.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/redmtz/1.6.0/",
+      "summary": "AI Governance for Python Functions and MCP Agents — Cryptographically signed audit envelopes for every decision.",
+      "published_date": "2026-08-16",
+      "relevance_score": 14,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 4,
+      "title": "Show HN: PyScrappy, self-healing web scraping selectors plus an MCP server",
+      "source": "Github.com",
+      "url": "https://github.com/mldsveda/PyScrappy",
+      "summary": "Adaptive Python web scraping toolkit + MCP server for AI agents. Self-healing selectors that survive site changes, TLS-fingerprint stealth to bypass anti-bot filters, CSS/XPath parsing, and 24 buil...",
+      "published_date": "2026-08-16",
+      "relevance_score": 13,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 5,
       "title": "tibet-audit 0.29.0",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/tibet-audit/0.29.0/",
@@ -100,26 +140,26 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 4,
-      "title": "nextcloud-mcp-server 0.174.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/nextcloud-mcp-server/0.174.0/",
-      "summary": "Model Context Protocol (MCP) server for Nextcloud integration - enables AI assistants to interact with Nextcloud data",
+      "rank": 6,
+      "title": "Yadda 3.0.0: BDD in the Age of AI Agents",
+      "source": "Stephen-cresswell.com",
+      "url": "http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html",
+      "summary": "Yadda 3.0.0 is out. The release modernises the JavaScript BDD library, but more interestingly, it was largely built by Claude Code and points to why executable specifications may become even more valuable in an agentic development world.",
       "published_date": "2026-08-15",
-      "relevance_score": 12,
+      "relevance_score": 11,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol",
-        "MCP"
+        "agentic",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "title": "EY is creating a 'value realization' office to make sure its AI spending pays off",
       "source": "Biztoc.com",
       "url": "https://biztoc.com/x/486faf02bbc42542",
@@ -138,26 +178,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
-      "title": "Anthropic’s Model 2 surpasses Mythos 5, raises AI misalignment concerns",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/anthropics-model-2-surpasses-mythos-5-raises-ai-misalignment-concerns/",
-      "summary": "Anthropic's Model 2 advancement may intensify AI governance debates and reshape competitive dynamics in the AI sector by 2026.\nThe post Anthropic’s Model 2 surpasses Mythos 5, raises AI misalignment concerns appeared first on Crypto Briefing.",
-      "published_date": "2026-08-14",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
+      "rank": 8,
       "title": "secureai-sdk added to PyPI",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/secureai-sdk/",
@@ -176,31 +197,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 8,
-      "title": "Agentic AI Initiatives Stall When Prototypes Lack Production Discipline, Says Info-Tech Research Group",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/agentic-ai-initiatives-stall-when-prototypes-lack-production-discipline-says-info-tech-research-group-853990057.html",
-      "summary": "Organizations that successfully design agentic AI prototypes often stall at implementation, with many enterprises struggling to move agents from design concept to working prototype. Info-Tech has published a new blueprint, Develop Your Agentic AI Prototype, t…",
-      "published_date": "2026-08-14",
-      "relevance_score": 10,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "implementation"
-      ],
-      "sentiment": "positive"
-    },
-    {
       "rank": 9,
-      "title": "codingest 0.2.3",
+      "title": "inspeximus 2.10.5",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/codingest/0.2.3/",
-      "summary": "Build fast, queryable code graphs for AI agents, MCP code review, and local or GitHub repository analysis.",
-      "published_date": "2026-08-15",
+      "url": "https://pypi.org/project/inspeximus/2.10.5/",
+      "summary": "The self-correcting memory layer for AI agents: when a fact is corrected, Inspeximus serves the new value and resists the old one resurfacing. Zero-dependency single file + MCP server — value-ranked recall, per-type decay, consolidation, revert, and tamper-ev…",
+      "published_date": "2026-08-16",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -215,11 +217,11 @@
     },
     {
       "rank": 10,
-      "title": "hb-eval-sdk 2.8.0",
+      "title": "inspeximus 2.10.4",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/hb-eval-sdk/2.8.0/",
-      "summary": "HB-Eval SDK: operational reliability evaluation for agentic AI — fault-injection battery, runtime monitoring, MCP server, and LangChain/LangGraph/CrewAI adapters",
-      "published_date": "2026-08-15",
+      "url": "https://pypi.org/project/inspeximus/2.10.4/",
+      "summary": "The self-correcting memory layer for AI agents: when a fact is corrected, Inspeximus serves the new value and resists the old one resurfacing. Zero-dependency single file + MCP server — value-ranked recall, per-type decay, consolidation, revert, and tamper-ev…",
+      "published_date": "2026-08-16",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -228,54 +230,18 @@
       "institutional_signal": false,
       "matched_keywords": [
         "MCP",
-        "agentic"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 11,
-      "title": "This Week in Science: AI Agents Come to an Agreement, Gemstones on Mars, And More!",
-      "source": "ScienceAlert",
-      "url": "https://www.sciencealert.com/this-week-in-science-ai-agents-come-to-an-agreement-gemstones-on-mars-and-more",
-      "summary": "Our weekly science news roundup.ScienceAlert stories are written, fact-checked, and edited by humans, never generated by AI. Don't miss a story, subscribe here.",
-      "published_date": "2026-08-15",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "Show HN: Agent-shell – vendor-neutral chat with AI agents in Emacs",
-      "source": "Xenodium.com",
-      "url": "https://xenodium.com/agent-shell-0-73-updates#agent-shell-enters-the-chat",
-      "summary": "Article URL: https://xenodium.com/agent-shell-0-73-updates#agent-shell-enters-the-chat\nComments URL: https://news.ycombinator.com/item?id=49309755\nPoints: 3\n# Comments: 1",
-      "published_date": "2026-08-15",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 13,
-      "title": "acgs-lite 2.12.0",
+      "title": "csoai 0.2.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/acgs-lite/2.12.0/",
-      "summary": "Runtime governance for AI agents — deterministic enforcement before execution, MACI role separation, tamper-evident audit trails, and operator intervention workflows.",
-      "published_date": "2026-08-15",
-      "relevance_score": 8,
+      "url": "https://pypi.org/project/csoai/0.2.1/",
+      "summary": "Council of AI — signed, deterministic AI-governance measurement: CLI + MCP server + agent-callable verifier",
+      "published_date": "2026-08-16",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai",
@@ -283,13 +249,88 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
+        "MCP",
         "governance"
       ],
       "sentiment": "neutral"
     },
     {
+      "rank": 12,
+      "title": "Anthropic’s Model 2 surpasses Mythos 5, raises AI misalignment concerns",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/anthropics-model-2-surpasses-mythos-5-raises-ai-misalignment-concerns/",
+      "summary": "Anthropic's Model 2 advancement may intensify AI governance debates and reshape competitive dynamics in the AI sector by 2026.\nThe post Anthropic’s Model 2 surpasses Mythos 5, raises AI misalignment concerns appeared first on Crypto Briefing.",
+      "published_date": "2026-08-14",
+      "relevance_score": 9,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "Agentic AI Initiatives Stall When Prototypes Lack Production Discipline, Says Info-Tech Research Group",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/agentic-ai-initiatives-stall-when-prototypes-lack-production-discipline-says-info-tech-research-group-853990057.html",
+      "summary": "Organizations that successfully design agentic AI prototypes often stall at implementation, with many enterprises struggling to move agents from design concept to working prototype. Info-Tech has published a new blueprint, Develop Your Agentic AI Prototype, t…",
+      "published_date": "2026-08-14",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "implementation"
+      ],
+      "sentiment": "positive"
+    },
+    {
       "rank": 14,
+      "title": "chronosos added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/chronosos/",
+      "summary": "ChronosOS: The Next-Generation Agentic Runtime & Time-Travel Debugger for AI Agents",
+      "published_date": "2026-08-16",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "Anthropic CEO Dario Amodei rejects claim AI regulation would concentrate power",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-ceo-dario-amodei-rejects-claim-ai-regulation-would-concentrate-power/articleshow/133271001.cms",
+      "summary": "Responding to a debate sparked by comments from investor Gavin Baker, Amodei said the choice between concentrating AI power through regulation and distributing it widely was a \"false choice\". He argued that fair institutional processes can constrain corporate…",
+      "published_date": "2026-08-16",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai regulation"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
       "title": "The Agentic AI threat cluster: Seven incidents, three actors, and what they mean for your exposure",
       "source": "Tenable.com",
       "url": "https://www.tenable.com/blog/the-agentic-ai-threat-cluster-seven-incidents-three-actors-and-what-they-mean",
@@ -307,13 +348,31 @@
       "sentiment": "negative"
     },
     {
-      "rank": 15,
+      "rank": 17,
+      "title": "I gave Tencent’s WeChat AI agent control for 24 hours: where it excelled – and stumbled",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/a3a88e28cbe8edd9",
+      "summary": "Tencent Holdings’ WeChat is already the undisputed super-app for over a billion people in China, handling everything from splitting dinner bills to hailing taxis. Now, Tencent is embedding an artificial intelligence agent named Xiaowei into the platform, addi…",
+      "published_date": "2026-08-16",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
       "title": "In the Agentic A.I. Era, Data Control Becomes a Product Advantage",
       "source": "Observer",
       "url": "https://observer.com/2026/08/ai-agents-data-control/",
       "summary": "Liquid AI’s Jeffrey Li unpacks why data control will become a defining competitive advantage as A.I. agents become more proactive and personalized. Li makes the case for treating data architecture as a core product decision, not an afterthought to privacy or …",
       "published_date": "2026-08-14",
-      "relevance_score": 8,
+      "relevance_score": 7,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -325,7 +384,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 16,
+      "rank": 19,
       "title": "College Kids Are Using AI Agents to “Take” Entire Online Classes for Them by Logging Directly Into the Course Management Software",
       "source": "Futurism",
       "url": "https://futurism.com/artificial-intelligence/college-kids-ai-agents-cheat-online-courses",
@@ -343,66 +402,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 17,
-      "title": "writing-skills 0.3.2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/writing-skills/0.3.2/",
-      "summary": "Procedural writing-style skills for AI agents — official frameworks, not vibes.",
-      "published_date": "2026-08-15",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "writing-skills 0.3.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/writing-skills/0.3.1/",
-      "summary": "Procedural writing-style skills for AI agents — official frameworks, not vibes.",
-      "published_date": "2026-08-15",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 19,
-      "title": "three-layer-agent-memory 0.8.4",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/three-layer-agent-memory/0.8.4/",
-      "summary": "A filesystem-native, version-controllable long-memory paradigm for AI agents. Surface/Middle/Deep layers + recall/writeback/consolidate protocol. Pure Markdown, zero infra, drives agent self-evolution.",
-      "published_date": "2026-08-15",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 20,
-      "title": "three-layer-agent-memory added to PyPI",
+      "title": "py4agent 1.0.6",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/three-layer-agent-memory/",
-      "summary": "A filesystem-native, version-controllable long-memory paradigm for AI agents. Surface/Middle/Deep layers + recall/writeback/consolidate protocol. Pure Markdown, zero infra, drives agent self-evolution.",
-      "published_date": "2026-08-15",
+      "url": "https://pypi.org/project/py4agent/1.0.6/",
+      "summary": "Python Dev Kit Inside Code Interpreter for AI Agents - Jupyter-based code execution with multimodal support",
+      "published_date": "2026-08-16",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
