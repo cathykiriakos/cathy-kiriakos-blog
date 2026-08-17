@@ -1588,7 +1588,7 @@ const Admin = () => {
 
                 <div className="pt-4 border-t">
                   <p className="text-sm text-muted-foreground">
-                    Add API keys as environment variables in your Lovable project settings or .env file.
+                    Add API keys as environment variables in your Cloudflare Worker settings or .env file.
                   </p>
                 </div>
               </CardContent>

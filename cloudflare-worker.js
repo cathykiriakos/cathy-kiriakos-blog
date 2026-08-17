@@ -4,41 +4,40 @@
  *
  * HOW IT WORKS
  * ------------
- * When Facebook, LinkedIn, Threads, or any social crawler requests a URL
- * from your site, this Worker intercepts it. If the request is from a social
- * crawler bot and the URL is a blog post (/blog/:slug), the Worker fetches
- * that post's data from your Supabase REST API and returns a minimal HTML
- * page with the correct og:title, og:description, og:image, and og:url tags.
- * All other requests are proxied through to Lovable as normal.
+ * Cloudflare hosts the whole site: the built SPA in ./dist is served from the
+ * Worker's static-assets binding (see wrangler.toml), and this same Worker runs
+ * in front of it. When Facebook, LinkedIn, Threads, or any social crawler
+ * requests a URL, the Worker intercepts it. If the request is from a social
+ * crawler bot and the URL is a blog post (/blog/:slug), the Worker fetches that
+ * post's data from the Supabase REST API and returns a minimal HTML page with
+ * the correct og:title, og:description, og:image, and og:url tags. Every other
+ * request is served from the static assets (env.ASSETS) — real browsers get the
+ * React SPA, with not_found_handling = "single-page-application" providing the
+ * client-side-routing fallback.
  *
- * SETUP INSTRUCTIONS
- * ------------------
- * 1. Sign up at https://dash.cloudflare.com (free tier is sufficient).
+ * SETUP / DEPLOY
+ * --------------
+ * 1. Build the site so ./dist exists:
+ *      npm run build
  *
- * 2. In Cloudflare, point your custom domain's DNS to your Lovable site:
- *    - Add a CNAME record: your-domain.com → <lovable-project>.lovable.app
- *    - Enable the Cloudflare proxy (orange cloud icon).
+ * 2. Deploy the Worker + assets with Wrangler (config lives in wrangler.toml):
+ *      npx wrangler deploy
  *
- * 3. Create a Worker:
- *    - Go to Workers & Pages → Create → "Hello World" Worker.
- *    - Replace the default script with the contents of this file.
- *    - Click Save & Deploy.
+ * 3. Point the custom domain at this Worker:
+ *    - Workers & Pages → this Worker → Settings → Domains & Routes → add a
+ *      Custom Domain (blog.kiriakosai.com), or add a Route on a proxied zone.
  *
- * 4. Add a Worker Route:
- *    - Go to your domain → Workers Routes → Add route.
- *    - Pattern: your-domain.com/* (or cathy-kiriakos.lovable.app/*)
- *    - Worker: the worker you just created.
+ * 4. Set Worker variables (Workers → this Worker → Settings → Variables), or
+ *    add a [vars] block to wrangler.toml:
+ *      SUPABASE_URL      = https://thkeyabexljbwpaxxkgr.supabase.co
+ *      SUPABASE_ANON_KEY = <your VITE_SUPABASE_PUBLISHABLE_KEY value>
+ *      SITE_URL          = https://blog.kiriakosai.com   (no trailing slash)
+ *      SITE_NAME         = Ni! New Innovation | Cathy Kiriakos
+ *      DEFAULT_OG_IMAGE  = <URL to your default social share image>
  *
- * 5. Set Worker environment variables (Workers → your worker → Settings → Variables):
- *    SUPABASE_URL      = https://thkeyabexljbwpaxxkgr.supabase.co
- *    SUPABASE_ANON_KEY = <your VITE_SUPABASE_PUBLISHABLE_KEY value>
- *    SITE_URL          = https://your-domain.com   (no trailing slash)
- *    SITE_NAME         = Ni! New Innovation | Cathy Kiriakos
- *    DEFAULT_OG_IMAGE  = <URL to your default social share image>
- *
- * 6. After deploying, go to https://developers.facebook.com/tools/debug/
- *    and paste your article URL to verify og: tags are being picked up.
- *    Also test at https://www.linkedin.com/post-inspector/
+ * 5. After deploying, verify og: tags at
+ *    https://developers.facebook.com/tools/debug/ and
+ *    https://www.linkedin.com/post-inspector/
  */
 
 // Social crawler user-agent fragments — any match triggers the OG response
@@ -135,8 +134,10 @@ export default {
 
     // Only intercept GET requests from social crawlers
     if (request.method !== 'GET' || !isSocialCrawler(userAgent)) {
-      // Pass all other requests through to Lovable unchanged
-      return fetch(request);
+      // Everything else is served from the static SPA build (./dist).
+      // not_found_handling = "single-page-application" (wrangler.toml) makes
+      // unmatched client routes fall back to index.html.
+      return env.ASSETS.fetch(request);
     }
 
     const slug = extractBlogSlug(url.pathname);

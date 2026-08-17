@@ -14,7 +14,9 @@ Personal blog and market-data dashboard for Cathy Kiriakos.
 - **Market data:** Alpha Vantage API → `scripts/fetch-market-data.js` → Supabase
 - **News:** NewsAPI + NYT API → `scripts/fetch-ai-news.js` → pillar-classified
   signal (`data/weekly_signal.json`) + Supabase
-- **Deploy:** Lovable (frontend), Supabase (backend)
+- **Deploy:** Cloudflare Workers (frontend `./dist` + edge OG previews via
+  `cloudflare-worker.js` / `wrangler.toml`), Supabase (backend). Live at
+  https://blog.kiriakosai.com. `npm run build && npx wrangler deploy`.
 - **CI:** GitHub Actions (`.github/workflows/`)
 
 ---

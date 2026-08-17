@@ -77,7 +77,7 @@ The workflow will take approximately **5-10 minutes** to complete (due to API ra
 
 ### Option 2: Check the Market Intelligence Page
 
-1. Visit: https://cathy-kiriakos.lovable.app/market-intelligence
+1. Visit: https://blog.kiriakosai.com/market-intelligence
 2. Click the **"Refresh Data"** button
 3. You should see:
    - AI Companies Market Cap: $X.XXT (in trillions)
@@ -159,4 +159,4 @@ If you continue to see $0.00T after running the Action:
 1. Check the workflow logs for errors
 2. Verify Supabase tables have data
 3. Check browser console for fetch errors
-4. Ensure you've deployed the latest code to Lovable (the code with improved error handling)
+4. Ensure you've deployed the latest code to Cloudflare (`npm run build && npx wrangler deploy`)
