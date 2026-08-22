@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T09:42:43.846Z",
+  "generated_at": "2026-08-22T09:32:42.635Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 16
+      "item_count": 15
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 4
+      "item_count": 8
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 3
+      "item_count": 2
     }
   ],
   "institutional_signal": {
@@ -41,10 +41,10 @@
   "items": [
     {
       "rank": 1,
-      "title": "China advances global AI governance in a comprehensive manner",
-      "source": "Antaranews.com",
-      "url": "https://en.antaranews.com/news/427873/china-advances-global-ai-governance-in-a-comprehensive-manner",
-      "summary": "A report from People&#39;s Daily.\r\n\r\nA recent commentary in The New York Times compared the development of advanced AI models to two distinct paths: ...",
+      "title": "US may impose more sanctions on China over Iran?; PRC-South Korea; Life for Evergrande’s Xu; AI governance; Supply chain punishment for Taiwan; “Pseudo-history”",
+      "source": "Sinocism.com",
+      "url": "https://sinocism.com/p/us-may-impose-more-sanctions-on-china",
+      "summary": "Given the PRC’s economic relations with Iran, Trump is clearly threatening “TREMENDOUS Economic Consequences” for China. But can he really follow through on this threat, or will Xi just respond with two words: “rare earths”?\n\nTreasury Secretary Bessent said t…",
       "published_date": "2026-08-20",
       "relevance_score": 18,
       "primary_pillar": "governance_as_code",
@@ -56,15 +56,98 @@
         "ai governance",
         "governance"
       ],
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
       "rank": 2,
-      "title": "apowerb 0.2.6",
+      "title": "hitl-guardrail 0.1.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/apowerb/0.2.6/",
-      "summary": "Agentic framework for building and deploying AI agents with flexible orchestration, custom tool integration, RAG, Text-to-SQL, webhooks, and scheduled runs.",
+      "url": "https://pypi.org/project/hitl-guardrail/0.1.0/",
+      "summary": "A human-in-the-loop policy guardrail for LLM / AI-agent actions — approve, escalate, or reject with an auditable reason and risk score.",
       "published_date": "2026-08-20",
+      "relevance_score": 18,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail",
+        "human-in-the-loop"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 3,
+      "title": "hitl-guardrail added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/hitl-guardrail/",
+      "summary": "A human-in-the-loop policy guardrail for LLM / AI-agent actions — approve, escalate, or reject with an auditable reason and risk score.",
+      "published_date": "2026-08-20",
+      "relevance_score": 18,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail",
+        "human-in-the-loop"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 4,
+      "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+      "source": "Amazon.com",
+      "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
+      "summary": "Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations end to end. Purpose-built AI agents handle discovery, infrastructure as code generation, portfolio governance, and post-…",
+      "published_date": "2026-08-20",
+      "relevance_score": 17,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent",
+        "multi-agent",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 5,
+      "title": "ai-governance-sidecar added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/ai-governance-sidecar/",
+      "summary": "Zero-code RAG lineage reporting for the AI Governance Gateway",
+      "published_date": "2026-08-21",
+      "relevance_score": 16,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "RAG",
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 6,
+      "title": "datorum 0.1.0a1.post1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/datorum/0.1.0a1.post1/",
+      "summary": "A settings-based framework for creating AI agents and pipelines, focusing on the high specialization of language models using context engineering.",
+      "published_date": "2026-08-21",
       "relevance_score": 15,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -72,81 +155,59 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "orchestration",
-        "agentic",
-        "ai agent",
-        "RAG"
+        "context engine",
+        "context engineering",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 3,
-      "title": "isa-agent-sdk 0.5.62",
+      "rank": 7,
+      "title": "Show HN: Bulwark Gateway – fail-closed security proxy for LLM agents",
+      "source": "Github.com",
+      "url": "https://github.com/red-orbita/bulwark-gateway",
+      "summary": "Security guardrail proxy for AI agents. Intercepts and enforces policies on tool calls between users and LLM backends. Multi-tenant, fail-closed, 78+ prompt injection patterns, threat intel feeds, ...",
+      "published_date": "2026-08-21",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "guardrail"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 8,
+      "title": "openagentd 2.0.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.5.62/",
-      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
-      "published_date": "2026-08-20",
-      "relevance_score": 15,
+      "url": "https://pypi.org/project/openagentd/2.0.0/",
+      "summary": "Self-hosted AI agents — streaming chat, tool use, persistent memory, multi-agent teams",
+      "published_date": "2026-08-21",
+      "relevance_score": 10,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
         "ai agent",
-        "human-in-the-loop"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 4,
-      "title": "agenlp added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/agenlp/",
-      "summary": "Agentic NLP — LLM loops + traditional NLP as tools, with human-in-the-loop",
-      "published_date": "2026-08-20",
-      "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "human-in-the-loop"
+        "multi-agent",
+        "tool use"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 5,
-      "title": "agenlp 0.0.1",
+      "rank": 9,
+      "title": "noesis-sdk 0.1.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/agenlp/0.0.1/",
-      "summary": "Agentic NLP — LLM loops + traditional NLP as tools, with human-in-the-loop",
-      "published_date": "2026-08-20",
-      "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 6,
-      "title": "Docker puts AI development on a sandboxed platform",
-      "source": "4sysops.com",
-      "url": "https://4sysops.com/archives/docker-puts-ai-development-on-a-sandboxed-platform/",
-      "summary": "Docker is expanding beyond container packaging with Docker Sandboxes, which run autonomous AI coding agents inside isolated microVMs, and Docker AI Governance, which lets organizations control their access to filesystems and networks. The shift gives administ…",
-      "published_date": "2026-08-19",
+      "url": "https://pypi.org/project/noesis-sdk/0.1.1/",
+      "summary": "Python SDK for the Noesis AI governance platform",
+      "published_date": "2026-08-21",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -160,196 +221,146 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 7,
-      "title": "agent-scan v0.6.0",
-      "source": "Kitploit.com",
-      "url": "https://kitploit.com/en/posts/github-snyk-agent-scan-v060",
-      "summary": "Security scanner for AI agents, MCP servers and agent skills.",
-      "published_date": "2026-08-20",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
-      "title": "mcp-web-engine 1.0.5",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/mcp-web-engine/1.0.5/",
-      "summary": "Privacy-First, Self-Hostable & SSRF-Hardened MCP Server & Web Engine for AI Agents",
-      "published_date": "2026-08-20",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users | TechCrunch",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
-      "summary": "Binance now lets AI agents trade, but keeping them in check is largely up to users | TechCrunchtechcrunch.com",
-      "published_date": "2026-08-20",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 10,
-      "title": "Responsible AI must expand inclusion, not just efficiency: RBI Deputy Governor Murmu",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/responsible-ai-must-expand-inclusion-not-just-efficiency-rbi-deputy-governor-murmu/article71365740.ece",
-      "summary": "RBI Deputy Governor Murmu emphasizes using AI for financial inclusion, urging balance between technology and human judgment in banking.",
-      "published_date": "2026-08-19",
-      "relevance_score": 8,
+      "title": "noesis-sdk added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/noesis-sdk/",
+      "summary": "Python SDK for the Noesis AI governance platform",
+      "published_date": "2026-08-21",
+      "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "responsible ai"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 11,
-      "title": "AI agent suggested installing a malware package. Engineer almost took its advice",
-      "source": "Theregister.com",
-      "url": "https://www.theregister.com/security/2026/08/20/ai-agent-suggested-installing-a-malware-package-engineer-almost-took-its-advice/5289849",
-      "summary": "Fortunately, the company had a policy of checking source code on GitHub first",
-      "published_date": "2026-08-20",
-      "relevance_score": 8,
+      "title": "asterinis 0.0.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/asterinis/0.0.1/",
+      "summary": "Python framework for AI orchestration, RAG, NLP integration, agent routing, and explainable AI.",
+      "published_date": "2026-08-21",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "orchestration",
+        "RAG"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "HappyRobot Wants $1.2 Billion to Run Your Freight by Voice",
-      "source": "Forkast.news",
-      "url": "https://forkast.news/happyrobot-wants-1-2-billion-to-run-your-freight-by-voice/",
-      "summary": "Most enterprise AI agent companies are still trying to get their software out of the pilot phase. HappyRobot has 150-plus customers and eight of the 10 largest US freight brokers running its agents in production. On August 4, the San Francisco-based company c…",
-      "published_date": "2026-08-20",
-      "relevance_score": 7,
+      "title": "asterinis added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/asterinis/",
+      "summary": "Python framework for AI orchestration, RAG, NLP integration, agent routing, and explainable AI.",
+      "published_date": "2026-08-21",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "in production"
+        "orchestration",
+        "RAG"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 13,
-      "title": "prismor v1.43.0",
-      "source": "Kitploit.com",
-      "url": "https://kitploit.com/en/posts/github-prismorsec-prismor-v1430",
-      "summary": "Self-hosted runtime control plane for AI agents. Observe or HITL approve or Block rogue tool calls before it executes: secret leaks, prompt injection, supply chain etc in a local dashboard. Agent agnostic (Claude,codex etc.)",
-      "published_date": "2026-08-20",
-      "relevance_score": 5,
+      "title": "mnemosyne-lite 0.4.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/mnemosyne-lite/0.4.1/",
+      "summary": "Local-first long-term memory for AI agents: a plain Markdown vault plus a thin MCP server. Token-efficient, plug-and-play.",
+      "published_date": "2026-08-21",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 14,
-      "title": "loupe-agent added to PyPI",
+      "title": "mnemosyne-lite added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/loupe-agent/",
-      "summary": "Open-source debugger for AI agents.",
-      "published_date": "2026-08-20",
-      "relevance_score": 5,
+      "url": "https://pypi.org/project/mnemosyne-lite/",
+      "summary": "Local-first long-term memory for AI agents: a plain Markdown vault plus a thin MCP server. Token-efficient, plug-and-play.",
+      "published_date": "2026-08-21",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 15,
-      "title": "vigolium v0.4.3",
-      "source": "Kitploit.com",
-      "url": "https://kitploit.com/en/posts/github-vigolium-vigolium-v043",
-      "summary": "Vigolium - High-fidelity vulnerability scanner fusing agentic AI with native speed, modularity, and precision",
-      "published_date": "2026-08-20",
-      "relevance_score": 5,
+      "title": "rtfm-ai 0.26.8",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/rtfm-ai/0.26.8/",
+      "summary": "RTFM — The open retrieval layer for AI agents. Indexes code, docs, legal, research, data. Extensible parser system. Serves surgical context via MCP.",
+      "published_date": "2026-08-21",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 16,
-      "title": "openjiuwen 0.1.17",
+      "title": "pyddock 0.4.2",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/openjiuwen/0.1.17/",
-      "summary": "openJiuwen agent-core is a feature-rich AI agent SDK for developing, running, tuning, and improving your AI agents.",
-      "published_date": "2026-08-20",
-      "relevance_score": 5,
+      "url": "https://pypi.org/project/pyddock/0.4.2/",
+      "summary": "MCP server that gives AI agents pre-approved Python, shell, and file I/O tools with declarative policy controls",
+      "published_date": "2026-08-21",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "deyta-cli 0.7.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/deyta-cli/0.7.0/",
-      "summary": "A unified command-line tool for Deyta's services, wrapping Khora persistent memory for AI agents.",
-      "published_date": "2026-08-20",
-      "relevance_score": 5,
+      "title": "Binance Opens the Door to AI Agents That Can Trade Crypto for You",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/376161/binance-ai-agents-trade-crypto",
+      "summary": "Binance Agent OS connects tools like ChatGPT and Claude directly to the exchange's markets, though safeguards wall agents off from user funds—and leave much of the oversight to users themselves.",
+      "published_date": "2026-08-21",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -362,12 +373,12 @@
     },
     {
       "rank": 18,
-      "title": "nono v0.74.0",
-      "source": "Kitploit.com",
-      "url": "https://kitploit.com/en/posts/github-nolabs-ai-nono-v0740",
-      "summary": "Sandbox any AI agent in seconds - zero setup, zero latency.",
-      "published_date": "2026-08-20",
-      "relevance_score": 5,
+      "title": "Show HN: Squid Pay – Financial infrastructure for autonomous AI agents",
+      "source": "Squidpay.dev",
+      "url": "https://www.squidpay.dev/",
+      "summary": "We’re building Squid Pay, financial infrastructure that lets AI agents interact with money while keeping humans in control.AI agents are becoming increasingly capable of taking real-world actions, but giving an agent access to a wallet creates a new problem: …",
+      "published_date": "2026-08-21",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -376,41 +387,42 @@
       "matched_keywords": [
         "ai agent"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 19,
-      "title": "toolsconnector 0.3.24",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/toolsconnector/0.3.24/",
-      "summary": "A foundational primitive for standardizing external API tool connections — for both traditional applications and AI agents.",
-      "published_date": "2026-08-20",
-      "relevance_score": 5,
+      "title": "India's ShepHertz Launches Sovereign AI to Help Enterprises Own Their Intelligence",
+      "source": "ANI News",
+      "url": "https://www.aninews.in/news/business/indias-shephertz-launches-sovereign-ai-to-help-enterprises-own-their-intelligence20260821125545",
+      "summary": "Gurugram (Haryana) [India], August 21: ShepHertz Technologies launched AgentAnywhere, a sovereign agentic AI platform that lets banks, insurers, hospitals, governments and the BPOs that serve them run AI agents entirely inside their own infrastructure, on the…",
+      "published_date": "2026-08-21",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "agentic",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "AI vendor dependency is becoming a resilience risk",
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/pro/ai-vendor-dependency-is-becoming-a-resilience-risk",
-      "summary": "The future of successful enterprise AI use will be determined by organizations baking governance and resilience strategies into business plans.",
-      "published_date": "2026-08-20",
-      "relevance_score": 5,
-      "primary_pillar": "governance_as_code",
+      "title": "Anchorage CEO says AI agents need bank accounts for ‘The Jetsons’-like future",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/110ae1dcfd0f41be",
+      "summary": "Anchorage CEO says AI agents need bank accounts for 'The Jetsons'-like future\nQuick Take\n- Anchorage Digital CEO Nathan McCauley envisions AI agents as future “first-class economic actors” operating like The Jetsons across cash, card, and crypto rails.\n- The …",
+      "published_date": "2026-08-21",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "governance"
+        "ai agent"
       ],
       "sentiment": "neutral"
     }
