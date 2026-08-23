@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T09:33:35.472Z",
+  "generated_at": "2026-08-23T13:27:18.391Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -13,7 +13,7 @@
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 7
+      "item_count": 6
     },
     {
       "id": "human_centric_design",
@@ -41,25 +41,6 @@
   "items": [
     {
       "rank": 1,
-      "title": "empirica-mcp 1.13.28",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/empirica-mcp/1.13.28/",
-      "summary": "MCP server for Empirica — AI measurement and calibration tools via Model Context Protocol",
-      "published_date": "2026-08-22",
-      "relevance_score": 12,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "model context protocol",
-        "MCP"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 2,
       "title": "Show HN: MindShield v1.1.5 – Local AI guardrails tuned to reduce false positives",
       "source": "Github.com",
       "url": "https://github.com/fluryjanis/Mind-Shield",
@@ -77,47 +58,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 3,
-      "title": "blender-mcp-bridge 0.1.2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/blender-mcp-bridge/0.1.2/",
-      "summary": "An MCP server that gives AI agents hands-on control of Blender: modelling, materials, rendering, and 3D-print checks.",
-      "published_date": "2026-08-22",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent",
-        "hands-on"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 4,
-      "title": "google-search-console-mcp 0.10.6",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/google-search-console-mcp/0.10.6/",
-      "summary": "The GSC 'Intel Engine' for the evolving search landscape. Authoritative visibility governance and AI overview citation analysis via Model Context Protocol.",
-      "published_date": "2026-08-22",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "model context protocol",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 5,
+      "rank": 2,
       "title": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
       "source": "Amazon.com",
       "url": "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/",
@@ -136,7 +77,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
+      "rank": 3,
       "title": "m8tes 4.14.0",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/m8tes/4.14.0/",
@@ -156,7 +97,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 7,
+      "rank": 4,
       "title": "xsoft-comply 0.1.2",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/xsoft-comply/0.1.2/",
@@ -175,7 +116,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 8,
+      "rank": 5,
       "title": "xsoft-comply 0.1.1",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/xsoft-comply/0.1.1/",
@@ -194,7 +135,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 9,
+      "rank": 6,
       "title": "ashmatics-aigov-tools 0.7.9",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/ashmatics-aigov-tools/0.7.9/",
@@ -213,7 +154,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 10,
+      "rank": 7,
       "title": "China accelerates legislation on AI and blockchain",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/china-accelerates-ai-blockchain-legislation/",
@@ -232,11 +173,11 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 11,
-      "title": "inspeximus 2.20.0",
+      "rank": 8,
+      "title": "mnemosyne-lite 0.4.3",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/inspeximus/2.20.0/",
-      "summary": "The self-correcting memory layer for AI agents: when a fact is corrected, Inspeximus serves the new value and resists the old one resurfacing. Zero-dependency single file + MCP server — value-ranked recall, per-type decay, consolidation, revert, and tamper-ev…",
+      "url": "https://pypi.org/project/mnemosyne-lite/0.4.3/",
+      "summary": "Local-first long-term memory for AI agents: a plain Markdown vault plus a thin MCP server. Token-efficient, plug-and-play.",
       "published_date": "2026-08-22",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -246,73 +187,72 @@
       "institutional_signal": false,
       "matched_keywords": [
         "MCP",
+        "ai agent"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 9,
+      "title": "agentlock-browser 0.1.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/agentlock-browser/0.1.0/",
+      "summary": "Provenance-gated browsing tools for AI agents, over MCP. AgentLock enforces which channel a value came from before the browser acts on it.",
+      "published_date": "2026-08-22",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "agentlock-browser added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/agentlock-browser/",
+      "summary": "Provenance-gated browsing tools for AI agents, over MCP. AgentLock enforces which channel a value came from before the browser acts on it.",
+      "published_date": "2026-08-22",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 11,
+      "title": "Binance Launches Agent OS: AI Agents Can Now Trade Crypto With ChatGPT, Claude and Codex",
+      "source": "Bitcoinfoundation.org",
+      "url": "https://bitcoinfoundation.org/news/ai-news/binance-launches-agent-os/",
+      "summary": "Binance has taken a major step toward autonomous crypto trading. The world’s largest crypto exchange has launched Binance Agent OS, a developer platform that allows...\nThe post Binance Launches Agent OS: AI Agents Can Now Trade Crypto With ChatGPT, Claude and…",
+      "published_date": "2026-08-22",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "codingest 0.2.6",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/codingest/0.2.6/",
-      "summary": "Build fast, queryable code graphs for AI agents, MCP code review, and local or GitHub repository analysis.",
-      "published_date": "2026-08-22",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 13,
-      "title": "sendsoon-mcp 0.1.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/sendsoon-mcp/0.1.0/",
-      "summary": "MCP server for SendSoon: send email, look up public IP information, and convert files to Markdown from Claude, Cursor, Codex, and other AI agents.",
-      "published_date": "2026-08-22",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "sendsoon-mcp added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/sendsoon-mcp/",
-      "summary": "MCP server for SendSoon: send email, look up public IP information, and convert files to Markdown from Claude, Cursor, Codex, and other AI agents.",
-      "published_date": "2026-08-22",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "My AI agent got me banned from Resy. Another agent got me reinstated.",
-      "source": "Business Insider",
-      "url": "https://www.businessinsider.com/ai-agent-banned-resy-account-reinstated-2026-8#article",
-      "summary": "Brian Distelburger set up an AI agent to land a reservation at New York's 4 Charles. He was quickly banned from Resy after his account got flagged.",
+      "title": "This CEO was out to dinner when he caught his AI agent wasting $1,000 in tokens. He says ‘insecurity’ is a bigger problem",
+      "source": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/technology/ai/articles/ceo-dinner-caught-ai-agent-110000990.html",
+      "summary": "\"A thousand is not that much, I would say, but for one weekend, it's pretty annoying,\" Maxio CEO Branden Jenkins told Fortune.",
       "published_date": "2026-08-22",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
@@ -322,29 +262,11 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "agentic-security-harness 1.1.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/agentic-security-harness/1.1.0/",
-      "summary": "Open-source defensive harness and learning lab for reproducing and measuring agentic AI failure modes with portable traces, attack graphs, scorecards, and data-boundary tests.",
-      "published_date": "2026-08-22",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
       ],
       "sentiment": "negative"
     },
     {
-      "rank": 17,
+      "rank": 13,
       "title": "WHO Highlights Israeli Health System’s AI Safety Framework As Model For Responsible Deployment",
       "source": "Thej.ca",
       "url": "https://thej.ca/2026/08/22/who-highlights-israeli-health-systems-ai-safety-framework-as-model-for-responsible-deployment/",
@@ -362,7 +284,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 18,
+      "rank": 14,
       "title": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
       "source": "Amazon.com",
       "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/",
@@ -380,7 +302,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 19,
+      "rank": 15,
       "title": "Accelerating aircraft IFEC diagnostics with agentic AI on AWS",
       "source": "Amazon.com",
       "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-aircraft-ifec-diagnostics-with-agentic-ai-on-aws/",
@@ -398,13 +320,85 @@
       "sentiment": "positive"
     },
     {
-      "rank": 20,
+      "rank": 16,
       "title": "Show HN: Parselbox – an embeddable Python sandbox for AI agents",
       "source": "Github.com",
       "url": "https://github.com/thesanjeetc/parselbox",
       "summary": "Article URL: https://github.com/thesanjeetc/parselbox\nComments URL: https://news.ycombinator.com/item?id=49388608\nPoints: 2\n# Comments: 0",
       "published_date": "2026-08-21",
       "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "sonagram 0.2.6",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/sonagram/0.2.6/",
+      "summary": "Map a music library's analysis into a kglite knowledge graph for AI agents",
+      "published_date": "2026-08-22",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "semantic-harness 0.2.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/semantic-harness/0.2.2/",
+      "summary": "Cognitive middleware and procedural acceleration runtime for autonomous AI agents",
+      "published_date": "2026-08-22",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "cap-shield added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/cap-shield/",
+      "summary": "Context selection and compression for AI agents — measured, not estimated",
+      "published_date": "2026-08-22",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 20,
+      "title": "moven-sdk added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/moven-sdk/",
+      "summary": "The in-process circuit breaker for AI Agents. Intercept runaway loops and cost spikes in sub-millisecond real time.",
+      "published_date": "2026-08-22",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
