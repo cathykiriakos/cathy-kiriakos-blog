@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T09:54:12.695Z",
+  "generated_at": "2026-08-25T09:41:24.042Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,7 +7,7 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 11
+      "item_count": 10
     },
     {
       "id": "governance_as_code",
@@ -60,46 +60,25 @@
     },
     {
       "rank": 2,
-      "title": "m8tes 4.15.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/m8tes/4.15.1/",
-      "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
+      "title": "OpenAI and Anthropic build out Washington lobbying machines to shape AI legislation",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/openai-anthropic-lobbying-ai-legislation/",
+      "summary": "The increased lobbying by AI firms highlights the growing influence of tech companies in shaping regulatory landscapes, impacting future AI governance.\nThe post OpenAI and Anthropic build out Washington lobbying machines to shape AI legislation appeared first…",
       "published_date": "2026-08-23",
-      "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
-        "human_centric_design"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "human-in-the-loop"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 3,
-      "title": "m8tes 4.15.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/m8tes/4.15.0/",
-      "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
-      "published_date": "2026-08-22",
-      "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 4,
       "title": "eve-coreguard 0.2.9",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/eve-coreguard/0.2.9/",
@@ -118,7 +97,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "eve-coreguard 0.2.8",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/eve-coreguard/0.2.8/",
@@ -137,163 +116,51 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
-      "title": "xsoft-comply 0.1.2",
+      "rank": 5,
+      "title": "gagelink 0.5.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/xsoft-comply/0.1.2/",
-      "summary": "Python SDK for xsoft_comply AI governance platform (AI기본법 대응)",
-      "published_date": "2026-08-22",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "url": "https://pypi.org/project/gagelink/0.5.0/",
+      "summary": "MCP server and Python library giving AI agents hydrology data: river level, streamflow, flood forecasts, basins, and satellite water levels from USGS, NOAA, France's Hub'Eau, the UK Environment Agency, and SWOT, with units, datums, and record quality attached.",
+      "published_date": "2026-08-24",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 6,
+      "title": "arcaeon-audit 0.1.5",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/arcaeon-audit/0.1.5/",
+      "summary": "Tamper-evident, audit-ready logs for AI agents — ISO 42001 / SOC 2 / EU AI Act evidence. Prove what your agent did.",
+      "published_date": "2026-08-24",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "ai agent",
+        "eu ai act"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 7,
-      "title": "xsoft-comply 0.1.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/xsoft-comply/0.1.1/",
-      "summary": "Python SDK for xsoft_comply AI governance platform (AI기본법 대응)",
-      "published_date": "2026-08-22",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
-      "title": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
-      "source": "Amazon.com",
-      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/",
-      "summary": "The Agentic Data Operations Platform (ADOP) is a reference architecture on Amazon Bedrock that uses specialized AI agents to automate the full Bronze-to-Silver-to-Gold data pipeline lifecycle, compressing new-source onboarding from weeks to hours while keepin…",
-      "published_date": "2026-08-21",
-      "relevance_score": 10,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "Sterling Cooper built your UX process. We need to redefine it in the age of AI and systems.",
-      "source": "Uxdesign.cc",
-      "url": "https://uxdesign.cc/sterling-cooper-built-your-ux-process-we-need-to-redefine-it-in-the-age-of-ai-and-systems-520a2d3b2a60",
-      "summary": "The rituals of the 1960s ad shop — the whiskey, the pitch room, the account man, the campaign— still shape how UX teams fail in many…",
-      "published_date": "2026-08-23",
-      "relevance_score": 10,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "UX"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 10,
-      "title": "mcp-chronoshell 0.1.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/mcp-chronoshell/0.1.1/",
-      "summary": "A state-reverting terminal MCP that gives AI agents an undo button for local file operations.",
-      "published_date": "2026-08-23",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
-      "title": "mcp-chronoshell added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/mcp-chronoshell/",
-      "summary": "A state-reverting terminal MCP that gives AI agents an undo button for local file operations.",
-      "published_date": "2026-08-23",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "pyatr 0.3.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/pyatr/0.3.0/",
-      "summary": "Python engine for Agent Threat Rules (ATR) -- the open detection standard for AI agents (like Sigma, but for prompt injection, tool poisoning, MCP attacks, and skill compromise). Bundles the ATR rule set.",
-      "published_date": "2026-08-23",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 13,
-      "title": "ashmatics-aigov-tools 0.7.9",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/ashmatics-aigov-tools/0.7.9/",
-      "summary": "Ashmatics Clinical AI Governance Framework - Content management, validation, and compilation",
-      "published_date": "2026-08-21",
-      "relevance_score": 9,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "agentic-security-harness 1.2.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/agentic-security-harness/1.2.0/",
-      "summary": "Open-source defensive harness and learning lab for reproducing and measuring agentic AI failure modes with portable traces, attack graphs, scorecards, and data-boundary tests.",
-      "published_date": "2026-08-23",
+      "title": "AI Agents Become the API Economy’s Biggest New Customers",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/dbaac437395c6ee4",
+      "summary": "Every financial API was built for a human developer, a human analyst, or a human customer. A person queries the endpoint. A person reviews the response. A person decides what to do next. That assumption is no longer reliable. AI agents are now the fastest-gro…",
+      "published_date": "2026-08-24",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -301,12 +168,48 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic"
+        "ai agent"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "rank": 15,
+      "rank": 8,
+      "title": "ISCA, ICAI partner on responsible AI learning for accountants",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/7e68488ce680a909",
+      "summary": "The Institute of Singapore Chartered Accountants (ISCA) and the Institute of Chartered Accountants of India (ICAI) have agreed to strengthen collaboration on initiatives covering AI training and professional qualification recognition.\nUnder the expanded colla…",
+      "published_date": "2026-08-24",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "responsible ai"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 9,
+      "title": "GitHub Copilot Enterprise Settings: Testing Governance Across Developer Teams",
+      "source": "C-sharpcorner.com",
+      "url": "https://www.c-sharpcorner.com/article/github-copilot-enterprise-settings-testing-governance-across-developer-teams/",
+      "summary": "Learn how to test GitHub Copilot Enterprise settings and establish consistent AI coding governance across teams, repositories, and development environments.",
+      "published_date": "2026-08-24",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
       "title": "The Business Analyst's Guide to Agentic AI Requirements",
       "source": "Modernanalyst.com",
       "url": "https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/7213/The-Business-Analysts-Guide-to-Agentic-AI-Requirements.aspx",
@@ -324,25 +227,79 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 16,
-      "title": "WHO Highlights Israeli Health System’s AI Safety Framework As Model For Responsible Deployment",
-      "source": "Thej.ca",
-      "url": "https://thej.ca/2026/08/22/who-highlights-israeli-health-systems-ai-safety-framework-as-model-for-responsible-deployment/",
-      "summary": "A new WHO report highlights Clalit’s approach to safely integrating AI into health care, including its OPTICA assessment framework and predictive medicine programs.",
-      "published_date": "2026-08-22",
+      "rank": 11,
+      "title": "Senior Agentic AI/ML Engineer",
+      "source": "Nlppeople.com",
+      "url": "https://nlppeople.com/job/senior-agentic-ai-ml-engineer-2/",
+      "summary": "YOUR IMPACT Own your opportunity to work with the largest government agency in the nation. Make an impact by advancing the Department of War’s mission to keep our country safe and secure. OUR COMPANY Iron EagleX (IEX), a wholly owned subsidiary of General Dyn…",
+      "published_date": "2026-08-24",
       "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai safety"
+        "agentic"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 17,
+      "rank": 12,
+      "title": "extralit-server 0.7.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/extralit-server/0.7.2/",
+      "summary": "Open-source tool for accurate & fast scientific literature data extraction with LLM and human-in-the-loop.",
+      "published_date": "2026-08-23",
+      "relevance_score": 8,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "extralit-server 0.7.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/extralit-server/0.7.1/",
+      "summary": "Open-source tool for accurate & fast scientific literature data extraction with LLM and human-in-the-loop.",
+      "published_date": "2026-08-23",
+      "relevance_score": 8,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "AI Agents Won’t Transform Work Until Humans Trust the Work",
+      "source": "Briansolis.com",
+      "url": "https://briansolis.com/2026/08/36021/",
+      "summary": "I’m honored to be included in The Wharton Blueprint for AI Agent Adoption, a new report from Wharton Human-AI Research and Science Says that explores one of the most important questions facing every leader right now: if AI agents are becoming so capable, why …",
+      "published_date": "2026-08-23",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
       "title": "Zero-Click Grok Chat History Theft: Adversa AI Demonstrates Cryptographic Context Injection",
       "source": "Securityaffairs.com",
       "url": "https://securityaffairs.com/197717/hacking/zero-click-grok-chat-history-theft-adversa-ai-demonstrates-cryptographic-context-injection.html",
@@ -360,13 +317,49 @@
       "sentiment": "neutral"
     },
     {
+      "rank": 16,
+      "title": "Can Google’s Pixel 11 Pro XL Finally Beat the iPhone 17 Pro Max in Speed?",
+      "source": "Geeky Gadgets",
+      "url": "https://www.geeky-gadgets.com/iphone-17-pro-max-pixel-11-speed-test/",
+      "summary": "The Pixel 11 Pro XL and iPhone 17 Pro Max represent two flagship smartphones that embody distinct philosophies in design, performance and user experience. While the Pixel emphasizes AI-driven innovation and camera excellence, the iPhone focuses on raw computa…",
+      "published_date": "2026-08-24",
+      "relevance_score": 6,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "user experience"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 17,
+      "title": "llamaindex-lastsearch added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/llamaindex-lastsearch/",
+      "summary": "LlamaIndex integration for LastSearch — research infrastructure with Grounded Intelligence for AI agents",
+      "published_date": "2026-08-24",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
       "rank": 18,
-      "title": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
-      "source": "Amazon.com",
-      "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/",
-      "summary": "Give your AI agents governed, auditable access to enterprise tools without consolidating infrastructure. This post walks through a four-scope maturity model (Connect, Control, Catalog, and Harden) for building a governed tool gateway with Amazon Bedrock Agent…",
-      "published_date": "2026-08-21",
-      "relevance_score": 7,
+      "title": "langchain-lastsearch added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/langchain-lastsearch/",
+      "summary": "LangChain integration for LastSearch — research infrastructure with Grounded Intelligence for AI agents",
+      "published_date": "2026-08-24",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -379,29 +372,29 @@
     },
     {
       "rank": 19,
-      "title": "symvion 0.4.11",
+      "title": "lastsearch added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/symvion/0.4.11/",
-      "summary": "Multi-tenant AI orchestration framework powered by LangGraph.",
-      "published_date": "2026-08-23",
-      "relevance_score": 6,
+      "url": "https://pypi.org/project/lastsearch/",
+      "summary": "Python SDK for LastSearch — Grounded Intelligence research infrastructure for AI agents",
+      "published_date": "2026-08-24",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "orchestration"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "wlpworld added to PyPI",
+      "title": "praisonaiagents 1.7.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/wlpworld/",
-      "summary": "A filesystem-native, version-controllable long-memory paradigm for AI agents. Surface/Middle/Deep layers + recall/writeback/consolidate protocol. Pure Markdown, zero infra, drives agent self-evolution.",
-      "published_date": "2026-08-23",
+      "url": "https://pypi.org/project/praisonaiagents/1.7.1/",
+      "summary": "Praison AI agents for completing complex tasks with Self Reflection Agents",
+      "published_date": "2026-08-24",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
