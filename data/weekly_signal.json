@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T09:41:24.042Z",
+  "generated_at": "2026-08-26T09:48:19.923Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 10
+      "item_count": 14
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 8
+      "item_count": 4
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 3
+      "item_count": 4
     }
   ],
   "institutional_signal": {
@@ -41,30 +41,33 @@
   "items": [
     {
       "rank": 1,
-      "title": "Will Pega’s Free Responsible AI Tools Deepen Its Recurring Revenue Moat For Investors In PEGA?",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/fb9dc81702f65cc3",
-      "summary": "Pegasystems Inc. recently announced the past general availability of Pega Customer Engagement Studio, adding responsible AI, governance, and automation capabilities to its Pega Customer Decision Hub as part of the Pega Infinity 26 release, alongside showcasin…",
-      "published_date": "2026-08-23",
-      "relevance_score": 11,
-      "primary_pillar": "governance_as_code",
+      "title": "singleaxis-fabric 0.7.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/singleaxis-fabric/0.7.1/",
+      "summary": "Open-source observability and control plane for AI agents — decision-span tracing, fail-loud guardrails, and human-in-the-loop, OpenTelemetry-native.",
+      "published_date": "2026-08-25",
+      "relevance_score": 16,
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "governance_as_code"
+        "applied_ai",
+        "governance_as_code",
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "governance",
-        "responsible ai"
+        "ai agent",
+        "guardrail",
+        "human-in-the-loop"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 2,
-      "title": "OpenAI and Anthropic build out Washington lobbying machines to shape AI legislation",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/openai-anthropic-lobbying-ai-legislation/",
-      "summary": "The increased lobbying by AI firms highlights the growing influence of tech companies in shaping regulatory landscapes, impacting future AI governance.\nThe post OpenAI and Anthropic build out Washington lobbying machines to shape AI legislation appeared first…",
-      "published_date": "2026-08-23",
+      "title": "How Can Enterprises Implement AI Beyond Chatbots?",
+      "source": "C-sharpcorner.com",
+      "url": "https://www.c-sharpcorner.com/article/how-can-enterprises-implement-ai-beyond-chatbots/",
+      "summary": "Explore practical enterprise AI use cases beyond chatbots, including AI workflow automation, predictive analytics, AI copilots, document processing, system integration, and AI governance.",
+      "published_date": "2026-08-24",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -79,49 +82,30 @@
     },
     {
       "rank": 3,
-      "title": "eve-coreguard 0.2.9",
+      "title": "mnemoai-assistant 1.10.3",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/eve-coreguard/0.2.9/",
-      "summary": "EVE CoreGuard SDK - AI Governance Enforcement in One API Call",
-      "published_date": "2026-08-23",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "url": "https://pypi.org/project/mnemoai-assistant/1.10.3/",
+      "summary": "Mnemo AI — a local agentic AI assistant (LangGraph + MCP) that learns and remembers, with multi-provider model support.",
+      "published_date": "2026-08-25",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "MCP",
+        "agentic"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 4,
-      "title": "eve-coreguard 0.2.8",
+      "title": "lorekeep 0.41.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/eve-coreguard/0.2.8/",
-      "summary": "EVE CoreGuard SDK - AI Governance Enforcement in One API Call",
-      "published_date": "2026-08-23",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 5,
-      "title": "gagelink 0.5.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/gagelink/0.5.0/",
-      "summary": "MCP server and Python library giving AI agents hydrology data: river level, streamflow, flood forecasts, basins, and satellite water levels from USGS, NOAA, France's Hub'Eau, the UK Environment Agency, and SWOT, with units, datums, and record quality attached.",
-      "published_date": "2026-08-24",
+      "url": "https://pypi.org/project/lorekeep/0.41.0/",
+      "summary": "Temporal knowledge graph for AI agents via MCP",
+      "published_date": "2026-08-25",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -135,32 +119,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
-      "title": "arcaeon-audit 0.1.5",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/arcaeon-audit/0.1.5/",
-      "summary": "Tamper-evident, audit-ready logs for AI agents — ISO 42001 / SOC 2 / EU AI Act evidence. Prove what your agent did.",
-      "published_date": "2026-08-24",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "eu ai act"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
-      "title": "AI Agents Become the API Economy’s Biggest New Customers",
+      "rank": 5,
+      "title": "Goldman's engineers have a new challenge: turning AI agents into firm insiders",
       "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/dbaac437395c6ee4",
-      "summary": "Every financial API was built for a human developer, a human analyst, or a human customer. A person queries the endpoint. A person reviews the response. A person decides what to do next. That assumption is no longer reliable. AI agents are now the fastest-gro…",
-      "published_date": "2026-08-24",
+      "url": "https://biztoc.com/x/73cec68593833adf",
+      "summary": "Marco Argenti said that an engineer's main AI challenge has shifted.\nBloomberg/Getty Images\nMarco Argenti, chief information officer, said engineers need to transfer \"tribal knowledge\" to AI.\nNow that all developers are using AI, Argenti said the focus is on …",
+      "published_date": "2026-08-25",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -170,14 +134,50 @@
       "matched_keywords": [
         "ai agent"
       ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 6,
+      "title": "qualcoder-mcp 0.10.0a0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/qualcoder-mcp/0.10.0a0/",
+      "summary": "Model Context Protocol server for Qualcoder qualitative data analysis with AI-assisted coding",
+      "published_date": "2026-08-25",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 7,
+      "title": "AI-powered metadata correction and harmonization",
+      "source": "Amazon.com",
+      "url": "https://aws.amazon.com/blogs/machine-learning/ai-powered-metadata-correction-and-harmonization/",
+      "summary": "Metadata harmonization (standardizing labels, identifiers, and formats so datasets can work together) is still largely manual. This post shows how AI-powered metadata correction works in practice, covering two approaches, human-in-the-loop validation and auto…",
+      "published_date": "2026-08-24",
+      "relevance_score": 8,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "human-in-the-loop"
+      ],
       "sentiment": "neutral"
     },
     {
       "rank": 8,
-      "title": "ISCA, ICAI partner on responsible AI learning for accountants",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/7e68488ce680a909",
-      "summary": "The Institute of Singapore Chartered Accountants (ISCA) and the Institute of Chartered Accountants of India (ICAI) have agreed to strengthen collaboration on initiatives covering AI training and professional qualification recognition.\nUnder the expanded colla…",
+      "title": "Responsible AI adoption needs developer workflow design",
+      "source": "Stackoverflow.blog",
+      "url": "https://stackoverflow.blog/2026/08/24/responsible-ai-adoption-needs-developer-workflow-design/",
+      "summary": "Organizations cannot solve shadow AI with a document employees read once. They need to make responsible use easier than improvised use.",
       "published_date": "2026-08-24",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
@@ -192,29 +192,29 @@
     },
     {
       "rank": 9,
-      "title": "GitHub Copilot Enterprise Settings: Testing Governance Across Developer Teams",
-      "source": "C-sharpcorner.com",
-      "url": "https://www.c-sharpcorner.com/article/github-copilot-enterprise-settings-testing-governance-across-developer-teams/",
-      "summary": "Learn how to test GitHub Copilot Enterprise settings and establish consistent AI coding governance across teams, repositories, and development environments.",
+      "title": "Zywave 2026 Midyear Market Outlooks: Agentic AI a Defining Force in Shaping Coverage, Benefits, and Workforce Strategy",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/zywave-2026-midyear-market-outlooks-agentic-ai-a-defining-force-in-shaping-coverage-benefits-and-workforce-strategy-302857992.html",
+      "summary": "MILWAUKEE, Wis., Aug. 24, 2026 /PRNewswire/ -- Zywave, the leading technology provider for insurance distribution, today released its four 2026 Midyear Market Outlook reports covering commercial insurance, employee benefits, human resources and wellness. Whil…",
       "published_date": "2026-08-24",
       "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "governance"
+        "agentic"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 10,
-      "title": "The Business Analyst's Guide to Agentic AI Requirements",
-      "source": "Modernanalyst.com",
-      "url": "https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/7213/The-Business-Analysts-Guide-to-Agentic-AI-Requirements.aspx",
-      "summary": "This article proposes five practitioner frameworks for specifying agentic systems: the Agentic Requirements Stack, the Autonomy Boundary Canvas, Tool Contract Specification, the Escalation and Handoff Matrix, and the Agentic Traceability Ledger. Each is illus…",
-      "published_date": "2026-08-23",
+      "title": "Inside LinkedIn's cognitive memory agent for agentic personalization",
+      "source": "Stackoverflow.blog",
+      "url": "https://stackoverflow.blog/2026/08/25/inside-linkedin-s-cognitive-memory-agent/",
+      "summary": "Ryan is joined by Praveen Bodigutla, Principal AI Researcher at LinkedIn, to chat about the four-layer memory system his team built to give LinkedIn's hiring assistant a persistent, personalized state.",
+      "published_date": "2026-08-25",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -228,29 +228,29 @@
     },
     {
       "rank": 11,
-      "title": "Senior Agentic AI/ML Engineer",
-      "source": "Nlppeople.com",
-      "url": "https://nlppeople.com/job/senior-agentic-ai-ml-engineer-2/",
-      "summary": "YOUR IMPACT Own your opportunity to work with the largest government agency in the nation. Make an impact by advancing the Department of War’s mission to keep our country safe and secure. OUR COMPANY Iron EagleX (IEX), a wholly owned subsidiary of General Dyn…",
+      "title": "Fully autonomous Russian drone kills three Ukrainians",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/92d11e57e25aeeed",
+      "summary": "A drone powered by an autonomous AI system killed three Ukrainians last month in what experts believe are the first Russian-inflicted deaths without a human in the loop, The New York Times reported.\nThe drone in question was powered by a Nvidia minicomputer n…",
       "published_date": "2026-08-24",
       "relevance_score": 8,
-      "primary_pillar": "applied_ai",
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "applied_ai"
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic"
+        "human-in-the-loop"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "extralit-server 0.7.2",
+      "title": "pushary-openai-agents 0.2.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/extralit-server/0.7.2/",
-      "summary": "Open-source tool for accurate & fast scientific literature data extraction with LLM and human-in-the-loop.",
-      "published_date": "2026-08-23",
+      "url": "https://pypi.org/project/pushary-openai-agents/0.2.1/",
+      "summary": "Human-in-the-loop for the OpenAI Agents SDK: a function tool that asks a real human on their phone and blocks on a fail-closed answer.",
+      "published_date": "2026-08-24",
       "relevance_score": 8,
       "primary_pillar": "human_centric_design",
       "pillars": [
@@ -260,33 +260,15 @@
       "matched_keywords": [
         "human-in-the-loop"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 13,
-      "title": "extralit-server 0.7.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/extralit-server/0.7.1/",
-      "summary": "Open-source tool for accurate & fast scientific literature data extraction with LLM and human-in-the-loop.",
-      "published_date": "2026-08-23",
-      "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "AI Agents Won’t Transform Work Until Humans Trust the Work",
+      "title": "Your Next Customer May Not Be Human: Designing the Web for People, AI Agents, and Machine-Native Markets",
       "source": "Briansolis.com",
-      "url": "https://briansolis.com/2026/08/36021/",
-      "summary": "I’m honored to be included in The Wharton Blueprint for AI Agent Adoption, a new report from Wharton Human-AI Research and Science Says that explores one of the most important questions facing every leader right now: if AI agents are becoming so capable, why …",
-      "published_date": "2026-08-23",
+      "url": "https://briansolis.com/2026/08/your-next-customer-may-not-be-human-designing-the-web-for-people-ai-agents-and-machine-native-markets/",
+      "summary": "The intelligent web is entering its next phase. AI systems are moving from reading and summarizing the internet to researching, deciding, transacting, and increasingly interacting with other agents. That changes what leaders have to design for now. At WP Engi…",
+      "published_date": "2026-08-24",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -299,48 +281,66 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 15,
-      "title": "Zero-Click Grok Chat History Theft: Adversa AI Demonstrates Cryptographic Context Injection",
-      "source": "Securityaffairs.com",
-      "url": "https://securityaffairs.com/197717/hacking/zero-click-grok-chat-history-theft-adversa-ai-demonstrates-cryptographic-context-injection.html",
-      "summary": "New Cryptographic Context Injection technique bypasses AI guardrails via AES-encrypted payloads, leaking full Grok chat histories zero-click Adversa AI researcher Rony Utevsky devised a new attack technique, called Cryptographic Context Injection, that bypass…",
-      "published_date": "2026-08-23",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
+      "rank": 14,
+      "title": "Fine-tuning contextual LLMs for enterprise workflows",
+      "source": "C-sharpcorner.com",
+      "url": "https://www.c-sharpcorner.com/article/fine-tuning-contextual-llms-for-enterprise-workflows/",
+      "summary": "This presentation outlines a comprehensive strategy for bridging the gap between dynamic, unstructured IT ticketing systems (Jira) and rigid, schema-bound enterprise resource planning software (SAP). It details a hybrid AI architecture combining LoRA/QLoRA fi…",
+      "published_date": "2026-08-25",
+      "relevance_score": 6,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "fine-tuning"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "symbiopulse 0.2.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/symbiopulse/0.2.0/",
+      "summary": "Code context manager with evolutionary instinct for AI agents",
+      "published_date": "2026-08-25",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 16,
-      "title": "Can Google’s Pixel 11 Pro XL Finally Beat the iPhone 17 Pro Max in Speed?",
-      "source": "Geeky Gadgets",
-      "url": "https://www.geeky-gadgets.com/iphone-17-pro-max-pixel-11-speed-test/",
-      "summary": "The Pixel 11 Pro XL and iPhone 17 Pro Max represent two flagship smartphones that embody distinct philosophies in design, performance and user experience. While the Pixel emphasizes AI-driven innovation and camera excellence, the iPhone focuses on raw computa…",
-      "published_date": "2026-08-24",
-      "relevance_score": 6,
-      "primary_pillar": "human_centric_design",
+      "title": "nauro 1.17.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/nauro/1.17.0/",
+      "summary": "Human-approved project judgment and current state for connected AI agents, surfaced before work.",
+      "published_date": "2026-08-25",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "user experience"
+        "ai agent"
       ],
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "llamaindex-lastsearch added to PyPI",
+      "title": "genome-memory 1.2.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/llamaindex-lastsearch/",
-      "summary": "LlamaIndex integration for LastSearch — research infrastructure with Grounded Intelligence for AI agents",
-      "published_date": "2026-08-24",
+      "url": "https://pypi.org/project/genome-memory/1.2.0/",
+      "summary": "DNA-inspired memory layer for AI agents: zero-LLM-call ingestion, retrieval that beats full-context on overflowing histories.",
+      "published_date": "2026-08-25",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -354,11 +354,11 @@
     },
     {
       "rank": 18,
-      "title": "langchain-lastsearch added to PyPI",
+      "title": "echo-mem added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/langchain-lastsearch/",
-      "summary": "LangChain integration for LastSearch — research infrastructure with Grounded Intelligence for AI agents",
-      "published_date": "2026-08-24",
+      "url": "https://pypi.org/project/echo-mem/",
+      "summary": "A long-horizon memory architecture for AI agents",
+      "published_date": "2026-08-25",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -372,29 +372,29 @@
     },
     {
       "rank": 19,
-      "title": "lastsearch added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/lastsearch/",
-      "summary": "Python SDK for LastSearch — Grounded Intelligence research infrastructure for AI agents",
-      "published_date": "2026-08-24",
+      "title": "87% of Finance Professionals Have Ignored Fraudulent Expenses, Reimbursements, or Claims, Medius' New Financial Census Reveals",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/87-of-finance-professionals-have-ignored-fraudulent-expenses-reimbursements-or-claims-medius-new-financial-census-reveals-302859272.html",
+      "summary": "New global study from Medius finds growing tolerance for 'shallowfakes' as finance teams invest heavily in AI and automation, even as fraud, operational efficiency, governance, and workforce wellbeing remain persistent challenges. JACKSONVILLE, Fla., Aug. 25,…",
+      "published_date": "2026-08-25",
       "relevance_score": 5,
-      "primary_pillar": "applied_ai",
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "governance"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 20,
-      "title": "praisonaiagents 1.7.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/praisonaiagents/1.7.1/",
-      "summary": "Praison AI agents for completing complex tasks with Self Reflection Agents",
-      "published_date": "2026-08-24",
+      "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/5455e36d2615d34f",
+      "summary": "Alabama’s attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and autonomously hacked another company last month.\nOpenAI subpoenaed by Alabama AG over…",
+      "published_date": "2026-08-25",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
