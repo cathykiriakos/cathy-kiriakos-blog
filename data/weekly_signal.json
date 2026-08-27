@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T09:48:19.923Z",
+  "generated_at": "2026-08-27T19:44:16.572Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 14
+      "item_count": 11
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 4
+      "item_count": 9
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 4
+      "item_count": 2
     }
   ],
   "institutional_signal": {
@@ -36,39 +36,36 @@
       "polsky center",
       "mecha-nudges"
     ],
-    "item_count": 0
+    "item_count": 1
   },
   "items": [
     {
       "rank": 1,
-      "title": "singleaxis-fabric 0.7.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/singleaxis-fabric/0.7.1/",
-      "summary": "Open-source observability and control plane for AI agents — decision-span tracing, fail-loud guardrails, and human-in-the-loop, OpenTelemetry-native.",
-      "published_date": "2026-08-25",
-      "relevance_score": 16,
-      "primary_pillar": "human_centric_design",
+      "title": "Univention Corporate Server: AI Governance Is Key to Digital Sovereignty: How Today’s Decisions Will Shape Tomorrow’s Digital Independence",
+      "source": "Univention.com",
+      "url": "https://www.univention.com/blog-en/2026/08/ai-governance-is-key-to-digital-sovereignty-how-todays-decisions-will-shape-tomorrows-digital-independence/",
+      "summary": "Last week, I spoke at the Bremen Fast Forward AI Festival about why digital sovereignty is being decided anew today and what role open-source AI plays in this. Here, I have summarized my key points for future reference.\r\n\n\n\r\n\n\r\n\n\r\n\n\n\n Digital Sovereignty Mean…",
+      "published_date": "2026-08-26",
+      "relevance_score": 18,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
-        "governance_as_code",
-        "human_centric_design"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "guardrail",
-        "human-in-the-loop"
+        "ai governance",
+        "governance"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 2,
-      "title": "How Can Enterprises Implement AI Beyond Chatbots?",
-      "source": "C-sharpcorner.com",
-      "url": "https://www.c-sharpcorner.com/article/how-can-enterprises-implement-ai-beyond-chatbots/",
-      "summary": "Explore practical enterprise AI use cases beyond chatbots, including AI workflow automation, predictive analytics, AI copilots, document processing, system integration, and AI governance.",
-      "published_date": "2026-08-24",
-      "relevance_score": 10,
+      "title": "AI Governance 5: Aderit.ai Wrapup",
+      "source": "Hrexaminer.com",
+      "url": "https://www.hrexaminer.com/p/ai-governance-5-aderitai-wrapup",
+      "summary": "My conversations with the Aderit.ai team didn’t give me rock solid better answers.",
+      "published_date": "2026-08-26",
+      "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -82,193 +79,166 @@
     },
     {
       "rank": 3,
-      "title": "mnemoai-assistant 1.10.3",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/mnemoai-assistant/1.10.3/",
-      "summary": "Mnemo AI — a local agentic AI assistant (LangGraph + MCP) that learns and remembers, with multi-provider model support.",
-      "published_date": "2026-08-25",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
+      "title": "UChicago Goes ‘Analog’ for Some Courses",
+      "source": "Inside Higher Ed",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/08/26/uchicago-goes-analog-some-courses",
+      "summary": "As many colleges and universities race to infuse AI into the classroom, the University of Chicago wants to keep some foundational classes old-school. Beginning this fall semester, the university will prohibit the use of AI in its core social sciences courses,…",
+      "published_date": "2026-08-26",
+      "relevance_score": 18,
+      "primary_pillar": "institutional_signal",
+      "pillars": [],
+      "institutional_signal": true,
       "matched_keywords": [
-        "MCP",
-        "agentic"
+        "university of chicago",
+        "uchicago"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 4,
-      "title": "lorekeep 0.41.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/lorekeep/0.41.0/",
-      "summary": "Temporal knowledge graph for AI agents via MCP",
-      "published_date": "2026-08-25",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 5,
-      "title": "Goldman's engineers have a new challenge: turning AI agents into firm insiders",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/73cec68593833adf",
-      "summary": "Marco Argenti said that an engineer's main AI challenge has shifted.\nBloomberg/Getty Images\nMarco Argenti, chief information officer, said engineers need to transfer \"tribal knowledge\" to AI.\nNow that all developers are using AI, Argenti said the focus is on …",
-      "published_date": "2026-08-25",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 6,
-      "title": "qualcoder-mcp 0.10.0a0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/qualcoder-mcp/0.10.0a0/",
-      "summary": "Model Context Protocol server for Qualcoder qualitative data analysis with AI-assisted coding",
-      "published_date": "2026-08-25",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "model context protocol"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
-      "title": "AI-powered metadata correction and harmonization",
-      "source": "Amazon.com",
-      "url": "https://aws.amazon.com/blogs/machine-learning/ai-powered-metadata-correction-and-harmonization/",
-      "summary": "Metadata harmonization (standardizing labels, identifiers, and formats so datasets can work together) is still largely manual. This post shows how AI-powered metadata correction works in practice, covering two approaches, human-in-the-loop validation and auto…",
-      "published_date": "2026-08-24",
-      "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
-      "title": "Responsible AI adoption needs developer workflow design",
-      "source": "Stackoverflow.blog",
-      "url": "https://stackoverflow.blog/2026/08/24/responsible-ai-adoption-needs-developer-workflow-design/",
-      "summary": "Organizations cannot solve shadow AI with a document employees read once. They need to make responsible use easier than improvised use.",
-      "published_date": "2026-08-24",
-      "relevance_score": 8,
+      "title": "Bill Gates seeks meeting with Xi Jinping to discuss AI policy and international oversight",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/bill-gates-xi-jinping-ai-policy/",
+      "summary": "Gates' initiative could catalyze global AI governance, fostering international collaboration amid US-China tech tensions and AI safety concerns.\nThe post Bill Gates seeks meeting with Xi Jinping to discuss AI policy and international oversight appeared first …",
+      "published_date": "2026-08-26",
+      "relevance_score": 17,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "responsible ai"
+        "ai governance",
+        "governance",
+        "ai safety",
+        "ai policy"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 5,
+      "title": "isa-agent-sdk 0.5.69",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.5.69/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-08-26",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 6,
+      "title": "ladex 0.2.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/ladex/0.2.2/",
+      "summary": "A bill of lading for AI — shift-left AI governance and ML-BOM generation for developers.",
+      "published_date": "2026-08-26",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 7,
+      "title": "OpenAI releases comprehensive report on Hugging Face breach after its AI models escaped sandboxed environment",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/openai-hugging-face-breach-report/",
+      "summary": "The incident underscores the urgent need for robust AI governance and security measures, as autonomous AI actions challenge existing frameworks.\nThe post OpenAI releases comprehensive report on Hugging Face breach after its AI models escaped sandboxed environ…",
+      "published_date": "2026-08-26",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 8,
+      "title": "ladex 0.2.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/ladex/0.2.1/",
+      "summary": "A bill of lading for AI — shift-left AI governance and ML-BOM generation for developers.",
+      "published_date": "2026-08-26",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 9,
-      "title": "Zywave 2026 Midyear Market Outlooks: Agentic AI a Defining Force in Shaping Coverage, Benefits, and Workforce Strategy",
+      "title": "New IANS and Artico Search Report Finds Organizational Readiness, Not More Controls, Is What Builds Confidence in AI",
       "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/zywave-2026-midyear-market-outlooks-agentic-ai-a-defining-force-in-shaping-coverage-benefits-and-workforce-strategy-302857992.html",
-      "summary": "MILWAUKEE, Wis., Aug. 24, 2026 /PRNewswire/ -- Zywave, the leading technology provider for insurance distribution, today released its four 2026 Midyear Market Outlook reports covering commercial insurance, employee benefits, human resources and wellness. Whil…",
-      "published_date": "2026-08-24",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
+      "url": "https://www.prnewswire.com/news-releases/new-ians-and-artico-search-report-finds-organizational-readiness-not-more-controls-is-what-builds-confidence-in-ai-302860086.html",
+      "summary": "Leadership's AI understanding, AI governance ownership and staffing levels — not stronger technical controls — separate the CISOs who expect to manage AI risk effectively over the next 24 months from those who do not. BOSTON, Aug. 26, 2026 /PRNewswire/ -- IAN…",
+      "published_date": "2026-08-26",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic"
+        "ai governance",
+        "governance"
       ],
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
       "rank": 10,
-      "title": "Inside LinkedIn's cognitive memory agent for agentic personalization",
-      "source": "Stackoverflow.blog",
-      "url": "https://stackoverflow.blog/2026/08/25/inside-linkedin-s-cognitive-memory-agent/",
-      "summary": "Ryan is joined by Praveen Bodigutla, Principal AI Researcher at LinkedIn, to chat about the four-layer memory system his team built to give LinkedIn's hiring assistant a persistent, personalized state.",
-      "published_date": "2026-08-25",
+      "title": "gentrail 0.5.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/gentrail/0.5.1/",
+      "summary": "Gentrail SDK: governance hooks, inline policy enforcement, and telemetry capture for AI agents",
+      "published_date": "2026-08-26",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic"
+        "ai agent",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 11,
-      "title": "Fully autonomous Russian drone kills three Ukrainians",
+      "title": "OpenAI report says its network was hacked by its own rogue AI agents",
       "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/92d11e57e25aeeed",
-      "summary": "A drone powered by an autonomous AI system killed three Ukrainians last month in what experts believe are the first Russian-inflicted deaths without a human in the loop, The New York Times reported.\nThe drone in question was powered by a Nvidia minicomputer n…",
-      "published_date": "2026-08-24",
-      "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "pushary-openai-agents 0.2.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/pushary-openai-agents/0.2.1/",
-      "summary": "Human-in-the-loop for the OpenAI Agents SDK: a function tool that asks a real human on their phone and blocks on a fail-closed answer.",
-      "published_date": "2026-08-24",
-      "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "human-in-the-loop"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 13,
-      "title": "Your Next Customer May Not Be Human: Designing the Web for People, AI Agents, and Machine-Native Markets",
-      "source": "Briansolis.com",
-      "url": "https://briansolis.com/2026/08/your-next-customer-may-not-be-human-designing-the-web-for-people-ai-agents-and-machine-native-markets/",
-      "summary": "The intelligent web is entering its next phase. AI systems are moving from reading and summarizing the internet to researching, deciding, transacting, and increasingly interacting with other agents. That changes what leaders have to design for now. At WP Engi…",
-      "published_date": "2026-08-24",
+      "url": "https://biztoc.com/x/ac8912b9572ee26d",
+      "summary": "Risk Disclosure: Trading in financial instruments and/or cryptocurrencies involves high risks including the risk of losing some, or all, of your investment amount, and may not be suitable for all investors. Prices of cryptocurrencies are extremely volatile an…",
+      "published_date": "2026-08-26",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -278,34 +248,72 @@
       "matched_keywords": [
         "ai agent"
       ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 12,
+      "title": "cirvix added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/cirvix/",
+      "summary": "Runtime governance for AI agents — evaluate every tool call against policy before it executes.",
+      "published_date": "2026-08-26",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "governance"
+      ],
       "sentiment": "neutral"
     },
     {
-      "rank": 14,
-      "title": "Fine-tuning contextual LLMs for enterprise workflows",
-      "source": "C-sharpcorner.com",
-      "url": "https://www.c-sharpcorner.com/article/fine-tuning-contextual-llms-for-enterprise-workflows/",
-      "summary": "This presentation outlines a comprehensive strategy for bridging the gap between dynamic, unstructured IT ticketing systems (Jira) and rigid, schema-bound enterprise resource planning software (SAP). It details a hybrid AI architecture combining LoRA/QLoRA fi…",
-      "published_date": "2026-08-25",
-      "relevance_score": 6,
+      "rank": 13,
+      "title": "Google unveils agentic AI platform for lawyers",
+      "source": "Abajournal.com",
+      "url": "https://www.abajournal.com/news/article/google-unveils-gemini-for-legal-an-agentic-ai-platform-for-lawyers",
+      "summary": "Google has launched an artificial intelligence platform designed specifically for lawyers, entering an increasingly crowded market. On Tuesday, the company unveiled Gemini Enterprise for Legal,…",
+      "published_date": "2026-08-26",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "fine-tuning"
+        "agentic"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "From Generating Content to Getting Work Done: Why Agentic AI Is Becoming the Next Big Business Imperative",
+      "source": "Apnamatvchannel.com",
+      "url": "https://apnamatvchannel.com/business/from-generating-content-to-getting-work-done-why-agentic-ai-is-becoming-the-next-big-business-imperative/",
+      "summary": "New Delhi [India], August 26: The first wave of enterprise AI was about creating content faster. Emails, reports, presentations and code could be generated in seconds, fundamentally changing how knowledge work was performed. But as organisations move beyond e…",
+      "published_date": "2026-08-26",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 15,
-      "title": "symbiopulse 0.2.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/symbiopulse/0.2.0/",
-      "summary": "Code context manager with evolutionary instinct for AI agents",
-      "published_date": "2026-08-25",
-      "relevance_score": 5,
+      "title": "WebMCP: Teaching Your Website to Talk to AI Agents",
+      "source": "Sreenathmenon.com",
+      "url": "https://sreenathmenon.com/blog/2026-08-04-webmcp-teaching-websites-to-talk-to-ai-agents/",
+      "summary": "Right now, when an AI agent uses a website, it squints at the screen like a person would: reads the pixels, guesses which button is checkout, clicks, and hopes. It’s slow, brittle, and it breaks the moment you move a div. WebMCP flips that around. Instead of …",
+      "published_date": "2026-08-26",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -318,30 +326,30 @@
     },
     {
       "rank": 16,
-      "title": "nauro 1.17.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/nauro/1.17.0/",
-      "summary": "Human-approved project judgment and current state for connected AI agents, surfaced before work.",
-      "published_date": "2026-08-25",
-      "relevance_score": 5,
+      "title": "Learn AI Engineering and Create Agentic Systems With Udacity's Claude Nanodegree Course, Save 15% on Bundles or Pay Once",
+      "source": "Gizmodo.com",
+      "url": "https://gizmodo.com/learn-ai-engineering-and-create-agentic-systems-with-udacitys-claude-nanodegree-course-save-15-on-bundles-or-pay-once-2000803120",
+      "summary": "Learn AI Engineering and Create Agentic Systems With Udacity's Claude Nanodegree Course, Save 15% on Bundles or Pay Oncegizmodo.com",
+      "published_date": "2026-08-26",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "agentic"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "genome-memory 1.2.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/genome-memory/1.2.0/",
-      "summary": "DNA-inspired memory layer for AI agents: zero-LLM-call ingestion, retrieval that beats full-context on overflowing histories.",
-      "published_date": "2026-08-25",
-      "relevance_score": 5,
+      "title": "This AI Agent Ends Subscriptions Without a Phone Call",
+      "source": "pymnts.com",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/this-ai-agent-ends-subscriptions-without-a-phone-call/",
+      "summary": "Most personal finance apps have worked the same way for years: a dashboard showing what a consumer spent. The actual decision, whether to cancel a subscription or call to negotiate a bill, is left up to the person. Rocket Money launched an artificial intellig…",
+      "published_date": "2026-08-26",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -354,12 +362,12 @@
     },
     {
       "rank": 18,
-      "title": "echo-mem added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/echo-mem/",
-      "summary": "A long-horizon memory architecture for AI agents",
-      "published_date": "2026-08-25",
-      "relevance_score": 5,
+      "title": "OpenAI releases sweeping report on Hugging Face AI agent hack",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/b7250ae624d19ec9",
+      "summary": "OpenAI published a technical report on Wednesday detailing how its artificial intelligence models successfully breached Hugging Face last month, an incident that rattled researchers and executives across the tech sector.\nThe 37-page report chronicles the acti…",
+      "published_date": "2026-08-26",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -368,33 +376,33 @@
       "matched_keywords": [
         "ai agent"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 19,
-      "title": "87% of Finance Professionals Have Ignored Fraudulent Expenses, Reimbursements, or Claims, Medius' New Financial Census Reveals",
+      "title": "Tyfone Unveils nFinia Reimagined, Weaving AI into the Heart of Digital Banking",
       "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/87-of-finance-professionals-have-ignored-fraudulent-expenses-reimbursements-or-claims-medius-new-financial-census-reveals-302859272.html",
-      "summary": "New global study from Medius finds growing tolerance for 'shallowfakes' as finance teams invest heavily in AI and automation, even as fraud, operational efficiency, governance, and workforce wellbeing remain persistent challenges. JACKSONVILLE, Fla., Aug. 25,…",
-      "published_date": "2026-08-25",
-      "relevance_score": 5,
-      "primary_pillar": "governance_as_code",
+      "url": "https://www.prnewswire.com/news-releases/tyfone-unveils-nfinia-reimagined-weaving-ai-into-the-heart-of-digital-banking-302860153.html",
+      "summary": "Tyfone's next-generation digital banking platform combines a modern, intuitive user experience with embedded deep intelligence designed around how consumers want to bank today, while keeping community financial institutions at the center of the relationship. …",
+      "published_date": "2026-08-26",
+      "relevance_score": 6,
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "governance_as_code"
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "governance"
+        "user experience"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/5455e36d2615d34f",
-      "summary": "Alabama’s attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and autonomously hacked another company last month.\nOpenAI subpoenaed by Alabama AG over…",
-      "published_date": "2026-08-25",
+      "title": "watchlight added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/watchlight/",
+      "summary": "Watchlight Developer Edition — govern AI agents in-process, with zero infrastructure.",
+      "published_date": "2026-08-26",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
