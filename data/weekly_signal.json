@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T20:49:15.630Z",
+  "generated_at": "2026-08-29T14:17:50.125Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -13,13 +13,13 @@
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 6
+      "item_count": 10
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 4
+      "item_count": 3
     }
   ],
   "institutional_signal": {
@@ -46,7 +46,7 @@
       "url": "https://www.insidehighered.com/news/quick-takes/2026/08/26/uchicago-goes-analog-some-courses",
       "summary": "As many colleges and universities race to infuse AI into the classroom, the University of Chicago wants to keep some foundational classes old-school. Beginning this fall semester, the university will prohibit the use of AI in its core social sciences courses,…",
       "published_date": "2026-08-26",
-      "relevance_score": 18,
+      "relevance_score": 17,
       "primary_pillar": "institutional_signal",
       "pillars": [],
       "institutional_signal": true,
@@ -58,11 +58,11 @@
     },
     {
       "rank": 2,
-      "title": "Redwood Software Orchestrates the Enterprise, From Hybrid Cloud to Agentic AI -- Named a Leader for the Third Consecutive Year in the 2026 Gartner® Magic Quadrant™ for Service Orchestration and Automation Platforms",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/redwood-software-orchestrates-the-enterprise-from-hybrid-cloud-to-agentic-ai--named-a-leader-for-the-third-consecutive-year-in-the-2026-gartner-magic-quadrant-for-service-orchestration-and-automation-platforms-302861953.html",
-      "summary": "Key facts Redwood Software has been named a Leader three years in a row in the 2026 Gartner® Magic Quadrant™ for Service Orchestration and Automation Platforms (SOAP), positioned furthest in Completeness of Vision. Redwood has been ranked #1 in four out of fi…",
-      "published_date": "2026-08-27",
+      "title": "Show HN: dmx – MCP server for adding configurable, gated loops to coding agents",
+      "source": "Deepmodel.ai",
+      "url": "https://dmx.deepmodel.ai/",
+      "summary": "dmx is an open source AI-native engineering harness. It runs as an MCP server inside Cursor, Claude Code, Copilot, or any IDE that speaks the Model Context Protocol, and wraps your AI workflows in structured, verifiable loops.",
+      "published_date": "2026-08-28",
       "relevance_score": 16,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -70,13 +70,97 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "orchestration",
-        "agentic"
+        "model context protocol",
+        "MCP"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 3,
+      "title": "When AI agents fail, companies can’t play the blame game | Computer Weekly",
+      "source": "ComputerWeekly.com",
+      "url": "https://www.computerweekly.com/news/366649546/When-AI-agents-fail-companies-cant-play-the-blame-game",
+      "summary": "Singapore Academy of Law’s Yeong Zee Kin, who helped shape Singapore's model AI governance framework, sets out who answers when AI causes harm – and why the trail usually leads back to a human decision",
+      "published_date": "2026-08-28",
+      "relevance_score": 16,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 4,
+      "title": "singleaxis-fabric 0.8.0rc1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/singleaxis-fabric/0.8.0rc1/",
+      "summary": "Open-source observability and control plane for AI agents — decision-span tracing, fail-loud guardrails, and human-in-the-loop, OpenTelemetry-native.",
+      "published_date": "2026-08-28",
+      "relevance_score": 16,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "guardrail",
+        "human-in-the-loop"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 5,
+      "title": "chess-mcp-server 0.1.17b6",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/chess-mcp-server/0.1.17b6/",
+      "summary": "A Model Context Protocol (MCP) server for playing Chess with AI Agents.",
+      "published_date": "2026-08-28",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 6,
+      "title": "isa-agent-sdk 0.5.80",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/isa-agent-sdk/0.5.80/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-08-28",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 7,
       "title": "AI Search Didn’t Remove Cognitive Load, It Moved It via @sejournal, @DuaneForrester",
       "source": "Substack.com",
       "url": "https://duaneforresterdecodes.substack.com/p/ai-search-didnt-remove-cognitive",
@@ -94,25 +178,28 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 4,
-      "title": "\"We view AI as a sliding scale. There will always be a human in the loop; that's our ethos\": Why Side has signed an MOU with Modl.ai to use AI for QA",
-      "source": "GamesIndustry.biz",
-      "url": "https://www.gamesindustry.biz/we-view-ai-as-a-sliding-scale-there-will-always-be-a-human-in-the-loop-thats-our-ethos-why-side-has-signed-an-mou-with-modlai-to-use-ai-for-qa",
-      "summary": "We sit down with the two companies to discuss the role of AI in quality assurance, the tech's current limitations, and why human experts are an essential part o",
-      "published_date": "2026-08-27",
-      "relevance_score": 14,
-      "primary_pillar": "human_centric_design",
+      "rank": 8,
+      "title": "Stanford Professor Andrew Hall Joins Anthropic To Research The Political Economy Of Superintelligence",
+      "source": "Edtechinnovationhub.com",
+      "url": "https://www.edtechinnovationhub.com/news/stanford-professor-andrew-hall-joins-anthropic-to-research-the-political-economy-of-superintelligence",
+      "summary": "Andrew Hall has joined Anthropic as a Member of the Technical Staff to research the political economy of superintelligence. ETIH edtech news looks at the Stanford professor’s work on AI governance, democratic self-governance, agentic systems and institutional…",
+      "published_date": "2026-08-28",
+      "relevance_score": 13,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "human_centric_design"
+        "applied_ai",
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "human-in-the-loop"
+        "agentic",
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 5,
+      "rank": 9,
       "title": "kyvvu-engine 0.10.0",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/kyvvu-engine/0.10.0/",
@@ -132,223 +219,164 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
-      "title": "aegis-governance 1.4.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/aegis-governance/1.4.1/",
-      "summary": "Quantitative AI governance — works immediately, no signup required. 10 free evaluations/day.",
-      "published_date": "2026-08-27",
-      "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
-      "title": "axiom-governance added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/axiom-governance/",
-      "summary": "Zero-trust AI governance kernel backed by the Microsoft Z3 solver.",
-      "published_date": "2026-08-27",
-      "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
-      "title": "axiom-governance 0.1.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/axiom-governance/0.1.0/",
-      "summary": "Zero-trust AI governance kernel backed by the Microsoft Z3 solver.",
-      "published_date": "2026-08-27",
-      "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "aegis-latent-core",
-      "source": "Kitploit.com",
-      "url": "https://kitploit.com/en/tools/github/juanlunaia/aegis-latent-core/",
-      "summary": "AI governance and evidence gateway for multi-provider LLM applications. FastAPI + optional Rust core for policy, WAF, egress, rate limits, sessions, signed durable evidence, and fail-closed error paths. Self-hosted; no certification or SLO claim.",
-      "published_date": "2026-08-27",
-      "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "llm application",
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "negative"
-    },
-    {
       "rank": 10,
-      "title": "“Sorry, I can’t help with that”: How your guardrails might become the attacker’s best friend",
-      "source": "Talosintelligence.com",
-      "url": "https://blog.talosintelligence.com/sorry-i-cant-help-with-that-how-your-guardrails-might-become-the-attackers-best-friend/",
-      "summary": "In his first Threat Source newsletter, David Bianco explores the critical need for operational sovereignty in customizing AI guardrails to maintain the defender’s advantage.",
-      "published_date": "2026-08-27",
+      "title": "empirica-mcp 1.13.33",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/empirica-mcp/1.13.33/",
+      "summary": "MCP server for Empirica — AI measurement and calibration tools via Model Context Protocol",
+      "published_date": "2026-08-28",
       "relevance_score": 12,
-      "primary_pillar": "governance_as_code",
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "model context protocol",
+        "MCP"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 11,
-      "title": "m8tes 4.17.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/m8tes/4.17.0/",
-      "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
-      "published_date": "2026-08-27",
+      "title": "Safeguards needed as agentic AI enters finance: deputy minister",
+      "source": "Antaranews.com",
+      "url": "https://en.antaranews.com/news/428864/safeguards-needed-as-agentic-ai-enters-finance-deputy-minister",
+      "summary": "Indonesia&#39;s Deputy Communications and Digital Minister Nezar Patria has stressed the need for stronger governance of artificial intelligence as autonomous ...",
+      "published_date": "2026-08-28",
       "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
+      "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai",
-        "human_centric_design"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "human-in-the-loop"
+        "agentic",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "m8tes 4.16.0",
+      "title": "xsoft-comply 0.1.4",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/m8tes/4.16.0/",
-      "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
-      "published_date": "2026-08-27",
-      "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
+      "url": "https://pypi.org/project/xsoft-comply/0.1.4/",
+      "summary": "Python SDK for xsoft_comply AI governance platform (AI기본법 대응)",
+      "published_date": "2026-08-28",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
-        "human_centric_design"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "human-in-the-loop"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 13,
-      "title": "hol-guard 3.0.3",
+      "title": "xsoft-comply 0.1.3",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/hol-guard/3.0.3/",
-      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-      "published_date": "2026-08-27",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
+      "url": "https://pypi.org/project/xsoft-comply/0.1.3/",
+      "summary": "Python SDK for xsoft_comply AI governance platform (AI기본법 대응)",
+      "published_date": "2026-08-28",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 14,
-      "title": "hol-guard 3.0.2",
+      "title": "sovos added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/hol-guard/3.0.2/",
-      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-      "published_date": "2026-08-27",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
+      "url": "https://pypi.org/project/sovos/",
+      "summary": "SOVOS - Sovereign Operating System for AI Governance. GSPC four-axis scoring over ETSI EN 304 223.",
+      "published_date": "2026-08-28",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 15,
-      "title": "memman 0.21.0",
+      "title": "sovos-hive added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/memman/0.21.0/",
-      "summary": "LLM-supervised persistent memory for AI agents - intent-aware graph recall, RAG, and pluggable embeddings for Claude Code, OpenClaw, and NanoClaw.",
-      "published_date": "2026-08-27",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
+      "url": "https://pypi.org/project/sovos-hive/",
+      "summary": "SOVOS Fractal Monotric Hive — Ring-0 AI governance kernel (Rust + Python)",
+      "published_date": "2026-08-28",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "RAG"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 16,
-      "title": "As AI agents go rogue, cyber insurers are adapting their policies",
-      "source": "iTnews",
-      "url": "https://www.itnews.com.au/news/as-ai-agents-go-rogue-cyber-insurers-are-adapting-their-policies-628504?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+News+feed",
-      "summary": "Determining when coverage should pay out.",
-      "published_date": "2026-08-27",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
+      "title": "US judge rules Pentagon’s blacklist of Anthropic unlawful, calls it First Amendment retaliation",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/pentagon-anthropic-blacklist-ruled-unlawful/",
+      "summary": "This ruling underscores the tension between national security and corporate autonomy, potentially reshaping AI governance and defense contracting norms.\nThe post US judge rules Pentagon’s blacklist of Anthropic unlawful, calls it First Amendment retaliation a…",
+      "published_date": "2026-08-28",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "Plaud One Brings AI Agents to Your Ears",
-      "source": "AndroidGuys",
-      "url": "https://androidguys.com/news/plaud-one-brings-ai-agents-to-your-ears/",
-      "summary": "Plaud is taking its AI platform wearable with the new Plaud One Explorer Edition, a pair of AI earbuds designed to capture conversations, understand context, and turn spoken ideas into follow-up actions. More Than an AI Note-Taker Plaud One can be worn as ear…",
-      "published_date": "2026-08-27",
+      "title": "TestMu Conference 2026: TestMu AI's Flagship Event Marks a New Milestone in the World of Agentic Engineering and Quality",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/testmu-conference-2026-testmu-ais-flagship-event-marks-a-new-milestone-in-the-world-of-agentic-engineering-and-quality/article71401042.ece",
+      "summary": "TestMu Conference 2026: TestMu AI's Flagship Event Marks a New Milestone in the World of Agentic Engineering and Quality",
+      "published_date": "2026-08-28",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 18,
+      "title": "Baidu launches DuMateBench benchmark for real-world AI agent delivery",
+      "source": "TechNode",
+      "url": "https://technode.com/2026/08/28/baidu-launches-dumatebench-benchmark-for-real-world-ai-agent-delivery/",
+      "summary": "Baidu has launched DuMateBench, an evaluation leaderboard designed to measure whether AI agents can complete real-world tasks and deliver usable outputs, rather than only generate answers. The benchmark includes more than 200 office tasks across six categorie…",
+      "published_date": "2026-08-28",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -361,31 +389,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 18,
-      "title": "compass-kb-validation 3.11.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/compass-kb-validation/3.11.0/",
-      "summary": "Knowledge-base readiness validation for RAG & AI agents — config-driven, deterministic pipeline integrity checks.",
-      "published_date": "2026-08-27",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "RAG"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 19,
-      "title": "Anthropic unveils standard for AI agents to control devices",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/8cc2272194a3fcc0",
-      "summary": "Anthropic PBC announced Thursday a research preview of its Model Hardware Standard (MHS), a shared specification designed to enable AI agents to safely operate physical devices through programmable in...",
-      "published_date": "2026-08-27",
+      "title": "Anthropic announces new \"Model Hardware Standard\" for AI agents; plans open-source release with safety guidance",
+      "source": "ANI News",
+      "url": "https://www.aninews.in/news/business/anthropic-announces-new-model-hardware-standard-for-ai-agents-plans-open-source-release-with-safety-guidance20260828112959",
+      "summary": "Anthropic has rolled out a research preview of \"Model Hardware Standard\" (MHS) to enable AI agents to safely operate multiple physical devices used in scientific research and manufacturing. It plans to publish research findings and safety guidance when the st…",
+      "published_date": "2026-08-28",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -399,11 +408,11 @@
     },
     {
       "rank": 20,
-      "title": "AI agents are getting wallets: the Web3 infrastructure behind the machine economy",
-      "source": "The Next Web",
-      "url": "https://thenextweb.com/news/ai-agents-wallets-web3-machine-economy-varun-datta",
-      "summary": "After years of promise, the machine economy is finally taking shape. AI agents are getting wallets and are now able to make decisions on behalf of owners. For investors, this is a potentially exciting opportunity. Early movers in this space will be able to ta…",
-      "published_date": "2026-08-27",
+      "title": "Who is legally liable when an AI agent goes rogue?",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/magazine/who-is-legally-liable-when-an-ai-agent-goes-rogue",
+      "summary": "AI agents can behave in highly unpredictable ways. So who gets sued when your AI agent commits a crime on your behalf — even if you didn’t ask it to?",
+      "published_date": "2026-08-28",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
