@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T17:07:05.832Z",
+  "generated_at": "2026-08-31T16:55:39.215Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 14
+      "item_count": 12
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 11
+      "item_count": 10
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 3
+      "item_count": 1
     }
   ],
   "institutional_signal": {
@@ -36,7 +36,7 @@
       "polsky center",
       "mecha-nudges"
     ],
-    "item_count": 1
+    "item_count": 2
   },
   "items": [
     {
@@ -46,7 +46,7 @@
       "url": "https://biztoc.com/x/5b4f438c3dc221ed",
       "summary": "CrowdStrike Holdings (NasdaqGS:CRWD) and Theta Lake announced a new AI governance telemetry integration for the CrowdStrike Falcon Next-Gen SIEM platform.\n- The integration allows security teams to correlate AI interaction data with broader security events an…",
       "published_date": "2026-08-28",
-      "relevance_score": 18,
+      "relevance_score": 17,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -98,24 +98,22 @@
     },
     {
       "rank": 4,
-      "title": "When AI agents fail, companies can’t play the blame game | Computer Weekly",
-      "source": "ComputerWeekly.com",
-      "url": "https://www.computerweekly.com/news/366649546/When-AI-agents-fail-companies-cant-play-the-blame-game",
-      "summary": "Singapore Academy of Law’s Yeong Zee Kin, who helped shape Singapore's model AI governance framework, sets out who answers when AI causes harm – and why the trail usually leads back to a human decision",
-      "published_date": "2026-08-28",
+      "title": "Show HN: FinBridge – Korean stock market data for AI agents (MCP)",
+      "source": "Gronox.kr",
+      "url": "https://www.gronox.kr/",
+      "summary": "Article URL: https://www.gronox.kr/\nComments URL: https://news.ycombinator.com/item?id=49499026\nPoints: 1\n# Comments: 0",
+      "published_date": "2026-08-30",
       "relevance_score": 16,
-      "primary_pillar": "governance_as_code",
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "ai governance",
-        "governance"
+        "MCP",
+        "ai agent"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 5,
@@ -138,48 +136,26 @@
     },
     {
       "rank": 6,
-      "title": "agentic-data-contracts 0.49.0",
+      "title": "aegis-workbench added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/agentic-data-contracts/0.49.0/",
-      "summary": "YAML-first, domain-driven data governance for AI agents",
-      "published_date": "2026-08-29",
-      "relevance_score": 14,
-      "primary_pillar": "applied_ai",
+      "url": "https://pypi.org/project/aegis-workbench/",
+      "summary": "Aegis — enterprise AI governance workbench (EU AI Act + NIST AI RMF)",
+      "published_date": "2026-08-30",
+      "relevance_score": 13,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
-        "ai agent",
-        "governance"
+        "ai governance",
+        "governance",
+        "eu ai act"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 7,
-      "title": "AI Agents Must Be Governed as Persistent Digital Actors, Advises Info-Tech Research Group",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/ai-agents-must-be-governed-as-persistent-digital-actors-advises-info-tech-research-group-302863147.html",
-      "summary": "As the use of AI agents rises, organizations face a widening gap between adoption and governance. New insights from Info-Tech Research Group indicate that governing agentic AI is fundamentally different from previous governance models. Agents can autonomously…",
-      "published_date": "2026-08-28",
-      "relevance_score": 14,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
       "title": "lexigram-ai-governance 0.1.5008",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/lexigram-ai-governance/0.1.5008/",
@@ -198,33 +174,13 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 9,
-      "title": "Claudeforce: The AI Interface Salesforce Never Built",
-      "source": "Forrester.com",
-      "url": "https://www.forrester.com/blogs/claudeforce-the-ai-interface-salesforce-never-built/",
-      "summary": "Salesforce’s Claudeforce announcement ushers in a new era for CRM. This partnership establishes the technical and business connection to embed Sales Cloud data, workflows, and security controls directly into Claude Cowork through Salesforce-hosted MCP servers…",
+      "rank": 8,
+      "title": "AI Agents Must Be Governed as Persistent Digital Actors, Advises Info-Tech Research Group",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/ai-agents-must-be-governed-as-persistent-digital-actors-advises-info-tech-research-group-302863147.html",
+      "summary": "As the use of AI agents rises, organizations face a widening gap between adoption and governance. New insights from Info-Tech Research Group indicate that governing agentic AI is fundamentally different from previous governance models. Agents can autonomously…",
       "published_date": "2026-08-28",
-      "relevance_score": 12,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai interface"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 10,
-      "title": "Safeguards needed as agentic AI enters finance: deputy minister",
-      "source": "Antaranews.com",
-      "url": "https://en.antaranews.com/news/428864/safeguards-needed-as-agentic-ai-enters-finance-deputy-minister",
-      "summary": "Indonesia&#39;s Deputy Communications and Digital Minister Nezar Patria has stressed the need for stronger governance of artificial intelligence as autonomous ...",
-      "published_date": "2026-08-28",
-      "relevance_score": 11,
+      "relevance_score": 13,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai",
@@ -233,17 +189,37 @@
       "institutional_signal": false,
       "matched_keywords": [
         "agentic",
+        "ai agent",
         "governance"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 11,
-      "title": "m8tes 4.17.1",
+      "rank": 9,
+      "title": "agentic-ledger 0.12.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/m8tes/4.17.1/",
+      "url": "https://pypi.org/project/agentic-ledger/0.12.0/",
+      "summary": "Runtime observability for AI agents — see exactly what your agent did, why it did it, and what it cost.",
+      "published_date": "2026-08-30",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "m8tes 4.18.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/m8tes/4.18.0/",
       "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
-      "published_date": "2026-08-28",
+      "published_date": "2026-08-29",
       "relevance_score": 11,
       "primary_pillar": "human_centric_design",
       "pillars": [
@@ -258,70 +234,31 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 12,
-      "title": "3 surveys deliver the same uncomfortable truth about adopting agentic AI",
-      "source": "ZDNet",
-      "url": "https://www.zdnet.com/article/3-surveys-uncomfortable-adopting-agentic-ai/",
-      "summary": "Scaling AI in business is less about technology and more about accountability, governance, and healthy relationships between humans and agents.",
-      "published_date": "2026-08-28",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
+      "rank": 11,
+      "title": "xsoft-comply 0.1.5",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/xsoft-comply/0.1.5/",
+      "summary": "Python SDK for xsoft_comply AI governance platform (AI기본법 대응)",
+      "published_date": "2026-08-29",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
+        "ai governance",
         "governance"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 13,
-      "title": "floe-guard 0.23.0",
+      "rank": 12,
+      "title": "rtfm-ai 0.29.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/floe-guard/0.23.0/",
-      "summary": "Local budget guardrail for AI agents — hard-stops a runaway loop before its next LLM call crosses a spend ceiling. No account, no network.",
-      "published_date": "2026-08-29",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "The Custodial Era of UX: Cleaning Up After AI",
-      "source": "Nngroup.com",
-      "url": "https://www.nngroup.com/articles/ai-ux-debt/",
-      "summary": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
-      "published_date": "2026-08-28",
-      "relevance_score": 10,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "UX"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "mnemoai-assistant 1.16.2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/mnemoai-assistant/1.16.2/",
-      "summary": "Mnemo AI — a local agentic AI assistant (LangGraph + MCP) that learns and remembers, with multi-provider model support.",
-      "published_date": "2026-08-29",
+      "url": "https://pypi.org/project/rtfm-ai/0.29.0/",
+      "summary": "RTFM — The open retrieval layer for AI agents. Indexes code, docs, legal, research, data. Extensible parser system. Serves surgical context via MCP.",
+      "published_date": "2026-08-30",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -330,48 +267,88 @@
       "institutional_signal": false,
       "matched_keywords": [
         "MCP",
-        "agentic"
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "CLOP Is Mass-Exploiting PTC Windchill at Scale. Every AI Agent Connected to It Inherits the Breach.",
+      "source": "Forkast.news",
+      "url": "https://forkast.news/clop-is-mass-exploiting-ptc-windchill-at-scale-every-ai-agent-connected-to-it-inherits-the-breach/",
+      "summary": "CVE-2026-12569 is an unauthenticated remote code execution vulnerability in PTC Windchill PDMLink and FlexPLM. The flaw, rooted in unsafe deserialization, carries a CVSS score of 9.8 according to the NVD, while PTC’s own assessments range from 9.3 to 10.0. Af…",
+      "published_date": "2026-08-30",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "ultrastable 0.4.4",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/ultrastable/0.4.4/",
+      "summary": "Local-first runtime governance and policy monitoring for AI agents",
+      "published_date": "2026-08-30",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "Four safeguards to stop your AI agents from going rogue",
+      "source": "SiliconANGLE News",
+      "url": "https://siliconangle.com/2026/08/30/four-safeguards-to-stop-your-ai-agents-from-going-rogue/",
+      "summary": "Artificial intelligence agents are moving from experimentation to production, and with this shift, the stakes are rising. A coding agent at PocketOS recently deleted an entire production database. An agent at Meta exposed sensitive user data for two hours. An…",
+      "published_date": "2026-08-30",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 16,
-      "title": "Kiantu – See where you and your AI agents spent the week without timesheets",
-      "source": "Betalist.com",
-      "url": "https://betalist.com/startups/kiantu",
-      "summary": "See where you and your AI agents spent the week without timesheets",
+      "title": "prema-agentshield added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/prema-agentshield/",
+      "summary": "Autonomous Security & Zero-Trust Governance Guardian for Enterprise AI Agent Fleets by Prema AI Labs",
       "published_date": "2026-08-29",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "ai agent",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "Google’s WikiSkill lets AI agents learn from mistakes without retraining",
-      "source": "4sysops.com",
-      "url": "https://4sysops.com/archives/googles-wikiskill-lets-ai-agents-learn-from-mistakes-without-retraining/",
-      "summary": "Google Research’s WikiSkill gives AI agents a persistent memory of failed and successful attempts, allowing them to improve future task performance without changing the underlying model. The research framework raised Gemini 3.5 Flash’s average benchmark score…",
-      "published_date": "2026-08-29",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
       "title": "q-ai-governance added to PyPI",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/q-ai-governance/",
@@ -389,7 +366,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 19,
+      "rank": 18,
       "title": "q-ai-governance 1.0.0",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/q-ai-governance/1.0.0/",
@@ -407,13 +384,13 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 20,
+      "rank": 19,
       "title": "Why businesses need clearer limits before AI agents are authorized to act",
       "source": "The Next Web",
       "url": "https://thenextweb.com/news/ai-agents-clearer-limits-authorization",
       "summary": "A 2026 IBM study points to questions about AI readiness, visibility, and control. The survey of 2,000 C-level technology executives found 11% felt fully prepared for the AI-agent deployment expected over the following year. Two-thirds of CIOs and CTOs said th…",
       "published_date": "2026-08-28",
-      "relevance_score": 8,
+      "relevance_score": 7,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -421,6 +398,22 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 20,
+      "title": "AI at Catholic colleges: Institutions map policies guided by Magnifica Humanitas",
+      "source": "Ewtnnews.com",
+      "url": "https://www.ewtnnews.com/world/us/ai-catholic-colleges-guided-magnifica-humanitas",
+      "summary": "Will Catholic colleges follow the University of Chicago as it shifts its social sciences classes to fully analog instruction this fall? At least one says it may.",
+      "published_date": "2026-08-27",
+      "relevance_score": 7,
+      "primary_pillar": "institutional_signal",
+      "pillars": [],
+      "institutional_signal": true,
+      "matched_keywords": [
+        "university of chicago"
       ],
       "sentiment": "neutral"
     }
