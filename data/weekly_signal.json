@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T16:55:39.215Z",
+  "generated_at": "2026-09-01T14:04:17.196Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 12
+      "item_count": 17
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 10
+      "item_count": 2
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 1
+      "item_count": 4
     }
   ],
   "institutional_signal": {
@@ -41,46 +41,6 @@
   "items": [
     {
       "rank": 1,
-      "title": "What Is CrowdStrike Holdings (CRWD) Adding With Its New AI Governance Integration?",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/5b4f438c3dc221ed",
-      "summary": "CrowdStrike Holdings (NasdaqGS:CRWD) and Theta Lake announced a new AI governance telemetry integration for the CrowdStrike Falcon Next-Gen SIEM platform.\n- The integration allows security teams to correlate AI interaction data with broader security events an…",
-      "published_date": "2026-08-28",
-      "relevance_score": 17,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 2,
-      "title": "Google Bets Deutsche Bank Can Make AI Agents Work Inside a Global Bank’s Compliance Framework",
-      "source": "Forkast.news",
-      "url": "https://forkast.news/google-bets-deutsche-bank-can-make-ai-agents-work-inside-a-global-banks-compliance-framework/",
-      "summary": "On August 25, 2026, Google Cloud officially launched Gemini Enterprise for Financial Services, moving its agentic AI strategy into the highly regulated territory of capital markets and corporate banking. The platform is now available in preview, marking a shi…",
-      "published_date": "2026-08-29",
-      "relevance_score": 17,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent",
-        "compliance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 3,
       "title": "UChicago Goes ‘Analog’ for Some Courses",
       "source": "Inside Higher Ed",
       "url": "https://www.insidehighered.com/news/quick-takes/2026/08/26/uchicago-goes-analog-some-courses",
@@ -97,45 +57,47 @@
       "sentiment": "neutral"
     },
     {
+      "rank": 2,
+      "title": "Tealium expands agentic capabilities to bring governed customer context to any AI platform",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/globe-newswire/tealium-expands-agentic-capabilities-to-bring-governed-customer-context-to-any-ai-platform",
+      "summary": "Tealium introduces Configuration MCP, a natural-language interface in Tealium Studio, and a suite of Platform APIs through its Developer Portal San Diego, Aug. 31, 2026 (GLOBE NEWSWIRE) — Tealium, the leading customer data orchestration platform, today announ…",
+      "published_date": "2026-08-31",
+      "relevance_score": 16,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "orchestration",
+        "agentic"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 3,
+      "title": "AI Agent Production Readiness: Measuring Observability, Governance, Evaluation, and Recovery",
+      "source": "C-sharpcorner.com",
+      "url": "https://www.c-sharpcorner.com/article/ai-agent-production-readiness-measuring-observability-governance-evaluation/",
+      "summary": "Learn how to assess AI agent production readiness with observability, governance, evaluation, security, failure recovery, performance monitoring, and operational controls.",
+      "published_date": "2026-08-31",
+      "relevance_score": 14,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "governance"
+      ],
+      "sentiment": "negative"
+    },
+    {
       "rank": 4,
-      "title": "Show HN: FinBridge – Korean stock market data for AI agents (MCP)",
-      "source": "Gronox.kr",
-      "url": "https://www.gronox.kr/",
-      "summary": "Article URL: https://www.gronox.kr/\nComments URL: https://news.ycombinator.com/item?id=49499026\nPoints: 1\n# Comments: 0",
-      "published_date": "2026-08-30",
-      "relevance_score": 16,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 5,
-      "title": "Presentation: Architecting the Data Layer for AI Agents: From Transactional Systems to MCP and Semantic Models",
-      "source": "InfoQ.com",
-      "url": "https://www.infoq.com/presentations/enterprise-data-architecture-ai-agents/",
-      "summary": "Fabiane Nardon shares how TOTVS prepares enterprise data for token-hungry AI agents. She discusses balancing deterministic logic and non-deterministic LLMs across precision, security, and cost. Nardon details using data mesh, low-latency database architecture…",
-      "published_date": "2026-08-29",
-      "relevance_score": 16,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 6,
       "title": "aegis-workbench added to PyPI",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/aegis-workbench/",
@@ -155,72 +117,13 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 7,
-      "title": "lexigram-ai-governance 0.1.5008",
+      "rank": 5,
+      "title": "countersign-agent 0.10.2",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/lexigram-ai-governance/0.1.5008/",
-      "summary": "AI governance for the Lexigram Framework — policy enforcement, audit trails, budget tracking",
-      "published_date": "2026-08-29",
-      "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
-      "title": "AI Agents Must Be Governed as Persistent Digital Actors, Advises Info-Tech Research Group",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/ai-agents-must-be-governed-as-persistent-digital-actors-advises-info-tech-research-group-302863147.html",
-      "summary": "As the use of AI agents rises, organizations face a widening gap between adoption and governance. New insights from Info-Tech Research Group indicate that governing agentic AI is fundamentally different from previous governance models. Agents can autonomously…",
-      "published_date": "2026-08-28",
-      "relevance_score": 13,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "agentic-ledger 0.12.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/agentic-ledger/0.12.0/",
-      "summary": "Runtime observability for AI agents — see exactly what your agent did, why it did it, and what it cost.",
-      "published_date": "2026-08-30",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 10,
-      "title": "m8tes 4.18.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/m8tes/4.18.0/",
-      "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
-      "published_date": "2026-08-29",
-      "relevance_score": 11,
+      "url": "https://pypi.org/project/countersign-agent/0.10.2/",
+      "summary": "Honest human-in-the-loop consent for AI coding agents: you sign the real argv, not the agent's story. Skill census, MCP sampling deny, inbound fence, and a hash-chained receipt of every approval.",
+      "published_date": "2026-08-31",
+      "relevance_score": 12,
       "primary_pillar": "human_centric_design",
       "pillars": [
         "applied_ai",
@@ -228,37 +131,78 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
+        "MCP",
         "human-in-the-loop"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 11,
-      "title": "xsoft-comply 0.1.5",
+      "rank": 6,
+      "title": "countersign-agent 0.10.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/xsoft-comply/0.1.5/",
-      "summary": "Python SDK for xsoft_comply AI governance platform (AI기본법 대응)",
-      "published_date": "2026-08-29",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "url": "https://pypi.org/project/countersign-agent/0.10.1/",
+      "summary": "Honest human-in-the-loop consent for AI coding agents: you sign the real argv, not the agent's story. Skill census, MCP sampling deny, inbound fence, and a hash-chained receipt of every approval.",
+      "published_date": "2026-08-31",
+      "relevance_score": 12,
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "governance_as_code"
+        "applied_ai",
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "MCP",
+        "human-in-the-loop"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 12,
-      "title": "rtfm-ai 0.29.0",
+      "rank": 7,
+      "title": "countersign-agent 0.10.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/rtfm-ai/0.29.0/",
+      "url": "https://pypi.org/project/countersign-agent/0.10.0/",
+      "summary": "Honest human-in-the-loop consent for AI coding agents: you sign the real argv, not the agent's story. Skill census, MCP sampling deny, inbound fence, and a hash-chained receipt of every approval.",
+      "published_date": "2026-08-31",
+      "relevance_score": 12,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "countersign-agent added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/countersign-agent/",
+      "summary": "Honest human-in-the-loop consent for AI coding agents: you sign the real argv, not the agent's story. Skill census, MCP sampling deny, inbound fence, and a hash-chained receipt of every approval.",
+      "published_date": "2026-08-31",
+      "relevance_score": 12,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 9,
+      "title": "rtfm-ai 0.35.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/rtfm-ai/0.35.2/",
       "summary": "RTFM — The open retrieval layer for AI agents. Indexes code, docs, legal, research, data. Extensible parser system. Serves surgical context via MCP.",
-      "published_date": "2026-08-30",
+      "published_date": "2026-08-31",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -272,12 +216,67 @@
       "sentiment": "neutral"
     },
     {
+      "rank": 10,
+      "title": "invisible-playwright-mcp 0.2.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/invisible-playwright-mcp/0.2.0/",
+      "summary": "Stealth Firefox browser as an MCP server for AI agents",
+      "published_date": "2026-08-31",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 11,
+      "title": "CrowdStrike Rallies 4% as Fal.Con Puts Falcon on Google Cloud and Arms Partners With AI Agents",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/08/31/crowdstrike-rallies-4-as-fal-con-puts-falcon-on-google-cloud-and-arms-partners-with-ai-agents/",
+      "summary": "CrowdStrike just turned its biggest rivals into data suppliers feeding the Falcon platform, and the market is paying attention. Here is what the Fal.Con 2026...",
+      "published_date": "2026-08-31",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 12,
+      "title": "AI Agents and Layers of Abstraction",
+      "source": "Lukew.com",
+      "url": "https://www.lukew.com/ff/entry.asp?2159",
+      "summary": "Last year, I walked through the evolution of AI products to date starting with AI models behind the scenes and ending with an assertion that \"the inevitable next step is for AI models to collaborate and interact to get things done.\" Today, we're firmly in tha…",
+      "published_date": "2026-08-31",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
       "rank": 13,
-      "title": "CLOP Is Mass-Exploiting PTC Windchill at Scale. Every AI Agent Connected to It Inherits the Breach.",
-      "source": "Forkast.news",
-      "url": "https://forkast.news/clop-is-mass-exploiting-ptc-windchill-at-scale-every-ai-agent-connected-to-it-inherits-the-breach/",
-      "summary": "CVE-2026-12569 is an unauthenticated remote code execution vulnerability in PTC Windchill PDMLink and FlexPLM. The flaw, rooted in unsafe deserialization, carries a CVSS score of 9.8 according to the NVD, while PTC’s own assessments range from 9.3 to 10.0. Af…",
-      "published_date": "2026-08-30",
+      "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
+      "source": "Internet",
+      "url": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
+      "summary": "The boring parts caused most of the trouble.\n\nA router shipped ready to listen. A fake check turned the user into the installer. Trusted systems collected traffic and passwords, then cleaned the logs. Old bugs formed new attack chains. Even an AI agent decide…",
+      "published_date": "2026-08-31",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -291,31 +290,66 @@
     },
     {
       "rank": 14,
-      "title": "ultrastable 0.4.4",
+      "title": "agent-evaluator 1.0.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/ultrastable/0.4.4/",
-      "summary": "Local-first runtime governance and policy monitoring for AI agents",
-      "published_date": "2026-08-30",
+      "url": "https://pypi.org/project/agent-evaluator/1.0.0/",
+      "summary": "Production-ready evaluation framework for AI agents — 58 metrics (25 native + 33 Harness Config) across 7 evaluation gates: goal achievement, behavioral integrity, reliability, performance, security, multi-agent coordination, and observability",
+      "published_date": "2026-08-31",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent",
-        "governance"
+        "multi-agent"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 15,
+      "title": "Athena Agentic Acquires Omni Cyber Solutions Agentic Platform, it's Second Acquisition this Year",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/athena-agentic-acquires-omni-cyber-solutions-agentic-platform-its-second-acquisition-this-year-302864973.html",
+      "summary": "This asset purchase brings the Omni Cyber Solutions Agentic Platform and its AI-powered security operations technology into the Athena Agentic portfolio, enhancing the Athena Unified Cyber Operations Platform's vulnerability scanning, Shadow AI, and penetrati…",
+      "published_date": "2026-08-31",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 15,
-      "title": "Four safeguards to stop your AI agents from going rogue",
-      "source": "SiliconANGLE News",
-      "url": "https://siliconangle.com/2026/08/30/four-safeguards-to-stop-your-ai-agents-from-going-rogue/",
-      "summary": "Artificial intelligence agents are moving from experimentation to production, and with this shift, the stakes are rising. A coding agent at PocketOS recently deleted an entire production database. An agent at Meta exposed sensitive user data for two hours. An…",
-      "published_date": "2026-08-30",
+      "rank": 16,
+      "title": "Stanford HAI Proposes Fiduciary Duty for AI Agent Developers",
+      "source": "Forkast.news",
+      "url": "https://forkast.news/stanford-hai-proposes-fiduciary-duty-for-ai-agent-developers/",
+      "summary": "The current regulatory focus on transparency is proving insufficient to address the structural risks posed by AI agents embedded in our digital infrastructure. While disclosure requirements aim to inform users, they do not prevent the underlying problem of de…",
+      "published_date": "2026-08-31",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 17,
+      "title": "Meta Security Researcher's AI Agent Accidentally Deleted Her Emails",
+      "source": "PCMag.com",
+      "url": "https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails",
+      "summary": "Meta's Summer Yue says she ran OpenClaw on her inbox, but its size 'triggered compaction [and] lost my original instruction' to get her permission before deleting.",
+      "published_date": "2026-08-31",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -328,68 +362,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 16,
-      "title": "prema-agentshield added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/prema-agentshield/",
-      "summary": "Autonomous Security & Zero-Trust Governance Guardian for Enterprise AI Agent Fleets by Prema AI Labs",
-      "published_date": "2026-08-29",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "q-ai-governance added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/q-ai-governance/",
-      "summary": "Quantum-Cognitive AI (Q-AI) Policy Agent & Real DAO Governance Decision Engine",
-      "published_date": "2026-08-29",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 18,
-      "title": "q-ai-governance 1.0.0",
+      "title": "liquid-loop 2.0.3",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/q-ai-governance/1.0.0/",
-      "summary": "Quantum-Cognitive AI (Q-AI) Policy Agent & Real DAO Governance Decision Engine",
-      "published_date": "2026-08-29",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 19,
-      "title": "Why businesses need clearer limits before AI agents are authorized to act",
-      "source": "The Next Web",
-      "url": "https://thenextweb.com/news/ai-agents-clearer-limits-authorization",
-      "summary": "A 2026 IBM study points to questions about AI readiness, visibility, and control. The survey of 2,000 C-level technology executives found 11% felt fully prepared for the AI-agent deployment expected over the following year. Two-thirds of CIOs and CTOs said th…",
-      "published_date": "2026-08-28",
+      "url": "https://pypi.org/project/liquid-loop/2.0.3/",
+      "summary": "Self-Organizing Cognitive Memory for AI Agents — Liquid Loop theory implementation",
+      "published_date": "2026-08-31",
       "relevance_score": 7,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -397,7 +375,27 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "ai agent",
+        "implementation"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "liquid-loop 2.0.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/liquid-loop/2.0.2/",
+      "summary": "Self-Organizing Cognitive Memory for AI Agents — Liquid Loop theory implementation",
+      "published_date": "2026-08-31",
+      "relevance_score": 7,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "implementation"
       ],
       "sentiment": "neutral"
     },
