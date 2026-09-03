@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T13:27:41.980Z",
+  "generated_at": "2026-09-03T13:25:58.734Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 11
+      "item_count": 13
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 9
+      "item_count": 10
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 2
+      "item_count": 1
     }
   ],
   "institutional_signal": {
@@ -36,57 +36,95 @@
       "polsky center",
       "mecha-nudges"
     ],
-    "item_count": 1
+    "item_count": 0
   },
   "items": [
     {
       "rank": 1,
-      "title": "sentinelops-ai added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/sentinelops-ai/",
-      "summary": "Python SDK for SentinelOps — human-in-the-loop governance for AI agents.",
-      "published_date": "2026-09-01",
-      "relevance_score": 14,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "governance",
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 2,
-      "title": "Snowflake: dashboard-era access controls won’t govern AI agents | Computer Weekly",
-      "source": "ComputerWeekly.com",
-      "url": "https://www.computerweekly.com/news/366649624/Snowflake-dashboard-era-access-controls-wont-govern-AI-agents",
-      "summary": "The company’s chief data and AI officer talks up efforts to move access controls into the data layer, the cost of dynamic model routing and why governance cannot be baked into model weights",
-      "published_date": "2026-09-01",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
+      "title": "Firstup Extends AI Leadership With Award-Winning AI Search, Copilot and ChatGPT Integrations, and ISO/IEC 42001:2023 Certification for Responsible AI Governance",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/firstup-extends-ai-leadership-with-award-winning-ai-search-copilot-and-chatgpt-integrations-and-isoiec-420012023-certification-for-responsible-ai-governance-302867164.html",
+      "summary": "Firstup's latest release pairs independently certified AI governance with new Model Context Protocol (MCP) capabilities that bring workforce communications directly into the AI assistants employees already use — extending a year of innovation that has the com…",
+      "published_date": "2026-09-02",
+      "relevance_score": 34,
+      "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "governance"
+        "model context protocol",
+        "MCP",
+        "ai governance",
+        "governance",
+        "responsible ai"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 2,
+      "title": "Anthropic flags gaps in AI guardrails as models grow more capable: Details",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com/technology/artificial-intelligence/anthropic-flags-gaps-in-ai-guardrails-as-models-grow-more-capable-details-126090200862_1.html",
+      "summary": "Anthropic on AI Guardrails: Anthropic in its risk report says some AI models may recognise when they are being evaluated and alter their behaviour, potentially making it harder to judge their capabilities and real-world safety",
+      "published_date": "2026-09-02",
+      "relevance_score": 12,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 3,
+      "title": "CrowdStrike SafeMind Puts Dual AI Agents in a Closed Loop to Defend Enterprise Infrastructure",
+      "source": "Forkast.news",
+      "url": "https://forkast.news/crowdstrike-safemind-puts-dual-ai-agents-in-a-closed-loop-to-defend-enterprise-infrastructure/",
+      "summary": "The transition from AI-assisted security to AI-native defense marks a fundamental shift in how enterprise infrastructure is protected. Rather than relying on human analysts to interpret alerts, the industry is moving toward autonomous agentic systems where AI…",
+      "published_date": "2026-09-02",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 3,
-      "title": "Debian’s AI Vote Bets on Accountability Instead of a Ban",
-      "source": "DevOps.com",
-      "url": "https://devops.com/debians-ai-vote-bets-on-accountability-instead-of-a-ban/",
-      "summary": "Debian isn’t banning AI-generated code. It’s putting responsibility back on the human who submits it.Review it. Test it. Fix it. And don’t feed sensitive data or credentials into third-party AI services.That may be a far more practical AI governance model for…",
+      "rank": 4,
+      "title": "Agency and Agents - by Ethan Mollick - One Useful Thing",
+      "source": "Oneusefulthing.org",
+      "url": "https://www.oneusefulthing.org/p/agency-and-agents",
+      "summary": "Explore the risks of autonomous AI agents through the Hugging Face incident and learn why human-in-the-loop \"Twilight Factories\" are vital for safety.",
+      "published_date": "2026-09-02",
+      "relevance_score": 11,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 5,
+      "title": "Broadcom's earnings loom, but this reveal came first",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/85bb3acfd9aded37",
+      "summary": "For many companies, timing their biggest product launches right before earnings is no accident. Two days ahead of its fiscal third report, Broadcom Inc. (AVGO) used a conference in Las Vegas, an event most investors ignore, to unveil a sweeping AI governance …",
       "published_date": "2026-09-01",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
@@ -101,49 +139,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 4,
-      "title": "Show HN: A Proxy between LLMs and MCP servers with policy the model cannot reach",
-      "source": "Github.com",
-      "url": "https://github.com/SenteLabsAI/extensible-mcp",
-      "summary": "Hi, this is Banu. I am a cofounder at sentelabs.ai.We are developing extensible-mcp as an open-source proxy that sits between LLMs and MCP servers. The idea behind extensible-mcp is that the model shouldn't have to load every available tool, and policy enforc…",
-      "published_date": "2026-09-01",
-      "relevance_score": 10,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 5,
-      "title": "fastcrawl 0.1.2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/fastcrawl/0.1.2/",
-      "summary": "Fastcrawl — web scraping & crawling API for AI agents. Clean LLM-ready markdown from any URL over REST and MCP.",
-      "published_date": "2026-09-01",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 6,
-      "title": "foral 0.11.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/foral/0.11.0/",
-      "summary": "Foral — turn the systems you already run into typed, governed MCP capabilities for your AI agents. Runs on your infrastructure; reads only, writes stay human-approved.",
-      "published_date": "2026-09-01",
+      "title": "The Frontier of Loyalty: Augeo leverages SpaceXAI to Launch 100% Personalization Across Every Audience an Enterprise Serves",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/the-frontier-of-loyalty-augeo-leverages-spacexai-to-launch-100-personalization-across-every-audience-an-enterprise-serves-302867734.html",
+      "summary": "THEO (Trusted Human Engagement Orchestrator), Augeo's agentic AI orchestration core, is now integrating Grok's real-time reasoning and X's live sentiment data – powering the first 100% personalized redemption and offers experience and the first-of-its-kind, L…",
+      "published_date": "2026-09-02",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -151,72 +152,95 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "orchestration",
+        "agentic"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 7,
-      "title": "CBTS launches Forge Agents to build custom AI agents in days",
-      "source": "SiliconANGLE News",
-      "url": "https://siliconangle.com/2026/09/01/cbts-launches-forge-agents-to-build-custom-ai-agents-in-days/",
-      "summary": "Information technology services company CBTS Technology Solutions LLC today launched Forge Agents, a platform that turns a plain-language description of a job into a working artificial intelligence agent and then runs it under enterprise security controls. Mi…",
-      "published_date": "2026-09-01",
-      "relevance_score": 8,
+      "title": "invisible-playwright-mcp 0.7.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/invisible-playwright-mcp/0.7.0/",
+      "summary": "Stealth Firefox browser as an MCP server for AI agents",
+      "published_date": "2026-09-02",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 8,
-      "title": "Duke Executive Education and Simplilearn Launch Professional Certificate in Applied Generative AI and Agentic AI",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/duke-executive-education-and-simplilearn-launch-professional-certificate-in-applied-generative-ai-and-agentic-ai-302866197.html",
-      "summary": "PLANO, Texas, Sept. 1, 2026 /PRNewswire/ -- Simplilearn, the global upskilling platform, in collaboration with Duke Executive Education at Duke University's Fuqua School of Business, has launched the Professional Certificate in Applied Generative AI and Agent…",
-      "published_date": "2026-09-01",
-      "relevance_score": 8,
+      "title": "invisible-playwright-mcp 0.6.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/invisible-playwright-mcp/0.6.0/",
+      "summary": "Stealth Firefox browser as an MCP server for AI agents",
+      "published_date": "2026-09-02",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 9,
-      "title": "US to urge hands-off AI regulation at G-20, official says",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-to-urge-hands-off-ai-regulation-at-g-20-official-says/articleshow/133677167.cms",
-      "summary": "Leaders are convening at a key moment in the AI sector's development and the global debate over how to govern it, and as the US faces an increasing threat from China for AI supremacy.",
-      "published_date": "2026-09-01",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
+      "title": "interloper-mcp 0.72.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/interloper-mcp/0.72.0/",
+      "summary": "Interloper MCP server — read-only platform access for AI agents",
+      "published_date": "2026-09-02",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "arcaeon-audit 0.1.8",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/arcaeon-audit/0.1.8/",
+      "summary": "Tamper-evident, audit-ready logs for AI agents — ISO 42001 / SOC 2 / EU AI Act evidence. Prove what your agent did.",
+      "published_date": "2026-09-02",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai regulation"
+        "ai agent",
+        "eu ai act"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "rank": 10,
-      "title": "Amber Premium Transforms into AMBR, Dedicated to Building Specialized AI Agents for Finance, Enterprise, and Growth",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/amber-premium-transforms-into-ambr-dedicated-to-building-specialized-ai-agents-for-finance-enterprise-and-growth-302865056.html",
-      "summary": "The Nasdaq-listed company marks a fundamental transformation of its business, drawing on nearly a decade of expertise from the team that founded Amber AI in 2017 to build specialized AI agents for high-stakes domains — launching with its flagship personal fin…",
-      "published_date": "2026-09-01",
+      "rank": 11,
+      "title": "AI agents ran malware from llms.txt files in Fortune 500 supply-chain test",
+      "source": "4sysops.com",
+      "url": "https://4sysops.com/archives/ai-agents-ran-malware-from-llms-txt-files-in-fortune-500-supply-chain-test/",
+      "summary": "Researchers triggered arbitrary code execution in AI agents by planting malicious package references in llms.txt files, exposing a new supply-chain risk for systems that treat machine-readable documentation as trusted instructions. In a test of 8,565 files, 2…",
+      "published_date": "2026-09-02",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -226,15 +250,53 @@
       "matched_keywords": [
         "ai agent"
       ],
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
-      "rank": 11,
-      "title": "Washington to press G20 on light-touch AI regulation",
-      "source": "Hurriyet Daily News",
-      "url": "https://www.hurriyetdailynews.com/washington-to-press-g20-on-light-touch-ai-regulation-226299",
-      "summary": "Tech bosses including Elon Musk, Nvidia's Jensen Huang and OpenAI's Sam Altman are participating in a G20 meeting in North Carolina this week amid a global debate on how governments should address the dangers of artificial intelligence.",
-      "published_date": "2026-09-01",
+      "rank": 12,
+      "title": "Download: The Agentic Software Development Guide",
+      "source": "Cleverbit.software",
+      "url": "https://cleverbit.software/the-agentic-software-development-field-guide/",
+      "summary": "AI makes it easy to ship more code. It does not make that code easier to trust. Most teams don’t fail because their developers can’t use AI. They fail because the dev’s job changed and nobody redefined it. Under AI, cracks appear: Reviews weaken while output …",
+      "published_date": "2026-09-02",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 13,
+      "title": "ZeroDrift launches service to check agent-generated messages against company policies",
+      "source": "SiliconANGLE News",
+      "url": "https://siliconangle.com/2026/09/02/zerodrift-launches-service-to-check-agent-generated-messages-against-company-policies/",
+      "summary": "ZeroDrift Inc., a startup that automates compliance for artificial intelligence communications, today introduced Guard for Agents, a service that lets developers turn written company policies into enforceable rules to check AI agents’ communications before th…",
+      "published_date": "2026-09-02",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "US Calls for Relaxed Approach to AI Regulation at G20 Gathering",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/0dab90aa61c08502",
+      "summary": "The U.S. has reportedly urged G20 members to relax their stance on regulation of artificial intelligence (AI).\nThe American government made this argument Tuesday (Sept. 1) at a gathering of industry leaders and commerce ministers in North Carolina, Reuters re…",
+      "published_date": "2026-09-02",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -244,15 +306,87 @@
       "matched_keywords": [
         "ai regulation"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "rank": 12,
-      "title": "Agentic AI Has Arrived. Is Your Workforce Ready to Leverage It?",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/agentic-ai-has-arrived-is-your-workforce-ready-to-leverage-it/article71413869.ece",
-      "summary": "Agentic AI Has Arrived. Is Your Workforce Ready to Leverage It?",
-      "published_date": "2026-09-01",
+      "rank": 15,
+      "title": "US call for hands-off approach to AI regulation at G20 tech meeting",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com/technology/tech-news/us-call-for-hands-off-approach-to-ai-regulation-at-g20-tech-meeting-126090200384_1.html",
+      "summary": "The US goals largely align with the thinking of the world's biggest AI companies, nearly all of which are American",
+      "published_date": "2026-09-02",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai regulation"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "US Urges Hands-Off Approach to AI Regulation at G20 Tech Meeting",
+      "source": "Insurance Journal",
+      "url": "https://www.insurancejournal.com/news/national/2026/09/02/883611.htm",
+      "summary": "The U.S. pressed G20 members on Tuesday to take a hands-off approach to AI regulation and avoid creating new rules for the technology at a gathering of industry titans and commerce ministers in North Carolina. The U.S. goals largely align …",
+      "published_date": "2026-09-02",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai regulation"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "U.S. urges hands-off approach to AI regulation at G20 tech meeting",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/abb668dfb029e3e1",
+      "summary": "The U.S. goals largely align with the thinking of the world's biggest artificial intelligence companies, nearly all of which are American.",
+      "published_date": "2026-09-02",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai regulation"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "US pushes looser approach to AI regulation, while EU pushes new law",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/news/2026/9/2/us-pushes-looser-approach-to-ai-regulation-while-eu-pushes-new-law",
+      "summary": "US calls for deregulation of AI at a G20 ministerial meeting, emphasising industry growth over regulatory constraints.",
+      "published_date": "2026-09-02",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai regulation"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 19,
+      "title": "5 Real-World Applications of Agentic AI in Enterprise Automation",
+      "source": "Kdnuggets.com",
+      "url": "https://www.kdnuggets.com/5-real-world-applications-of-agentic-ai-in-enterprise-automation",
+      "summary": "Deploy agentic AI across SRE, finance, legal, migration, and security with deterministic safety constraints.",
+      "published_date": "2026-09-02",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -265,144 +399,20 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 13,
-      "title": "US to press G20 on light-touch AI regulation",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-to-press-g20-on-light-touch-ai-regulation/articleshow/133668263.cms",
-      "summary": "Tech bosses including Elon Musk, Nvidia's Jensen Huang and OpenAI's Sam Altman are participating in a G20 meeting in North Carolina this week amid a global debate on how governments should address the dangers of artificial intelligence. The meeting is spread …",
-      "published_date": "2026-09-01",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai regulation"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 14,
-      "title": "Beijing and Washington Can Build AI Safety Despite Mutual Distrust",
-      "source": "Foreign Policy",
-      "url": "http://foreignpolicy.com/2026/08/31/china-us-safety-ai-artificial-intelligence-summit-regulation/",
-      "summary": "Practical cooperation should exist alongside competition.",
-      "published_date": "2026-08-31",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai safety"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "Expenzing unveils FinCat: A team of autonomous AI Agents that multiplies A/P productivity and delivers Forensic-Grade Fraud Control",
-      "source": "ANI News",
-      "url": "https://www.aninews.in/news/business/expenzing-unveils-fincat-a-team-of-autonomous-ai-agents-that-multiplies-ap-productivity-and-delivers-forensic-grade-fraud-control20260901134051",
-      "summary": "Expenzing, the AI-led spend management software company built in India for India, today announced the official launch of FinCat, its groundbreaking suite of AI-driven solutions. Designed to bridge the gap between AI hype and financial reality, FinCat acts as …",
-      "published_date": "2026-09-01",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "LastPass enhancements improve visibility, governance, and control",
-      "source": "Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/09/01/lastpass-security-product-enhancements-innovations/",
-      "summary": "LastPass announced a series of strategic product innovations, customer experience enhancements, and industry milestones. These advancements reflect the company’s continued focus on providing practical tools to protect access and identity in an increasingly AI…",
-      "published_date": "2026-09-01",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "governance"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 17,
-      "title": "portable-forge added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/portable-forge/",
-      "summary": "A portable local execution bridge for human-in-the-loop AI pair programming.",
-      "published_date": "2026-08-31",
-      "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "edgeguard-sdk 0.6.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/edgeguard-sdk/0.6.0/",
-      "summary": "Ultra-low-latency edge-native AI guardrails engine built in Rust",
-      "published_date": "2026-09-01",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 19,
-      "title": "AI at Catholic colleges: Institutions map policies guided by Magnifica Humanitas",
-      "source": "Ewtnnews.com",
-      "url": "https://www.ewtnnews.com/world/us/ai-catholic-colleges-guided-magnifica-humanitas",
-      "summary": "Will Catholic colleges follow the University of Chicago as it shifts its social sciences classes to fully analog instruction this fall? At least one says it may.",
-      "published_date": "2026-08-27",
-      "relevance_score": 7,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
-      "matched_keywords": [
-        "university of chicago"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 20,
-      "title": "punt-lux 0.32.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/punt-lux/0.32.1/",
-      "summary": "The paintbrush for Claude. A visual output surface for AI agents — diagrams, tables, images, and interactive controls.",
-      "published_date": "2026-09-01",
-      "relevance_score": 5,
+      "title": "Netcracker Brings Leadership in Real-World Agentic AI Business Cases for Telecom Operators to AI-Native Telco Forum",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/netcracker-brings-leadership-in-real-world-agentic-ai-business-cases-for-telecom-operators-to-ai-native-telco-forum",
+      "summary": "Netcracker Will Demonstrate its AI-Driven Solutions and Participate in an Executive Panel Discussion on How Telcos Can Create the Business Case for AI Transformation WALTHAM, Mass. — Netcracker Technology announced today that it will highlight its AI leadersh…",
+      "published_date": "2026-09-02",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "agentic"
       ],
       "sentiment": "neutral"
     }
