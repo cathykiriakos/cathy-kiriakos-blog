@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T15:56:44.093Z",
+  "generated_at": "2026-09-07T14:57:27.768Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -19,7 +19,7 @@
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 3
+      "item_count": 1
     }
   ],
   "institutional_signal": {
@@ -46,7 +46,7 @@
       "url": "https://cryptobriefing.com/microsoft-2026-responsible-ai-transparency-report/",
       "summary": "Microsoft's focus on agentic AI oversight highlights the industry's need for robust governance to mitigate risks of autonomous decision-making.\nThe post Microsoft releases 2026 Responsible AI Transparency Report with focus on agentic systems appeared first on…",
       "published_date": "2026-09-04",
-      "relevance_score": 20,
+      "relevance_score": 19,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
@@ -63,33 +63,88 @@
     },
     {
       "rank": 2,
-      "title": "AICost.ai Expands Its Independent AI Cost, Policy and Governance Decision-Intelligence Platform for the Agentic, Multi-Model Enterprise",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/aicostai-expands-its-independent-ai-cost-policy-and-governance-decision-intelligence-platform-for-the-agentic-multi-model-enterprise-302869728.html",
-      "summary": "AICost.ai brings AI cost visibility, cost optimization, continuous AI governance, and forecasting and planning to enterprises running frontier, open-weight and self-hosted models across clouds, gateways and agents Email support@cloudintelligence.ai for an AIC…",
-      "published_date": "2026-09-04",
-      "relevance_score": 19,
-      "primary_pillar": "governance_as_code",
+      "title": "empirica-mcp 1.13.39",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/empirica-mcp/1.13.39/",
+      "summary": "MCP server for Empirica — AI measurement and calibration tools via Model Context Protocol",
+      "published_date": "2026-09-06",
+      "relevance_score": 12,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
-        "ai governance",
-        "governance"
+        "model context protocol",
+        "MCP"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 3,
-      "title": "Three Incompatible AI Governance Models Now Have Multilateral Endorsement – and None Covers Agents",
+      "title": "EU tech chief says AI guardrails are coming to the US anyway",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/virkkunen-us-guardrails-inevitable",
+      "summary": "Henna Virkkunen told Axios at the G20 innovation ministerial that the US and the EU keep arriving at similar AI protections, Europe by regulating in advance and America through courts and state law. She made the argument at the summit where Washington launche…",
+      "published_date": "2026-09-06",
+      "relevance_score": 12,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 4,
+      "title": "The EU AI Compliance Stack Is Crystallizing Into Three Layers – and None of Them Talk to Each Other",
       "source": "Forkast.news",
-      "url": "https://forkast.news/three-incompatible-ai-governance-models-now-have-multilateral-endorsement-and-none-covers-agents/",
-      "summary": "The global conversation on artificial intelligence has shifted from a search for a singular, unified regulatory path to a landscape of endorsed competition. With the recent conclusion of the G20 Innovation Ministerial at The Carolina Inn in Chapel Hill, the n…",
-      "published_date": "2026-09-04",
-      "relevance_score": 18,
+      "url": "https://forkast.news/the-eu-ai-compliance-stack-is-crystallizing-into-three-layers-and-none-of-them-talk-to-each-other/",
+      "summary": "Enterprises deploying agents in the EU must now navigate the AI Act, the Cyber Resilience Act, and MiCA/DORA simultaneously - with no mutual recognition, different enforcement bodies, and misaligned timelines",
+      "published_date": "2026-09-06",
+      "relevance_score": 11,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "compliance",
+        "eu ai act"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 5,
+      "title": "zn-gate added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/zn-gate/",
+      "summary": "Deterministic, ultra-fast, zero-dependency guardrail engine for AI agents and LLM tool calling.",
+      "published_date": "2026-09-06",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 6,
+      "title": "OpenAI acknowledges wiki incident, calls for transparency on AI behavior",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/openai-wiki-incident-ai-transparency/",
+      "summary": "The incident underscores the urgent need for robust AI governance and transparency to prevent potential misuse on larger, critical platforms.\nThe post OpenAI acknowledges wiki incident, calls for transparency on AI behavior appeared first on Crypto Briefing.",
+      "published_date": "2026-09-05",
+      "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -99,90 +154,10 @@
         "ai governance",
         "governance"
       ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 4,
-      "title": "MMRO Earns URAC Artificial Intelligence in Health Care Accreditation",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/mmro-earns-urac-artificial-intelligence-in-health-care-accreditation-302870285.html",
-      "summary": "Accreditation affirms MMRO's commitment to responsible AI governance, human oversight, and clinical integrity. NOVI, Mich., Sept. 4, 2026 /PRNewswire/ -- Managed Medical Review Organization, Inc. (MMRO) is proud to announce that it has earned the Artificial I…",
-      "published_date": "2026-09-04",
-      "relevance_score": 16,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance",
-        "responsible ai",
-        "human oversight"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 5,
-      "title": "GreenCore Solutions Corp. (GSC) AI Agent Stack Passes 24.5 Million Inbound AI Agent Transactions In 30 Days",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/greencore-solutions-corp-gsc-ai-agent-stack-passes-24-5-million-inbound-ai-agent-transactions-in-30-days-302870456.html",
-      "summary": "Brendan Farrugia, Co-founder and Director of GSC Joint Venture Company GSC Agentic Pty. Ltd., joins the GSC Board of Advisors VANCOUVER, BC and SYDNEY, Sept. 4, 2026 /PRNewswire/ -- GreenCore Solutions Corp. (\"GSC\" or the \"Company\") today announced a record m…",
-      "published_date": "2026-09-04",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 6,
-      "title": "lelu-agent-auth-sdk 0.4.41",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/lelu-agent-auth-sdk/0.4.41/",
-      "summary": "Python SDK for Lelu — framework-agnostic authorization engine for AI agents with confidence-aware controls, Docker deployment, and human-in-the-loop workflows",
-      "published_date": "2026-09-04",
-      "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "human-in-the-loop"
-      ],
       "sentiment": "neutral"
     },
     {
       "rank": 7,
-      "title": "Agentic AI in Networks: Powering the Autonomous Future of Telecom | Samsung Business Global Networks",
-      "source": "Samsung.com",
-      "url": "https://www.samsung.com/global/business/networks/insights/blog/0903-agentic-ai-in-networks-powering-the-autonomous-future-of-telecom/",
-      "summary": "Explore how AI, machine learning and Agentic AI are accelerating the evolution toward autonomous telecom networks. Discover how Samsung Networks’ CognitiV Network Operations Suite (NOS) and AI Agent Fabric enable intelligent, intent-driven automation across t…",
-      "published_date": "2026-09-04",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
       "title": "AI Coming for SaaS? Snowflake CEO Says Data, Not Software, Will Define the Next Era: ‘Owning the User Experience Is Critical’",
       "source": "Yahoo Entertainment",
       "url": "https://finance.yahoo.com/technology/ai/articles/ai-coming-saas-snowflake-ceo-013006704.html",
@@ -200,45 +175,26 @@
       "sentiment": "neutral"
     },
     {
+      "rank": 8,
+      "title": "ppt-mcp 1.9.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/ppt-mcp/1.9.0/",
+      "summary": "Real-time PowerPoint control via COM automation — an MCP server with 156 tools for AI agents",
+      "published_date": "2026-09-06",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
       "rank": 9,
-      "title": "gimp-agent-mcp 0.2.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/gimp-agent-mcp/0.2.1/",
-      "summary": "Windows-first MCP server that gives AI agents the whole of GIMP 3: every PDB procedure, every GEGL filter, a render after each step, and repeatable recipes",
-      "published_date": "2026-09-05",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 10,
-      "title": "gimp-agent-mcp added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/gimp-agent-mcp/",
-      "summary": "Windows-first MCP server that gives AI agents the whole of GIMP 3: every PDB procedure, every GEGL filter, a render after each step, and repeatable recipes",
-      "published_date": "2026-09-05",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
       "title": "Salesforce Publishes Agentforce Marketing AI Implementation Framework",
       "source": "Business20channel.tv",
       "url": "https://business20channel.tv/salesforce-agentforce-marketing-ai-framework-targets-measurable-business-05-09-2026",
@@ -257,11 +213,29 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 12,
-      "title": "Acquires Rilo to Accelerate Agentic AI — What It Means for Investors",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/a9164bd492cdcfc5",
-      "summary": "Adobe Inc. (NASDAQ:ADBE) is strengthening its position in agentic artificial intelligence as the company looks to expand its marketing intelligence and workflow automation capabilities. The company had recently acquired Rilo, an India-based AI workflow automa…",
+      "rank": 10,
+      "title": "Iustin Pop: AI agents aha moment",
+      "source": "K1024.org",
+      "url": "https://k1024.org/posts/2026/2026-09-06-ai-agents-aha/",
+      "summary": "Looking at the reactions to the Debian AI vote, I think some people still think\nthe clock can be turned back, as if that ever worked in history. Rather than cry\nabout spilled milk, I prefer to find a path forward in the new world. There are\nmany ways to use L…",
+      "published_date": "2026-09-06",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 11,
+      "title": "VMware Explore 2026: Broadcom Doubles Down on Private Cloud Economics and Agentic AI",
+      "source": "Storagereview.com",
+      "url": "https://www.storagereview.com/news/vmware-explore-2026-broadcom-doubles-down-on-private-cloud-economics-and-agentic-ai",
+      "summary": "VMware Explore kicked off Monday morning, though the schedule felt unusual compared to past VMworld Explore events, as Broadcom moved the traditional opening keynote to the afternoon. That was not necessarily a bad thing, as it gave us time to catch a few bre…",
       "published_date": "2026-09-05",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
@@ -275,7 +249,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 13,
+      "rank": 12,
       "title": "US, China may discuss AI safety in September ahead of Trump-Xi summit",
       "source": "Business Standard",
       "url": "https://www.business-standard.com/world-news/us-china-may-discuss-ai-safety-in-september-ahead-of-trump-xi-summit-126090500304_1.html",
@@ -293,7 +267,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 14,
+      "rank": 13,
       "title": "US, China gear up for mid-September AI safety talks",
       "source": "The Times of India",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-china-gear-up-for-mid-september-ai-safety-talks/articleshow/133786667.cms",
@@ -311,13 +285,13 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 15,
+      "rank": 14,
       "title": "ASUS Lays Out a Full AI Factory Platform: Vera Rubin NVL72 Racks, STX Storage, and a Governance Layer",
       "source": "Storagereview.com",
       "url": "https://www.storagereview.com/news/asus-lays-out-a-full-ai-factory-platform-vera-rubin-nvl72-racks-stx-storage-and-a-governance-layer",
       "summary": "ASUS is expanding its role in AI infrastructure, moving from individual AI servers to platforms for building, deploying, and operating entire AI factories. At AI Tech 2026 in Seoul, the company laid out a broader strategy that brings accelerated computing, ne…",
       "published_date": "2026-09-04",
-      "relevance_score": 8,
+      "relevance_score": 7,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -329,31 +303,29 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 16,
-      "title": "US and China prepare for mid-September AI safety dialogue",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/us-china-ai-safety-dialogue-september/",
-      "summary": "The US-China AI safety dialogue could foster cooperation, easing tensions and setting a precedent for future tech diplomacy amid rivalry.\nThe post US and China prepare for mid-September AI safety dialogue appeared first on Crypto Briefing.",
-      "published_date": "2026-09-04",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
+      "rank": 15,
+      "title": "DOGE Affiliate Asked for College Credits for Participating in Takeover",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/doge-affiliate-asked-for-college-credits-for-participating-in-takeover/",
+      "summary": "According to new documents obtained through a Freedom of Information Act request, an undergraduate working with DOGE requested that his work for HUD count towards his University of Chicago degree.",
+      "published_date": "2026-09-03",
+      "relevance_score": 7,
+      "primary_pillar": "institutional_signal",
+      "pillars": [],
+      "institutional_signal": true,
       "matched_keywords": [
-        "ai safety"
+        "university of chicago"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 17,
-      "title": "Experian expands into AI agents with ServiceNow partnership",
-      "source": "SiliconANGLE News",
-      "url": "https://siliconangle.com/2026/09/04/experian-expands-into-ai-agents-with-servicenow-partnership/",
-      "summary": "Having launched an artificial intelligence-based virtual assistant in the spring, Experian plc is driving AI deeper into its operations with a commercial agent-based platform designed to bring its risk, identity and decision-making capabilities into enterpris…",
-      "published_date": "2026-09-04",
-      "relevance_score": 8,
+      "rank": 16,
+      "title": "groundhog-mcp 0.13.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/groundhog-mcp/0.13.0/",
+      "summary": "Web search, read and research for AI agents, through a real stealth browser",
+      "published_date": "2026-09-06",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -362,16 +334,34 @@
       "matched_keywords": [
         "ai agent"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "OpenAI admits to 'wiki incident' after its agents were discovered using a programming hub to communicate — says more transparency is needed regarding mis",
+      "source": "Slashdot.org",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185468090",
+      "summary": "OpenAI has admitted that its experimental AI agents used an open German programming wiki to communicate.",
+      "published_date": "2026-09-06",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
     },
     {
       "rank": 18,
-      "title": "The rise of AI agents: Why businesses still need to keep a hand on the wheel",
-      "source": "Digital Journal",
-      "url": "https://www.digitaljournal.com/article/the-rise-of-ai-agents-why-businesses-still-need-to-keep-a-hand-on-the-wheel/",
-      "summary": "There is little doubt that AI agents are improving rapidly. Capabilities that seemed experimental only months ago are becoming commercially available. Research, scheduling, document handling and workflow automation are already demonstrating measurable product…",
-      "published_date": "2026-09-04",
-      "relevance_score": 8,
+      "title": "aiap-client 1.0.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/aiap-client/1.0.1/",
+      "summary": "AI Agency Protocol (AIAP) client — identity, scope, and ephemeral authority for AI agents",
+      "published_date": "2026-09-06",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -384,12 +374,12 @@
     },
     {
       "rank": 19,
-      "title": "Adobe Inc. (ADBE) Acquires Rilo to Accelerate Agentic AI — What It Means for Investors",
-      "source": "Yahoo Entertainment",
-      "url": "https://finance.yahoo.com/technology/ai/articles/adobe-inc-adbe-acquires-rilo-150728839.html",
-      "summary": "Adobe Inc. (NASDAQ:ADBE) is strengthening its position in agentic artificial intelligence as the company looks to expand its marketing intelligence and workf...",
-      "published_date": "2026-09-05",
-      "relevance_score": 8,
+      "title": "OpenAI's controversial ChatGPT-6 Astra advert paints a sad vision of the future",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/dd928b2c0565c1ce",
+      "summary": "Chat-GPT‑6 Astra is OpenAI’s newest agentic AI model, designed to handle complex tasks like game development, 3D design and ordering takeout all by itself. Anything that can be done on a computer, Astra can do it, and fast.\nThe model's already caused controve…",
+      "published_date": "2026-09-06",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -402,17 +392,19 @@
     },
     {
       "rank": 20,
-      "title": "DOGE Affiliate Asked for College Credits for Participating in Takeover",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/doge-affiliate-asked-for-college-credits-for-participating-in-takeover/",
-      "summary": "According to new documents obtained through a Freedom of Information Act request, an undergraduate working with DOGE requested that his work for HUD count towards his University of Chicago degree.",
-      "published_date": "2026-09-03",
-      "relevance_score": 7,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
+      "title": "entroly 1.0.82",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/entroly/1.0.82/",
+      "summary": "Drop-in Context Assurance for AI agents: reduce avoidable token usage and AI cost with evidence selection, receipts, exact recovery, and verification.",
+      "published_date": "2026-09-06",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
       "matched_keywords": [
-        "university of chicago"
+        "ai agent"
       ],
       "sentiment": "neutral"
     }
