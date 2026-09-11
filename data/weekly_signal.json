@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T13:28:03.273Z",
+  "generated_at": "2026-09-11T13:26:08.903Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 13
+      "item_count": 7
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 7
+      "item_count": 12
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 2
+      "item_count": 1
     }
   ],
   "institutional_signal": {
@@ -41,13 +41,166 @@
   "items": [
     {
       "rank": 1,
-      "title": "Show HN: SagaShield – ACID transactions and security guardrails for AI agents",
-      "source": "Github.com",
-      "url": "https://github.com/sebastianmechno-sys/sagashield",
-      "summary": "Article URL: https://github.com/sebastianmechno-sys/sagashield\nComments URL: https://news.ycombinator.com/item?id=49617938\nPoints: 1\n# Comments: 0",
-      "published_date": "2026-09-08",
-      "relevance_score": 18,
+      "title": "Gravwell adds five AI agents that gather their own investigation context",
+      "source": "SiliconANGLE News",
+      "url": "https://siliconangle.com/2026/09/10/gravwell-adds-five-ai-agents-that-gather-their-own-investigation-context/",
+      "summary": "Security data platform company Gravwell Inc. today released Gravwell 5.10, an update that puts five artificial intelligence agents inside a customer’s deployment. The agents collect the context an investigation needs on their own. A Model Context Protocol ser…",
+      "published_date": "2026-09-10",
+      "relevance_score": 14,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 2,
+      "title": "The agentic harness for Tenable Hexa AI: How Tenable prevents AI agents from going off the rails",
+      "source": "Tenable.com",
+      "url": "https://www.tenable.com/blog/how-agentic-harness-works-tenable-hexa-ai",
+      "summary": "Learn why Tenable treats agentic LLMs as untrusted insiders, and how we’ve made sure you can control and monitor the AI agents making changes in your production security environmentKey takeaways<ol><li>AI models can quickly understand data, but not your busin…",
+      "published_date": "2026-09-10",
+      "relevance_score": 14,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 3,
+      "title": "Mastering Governed Autonomy: A Human-In-The-Loop Framework For Enterprise Contract AI",
+      "source": "Bitrebels.com",
+      "url": "https://bitrebels.com/technology/mastering-governed-autonomy-a-human-in-the-loop-framework-for-enterprise-contract-ai/",
+      "summary": "Enterprise legal teams are moving beyond experimenting with AI in isolated contracting tasks. The next challenge is operational: how much autonomy should AI have in contract drafting, review, and negotiation and where should humans remain accountable? For Gen…",
+      "published_date": "2026-09-09",
+      "relevance_score": 14,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "human-in-the-loop"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 4,
+      "title": "ST Engineering iDirect Advances Intelligent Satellite Operations with New AI Capabilities",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/st-engineering-idirect-advances-intelligent-satellite-operations-with-new-ai-capabilities-302874454.html",
+      "summary": "New capabilities for AI governance, operational control and rapid onboarding help operators simplify complexity, strengthen compliance and scale automation with confidence HERNDON, Va., Sept. 10, 2026 /PRNewswire/ -- ST Engineering iDirect, a global leader in…",
+      "published_date": "2026-09-10",
+      "relevance_score": 13,
       "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance",
+        "compliance"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 5,
+      "title": "AI safety advocacy group launches new state-level effort",
+      "source": "Nextgov",
+      "url": "https://www.nextgov.com/artificial-intelligence/2026/09/ai-safety-advocacy-group-launches-new-state-level-effort/415875/",
+      "summary": "Americans for Responsible Innovation debuted the advocacy arm to bring responsible AI policy assistance to local lawmakers.",
+      "published_date": "2026-09-10",
+      "relevance_score": 13,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "responsible ai",
+        "ai safety",
+        "ai policy"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 6,
+      "title": "AI adoption brings new security headaches for already stretched CISOs",
+      "source": "0.107",
+      "url": "https://10.51.0.107/2026/09/10/proofpoint-ciso-ai-security-risks-report/",
+      "summary": "CISOs are taking on AI governance without a matching increase in resources or expertise, adding to an already broad remit spanning data protection, identity, resilience and compliance, according to Proofpoint’s 2026 Voice of the CISO report. The Al mandate ex…",
+      "published_date": "2026-09-10",
+      "relevance_score": 13,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance",
+        "compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 7,
+      "title": "Nearly 1,900 Blizzard Workers Ratify First Union Contracts, Including Wage Increases And AI Guardrails",
+      "source": "Cartoon Brew",
+      "url": "https://www.cartoonbrew.com/artist-rights/blizzard-entertainment-union-contract-266400.html",
+      "summary": "Negociated by the CWA, new agreements include wage increases, AI guardrails, enhanced severance, recall rights, and remote-work protections.",
+      "published_date": "2026-09-10",
+      "relevance_score": 12,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "Exclusive: Cfo.ai launches an agentic CFO for business founders",
+      "source": "SiliconANGLE News",
+      "url": "https://siliconangle.com/2026/09/10/exclusive-ai-finance-cfo-ai-launches-an-agentic-cfo-for-business-founders/",
+      "summary": "Artificial intelligence startup Runway Financial Inc. said today it has decided to pivot away from accounting software and rebrand itself as cfo.ai. That decision marks the launch of its new flagship product, an AI agent called Ari that’s designed to act as a…",
+      "published_date": "2026-09-10",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 9,
+      "title": "Congress Pushes AI Agents Into the Audit Trail",
+      "source": "pymnts.com",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/congress-pushes-ai-agents-into-the-audit-trail/",
+      "summary": "U.S. representatives are introducing the Stop Rogue AI Act in the U.S. House of Representatives Thursday (Sept. 10), giving federal policymakers a way to begin defining the security controls organizations may need as autonomous artificial intelligence agents …",
+      "published_date": "2026-09-10",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai",
         "governance_as_code"
@@ -55,189 +208,36 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent",
-        "guardrail"
+        "eu ai act"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 2,
-      "title": "allem-mcp 0.1.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/allem-mcp/0.1.0/",
-      "summary": "MCP server for the Allem AI governance platform — lets AI coding assistants check, log, and inspect agent governance during development",
-      "published_date": "2026-09-09",
-      "relevance_score": 14,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 3,
-      "title": "allem-mcp added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/allem-mcp/",
-      "summary": "MCP server for the Allem AI governance platform — lets AI coding assistants check, log, and inspect agent governance during development",
-      "published_date": "2026-09-09",
-      "relevance_score": 14,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 4,
-      "title": "Commercial Real Estate Lenders Are Raising the Bar on AI Underwriting",
-      "source": "Commercial Observer",
-      "url": "http://commercialobserver.com/2026/09/commercial-real-estate-lenders-auditability/",
-      "summary": "Last month, MISMO, the real estate finance industry’s standards organization, launched two new AI governance certifications designed to give mortgage companies, lenders and asset managers a formal standard for evaluating automated systems.  Built on the organ…",
-      "published_date": "2026-09-09",
-      "relevance_score": 10,
+      "rank": 10,
+      "title": "Newsom signs AI safety bills backed by Anthropic, OpenAI",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/newsom-signs-ai-safety-bills-backed-by-anthropic-openai/",
+      "summary": "California's AI regulation leadership may boost industry growth, with market confidence in AI firms like Anthropic reflecting this trend.\nThe post Newsom signs AI safety bills backed by Anthropic, OpenAI appeared first on Crypto Briefing.",
+      "published_date": "2026-09-10",
+      "relevance_score": 11,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 5,
-      "title": "trustgate 0.15.2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/trustgate/0.15.2/",
-      "summary": "Enterprise AI Governance & Shadow AI Hunter SDK",
-      "published_date": "2026-09-09",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 6,
-      "title": "trustgate 0.15.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/trustgate/0.15.1/",
-      "summary": "Enterprise AI Governance & Shadow AI Hunter SDK",
-      "published_date": "2026-09-08",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
-      "title": "How multi-agent AI is redefining enterprise software",
-      "source": "The Next Web",
-      "url": "https://thenextweb.com/news/how-multi-agent-ai-is-redefining-enterprise-software",
-      "summary": "For decades, enterprise software has been designed primarily to record what businesses already know: customer information, financial transactions, employee activity, inventory, sales pipelines, and operational decisions. These platforms became the systems of …",
-      "published_date": "2026-09-09",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "multi-agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
-      "title": "turnstone 1.8.4",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/turnstone/1.8.4/",
-      "summary": "Multi-node AI orchestration platform with tool use, agent routing, and cluster simulation.",
-      "published_date": "2026-09-09",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "orchestration",
-        "tool use"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "Casepoint Launches Casepoint IQ, the Intelligence Foundation Powering Agentic and Assistive AI Across Its Unified Platform",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/casepoint-launches-casepoint-iq-the-intelligence-foundation-powering-agentic-and-assistive-ai-across-its-unified-platform-302873797.html",
-      "summary": "Full agentic, predictive, and assistive AI capabilities now available in one secure, scaled, and governed intelligence layer with human control built in. WASHINGTON, Sept. 9, 2026 /PRNewswire/ -- Casepoint, a leading provider of secure, unified eDiscovery, le…",
-      "published_date": "2026-09-09",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
+        "ai safety",
+        "ai regulation"
       ],
       "sentiment": "positive"
     },
     {
-      "rank": 10,
-      "title": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/de463522bf8a3126",
-      "summary": "As AI agents gain access to the same sensitive corporate data and systems as human workers while operating at machine speed, enterprises are prone to new security risks. Storied venture firm Sequoia Capital is betting big on that shift, backing startup Cympho…",
-      "published_date": "2026-09-09",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 11,
-      "title": "Mark Zuckerberg laid out what he uses Meta's new AI agent for — kid-friendly cake recipes and MMA advice",
-      "source": "Business Insider",
-      "url": "https://www.businessinsider.com/mark-zuckerberg-muse-ai-meta-baking-tips-mma-advice-2026-9",
-      "summary": "Mark Zuckerberg said he uses Meta's AI agent Muse for family tasks like baking with his daughter, on the weekends.",
-      "published_date": "2026-09-09",
+      "title": "OpenAI's rogue AI agents accessed more websites to communicate than originally believed — defiant LLMs accessed old wikis and abandoned websites to co-ordinate in a bid to dupe assessors",
+      "source": "Tom's Hardware UK",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-rogue-ai-agents-accessed-more-websites-to-communicate-than-originally-believed-defiant-llms-accessed-old-wikis-and-abandoned-websites-to-co-ordinate-in-a-bid-to-dupe-assessors",
+      "summary": "Rogue OpenAI agents used dozens of website to exchange information, new investigations have found. However, the real impact is yet to be determined.",
+      "published_date": "2026-09-10",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -251,11 +251,11 @@
     },
     {
       "rank": 12,
-      "title": "Orchid Security gives enterprises a kill switch for rogue AI agents",
-      "source": "SiliconANGLE News",
-      "url": "https://siliconangle.com/2026/09/09/orchid-security-gives-enterprises-a-kill-switch-for-rogue-ai-agents/",
-      "summary": "Identity security startup Orchid Security Inc. today added identity drift detection and application-level kill switches for artificial intelligence agents to its Identity Control Plane. The controls are meant to let security teams strip an agent of its author…",
-      "published_date": "2026-09-09",
+      "title": "glassflow-rius 0.13.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/glassflow-rius/0.13.0/",
+      "summary": "GlassFlow Rius SDK — OpenTelemetry-native tracing for AI agents and LLM applications.",
+      "published_date": "2026-09-10",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -263,107 +263,36 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "ai agent",
+        "llm application"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 13,
-      "title": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks | TechCrunch",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/",
-      "summary": "Cymphony was valued at more than $100 million in a $25 million Series A co-led by Sequoia and SMBC Fin Atlas Beyond Fund.",
-      "published_date": "2026-09-09",
+      "title": "Newsom Signs AI Industry-Approved AI Regulation Bills Into Law in California",
+      "source": "Gizmodo.com",
+      "url": "https://gizmodo.com/newsom-signs-ai-industry-approved-ai-regulation-bills-into-law-in-california-2000809702",
+      "summary": "The bills received two thumbs up (one from OpenAI and one from Anthropic).",
+      "published_date": "2026-09-10",
       "relevance_score": 8,
-      "primary_pillar": "applied_ai",
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "ai regulation"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 14,
-      "title": "The world of software engineering and AI meets in the Bay Area this September",
-      "source": "The Next Web",
-      "url": "https://thenextweb.com/news/the-world-of-software-engineering-and-ai",
-      "summary": "The last two years rewired how software gets made. AI went from autocomplete to writing entire features, and autonomous agents now build and ship software with barely a human in the loop. Every engineering organization on the planet is asking the same questio…",
-      "published_date": "2026-09-09",
-      "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "Gartner: 70% of SOCs will pilot AI agents. Only 15% will see results",
-      "source": "Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/09/09/prophet-security-evaluating-ai-soc-agents/",
-      "summary": "In the Gartner report Validate the Promises of AI SOC Agents With These Key Questions, analysts Craig Lawson and Andrew Davies posit that “By 2028, 70% of large SOCs will pilot AI agents to augment Tier 1 and Tier 2 operations, but only 15% will achieve measu…",
-      "published_date": "2026-09-09",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "Meta Just Launched Muse, a Personal AI Agent That Can Spend Your Money. Not in Canada.",
-      "source": "iPhone in Canada",
-      "url": "https://www.iphoneincanada.ca/2026/09/08/meta-muse-ai-agent-us-app-store-not-canada/",
-      "summary": "Canadians hunting for Meta’s newest AI toy are going to hit a wall. Muse, the company’s personal AI agent that can manage email, book dinners, track budgets, and buy things with your OK, is live on the US App Store as a free download with in-app purchases. Ca…",
-      "published_date": "2026-09-08",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "Meta Releases Muse, a Personal AI Agent With Privacy ‘Built Into It’",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
-      "summary": "Designed to compete with OpenClaw and Instinct, the company says Muse can do everything from sell your car to book you a plane ticket.",
-      "published_date": "2026-09-08",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "Top Anthropic Researcher Quits Over AI Safety Fears, Says Labs Are ‘Gambling With Our Lives’ And Believe AI Can ‘Kill Us All’ By 2030",
-      "source": "BroBible",
-      "url": "https://brobible.com/culture/article/jacob-coxon-anthorpic-resignation-letter-warning/",
-      "summary": "Jacob Coxon spent three years doing pretraining research at OpenAI and Anthropic. On Monday, he resigned publicly — and used the occasion to deliver one of the most pointed insider critiques of the AI industry’s safety culture in recent memory. Coxon’s core c…",
-      "published_date": "2026-09-09",
+      "title": "More Anthropic Employees Sound The Alarm About AI Safety Risks",
+      "source": "HuffPost",
+      "url": "https://www.huffpost.com/entry/anthropic-ai-risks_n_6aa1d186e4b086ecc55fc61d",
+      "summary": "“AI developers believe their technology could cause human extinction,” one wrote in a social media post.",
+      "published_date": "2026-09-10",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -374,6 +303,78 @@
         "ai safety"
       ],
       "sentiment": "negative"
+    },
+    {
+      "rank": 15,
+      "title": "Q&A: Responsible AI in healthcare need more focus on protecting patients",
+      "source": "Digital Journal",
+      "url": "https://www.digitaljournal.com/article/qa-responsible-ai-in-healthcare-need-more-focus-on-protecting-patients/",
+      "summary": "AI can reduce healthcare administration, easing workforce pressures and giving clinicians more time for patient care. When applied responsibly, it can streamline prior authorisation, improve efficiency and transparency, accelerate treatment access, and suppor…",
+      "published_date": "2026-09-09",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "responsible ai"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "AI Guardian and Cyberify Partner to Help Global Financial Institutions Adopt AI Safely and Prepare for What Comes Next",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/ai-guardian-and-cyberify-partner-to-help-global-financial-institutions-adopt-ai-safely-and-prepare-for-what-comes-next-302874030.html",
+      "summary": "This partnership combines Cyberify's organizational-transformation expertise for the world's financial firms with AI Guardian's real-time AI guardrail monitoring and enforcement ATLANTA, Sept. 10, 2026 /PRNewswire/ -- AI Guardian and Cyberify officially annou…",
+      "published_date": "2026-09-10",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "Is Salesforce (CRM)’s Agentforce Growth Enough to Outpace F5 (FFIV)’s AI Security Momentum?",
+      "source": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/salesforce-crm-agentforce-growth-enough-215747965.html",
+      "summary": "On September 2, F5, Inc. (NASDAQ:FFIV) announced a key integration with MuleSoft, a Salesforce, Inc. (NYSE:CRM) company, federating F5 AI Guardrails directly...",
+      "published_date": "2026-09-09",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 18,
+      "title": "#233 – Chris Reynolds on Building Trust With Project Contracts for Reliable AI Development",
+      "source": "Wptavern.com",
+      "url": "https://wptavern.com/podcast/233-chris-reynolds-on-building-trust-with-project-contracts-for-reliable-ai-development",
+      "summary": "The conversation focused on AI-assisted development in WordPress, exploring how large language models like Claude can be both powerful and unpredictable. We talked about the need for guardrails, structured project contracts and reviewer agents, to ensure outp…",
+      "published_date": "2026-09-10",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
+      "sentiment": "positive"
     },
     {
       "rank": 19,
@@ -393,19 +394,19 @@
     },
     {
       "rank": 20,
-      "title": "Octopus Appoints Wonderful to Advance AI Transformation",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/e08081534ae09f12",
-      "summary": "(Hong Kong, 27 August 2026) – Octopus Cards Limited (“Octopus”) has engaged Wonderful to support its applied AI transformation, with a focus on enhancing user experience, advancing smart commerce and contributing to Hong Kong’s Smart City Vision.\nWonderful wi…",
-      "published_date": "2026-09-09",
+      "title": "TP Receives Frost & Sullivan's 2026 Asia-Pacific Customer Experience Management Services Company of the Year Recognition for AI-Led Customer Experience Transformation",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/tp-receives-frost--sullivans-2026-asia-pacific-customer-experience-management-services-company-of-the-year-recognition-for-ai-led-customer-experience-transformation-302874449.html",
+      "summary": "TP is recognized for combining AI orchestration, operational excellence, regional scale, and customer-centric innovation to transform customer experience management services across the region. SAN ANTONIO, Sept. 10, 2026 /PRNewswire/ -- Frost & Sullivan is pl…",
+      "published_date": "2026-09-10",
       "relevance_score": 6,
-      "primary_pillar": "human_centric_design",
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "user experience"
+        "orchestration"
       ],
       "sentiment": "positive"
     }
