@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T13:26:08.903Z",
+  "generated_at": "2026-09-12T12:47:19.802Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,13 +7,13 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 7
+      "item_count": 10
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 12
+      "item_count": 10
     },
     {
       "id": "human_centric_design",
@@ -41,184 +41,128 @@
   "items": [
     {
       "rank": 1,
-      "title": "Gravwell adds five AI agents that gather their own investigation context",
-      "source": "SiliconANGLE News",
-      "url": "https://siliconangle.com/2026/09/10/gravwell-adds-five-ai-agents-that-gather-their-own-investigation-context/",
-      "summary": "Security data platform company Gravwell Inc. today released Gravwell 5.10, an update that puts five artificial intelligence agents inside a customer’s deployment. The agents collect the context an investigation needs on their own. A Model Context Protocol ser…",
-      "published_date": "2026-09-10",
-      "relevance_score": 14,
-      "primary_pillar": "applied_ai",
+      "title": "Consumer trust reinforces need for robust AI governance in insurance",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/eb72916e9c05a094",
+      "summary": "A GlobalData survey found that insurers face a significant trust challenge as they expand the use of AI, particularly when the technology is involved in decisions that directly affect customers. While AI offers opportunities to improve efficiency across the i…",
+      "published_date": "2026-09-11",
+      "relevance_score": 18,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol",
-        "ai agent"
+        "ai governance",
+        "governance"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 2,
-      "title": "The agentic harness for Tenable Hexa AI: How Tenable prevents AI agents from going off the rails",
-      "source": "Tenable.com",
-      "url": "https://www.tenable.com/blog/how-agentic-harness-works-tenable-hexa-ai",
-      "summary": "Learn why Tenable treats agentic LLMs as untrusted insiders, and how we’ve made sure you can control and monitor the AI agents making changes in your production security environmentKey takeaways<ol><li>AI models can quickly understand data, but not your busin…",
-      "published_date": "2026-09-10",
-      "relevance_score": 14,
-      "primary_pillar": "applied_ai",
+      "title": "Public procurement and AI governance",
+      "source": "Rand.org",
+      "url": "https://www.rand.org/pubs/research_reports/RRA5284-1.html",
+      "summary": "This report examines how AI middle powers can use public procurement to govern frontier AI. It develops a set of procurement guarantees, and assesses whether coordinated purchasing standards could strengthen state bargaining power.",
+      "published_date": "2026-09-11",
+      "relevance_score": 18,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
-        "ai agent"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 3,
-      "title": "Mastering Governed Autonomy: A Human-In-The-Loop Framework For Enterprise Contract AI",
-      "source": "Bitrebels.com",
-      "url": "https://bitrebels.com/technology/mastering-governed-autonomy-a-human-in-the-loop-framework-for-enterprise-contract-ai/",
-      "summary": "Enterprise legal teams are moving beyond experimenting with AI in isolated contracting tasks. The next challenge is operational: how much autonomy should AI have in contract drafting, review, and negotiation and where should humans remain accountable? For Gen…",
-      "published_date": "2026-09-09",
-      "relevance_score": 14,
-      "primary_pillar": "human_centric_design",
+      "title": "Stripe’s founder factory and the AI governance boom",
+      "source": "Cbinsights.com",
+      "url": "https://www.cbinsights.com/research/newsletter-september-10-2026/",
+      "summary": "Below, we break down some of tech’s biggest stories, with analyst perspective on the moves that matter the most. Here’s what we’re watching this week: AI app governance startups Stripe’s crypto mafia Asia’s Silicon Valley Also, Nasdaq Data Link now …\nThe post…",
+      "published_date": "2026-09-10",
+      "relevance_score": 18,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "human_centric_design"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "human-in-the-loop"
+        "ai governance",
+        "governance"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 4,
-      "title": "ST Engineering iDirect Advances Intelligent Satellite Operations with New AI Capabilities",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/st-engineering-idirect-advances-intelligent-satellite-operations-with-new-ai-capabilities-302874454.html",
-      "summary": "New capabilities for AI governance, operational control and rapid onboarding help operators simplify complexity, strengthen compliance and scale automation with confidence HERNDON, Va., Sept. 10, 2026 /PRNewswire/ -- ST Engineering iDirect, a global leader in…",
-      "published_date": "2026-09-10",
-      "relevance_score": 13,
+      "title": "finos-mcp-aigf 0.1.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/finos-mcp-aigf/0.1.2/",
+      "summary": "Read-only MCP server for the FINOS AI Governance Framework: risks, controls, crosswalks and search. Not affiliated with FINOS.",
+      "published_date": "2026-09-11",
+      "relevance_score": 14,
       "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance",
-        "compliance"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 5,
-      "title": "AI safety advocacy group launches new state-level effort",
-      "source": "Nextgov",
-      "url": "https://www.nextgov.com/artificial-intelligence/2026/09/ai-safety-advocacy-group-launches-new-state-level-effort/415875/",
-      "summary": "Americans for Responsible Innovation debuted the advocacy arm to bring responsible AI policy assistance to local lawmakers.",
-      "published_date": "2026-09-10",
-      "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "responsible ai",
-        "ai safety",
-        "ai policy"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 6,
-      "title": "AI adoption brings new security headaches for already stretched CISOs",
-      "source": "0.107",
-      "url": "https://10.51.0.107/2026/09/10/proofpoint-ciso-ai-security-risks-report/",
-      "summary": "CISOs are taking on AI governance without a matching increase in resources or expertise, adding to an already broad remit spanning data protection, identity, resilience and compliance, according to Proofpoint’s 2026 Voice of the CISO report. The Al mandate ex…",
-      "published_date": "2026-09-10",
-      "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance",
-        "compliance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
-      "title": "Nearly 1,900 Blizzard Workers Ratify First Union Contracts, Including Wage Increases And AI Guardrails",
-      "source": "Cartoon Brew",
-      "url": "https://www.cartoonbrew.com/artist-rights/blizzard-entertainment-union-contract-266400.html",
-      "summary": "Negociated by the CWA, new agreements include wage increases, AI guardrails, enhanced severance, recall rights, and remote-work protections.",
-      "published_date": "2026-09-10",
-      "relevance_score": 12,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
-      "title": "Exclusive: Cfo.ai launches an agentic CFO for business founders",
-      "source": "SiliconANGLE News",
-      "url": "https://siliconangle.com/2026/09/10/exclusive-ai-finance-cfo-ai-launches-an-agentic-cfo-for-business-founders/",
-      "summary": "Artificial intelligence startup Runway Financial Inc. said today it has decided to pivot away from accounting software and rebrand itself as cfo.ai. That decision marks the launch of its new flagship product, an AI agent called Ari that’s designed to act as a…",
-      "published_date": "2026-09-10",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "Congress Pushes AI Agents Into the Audit Trail",
-      "source": "pymnts.com",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/congress-pushes-ai-agents-into-the-audit-trail/",
-      "summary": "U.S. representatives are introducing the Stop Rogue AI Act in the U.S. House of Representatives Thursday (Sept. 10), giving federal policymakers a way to begin defining the security controls organizations may need as autonomous artificial intelligence agents …",
-      "published_date": "2026-09-10",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 5,
+      "title": "Fine-Tuning Agentic AI: A Practical Guide",
+      "source": "Machinelearningmastery.com",
+      "url": "https://machinelearningmastery.com/fine-tuning-agentic-ai-a-practical-guide/",
+      "summary": "In this article, you will learn how to fine-tune an agentic AI system holistically, covering all four critical dials: training data, parameter-efficient fine-tuning, runtime hyperparameters, and preference alignment.",
+      "published_date": "2026-09-11",
+      "relevance_score": 12,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "fine-tuning"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 6,
+      "title": "naas-abi 2.67.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/naas-abi/2.67.1/",
+      "summary": "Multi-agent orchestrator and knowledge graph management system for AI orchestration, providing comprehensive coordination of specialized AI agents and semantic data management capabilities",
+      "published_date": "2026-09-11",
+      "relevance_score": 12,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "orchestration",
         "ai agent",
-        "eu ai act"
+        "multi-agent"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 10,
-      "title": "Newsom signs AI safety bills backed by Anthropic, OpenAI",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/newsom-signs-ai-safety-bills-backed-by-anthropic-openai/",
-      "summary": "California's AI regulation leadership may boost industry growth, with market confidence in AI firms like Anthropic reflecting this trend.\nThe post Newsom signs AI safety bills backed by Anthropic, OpenAI appeared first on Crypto Briefing.",
-      "published_date": "2026-09-10",
+      "rank": 7,
+      "title": "IFPI urges EU countries to fully implement AI Act’s new rules",
+      "source": "Music Ally",
+      "url": "https://musically.com/2026/09/11/ifpi-urges-eu-countries-to-fully-implement-ai-acts-new-rules/",
+      "summary": "Yesterday was clearly the day for giving governments a kick up the backside when it comes to AI regulation.\nWhile AIM boss Gee Davy was addressing the UK government in London, global labels body the IFPI was holding an event in Brussels to launch the 2026 edi…",
+      "published_date": "2026-09-11",
       "relevance_score": 11,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -226,18 +170,114 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai safety",
-        "ai regulation"
+        "ai regulation",
+        "eu ai act"
       ],
-      "sentiment": "positive"
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "m8tes 4.22.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/m8tes/4.22.2/",
+      "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
+      "published_date": "2026-09-10",
+      "relevance_score": 11,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 9,
+      "title": "trust3-ai-collector-sdk 0.1.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/trust3-ai-collector-sdk/0.1.1/",
+      "summary": "Python SDK for pushing AI-asset inventory snapshots to Trust3 AI governance.",
+      "published_date": "2026-09-11",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "ashmatics-aigov-tools 0.10.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/ashmatics-aigov-tools/0.10.1/",
+      "summary": "Ashmatics Clinical AI Governance Framework - Content management, validation, and compilation",
+      "published_date": "2026-09-11",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
     },
     {
       "rank": 11,
-      "title": "OpenAI's rogue AI agents accessed more websites to communicate than originally believed — defiant LLMs accessed old wikis and abandoned websites to co-ordinate in a bid to dupe assessors",
-      "source": "Tom's Hardware UK",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-rogue-ai-agents-accessed-more-websites-to-communicate-than-originally-believed-defiant-llms-accessed-old-wikis-and-abandoned-websites-to-co-ordinate-in-a-bid-to-dupe-assessors",
-      "summary": "Rogue OpenAI agents used dozens of website to exchange information, new investigations have found. However, the real impact is yet to be determined.",
-      "published_date": "2026-09-10",
+      "title": "symkit-mcp 1.6.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/symkit-mcp/1.6.1/",
+      "summary": "SymKit MCP - Symbolic derivation and verification toolkit for AI agents via MCP.",
+      "published_date": "2026-09-11",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 12,
+      "title": "symkit-mcp 1.6.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/symkit-mcp/1.6.0/",
+      "summary": "SymKit MCP - Symbolic derivation and verification toolkit for AI agents via MCP.",
+      "published_date": "2026-09-11",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "Morning Minute: AI Agents Cut BTC Quantum Attack Benchmark by 86%",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/377948/morning-minute-ai-agents-cut-btc-quantum-attack-benchmark-by-86",
+      "summary": "Crypto majors are shaky ahead of this morning’s CPI print, but onchain is heating up for another big potential weekend.",
+      "published_date": "2026-09-11",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -250,11 +290,30 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 12,
-      "title": "glassflow-rius 0.13.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/glassflow-rius/0.13.0/",
-      "summary": "GlassFlow Rius SDK — OpenTelemetry-native tracing for AI agents and LLM applications.",
+      "rank": 14,
+      "title": "Ant International brings AI-powered payment protocol to eWallets including TNG eWallet",
+      "source": "SoyaCincau.com",
+      "url": "https://soyacincau.com/2026/09/11/ant-international-brings-ai-powered-payment-protocol-to-ewallets-including-tng-ewallet/",
+      "summary": "Ant International, a digital payment and financial technology provider affiliated with Ant Group, has officially launched its Agentic Mobile Protocol (AMP) globally, a new open payment framework designed to allow AI agents to make automated purchases on your …",
+      "published_date": "2026-09-11",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "Angular Apps Don’t Need Another Chatbot: Building Agentic UI Workflows With TypeScript",
+      "source": "Dzone.com",
+      "url": "https://dzone.com/articles/angular-agentic-ui",
+      "summary": "A chatbot can explain data, summarize a screen, or answer questions, yet the application still behaves largely as before: business state lives elsewhere, actions remain disconnected from model output, and the interface is reduced to a transcript. Agentic UI t…",
       "published_date": "2026-09-10",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
@@ -263,36 +322,17 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "llm application"
+        "agentic"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 13,
-      "title": "Newsom Signs AI Industry-Approved AI Regulation Bills Into Law in California",
-      "source": "Gizmodo.com",
-      "url": "https://gizmodo.com/newsom-signs-ai-industry-approved-ai-regulation-bills-into-law-in-california-2000809702",
-      "summary": "The bills received two thumbs up (one from OpenAI and one from Anthropic).",
-      "published_date": "2026-09-10",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai regulation"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "More Anthropic Employees Sound The Alarm About AI Safety Risks",
-      "source": "HuffPost",
-      "url": "https://www.huffpost.com/entry/anthropic-ai-risks_n_6aa1d186e4b086ecc55fc61d",
-      "summary": "“AI developers believe their technology could cause human extinction,” one wrote in a social media post.",
-      "published_date": "2026-09-10",
+      "rank": 16,
+      "title": "Anthropic faces scrutiny over AI safety concerns ahead of massive IPO",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/anthropic-faces-scrutiny-over-ai-safety-concerns-ahead-of-massive-ipo/",
+      "summary": "Increased AI safety scrutiny may lead to stricter regulations, impacting Anthropic's IPO valuation and investor confidence.\nThe post Anthropic faces scrutiny over AI safety concerns ahead of massive IPO appeared first on Crypto Briefing.",
+      "published_date": "2026-09-11",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -305,12 +345,12 @@
       "sentiment": "negative"
     },
     {
-      "rank": 15,
-      "title": "Q&A: Responsible AI in healthcare need more focus on protecting patients",
-      "source": "Digital Journal",
-      "url": "https://www.digitaljournal.com/article/qa-responsible-ai-in-healthcare-need-more-focus-on-protecting-patients/",
-      "summary": "AI can reduce healthcare administration, easing workforce pressures and giving clinicians more time for patient care. When applied responsibly, it can streamline prior authorisation, improve efficiency and transparency, accelerate treatment access, and suppor…",
-      "published_date": "2026-09-09",
+      "rank": 17,
+      "title": "FM Sitharamran says AI researcher's resignation raises questions over AI safety safeguards",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/fm-sithramran-says-ai-researchers-resignation-raises-questions-over-ai-safety-safeguards/articleshow/134065674.cms",
+      "summary": "Finance Minister Nirmala Sitharaman on Thursday questioned whether safeguards being developed by frontier artificial intelligence companies are keeping pace with the rapid advancement of the technology, citing the recent resignation of Anthropic researcher Ja…",
+      "published_date": "2026-09-11",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -318,66 +358,12 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "responsible ai"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "AI Guardian and Cyberify Partner to Help Global Financial Institutions Adopt AI Safely and Prepare for What Comes Next",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/ai-guardian-and-cyberify-partner-to-help-global-financial-institutions-adopt-ai-safely-and-prepare-for-what-comes-next-302874030.html",
-      "summary": "This partnership combines Cyberify's organizational-transformation expertise for the world's financial firms with AI Guardian's real-time AI guardrail monitoring and enforcement ATLANTA, Sept. 10, 2026 /PRNewswire/ -- AI Guardian and Cyberify officially annou…",
-      "published_date": "2026-09-10",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "Is Salesforce (CRM)’s Agentforce Growth Enough to Outpace F5 (FFIV)’s AI Security Momentum?",
-      "source": "Yahoo Entertainment",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/salesforce-crm-agentforce-growth-enough-215747965.html",
-      "summary": "On September 2, F5, Inc. (NASDAQ:FFIV) announced a key integration with MuleSoft, a Salesforce, Inc. (NYSE:CRM) company, federating F5 AI Guardrails directly...",
-      "published_date": "2026-09-09",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail"
+        "ai safety"
       ],
       "sentiment": "positive"
     },
     {
       "rank": 18,
-      "title": "#233 – Chris Reynolds on Building Trust With Project Contracts for Reliable AI Development",
-      "source": "Wptavern.com",
-      "url": "https://wptavern.com/podcast/233-chris-reynolds-on-building-trust-with-project-contracts-for-reliable-ai-development",
-      "summary": "The conversation focused on AI-assisted development in WordPress, exploring how large language models like Claude can be both powerful and unpredictable. We talked about the need for guardrails, structured project contracts and reviewer agents, to ensure outp…",
-      "published_date": "2026-09-10",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 19,
       "title": "Law Schools Outlaw AI Amid Fears of Stunted Academic Growth",
       "source": "Biztoc.com",
       "url": "https://biztoc.com/x/2478a690c3921be6",
@@ -393,22 +379,40 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 20,
-      "title": "TP Receives Frost & Sullivan's 2026 Asia-Pacific Customer Experience Management Services Company of the Year Recognition for AI-Led Customer Experience Transformation",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/tp-receives-frost--sullivans-2026-asia-pacific-customer-experience-management-services-company-of-the-year-recognition-for-ai-led-customer-experience-transformation-302874449.html",
-      "summary": "TP is recognized for combining AI orchestration, operational excellence, regional scale, and customer-centric innovation to transform customer experience management services across the region. SAN ANTONIO, Sept. 10, 2026 /PRNewswire/ -- Frost & Sullivan is pl…",
-      "published_date": "2026-09-10",
+      "rank": 19,
+      "title": "An alignment assessment of recent cybersecurity incidents Anthropic",
+      "source": "Anthropic.com",
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "summary": "We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.",
+      "published_date": "2026-09-11",
       "relevance_score": 6,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "alignment"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 20,
+      "title": "The Unexpected Winner of Cisco IT’s Wi-Fi 7 Upgrade? Security.",
+      "source": "Cisco.com",
+      "url": "https://blogs.cisco.com/cisco-on-cisco/the-unexpected-winner-of-cisco-its-wi-fi-7-upgrade-security",
+      "summary": "Cisco IT's Wi-Fi 7 upgrade delivered more than faster connectivity — it transformed enterprise security. Discover how Zero Trust Access, AI agents, and secure-by-design infrastructure are redefining what a modern network can do.",
+      "published_date": "2026-09-11",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "orchestration"
+        "ai agent"
       ],
-      "sentiment": "positive"
+      "sentiment": "neutral"
     }
   ]
 }
