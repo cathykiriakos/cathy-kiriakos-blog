@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T13:46:30.975Z",
+  "generated_at": "2026-09-13T16:47:19.652Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,13 +7,13 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 12
+      "item_count": 14
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 7
+      "item_count": 9
     },
     {
       "id": "human_centric_design",
@@ -36,11 +36,32 @@
       "polsky center",
       "mecha-nudges"
     ],
-    "item_count": 1
+    "item_count": 0
   },
   "items": [
     {
       "rank": 1,
+      "title": "eu-ai-act-compliance-mcp 1.8.16",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/eu-ai-act-compliance-mcp/1.8.16/",
+      "summary": "EU AI Act compliance for AI agents. 417 provisions from EUR-Lex via FTS5 search. Instant risk scan, deadline tracker, 42-point audit, documentation generator, penalty calculator. Zero-config free tier. Council of AI (CSOAI Ltd).",
+      "published_date": "2026-09-12",
+      "relevance_score": 14,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "compliance",
+        "eu ai act"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 2,
       "title": "voice-ai-governance 0.3.0",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/voice-ai-governance/0.3.0/",
@@ -60,44 +81,87 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 2,
-      "title": "Ex-Anthropic researcher: Without AI guardrails, it could be ‘lights out’ for humanity",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/8569e3bd2a690aba",
-      "summary": "A former Anthropic researcher warned that the race to build increasingly powerful artificial intelligence could eventually produce technology that humans can no longer control. Jacob Coxon, who recently resigned from the tech giant over such concerns, told MS…",
-      "published_date": "2026-09-11",
-      "relevance_score": 12,
-      "primary_pillar": "governance_as_code",
+      "rank": 3,
+      "title": "rusticai-core 1.4.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/rusticai-core/1.4.1/",
+      "summary": "Rustic AI’s modular, agentic AI framework for building human-centered, multi-agent workflows",
+      "published_date": "2026-09-12",
+      "relevance_score": 13,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai",
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "agentic",
+        "multi-agent",
+        "human-centered"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 3,
-      "title": "3 Agentic AI Stocks to Own Before AI Changes the World as We Know It",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/f23c11c34cd523fe",
-      "summary": "The age of agentic AI is here, and the world will likely see meaningful changes in the coming years. AI is advancing quickly, which is both exciting and scary.\nAgentic AI is exciting in that AI agents will be able to help humans by going out and performing ta…",
+      "rank": 4,
+      "title": "datawrapper-mcp 0.3.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/datawrapper-mcp/0.3.1/",
+      "summary": "A Model Context Protocol (MCP) server and app for creating Datawrapper charts using AI assistants",
       "published_date": "2026-09-12",
-      "relevance_score": 11,
+      "relevance_score": 12,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
-        "ai agent"
+        "model context protocol",
+        "MCP"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "title": "m8tes 4.23.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/m8tes/4.23.0/",
+      "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
+      "published_date": "2026-09-12",
+      "relevance_score": 11,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 6,
+      "title": "dora-compliance-mcp 1.4.16",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/dora-compliance-mcp/1.4.16/",
+      "summary": "DORA (EU Digital Operational Resilience Act) compliance for AI agents. 5-pillar audit, incident classification, Article 28 Register of Information, TLPT readiness. Regulation (EU) 2022/2554. Council of AI (CSOAI Ltd).",
+      "published_date": "2026-09-12",
+      "relevance_score": 11,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 7,
       "title": "regulated-ai-governance 0.45.0",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/regulated-ai-governance/0.45.0/",
@@ -117,7 +181,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 5,
+      "rank": 8,
       "title": "context-guardian-core 0.1.0",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/context-guardian-core/0.1.0/",
@@ -137,7 +201,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
+      "rank": 9,
       "title": "context-guardian-core added to PyPI",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/context-guardian-core/",
@@ -157,7 +221,44 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 7,
+      "rank": 10,
+      "title": "Show HN: MCP that gives Codex/Claude your SEO and AI visibility data",
+      "source": "Bloomiro.com",
+      "url": "https://bloomiro.com/mcp",
+      "summary": "What if questions like these just worked:How do I rank higher in Google and AI?\nWhere are my competitors showing up?\nWhich buyer prompts name them instead of us?\nWhat should I fix first?Now they do.\n\nComments URL: https://news.ycombinator.com/item?id=49673524…",
+      "published_date": "2026-09-12",
+      "relevance_score": 10,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 11,
+      "title": "Dario Amodei proposes three-step strategy for responsible AI development",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/amodei-three-step-ai-safety-framework/",
+      "summary": "Amodei's strategy emphasizes global cooperation and safety alignment, potentially reshaping AI development norms and mitigating risks.\nThe post Dario Amodei proposes three-step strategy for responsible AI development appeared first on Crypto Briefing.",
+      "published_date": "2026-09-12",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "responsible ai",
+        "alignment"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 12,
       "title": "Build interactive MCP Apps using Amazon Bedrock AgentCore",
       "source": "Amazon.com",
       "url": "https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/",
@@ -175,11 +276,11 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 8,
-      "title": "cleat 0.2.3",
+      "rank": 13,
+      "title": "hipcortex 3.11.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/cleat/0.2.3/",
-      "summary": "A headless terminal layer: a persistent PTY + OSC 133 structure source, exposed to AI agents over MCP.",
+      "url": "https://pypi.org/project/hipcortex/3.11.0/",
+      "summary": "Cognitive state substrate for AI agents — Python SDK + CLI. Universal server-side passive capture (any channel, zero client changes); ships the 61-tool / 7-resource MCP server; hard single-role runner, observation-content predicate scorer, GoalRevision→Clarif…",
       "published_date": "2026-09-12",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -194,11 +295,11 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 9,
-      "title": "termux-mcp 0.10.2",
+      "rank": 14,
+      "title": "monkeyllm 0.80.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/termux-mcp/0.10.2/",
-      "summary": "Termux AI server: REST API daemon (termux-mcp) + native MCP server (termux-native-mcp) — let AI agents run shell commands on your Android device in real time",
+      "url": "https://pypi.org/project/monkeyllm/0.80.0/",
+      "summary": "A knowledge engine for AI agents: your documents become a git-versioned markdown knowledge graph an agent navigates over MCP, instead of flat vector search.",
       "published_date": "2026-09-12",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -213,27 +314,62 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 10,
-      "title": "redamon v6.14.1",
-      "source": "Kitploit.com",
-      "url": "https://kitploit.com/en/posts/github-samugit83-redamon-v6141",
-      "summary": "An AI-powered agentic red team framework that automates offensive security operations, from reconnaissance to exploitation to post-exploitation, with zero human intervention.",
+      "rank": 15,
+      "title": "agent-skill-search 0.2.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/agent-skill-search/0.2.0/",
+      "summary": "Portable skill catalog search for AI agents — MCP server + CLI",
+      "published_date": "2026-09-12",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "Global AI MarTech market to nearly triple to $74.3 billion by 2031 as agentic AI reshapes marketing technology",
+      "source": "Completeaitraining.com",
+      "url": "https://completeaitraining.com/news/global-ai-martech-market-to-nearly-triple-to-743-billion-by/",
+      "summary": "The global AI MarTech market is forecast to grow from $28.00 billion in 2025 to $74.30 billion by 2031, a 17.66% compound annual growth rate. Software held roughly 73% of the market in 2025, with North America accounting for about 40% of global revenue.",
       "published_date": "2026-09-12",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 17,
+      "title": "'This Is Idiotic': Trump Torched For Rambling Answer About The Future Of AI Regulation",
+      "source": "HuffPost",
+      "url": "https://www.huffpost.com/entry/trump-ai-fox-news-interview_n_6aa4c2bbe4b09fd4319f756b",
+      "summary": "“He has no clue. He parrots his billionaire pals,” one commenter wrote on X.",
+      "published_date": "2026-09-12",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
-        "red-teaming"
+        "ai regulation"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 11,
+      "rank": 18,
       "title": "After a decade of failed bills and three years of resignations, Washington finally discovers it cares about AI safety",
       "source": "Fortune",
       "url": "https://fortune.com/2026/09/12/after-three-years-of-silence-washington-discovers-it-finally-cares-about-ai-safety/",
@@ -251,7 +387,7 @@
       "sentiment": "negative"
     },
     {
-      "rank": 12,
+      "rank": 19,
       "title": "When the Machine Acquires a Self: Conscience, Agency, and the Governance Frontier of Artificial Intelligence",
       "source": "Nakedcapitalism.com",
       "url": "https://www.nakedcapitalism.com/2026/09/when-the-machine-acquires-a-self-conscience-agency-and-the-governance-frontier-of-artificial-intelligence.html",
@@ -269,7 +405,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 13,
+      "rank": 20,
       "title": "AI regulation calls grow after researcher's extinction warning",
       "source": "Biztoc.com",
       "url": "https://biztoc.com/x/c2a010c1c43b4da1",
@@ -285,130 +421,6 @@
         "ai regulation"
       ],
       "sentiment": "negative"
-    },
-    {
-      "rank": 14,
-      "title": "This Tiny Fingerprint Key Unlocks Linux, Approves SSH and AI Agents",
-      "source": "Itsfoss.com",
-      "url": "https://itsfoss.com/immurok-review/",
-      "summary": "Immurok is a wireless fingerprint reader that wants to guard your sudo, your SSH logins, your TOTP codes, and even your AI coding agent. Here is how it held up on Linux over a week of daily use.",
-      "published_date": "2026-09-12",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "AI agents are learning to spend money. Who will handle the payments?",
-      "source": "The Next Web",
-      "url": "https://thenextweb.com/news/ai-agents-payments-xdc-x402-mastercard",
-      "summary": "AI is already changing how people find and buy things online, comparing prices, narrowing down options, doing in seconds what used to take an afternoon of tabs open. An AI agent could find a flight that fits your schedule, for example. Giving it permission to…",
-      "published_date": "2026-09-11",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "Meet Henry Xie, the 17-year-old Portland student who found a way to make smaller AI models more empathetic using ChatGPT and Gemini without massive computing power",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/news/international/global-trends/meet-henry-xie-the-17-year-old-portland-student-who-found-a-way-to-make-smaller-ai-models-more-empathetic-using-chatgpt-and-gemini-without-massive-computing-power/articleshow/134075957.cms",
-      "summary": "Henry Xie, a 17-year-old Portland student developed a way to transfer empathy from large AI models to smaller models for his Regeneron Science Talent Search computer science project. His Science project could help make more caring, human-centered AI available…",
-      "published_date": "2026-09-11",
-      "relevance_score": 7,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "human-centered"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "Law Schools Outlaw AI Amid Fears of Stunted Academic Growth",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/2478a690c3921be6",
-      "summary": "Law schools in the United States have begun banning artificial intelligence in the classroom, according to a Financial Times column Monday (Sept. 7) by Patti Waldmeir.\nThe University of Chicago Law School is among the institutions imposing these restrictions.…",
-      "published_date": "2026-09-07",
-      "relevance_score": 7,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
-      "matched_keywords": [
-        "university of chicago"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "Big Tech is pouring billions into AI, but Apple is taking a different innovation bet | Can it sustain growth without AI?",
-      "source": "Livemint",
-      "url": "https://www.livemint.com/companies/news/big-tech-is-pouring-billions-into-ai-but-apple-is-taking-a-different-innovation-bet-can-it-sustain-growth-without-ai-11788962978252.html",
-      "summary": "Apple takes a unique approach to AI spending, investing $6.8 billion compared to its rivals' billions. Focusing on product development and user experience, Apple aims to leverage existing capabilities and customer base rather than compete directly with big pl…",
-      "published_date": "2026-09-12",
-      "relevance_score": 6,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "user experience"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 19,
-      "title": "The universe’s beautiful fine-tuning leaves atheism facing its biggest question",
-      "source": "Fox News",
-      "url": "https://www.foxnews.com/opinion/universes-beautiful-fine-tuning-leaves-atheism-facing-biggest-question",
-      "summary": "A Getty Museum visit with Leonardo da Vinci's art sparked a former atheist's journey into the anthropic principle and our fine-tuned universe.",
-      "published_date": "2026-09-12",
-      "relevance_score": 6,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "fine-tuning"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 20,
-      "title": "mindroom 2026.9.95",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/mindroom/2026.9.95/",
-      "summary": "A universal interface for AI agents with persistent memory, where every conversation has a home",
-      "published_date": "2026-09-12",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
     }
   ]
 }
