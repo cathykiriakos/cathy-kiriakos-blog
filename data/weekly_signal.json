@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T14:17:04.601Z",
+  "generated_at": "2026-09-16T14:09:08.915Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,7 +7,7 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 10
+      "item_count": 11
     },
     {
       "id": "governance_as_code",
@@ -19,7 +19,7 @@
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 6
+      "item_count": 2
     }
   ],
   "institutional_signal": {
@@ -41,108 +41,93 @@
   "items": [
     {
       "rank": 1,
-      "title": "Show HN: Vigilator – human-in-the-loop layer for AI agents",
-      "source": "Vigilator.ai",
-      "url": "https://vigilator.ai/",
-      "summary": "Hi - I'm Noah, a student working out of the UK & I've been building Vigilator for the past couple of months, Vigilator provides an agnostic solution for handling interrupts and observing agents as they work.I was inspired to build Vigilator after I realised a…",
-      "published_date": "2026-09-14",
-      "relevance_score": 20,
-      "primary_pillar": "human_centric_design",
+      "title": "Hadrius AI Governance Selected by Ritholtz Wealth Management to Enable Firmwide Claude Deployment",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/hadrius-ai-governance-selected-by-ritholtz-wealth-management-to-enable-firmwide-claude-deployment-302878239.html",
+      "summary": "Agentic compliance infrastructure provider selected by national RIA to modernize communications archiving and deploy AI governance purpose-built for SEC and FINRA oversight NEW YORK, Sept. 15, 2026 /PRNewswire/ -- Hadrius, the leading agentic compliance infra…",
+      "published_date": "2026-09-15",
+      "relevance_score": 24,
+      "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 2,
-      "title": "isa-agent-sdk 0.5.83",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/isa-agent-sdk/0.5.83/",
-      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
-      "published_date": "2026-09-14",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent",
-        "human-in-the-loop"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 3,
-      "title": "Russian freelancers use Claude to program autonomous combat drone swarm — AI-enabled target selection and detonation without a human in the loop",
-      "source": "Slashdot.org",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185645422",
-      "summary": "Russia turned Claude into a tool for weapons development, espionage, and propaganda, Anthropic's new threat report claims.",
-      "published_date": "2026-09-14",
-      "relevance_score": 14,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "human-in-the-loop"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 4,
-      "title": "Airrived adds Agentic Observability to track AI agent actions and risks",
-      "source": "Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/09/14/airrived-agentic-observability-expansion/",
-      "summary": "Airrived will reveal Agentic Observability, a major expansion of its enterprise Agentic OS built to give organizations end-to-end visibility into how AI agents behave, from the moment enterprise data enters the platform, through agent reasoning and execution,…",
-      "published_date": "2026-09-14",
-      "relevance_score": 14,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
         "agentic",
-        "ai agent"
+        "ai governance",
+        "governance",
+        "compliance"
       ],
-      "sentiment": "negative"
+      "sentiment": "positive"
     },
     {
-      "rank": 5,
-      "title": "Trump dismisses new AI guardrails, says there is a 'SICK conspiracy' against AI and data centers",
-      "source": "Yahoo Entertainment",
-      "url": "https://www.yahoo.com/news/politics/articles/trump-dismisses-ai-guardrails-says-141430820.html",
-      "summary": "President Donald Trump said Monday that he would be a sufficient guardrail against rogue artificial intelligence, claiming that any efforts to limit the tech...",
-      "published_date": "2026-09-14",
-      "relevance_score": 12,
+      "rank": 2,
+      "title": "China rejects Anthropic’s call for independent AI safety monitors",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/china-rejects-anthropic-ai-safety-monitors/",
+      "summary": "China's rejection highlights the growing divide in AI governance, complicating global efforts for unified safety standards and regulatory compliance.\nThe post China rejects Anthropic’s call for independent AI safety monitors appeared first on Crypto Briefing.",
+      "published_date": "2026-09-15",
+      "relevance_score": 19,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "ai governance",
+        "governance",
+        "compliance",
+        "ai safety"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
-      "title": "Ron Conway reportedly taps Jay Carney to lead new AI policy center",
+      "rank": 3,
+      "title": "API gateway vs AI gateway: Where AI governance meets execution",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/api-gateway-ai-gateway-governance-execution",
+      "summary": "API Gateways provide a controlled path into backend services and can apply security and traffic policies as requests move through the system. AI introduces additional runtime decisions because applications may interact with different models whose access, usag…",
+      "published_date": "2026-09-15",
+      "relevance_score": 18,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 4,
+      "title": "Dreamforce 2026 features separate AI sessions with OpenAI and Anthropic leaders",
       "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/conway-carney-ai-policy-center/",
-      "summary": "The appointment of Jay Carney to lead the AI policy center could significantly influence US AI regulation, shaping future tech governance.\nThe post Ron Conway reportedly taps Jay Carney to lead new AI policy center appeared first on Crypto Briefing.",
-      "published_date": "2026-09-14",
-      "relevance_score": 12,
+      "url": "https://cryptobriefing.com/dreamforce-ai-debate-openai-anthropic/",
+      "summary": "The separate AI sessions at Dreamforce 2026 highlight the growing importance of AI governance and ethical considerations in business.\nThe post Dreamforce 2026 features separate AI sessions with OpenAI and Anthropic leaders appeared first on Crypto Briefing.",
+      "published_date": "2026-09-15",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 5,
+      "title": "EU countries convene to hash out global AI rules as enforcement era begins",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/eu-global-ai-rules-discussion/",
+      "summary": "The EU's proactive AI regulation could set a precedent, prompting global alignment and stricter governance to mitigate AI-related risks.\nThe post EU countries convene to hash out global AI rules as enforcement era begins appeared first on Crypto Briefing.",
+      "published_date": "2026-09-15",
+      "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -151,169 +136,90 @@
       "matched_keywords": [
         "governance",
         "ai regulation",
-        "ai policy"
+        "alignment"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 6,
+      "title": "coalex 1.28.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/coalex/1.28.1/",
+      "summary": "Coalex Python SDK for AI governance observability",
+      "published_date": "2026-09-15",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 7,
-      "title": "'Dr. Frankenstein is telling us the monster is escaping': US lawmakers desperately want to set up AI guardrails before midterm elections",
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/pro/dr-frankenstein-is-telling-us-the-monster-is-escaping-us-lawmakers-desperately-want-to-set-up-ai-guardrails-before-midterm-elections",
-      "summary": "Anthropic and OpenAI have warned about AI's potential risks, but while US politicians react, Trump worried about race with China.",
-      "published_date": "2026-09-14",
-      "relevance_score": 12,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 8,
-      "title": "context-guardian-core 0.3.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/context-guardian-core/0.3.0/",
-      "summary": "A human-in-the-loop control layer for AI agent context compaction.",
-      "published_date": "2026-09-14",
-      "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "m8tes 4.27.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/m8tes/4.27.0/",
-      "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
-      "published_date": "2026-09-13",
-      "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 10,
-      "title": "We Run 21 AI Agents and They’ve Closed Millions. But There Still Isn’t a Good AI Account Executive. Yet",
-      "source": "Saastr.com",
-      "url": "https://www.saastr.com/we-run-21-ai-agents-and-theyve-closed-millions-but-there-still-isnt-a-good-ai-account-executive-yet/",
-      "summary": "We run 21 AI agents in production at SaaStr. They have closed millions in revenue. They book meetings on Saturday nights, resurrect leads nobody had touched in six months, run the invoice and the collections follow-up, and write to Salesforce all day without …",
-      "published_date": "2026-09-14",
-      "relevance_score": 10,
+      "title": "Trace Laravel AI agents with OpenTelemetry",
+      "source": "Github.com",
+      "url": "https://github.com/cristea-iulian/laravel-ai-otel?utm_source=laravelnews&utm_medium=link&utm_campaign=laravelnews",
+      "summary": "OpenTelemetry tracing for the Laravel AI SDK, following the GenAI semantic conventions - cristea-iulian/laravel-ai-otel",
+      "published_date": "2026-09-15",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "in production"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
-      "title": "China criticises idea it is in 'malicious competition' over AI",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/98d4346de820bcaa",
-      "summary": "China has hit out against what it has called \"threat narratives\" over AI governance and warned against \"engaging in confrontation and malicious competition\".\nIt follows Anthropic CEO Dario Amodei's calls for a slowdown in AI development - but in a way that pr…",
-      "published_date": "2026-09-14",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 12,
-      "title": "Türk calls for urgent, meaningful action to tackle unprecedented AI risks",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/military/library/news/2026/09/mil-260914-ohchr01.htm",
-      "summary": "UN Human Rights Chief Volker Türk on Monday called on States and the world's 'frontier' artificial intelligence companies to act urgently to ensure meaningful AI governance keeps pace with its accelerating development and the unprecedented risks to human righ…",
-      "published_date": "2026-09-14",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 13,
-      "title": "Enterprise Analytics Beyond Dashboards: Intelligent Data Orchestration with LLMs",
-      "source": "Oreilly.com",
-      "url": "https://www.oreilly.com/radar/enterprise-analytics-beyond-dashboards-intelligent-data-orchestration-with-llms/#BlogPosting",
-      "summary": "In 17 years of building enterprise data platforms, I’ve watched every organization eventually ask the same question: “Can I ask one question and get one answer across everything my company knows?” A finance analyst wants actual revenue from the warehouse, pip…",
-      "published_date": "2026-09-14",
-      "relevance_score": 10,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "orchestration"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "brainlayer 1.5.27",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/brainlayer/1.5.27/",
-      "summary": "Persistent memory MCP server for AI agents — 17 tools, semantic search, knowledge graph, on-device SQLite",
-      "published_date": "2026-09-14",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 15,
-      "title": "Dataminr uses agentic AI to predict and verify security threats",
-      "source": "Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/09/14/dataminr-uses-agentic-ai-to-predict-and-verify-security-threats/",
-      "summary": "Dataminr has announced Dataminr Advanced for Corporate Security, delivering agentic AI capabilities that give corporate security teams the confidence to protect their people, sites, and operations before risk escalates. With Agentic Corroboration, Agentic Con…",
-      "published_date": "2026-09-14",
+      "rank": 8,
+      "title": "Show HN: Bulkgrid – Search websites and GitHub repositories from your AI agent",
+      "source": "Bulkgrid.com",
+      "url": "https://bulkgrid.com",
+      "summary": "Bulkgrid gives AI agents searchable knowledge from sources you choose and trust.You can use existing public sources or index a website or GitHub repository. Bulkgrid will process the content, check for changes automatically and provide relevant passages with …",
+      "published_date": "2026-09-15",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 9,
+      "title": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents | TechCrunch",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/",
+      "summary": "Their startup, Artificial Intelligence Underwriting Company (AIUC) has raised $40 million in a Series A round led by Ribbit Capital, with participation from First Harmonic.",
+      "published_date": "2026-09-15",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "Astera Labs targets the KV cache bottleneck as agentic AI outgrows GPU memory",
+      "source": "Digitimes",
+      "url": "https://www.digitimes.com/news/a20260915VL218/astera-labs-memory-controller-cpu-ai-inference-dram.html",
+      "summary": "Astera Labs has added three products to its Leo memory controller line, aimed at a problem that arises as AI inference shifts from single queries to agents that run continuous loops: the key-value cache outgrows the HBM on the accelerator, and the usual fallb…",
+      "published_date": "2026-09-15",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -326,12 +232,30 @@
       "sentiment": "negative"
     },
     {
-      "rank": 16,
-      "title": "MPs and peers tell UK to stop winging it on AI regulation",
-      "source": "Theregister.com",
-      "url": "https://www.theregister.com/ai-and-ml/2026/09/14/mps-and-peers-tell-uk-to-stop-winging-it-on-ai-regulation/5296108",
-      "summary": "Rights committee demands watchdog with teeth as patchwork safeguards leave victims hunting for remedies",
-      "published_date": "2026-09-14",
+      "rank": 11,
+      "title": "New Zentera Systems Research Reveals Security Leaders' Struggles to Govern AI Agents",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/new-zentera-systems-research-reveals-security-leaders-struggles-to-govern-ai-agents-302878856.html",
+      "summary": "The new survey \"Agents of Change\" highlights the challenges of safely scaling a rapidly expanding technology MILPITAS, Calif., Sept. 15, 2026 /PRNewswire/ -- News Highlights: Rapidly Growing Agent Fleets: Most organizations run more than 50 AI agents today, w…",
+      "published_date": "2026-09-15",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 12,
+      "title": "Rep. Beyer Seeks September Hearings About AI Regulation",
+      "source": "Daily Signal",
+      "url": "https://www.dailysignal.com/2026/09/15/beyer-seeks-hearings-about-ai-regulation/",
+      "summary": "Rep. Don Beyer, a Democrat who is seeking a seventh term in Virginia’s 8th Congressional District, is warning that lawmakers should act quickly to maintain control over the growth of artificial intelligence. “Far too often Congress reacts AFTER a disaster. We…",
+      "published_date": "2026-09-15",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -344,31 +268,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 17,
-      "title": "UK government bets on evidence over mandates for AI risk",
+      "rank": 13,
+      "title": "Olas deploys AI agent transactions on Robinhood Chain across seven blockchains",
       "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/uk-government-evidence-based-ai-risk-measures/",
-      "summary": "The UK's evidence-based AI regulation approach may foster innovation but risks inadequate oversight without mandatory compliance measures.\nThe post UK government bets on evidence over mandates for AI risk appeared first on Crypto Briefing.",
-      "published_date": "2026-09-14",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "compliance",
-        "ai regulation"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "AI Agent Defender: What Consumer Tools Actually Exist to Protect Your Smart Home’s AI Agents",
-      "source": "Forkast.news",
-      "url": "https://forkast.news/ai-agent-defender-what-consumer-tools-actually-exist-to-protect-your-smart-homes-ai-agents/",
-      "summary": "Last Tuesday, my smart home decided that my calendar invite for a dentist appointment was actually a request to order three dozen artisanal cupcakes to my front door. It wasn’t a glitch in the traditional sense; it was a classic case of a Gemini Calendar Inje…",
-      "published_date": "2026-09-13",
+      "url": "https://cryptobriefing.com/olas-defi-products-robinhood-chain/",
+      "summary": "Olas' integration with Robinhood Chain could revolutionize DeFi by making AI-driven financial management accessible to millions of users.\nThe post Olas deploys AI agent transactions on Robinhood Chain across seven blockchains appeared first on Crypto Briefing.",
+      "published_date": "2026-09-15",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -381,36 +286,126 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 19,
-      "title": "agent-wait 0.7.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/agent-wait/0.7.0/",
-      "summary": "Human-in-the-loop for LangGraph, Pydantic AI and Strands agents -- and anything else a run has to wait for. Get the interrupt out of the process (SNS, SQS, EventBridge, DynamoDB, webhook) with everything needed to answer it; get the answer back in.",
+      "rank": 14,
+      "title": "Dimensional’s David Booth Discusses the State of ETFs, Investing and More",
+      "source": "Thedailyupside.com",
+      "url": "https://www.thedailyupside.com/advisor/investing-strategies/dimensionals-david-booth-discusses-the-state-of-etfs-investing-and-more/",
+      "summary": "The asset management industry has come a long way since Dimensional Fund Advisors was founded by a small team of academics at the University of Chicago.",
       "published_date": "2026-09-13",
-      "relevance_score": 8,
+      "relevance_score": 7,
+      "primary_pillar": "institutional_signal",
+      "pillars": [],
+      "institutional_signal": true,
+      "matched_keywords": [
+        "university of chicago"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "Clinical usability of an explainable AI decision support tool and evaluation of multimodal models in NSCLC",
+      "source": "Nature.com",
+      "url": "https://www.nature.com/articles/s41591-026-04488-2",
+      "summary": "In a large international real-world study of non-small cell lung cancer, a multimodal explainable AI model outperformed established biomarkers for immunotherapy outcome prediction and improved physician decision-making.",
+      "published_date": "2026-09-13",
+      "relevance_score": 7,
       "primary_pillar": "human_centric_design",
       "pillars": [
         "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "human-in-the-loop"
+        "usability"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 16,
+      "title": "Accounting Seed Unveils an AI-Native Accounting Experience That Knows Your Business, Redefining the Future of Finance",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/accounting-seed-unveils-an-ai-native-accounting-experience-that-knows-your-business-redefining-the-future-of-finance-302879091.html",
+      "summary": "Powered by a completely redesigned user experience, embedded AI, continuous close, and open access for major LLMs, the platform gives teams the information they need to act with confidence and scale the business faster. COLUMBIA, Md., Sept. 15, 2026 /PRNewswi…",
+      "published_date": "2026-09-15",
+      "relevance_score": 6,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "user experience"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "alinux 0.1.14",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/alinux/0.1.14/",
+      "summary": "Alinux AI orchestration shell for minimal Linux desktops",
+      "published_date": "2026-09-15",
+      "relevance_score": 6,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "orchestration"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "alinux 0.1.12",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/alinux/0.1.12/",
+      "summary": "Alinux AI orchestration shell for minimal Linux desktops",
+      "published_date": "2026-09-15",
+      "relevance_score": 6,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "orchestration"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "helm-python-ai added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/helm-python-ai/",
+      "summary": "AI layer for Helm v4: an MCP server and an autonomous agent built on helm-python-sdk",
+      "published_date": "2026-09-15",
+      "relevance_score": 6,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "Dimensional’s David Booth Discusses the State of ETFs, Investing and More",
-      "source": "Thedailyupside.com",
-      "url": "https://www.thedailyupside.com/advisor/investing-strategies/dimensionals-david-booth-discusses-the-state-of-etfs-investing-and-more/",
-      "summary": "The asset management industry has come a long way since Dimensional Fund Advisors was founded by a small team of academics at the University of Chicago.",
-      "published_date": "2026-09-13",
-      "relevance_score": 8,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
+      "title": "intelli 2.0.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/intelli/2.0.1/",
+      "summary": "Build AI agents and MCPs with Intellinode.",
+      "published_date": "2026-09-15",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
       "matched_keywords": [
-        "university of chicago"
+        "ai agent"
       ],
       "sentiment": "neutral"
     }
