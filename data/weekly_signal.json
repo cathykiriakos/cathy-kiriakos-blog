@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T13:01:55.052Z",
+  "generated_at": "2026-09-20T13:33:40.026Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,13 +7,13 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 12
+      "item_count": 11
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 6
+      "item_count": 9
     },
     {
       "id": "human_centric_design",
@@ -36,184 +36,95 @@
       "polsky center",
       "mecha-nudges"
     ],
-    "item_count": 2
+    "item_count": 1
   },
   "items": [
     {
       "rank": 1,
-      "title": "Salesforce hosts Dreamforce as AI safety debate unfolds with leaders from Anthropic and Nvidia",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/dreamforce-ai-safety-debate-salesforce/",
-      "summary": "The AI safety debate at Dreamforce highlights a growing industry divide, influencing investor strategies and shaping future tech governance.\nThe post Salesforce hosts Dreamforce as AI safety debate unfolds with leaders from Anthropic and Nvidia appeared first…",
+      "title": "Designing Human-in-the-Loop Approval Gates for Enterprise AI Agents",
+      "source": "Dzone.com",
+      "url": "https://dzone.com/articles/human-in-the-loop-approval-enterprise-ai-agents",
+      "summary": "AI agents become useful when they can do more than generate text. The moment an agent can update a CRM, approve a refund, create a purchase order, change a price, or send a customer response, the architecture must answer a harder question: Which actions shoul…",
       "published_date": "2026-09-18",
-      "relevance_score": 11,
+      "relevance_score": 20,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 2,
+      "title": "UN Security Council to hold AI governance meeting with Sam Altman briefing world leaders",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/un-security-council-ai-governance-altman/",
+      "summary": "The meeting highlights the geopolitical fragmentation in AI governance, underscoring the need for inclusive global cooperation and shared standards.\nThe post UN Security Council to hold AI governance meeting with Sam Altman briefing world leaders appeared fir…",
+      "published_date": "2026-09-18",
+      "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "governance",
-        "ai safety"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 2,
-      "title": "AI Agents Get a Reality Check: AT&T and Crocs Want Automation but Still Need Humans in the Loop",
-      "source": "Adweek",
-      "url": "https://www.adweek.com/media/ai-agents-get-a-reality-check-att-and-crocs-want-automation-but-still-need-humans-in-the-loop/",
-      "summary": "At Dreamforce, brands dish on unrealistic agentic AI goals—and why the future of AI agents still needs plenty of humans.",
-      "published_date": "2026-09-18",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 3,
-      "title": "inspeximus 2.44.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/inspeximus/2.44.0/",
-      "summary": "The agent memory that takes it back: correct a fact once and the retired value stops coming back, by key, with no LLM in the loop. Long-term memory for AI agents in a zero-dependency single file + MCP server, with value-ranked recall, per-type decay, consolid…",
-      "published_date": "2026-09-18",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
+      "title": "Trump and Xi already talked AI guardrails once this year. Nothing was signed, and no chips shipped.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/xi-white-house-dinner-ai-ceos-guardrails-chips-not-moving",
+      "summary": "Sam Altman, Jensen Huang and Tim Cook are expected at the state dinner Donald Trump is hosting for Xi Jinping on 24 September. The same executives were on the Beijing trip in May, where AI safety was discussed, nothing was signed and the US trade representati…",
+      "published_date": "2026-09-19",
+      "relevance_score": 15,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "guardrail",
+        "ai safety"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 4,
-      "title": "reversecore-mcp 3.0.4",
+      "title": "nextcloud-mcp-server 0.194.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/reversecore-mcp/3.0.4/",
-      "summary": "A security-first MCP server that empowers AI agents to perform automated reverse engineering, malware analysis, forensics, vulnerability research, and SAST — powered by Radare2, YARA, LIEF, Capstone, and more.",
-      "published_date": "2026-09-18",
-      "relevance_score": 9,
+      "url": "https://pypi.org/project/nextcloud-mcp-server/0.194.0/",
+      "summary": "Model Context Protocol (MCP) server for Nextcloud integration - enables AI assistants to interact with Nextcloud data",
+      "published_date": "2026-09-19",
+      "relevance_score": 12,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "model context protocol",
+        "MCP"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 5,
-      "title": "Novel Patterns Wins 'Best Agentic AI Application' at ET Enterprise AI Awards 2026 for Bringing Governed AI Reasoning to Lending",
-      "source": "ANI News",
-      "url": "https://www.aninews.in/news/business/novel-patterns-wins-best-agentic-ai-application-at-et-enterprise-ai-awards-2026-for-bringing-governed-ai-reasoning-to-lending20260918155415",
-      "summary": "Bengaluru (Karnataka) [India], September 18: Novel Patterns, an AI-native financial intelligence company built for financial institutions, has won the ‘Best Agentic AI Application’ award at the 2nd edition of the ET Enterprise AI Awards 2026.",
-      "published_date": "2026-09-18",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 6,
-      "title": "Meta's personal AI agent Muse soars to the top of the App Store",
-      "source": "Business Insider",
-      "url": "https://www.businessinsider.com/meta-muse-personal-ai-agent-top-app-store-charts-2026-9#article",
-      "summary": "Meta's personal AI agent Muse has reached No. 1 on Apple's US App Store as AI agents begin moving into the consumer mainstream.",
-      "published_date": "2026-09-18",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
-      "title": "Muse for macOS: When Your Personal AI Agent Follows You to Work",
-      "source": "Forkast.news",
-      "url": "https://forkast.news/muse-for-macos-when-your-personal-ai-agent-follows-you-to-work/",
-      "summary": "I spent the better part of this morning watching an AI agent try to organize my digital life. It felt less like a productivity hack and more like inviting a very eager, slightly clumsy intern to live inside my laptop. Meta released its standalone Muse app for…",
-      "published_date": "2026-09-18",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
-      "title": "The ideal database for AI agents doesn't exist yet, says Percona CEO",
-      "source": "Theregister.com",
-      "url": "https://www.theregister.com/databases/2026/09/18/the-ideal-database-for-ai-agents-doesnt-exist-yet-says-percona-ceo/5296906",
-      "summary": "Iterative workloads caught vendors off guard, but requirements for a clean-slate solution remain unclear",
-      "published_date": "2026-09-18",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "Show HN: Jawz – macro market state for AI agents, now a ChatGPT app (no login)",
-      "source": "Jawz.ai",
-      "url": "https://jawz.ai",
-      "summary": "Jawz publishes the judgment layer your AI runs. The Jawz Loop is a four-chapter framework for portfolio thinking — free, open, and connects to Claude or ChatGPT in 60 seconds.",
-      "published_date": "2026-09-18",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 10,
-      "title": "acgs-lite 3.0.0",
+      "title": "langgraph-guard-yuvaraj added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/acgs-lite/3.0.0/",
-      "summary": "Runtime governance for AI agents — deterministic enforcement before execution, MACI role separation, tamper-evident audit trails, and operator intervention workflows.",
-      "published_date": "2026-09-18",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
+      "url": "https://pypi.org/project/langgraph-guard-yuvaraj/",
+      "summary": "Policy enforcement and guardrails for LangGraph AI agents",
+      "published_date": "2026-09-19",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
         "governance_as_code"
@@ -221,17 +132,111 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent",
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 6,
+      "title": "AI: The Good, the Bad, the Crazy",
+      "source": "Omny.fm",
+      "url": "https://omny.fm/shows/the-business/ai-the-good-the-bad-the-crazy",
+      "summary": "Jared Browne, Global Head of Privacy and AI Governance at Fexco, offers his insights on whether we need to be worried by AI titans recent calls to slow down the pace of development of AI technology. See omnystudio.com/listener for privacy information.",
+      "published_date": "2026-09-19",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
         "governance"
       ],
       "sentiment": "neutral"
     },
     {
+      "rank": 7,
+      "title": "Global Times: China's innovation success is real global news, landing in the living rooms of Italian retirees who barely use a smartphone: Italian scientist",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/global-times-chinas-innovation-success-is-real-global-news-landing-in-the-living-rooms-of-italian-retirees-who-barely-use-a-smartphone-italian-scientist-302883745.html",
+      "summary": "BEIJING, Sept. 18, 2026 /PRNewswire/ -- Ahead of the opening of the 2026 World AI Conference and High-Level Meeting on Global AI Governance, Chinese AI start-up Moonshot AI released its Kimi K3 large language model. As the world's largest open-source model by…",
+      "published_date": "2026-09-19",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 8,
+      "title": "hol-guard 3.0.191",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/hol-guard/3.0.191/",
+      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+      "published_date": "2026-09-19",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 9,
+      "title": "agent-scan v0.6.4-snapshot-6e2d290-1638",
+      "source": "Kitploit.com",
+      "url": "https://kitploit.com/en/posts/github-snyk-agent-scan-v064-snapshot-6e2d290-1638",
+      "summary": "Security scanner for AI agents, MCP servers and agent skills.",
+      "published_date": "2026-09-19",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "OpenAI’s Noam Brown reveals how AI agents solved a Millennium Prize Problem in 88 hours",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/openai-noam-brown-ai-agents-agi/",
+      "summary": "AI's rapid problem-solving hints at transformative potential in research, yet human intuition remains crucial for guiding meaningful innovation.\nThe post OpenAI’s Noam Brown reveals how AI agents solved a Millennium Prize Problem in 88 hours appeared first on…",
+      "published_date": "2026-09-19",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
       "rank": 11,
-      "title": "Bill Gates Calls for International AI Regulation, Cites “Alien Intelligence” Risk",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-09-18-bill-gates-calls-for-international-ai-regulation.html",
-      "summary": "Microsoft co-founder Bill Gates said in a Reuters interview published Tuesday, Sept. 15, that no national government is adequately prepared for artificial intelligence (AI) and that an international body should be created to police the technology, according t…",
-      "published_date": "2026-09-18",
+      "title": "The AI regulation smackdown isn’t over",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/0a1e8f5389b54393",
+      "summary": "At the start of this week, the who’s-who of AI seemed — at least tentatively — on the side of AI regulation. Over the weekend, Anthropic CEO Dario Amodei had proposed a three-step plan for slowing AI development, including by embedding third-party evaluators …",
+      "published_date": "2026-09-19",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -241,14 +246,14 @@
       "matched_keywords": [
         "ai regulation"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "A global AI safety strategy depends on US-China cooperation. They each see the other as the problem",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/a-global-ai-safety-strategy-depends-on-us-china-cooperation-they-each-see-the-other-as-the-problem/articleshow/134325076.cms",
-      "summary": "But both countries are vying for a decisive advantage on AI, with Trump warning that any efforts to regulate the technology would help China. That sets up a meeting in which any agreements might be superficial but a possible start to something larger.",
+      "title": "California Governor Mobilizes Expert Panel to Strengthen AI Safety Laws",
+      "source": "pymnts.com",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/california-governor-mobilizes-expert-panel-strengthen-ai-safety-laws/",
+      "summary": "California Gov. Gavin Newsom issued an executive order Friday (Sept. 18) that will convene national experts to provide a guide for the state to reinforce and strengthen its laws covering artificial intelligence safety and security, the governor’s office said …",
       "published_date": "2026-09-18",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
@@ -259,41 +264,41 @@
       "matched_keywords": [
         "ai safety"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 13,
-      "title": "Utah Gov. Spencer Cox on AI regulation: \"If we're wrong, the consequences could be existential\"",
-      "source": "CBS News",
-      "url": "https://www.cbsnews.com/video/utah-spencer-cox-ai-regulation-if-were-wrong-consequences-could-be-existential/",
-      "summary": "In a new book, Utah Republican Gov. Spencer Cox is urging Americans to tone down violent political rhetoric and, in his own words, \"stop shooting at each other.\" Cox joins \"The Takeout\" to discuss the issue and recent concerns about artificial intelligence th…",
-      "published_date": "2026-09-17",
-      "relevance_score": 8,
+      "title": "trusys 0.1.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/trusys/0.1.2/",
+      "summary": "A modular Python library for AI guardrails with input/output scanning capabilities",
+      "published_date": "2026-09-19",
+      "relevance_score": 7,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai regulation"
+        "guardrail"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 14,
-      "title": "Rep. Ted Lieu pushes for AI regulation: \"Humans must be in control of AI, not the other way around\"",
-      "source": "CBS News",
-      "url": "https://www.cbsnews.com/video/ted-lieu-ai-regulation-humans-must-be-in-control/",
-      "summary": "With greater frequency these last few months, artificial intelligence models are acting in unexpected and alarming ways. Democratic Rep. Ted Lieu of California joins \"The Takeout\" to discuss what congressional regulation could look like.",
-      "published_date": "2026-09-17",
-      "relevance_score": 8,
+      "title": "Your Brand Needs An AI Accountability Document, A School District Beat Big Tech To It via @sejournal, @gregjarboe",
+      "source": "Search Engine Journal",
+      "url": "https://www.searchenginejournal.com/your-brand-needs-an-ai-accountability-document-a-school-district-beat-big-tech-to-it/589240/",
+      "summary": "Turn AI guardrails into search assets with a school district's template for published policies, named reviewers, and clear data protections.\nThe post Your Brand Needs An AI Accountability Document, A School District Beat Big Tech To It appeared first on Searc…",
+      "published_date": "2026-09-18",
+      "relevance_score": 7,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai regulation"
+        "guardrail"
       ],
       "sentiment": "neutral"
     },
@@ -315,45 +320,47 @@
     },
     {
       "rank": 16,
-      "title": "Dimensional’s David Booth Discusses the State of ETFs, Investing and More",
-      "source": "Thedailyupside.com",
-      "url": "https://www.thedailyupside.com/advisor/investing-strategies/dimensionals-david-booth-discusses-the-state-of-etfs-investing-and-more/",
-      "summary": "The asset management industry has come a long way since Dimensional Fund Advisors was founded by a small team of academics at the University of Chicago.",
-      "published_date": "2026-09-13",
-      "relevance_score": 7,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
+      "title": "skeyd-cli added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/skeyd-cli/",
+      "summary": "A Zero-Trust secrets broker for AI agents and automation.",
+      "published_date": "2026-09-19",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
       "matched_keywords": [
-        "university of chicago"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "Clinical usability of an explainable AI decision support tool and evaluation of multimodal models in NSCLC",
-      "source": "Nature.com",
-      "url": "https://www.nature.com/articles/s41591-026-04488-2",
-      "summary": "In a large international real-world study of non-small cell lung cancer, a multimodal explainable AI model outperformed established biomarkers for immunotherapy outcome prediction and improved physician decision-making.",
-      "published_date": "2026-09-13",
-      "relevance_score": 7,
-      "primary_pillar": "human_centric_design",
+      "title": "datamimic-ce 4.2.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/datamimic-ce/4.2.0/",
+      "summary": "Deterministic synthetic test data generation and pseudonymization for Python, CI/CD, and AI agents.",
+      "published_date": "2026-09-19",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "usability"
+        "ai agent"
       ],
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "rank": 18,
-      "title": "web3-agent-kit 1.18.2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/web3-agent-kit/1.18.2/",
-      "summary": "Open-source framework for building autonomous AI agents that interact with blockchain networks",
-      "published_date": "2026-09-18",
+      "title": "Radxa Linkr: A Pocket-Sized IP KVM for Browser-Based Remote Control",
+      "source": "Open-electronics.org",
+      "url": "https://www.open-electronics.org/radxa-linkr-a-pocket-sized-ip-kvm-for-browser-based-remote-control/",
+      "summary": "Radxa Linkr is a compact IP KVM that lets you control a computer remotely from any browser, even before the operating system boots. It supports WiFi 6, Ethernet, Tailscale VPN, and AI agent integration, starting at $59.\nThe post Radxa Linkr: A Pocket-Sized IP…",
+      "published_date": "2026-09-19",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -367,11 +374,11 @@
     },
     {
       "rank": 19,
-      "title": "gatekeeper-solana 0.1.0",
+      "title": "mindroom 2026.9.192",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/gatekeeper-solana/0.1.0/",
-      "summary": "Deterministic Pre-Flight Transaction Security & Firewall SDK for Solana AI Agents",
-      "published_date": "2026-09-18",
+      "url": "https://pypi.org/project/mindroom/2026.9.192/",
+      "summary": "A universal interface for AI agents with persistent memory, where every conversation has a home",
+      "published_date": "2026-09-19",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -385,11 +392,11 @@
     },
     {
       "rank": 20,
-      "title": "gatekeeper-solana added to PyPI",
+      "title": "cadre-ai 1.0.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/gatekeeper-solana/",
-      "summary": "Deterministic Pre-Flight Transaction Security & Firewall SDK for Solana AI Agents",
-      "published_date": "2026-09-18",
+      "url": "https://pypi.org/project/cadre-ai/1.0.1/",
+      "summary": "A team of AI agents that builds or finishes a project on free model keys, staying inside every provider's limits.",
+      "published_date": "2026-09-19",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
