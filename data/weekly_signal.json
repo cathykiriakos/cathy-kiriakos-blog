@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T13:33:40.026Z",
+  "generated_at": "2026-09-20T16:39:42.325Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,7 +7,7 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 11
+      "item_count": 12
     },
     {
       "id": "governance_as_code",
@@ -61,20 +61,21 @@
     },
     {
       "rank": 2,
-      "title": "UN Security Council to hold AI governance meeting with Sam Altman briefing world leaders",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/un-security-council-ai-governance-altman/",
-      "summary": "The meeting highlights the geopolitical fragmentation in AI governance, underscoring the need for inclusive global cooperation and shared standards.\nThe post UN Security Council to hold AI governance meeting with Sam Altman briefing world leaders appeared fir…",
-      "published_date": "2026-09-18",
-      "relevance_score": 18,
+      "title": "langgraph-guardrail added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/langgraph-guardrail/",
+      "summary": "Policy enforcement and guardrails for LangGraph AI agents",
+      "published_date": "2026-09-19",
+      "relevance_score": 15,
       "primary_pillar": "governance_as_code",
       "pillars": [
+        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "ai agent",
+        "guardrail"
       ],
       "sentiment": "neutral"
     },
@@ -99,9 +100,9 @@
     },
     {
       "rank": 4,
-      "title": "nextcloud-mcp-server 0.194.0",
+      "title": "nextcloud-mcp-server 0.195.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/nextcloud-mcp-server/0.194.0/",
+      "url": "https://pypi.org/project/nextcloud-mcp-server/0.195.0/",
       "summary": "Model Context Protocol (MCP) server for Nextcloud integration - enables AI assistants to interact with Nextcloud data",
       "published_date": "2026-09-19",
       "relevance_score": 12,
@@ -118,6 +119,44 @@
     },
     {
       "rank": 5,
+      "title": "AI: The Good, the Bad, the Crazy",
+      "source": "Omny.fm",
+      "url": "https://omny.fm/shows/the-business/ai-the-good-the-bad-the-crazy",
+      "summary": "Jared Browne, Global Head of Privacy and AI Governance at Fexco, offers his insights on whether we need to be worried by AI titans recent calls to slow down the pace of development of AI technology. See omnystudio.com/listener for privacy information.",
+      "published_date": "2026-09-19",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 6,
+      "title": "Global Times: China's innovation success is real global news, landing in the living rooms of Italian retirees who barely use a smartphone: Italian scientist",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/global-times-chinas-innovation-success-is-real-global-news-landing-in-the-living-rooms-of-italian-retirees-who-barely-use-a-smartphone-italian-scientist-302883745.html",
+      "summary": "BEIJING, Sept. 18, 2026 /PRNewswire/ -- Ahead of the opening of the 2026 World AI Conference and High-Level Meeting on Global AI Governance, Chinese AI start-up Moonshot AI released its Kimi K3 large language model. As the world's largest open-source model by…",
+      "published_date": "2026-09-19",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 7,
       "title": "langgraph-guard-yuvaraj added to PyPI",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/langgraph-guard-yuvaraj/",
@@ -137,101 +176,25 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
-      "title": "AI: The Good, the Bad, the Crazy",
-      "source": "Omny.fm",
-      "url": "https://omny.fm/shows/the-business/ai-the-good-the-bad-the-crazy",
-      "summary": "Jared Browne, Global Head of Privacy and AI Governance at Fexco, offers his insights on whether we need to be worried by AI titans recent calls to slow down the pace of development of AI technology. See omnystudio.com/listener for privacy information.",
-      "published_date": "2026-09-19",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
-      "title": "Global Times: China's innovation success is real global news, landing in the living rooms of Italian retirees who barely use a smartphone: Italian scientist",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/global-times-chinas-innovation-success-is-real-global-news-landing-in-the-living-rooms-of-italian-retirees-who-barely-use-a-smartphone-italian-scientist-302883745.html",
-      "summary": "BEIJING, Sept. 18, 2026 /PRNewswire/ -- Ahead of the opening of the 2026 World AI Conference and High-Level Meeting on Global AI Governance, Chinese AI start-up Moonshot AI released its Kimi K3 large language model. As the world's largest open-source model by…",
-      "published_date": "2026-09-19",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "positive"
-    },
-    {
       "rank": 8,
-      "title": "hol-guard 3.0.191",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/hol-guard/3.0.191/",
-      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+      "title": "Newsom Orders California Agencies to Develop New AI Safety Plans After Rejecting Tougher Law",
+      "source": "KQED",
+      "url": "https://www.kqed.org/news/12100624/newsom-orders-california-agencies-to-develop-new-ai-safety-plans-after-rejecting-tougher-law",
+      "summary": "Gov. Gavin Newsom on Friday ordered state agencies to develop safety regulations for artificial intelligence after vetoing tougher rules two years ago.",
       "published_date": "2026-09-19",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "ai safety"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 9,
-      "title": "agent-scan v0.6.4-snapshot-6e2d290-1638",
-      "source": "Kitploit.com",
-      "url": "https://kitploit.com/en/posts/github-snyk-agent-scan-v064-snapshot-6e2d290-1638",
-      "summary": "Security scanner for AI agents, MCP servers and agent skills.",
-      "published_date": "2026-09-19",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 10,
-      "title": "OpenAI’s Noam Brown reveals how AI agents solved a Millennium Prize Problem in 88 hours",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/openai-noam-brown-ai-agents-agi/",
-      "summary": "AI's rapid problem-solving hints at transformative potential in research, yet human intuition remains crucial for guiding meaningful innovation.\nThe post OpenAI’s Noam Brown reveals how AI agents solved a Millennium Prize Problem in 88 hours appeared first on…",
-      "published_date": "2026-09-19",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
       "title": "The AI regulation smackdown isn’t over",
       "source": "Biztoc.com",
       "url": "https://biztoc.com/x/0a1e8f5389b54393",
@@ -249,25 +212,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 12,
-      "title": "California Governor Mobilizes Expert Panel to Strengthen AI Safety Laws",
-      "source": "pymnts.com",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/california-governor-mobilizes-expert-panel-strengthen-ai-safety-laws/",
-      "summary": "California Gov. Gavin Newsom issued an executive order Friday (Sept. 18) that will convene national experts to provide a guide for the state to reinforce and strengthen its laws covering artificial intelligence safety and security, the governor’s office said …",
-      "published_date": "2026-09-18",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai safety"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 13,
+      "rank": 10,
       "title": "trusys 0.1.2",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/trusys/0.1.2/",
@@ -285,7 +230,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 14,
+      "rank": 11,
       "title": "Your Brand Needs An AI Accountability Document, A School District Beat Big Tech To It via @sejournal, @gregjarboe",
       "source": "Search Engine Journal",
       "url": "https://www.searchenginejournal.com/your-brand-needs-an-ai-accountability-document-a-school-district-beat-big-tech-to-it/589240/",
@@ -303,7 +248,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 15,
+      "rank": 12,
       "title": "AI environmental concerns build as lawmakers grapple with tech panic",
       "source": "Biztoc.com",
       "url": "https://biztoc.com/x/570b3f423032a18c",
@@ -319,11 +264,65 @@
       "sentiment": "negative"
     },
     {
-      "rank": 16,
-      "title": "skeyd-cli added to PyPI",
+      "rank": 13,
+      "title": "devsnips-mcp added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/skeyd-cli/",
-      "summary": "A Zero-Trust secrets broker for AI agents and automation.",
+      "url": "https://pypi.org/project/devsnips-mcp/",
+      "summary": "Read-only MCP server exposing the DevSnips UI library (components, sections, templates) to AI coding agents.",
+      "published_date": "2026-09-19",
+      "relevance_score": 6,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "tokensaver-egress 0.1.20",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/tokensaver-egress/0.1.20/",
+      "summary": "TokenSaver egress capture proxy — MITM / explicit / transparent HTTPS capture for AI agents",
+      "published_date": "2026-09-19",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "vigolium v0.4.8",
+      "source": "Kitploit.com",
+      "url": "https://kitploit.com/en/posts/github-vigolium-vigolium-v048",
+      "summary": "Vigolium - High-fidelity vulnerability scanner fusing agentic AI with native speed, modularity, and precision",
+      "published_date": "2026-09-19",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "tokensaver-cli 0.3.32",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/tokensaver-cli/0.3.32/",
+      "summary": "TokenSaver CLI — route AI agents (Claude Code, Cursor, Codex) through the control plane",
       "published_date": "2026-09-19",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
@@ -338,10 +337,10 @@
     },
     {
       "rank": 17,
-      "title": "datamimic-ce 4.2.0",
+      "title": "fastaiagent 1.70.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/datamimic-ce/4.2.0/",
-      "summary": "Deterministic synthetic test data generation and pseudonymization for Python, CI/CD, and AI agents.",
+      "url": "https://pypi.org/project/fastaiagent/1.70.0/",
+      "summary": "Build, debug, evaluate, and operate AI agents. The only SDK with fork-and-rerun Agent Replay.",
       "published_date": "2026-09-19",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
@@ -356,10 +355,10 @@
     },
     {
       "rank": 18,
-      "title": "Radxa Linkr: A Pocket-Sized IP KVM for Browser-Based Remote Control",
-      "source": "Open-electronics.org",
-      "url": "https://www.open-electronics.org/radxa-linkr-a-pocket-sized-ip-kvm-for-browser-based-remote-control/",
-      "summary": "Radxa Linkr is a compact IP KVM that lets you control a computer remotely from any browser, even before the operating system boots. It supports WiFi 6, Ethernet, Tailscale VPN, and AI agent integration, starting at $59.\nThe post Radxa Linkr: A Pocket-Sized IP…",
+      "title": "foq added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/foq/",
+      "summary": "⚡ Foq - Ultra-fast, deterministic System 1 decision engine for AI agents (100% Local)",
       "published_date": "2026-09-19",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
@@ -374,10 +373,10 @@
     },
     {
       "rank": 19,
-      "title": "mindroom 2026.9.192",
+      "title": "inferencebrake added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/mindroom/2026.9.192/",
-      "summary": "A universal interface for AI agents with persistent memory, where every conversation has a home",
+      "url": "https://pypi.org/project/inferencebrake/",
+      "summary": "Loop detection for AI agents. Detect and stop runaway reasoning loops before they burn your token budget.",
       "published_date": "2026-09-19",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
@@ -392,10 +391,10 @@
     },
     {
       "rank": 20,
-      "title": "cadre-ai 1.0.1",
+      "title": "skeyd-cli 0.1.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/cadre-ai/1.0.1/",
-      "summary": "A team of AI agents that builds or finishes a project on free model keys, staying inside every provider's limits.",
+      "url": "https://pypi.org/project/skeyd-cli/0.1.1/",
+      "summary": "A Zero-Trust secrets broker for AI agents and automation.",
       "published_date": "2026-09-19",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
