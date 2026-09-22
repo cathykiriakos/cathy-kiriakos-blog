@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T15:48:39.358Z",
+  "generated_at": "2026-09-22T14:00:43.683Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 16
+      "item_count": 13
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 5
+      "item_count": 7
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 0
+      "item_count": 1
     }
   ],
   "institutional_signal": {
@@ -41,32 +41,12 @@
   "items": [
     {
       "rank": 1,
-      "title": "langgraph-guardrail added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/langgraph-guardrail/",
-      "summary": "Policy enforcement and guardrails for LangGraph AI agents",
-      "published_date": "2026-09-19",
-      "relevance_score": 15,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 2,
-      "title": "mempill-mcp added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/mempill-mcp/",
-      "summary": "MCP (Model Context Protocol) server exposing the mempill AI-agent memory engine as tools",
-      "published_date": "2026-09-20",
-      "relevance_score": 12,
+      "title": "Trading Central Launches MCP Server to Power Financial AI Agents & Chatbots with Trusted Research",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/trading-central-launches-mcp-server-to-power-financial-ai-agents-chatbots-with-trusted-research",
+      "summary": "OTTAWA, Ontario & PARIS — Following six months of soft launch, Trading Central, a global pioneer in AI-powered financial market research and analytics, today announced the official launch of its Model Context Protocol (MCP) Server to allow its clients to acce…",
+      "published_date": "2026-09-21",
+      "relevance_score": 22,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -74,17 +54,76 @@
       "institutional_signal": false,
       "matched_keywords": [
         "model context protocol",
-        "MCP"
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 2,
+      "title": "Trump rejects calls for AI guardrails ahead of Xi meeting",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/trump-rejects-ai-guardrails-xi-meeting/",
+      "summary": "Trump's stance against AI regulation may hinder global safety efforts and complicate US-China tech negotiations, impacting industry dynamics.\nThe post Trump rejects calls for AI guardrails ahead of Xi meeting appeared first on Crypto Briefing.",
+      "published_date": "2026-09-21",
+      "relevance_score": 15,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail",
+        "ai regulation"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 3,
-      "title": "US and Chinese officials begin trade talks in New York ahead of Trump-Xi summit",
+      "title": "United Nations warns governments to rein in AI agents before risks are fully understood",
       "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/us-china-trade-talks-new-york-trump-xi/",
-      "summary": "The trade talks could redefine global economic dynamics, impacting AI governance and critical mineral markets, with potential ripple effects worldwide.\nThe post US and Chinese officials begin trade talks in New York ahead of Trump-Xi summit appeared first on …",
-      "published_date": "2026-09-20",
+      "url": "https://cryptobriefing.com/un-warns-ai-agents-governance-risks/",
+      "summary": "The UN's call for AI regulation highlights urgent global cooperation needs, impacting tech governance and cybersecurity industry growth.\nThe post United Nations warns governments to rein in AI agents before risks are fully understood appeared first on Crypto …",
+      "published_date": "2026-09-21",
+      "relevance_score": 14,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "governance",
+        "ai regulation"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 4,
+      "title": "MCP Is the USB-C of AI — Here's What That Actually Means for Your Architecture",
+      "source": "Dzone.com",
+      "url": "https://dzone.com/articles/mcp-production-guide",
+      "summary": "Three weeks. That's how long it took my team to wire Claude into our internal ticketing system last year. Not because the API was hard. Because every layer of the stack was speaking a different dialect — custom function schemas on one side, brittle REST wrapp…",
+      "published_date": "2026-09-21",
+      "relevance_score": 10,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 5,
+      "title": "Microsoft and Amazon linked to AI model risks after Hugging Face incident",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/microsoft-amazon-ai-risks-hugging-face/",
+      "summary": "The incident underscores the urgent need for robust AI governance and security measures to mitigate cascading risks in interconnected ecosystems.\nThe post Microsoft and Amazon linked to AI model risks after Hugging Face incident appeared first on Crypto Brief…",
+      "published_date": "2026-09-21",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -95,35 +134,109 @@
         "ai governance",
         "governance"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "rank": 4,
-      "title": "langgraph-guard-yuvaraj added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/langgraph-guard-yuvaraj/",
-      "summary": "Policy enforcement and guardrails for LangGraph AI agents",
-      "published_date": "2026-09-19",
+      "rank": 6,
+      "title": "Scott Bessent says China won’t disclose AI incidents, pushes for bilateral notification system",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/bessent-china-ai-incidents-disclosure/",
+      "summary": "A bilateral AI incident notification system could enhance transparency and trust, mitigating risks in US-China tech relations and global AI governance.\nThe post Scott Bessent says China won’t disclose AI incidents, pushes for bilateral notification system app…",
+      "published_date": "2026-09-21",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "guardrail"
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 7,
+      "title": "Research Shows Google AI Mode Sends Less Clicks & Is A Poor User Experience via @sejournal, @martinibuster",
+      "source": "Search Engine Journal",
+      "url": "https://www.searchenginejournal.com/research-shows-google-ai-mode-sends-less-clicks-is-a-poor-user-experience/590221/",
+      "summary": "Is Google lying about AI Search? New research shows AI Mode decreases clicks and it gives a poor user experience.\nThe post Research Shows Google AI Mode Sends Less Clicks & Is A Poor User Experience appeared first on Search Engine Journal.",
+      "published_date": "2026-09-21",
+      "relevance_score": 10,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "user experience"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 5,
-      "title": "agentic-security-harness 1.5.1",
+      "rank": 8,
+      "title": "hol-guard",
+      "source": "Kitploit.com",
+      "url": "https://kitploit.com/en/tools/github/hashgraph-online/hol-guard/",
+      "summary": "Open-source antivirus for AI agents: block risky tools, secret access, prompt injection, malicious packages, MCP servers, plugins, and skills at runtime.",
+      "published_date": "2026-09-21",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 9,
+      "title": "datahub-agent-context 1.8.0rc4",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/agentic-security-harness/1.5.1/",
-      "summary": "Open-source defensive harness and learning lab for reproducing and measuring agentic AI failure modes with portable traces, attack graphs, scorecards, and data-boundary tests.",
-      "published_date": "2026-09-20",
+      "url": "https://pypi.org/project/datahub-agent-context/1.8.0rc4/",
+      "summary": "MCP tools for AI agents to search and query your DataHub metadata catalog — works with Claude, Cursor, Copilot, and any MCP-compatible AI assistant",
+      "published_date": "2026-09-21",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "hipcortex 3.15.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/hipcortex/3.15.1/",
+      "summary": "Cognitive state substrate for AI agents — Python SDK + CLI. Lifecycle gates embed ClarifyRouteInfo when uncertainty (check_progress/plan_validation/should_exit carry clarify_route); tiers_spent + cost_of_wrong_execution wired through REST + MCP; clarify_exhau…",
+      "published_date": "2026-09-21",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 11,
+      "title": "How to Turn a Python Script Into an AI Agent",
+      "source": "Kdnuggets.com",
+      "url": "https://www.kdnuggets.com/how-to-turn-a-python-script-into-an-ai-agent",
+      "summary": "Learn how to build a Python AI agent with the OpenAI Agents SDK, using tool calling and function tools to automate multi-step workflows.",
+      "published_date": "2026-09-21",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -131,17 +244,17 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic"
+        "ai agent"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "rank": 6,
-      "title": "Australia seeks big tech support for internet safety, AI regulation",
-      "source": "Al Jazeera English",
-      "url": "https://www.aljazeera.com/news/2026/9/20/australia-seeks-big-tech-support-for-internet-safety-ai-regulation",
-      "summary": "PM Anthony Albanese asks Apple CEO Tim Cook to back Canberra's online safety laws to 'keep Australians safe'.",
-      "published_date": "2026-09-20",
+      "rank": 12,
+      "title": "President Trump has announced plans for new 'AI Force' and 'AI Czar' amid growing AI safety concerns — new unit will 'cherish' AI and not 'stifle' it, Trump clarifies, while dismissing safety warnings as hoaxes",
+      "source": "Tom's Hardware UK",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/president-trump-has-announced-plans-for-new-ai-force-and-ai-czar-amid-growing-ai-safety-concerns-new-unit-will-cherish-ai-and-not-stifle-it-trump-clarifies-while-dismissing-safety-warnings-as-hoaxes",
+      "summary": "President Trump says he will create an AI Force and appoint a new AI czar while prioritizing rapid U.S. AI development and competition with China.",
+      "published_date": "2026-09-21",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -149,12 +262,104 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai regulation"
+        "ai safety"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 13,
+      "title": "wolfpackai 0.2.5",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/wolfpackai/0.2.5/",
+      "summary": "Python framework for AI agents with observability, governance, and a production control plane.",
+      "published_date": "2026-09-21",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 7,
+      "rank": 14,
+      "title": "M5 Ultra Mac Studio Review: The Dream Mac for Local AI Agents",
+      "source": "MacStories",
+      "url": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
+      "summary": "The M5 Ultra Mac Studio. For the past few days, I’ve been testing the (currently) top-of-the-line M5 Ultra Mac Studio with 256 GB of RAM. I’ll cut to the chase: the M5 Ultra Mac Studio is a dream machine for local AI agents. This computer makes it possible to…",
+      "published_date": "2026-09-21",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "Space weapons, AI safety concerns and the EPA’s rollback of power plant emission rules",
+      "source": "Scientific American",
+      "url": "https://www.scientificamerican.com/podcast/episode/space-weapons-ai-safety-concerns-and-the-epas-rollback-of-power-plant-emission-rules/",
+      "summary": "From orbital weapons to AI risks and weaker emissions rules",
+      "published_date": "2026-09-21",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai safety"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 16,
+      "title": "Presentation: The Agent Harness: Control Planes, Invariants, and Approval Boundaries for Production AI Agents",
+      "source": "InfoQ.com",
+      "url": "https://www.infoq.com/presentations/ai-agent-harness/",
+      "summary": "OpenAI’s Vinoth Govindarajan discusses why production AI agents fail beyond model hallucination. Using real-world case studies like OpenClaw, he explains the key principles of reliable agent harnesses: establishing explicit state ownership, serializing concur…",
+      "published_date": "2026-09-21",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 17,
+      "title": "Podcast: Securing AI Agents: Identity, Authorization, and the DPACT Framework",
+      "source": "InfoQ.com",
+      "url": "https://www.infoq.com/podcasts/securing-ai-agents-identity-authorization/",
+      "summary": "In this episode, Sahil Agarwal talks about the critical challenges of identity, authorisation, and security in the age of AI agents. Sahil introduces the DPACT framework (Delegation, Policy, Auditability, Context, and Time) as a blueprint for building respons…",
+      "published_date": "2026-09-21",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 18,
       "title": "AI environmental concerns build as lawmakers grapple with tech panic",
       "source": "Biztoc.com",
       "url": "https://biztoc.com/x/570b3f423032a18c",
@@ -170,228 +375,30 @@
       "sentiment": "negative"
     },
     {
-      "rank": 8,
-      "title": "zyra-network 1.1.11",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/zyra-network/1.1.11/",
-      "summary": "A local agentic AI network that earns Proof of Useful Work (PoUW).",
-      "published_date": "2026-09-20",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "awdk 3.8.22",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/awdk/3.8.22/",
-      "summary": "Build AI agents with real memory + faculties on any backend, local or cloud. Open-core: free local runtime with typed memory, knowledge graph, code graph and ReAct; paid tiers (api.aitherium.com) unlock fleets, channels, reasoning and marketplace packs.",
-      "published_date": "2026-09-20",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 10,
-      "title": "xpander-sdk 2.0.520",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/xpander-sdk/2.0.520/",
-      "summary": "xpander.ai Backend-as-a-service for AI Agents - SDK",
-      "published_date": "2026-09-20",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
-      "title": "mindroom 2026.9.204",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/mindroom/2026.9.204/",
-      "summary": "A universal interface for AI agents with persistent memory, where every conversation has a home",
-      "published_date": "2026-09-20",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "xurface 0.2.2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/xurface/0.2.2/",
-      "summary": "Xurface SDK: give your AI agents a record and a conscience. Declare, then guard.",
-      "published_date": "2026-09-20",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 13,
-      "title": "mindroom 2026.9.203",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/mindroom/2026.9.203/",
-      "summary": "A universal interface for AI agents with persistent memory, where every conversation has a home",
-      "published_date": "2026-09-20",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "mindroom 2026.9.202",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/mindroom/2026.9.202/",
-      "summary": "A universal interface for AI agents with persistent memory, where every conversation has a home",
-      "published_date": "2026-09-20",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "xurface 0.2.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/xurface/0.2.1/",
-      "summary": "Xurface SDK: give your AI agents a record and a conscience. Declare, then guard.",
-      "published_date": "2026-09-20",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "mindroom 2026.9.201",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/mindroom/2026.9.201/",
-      "summary": "A universal interface for AI agents with persistent memory, where every conversation has a home",
-      "published_date": "2026-09-20",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "karox-runtime 5.0.0rc3",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/karox-runtime/5.0.0rc3/",
-      "summary": "Hybrid local runtime for native and hosted AI agents",
-      "published_date": "2026-09-20",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "claude-token-saver 1.7.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/claude-token-saver/1.7.0/",
-      "summary": "Compile coding tasks and patches into minimal evidence-complete context for AI agents.",
-      "published_date": "2026-09-20",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 19,
-      "title": "Australian Prime Minister Albanese urges US-China cooperation on AI risks",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/albanese-urges-us-china-ai-cooperation/",
-      "summary": "Albanese's call for US-China AI cooperation highlights the need for global collaboration to manage AI risks and influence technological governance.\nThe post Australian Prime Minister Albanese urges US-China cooperation on AI risks appeared first on Crypto Bri…",
-      "published_date": "2026-09-20",
-      "relevance_score": 5,
-      "primary_pillar": "governance_as_code",
+      "title": "Python Workers are now generally available",
+      "source": "Cloudflare.com",
+      "url": "https://blog.cloudflare.com/python-workers-ga/",
+      "summary": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and Workers AI without writing any JavaScript gl…",
+      "published_date": "2026-09-21",
+      "relevance_score": 6,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "governance"
+        "orchestration"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "agentguard-shield added to PyPI",
+      "title": "engrama 0.17.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/agentguard-shield/",
-      "summary": "Production-quality Python SDK for integrating AI agents with AgentGuard.",
-      "published_date": "2026-09-20",
+      "url": "https://pypi.org/project/engrama/0.17.0/",
+      "summary": "Graph-based long-term memory framework for AI agents (SQLite default, Neo4j optional)",
+      "published_date": "2026-09-21",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
