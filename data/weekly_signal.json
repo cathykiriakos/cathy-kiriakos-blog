@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T14:09:17.836Z",
+  "generated_at": "2026-09-25T14:32:41.104Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -19,7 +19,7 @@
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 3
+      "item_count": 0
     }
   ],
   "institutional_signal": {
@@ -41,238 +41,185 @@
   "items": [
     {
       "rank": 1,
-      "title": "Avalara Ushers in New Era of Agentic Tax and Compliance with Avalara Aviator",
-      "source": "DevOps.com",
-      "url": "https://devops.com/avalara-ushers-in-new-era-of-agentic-tax-and-compliance-with-avalara-aviator/",
-      "summary": "Avalara’s new agent hub brings together specialized AI agents to execute complex tax and compliance workflows while keeping people in control of the decisions that matter. FORT LAUDERDALE, Fla. — September 23, 2026 — Avalara, Inc., the agentic AI leader in gl…",
-      "published_date": "2026-09-23",
-      "relevance_score": 17,
-      "primary_pillar": "applied_ai",
+      "title": "An Enterprise AI Governance Checklist for Software Teams",
+      "source": "Dzone.com",
+      "url": "https://dzone.com/articles/enterprise-ai-governance-checklist",
+      "summary": "Most AI governance frameworks are written for executives, compliance officers, and risk committees. They produce policies. Policies produce documents. And documents sit in SharePoint while engineering teams ship AI features with zero governance infrastructure…",
+      "published_date": "2026-09-24",
+      "relevance_score": 21,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
-        "ai agent",
+        "ai governance",
+        "governance",
         "compliance"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 2,
-      "title": "Casepoint Expands Casepoint IQ With First Purpose-Built AI Agents",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/casepoint-expands-casepoint-iq-with-first-purpose-built-ai-agents-302887139.html",
-      "summary": "Relevance Determination Agent and Issue Coding Agent are part of a growing portfolio designed to automate complex government, legal, and compliance workflows with human oversight built in. WASHINGTON, Sept. 23, 2026 /PRNewswire/ -- Casepoint, a leading provid…",
-      "published_date": "2026-09-23",
-      "relevance_score": 14,
+      "title": "cleanlib-mcp-server 0.5.16",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/cleanlib-mcp-server/0.5.16/",
+      "summary": "CleanLibrary MCP server — exposes verdict-aware supply-chain risk assessment as Model Context Protocol tools for AI agent workflows",
+      "published_date": "2026-09-24",
+      "relevance_score": 15,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code",
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "compliance",
-        "human oversight"
+        "model context protocol",
+        "MCP",
+        "ai agent"
       ],
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
       "rank": 3,
-      "title": "Why human oversight remains crucial as AI agents become more autonomous",
-      "source": "Business Standard",
-      "url": "https://www.business-standard.com/technology/artificial-intelligence/ai-agents-human-intervention-autonomy-meta-muse-google-perplexity-126092300930_1.html",
-      "summary": "AI agents human intervention: AI agents can browse, shop and make calls for users, but changing websites, unexpected human responses and real-world uncertainty mean human intervention remains part of the process",
-      "published_date": "2026-09-23",
-      "relevance_score": 14,
+      "title": "AWS says almost 90% of Amazon’s early AI agent prototypes never shipped",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/aws-swami-sivasubramanian-ai-agents-production-kiro-humanx",
+      "summary": "Almost 90% of the AI agent prototypes Amazon teams built two years ago never reached production, AWS vice president of agentic AI Swami Sivasubramanian said. Amazon was then starting to invest heavily in agents. Sivasubramanian spoke on Wednesday at HumanX in…",
+      "published_date": "2026-09-24",
+      "relevance_score": 11,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "human oversight"
+        "agentic",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 4,
-      "title": "bhanuj-governance-plugin-api added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/bhanuj-governance-plugin-api/",
-      "summary": "Public, provider-neutral plugin contracts for BHANUJ AI Governance.",
-      "published_date": "2026-09-23",
-      "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
+      "title": "Symphony Risk Intelligence uses AI agents to streamline financial crime investigations",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/09/24/symphonyai-risk-intelligence/",
+      "summary": "SymphonyAI has introduced Symphony Risk Intelligence (SRI), an enterprise-grade, agent-native platform built to unlock Always-on Compliance. This is a critical shift from periodic to continuous risk and compliance management, in which institutions continuousl…",
+      "published_date": "2026-09-24",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
       "pillars": [
+        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "ai agent",
+        "compliance"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 5,
-      "title": "bhanuj-governance-plugin-api 1.0.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/bhanuj-governance-plugin-api/1.0.0/",
-      "summary": "Public, provider-neutral plugin contracts for BHANUJ AI Governance.",
-      "published_date": "2026-09-23",
-      "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
+      "title": "Avalara Brings Agentic AI Speed to Enterprise Integration with Versori by Avalara",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/avalara-brings-agentic-ai-speed-to-enterprise-integration-with-versori-by-avalara-302888338.html",
+      "summary": "Specialized AI agents plan, connect, build, and deploy production-grade connectors in days, dramatically reducing the time and cost to unlock the value of integrations FORT LAUDERDALE, Fla., Sept. 24, 2026 /PRNewswire/ -- Avalara, Inc., the agentic AI leader …",
+      "published_date": "2026-09-24",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "agentic",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 6,
-      "title": "Global rules 'urgent': AI 'Godfather' pushes against Trump's rejection of guardrails",
-      "source": "ABC News (AU)",
-      "url": "https://www.abc.net.au/news/2026-09-23/yoshua-bengio-push-back-as-trump-rejects-ai-guardrails/107188562",
-      "summary": "Donald Trump may not be keen on implementing AI guardrails but one of the 'Godfathers of AI' Yoshua Bengio is siding with nations who want to slow the acceleration of the technology.",
-      "published_date": "2026-09-23",
-      "relevance_score": 12,
+      "title": "Context Is King: How Identity Context Will Drive Agentic AI Success",
+      "source": "Forrester.com",
+      "url": "https://www.forrester.com/blogs/context-is-king-how-identity-context-will-drive-agentic-ai-success/",
+      "summary": "AI agents are putting traditional identity and access management approaches to the test. Discover why identity context will be essential to securing autonomous agents and scaling agentic AI with confidence.",
+      "published_date": "2026-09-24",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 7,
+      "title": "Calls for tougher AI safeguards grow after OpenAI hack reports",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/openai-hack-australia-ai-safeguards/",
+      "summary": "The incident underscores the urgent need for robust AI governance frameworks to prevent autonomous systems from breaching sensitive infrastructures.\nThe post Calls for tougher AI safeguards grow after OpenAI hack reports appeared first on Crypto Briefing.",
+      "published_date": "2026-09-24",
+      "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
-      "title": "CobbleStone® Announces Version 26.1.0, Delivering Modernized User Experience, Expanded AI Capabilities, & More",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/cobblestone-announces-version-26-1-0--delivering-modernized-user-experience-expanded-ai-capabilities--more-302887146.html",
-      "summary": "Latest release of CobbleStone's flagship contract lifecycle management (CLM) platform introduces a redesigned experience, faster performance, deeper contract insights, and powerful new productivity enhancements. PRINCETON, N.J., Sept. 23, 2026 /PRNewswire/ --…",
-      "published_date": "2026-09-23",
-      "relevance_score": 10,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "user experience"
-      ],
-      "sentiment": "positive"
     },
     {
       "rank": 8,
-      "title": "MCP Is Not Just Another API Standard",
-      "source": "Oreilly.com",
-      "url": "https://www.oreilly.com/radar/mcp-is-not-just-another-api-standard/#BlogPosting",
-      "summary": "Ask most engineers what MCP is and you’ll get the same answer: a way to plug tools into an LLM. Fair enough, as far as it goes. But that description treats MCP like plumbing, and after months building MCP-based integrations for large enterprise platforms, I d…",
-      "published_date": "2026-09-23",
+      "title": "LatticeFlow AI offers managed risk assessments for enterprise AI systems",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/09/24/latticeflow-ai-risk-center/",
+      "summary": "LatticeFlow AI has announced the LatticeFlow AI Risk Center, an AI governance managed service that continuously assesses and controls AI risk, giving enterprises the technology, evidence, and expertise to scale AI with confidence and accelerate time to value.…",
+      "published_date": "2026-09-24",
       "relevance_score": 10,
-      "primary_pillar": "applied_ai",
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "Intuit Crashed Over Agentic AI Fears in 2026: One Wall Street Analyst Says Nope, Near 50% Gains on the Way",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/7d02357936f977c5",
-      "summary": "The post Intuit Crashed Over Agentic AI Fears in 2026: One Wall Street Analyst Says Nope, Near 50% Gains on the Way appeared first on 24/7 Wall St..\nIntuit (NASDAQ:INTU) currently trades near $292.35 while the consensus Wall Street price target sits at $405.6…",
-      "published_date": "2026-09-23",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "negative"
     },
     {
-      "rank": 10,
-      "title": "Snapdragon 8 Elite Gen 6 reaches 5GHz while going big on agentic AI",
-      "source": "TechSpot",
-      "url": "https://www.techspot.com/news/113950-snapdragon-8-elite-gen-6-reaches-5ghz-while.html",
-      "summary": "Qualcomm revealed the Snapdragon 8 Elite Gen 6 and 8 Elite Extreme Gen 6 at this year's Snapdragon Summit. The mobile SoCs will power future flagship Android devices from Doubao, Honor, Motorola, Oppo, RedMagic, Stepx, Vivo, and Xiaomi.Read Entire Article",
-      "published_date": "2026-09-23",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
-      "title": "Amazon rolls out agentic AI assistant for third-party sellers",
+      "rank": 9,
+      "title": "OpenAI faces scrutiny over Medicare data breach amid AI race",
       "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/amazon-agentic-ai-assistant-sellers/",
-      "summary": "Amazon's AI assistant for sellers could significantly enhance operational efficiency, potentially reshaping e-commerce dynamics globally.\nThe post Amazon rolls out agentic AI assistant for third-party sellers appeared first on Crypto Briefing.",
-      "published_date": "2026-09-23",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
+      "url": "https://cryptobriefing.com/openai-medicare-data-breach-australia/",
+      "summary": "The incident underscores the urgent need for robust AI governance and international cooperation to prevent future breaches and ensure accountability.\nThe post OpenAI faces scrutiny over Medicare data breach amid AI race appeared first on Crypto Briefing.",
+      "published_date": "2026-09-24",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 12,
-      "title": "SS&C Technologies Unveils Portfolio of AI-Enabled Enhancements; Debuts Six-Part Agentic Blueprint Docuseries at SS&C Deliver",
-      "source": "Financial Post",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/ss-debuts-six-part-agentic-blueprint-docuseries-at-ssc-deliver",
-      "summary": "New AI-enabled solutions and enhancements roll out across SS&C’s financial services and healthcare businesses, alongside a six-part docuseries on the company’s own agentic AI transformation WINDSOR, Conn. — SS&C Technologies Holdings, Inc. (Nasdaq: SSNC) toda…",
-      "published_date": "2026-09-23",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 13,
-      "title": "Meta’s AI Agent Tried to Shop on Amazon. Amazon Wasn’t Having It.",
-      "source": "Entrepreneur",
-      "url": "https://www.entrepreneur.com/business-news/metas-ai-agent-tried-to-shop-on-amazon-amazon-wasnt-having-it",
-      "summary": "As companies race to build AI agents that can shop, browse and buy on your behalf, the walls between rival platforms are already going up.",
-      "published_date": "2026-09-23",
+      "rank": 10,
+      "title": "Online Insurance Marketplace Insurify Blocks Meta’s Personal AI Agent Muse",
+      "source": "Insurance Journal",
+      "url": "https://www.insurancejournal.com/news/national/2026/09/24/886704.htm",
+      "summary": "Early this year, Insurify caused a stir when it began what was thought to be the first insurance app with ChatGPT’s Open AI. In fact, the news momentarily shook the S&P 500 Insurance index. On Sept. 23, the online insurance …",
+      "published_date": "2026-09-24",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -285,12 +232,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 14,
-      "title": "Trump to meet with China's Xi Jinping as calls for AI regulation get louder",
+      "rank": 11,
+      "title": "Sam Altman said a basic framework on AI regulation could fit one page. Will Trump and Xi take it on?",
       "source": "CBS News",
-      "url": "https://www.cbsnews.com/video/trump-to-meet-with-chinas-xi-as-calls-for-ai-regulation-get-louder/",
-      "summary": "President Trump has downplayed the threat posed by artificial intelligence amid growing calls for AI regulation. MIT professor and artificial intelligence expert Max Tegmark weighs in on Mr. Trump's planned meeting with China's Xi Jinping.",
-      "published_date": "2026-09-23",
+      "url": "https://www.cbsnews.com/video/sam-altman-said-a-basic-framework-on-ai-regulation-could-fit-one-page-will-trump-and-xi-take-it-on/",
+      "summary": "More details on alarming cases involving rogue AI models are emerging as President Trump meets with Chinese President Xi Jinping in Washington, D.C. Meanwhile, calls for regulation are growing louder. CBS News contributor Patrick McGee joins with more.",
+      "published_date": "2026-09-24",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -300,15 +247,69 @@
       "matched_keywords": [
         "ai regulation"
       ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 12,
+      "title": "Sony Music group joins ‘responsible AI’ policy coalition Ariam",
+      "source": "Music Ally",
+      "url": "https://musically.com/2026/09/24/sony-music-group-joins-responsible-ai-policy-coalition-ariam/",
+      "summary": "Ariam? It’s new to us, but that’s no surprise: the Alliance for Responsible Innovation in the Arts & Media didn’t have any music-industry members until this week.\nThe post is from Music Ally.",
+      "published_date": "2026-09-24",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "responsible ai"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 13,
+      "title": "Rogue AI agents hack government website, world leaders on edge of regulatory action",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/rogue-ai-agents-hack-government-website-world-leaders-on-edge-of-regulatory/",
+      "summary": "The AI breach highlights urgent regulatory needs, potentially affecting OpenAI's market value and investor confidence amid security concerns.\nThe post Rogue AI agents hack government website, world leaders on edge of regulatory action appeared first on Crypto…",
+      "published_date": "2026-09-24",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
       "sentiment": "negative"
     },
     {
+      "rank": 14,
+      "title": "Agentic Ad Buying Gains Ground in IAB Europe’s 2026 AI Report",
+      "source": "ExchangeWire",
+      "url": "https://www.exchangewire.com/blog/2026/09/24/agentic-ad-buying-gains-ground-in-iab-europes-2026-ai-report/",
+      "summary": "IAB Europe, the leading European-level industry association for the digital advertising ecosystem, has today (24th September, 2026) released its 2026 Impact of AI on Digital Advertising Report, revealing how AI is becoming increasingly embedded across adverti…",
+      "published_date": "2026-09-24",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic"
+      ],
+      "sentiment": "positive"
+    },
+    {
       "rank": 15,
-      "title": "Barracuda brings AI security and governance within reach of smaller organizations",
-      "source": "Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/09/23/barracuda-ai-data-security/",
-      "summary": "Barracuda Networks has launched Barracuda AI Data Security, the AI security and governance solution purpose-built for resource-constrained organizations and managed service providers (MSPs). The solution enables businesses to accelerate AI adoption by protect…",
-      "published_date": "2026-09-23",
+      "title": "Over 75% of Organizations Experience Microsoft 365 Governance Issues",
+      "source": "Infosecurity Magazine",
+      "url": "https://www.infosecurity-magazine.com/news/75-organizations-microsoft-365/",
+      "summary": "ShareGate study claims to reveal a governance ‘crisis’ as AI usage grows",
+      "published_date": "2026-09-24",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -322,30 +323,30 @@
     },
     {
       "rank": 16,
-      "title": "Three in four organizations experienced Microsoft 365 governance incidents in the past year, as AI adoption outpaces the skills to govern it",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/three-in-four-organizations-experienced-microsoft-365-governance-incidents-in-the-past-year-as-ai-adoption-outpaces-the-skills-to-govern-it-302886835.html",
-      "summary": "ShareGate releases second annual State of M365 report highlighting a governance crisis, as 67% of organizations run two or more AI tools in their tenants MONTREAL, Sept. 23, 2026 /PRNewswire/ -- In the past year, 38% of organizations left former employees or …",
-      "published_date": "2026-09-23",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
+      "title": "spectackl 1.2.10",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/spectackl/1.2.10/",
+      "summary": "CLI for the Spectackl Public REST API — for AI agents and operators",
+      "published_date": "2026-09-24",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "governance"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "NetOps is already deploying agentic autonomy – trust will decide how far it goes",
-      "source": "Cisco.com",
-      "url": "https://blogs.cisco.com/?p=497528",
-      "summary": "A recent Cisco and Omdia study of 1,000 IT and network operations leaders confirms a shift to AI-led networks run by autonomous agents.",
-      "published_date": "2026-09-23",
-      "relevance_score": 8,
+      "title": "VasionⓇ Enhances Global Partner Program to Accelerate AI-Powered Automation",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/vasionⓡ-enhances-global-partner-program-to-accelerate-ai-powered-automation",
+      "summary": "A refreshed rewards structure, new Partner Academy, and rebuilt partner portal give partners a clearer path to sell and support agentic print and document workflows. ST. GEORGE, Utah — VasionⓇ, the Intelligent Print Automation platform trusted by more than 14…",
+      "published_date": "2026-09-24",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -358,12 +359,12 @@
     },
     {
       "rank": 18,
-      "title": "Outerlimit raises $16M to combat rogue AI agents before they cause harm",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/outerlimit-raises-16m-rogue-ai-agents/",
-      "summary": "Outerlimit's funding highlights the urgent need for innovative cybersecurity measures to proactively manage AI agents' unpredictable behaviors.\nThe post Outerlimit raises $16M to combat rogue AI agents before they cause harm appeared first on Crypto Briefing.",
-      "published_date": "2026-09-23",
-      "relevance_score": 8,
+      "title": "mindroom 2026.9.276",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/mindroom/2026.9.276/",
+      "summary": "A universal interface for AI agents with persistent memory, where every conversation has a home",
+      "published_date": "2026-09-24",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -376,37 +377,37 @@
     },
     {
       "rank": 19,
-      "title": "Deterministic dynamics of distributional multi-agent reinforcement learning",
-      "source": "Plos.org",
-      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014723",
-      "summary": "Author summary How do cognitive heuristics shape individual decisions and the collective outcomes that emerge when many agents interact? This question connects psychology, neuroscience, and artificial intelligence, yet computational models have developed sepa…",
-      "published_date": "2026-09-23",
-      "relevance_score": 8,
+      "title": "Why did an OpenAI system hack Australia's health system - and can it be stopped in the future?",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cw24jm9rryy3o",
+      "summary": "News that an automated AI agent hacked a government IT system raises big questions about regulating the tech.",
+      "published_date": "2026-09-24",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "multi-agent"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "I Got Hands On With the First 5 Googlebooks. Here's What Surprised Me",
-      "source": "PCMag.com",
-      "url": "https://uk.pcmag.com/laptops/167455/i-got-hands-on-with-the-first-5-googlebooks-heres-what-surprised-me",
-      "summary": "By blending Android, ChromeOS, and new Gemini AI functionality, Google's new laptops take a direct shot at Apple's unified ecosystem—and they have a lot of potential.\nGooglebooks are finally here, after several months of leaks, rumors, and general speculation…",
-      "published_date": "2026-09-23",
-      "relevance_score": 6,
+      "title": "Why can’t we just keep rogue AIs off the internet?",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999881/why-cant-we-airgap-rogue-ai-agents",
+      "summary": "AI agents keep getting loose, escaping supposedly secure tests to attack real-world targets, commandeer obscure wikis, and leave instructions for other agents to follow. Researchers are testing these systems precisely because they might behave in unpredictabl…",
+      "published_date": "2026-09-24",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "hands-on"
+        "ai agent"
       ],
       "sentiment": "neutral"
     }
