@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T13:43:23.736Z",
+  "generated_at": "2026-09-27T14:40:00.496Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,13 +7,13 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 15
+      "item_count": 16
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 8
+      "item_count": 5
     },
     {
       "id": "human_centric_design",
@@ -41,12 +41,12 @@
   "items": [
     {
       "rank": 1,
-      "title": "Docker introduces OCI-based Kits to package agents and their guardrails",
-      "source": "Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/09/25/docker-launches-cloud-sandboxes/",
-      "summary": "Docker has announced Docker Cloud Sandboxes, a new solution for secure, isolated AI agent execution that enables complex agentic workflows to continue running in the cloud long after a developer’s laptop shuts down. Launched at WeAreDevelopers North America, …",
-      "published_date": "2026-09-25",
-      "relevance_score": 18,
+      "title": "Archipelo Just Shipped the First Execution Verification Layer for AI Agents — And the Agent Stack Needed It",
+      "source": "Forkast.news",
+      "url": "https://forkast.news/archipelo-just-shipped-the-first-execution-verification-layer-for-ai-agents-and-the-agent-stack-needed-it/",
+      "summary": "Most enterprise AI governance products manage permission. The harness pattern manages defaults. Governance products manage policy. But none of them address a more fundamental question: did the agent actually do what the system says it did? Archipelo launched …",
+      "published_date": "2026-09-26",
+      "relevance_score": 16,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
@@ -54,78 +54,58 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
         "ai agent",
-        "guardrail"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 2,
-      "title": "Eventtia Launches Native MCP Server to Help Event Teams Manage Events With AI",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/eventtia-launches-native-mcp-server-to-help-event-teams-manage-events-with-ai-302890281.html",
-      "summary": "CLAYMONT, Del., Sept. 25, 2026 /PRNewswire/ -- Eventtia today announced the launch of its native Model Context Protocol (MCP) server. The server connects Eventtia's event management platform with AI assistants, helping teams automate administrative tasks. Bui…",
-      "published_date": "2026-09-25",
-      "relevance_score": 16,
+      "title": "Another OpenAI sandbox fails, agentic AI system gains internet access",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com/technology/tech-news/another-openai-sandbox-fails-agentic-ai-system-gains-internet-access-126092600353_1.html",
+      "summary": "The system reached a third-party chatbot during training, prompting OpenAI to pause tool-use training on its most capable models until the flaw was fixed",
+      "published_date": "2026-09-26",
+      "relevance_score": 10,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol",
-        "MCP"
+        "agentic",
+        "tool use"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 3,
-      "title": "At UN Global Compact Leaders Summit, EDB Reinforces Governance at the Data Layer as Energy Becomes a Defining Constraint in the Agentic AI Era",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/at-un-global-compact-leaders-summit-edb-reinforces-governance-at-the-data-layer-as-energy-becomes-a-defining-constraint-in-the-agentic-ai-era-302889908.html",
-      "summary": "With 69% of respondents in new EDB research giving energy greater weight in AI infrastructure decisions, EDB outlined its work to govern autonomous agents at the data layer and reduce AI energy demands. NEW YORK, Sept. 25, 2026 /PRNewswire/ -- Featured at the…",
+      "title": "Former Australian PM Kevin Rudd criticizes Sam Altman over OpenAI breach",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/kevin-rudd-criticizes-altman-openai-breach/",
+      "summary": "The incident underscores the urgent need for robust international protocols in AI governance to prevent future security lapses and diplomatic tensions.\nThe post Former Australian PM Kevin Rudd criticizes Sam Altman over OpenAI breach appeared first on Crypto …",
       "published_date": "2026-09-25",
-      "relevance_score": 14,
-      "primary_pillar": "applied_ai",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
+        "ai governance",
         "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 4,
-      "title": "Abnormal AI brings governance, cloud security, and threat investigation into one suite",
-      "source": "Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/09/25/abnormal-ai-governance/",
-      "summary": "Abnormal AI has unveiled the newest additions to its AI Security suite, designed to help enterprises adopt AI securely while protecting against new threats created or accelerated by AI. The suite brings together Abnormal AI Governance, which is generally avai…",
+      "title": "OpenAI notifies dozens of organizations that its AI models disrupted their websites",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/openai-ai-agents-website-disruptions/",
+      "summary": "The incidents highlight the urgent need for robust AI governance frameworks to prevent unintended disruptions and ensure ethical AI deployment.\nThe post OpenAI notifies dozens of organizations that its AI models disrupted their websites appeared first on Cryp…",
       "published_date": "2026-09-25",
-      "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 5,
-      "title": "tork-governance 0.27.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/tork-governance/0.27.0/",
-      "summary": "On-device AI governance with PII detection and local audit receipts",
-      "published_date": "2026-09-25",
-      "relevance_score": 13,
+      "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -138,108 +118,183 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
-      "title": "nextcloud-mcp-server 0.195.4",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/nextcloud-mcp-server/0.195.4/",
-      "summary": "Model Context Protocol (MCP) server for Nextcloud integration - enables AI assistants to interact with Nextcloud data",
+      "rank": 5,
+      "title": "Industry Groups Challenge FTC’s Personalized Pricing Policy on Constitutional Grounds",
+      "source": "Forkast.news",
+      "url": "https://forkast.news/industry-groups-challenge-ftcs-personalized-pricing-policy-on-constitutional-grounds/",
+      "summary": "The Federal Trade Commission (FTC) is testing the boundaries of its AI governance authority through a proposed Enforcement Policy Statement Regarding Personalized Pricing. Released on August 19, 2026, the policy signals a shift in the agency’s focus from trad…",
       "published_date": "2026-09-25",
-      "relevance_score": 12,
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 6,
+      "title": "wet-mcp 3.16.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/wet-mcp/3.16.2/",
+      "summary": "Open-source MCP server for AI agents: web search, content extraction, and library docs.",
+      "published_date": "2026-09-26",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol",
-        "MCP"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 7,
-      "title": "vaara 1.99.0",
+      "title": "monte-neo 0.32.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/vaara/1.99.0/",
-      "summary": "Accountable Autonomy for AI agents under the EU AI Act: policy-gated tool calls, hash-chained tamper-evident audit trails with external time anchoring, and independently verifiable attestation plus execution receipts per MCP tool call",
-      "published_date": "2026-09-25",
-      "relevance_score": 12,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent",
-        "eu ai act"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
-      "title": "New York City lawmakers propose financial rewards for AI whistleblowers",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/nyc-ai-whistleblower-rewards-proposal/",
-      "summary": "NYC's AI oversight bills could set a precedent for comprehensive AI regulation, increasing compliance costs and legal risks for companies.\nThe post New York City lawmakers propose financial rewards for AI whistleblowers appeared first on Crypto Briefing.",
-      "published_date": "2026-09-25",
-      "relevance_score": 11,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "compliance",
-        "ai oversight",
-        "ai regulation"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 9,
-      "title": "Show HN: Sifthound – self-hosted, Tavily-compatible search API for AI agents",
-      "source": "Github.com",
-      "url": "https://github.com/khsarvar/sifthound",
-      "summary": "Open-source, self-hostable web search API for AI agents — a Tavily-compatible drop-in (/search, /extract, /crawl, /map) - khsarvar/sifthound",
-      "published_date": "2026-09-25",
-      "relevance_score": 8,
+      "url": "https://pypi.org/project/monte-neo/0.32.0/",
+      "summary": "Independent verifier for trading strategies written by AI agents and humans: look-ahead probes, fee-aware economics, Deflated Sharpe, signed certificates, MCP server",
+      "published_date": "2026-09-26",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "monte-neo 0.30.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/monte-neo/0.30.0/",
+      "summary": "Independent verifier for trading strategies written by AI agents and humans: look-ahead probes, fee-aware economics, Deflated Sharpe, signed certificates, MCP server",
+      "published_date": "2026-09-26",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 9,
+      "title": "monte-neo 0.28.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/monte-neo/0.28.0/",
+      "summary": "Independent verifier for trading strategies written by AI agents and humans: look-ahead probes, fee-aware economics, Deflated Sharpe, signed certificates, MCP server",
+      "published_date": "2026-09-26",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 10,
-      "title": "Show HN: Hard Stop: Kernel-level preemption for autonomous AI agents",
-      "source": "Arxiv.org",
-      "url": "https://arxiv.org/abs/2609.29808",
-      "summary": "In July 2026, an unconstrained autonomous agent participating in a frontier AI cybersecurity evaluation harness breached its evaluation sandbox, established an external command-and-control foothold, and executed a multi-stage intrusion into Hugging Face's pro…",
-      "published_date": "2026-09-25",
-      "relevance_score": 8,
+      "title": "videofetch-mcp added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/videofetch-mcp/",
+      "summary": "VideoFetch MCP server — let any AI agent download video/audio straight into your own object storage",
+      "published_date": "2026-09-26",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 11,
-      "title": "Papaya – Monitor and auto-optimize your AI agents from trace to fix",
-      "source": "Betalist.com",
-      "url": "https://betalist.com/startups/papaya",
-      "summary": "Monitor and auto-optimize your AI agents from trace to fix",
-      "published_date": "2026-09-25",
+      "title": "monte-neo 0.27.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/monte-neo/0.27.1/",
+      "summary": "Independent verifier for trading strategies written by AI agents and humans: look-ahead probes, fee-aware economics, Deflated Sharpe, signed certificates, MCP server",
+      "published_date": "2026-09-26",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 12,
+      "title": "monte-neo 0.27.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/monte-neo/0.27.0/",
+      "summary": "Independent verifier for trading strategies written by AI agents and humans: look-ahead probes, fee-aware economics, Deflated Sharpe, signed certificates, MCP server",
+      "published_date": "2026-09-26",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "monte-neo 0.26.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/monte-neo/0.26.0/",
+      "summary": "Independent verifier for trading strategies written by AI agents and humans: look-ahead probes, fee-aware economics, Deflated Sharpe, signed certificates, MCP server",
+      "published_date": "2026-09-26",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "Microsoft VP: SaaS isn’t dying. It’s becoming the operating system for AI agents—and that changes everything",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/9afaceb260e35cf1",
+      "summary": "Across industries, companies are moving from AI pilots to real deployments and seeing measurable results. Teams are generating insights, completing research, and drafting work in a fraction of the time. What took months can now take days — what took days can …",
+      "published_date": "2026-09-26",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -252,67 +307,13 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 12,
-      "title": "Loyalty Juggernaut Advances Responsible AI with ISO/IEC 42001 Certification",
-      "source": "ANI News",
-      "url": "https://www.aninews.in/news/business/loyalty-juggernaut-advances-responsible-ai-with-isoiec-42001-certification20260925103851",
-      "summary": "Palo Alto (California) [US], September 25: Global loyalty technology leader Loyalty Juggernaut today announced that it has achieved ISO/IEC 42001:2023 certification for its Artificial Intelligence Management System, which governs the development, deployment, …",
-      "published_date": "2026-09-25",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "responsible ai"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 13,
-      "title": "Amazon doesn’t want Meta’s AI agent to shop on its site—where does that leave users of personal bots?",
-      "source": "Livemint",
-      "url": "https://www.livemint.com/opinion/online-views/amazon-doesn-t-want-meta-s-ai-agent-to-shop-on-its-site-where-does-that-leave-users-of-personal-bots-11790330261899.html",
-      "summary": "Meta’s Muse has gained popularity as a personal AI agent—enough for Amazon to bar it in its own business interest. Expect a corporate fight over which agents get access to what—and with luck, a treaty of mutual operability that won’t force us to hire multiple…",
-      "published_date": "2026-09-25",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 14,
-      "title": "Adonis Recognized as One of the Best Places to Work in New York City in 2026 by Crain's New York Business",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/adonis-recognized-as-one-of-the-best-places-to-work-in-new-york-city-in-2026-by-crains-new-york-business-302889725.html",
-      "summary": "NEW YORK, Sept. 25, 2026 /PRNewswire/ -- Adonis, the leading AI orchestration platform for revenue cycle management (RCM), today announced that it has been named one of the Best Places to Work in New York City by Crain's New York Business in its annual survey…",
-      "published_date": "2026-09-25",
-      "relevance_score": 6,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "orchestration"
-      ],
-      "sentiment": "positive"
-    },
-    {
       "rank": 15,
-      "title": "airbyte-agent-sdk 0.1.349",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/airbyte-agent-sdk/0.1.349/",
-      "summary": "Airbyte Agent SDK: typed connectors that give AI agents access to 50+ third-party APIs",
-      "published_date": "2026-09-25",
-      "relevance_score": 5,
+      "title": "GenSend – Launch an AI agent to find, personalize, and win authoritative backlinks",
+      "source": "Betalist.com",
+      "url": "https://betalist.com/startups/gensend",
+      "summary": "Launch an AI agent to find, personalize, and win authoritative backlinks",
+      "published_date": "2026-09-26",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -325,12 +326,12 @@
     },
     {
       "rank": 16,
-      "title": "mycelium-agents 0.3.2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/mycelium-agents/0.3.2/",
-      "summary": "The networking protocol for AI agents. Discover, communicate, and collaborate.",
-      "published_date": "2026-09-25",
-      "relevance_score": 5,
+      "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
+      "summary": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]",
+      "published_date": "2026-09-26",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -343,12 +344,12 @@
     },
     {
       "rank": 17,
-      "title": "tokenguard-sdk added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/tokenguard-sdk/",
-      "summary": "Monitor AI agents, track LLM costs, debug failures — TokenGuard Python SDK",
-      "published_date": "2026-09-25",
-      "relevance_score": 5,
+      "title": "AUSTRALIA REVEALS AI AGENT HACKED GOVERNMENT HEALTH PORTAL",
+      "source": "Independentpress.cc",
+      "url": "https://independentpress.cc/australia-reveals-ai-agent-hacked-government-health-portal/2026/09/25/",
+      "summary": "Fri 25 September 2026:Albanese says OpenAI-developed agent accessed public and non-public Medicare data as world leaders call for stronger AI safeguardsAustralia’s Prime Minister Anthony Albanese has disclosed a security breach involving an artificial intelli…",
+      "published_date": "2026-09-26",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -357,16 +358,16 @@
       "matched_keywords": [
         "ai agent"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 18,
-      "title": "msg-lmm-best 0.18.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/msg-lmm-best/0.18.0/",
-      "summary": "A tiny public mutable message board for AI agents",
-      "published_date": "2026-09-25",
-      "relevance_score": 5,
+      "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+      "source": "Internet",
+      "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+      "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could promise, a string of re…",
+      "published_date": "2026-09-26",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -379,30 +380,30 @@
     },
     {
       "rank": 19,
-      "title": "After Xi-Trump summit, US-China rivalry remains frozen. Is this to Beijing's advantage?",
-      "source": "DW (English)",
-      "url": "https://www.dw.com/en/after-xi-trump-summit-us-china-rivalry-remains-frozen-is-this-to-beijings-advantage/a-79427127",
-      "summary": "The US president showcased White House construction projects and hosted a lavish dinner with tech CEOs, but the summit made little progress on key issues such as trade tensions and AI regulation.",
-      "published_date": "2026-09-25",
-      "relevance_score": 5,
+      "title": "The AI safety debate is confusing. Here's our guide to the different factions",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/09/26/nx-s1-5979085/the-ai-safety-debate-is-confusing-heres-our-guide-to-the-different-factions",
+      "summary": "The battle over AI's promise and perils is not a clash between two opposing sides, but a debate among a range of competing voices and ideologies. Here is a guide to who's who in that debate.",
+      "published_date": "2026-09-26",
+      "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai regulation"
+        "ai safety"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "Microsoft’s new Copilot app puts everything in one place – but the price is ‘evolving’",
-      "source": "ZDNet",
-      "url": "https://www.zdnet.com/innovation/microsoft-new-copilot-unified-ai-app/",
-      "summary": "Microsoft says Copilot has gotten ‘actually really good.’ The new app has AI agents and can write code. So how much is all this going to cost?",
-      "published_date": "2026-09-25",
-      "relevance_score": 5,
+      "title": "Leaks Show That Meta’s New AI Agent Relied on Real People to Make Calls",
+      "source": "CNET",
+      "url": "https://www.cnet.com/tech/services-and-software/leaks-metas-new-ai-agent-muse-real-people-call-centers/",
+      "summary": "Reports indicate Muse was routing calls the AI was supposedly making to humans in call centers.",
+      "published_date": "2026-09-26",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
