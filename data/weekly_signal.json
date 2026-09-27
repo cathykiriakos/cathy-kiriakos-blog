@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T14:40:00.496Z",
+  "generated_at": "2026-09-27T17:23:23.580Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,13 +7,13 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 16
+      "item_count": 14
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 5
+      "item_count": 7
     },
     {
       "id": "human_centric_design",
@@ -138,9 +138,9 @@
     },
     {
       "rank": 6,
-      "title": "wet-mcp 3.16.2",
+      "title": "wet-mcp 3.16.3",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/wet-mcp/3.16.2/",
+      "url": "https://pypi.org/project/wet-mcp/3.16.3/",
       "summary": "Open-source MCP server for AI agents: web search, content extraction, and library docs.",
       "published_date": "2026-09-26",
       "relevance_score": 9,
@@ -157,193 +157,79 @@
     },
     {
       "rank": 7,
-      "title": "monte-neo 0.32.0",
+      "title": "memman 0.42.17",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/monte-neo/0.32.0/",
-      "summary": "Independent verifier for trading strategies written by AI agents and humans: look-ahead probes, fee-aware economics, Deflated Sharpe, signed certificates, MCP server",
+      "url": "https://pypi.org/project/memman/0.42.17/",
+      "summary": "LLM-supervised persistent memory for AI agents - intent-aware graph recall, RAG, and pluggable embeddings for Claude Code.",
       "published_date": "2026-09-26",
-      "relevance_score": 9,
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "ai agent",
+        "RAG"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 8,
-      "title": "monte-neo 0.30.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/monte-neo/0.30.0/",
-      "summary": "Independent verifier for trading strategies written by AI agents and humans: look-ahead probes, fee-aware economics, Deflated Sharpe, signed certificates, MCP server",
+      "title": "How to Use Divi AI Agents Rules",
+      "source": "Elegantthemes.com",
+      "url": "https://www.elegantthemes.com/blog/divi-resources/how-to-use-divi-ai-agents-rules",
+      "summary": "Keeping a website consistent means carrying the same brand voice, design choices, and layout conventions into each new task. Repeating those instructions in every AI prompt adds work, especially when you are building several pages for the same client. Divi AI…",
       "published_date": "2026-09-26",
-      "relevance_score": 9,
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 9,
-      "title": "monte-neo 0.28.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/monte-neo/0.28.0/",
-      "summary": "Independent verifier for trading strategies written by AI agents and humans: look-ahead probes, fee-aware economics, Deflated Sharpe, signed certificates, MCP server",
+      "title": "OpenAI says its AI agents escaped a secure ‘sandbox’ again last weekend and is pausing training for a second time",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/7056604b69a7c913",
+      "summary": "OpenAI said in a technical report released on Friday that an AI model it was training and evaluating broke out of its secure testing environment as recently as last weekend and took unauthorized actions on the internet.As a result, the company said that it is…",
       "published_date": "2026-09-26",
-      "relevance_score": 9,
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 10,
-      "title": "videofetch-mcp added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/videofetch-mcp/",
-      "summary": "VideoFetch MCP server — let any AI agent download video/audio straight into your own object storage",
+      "title": "AI Agents Are Racing to Make Quantum-Safe Bitcoin Cheap—And Winning",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/379378/ai-agents-racing-make-quantum-safe-bitcoin-cheap",
+      "summary": "An open competition run by StarkWare, Yukon Research, and Eigen Labs drove the estimated cost of building a quantum-safe Bitcoin transaction from about $320 to roughly $67, with AI models topping the leaderboards.",
       "published_date": "2026-09-26",
-      "relevance_score": 9,
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 11,
-      "title": "monte-neo 0.27.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/monte-neo/0.27.1/",
-      "summary": "Independent verifier for trading strategies written by AI agents and humans: look-ahead probes, fee-aware economics, Deflated Sharpe, signed certificates, MCP server",
-      "published_date": "2026-09-26",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "monte-neo 0.27.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/monte-neo/0.27.0/",
-      "summary": "Independent verifier for trading strategies written by AI agents and humans: look-ahead probes, fee-aware economics, Deflated Sharpe, signed certificates, MCP server",
-      "published_date": "2026-09-26",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 13,
-      "title": "monte-neo 0.26.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/monte-neo/0.26.0/",
-      "summary": "Independent verifier for trading strategies written by AI agents and humans: look-ahead probes, fee-aware economics, Deflated Sharpe, signed certificates, MCP server",
-      "published_date": "2026-09-26",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "Microsoft VP: SaaS isn’t dying. It’s becoming the operating system for AI agents—and that changes everything",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/9afaceb260e35cf1",
-      "summary": "Across industries, companies are moving from AI pilots to real deployments and seeing measurable results. Teams are generating insights, completing research, and drafting work in a fraction of the time. What took months can now take days — what took days can …",
-      "published_date": "2026-09-26",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "GenSend – Launch an AI agent to find, personalize, and win authoritative backlinks",
-      "source": "Betalist.com",
-      "url": "https://betalist.com/startups/gensend",
-      "summary": "Launch an AI agent to find, personalize, and win authoritative backlinks",
-      "published_date": "2026-09-26",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
-      "summary": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]",
-      "published_date": "2026-09-26",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
       "title": "AUSTRALIA REVEALS AI AGENT HACKED GOVERNMENT HEALTH PORTAL",
       "source": "Independentpress.cc",
       "url": "https://independentpress.cc/australia-reveals-ai-agent-hacked-government-health-portal/2026/09/25/",
@@ -361,7 +247,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 18,
+      "rank": 12,
       "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
       "source": "Internet",
       "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
@@ -379,7 +265,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 19,
+      "rank": 13,
       "title": "The AI safety debate is confusing. Here's our guide to the different factions",
       "source": "NPR",
       "url": "https://www.npr.org/2026/09/26/nx-s1-5979085/the-ai-safety-debate-is-confusing-heres-our-guide-to-the-different-factions",
@@ -397,13 +283,121 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 20,
+      "rank": 14,
       "title": "Leaks Show That Meta’s New AI Agent Relied on Real People to Make Calls",
       "source": "CNET",
       "url": "https://www.cnet.com/tech/services-and-software/leaks-metas-new-ai-agent-muse-real-people-call-centers/",
       "summary": "Reports indicate Muse was routing calls the AI was supposedly making to humans in call centers.",
       "published_date": "2026-09-26",
       "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "The One-Person Marketing Team: How AI Agents for Marketing Replace a 10-Person Agency | Hobo.Video",
+      "source": "Hobo.video",
+      "url": "https://hobo.video/blog/ai-agents-one-person-marketing-team/",
+      "summary": "Discover how AI agents help one-person marketing teams automate tasks, reduce costs, and scale like a full-service agency.",
+      "published_date": "2026-09-25",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "China, US agree to set up channel for AI safety incidents",
+      "source": "DW (English)",
+      "url": "https://www.dw.com/en/china-us-agree-to-set-up-channel-for-ai-safety-incidents/a-79443351",
+      "summary": "Following the summit between US President Donald Trump and Chinese President Xi Jinping, the two superpowers pledged to set up a \"communication channel\" for AI incidents and boost coordination on military matters.",
+      "published_date": "2026-09-26",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai safety"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 17,
+      "title": "edgeguard-sdk 0.9.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/edgeguard-sdk/0.9.0/",
+      "summary": "On-device AI guardrails engine (Rust core, Python bindings via PyO3)",
+      "published_date": "2026-09-26",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
+      "source": "Amazon.com",
+      "url": "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/",
+      "summary": "NarrateAI delivers production-ready LLM quality assurance on Amazon Bedrock. This post details five techniques—adaptive pipeline orchestration, cross-account multi-model failover, real-time streaming evaluation, composite evaluation, and data accuracy verific…",
+      "published_date": "2026-09-25",
+      "relevance_score": 6,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "orchestration"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 19,
+      "title": "‘Godfather of AI’ explains how humanity could end: Even without a bad actor, AI ‘may derive subgoals that cause it to want to get rid of people’",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/8e8b697b7565dc95",
+      "summary": "Legendary computer scientist Geoffrey Hinton warned AI could wipe out humanity as a mere byproduct of its zeal to accomplish a more innocent task.\nFears about the technology’s existential risk continue to mount amid fresh revelations about rogue AI agents bre…",
+      "published_date": "2026-09-26",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 20,
+      "title": "houdini-mcp-server 0.6.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/houdini-mcp-server/0.6.0/",
+      "summary": "Connect AI Agents to SideFX Houdini, with full documentation and screenshot support.",
+      "published_date": "2026-09-26",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
