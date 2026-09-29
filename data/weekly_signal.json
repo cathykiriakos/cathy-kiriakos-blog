@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T17:31:43.034Z",
+  "generated_at": "2026-09-29T15:33:37.333Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -13,13 +13,13 @@
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 10
+      "item_count": 8
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 0
+      "item_count": 1
     }
   ],
   "institutional_signal": {
@@ -41,33 +41,69 @@
   "items": [
     {
       "rank": 1,
-      "title": "air-blackbox 1.16.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/air-blackbox/1.16.0/",
-      "summary": "AI governance control plane - compliance, inventory, incident response, and audit for AI agents",
-      "published_date": "2026-09-26",
-      "relevance_score": 16,
+      "title": "China to work together with US on AI governance",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/6bc6927344ef35f8",
+      "summary": "Chinese Foreign Ministry spokesperson Guo Jiakun said on Monday that China's President Xi Jinping and his American counterpart Donald Trump agreed during their meeting last week to maintain contact wh...",
+      "published_date": "2026-09-28",
+      "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
         "ai governance",
-        "governance",
-        "compliance"
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 2,
-      "title": "Government data breach, AI guardrails and the PM’s international trip | Insiders",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/b42781e086992c98",
-      "summary": "AI, cyber security, Donald Trump, petrol prices and One Nation are all discussed in this week's episode of Insiders. Melissa Clarke ...",
-      "published_date": "2026-09-27",
+      "title": "HCLSoftware to Acquire Robotiq.ai, Strengthening Enterprise Agentic Automation",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/hclsoftware-to-acquire-robotiqai-strengthening-enterprise-agentic-automation-302891642.html",
+      "summary": "Acquisition adds enterprise RPA capabilities to HCL UnO Agentic, strengthening end-to-end orchestration across AI agents and enterprise applications SANTA CLARA, Calif., Sept. 28, 2026 /PRNewswire/ -- HCLSoftware (NSE: HCLTECH) (BSE: HCLTECH), the software bu…",
+      "published_date": "2026-09-28",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "orchestration",
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 3,
+      "title": "Why the Future of Marketing is Agentic (and Human)",
+      "source": "CMSWire",
+      "url": "https://www.cmswire.com/customer-experience/why-the-future-of-marketing-is-agentic-and-human/",
+      "summary": "Martech fragmentation wastes AI investment. Ibexa champions orchestration — humans overseeing agents on open, integrated platforms.\nContinue reading...",
+      "published_date": "2026-09-28",
+      "relevance_score": 12,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "orchestration",
+        "agentic"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 4,
+      "title": "Show HN: OpenAPPA – deterministic AI guardrails that don't break agents",
+      "source": "Openappa.com",
+      "url": "https://www.openappa.com/",
+      "summary": "Hi Hacker News! Matvey from Archestra is here.While building enterprise agents, we ran into a problem: the more tools you connect to the AI, the higher the chance it will run out of control and leak sensitive data.Guardrails, in theory, should prevent this, b…",
+      "published_date": "2026-09-28",
       "relevance_score": 12,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -77,73 +113,93 @@
       "matched_keywords": [
         "guardrail"
       ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 3,
-      "title": "Three Months to NIST: The Federal AI Agent Standards Deadline Arrives With No Enforceable Framework",
-      "source": "Forkast.news",
-      "url": "https://forkast.news/three-months-to-nist-the-federal-ai-agent-standards-deadline-arrives-with-no-enforceable-framework/",
-      "summary": "NIST's agent-specific overlays are projected for late 2026 but remain uncommitted. Finalized standards won't arrive until 2027 at the earliest. Five governance products shipped in 13 days to fill the vacuum — and 88% of enterprises have already been breached.",
-      "published_date": "2026-09-27",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 4,
-      "title": "Irish UN director on AI 'risk, opportunity' for elections",
-      "source": "RTE",
-      "url": "https://www.rte.ie/news/2026/0927/1593058-irish-un-ai-elections/",
-      "summary": "An Irish woman leading the UN electoral assistance department has said AI poses a range of risks and opportunities for elections worldwide and that it connects to the wider conversation around AI governance.",
-      "published_date": "2026-09-27",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 5,
-      "title": "Trump plans new AI Force, seeks AI czar to lead initiative",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/trump-plans-new-ai-force-seeks-ai-czar-to-lead-initiative/",
-      "summary": "Trump's AI initiative could reshape tech policy, influencing global AI governance and sparking debates on ethical and strategic AI use.\nThe post Trump plans new AI Force, seeks AI czar to lead initiative appeared first on Crypto Briefing.",
-      "published_date": "2026-09-27",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "title": "Build A Minimum Viable Data Framework For Agentic Supply Chain",
+      "source": "Forrester.com",
+      "url": "https://www.forrester.com/blogs/build-a-minimum-viable-data-framework-for-agentic-supply-chain/",
+      "summary": "What Is An Agentic Supply Chain? In earlier research we described a vision for agentic supply chain where agentic AI transforms supply chain from laborious monitoring and reacting to autonomous, goal-driven agent orchestration that proactively deliver busines…",
+      "published_date": "2026-09-28",
+      "relevance_score": 12,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "orchestration",
+        "agentic"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 6,
-      "title": "Australia’s Medicare AI incident exposes growing challenge of controlling autonomous agents",
-      "source": "Digital Journal",
-      "url": "https://www.digitaljournal.com/article/australias-medicare-ai-incident-exposes-growing-challenge-of-controlling-autonomous-agents/",
-      "summary": "Australia has launched an urgent review after an OpenAI agent accessed a non-public Medicare statistics portal, raising difficult questions about AI governance, cyber security monitoring and the growing risks associated with autonomous digital systems.\nThe po…",
-      "published_date": "2026-09-26",
+      "title": "Build A Minimum Viable Data Framework For The Agentic Supply Chain",
+      "source": "Forrester.com",
+      "url": "https://www.forrester.com/blogs/build-a-minimum-viable-data-framework-for-the-agentic-supply-chain/",
+      "summary": "What Is An Agentic Supply Chain? In earlier research, we described a vision for the agentic supply chain where agentic AI transforms the supply chain from laborious monitoring and reacting to autonomous, goal-driven agent orchestration that proactively delive…",
+      "published_date": "2026-09-28",
+      "relevance_score": 12,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "orchestration",
+        "agentic"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 7,
+      "title": "Presentation: From Consumers to Builders: Turning 200 of our Team into Agent Creators in 2 Weeks",
+      "source": "InfoQ.com",
+      "url": "https://www.infoq.com/presentations/building-internal-ai-agents/",
+      "summary": "Ben Maraney shares how Forter demystified AI agent creation for technical and non-technical staff. He discusses leveraging custom MCP servers, combining no-code and code-based platforms, sidestepping complex RAG setups, and aligning security and legal teams t…",
+      "published_date": "2026-09-28",
+      "relevance_score": 12,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "RAG"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "m8tes 4.46.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/m8tes/4.46.0/",
+      "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
+      "published_date": "2026-09-28",
+      "relevance_score": 11,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 9,
+      "title": "Hewlett Packard Enterprise integrates Nvidia OpenShell into private cloud AI platform",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/hpe-nvidia-openshell-private-cloud-ai/",
+      "summary": "HPE's integration of Nvidia OpenShell enhances AI governance and risk management, aligning with evolving regulatory demands for transparency.\nThe post Hewlett Packard Enterprise integrates Nvidia OpenShell into private cloud AI platform appeared first on Cryp…",
+      "published_date": "2026-09-28",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -157,196 +213,14 @@
       "sentiment": "negative"
     },
     {
-      "rank": 7,
-      "title": "epimemer 0.2.10",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/epimemer/0.2.10/",
-      "summary": "Epistemic memory for AI agents over MCP: a typed graph of claims with provenance, metacontexts, validity in time, and a review loop",
-      "published_date": "2026-09-27",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
-      "title": "hol-guard 3.7.3",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/hol-guard/3.7.3/",
-      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-      "published_date": "2026-09-27",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "'I broke something': A Claude Code AI agent deleted 48,000 files in just over 100 seconds — then apologized for doing so",
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/pro/security/i-broke-something-a-claude-code-ai-agent-deleted-48-000-files-in-just-over-100-seconds-then-apologized-for-doing-so",
-      "summary": "A developer had an AI agent run 11 tasks. One messed up dearly.",
-      "published_date": "2026-09-27",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 10,
-      "title": "There are no \"rogue\" AI agents",
-      "source": "Substack.com",
-      "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
-      "summary": "Article URL: https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents\nComments URL: https://news.ycombinator.com/item?id=49868083\nPoints: 10\n# Comments: 2",
-      "published_date": "2026-09-27",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
-      "title": "AI Agents Keep Escaping Their Creators' Control—Here's What We Know",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/379402/ai-agents-keep-escaping-creators-control",
-      "summary": "An OpenAI agent's breach of an Australian government website is the starkest example yet of a pattern building for months—and of how hard autonomous AI is to contain.",
-      "published_date": "2026-09-27",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "How to Use Divi AI Agents Commands",
-      "source": "Elegantthemes.com",
-      "url": "https://www.elegantthemes.com/blog/divi-resources/how-to-use-divi-ai-agents-commands",
-      "summary": "When you use Divi AI agents to review several pages, the same tasks often come up: checking image alt text, reviewing responsive layouts, or updating calls to action. Saving a useful prompt means you can reuse those instructions on the next page. Commands exi…",
-      "published_date": "2026-09-27",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 13,
-      "title": "Artificial Intelligence Governance Professional (AIGP) Certification Guide",
-      "source": "Wowebook.org",
-      "url": "https://www.wowebook.org/artificial-intelligence-governance-professional-aigp-certification-guide/",
-      "summary": "eBook Details: Paperback: 180 pages Published: September 25, 2026 Language: English ISBN-10: 1808083318 ISBN-13: 978-1808083310 eBook Description: Artificial Intelligence Governance Professional (AIGP) Certification Guide: Prepare for the AIGP exam with AI go…",
-      "published_date": "2026-09-27",
-      "relevance_score": 8,
+      "title": "NVIDIA Open Agent Safety Platform: OpenShell on the CPU, Sentry on BlueField-4, and 100-Plus Partners From Anthropic to SpaceXAI",
+      "source": "Storagereview.com",
+      "url": "https://www.storagereview.com/?post_type=news&p=161214",
+      "summary": "NVIDIA has launched the NVIDIA Open Agent Safety Platform, an open software platform and reference system design that puts guardrails around autonomous AI agents at two layers: a secure runtime on the host CPU and an out-of-band watchdog on the DPU that the a…",
+      "published_date": "2026-09-28",
+      "relevance_score": 10,
       "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "The Supervisor Agent Shift: How Enterprises Actually Staff AI Agent Oversight",
-      "source": "Forkast.news",
-      "url": "https://forkast.news/the-supervisor-agent-shift-how-enterprises-actually-staff-ai-agent-oversight/",
-      "summary": "Nearly half of the modern workforce is no longer executing tasks; they are supervising them. According to a BCG Henderson Institute report, 47% of employees now dedicate more time to managing and directing AI agents than to performing the underlying work them…",
-      "published_date": "2026-09-27",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "Over half of UK firms say an AI agent has gone rogue on them — and affected their business or their customers",
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/pro/over-half-of-uk-firms-say-an-ai-agent-has-gone-rogue-on-them-and-affected-their-business-or-their-customers",
-      "summary": "Businesses are struggling to effectively control their AI agents, with over half of British companies admitting to at least one breach of business policy by an automated system.",
-      "published_date": "2026-09-27",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "Articles On: China’s AI, U.S.-China Tech Competition, AI Regulation, AI Security, Chinese AI Startups, and AI Diplomacy",
-      "source": "Hoover.org",
-      "url": "https://www.hoover.org/research/articles-chinas-ai-us-china-tech-competition-ai-regulation-ai-security-chinese-ai-startups",
-      "summary": "The Chinese Communist Party seeks to control information technology as a means to shape and censor the communications and opinions of its own people, as well as the communications of individuals beyond China's borders.",
-      "published_date": "2026-09-27",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai regulation"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "Q&A: Should enterprises actually slow down AI adoption?",
-      "source": "Digital Journal",
-      "url": "https://www.digitaljournal.com/article/qa-should-enterprises-actually-slow-down-ai-adoption/",
-      "summary": "Before granting AI agents credentials, API permissions or system access, organisations must know who authorised them, what they can access, how to revoke permissions, and how to monitor activity. As AI adoption accelerates, strong governance, visibility and c…",
-      "published_date": "2026-09-26",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai",
         "governance_as_code"
@@ -354,17 +228,148 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent",
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 11,
+      "title": "whiteout-ai 0.3.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/whiteout-ai/0.3.1/",
+      "summary": "Whiteout AI Governance SDK — wrap AI API calls with policy enforcement",
+      "published_date": "2026-09-28",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
         "governance"
       ],
       "sentiment": "neutral"
     },
     {
+      "rank": 12,
+      "title": "whiteout-ai 0.3.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/whiteout-ai/0.3.0/",
+      "summary": "Whiteout AI Governance SDK — wrap AI API calls with policy enforcement",
+      "published_date": "2026-09-28",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "whiteout-ai added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/whiteout-ai/",
+      "summary": "Whiteout AI Governance SDK — wrap AI API calls with policy enforcement",
+      "published_date": "2026-09-28",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "OpenAI CEO Sam Altman declines to attend Australian Senate inquiry after rogue AI breached government system",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/openai-altman-declines-australian-senate-inquiry/",
+      "summary": "The incident underscores the urgent need for robust AI governance and international cooperation to prevent autonomous breaches and ensure accountability.\nThe post OpenAI CEO Sam Altman declines to attend Australian Senate inquiry after rogue AI breached gover…",
+      "published_date": "2026-09-28",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 15,
+      "title": "Fine-Tuning Gemma 4 with QLoRA for Tool-Aware Support Agents",
+      "source": "Pyimagesearch.com",
+      "url": "https://pyimagesearch.com/2026/09/28/fine-tuning-gemma-4-with-qlora-for-tool-aware-support-agents/",
+      "summary": "Table of Contents Fine-Tuning Gemma 4 with QLoRA for Tool-Aware Support Agents From Customer Support Chatbot to Tool-Calling AI Agent Synthesizing Tool-Calling Training Data Why Use Synthetic Tool-Call Trajectories? What We Will Build Configuring Your Develop…",
+      "published_date": "2026-09-28",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "fine-tuning"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "Uber Is Coming for STR. Airbnb Has an AI Agent Coming.",
+      "source": "Skift",
+      "url": "https://skift.com/2026/09/28/uber-is-coming-for-str-airbnb-has-an-ai-agent-coming/",
+      "summary": "On Monday's ⁠Good Morning Hospitality, A Skift Podcast⁠, ⁠Brandreth Canaley⁠, ⁠Michael Goldin⁠, and ⁠Jamie Lane⁠ recap sessions from Skift Global Forum that every STR operator should be paying attention to.",
+      "published_date": "2026-09-28",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "Nvidia Gives Banks a New Way to Stop AI Agents From Crossing the Line",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/cd78756baa40ee53",
+      "summary": "Nvidia is moving the artificial intelligence kill switch deeper into the machinery, giving businesses a way to stop autonomous agents even when the software directing them fails to keep them within bounds.\nThe company’s Open Agent Safety Platform, announced i…",
+      "published_date": "2026-09-28",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "negative"
+    },
+    {
       "rank": 18,
-      "title": "Actionbox – Human approval for your AI agents, software, and scripts",
-      "source": "Betalist.com",
-      "url": "https://betalist.com/startups/actionbox",
-      "summary": "Human approval for your AI agents, software, and scripts",
-      "published_date": "2026-09-26",
+      "title": "Nvidia unveils security platform to stop AI agents from going rogue after new, troubling incidents - ABC News - Breaking News, Latest News and Videos",
+      "source": "Slashdot.org",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185889302",
+      "summary": "Nvidia unveils security platform to stop AI agents from going rogue after new, troubling incidentsABC News - Breaking News, Latest News and Videos Nvidia releases software platform to stop AI agents from misbehavingcnbc.com Nvidia launches new tool to keep AI…",
+      "published_date": "2026-09-28",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -378,29 +383,29 @@
     },
     {
       "rank": 19,
-      "title": "The AI safety debate is confusing. Here's our guide to the different factions",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/09/26/nx-s1-5979085/the-ai-safety-debate-is-confusing-heres-our-guide-to-the-different-factions",
-      "summary": "The battle over AI's promise and perils is not a clash between two opposing sides, but a debate among a range of competing voices and ideologies. Here is a guide to who's who in that debate.",
-      "published_date": "2026-09-26",
+      "title": "Coinbase enables AI agents to trade crypto, US stocks, and derivatives on a single platform",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/coinbase-agents-trade-crypto-stocks-derivatives/",
+      "summary": "Coinbase's integration of AI agents for diverse trading could reshape brokerage landscapes, enhancing automation and accessibility in financial markets.\nThe post Coinbase enables AI agents to trade crypto, US stocks, and derivatives on a single platform appea…",
+      "published_date": "2026-09-28",
       "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai safety"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "Leaks Show That Meta’s New AI Agent Relied on Real People to Make Calls",
-      "source": "CNET",
-      "url": "https://www.cnet.com/tech/services-and-software/leaks-metas-new-ai-agent-muse-real-people-call-centers/",
-      "summary": "Reports indicate Muse was routing calls the AI was supposedly making to humans in call centers.",
-      "published_date": "2026-09-26",
+      "title": "Nvidia releases software platform to stop AI agents from misbehaving",
+      "source": "Freerepublic.com",
+      "url": "https://freerepublic.com/focus/f-chat/4397149/posts",
+      "summary": "Key Points Nvidia announced the Open Agent Safety Platform to prevent the type of breakout that occurred when OpenAI models accessed Hugging Face. OpenAI, Anthropic, Meta and Google have all disclosed recent incidents where their AI models escaped their sandb…",
+      "published_date": "2026-09-28",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
