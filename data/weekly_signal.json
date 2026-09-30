@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T15:33:37.333Z",
+  "generated_at": "2026-09-30T15:47:44.572Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 13
+      "item_count": 14
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 8
+      "item_count": 9
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 1
+      "item_count": 2
     }
   ],
   "institutional_signal": {
@@ -41,18 +41,20 @@
   "items": [
     {
       "rank": 1,
-      "title": "China to work together with US on AI governance",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/6bc6927344ef35f8",
-      "summary": "Chinese Foreign Ministry spokesperson Guo Jiakun said on Monday that China's President Xi Jinping and his American counterpart Donald Trump agreed during their meeting last week to maintain contact wh...",
-      "published_date": "2026-09-28",
-      "relevance_score": 18,
+      "title": "Omnissa debuts AI agents for IT, a managed cloud PC service and Elara for AI governance",
+      "source": "SiliconANGLE News",
+      "url": "https://siliconangle.com/2026/09/29/omnissa-debuts-ai-agents-for-it-a-managed-cloud-pc-service-and-elara-for-ai-governance/",
+      "summary": "Digital workspace company Omnissa LLC today unveiled new artificial intelligence agents for information technology teams and virtual desktop users, a managed cloud PC service and an AI governance product named Omnissa Elara. The releases, announced at the com…",
+      "published_date": "2026-09-29",
+      "relevance_score": 24,
       "primary_pillar": "governance_as_code",
       "pillars": [
+        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "ai agent",
         "ai governance",
         "governance"
       ],
@@ -60,11 +62,53 @@
     },
     {
       "rank": 2,
-      "title": "HCLSoftware to Acquire Robotiq.ai, Strengthening Enterprise Agentic Automation",
+      "title": "“It Won’t Be a Human in the Loop. It’ll Be Another AI Agent.”: PubMatic’s Rajeev Goel on Cutting Complexity and Handing Power Back to Publishers and Advertisers",
+      "source": "ExchangeWire",
+      "url": "https://www.exchangewire.com/blog/2026/09/29/it-wont-be-a-human-in-the-loop-itll-be-another-ai-agent-pubmatics-rajeev-goel-on-cutting-complexity-and-handing-power-back-to-publishers-and-advertisers/",
+      "summary": "PubMatic CEO Rajeev Goel discusses ad tech complexity, and how agentic buying could change who holds power in programmatic…\nThe post “It Won’t Be a Human in the Loop. It’ll Be Another AI Agent.”: PubMatic’s Rajeev Goel on Cutting Complexity and Handing Power …",
+      "published_date": "2026-09-29",
+      "relevance_score": 23,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 3,
+      "title": "Pathify Advances Higher Ed AI with Next-Generation AI Agent",
       "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/hclsoftware-to-acquire-robotiqai-strengthening-enterprise-agentic-automation-302891642.html",
-      "summary": "Acquisition adds enterprise RPA capabilities to HCL UnO Agentic, strengthening end-to-end orchestration across AI agents and enterprise applications SANTA CLARA, Calif., Sept. 28, 2026 /PRNewswire/ -- HCLSoftware (NSE: HCLTECH) (BSE: HCLTECH), the software bu…",
-      "published_date": "2026-09-28",
+      "url": "https://www.prnewswire.com/news-releases/pathify-advances-higher-ed-ai-with-next-generation-ai-agent-302892712.html",
+      "summary": "Evolution of Pathify AI Chatbot moves beyond answering questions to take action, orchestrate specialized agents and support institution-wide AI governance DENVER, Sept. 29, 2026 /PRNewswire/ -- Pathify, higher education's only Campus Experience Platform (CXP)…",
+      "published_date": "2026-09-29",
+      "relevance_score": 16,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 4,
+      "title": "apowerb 0.2.52",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/apowerb/0.2.52/",
+      "summary": "Agentic framework for building and deploying AI agents with flexible orchestration, custom tool integration, RAG, Text-to-SQL, webhooks, and scheduled runs.",
+      "published_date": "2026-09-29",
       "relevance_score": 15,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -74,17 +118,18 @@
       "matched_keywords": [
         "orchestration",
         "agentic",
-        "ai agent"
+        "ai agent",
+        "RAG"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 3,
-      "title": "Why the Future of Marketing is Agentic (and Human)",
-      "source": "CMSWire",
-      "url": "https://www.cmswire.com/customer-experience/why-the-future-of-marketing-is-agentic-and-human/",
-      "summary": "Martech fragmentation wastes AI investment. Ibexa champions orchestration — humans overseeing agents on open, integrated platforms.\nContinue reading...",
-      "published_date": "2026-09-28",
+      "rank": 5,
+      "title": "Show HN: Squidbrake – self-hosted approval gateway for AI agent tool calls",
+      "source": "Github.com",
+      "url": "https://github.com/batrapulkit/squidbrake",
+      "summary": "Brakes for your AI agents: every tool call is checked against your rules, held for human approval when risky, and recorded in a tamper-evident audit trail. Works with Claude Code and any MCP app. -...",
+      "published_date": "2026-09-29",
       "relevance_score": 12,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -92,18 +137,18 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "orchestration",
-        "agentic"
+        "MCP",
+        "ai agent"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "rank": 4,
-      "title": "Show HN: OpenAPPA – deterministic AI guardrails that don't break agents",
-      "source": "Openappa.com",
-      "url": "https://www.openappa.com/",
-      "summary": "Hi Hacker News! Matvey from Archestra is here.While building enterprise agents, we ran into a problem: the more tools you connect to the AI, the higher the chance it will run out of control and leak sensitive data.Guardrails, in theory, should prevent this, b…",
-      "published_date": "2026-09-28",
+      "rank": 6,
+      "title": "House speaker hopes AI guardrails will be 'voluntary'",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/1f2fd53a65a36c8d",
+      "summary": "United States House Speaker Mike Johnson said Tuesday that there should be the right balance between AI innovation and oversight, while expressing hope that guardrails would be \"voluntary.\"Speaking to...",
+      "published_date": "2026-09-29",
       "relevance_score": 12,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -113,73 +158,71 @@
       "matched_keywords": [
         "guardrail"
       ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 5,
-      "title": "Build A Minimum Viable Data Framework For Agentic Supply Chain",
-      "source": "Forrester.com",
-      "url": "https://www.forrester.com/blogs/build-a-minimum-viable-data-framework-for-agentic-supply-chain/",
-      "summary": "What Is An Agentic Supply Chain? In earlier research we described a vision for agentic supply chain where agentic AI transforms supply chain from laborious monitoring and reacting to autonomous, goal-driven agent orchestration that proactively deliver busines…",
-      "published_date": "2026-09-28",
-      "relevance_score": 12,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "orchestration",
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 6,
-      "title": "Build A Minimum Viable Data Framework For The Agentic Supply Chain",
-      "source": "Forrester.com",
-      "url": "https://www.forrester.com/blogs/build-a-minimum-viable-data-framework-for-the-agentic-supply-chain/",
-      "summary": "What Is An Agentic Supply Chain? In earlier research, we described a vision for the agentic supply chain where agentic AI transforms the supply chain from laborious monitoring and reacting to autonomous, goal-driven agent orchestration that proactively delive…",
-      "published_date": "2026-09-28",
-      "relevance_score": 12,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "orchestration",
-        "agentic"
-      ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 7,
-      "title": "Presentation: From Consumers to Builders: Turning 200 of our Team into Agent Creators in 2 Weeks",
-      "source": "InfoQ.com",
-      "url": "https://www.infoq.com/presentations/building-internal-ai-agents/",
-      "summary": "Ben Maraney shares how Forter demystified AI agent creation for technical and non-technical staff. He discusses leveraging custom MCP servers, combining no-code and code-based platforms, sidestepping complex RAG setups, and aligning security and legal teams t…",
-      "published_date": "2026-09-28",
+      "title": "Speaker Mike Johnson tells CNBC he hopes AI guardrails are voluntary",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/mike-johnson-ai-guardrails-voluntary-cnbc",
+      "summary": "House Speaker Mike Johnson said he hopes safety guardrails for AI will be “voluntary”, speaking to CNBC on Tuesday. Johnson spoke on the channel’s “Squawk Box” hours before a meeting with AI leaders and President Donald Trump in Washington. “I hope it’s volun…",
+      "published_date": "2026-09-29",
       "relevance_score": 12,
-      "primary_pillar": "applied_ai",
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent",
-        "RAG"
+        "guardrail"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 8,
-      "title": "m8tes 4.46.0",
+      "title": "House Speaker Johnson says he hopes AI guardrails are 'voluntary' amid Congress inaction",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/c944a189bc50b1dc",
+      "summary": "House Speaker Mike Johnson is scheduled for lunch Tuesday with President Trump and AI industry executives.",
+      "published_date": "2026-09-29",
+      "relevance_score": 12,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 9,
+      "title": "5 Things CFOs and CISOs Need to Know About Nvidia’s AI Safety Push",
+      "source": "pymnts.com",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/5-things-cfos-and-cisos-need-to-know-about-nvidias-ai-safety-push/",
+      "summary": "The next enterprise artificial intelligence breakthrough could be the ability to stop an AI agent before it makes an expensive mistake. Or a hundred of them all at once. Nvidia’s newly launched Open Agent Safety Platform, announced Monday (Sept. 28), brings t…",
+      "published_date": "2026-09-29",
+      "relevance_score": 11,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "ai safety"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 10,
+      "title": "m8tes 4.47.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/m8tes/4.46.0/",
+      "url": "https://pypi.org/project/m8tes/4.47.0/",
       "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
-      "published_date": "2026-09-28",
+      "published_date": "2026-09-29",
       "relevance_score": 11,
       "primary_pillar": "human_centric_design",
       "pillars": [
@@ -194,51 +237,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 9,
-      "title": "Hewlett Packard Enterprise integrates Nvidia OpenShell into private cloud AI platform",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/hpe-nvidia-openshell-private-cloud-ai/",
-      "summary": "HPE's integration of Nvidia OpenShell enhances AI governance and risk management, aligning with evolving regulatory demands for transparency.\nThe post Hewlett Packard Enterprise integrates Nvidia OpenShell into private cloud AI platform appeared first on Cryp…",
-      "published_date": "2026-09-28",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 10,
-      "title": "NVIDIA Open Agent Safety Platform: OpenShell on the CPU, Sentry on BlueField-4, and 100-Plus Partners From Anthropic to SpaceXAI",
-      "source": "Storagereview.com",
-      "url": "https://www.storagereview.com/?post_type=news&p=161214",
-      "summary": "NVIDIA has launched the NVIDIA Open Agent Safety Platform, an open software platform and reference system design that puts guardrails around autonomous AI agents at two layers: a secure runtime on the host CPU and an out-of-band watchdog on the DPU that the a…",
-      "published_date": "2026-09-28",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 11,
-      "title": "whiteout-ai 0.3.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/whiteout-ai/0.3.1/",
-      "summary": "Whiteout AI Governance SDK — wrap AI API calls with policy enforcement",
-      "published_date": "2026-09-28",
+      "title": "Omnissa announces AI innovations that help IT shift to an increasingly autonomous workspace with greater visibility and control",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/omnissa-announces-ai-innovations-that-help-it-shift-to-an-increasingly-autonomous-workspace-with-greater-visibility-and-control-302891834.html",
+      "summary": "AI-ready workspaces, agents for IT operations and an AI governance solution give IT teams a strong foundation for getting more value from their AI investments MOUNTAIN VIEW, Calif., Sept. 29, 2026 /PRNewswire/ -- Omnissa®, the platform leader for governing di…",
+      "published_date": "2026-09-29",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -249,72 +253,15 @@
         "ai governance",
         "governance"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 12,
-      "title": "whiteout-ai 0.3.0",
+      "title": "monte-neo 0.36.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/whiteout-ai/0.3.0/",
-      "summary": "Whiteout AI Governance SDK — wrap AI API calls with policy enforcement",
-      "published_date": "2026-09-28",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 13,
-      "title": "whiteout-ai added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/whiteout-ai/",
-      "summary": "Whiteout AI Governance SDK — wrap AI API calls with policy enforcement",
-      "published_date": "2026-09-28",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "OpenAI CEO Sam Altman declines to attend Australian Senate inquiry after rogue AI breached government system",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/openai-altman-declines-australian-senate-inquiry/",
-      "summary": "The incident underscores the urgent need for robust AI governance and international cooperation to prevent autonomous breaches and ensure accountability.\nThe post OpenAI CEO Sam Altman declines to attend Australian Senate inquiry after rogue AI breached gover…",
-      "published_date": "2026-09-28",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 15,
-      "title": "Fine-Tuning Gemma 4 with QLoRA for Tool-Aware Support Agents",
-      "source": "Pyimagesearch.com",
-      "url": "https://pyimagesearch.com/2026/09/28/fine-tuning-gemma-4-with-qlora-for-tool-aware-support-agents/",
-      "summary": "Table of Contents Fine-Tuning Gemma 4 with QLoRA for Tool-Aware Support Agents From Customer Support Chatbot to Tool-Calling AI Agent Synthesizing Tool-Calling Training Data Why Use Synthetic Tool-Call Trajectories? What We Will Build Configuring Your Develop…",
-      "published_date": "2026-09-28",
+      "url": "https://pypi.org/project/monte-neo/0.36.0/",
+      "summary": "Independent verifier for trading strategies written by AI agents and humans: look-ahead probes, fee-aware economics, Deflated Sharpe, signed certificates, MCP server",
+      "published_date": "2026-09-29",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -322,91 +269,145 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "fine-tuning"
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
+      "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) suffered an AI-driven cyberattack that the organization described as \"loud and very, very messy.\" [...]",
+      "published_date": "2026-09-29",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "Mark Zuckerberg's Meta Launches 'Muse for Small Business' AI Agents",
+      "source": "Breitbart News",
+      "url": "https://www.breitbart.com/tech/2026/09/29/mark-zuckerbergs-meta-launches-muse-for-small-business-ai-agents/",
+      "summary": "Mark Zuckerberg's Meta has introduced Muse for Small Business, a tool that links its Muse AI agent to workplace software popular with small and medium businesses including Asana, Zoom, Intuit, Box, Canva and Slack. \nThe post Mark Zuckerberg’s Meta Launches ‘M…",
+      "published_date": "2026-09-29",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "Agoda Releases AI Developer Report 2026: Agentic AI Adoption Outpaces Enterprise Readiness in Southeast Asia and India",
+      "source": "Antaranews.com",
+      "url": "https://en.antaranews.com/news/433461/agoda-releases-ai-developer-report-2026-agentic-ai-adoption-outpaces-enterprise-readiness-in-southeast-asia-and-india",
+      "summary": "Digital travel platform Agoda has released a new study showing that software developers across Southeast Asia and India are rapidly transitioning from using ...",
+      "published_date": "2026-09-29",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 16,
-      "title": "Uber Is Coming for STR. Airbnb Has an AI Agent Coming.",
-      "source": "Skift",
-      "url": "https://skift.com/2026/09/28/uber-is-coming-for-str-airbnb-has-an-ai-agent-coming/",
-      "summary": "On Monday's ⁠Good Morning Hospitality, A Skift Podcast⁠, ⁠Brandreth Canaley⁠, ⁠Michael Goldin⁠, and ⁠Jamie Lane⁠ recap sessions from Skift Global Forum that every STR operator should be paying attention to.",
-      "published_date": "2026-09-28",
+      "title": "Democrats divided on AI regulation tax proposals as midterms approach",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/democrats-divided-ai-regulation-tax/",
+      "summary": "Democratic disunity on AI tax regulation could lead to unpredictable legislative outcomes, affecting tech investments and economic strategies.\nThe post Democrats divided on AI regulation tax proposals as midterms approach appeared first on Crypto Briefing.",
+      "published_date": "2026-09-29",
       "relevance_score": 8,
-      "primary_pillar": "applied_ai",
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "ai regulation"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "Nvidia Gives Banks a New Way to Stop AI Agents From Crossing the Line",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/cd78756baa40ee53",
-      "summary": "Nvidia is moving the artificial intelligence kill switch deeper into the machinery, giving businesses a way to stop autonomous agents even when the software directing them fails to keep them within bounds.\nThe company’s Open Agent Safety Platform, announced i…",
-      "published_date": "2026-09-28",
+      "title": "Pope Leo says AI safety fears are not ‘fake news’, criticises Jensen Huang",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/pope-leo-ai-safety-fears-not-fake-news-jensen-huang",
+      "summary": "AI safety warnings are not “fake news”, Pope Leo XIV said on Monday. He told reporters the world should heed the concerns of AI experts. He spoke on his flight back to Rome after a four-day trip to France. He said he was not in “panic mode”, and that he sleep…",
+      "published_date": "2026-09-29",
       "relevance_score": 8,
-      "primary_pillar": "applied_ai",
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "ai safety"
       ],
       "sentiment": "negative"
     },
     {
       "rank": 18,
-      "title": "Nvidia unveils security platform to stop AI agents from going rogue after new, troubling incidents - ABC News - Breaking News, Latest News and Videos",
-      "source": "Slashdot.org",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185889302",
-      "summary": "Nvidia unveils security platform to stop AI agents from going rogue after new, troubling incidentsABC News - Breaking News, Latest News and Videos Nvidia releases software platform to stop AI agents from misbehavingcnbc.com Nvidia launches new tool to keep AI…",
-      "published_date": "2026-09-28",
-      "relevance_score": 8,
+      "title": "grey-panda added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/grey-panda/",
+      "summary": "The calm guardian for AI, agent, and MCP code — a zero-dependency, standards-anchored AI security toolkit for developers and security reviewers.",
+      "published_date": "2026-09-29",
+      "relevance_score": 6,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "MCP"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 19,
-      "title": "Coinbase enables AI agents to trade crypto, US stocks, and derivatives on a single platform",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/coinbase-agents-trade-crypto-stocks-derivatives/",
-      "summary": "Coinbase's integration of AI agents for diverse trading could reshape brokerage landscapes, enhancing automation and accessibility in financial markets.\nThe post Coinbase enables AI agents to trade crypto, US stocks, and derivatives on a single platform appea…",
-      "published_date": "2026-09-28",
-      "relevance_score": 8,
+      "title": "I Got My Hands on All the New Googlebooks. Are They Better Than Chromebooks?",
+      "source": "PCMag.com",
+      "url": "https://uk.pcmag.com/laptops/167555/i-got-my-hands-on-all-the-new-googlebooks-are-they-better-than-chromebooks",
+      "summary": "Google's new laptop initiative may sound like Chromebooks 2.0, but the new hardware requirements and Gemini AI capabilities set it apart from its predecessor. Check out my first thoughts on these upcoming Android systems.\nThe first crop of Googlebooks arrives…",
+      "published_date": "2026-09-29",
+      "relevance_score": 6,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "hands-on"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "Nvidia releases software platform to stop AI agents from misbehaving",
-      "source": "Freerepublic.com",
-      "url": "https://freerepublic.com/focus/f-chat/4397149/posts",
-      "summary": "Key Points Nvidia announced the Open Agent Safety Platform to prevent the type of breakout that occurred when OpenAI models accessed Hugging Face. OpenAI, Anthropic, Meta and Google have all disclosed recent incidents where their AI models escaped their sandb…",
-      "published_date": "2026-09-28",
-      "relevance_score": 8,
+      "title": "Nas.com Brings Fortune 500 Marketing Power to Small Businesses",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/nascom-brings-fortune-500-marketing-power-to-small-businesses-302892647.html",
+      "summary": "Nas.com builds AI agents that analyze marketing performance, manage campaigns and execute actions with human approval. Drawing on a decade of marketing experience, the company is opening access to specialized AI agents, with more to come, as CEO Nuseir Yassin…",
+      "published_date": "2026-09-29",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
