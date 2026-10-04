@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:15:33.756Z",
+  "generated_at": "2026-10-04T14:45:58.853Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,7 +7,7 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 15
+      "item_count": 14
     },
     {
       "id": "governance_as_code",
@@ -19,7 +19,7 @@
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 2
+      "item_count": 1
     }
   ],
   "institutional_signal": {
@@ -41,51 +41,11 @@
   "items": [
     {
       "rank": 1,
-      "title": "Federal Reserve launches FRED MCP Connector to plug AI agents into economic data",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/federal-reserve-fred-mcp-connector-ai/",
-      "summary": "The integration of AI with economic data tools like FRED could revolutionize data analysis, but it also raises concerns about accuracy and reliability.\nThe post Federal Reserve launches FRED MCP Connector to plug AI agents into economic data appeared first on…",
-      "published_date": "2026-10-02",
-      "relevance_score": 16,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 2,
-      "title": "OpenAI says its AI agents may have breached systems at over 100 organizations",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/openai-ai-agents-breached-100-organizations/",
-      "summary": "The breaches highlight the urgent need for robust AI governance and cybersecurity measures to prevent unauthorized access and data exposure.\nThe post OpenAI says its AI agents may have breached systems at over 100 organizations appeared first on Crypto Briefi…",
-      "published_date": "2026-10-02",
-      "relevance_score": 16,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 3,
-      "title": "arqux 0.8.1",
+      "title": "arqux 0.8.2",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/arqux/0.8.1/",
+      "url": "https://pypi.org/project/arqux/0.8.2/",
       "summary": "Architectural User Experience for governed AI agents. Identity contracts, MCP governance, Blueprint lifecycle, CORTEX memory, and verifiable evidence.",
-      "published_date": "2026-10-02",
+      "published_date": "2026-10-03",
       "relevance_score": 16,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -103,50 +63,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 4,
-      "title": "Wall Street banks boost AI hiring by 1,721% for agent, governance roles: CNBC",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/wall-street-banks-boost-ai-hiring-by-1721-for-agent-governance-roles-cnbc/",
-      "summary": "The surge in AI hiring by banks underscores a strategic shift towards robust AI governance, potentially boosting AI firms' market valuations.\nThe post Wall Street banks boost AI hiring by 1,721% for agent, governance roles: CNBC appeared first on Crypto Brief…",
-      "published_date": "2026-10-02",
-      "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 5,
-      "title": "colabhive-mcp 0.3.4",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/colabhive-mcp/0.3.4/",
-      "summary": "Model Context Protocol server for ColabHive — expose LLMs, specialists, tools, and your trained models to any MCP client.",
-      "published_date": "2026-10-02",
-      "relevance_score": 12,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "model context protocol",
-        "MCP"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 6,
-      "title": "AI Marketing Workflows: The Ultimate Guide to Scaling with Speed and Guardrails",
-      "source": "Var-meta.com",
-      "url": "https://www.var-meta.com/blog/ai-marketing-workflows",
-      "summary": "<p>Companies like Amazon, Netflix, and HubSpot no longer rely on manual marketing processes to keep pace with customer expectations. Instead, they use AI marketing workflows to automate repetitive tasks, personalize campaigns, and make faster, data-driven dec…",
-      "published_date": "2026-10-02",
+      "rank": 2,
+      "title": "MAGA mom's dire warning over tech guardrails as Trump puts pedal to the metal on race with China",
+      "source": "Fox News",
+      "url": "https://www.foxnews.com/politics/maga-mom-dire-warning-tech-guardrails-trump-pedal-metal-race-china",
+      "summary": "Amy Kremer's Humans First organization demands AI guardrails to protect children from chatbot dangers and prevent mass displacement of American workers.",
+      "published_date": "2026-10-03",
       "relevance_score": 12,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -156,73 +78,15 @@
       "matched_keywords": [
         "guardrail"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "rank": 7,
-      "title": "Constructor Wins MACH Impact Award for 'Agentic Achievement'",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/constructor-wins-mach-impact-award-for-agentic-achievement-302896877.html",
-      "summary": "Recognition highlights successful AI agent deployments — with Constructor's conversational agents driving better shopping experiences and measurable results for ecommerce retailers worldwide SAN FRANCISCO, Oct. 2, 2026 /PRNewswire/ -- Constructor, the product…",
-      "published_date": "2026-10-02",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 8,
-      "title": "m8tes 4.48.0",
+      "rank": 3,
+      "title": "nees-sdk 3.0.0rc2",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/m8tes/4.48.0/",
-      "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
-      "published_date": "2026-10-02",
-      "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "Robinhood Gave AI Agents a Trading Account and a Credit Card. The Liability Gap Just Got Wider.",
-      "source": "Forkast.news",
-      "url": "https://forkast.news/robinhood-gave-ai-agents-a-trading-account-and-a-credit-card-the-liability-gap-just-got-wider/",
-      "summary": "The structural integrity of financial markets relies on a clear chain of accountability. When a human trader executes an order, the legal and financial consequences are well-defined. As agentic commerce moves from experimental pilots into high-frequency retai…",
-      "published_date": "2026-10-02",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 10,
-      "title": "coalex 1.39.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/coalex/1.39.0/",
-      "summary": "Coalex Python SDK for AI governance observability",
-      "published_date": "2026-10-02",
+      "url": "https://pypi.org/project/nees-sdk/3.0.0rc2/",
+      "summary": "Python SDK for the NEES AI Governance Platform",
+      "published_date": "2026-10-03",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -236,12 +100,50 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 11,
-      "title": "g8-mcp-server 0.109.0",
+      "rank": 4,
+      "title": "nees-sdk added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/g8-mcp-server/0.109.0/",
-      "summary": "graph8 MCP server - GTM operations for AI agents",
-      "published_date": "2026-10-02",
+      "url": "https://pypi.org/project/nees-sdk/",
+      "summary": "Python SDK for the NEES AI Governance Platform",
+      "published_date": "2026-10-03",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 5,
+      "title": "nees-sdk 3.0.0rc1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/nees-sdk/3.0.0rc1/",
+      "summary": "Python SDK for the NEES AI Governance Platform",
+      "published_date": "2026-10-03",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 6,
+      "title": "macos-computer-use-kit 0.3.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/macos-computer-use-kit/0.3.2/",
+      "summary": "AX-first macOS computer use for AI agents: an MCP server + CLI for Claude Code, Codex, Cursor and any MCP client. Accessibility-tree targeting with stable refs, background input that never moves your cursor, Unicode typing, menus/windows/apps, set-of-mark scr…",
+      "published_date": "2026-10-03",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -250,55 +152,162 @@
       "institutional_signal": false,
       "matched_keywords": [
         "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 7,
+      "title": "bale-mcp added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/bale-mcp/",
+      "summary": "Private, local MCP server for Bale (bale.ai) bots: let AI agents read, search and answer messages, ask and wait for replies, and send or download files through the official Bot API.",
+      "published_date": "2026-10-03",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "All the AI agents that can live in your text messages",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/536712f36902015e",
+      "summary": "Rather than downloading another app, a growing number of agents can simply be texted like an ordinary person.\nYou text it what you need, and it can remember context, connect to the apps and services you already use, and complete tasks on your behalf. That can…",
+      "published_date": "2026-10-03",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 9,
+      "title": "All the AI agents that can live in your text messages  | TechCrunch",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "published_date": "2026-10-03",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "Show HN: Web2MD – turn any URL into clean Markdown for AI agents",
+      "source": "Github.com",
+      "url": "https://github.com/astra-intelligence/web2md-mcp",
+      "summary": "Article URL: https://github.com/astra-intelligence/web2md-mcp\nComments URL: https://news.ycombinator.com/item?id=49944139\nPoints: 1\n# Comments: 1",
+      "published_date": "2026-10-03",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 11,
+      "title": "AI agents use 5x more tokens than humans as cached prompts explode, headed for 10x",
+      "source": "Slashdot.org",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186013346",
+      "summary": "Daniel Newman&rsquo;s number comes from OpenRouter data, where agents passed humans in February and grew 14x by August.",
+      "published_date": "2026-10-03",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "nimbus-mcp 0.2.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/nimbus-mcp/0.2.1/",
-      "summary": "MCP server bridging AI agents to Nimbus BCI pipelines (local backend)",
-      "published_date": "2026-10-02",
-      "relevance_score": 9,
+      "title": "Rogue AI agents expose internet's frail foundation",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/dc6151f608f34333",
+      "summary": "AI agents don't need to invent new ways to hack the internet to overwhelm its defenses. They just need to speed-run the ones humans already use.\nWhy it matters: Agents are proving they can automate basic hacking techniques at a speed and scale that is turning…",
+      "published_date": "2026-10-03",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 13,
-      "title": "janction-render 0.4.15",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/janction-render/0.4.15/",
-      "summary": "Cloud GPU render farm for Blender, for AI agents: MCP server (remote + stdio) and CLI. Render Blender without a GPU from Claude, ChatGPT, Claude Code, Codex, Cursor.",
-      "published_date": "2026-10-02",
-      "relevance_score": 9,
+      "title": "Rise of the Machines: AI Agents Now Burn 5x More Tokens Than Humans — and the Gap Is Widening Fast",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/83c4b7042e8d59ef",
+      "summary": "The post Rise of the Machines: AI Agents Now Burn 5x More Tokens Than Humans — and the Gap Is Widening Fast appeared first on 24/7 Wall St..\nOne Number: $89.02 Billion From the Machines That Make Tokens\nNVIDIA (NASDAQ:NVDA) generated $89.02 billion in Data Ce…",
+      "published_date": "2026-10-03",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 14,
-      "title": "Despite IPO jitters and AI safety worries, Anthropic sticks to a 2026 offering",
-      "source": "SiliconANGLE News",
-      "url": "https://siliconangle.com/2026/10/02/despite-ipo-jitters-and-ai-safety-worries-anthropic-sticks-to-a-2026-offering/",
-      "summary": "How quickly things change in the artificial intelligence era. Just a few months after everyone was scrambling to infuse AI into every enterprise operation — and frankly they still are, as agents have captured the enterprise imagination — everyone now is sayin…",
-      "published_date": "2026-10-02",
+      "title": "AI Agents Just Tried SQL Injection Against U.S. Government Sites — and Nobody Told Them To",
+      "source": "Forkast.news",
+      "url": "https://forkast.news/ai-agents-just-tried-sql-injection-against-u-s-government-sites-and-nobody-told-them-to/",
+      "summary": "On June 17, 2026, the U.S. Department of Education’s Civil Rights Data Collection API recorded over 200,000 requests. Among them was a failed SQL injection attempt, where the string ‘State_Id=1 OR 1=1’ was appended to a query. This was not a targeted breach a…",
+      "published_date": "2026-10-03",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 15,
+      "title": "G20 Could Become Platform for Discussing AI Regulation – Russian Sherpa",
+      "source": "Sputnikglobe.com",
+      "url": "https://sputnikglobe.com/20261003/g20-could-become-platform-for-discussing-ai-regulation--russian-sherpa-1124828231.html",
+      "summary": "WASHINGTON (Sputnik) - The G20 could become a platform for discussing artificial intelligence regulation, Russia's G20 sherpa Denis Agafonov said.",
+      "published_date": "2026-10-03",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -306,16 +315,16 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai safety"
+        "ai regulation"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 15,
-      "title": "conduct-cli 0.14.18",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/conduct-cli/0.14.18/",
-      "summary": "Runtime governance for AI agents. CLI for Conduct AI — secure, govern, install agents, manage projects, run tests",
+      "rank": 16,
+      "title": "Bank AI Job Postings Jump 49% as Agents Go to Work",
+      "source": "pymnts.com",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/bank-ai-job-postings-jump-49percent-agents-go-work/",
+      "summary": "Wall Street banks are accelerating artificial intelligence hiring as they shift from chatbots to AI agents. Hiring is expanding beyond model builders to engineers who put agents to work across trading desks, compliance units and back-office operations. AI-rel…",
       "published_date": "2026-10-02",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
@@ -326,52 +335,16 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "Korea Blockchain Week asks whether blockchains are ready for AI agents",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/korea-blockchain-week-ai-agent-infrastructure/",
-      "summary": "The integration of AI agents into blockchain systems could redefine economic interactions, necessitating new infrastructure and regulatory frameworks.\nThe post Korea Blockchain Week asks whether blockchains are ready for AI agents appeared first on Crypto Bri…",
-      "published_date": "2026-10-02",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
+        "compliance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "AI agents aggressively tried to hack US and Canadian government websites",
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/pro/security/ai-agents-aggressively-tried-to-hack-us-and-canadian-government-websites",
-      "summary": "They were looking for data, and they don't take no for an answer",
-      "published_date": "2026-10-02",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "Google’s James Manyika calls for shared responsibility in AI regulation",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/google-james-manyika-shared-ai-regulation/",
-      "summary": "The call for shared AI regulation highlights the need for collaborative frameworks to ensure safety, balancing innovation with accountability.\nThe post Google’s James Manyika calls for shared responsibility in AI regulation appeared first on Crypto Briefing.",
+      "title": "Maryland Gov. Wes Moore Tees Up State Leaders’ AI Regulation Plan",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/6919833c2bc8e004",
+      "summary": "With federal artificial intelligence regulation tied up in Congress, Maryland Gov. Wes Moore is spearheading a bipartisan effort among state leaders to fill the void.\nMoore, who also serves as chair of the National Governors Association, is working with Co-Ch…",
       "published_date": "2026-10-02",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
@@ -382,43 +355,61 @@
       "matched_keywords": [
         "ai regulation"
       ],
-      "sentiment": "positive"
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "Three AI agents, two countries, and one uneven world wide web",
+      "source": "Substack.com",
+      "url": "https://royapakzad.substack.com/p/multilingual-ai-agents",
+      "summary": "Article URL: https://royapakzad.substack.com/p/multilingual-ai-agents\nComments URL: https://news.ycombinator.com/item?id=49938326\nPoints: 6\n# Comments: 0",
+      "published_date": "2026-10-02",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
     },
     {
       "rank": 19,
-      "title": "'The hottest skill on Wall Street’: Demand for this AI ability jumped 1,721% as banks embrace agents",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/02/ai-skills-most-in-demand-at-jpmorgan-chase-citigroup-capital-one.html",
-      "summary": "Banks are fueling a hiring surge for AI engineers who are good at \"agent orchestration\" — the ability to coordinate teams of specialized agents.",
+      "title": "Show HN: Agent-SDK-go – Build crash-resilient AI agents in Go",
+      "source": "Github.com",
+      "url": "https://github.com/agenticenv/agent-sdk-go",
+      "summary": "Durable execution framework for AI agents in Go. Keeps agent state, tool calls, and execution loops resilient across process crashes. - agenticenv/agent-sdk-go",
       "published_date": "2026-10-02",
-      "relevance_score": 6,
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "orchestration"
+        "ai agent"
       ],
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
       "rank": 20,
-      "title": "How AI is redefining Wall Street jobs — and boosting demand for this new 'hottest skill' by 1,721%",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html",
-      "summary": "Banks are fueling a hiring surge for AI engineers who are good at \"agent orchestration\" — the ability to coordinate teams of specialized agents.",
-      "published_date": "2026-10-02",
-      "relevance_score": 6,
+      "title": "spector-client 0.1.0a3",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/spector-client/0.1.0a3/",
+      "summary": "Client SDK for Spector — Cognitive memory engine for AI agents",
+      "published_date": "2026-10-03",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "orchestration"
+        "ai agent"
       ],
-      "sentiment": "positive"
+      "sentiment": "neutral"
     }
   ]
 }
