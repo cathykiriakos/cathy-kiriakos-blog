@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T14:45:58.853Z",
+  "generated_at": "2026-10-04T17:14:50.657Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -64,6 +64,26 @@
     },
     {
       "rank": 2,
+      "title": "kachedb-mcp 0.4.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/kachedb-mcp/0.4.0/",
+      "summary": "High-performance Model Context Protocol (MCP) server for KacheDB — in-memory cache & SIMD semantic memory for AI agents",
+      "published_date": "2026-10-03",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 3,
       "title": "MAGA mom's dire warning over tech guardrails as Trump puts pedal to the metal on race with China",
       "source": "Fox News",
       "url": "https://www.foxnews.com/politics/maga-mom-dire-warning-tech-guardrails-trump-pedal-metal-race-china",
@@ -81,29 +101,10 @@
       "sentiment": "negative"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "nees-sdk 3.0.0rc2",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/nees-sdk/3.0.0rc2/",
-      "summary": "Python SDK for the NEES AI Governance Platform",
-      "published_date": "2026-10-03",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 4,
-      "title": "nees-sdk added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/nees-sdk/",
       "summary": "Python SDK for the NEES AI Governance Platform",
       "published_date": "2026-10-03",
       "relevance_score": 10,
@@ -139,29 +140,29 @@
     },
     {
       "rank": 6,
-      "title": "macos-computer-use-kit 0.3.2",
+      "title": "nees-sdk added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/macos-computer-use-kit/0.3.2/",
-      "summary": "AX-first macOS computer use for AI agents: an MCP server + CLI for Claude Code, Codex, Cursor and any MCP client. Accessibility-tree targeting with stable refs, background input that never moves your cursor, Unicode typing, menus/windows/apps, set-of-mark scr…",
+      "url": "https://pypi.org/project/nees-sdk/",
+      "summary": "Python SDK for the NEES AI Governance Platform",
       "published_date": "2026-10-03",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 7,
-      "title": "bale-mcp added to PyPI",
+      "title": "tasqr-mcp 0.1.2",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/bale-mcp/",
-      "summary": "Private, local MCP server for Bale (bale.ai) bots: let AI agents read, search and answer messages, ask and wait for replies, and send or download files through the official Bot API.",
+      "url": "https://pypi.org/project/tasqr-mcp/0.1.2/",
+      "summary": "Tasqr MCP server — task state management for AI agents",
       "published_date": "2026-10-03",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -177,114 +178,63 @@
     },
     {
       "rank": 8,
-      "title": "All the AI agents that can live in your text messages",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/536712f36902015e",
-      "summary": "Rather than downloading another app, a growing number of agents can simply be texted like an ordinary person.\nYou text it what you need, and it can remember context, connect to the apps and services you already use, and complete tasks on your behalf. That can…",
+      "title": "hol-guard 3.18.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/hol-guard/3.18.1/",
+      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
       "published_date": "2026-10-03",
-      "relevance_score": 8,
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 9,
-      "title": "All the AI agents that can live in your text messages  | TechCrunch",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "title": "kommo-kiro-power 1.0.4",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/kommo-kiro-power/1.0.4/",
+      "summary": "MCP server for Kommo CRM — Connect AI agents to your Kommo account",
       "published_date": "2026-10-03",
-      "relevance_score": 8,
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 10,
-      "title": "Show HN: Web2MD – turn any URL into clean Markdown for AI agents",
-      "source": "Github.com",
-      "url": "https://github.com/astra-intelligence/web2md-mcp",
-      "summary": "Article URL: https://github.com/astra-intelligence/web2md-mcp\nComments URL: https://news.ycombinator.com/item?id=49944139\nPoints: 1\n# Comments: 1",
+      "title": "Kubernetes Agent Sandbox Is Becoming the Unit of Agent Deployment",
+      "source": "Forkast.news",
+      "url": "https://forkast.news/kubernetes-agent-sandbox-is-becoming-the-unit-of-agent-deployment/",
+      "summary": "The Kubernetes Agent Sandbox is replacing the MCP harness as the primary execution layer for AI agents – and in doing so, it is redefining what “deployment” means for autonomous workloads. For years, the industry treated sandboxing as a secondary security fea…",
       "published_date": "2026-10-03",
-      "relevance_score": 8,
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 11,
-      "title": "AI agents use 5x more tokens than humans as cached prompts explode, headed for 10x",
-      "source": "Slashdot.org",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186013346",
-      "summary": "Daniel Newman&rsquo;s number comes from OpenRouter data, where agents passed humans in February and grew 14x by August.",
-      "published_date": "2026-10-03",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "Rogue AI agents expose internet's frail foundation",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/dc6151f608f34333",
-      "summary": "AI agents don't need to invent new ways to hack the internet to overwhelm its defenses. They just need to speed-run the ones humans already use.\nWhy it matters: Agents are proving they can automate basic hacking techniques at a speed and scale that is turning…",
-      "published_date": "2026-10-03",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 13,
-      "title": "Rise of the Machines: AI Agents Now Burn 5x More Tokens Than Humans — and the Gap Is Widening Fast",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/83c4b7042e8d59ef",
-      "summary": "The post Rise of the Machines: AI Agents Now Burn 5x More Tokens Than Humans — and the Gap Is Widening Fast appeared first on 24/7 Wall St..\nOne Number: $89.02 Billion From the Machines That Make Tokens\nNVIDIA (NASDAQ:NVDA) generated $89.02 billion in Data Ce…",
-      "published_date": "2026-10-03",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
       "title": "AI Agents Just Tried SQL Injection Against U.S. Government Sites — and Nobody Told Them To",
       "source": "Forkast.news",
       "url": "https://forkast.news/ai-agents-just-tried-sql-injection-against-u-s-government-sites-and-nobody-told-them-to/",
@@ -302,7 +252,7 @@
       "sentiment": "negative"
     },
     {
-      "rank": 15,
+      "rank": 12,
       "title": "G20 Could Become Platform for Discussing AI Regulation – Russian Sherpa",
       "source": "Sputnikglobe.com",
       "url": "https://sputnikglobe.com/20261003/g20-could-become-platform-for-discussing-ai-regulation--russian-sherpa-1124828231.html",
@@ -320,7 +270,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 16,
+      "rank": 13,
       "title": "Bank AI Job Postings Jump 49% as Agents Go to Work",
       "source": "pymnts.com",
       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/bank-ai-job-postings-jump-49percent-agents-go-work/",
@@ -340,7 +290,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 17,
+      "rank": 14,
       "title": "Maryland Gov. Wes Moore Tees Up State Leaders’ AI Regulation Plan",
       "source": "Biztoc.com",
       "url": "https://biztoc.com/x/6919833c2bc8e004",
@@ -358,7 +308,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 18,
+      "rank": 15,
       "title": "Three AI agents, two countries, and one uneven world wide web",
       "source": "Substack.com",
       "url": "https://royapakzad.substack.com/p/multilingual-ai-agents",
@@ -376,7 +326,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 19,
+      "rank": 16,
       "title": "Show HN: Agent-SDK-go – Build crash-resilient AI agents in Go",
       "source": "Github.com",
       "url": "https://github.com/agenticenv/agent-sdk-go",
@@ -394,11 +344,65 @@
       "sentiment": "negative"
     },
     {
-      "rank": 20,
-      "title": "spector-client 0.1.0a3",
+      "rank": 17,
+      "title": "alptugharun-ai-workbench-mcp added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/spector-client/0.1.0a3/",
-      "summary": "Client SDK for Spector — Cognitive memory engine for AI agents",
+      "url": "https://pypi.org/project/alptugharun-ai-workbench-mcp/",
+      "summary": "A dependency-free, read-only MCP server for reusable AI prompts and assistant blueprints.",
+      "published_date": "2026-10-03",
+      "relevance_score": 6,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "jsonpit 4.5.3",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/jsonpit/4.5.3/",
+      "summary": "Daemon-free distributed storage over Cloud Drives for developers and AI agents — multi-process, immutable history, zero dependencies.",
+      "published_date": "2026-10-03",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "authyouragent 0.3.21",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/authyouragent/0.3.21/",
+      "summary": "Auth Your Agent SDK: let AI agents act for a user on websites, with the user's approval on their phone.",
+      "published_date": "2026-10-03",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 20,
+      "title": "mindroom 2026.10.74",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/mindroom/2026.10.74/",
+      "summary": "A universal interface for AI agents with persistent memory, where every conversation has a home",
       "published_date": "2026-10-03",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
