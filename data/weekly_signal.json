@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T15:50:05.387Z",
+  "generated_at": "2026-10-07T16:15:16.580Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 11
+      "item_count": 12
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 12
+      "item_count": 9
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 1
+      "item_count": 0
     }
   ],
   "institutional_signal": {
@@ -41,33 +41,11 @@
   "items": [
     {
       "rank": 1,
-      "title": "Storage admins get automated guardrails as agents outrun human-in-the-loop review",
-      "source": "SiliconANGLE News",
-      "url": "https://siliconangle.com/2026/10/05/cyber-resilience-now-depends-governing-ai-agent-data-use-netappinsight/",
-      "summary": "Enterprises pushing AI agents into production are finding that cyber resilience now depends as much on governing what autonomous software does with data as on keeping attackers out. Much of the risk doesn’t come from malicious intent at all; it comes from age…",
-      "published_date": "2026-10-05",
-      "relevance_score": 27,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "guardrail",
-        "human-in-the-loop"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 2,
-      "title": "Altus Achieves Leading AI Governance Certification, Setting New Standard for Responsible AI in Commercial Real Estate",
-      "source": "Financial Post",
-      "url": "https://financialpost.com/globe-newswire/altus-achieves-leading-ai-governance-certification-setting-new-standard-for-responsible-ai-in-commercial-real-estate",
-      "summary": "Global ISO/IEC 42001 certification underscores Altus’ commitment to delivering trusted, transparent and secure AI solutions for the CRE industry TORONTO, Oct. 05, 2026 (GLOBE NEWSWIRE) — Altus Group Limited ( “Altus” or “the Company”) (TSX: AIF), a leading pr…",
-      "published_date": "2026-10-05",
+      "title": "Responsible AI governance: How AWS positions customers to align with ISO/IEC 42005:2025",
+      "source": "Amazon.com",
+      "url": "https://aws.amazon.com/blogs/machine-learning/responsible-ai-governance-how-aws-positions-customers-to-align-with-iso-iec-420052025/",
+      "summary": "AWS invests in tools that help customers align with international standards for responsible AI governance. In this post, we explore the AI system impact assessment: what it is, how it improves enterprise-wide risk management, and how ISO/IEC 42005:2025 codifi…",
+      "published_date": "2026-10-06",
       "relevance_score": 24,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -79,36 +57,55 @@
         "governance",
         "responsible ai"
       ],
-      "sentiment": "positive"
+      "sentiment": "negative"
+    },
+    {
+      "rank": 2,
+      "title": "ONC Funds MedStar’s Open-Source Guardrails for Clinical AI Agents",
+      "source": "Healthsystemcio.com",
+      "url": "https://healthsystemcio.com/2026/10/06/onc-agentic-ai-guardrails/",
+      "summary": "Who checks an AI agent's work once it starts handling patient follow-up? A new federal award pays MedStar to build open-source controls, and its code could give health systems a reference point for judging the controls their vendors sell.\nSource: ONC Funds Me…",
+      "published_date": "2026-10-06",
+      "relevance_score": 18,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "guardrail"
+      ],
+      "sentiment": "neutral"
     },
     {
       "rank": 3,
-      "title": "SAS AI Navigator now available to supercharge AI governance",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/sas-ai-navigator-now-available-to-supercharge-ai-governance-302898119.html",
-      "summary": "Software-as-a-Service solution arrives on Microsoft Marketplace at a time when AI trust is at a premium CARY, N.C., Oct. 5, 2026 /PRNewswire/ -- SAS® AI Navigator is now available to help AI, data, compliance and risk leaders bring order to AI chaos. The new …",
-      "published_date": "2026-10-05",
-      "relevance_score": 21,
+      "title": "OpenAI, Anthropic, Meta, Google stop short of AI safety guarantee - Fox News",
+      "source": "Slashdot.org",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186050750",
+      "summary": "OpenAI, Anthropic, Meta, Google stop short of AI safety guaranteeFox News In NYC, Mamdani cedes AI regulation lanePolitico New York Lawmakers Grill AI Executives Over Safety ConcernsWSJ Ex-Anthropic Researcher Testifies at NYC Council AI HearingBloomberg.com …",
+      "published_date": "2026-10-06",
+      "relevance_score": 11,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance",
-        "compliance"
+        "ai safety",
+        "ai regulation"
       ],
       "sentiment": "negative"
     },
     {
       "rank": 4,
-      "title": "Collibra acquires Munich’s trail ML to automate AI governance",
-      "source": "The Next Web",
-      "url": "https://thenextweb.com/news/collibra-trail-ml-eu-ai-act-market",
-      "summary": "Collibra has acquired trail ML, a Munich startup whose agents work out which AI rules apply to a system, check whether its controls work, and block agent actions that break policy, with no price disclosed. The market exists because of the EU AI Act, whose enf…",
-      "published_date": "2026-10-05",
-      "relevance_score": 21,
+      "title": "Anthropic denies its AI breached Australian government systems, backs breach disclosure laws",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/anthropic-denies-australian-government-systems-breach/",
+      "summary": "Anthropic's stance on breach disclosure laws may influence regulatory frameworks, balancing transparency with privacy in AI governance.\nThe post Anthropic denies its AI breached Australian government systems, backs breach disclosure laws appeared first on Cry…",
+      "published_date": "2026-10-06",
+      "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -116,252 +113,236 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai governance",
-        "governance",
-        "eu ai act"
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 5,
-      "title": "LTM launches BlueVerse AgenTraceIQ to monitor AI agents and reverse unintended actions",
-      "source": "Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/10/05/ltm-blueverse-agentraceiq/",
-      "summary": "LTM has announced the launch of BlueVerse AgenTraceIQ, an offering designed to help organizations securely adopt and scale agentic AI. Combining Rubrik Agent Cloud with LTM’s AI governance and managed services expertise, the offering enables organizations to …",
-      "published_date": "2026-10-05",
-      "relevance_score": 19,
+      "title": "interloper-mcp 0.104.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/interloper-mcp/0.104.0/",
+      "summary": "Interloper MCP server, platform access for AI agents",
+      "published_date": "2026-10-06",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
-        "ai agent",
-        "ai governance",
-        "governance"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 6,
-      "title": "Collibra acquires trail ML to automate AI governance from policy to production",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/collibra-acquires-trail-ml-to-automate-ai-governance-from-policy-to-production-302897376.html",
-      "summary": "Combination brings agent-powered automation, continuous assessment and runtime control to Collibra, helping enterprises automate governance and enforce AI policies, regulations and standards across the AI lifecycle. NEW YORK, Oct. 5, 2026 /PRNewswire/ -- Coll…",
-      "published_date": "2026-10-05",
-      "relevance_score": 18,
-      "primary_pillar": "governance_as_code",
+      "title": "zimi-mcp added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/zimi-mcp/",
+      "summary": "Zimi's MCP server and search alone: search and read Wikipedia, Stack Overflow and other ZIM files offline, for AI agents",
+      "published_date": "2026-10-06",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 7,
-      "title": "New York’s financial regulator teams up with California and Illinois on AI safety",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/new-york-california-illinois-ai-safety/",
-      "summary": "Interstate AI regulation collaboration may increase compliance costs for developers, enhance safety oversight, and streamline incident reporting.\nThe post New York’s financial regulator teams up with California and Illinois on AI safety appeared first on Cryp…",
-      "published_date": "2026-10-05",
-      "relevance_score": 14,
-      "primary_pillar": "governance_as_code",
+      "title": "API3’s AirnodeHub Delivers Source-Signed Data to the AI Agent Economy",
+      "source": "ZyCrypto",
+      "url": "https://zycrypto.com/api3s-airnodehub-delivers-source-signed-data-to-the-ai-agent-economy/",
+      "summary": "For most of its history, API3 has been known in crypto for one thing: moving real-world data onto blockchains without a middleman. Its newest product aims that same machinery at a customer that barely existed a year ago — the AI agents now beginning to transa…",
+      "published_date": "2026-10-06",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "compliance",
-        "ai safety",
-        "ai regulation"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 8,
-      "title": "Promevo Launches Insights by Promevo for a Total View of AI Agents, Gemini Enterprise Adoption, and Google Cloud Spend",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/promevo-launches-insights-by-promevo-for-a-total-view-of-ai-agents-gemini-enterprise-adoption-and-google-cloud-spend-302898038.html",
-      "summary": "COVINGTON, Ky., Oct. 5, 2026 /PRNewswire/ -- Promevo today launched Insights by Promevo, the first platform to unify AI agent governance, Gemini Enterprise adoption, and Google Cloud cost management into a comprehensive view, giving leaders visibility that na…",
-      "published_date": "2026-10-05",
-      "relevance_score": 11,
+      "title": "VMPal: Give Your AI Agent a Whole Computer",
+      "source": "Laravel News",
+      "url": "https://laravel-news.com/vmpal-ai-agent-virtual-machine",
+      "summary": "VMPal gives your AI agent its own macOS, Windows, or Linux VM on Apple silicon, so Claude Code or Codex can work without you approving every prompt.\n\n The post VMPal: Give Your AI Agent a Whole Computer appeared first on Laravel News.\n Join the Laravel Newsle…",
+      "published_date": "2026-10-06",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "governance"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 9,
-      "title": "Manulife Announces Presenting Partnership of The Hinton Lectures™ on AI Safety",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/manulife-announces-presenting-partnership-of-the-hinton-lectures-on-ai-safety-302897427.html",
-      "summary": "C$ unless otherwise stated TSX/NYSE/PSE: MFC SEHK: 945 This partnership will advance public understanding of AI safety, led by Nobel Laureate Geoffrey Hinton and supported by Manulife's commitment to Responsible AI TORONTO, Oct. 5, 2026 /PRNewswire/ -- Manuli…",
-      "published_date": "2026-10-05",
-      "relevance_score": 11,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "responsible ai",
-        "ai safety"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 10,
-      "title": "Presentation: Building Reusable Evaluation Frameworks for Agentic AI Products",
-      "source": "InfoQ.com",
-      "url": "https://www.infoq.com/presentations/elastic-ai-agent-evaluations/",
-      "summary": "Susan Chang explains how Elastic transitioned from siloed, ad-hoc AI agent evaluations to a unified, production-grade framework. She discusses balancing LLM-as-a-judge with deterministic rules, bridging Python data science evals with TypeScript production cod…",
-      "published_date": "2026-10-05",
-      "relevance_score": 11,
+      "title": "Show HN: OpenChart – OSS TradingView alternative with your own AI agent",
+      "source": "Github.com",
+      "url": "https://github.com/longsurf-ai/openchart",
+      "summary": "Hi HN, I'm Weilun, cofounder of OpenChart.We built OpenChart because we wanted Claude and Codex to interface with the markets, like most of humans do, through charts rather than through CLIs.With your existing AI plans, your agent can work directly with your …",
+      "published_date": "2026-10-06",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 11,
-      "title": "Why agentic AI demands a new approach to enterprise security",
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/pro/why-agentic-ai-demands-a-new-approach-to-enterprise-security",
-      "summary": "Autonomous AI agents are transforming enterprise workflows, creating new security risks around data, intent, access and accountability.",
-      "published_date": "2026-10-05",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 12,
-      "title": "maigp-client 5.3.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/maigp-client/5.3.0/",
-      "summary": "MAIGP (Mediated AI Governance Protocol) client — consent-based runtime AI governance",
-      "published_date": "2026-10-05",
-      "relevance_score": 10,
+      "rank": 10,
+      "title": "Trump allies push to sideline AI safety advocates as fight over oversight grows",
+      "source": "Yahoo Entertainment",
+      "url": "https://www.yahoo.com/news/politics/articles/told-world-ai-dangerous-now-092510605.html",
+      "summary": "BERKELEY, Calif. - After artificial intelligence safety advocates captured Washington's attention with dire warnings about the technology's power, the Trump administration and its allies embraced some of their suggestions, while moving to sideline the advocat…",
+      "published_date": "2026-10-06",
+      "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "ai safety"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 11,
+      "title": "Calls for AI regulation grow as experts warn of dystopian future",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/c22a140fc70803fd",
+      "summary": "Calls for AI regulation grew, though the White House showed little interest.\nWriting in the Financial Times, one of the so-called godfathers of AI argued that it “should be approached like other critical technologies including medicine, aviation, and nuclear …",
+      "published_date": "2026-10-06",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai regulation"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 12,
+      "title": "Transcend Rails brings policy enforcement and spending controls to AI agents",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/10/06/transcend-rails-brings-policy-enforcement-and-spending-controls-to-ai-agents/",
+      "summary": "Transcend has launched Transcend Rails, a new category of agent management that goes beyond identity and access control to govern what an agent does. Every enterprise scaling AI agents hits the same wall: the board asks what agents did last quarter, and no on…",
+      "published_date": "2026-10-06",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 13,
-      "title": "maigp-agent-core 1.1.0",
+      "title": "aarvion-ai-governance 0.0.4",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/maigp-agent-core/1.1.0/",
-      "summary": "MAIGP Agent Governance Core — shared lifecycle for all framework adapters (Mediated AI Governance Protocol)",
-      "published_date": "2026-10-05",
-      "relevance_score": 10,
+      "url": "https://pypi.org/project/aarvion-ai-governance/0.0.4/",
+      "summary": "Aarvion developer data plane - govern your agent's LLM/HTTP calls locally against the same signed policies your sidecar enforces.",
+      "published_date": "2026-10-06",
+      "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
         "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 14,
-      "title": "tares 1.42.0rc2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/tares/1.42.0rc2/",
-      "summary": "A self-hostable data plane for AI agents: ingest events, store them losslessly, and serve one correlated read of any entity over MCP.",
-      "published_date": "2026-10-05",
-      "relevance_score": 9,
+      "title": "Vitalik Buterin: traditional on-chain apps may fade as AI agents take over",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/vitalik-buterin-ai-agents-onchain-apps/",
+      "summary": "AI-driven blockchain interactions could redefine user engagement, raising privacy and security concerns as traditional interfaces recede.\nThe post Vitalik Buterin: traditional on-chain apps may fade as AI agents take over appeared first on Crypto Briefing.",
+      "published_date": "2026-10-06",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
         "ai agent"
       ],
       "sentiment": "negative"
     },
     {
       "rank": 15,
-      "title": "sealwall 0.1.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/sealwall/0.1.1/",
-      "summary": "Firewall and tamper-evident audit log for AI agents using MCP",
-      "published_date": "2026-10-05",
-      "relevance_score": 9,
+      "title": "Show HN: Golem – Zero-dependency, type-safe AI agent framework in pure Go",
+      "source": "Github.com",
+      "url": "https://github.com/abubakarsiddik31/golem",
+      "summary": "Go-first framework for dependable AI agents: typed dependencies and outputs, explicit tools, composable models, observable runs - abubakarsiddik31/golem",
+      "published_date": "2026-10-06",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 16,
-      "title": "tares 1.42.0rc1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/tares/1.42.0rc1/",
-      "summary": "A self-hostable data plane for AI agents: ingest events, store them losslessly, and serve one correlated read of any entity over MCP.",
-      "published_date": "2026-10-05",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
+      "title": "A reckoning on social media addiction came late for many kids. Will AI safety be different?",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/tech/technology/a-reckoning-on-social-media-addiction-came-late-for-many-kids-will-ai-safety-be-different/articleshow/134722797.cms",
+      "summary": "When Meta agreed to changes to its social media platforms and enhanced safeguards in an $18 billion settlement, it made progress by \"getting at what we've known for years\" about the dangers, said Kristin Bride, a parent advocate who has fought for social medi…",
+      "published_date": "2026-10-06",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "ai safety"
       ],
       "sentiment": "negative"
     },
     {
       "rank": 17,
-      "title": "Connecting AI agents to enterprise knowledge",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
-      "summary": "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in the context of individual organizations…",
-      "published_date": "2026-10-05",
-      "relevance_score": 8,
+      "title": "atep 0.1.0a6",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/atep/0.1.0a6/",
+      "summary": "ATEP: quantum-safe trust layer for robots and AI agents (hybrid Ed25519 + ML-DSA-65, X25519 + ML-KEM-768) with offline identification. Pure Python, standard library only. Experimental alpha.",
+      "published_date": "2026-10-06",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -374,12 +355,30 @@
     },
     {
       "rank": 18,
-      "title": "Researchers track Chinese AI agent fleet operating on Tencent infrastructure",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/chinese-ai-agent-fleet-tencent-amap/",
-      "summary": "Swarmchasers researchers tracked an AI agent fleet on Tencent Cloud querying Alibaba's Amap for entrance data at 213 places across China.\nThe post Researchers track Chinese AI agent fleet operating on Tencent infrastructure appeared first on Crypto Briefing.",
-      "published_date": "2026-10-05",
-      "relevance_score": 8,
+      "title": "Identity-aware AI data agents with AWS Lake Formation and Trusted Identity Propagation",
+      "source": "Amazon.com",
+      "url": "https://aws.amazon.com/blogs/security/identity-aware-ai-data-agents-with-aws-lake-formation-and-trusted-identity-propagation/",
+      "summary": "You’re building a data agent that lets business users ask questions about lakehouse data in natural language. You’ve already built governance policies that control who can access which datasets. The challenge is making the agent respect those rules without re…",
+      "published_date": "2026-10-06",
+      "relevance_score": 5,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "governance"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 19,
+      "title": "korely-memory 0.1.18",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/korely-memory/0.1.18/",
+      "summary": "Python SDK for Korely Agents: memory for AI agents with bi-temporal typed facts.",
+      "published_date": "2026-10-06",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -391,31 +390,13 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 19,
-      "title": "Sen. Adam Schiff on AI regulation, free speech, and impeaching Trump one more time",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/14d5924a692f41db",
-      "summary": "Today, I’m talking with Senator Adam Schiff, a Democrat from California. Sen. Schiff sits on a number of committees with oversight into tech and AI: intellectual property, antitrust, privacy and technology — it’s all there. I really wanted to ask him about ho…",
-      "published_date": "2026-10-05",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai regulation"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 20,
-      "title": "Dozens to Thousands of AI Agents: The 13 C-Level Leaders With New Responsibilities",
-      "source": "Starcio.com",
-      "url": "https://drive.starcio.com/2026/10/thousands-of-ai-agents-13-c-level-leaders-responsibilities/",
-      "summary": "Exponential increases in deployed AI agents requires new C-level leadership roles around growth, architecture, people/process, and risk management. CEOs have to lead responsibility assignments and setting a transformation imperative. StarCIO proposes responsi…",
-      "published_date": "2026-10-05",
-      "relevance_score": 8,
+      "title": "Researchers Are Tracking a Chinese AI 'Agent Fleet'",
+      "source": "Slashdot.org",
+      "url": "https://tech.slashdot.org/story/26/10/06/0459247/researchers-are-tracking-a-chinese-ai-agent-fleet",
+      "summary": "Independent researchers say they've identified a large \"fleet\" of AI agents apparently running on Tencent infrastructure and making parallel queries against Alibaba's Amap mapping service. TechCrunch reports: Researchers, however, resisted the term \"swarm,\" n…",
+      "published_date": "2026-10-06",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
