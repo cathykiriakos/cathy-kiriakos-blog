@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T16:16:28.859Z",
+  "generated_at": "2026-10-09T16:00:18.016Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 12
+      "item_count": 17
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 8
+      "item_count": 5
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 2
+      "item_count": 0
     }
   ],
   "institutional_signal": {
@@ -41,31 +41,70 @@
   "items": [
     {
       "rank": 1,
-      "title": "The Clock on AI Regulation Is Ticking, Warns U.N. Rights Chief",
-      "source": "UN News",
-      "url": "https://news.un.org/en/story/2026/10/1168529",
-      "summary": "Source: United Nations News\r\nThe world is running out of time to put guardrails on artificial intelligence, UN High Commissioner for Human Rights Volker Türk warned Monday, as a \"ruthless race\" between companies and countries raises concerns about human safet…",
-      "published_date": "2026-10-07",
-      "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
+      "title": "eXp Realty Unveils “MCP First, AI of Choice” Connecting Agents’ Own AI Directly to the eXp Platform",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/globe-newswire/exp-realty-unveils-mcp-first-ai-of-choice-connecting-agents-own-ai-directly-to-the-exp-platform",
+      "summary": "New Model Context Protocol integrations let agents query the Hub, My eXp, eXp University, eXp Divisions, Canva, Sisu and leading CRM and productivity tools directly from Claude, ChatGPT, or the AI they already use — no new login, no new app, nothing to downlo…",
+      "published_date": "2026-10-08",
+      "relevance_score": 16,
+      "primary_pillar": "applied_ai",
       "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 2,
+      "title": "mcp-india-stack 0.6.8",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/mcp-india-stack/0.6.8/",
+      "summary": "Model Context Protocol server for Indian financial, tax, and regulatory APIs — GSTIN, IFSC, PAN, UPI, pincode, HSN/SAC — for AI agents. Zero auth. Offline-first.",
+      "published_date": "2026-10-08",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 3,
+      "title": "telos-mcp 0.1.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/telos-mcp/0.1.2/",
+      "summary": "Model Context Protocol server for TELOS AI Labs governance (scoring, unsigned integrity-hash receipts, audit chain, CCRS replay).",
+      "published_date": "2026-10-08",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail",
-        "ai regulation"
+        "model context protocol",
+        "governance"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "rank": 2,
-      "title": "Apollo GraphQL Introduces GraphOS Agent Services, Giving AI Agents Governed Access to Enterprise APIs and Systems",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/apollo-graphql-introduces-graphos-agent-services-giving-ai-agents-governed-access-to-enterprise-apis-and-systems-302900890.html",
-      "summary": "New services extend Apollo's platform to AI agents, helping companies control what agents can find and do across existing systems; GraphOS MCP Server gives teams a full suite of agent-ready tools for building and managing the graph Intuit is piloting GraphOS …",
-      "published_date": "2026-10-07",
-      "relevance_score": 12,
+      "rank": 4,
+      "title": "cuba-memorys 1.30.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/cuba-memorys/1.30.0/",
+      "summary": "MemoryIndustry — Persistent memory MCP server for AI agents. 31 tools, self-growing graph without MCP sampling, poisoning quarantine: bitemporal facts, sqlx-migrate, BM25+MMR+OOD hybrid retrieval, graph metrics, conformal prediction, Hebbian/BCM, project scop…",
+      "published_date": "2026-10-08",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -78,146 +117,50 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 3,
-      "title": "Vijil DART tests AI agents for security flaws and policy violations",
-      "source": "Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/10/07/vijil-diamond-adaptive-red-teaming-for-agents-dart/",
-      "summary": "Vijil has released Diamond Adaptive Red Teaming for Agents (DART), an automated testing system that finds security vulnerabilities and policy violations in enterprise AI agents. DART employs multiple adversarial agents of its own to probe the target’s defense…",
-      "published_date": "2026-10-07",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "red-teaming"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 4,
-      "title": "What happens when AI starts fighting cyber threats on its own? Here's how agentic security works",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/industry/services/what-happens-when-ai-starts-fighting-cyber-threats-on-its-own-heres-how-agentic-security-works/articleshow/134759049.cms",
-      "summary": "Artificial intelligence is evolving from assisting cybersecurity to taking on more responsibilities autonomously and efficiently. This shift, termed agentic security, enables AI to identify and investigate threats without waiting for human input. AI agents li…",
-      "published_date": "2026-10-07",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 5,
-      "title": "AI Agents Are Coming For CTV; It’s Cheaper For Politicians To Buy National Ads Than To Target Texas",
-      "source": "AdExchanger",
-      "url": "http://www.adexchanger.com/daily-news-roundup/ai-agents-are-coming-for-ctv-its-cheaper-for-politicians-to-buy-national-ads-than-to-target-texas/",
-      "summary": "Agents, Agents Everywhere Agentic media buying is all the rage, including for streaming TV. A new joint effort announced Tuesday will use custom agents to help brand marketers get more from their streaming TV investments, including upfront commitments. The in…",
-      "published_date": "2026-10-07",
-      "relevance_score": 11,
+      "title": "Docsy for AI Agents, Oh, and People Too",
+      "source": "DevOps.com",
+      "url": "https://devops.com/docsy-for-ai-agents-oh-and-people-too/",
+      "summary": "Google’s Docsy is joining the Linux Foundation as AI agents become documentation readers. Prague — When I grew up in programming, if you didn’t understand something in the code or operating system, you were told to Read The Fine (Ah, yeah, fine) Manual (RTFM)…",
+      "published_date": "2026-10-08",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 6,
-      "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
-      "source": "Internet",
-      "url": "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",
-      "summary": "The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems where work actually happens.\n\nFor years, the enterprise cybe…",
-      "published_date": "2026-10-07",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 7,
-      "title": "Children’s Nebraska’s Cameron Says In-House AI Builds Raise the Bar for Token-Priced Vendor Tools",
-      "source": "Healthsystemcio.com",
-      "url": "https://healthsystemcio.com/2026/10/07/in-house-ai-builds-vendors/",
-      "summary": "Ryan Cameron, EVP, Chief Information & Innovation Officer, Children's Nebraska; Ryan Curl, PhD, AI Governance Lead, SUNY Upstate Medical University; Pete D'Addio, VP of Technology, LCMC Health; and Brian Dilcher, MD, Associate CMIO & Director of Emergency Med…",
-      "published_date": "2026-10-07",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 8,
-      "title": "How Qlik built grounded, enterprise-scale AI with Amazon Bedrock",
-      "source": "Amazon.com",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
-      "summary": "Qlik built Qlik Answers on Amazon Bedrock to give its 40,000+ customers grounded, sourced answers across structured and unstructured enterprise data. Learn how a layered, multi-agent architecture with cross-Region inference and Amazon Bedrock Guardrails deliv…",
-      "published_date": "2026-10-07",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "title": "Securonix Introduces Advanced Behavioral Analytics to Detect Human and AI-Driven Threats",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/8dcecef422b61241",
+      "summary": "New solution uses behavioral intelligence and governed Agentic AI to uncover human and AI-driven threats while keeping analysts in control, backed by new ISO/IEC 42001:2023 certification for responsible AI management.\nPLANO, Texas, October 08, 2026--(BUSINESS…",
+      "published_date": "2026-10-08",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "multi-agent",
-        "guardrail"
+        "agentic",
+        "responsible ai"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 9,
-      "title": "WEVO Named in the 2026 Gartner® Coolest Vendor Innovations in AI User Experience, One of Only Five Companies Recognized",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/wevo-named-in-the-2026-gartner-coolest-vendor-innovations-in-ai-user-experience-one-of-only-five-companies-recognized-302900697.html",
-      "summary": "As AI makes building products and campaigns faster and cheaper, the new bottleneck is knowing which ones deserve to launch BOSTON, Oct. 7, 2026 /PRNewswire/ -- WEVO, the customer insight platform that validates products and campaigns before launch, today anno…",
-      "published_date": "2026-10-07",
-      "relevance_score": 10,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "user experience"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 10,
-      "title": "Nous Research launches Hermes Index to benchmark agentic AI models",
+      "rank": 7,
+      "title": "Vesta raises $30M to scale AI agents built for mortgage lenders",
       "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/nous-research-hermes-index-agentic-ai/",
-      "summary": "The Hermes Index could reshape AI model evaluation, emphasizing cost-efficiency and performance, potentially influencing enterprise adoption.\nThe post Nous Research launches Hermes Index to benchmark agentic AI models appeared first on Crypto Briefing.",
-      "published_date": "2026-10-07",
+      "url": "https://cryptobriefing.com/vesta-raises-30m-ai-agents-mortgage-lenders/",
+      "summary": "Vesta's AI-driven mortgage solutions could significantly reduce costs and streamline processes, potentially transforming the lending industry.\nThe post Vesta raises $30M to scale AI agents built for mortgage lenders appeared first on Crypto Briefing.",
+      "published_date": "2026-10-08",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -225,17 +168,35 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 11,
-      "title": "Spring Labs Acquires Winnow to Connect the Law to the Daily Work of Compliance",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/spring-labs-acquires-winnow-to-connect-the-law-to-the-daily-work-of-compliance-302901357.html",
-      "summary": "Winnow's library of laws and regulations, built by attorneys, becomes the foundation of SpringGRC, an AI compliance platform for financial institutions of all sizes MARINA DEL REY, Calif., Oct. 7, 2026 /PRNewswire/ -- Spring Labs Holdings, Inc. (\"Spring Labs\"…",
-      "published_date": "2026-10-07",
+      "rank": 8,
+      "title": "Google launches workplace AI agent that acts like a colleague",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/technology/google-launches-workplace-ai-agent-acts-like-colleague",
+      "summary": "Alphabet Inc.’s Google announced a Gemini agent for the workplace, ramping up competition for corporate customers. Find out more here",
+      "published_date": "2026-10-08",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 9,
+      "title": "Push for Mandatory AI Safety Rules Gains Momentum in Washington",
+      "source": "pymnts.com",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/mandatory-ai-safety-rules-push-gains-momentum-washington/",
+      "summary": "Sen. Maria Cantwell of Washington, the ranking member on the Commerce, Science and Transportation Committee, unveiled a framework Wednesday (Oct. 7) for regulating frontier artificial intelligence in a possible preview of a federal regulatory push should Demo…",
+      "published_date": "2026-10-08",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -243,18 +204,54 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "compliance"
+        "ai safety"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 10,
+      "title": "A reckoning on social media addiction came late for many kids. Will AI safety be different?",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/tech/technology/a-reckoning-on-social-media-addiction-came-late-for-many-kids-will-ai-safety-be-different/articleshow/134722797.cms",
+      "summary": "When Meta agreed to changes to its social media platforms and enhanced safeguards in an $18 billion settlement, it made progress by \"getting at what we've known for years\" about the dangers, said Kristin Bride, a parent advocate who has fought for social medi…",
+      "published_date": "2026-10-06",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai safety"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 11,
+      "title": "mindroom 2026.10.209",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/mindroom/2026.10.209/",
+      "summary": "A universal interface for AI agents with persistent memory, where every conversation has a home",
+      "published_date": "2026-10-08",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "Man Says He Was Mortified When His AI Agent Posted His Bank Balances and Exactly What He’s Spending His Money on in a Slack Work Channel",
-      "source": "Futurism",
-      "url": "https://futurism.com/future-society/ai-agent-posted-bank-balances-spending-slack",
-      "summary": "\"How the f*** could you get this wrong? That's literally my bank balance to our whole team?\"\nThe post Man Says He Was Mortified When His AI Agent Posted His Bank Balances and Exactly What He’s Spending His Money on in a Slack Work Channel appeared first on Fu…",
-      "published_date": "2026-10-07",
-      "relevance_score": 8,
+      "title": "vantadb-mem0 added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/vantadb-mem0/",
+      "summary": "Mem0 adapter for VantaDB — embedded vector memory for AI agents",
+      "published_date": "2026-10-08",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -267,137 +264,11 @@
     },
     {
       "rank": 13,
-      "title": "Beyond hours saved: Building the business case for agentic automation",
-      "source": "Amazon.com",
-      "url": "https://aws.amazon.com/blogs/machine-learning/beyond-hours-saved-building-the-business-case-for-agentic-automation/",
-      "summary": "The RPA-era ROI model misses most of the value agentic automation creates. This post gives AI center of excellence leaders a framework to size the full value of agents across time savings, exception handling, decision quality, and maintenance economics, and t…",
-      "published_date": "2026-10-07",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "Microsoft Eyes Agentic AI Expansion With New Nvidia Laptop",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/e0e926ea895fd57a",
-      "summary": "Microsoft is ready to unveil a Nvidia-powered laptop as it works to make Windows a platform for artificial intelligence agents, Reuters reported Wednesday (Oct. 7). Microsoft is trying to show that some of the work that happens in cloud computing centers can …",
-      "published_date": "2026-10-07",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "Organizational AI use grows eightfold, yet governance gap remains: survey",
-      "source": "Financial Post",
-      "url": "https://financialpost.com/globe-newswire/organizational-ai-use-grows-eightfold-yet-governance-gap-remains-survey",
-      "summary": "TORONTO, Oct. 07, 2026 (GLOBE NEWSWIRE) — The use of AI in Canadian organizations has increased more than eightfold in just three years, outpacing the governance frameworks needed to support it, according to new research from CPA Canada. “AI has moved from ex…",
-      "published_date": "2026-10-07",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "Choosing the Right Agentic AI Framework for 2026: A Decision-Tree Approach",
-      "source": "Machinelearningmastery.com",
-      "url": "https://machinelearningmastery.com/choosing-the-right-agentic-ai-framework-for-2026-a-decision-tree-approach/",
-      "summary": "In this article, you will learn how to choose the right agentic AI framework for your production system by working through a structured decision-tree based on your workload’s actual requirements.",
-      "published_date": "2026-10-07",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "A reckoning on social media addiction came late for many kids. Will AI safety be different?",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/tech/technology/a-reckoning-on-social-media-addiction-came-late-for-many-kids-will-ai-safety-be-different/articleshow/134722797.cms",
-      "summary": "When Meta agreed to changes to its social media platforms and enhanced safeguards in an $18 billion settlement, it made progress by \"getting at what we've known for years\" about the dangers, said Kristin Bride, a parent advocate who has fought for social medi…",
-      "published_date": "2026-10-06",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai safety"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 18,
-      "title": "HOPPR and CARPL.ai partner to give customers access to foundation models for building and fine-tuning radiology AI",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/hoppr-and-carplai-partner-to-give-customers-access-to-foundation-models-for-building-and-fine-tuning-radiology-ai-302900843.html",
-      "summary": "CUPERTINO, Calif., Oct. 7, 2026 /PRNewswire/ -- CARPL.ai, the world's largest radiology AI marketplace and enterprise imaging AI platform, today announced a partnership with HOPPR, a company transforming how AI is developed for medical imaging. The collaborat…",
-      "published_date": "2026-10-07",
-      "relevance_score": 6,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "fine-tuning"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 19,
-      "title": "Calnex and VIAVI expand partnership to deliver end-to-end network and application performance validation for next-generation networks.",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/calnex-and-viavi-expand-partnership-to-deliver-end-to-end-network-and-application-performance-validation-for-next-generation-networks-302901330.html",
-      "summary": "The combined portfolio will enable customers to recreate real-world network conditions, validate user experience and accelerate deployment for the AI, Data Center, Defense, Satcom and Enterprise markets EDINBURGH, Scotland, Oct. 7, 2026 /PRNewswire/ -- Calnex…",
-      "published_date": "2026-10-07",
-      "relevance_score": 6,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "user experience"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 20,
-      "title": "Ramp Veterans Raise $25 Million for AI Creative Platform Melius",
-      "source": "pymnts.com",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ramp-veterans-raise-25-million-for-ai-creative-platform-melius/",
-      "summary": "Melius, a startup offering AI agents for creative work, has raised $25 million in new funding. The new financing, announced Tuesday (Oct. 6), will help Melius expand its platform, designed for people using artificial intelligence (AI) to create images, videos…",
-      "published_date": "2026-10-07",
+      "title": "vantadb-mem0 0.5.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/vantadb-mem0/0.5.0/",
+      "summary": "Mem0 adapter for VantaDB — embedded vector memory for AI agents",
+      "published_date": "2026-10-08",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -406,6 +277,132 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "vantadb-llamaindex 0.5.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/vantadb-llamaindex/0.5.0/",
+      "summary": "LlamaIndex adapter for VantaDB — embedded vector memory for AI agents",
+      "published_date": "2026-10-08",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "vantadb-llamaindex added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/vantadb-llamaindex/",
+      "summary": "LlamaIndex adapter for VantaDB — embedded vector memory for AI agents",
+      "published_date": "2026-10-08",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "vantadb-letta added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/vantadb-letta/",
+      "summary": "Letta adapter for VantaDB — embedded vector memory for AI agents",
+      "published_date": "2026-10-08",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "vantadb-letta 0.5.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/vantadb-letta/0.5.0/",
+      "summary": "Letta adapter for VantaDB — embedded vector memory for AI agents",
+      "published_date": "2026-10-08",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "pilotprotocol 1.18.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/pilotprotocol/1.18.0/",
+      "summary": "Python SDK for Pilot Protocol - the network stack for AI agents",
+      "published_date": "2026-10-08",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "clastogen 0.4.3",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/clastogen/0.4.3/",
+      "summary": "Mutation testing and statistical assertion framework for LLMs and AI Agents",
+      "published_date": "2026-10-08",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 20,
+      "title": "AI empowerment and supervisory board effectiveness: Evidence from an information processing framework",
+      "source": "Plos.org",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0360152",
+      "summary": "In the context of rapid digitalization and intelligent governance, artificial intelligence (AI) technologies are increasingly embedded in organizational supervision and decision-making processes, fundamentally reshaping how supervisory boards process informat…",
+      "published_date": "2026-10-08",
+      "relevance_score": 5,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "governance"
       ],
       "sentiment": "neutral"
     }
