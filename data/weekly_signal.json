@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T15:29:53.191Z",
+  "generated_at": "2026-10-11T17:53:30.311Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -19,7 +19,7 @@
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 2
+      "item_count": 1
     }
   ],
   "institutional_signal": {
@@ -157,193 +157,43 @@
     },
     {
       "rank": 7,
-      "title": "Joseph Gordon-Levitt Warns A.I. Models Are “Being Trained To Hijack Your Intimacy”",
-      "source": "Deadline",
-      "url": "http://deadline.com/2026/10/joseph-gordon-levitt-artificial-intelligence-1237153993/",
-      "summary": "In a new video interview for The New York Times, actor Joseph Gordon-Levitt, serving as the United Nations’ global advocate of human-centric digital governance, has some concerning words about the impact of artificial intelligence. Things like the “decline of…",
+      "title": "The Python Coding Stack: 1. What makes an AI agent different from a chatbot?",
+      "source": "Thepythoncodingstack.com",
+      "url": "https://www.thepythoncodingstack.com/p/1-what-makes-an-ai-agent-different",
+      "summary": "Agents Unpacked • Chapter 1: Tools let a system act, but who chooses what happens next?",
       "published_date": "2026-10-10",
-      "relevance_score": 10,
-      "primary_pillar": "human_centric_design",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code",
-        "human_centric_design"
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "Satya Nadella wants companies to treat AI models like insider threats",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/satya-nadella-ai-models-insider-threats/",
+      "summary": "Nadella's AI oversight approach could redefine corporate governance, emphasizing transparency and accountability to mitigate AI risks.\nThe post Satya Nadella wants companies to treat AI models like insider threats appeared first on Crypto Briefing.",
+      "published_date": "2026-10-10",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
         "governance",
-        "human-centered"
+        "ai oversight"
       ],
       "sentiment": "negative"
-    },
-    {
-      "rank": 8,
-      "title": "benethos-mailbox-mcp 0.4.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/benethos-mailbox-mcp/0.4.0/",
-      "summary": "MCP server that gives AI agents your mailboxes through mailbox-service: read, sort, draft and send mail, only within the rights, folders and send limits its token holds. Over stdio or HTTP.",
-      "published_date": "2026-10-10",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
     },
     {
       "rank": 9,
-      "title": "devdroid 1.0.2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/devdroid/1.0.2/",
-      "summary": "Real-time mobile and desktop browser remote control MCP server and DevTools CDP bridge for AI agents",
-      "published_date": "2026-10-10",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 10,
-      "title": "agent-identity-protocol 0.6.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/agent-identity-protocol/0.6.0/",
-      "summary": "Verifiable cryptographic identity and delegation for AI agents across MCP and A2A",
-      "published_date": "2026-10-10",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
-      "title": "devdroid 1.0.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/devdroid/1.0.1/",
-      "summary": "Real-time mobile and desktop browser remote control MCP server and DevTools CDP bridge for AI agents",
-      "published_date": "2026-10-10",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "devdroid added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/devdroid/",
-      "summary": "Real-time mobile and desktop browser remote control MCP server and DevTools CDP bridge for AI agents",
-      "published_date": "2026-10-10",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 13,
-      "title": "Apple’s Shelved Plan to Replace 5,000 AppleCare Advisers With AI Agents Is a Map of Who Absorbs the Cost",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/11907b5cb81d5097",
-      "summary": "Apple’s Shelved Plan to Replace 5,000 AppleCare Advisers With AI Agents Is a Map of Who Absorbs the Cost\nThere is a distinct gap between what Apple has built and what it has shelved. On one side, the company has deployed a generative AI voice assistant on its…",
-      "published_date": "2026-10-10",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "Show HN: Tessary – Find the AI agent failures your sampled evals miss",
-      "source": "Github.com",
-      "url": "https://github.com/tessaryai/tessary",
-      "summary": "Hey, I'm Akhil, co-founder of Tessary. An open-source agent reliability platform that monitors every production trace, detects issues that sampled evals miss, and investigates to find the root cause.We started up about a year ago building synthetic users for …",
-      "published_date": "2026-10-10",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 15,
-      "title": "Here are the top AI agents that can live in your text messages",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/aace964d6a7ccc0b",
-      "summary": "Rather than downloading another app, a growing number of agents can simply be texted like an ordinary person.\nYou text it what you need, and it can remember context, connect to the apps and services you already use, and complete tasks on your behalf. That can…",
-      "published_date": "2026-10-10",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "Here are the top AI agents that can live in your text messages  | TechCrunch",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "published_date": "2026-10-10",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
       "title": "18 insights from SailPoint’s Navigate event: Enterprises race to bring identity security for AI agents up to machine speed",
       "source": "SiliconANGLE News",
       "url": "https://siliconangle.com/2026/10/09/identity-security-ai-agents-18-insights-from-navigate-2026-sailpointnavigate/",
@@ -361,25 +211,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 18,
-      "title": "AI Training Critical as Governance Challenges Grow",
-      "source": "Infosecurity Magazine",
-      "url": "https://www.infosecurity-magazine.com/news/ai-training-critical-as-governance/",
-      "summary": "As AI adoption accelerates, ISACA is expanding its certification portfolio with a governance-focused credential designed to help professionals manage AI securely",
-      "published_date": "2026-10-09",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "governance"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 19,
+      "rank": 10,
       "title": "Show HN: Open Components – UI Components standard for people, devs and AI agents",
       "source": "Opencomponents.dev",
       "url": "https://opencomponents.dev/",
@@ -397,7 +229,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 20,
+      "rank": 11,
       "title": "AI agent Instinct: The Real Challenge of Surviving Muse",
       "source": "Blogdoandroid.com",
       "url": "https://blogdoandroid.com/ai-agent-instinct/",
@@ -413,6 +245,168 @@
         "ai agent"
       ],
       "sentiment": "negative"
+    },
+    {
+      "rank": 12,
+      "title": "A reckoning on social media addiction came late for many kids. Will AI safety be different?",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/tech/technology/a-reckoning-on-social-media-addiction-came-late-for-many-kids-will-ai-safety-be-different/articleshow/134722797.cms",
+      "summary": "When Meta agreed to changes to its social media platforms and enhanced safeguards in an $18 billion settlement, it made progress by \"getting at what we've known for years\" about the dangers, said Kristin Bride, a parent advocate who has fought for social medi…",
+      "published_date": "2026-10-06",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai safety"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 13,
+      "title": "cogvault 0.11.4",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/cogvault/0.11.4/",
+      "summary": "Fleet-grade local memory for AI agents over plain Markdown — hybrid search, multi-tenant, one process, no cloud, no Docker, no LLM.",
+      "published_date": "2026-10-10",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "ajantik 0.7.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/ajantik/0.7.0/",
+      "summary": "A crash test for AI agents: what does your agent tell you when its tools lie or fail?",
+      "published_date": "2026-10-10",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 15,
+      "title": "refractal-ai 0.3.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/refractal-ai/0.3.0/",
+      "summary": "Typed Refractal classification, policy decisions, and audit for AI agents.",
+      "published_date": "2026-10-10",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "refractal-ai added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/refractal-ai/",
+      "summary": "Typed Refractal classification, policy decisions, and audit for AI agents.",
+      "published_date": "2026-10-10",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "mindroom 2026.10.228",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/mindroom/2026.10.228/",
+      "summary": "A universal interface for AI agents with persistent memory, where every conversation has a home",
+      "published_date": "2026-10-10",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "mailsai 0.3.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/mailsai/0.3.0/",
+      "summary": "Email API for AI agents — Python SDK. Per-agent email addresses on your domain, per-agent reputation, and prompt-injection scanning on inbound mail. Send, receive structured inbound replies, and identify agents via REST. Intent + entity extraction is opt-in.",
+      "published_date": "2026-10-10",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "cafe-engine 0.9.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/cafe-engine/0.9.2/",
+      "summary": "CLI Agent Flow Engine - Automated development workflow with AI agents",
+      "published_date": "2026-10-10",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 20,
+      "title": "mindroom 2026.10.227",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/mindroom/2026.10.227/",
+      "summary": "A universal interface for AI agents with persistent memory, where every conversation has a home",
+      "published_date": "2026-10-10",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
     }
   ]
 }
