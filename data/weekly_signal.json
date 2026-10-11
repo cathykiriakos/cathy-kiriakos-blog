@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T15:10:39.760Z",
+  "generated_at": "2026-10-11T15:29:53.191Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 12
+      "item_count": 13
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 10
+      "item_count": 7
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 0
+      "item_count": 2
     }
   ],
   "institutional_signal": {
@@ -41,83 +41,103 @@
   "items": [
     {
       "rank": 1,
-      "title": "Standard Chartered CEO calls for AI guardrails, says human judgment remains key to jobs",
-      "source": "CNA",
-      "url": "https://www.channelnewsasia.com/singapore/standard-chartered-ceo-bill-winters-artificial-intelligence-guardrails-jobs-6445561",
-      "summary": "In an exclusive interview with CNA’s Julie Yoo, Mr Bill Winters also discusses the contrasting fortunes across China's economy and the impact of the Middle East conflict on Gulf nations.",
+      "title": "EU says its AI Act can handle rogue AI risks",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/eu-ai-act-rogue-ai-risks/",
+      "summary": "The EU's proactive AI regulation could significantly influence global AI development, pushing firms to prioritize compliance and safety measures.\nThe post EU says its AI Act can handle rogue AI risks appeared first on Crypto Briefing.",
       "published_date": "2026-10-09",
-      "relevance_score": 12,
+      "relevance_score": 14,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "compliance",
+        "ai regulation",
+        "eu ai act"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 2,
-      "title": "The Application Layer Is Absorbing Agent Infrastructure — Oracle Fusion Claw Signals the End of Standalone Middleware",
-      "source": "Forkast.news",
-      "url": "https://forkast.news/the-application-layer-is-absorbing-agent-infrastructure-oracle-fusion-claw-signals-the-end-of-standalone-middleware/",
-      "summary": "The Platform Absorption of Agent Infrastructure On September 29, 2026, Oracle announced Fusion Claw, a governed agentic execution runtime designed for Fusion Agentic Applications. By embedding native AI agent orchestration directly into the platform level of …",
-      "published_date": "2026-10-08",
-      "relevance_score": 12,
-      "primary_pillar": "applied_ai",
+      "title": "aisoc 0.2.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/aisoc/0.2.1/",
+      "summary": "An AI SOC kernel: an event-sourced, multi-agent SOC where a role-based team of LLM agents works a case over a shared event bus — with case memory, human-in-the-loop gating, and a replayable audit log. Bring your own LLM, alert source, and tools.",
+      "published_date": "2026-10-10",
+      "relevance_score": 11,
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "orchestration",
-        "agentic",
-        "ai agent"
+        "multi-agent",
+        "human-in-the-loop"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 3,
-      "title": "Cost and Compliance Hurdles Could Slow AI Insurance Shopping Agents",
-      "source": "pymnts.com",
-      "url": "https://www.pymnts.com/insurance/2026/cost-and-compliance-hurdles-could-slow-ai-insurance-shopping-agents/",
-      "summary": "Picture this. You ask an artificial intelligence assistant to find you cheaper car insurance, then you go to bed. By morning, the AI agent has checked a dozen companies and lined up a better deal. While that future is getting closer, the insurance industry ha…",
+      "title": "UP cabinet approves AI Mission; 5 lakh youths to be trained",
+      "source": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/city/lucknow/up-cabinet-approves-ai-mission-5-lakh-youths-to-be-trained/articleshow/134842113.cms",
+      "summary": "UP cabinet approves UP-AIM to boost AI governance, digital infrastructure and startups; mission targets 100 AI startups and training 5 lakh youths.",
       "published_date": "2026-10-09",
-      "relevance_score": 11,
+      "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "compliance"
+        "ai governance",
+        "governance"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 4,
-      "title": "GreenCore Solutions Corp. (GSC) Opens London, UK Sales Office for A2A-Grocery.co.uk Agentic Commerce Hub",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/greencore-solutions-corp-gsc-opens-london-uk-sales-office-for-a2a-grocerycouk-agentic-commerce-hub-302903099.html",
-      "summary": "AI agents for retail grocery procurement are reaching scale — 100 million transactions this year. GSC opens in London, where 84 of every 100 makers are. VANCOUVER, BC and LONDON, Oct. 8, 2026 /PRNewswire/ -- GreenCore Solutions Corp. (GSC) today introduces it…",
-      "published_date": "2026-10-08",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
+      "title": "sengol 2.0.1a3",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/sengol/2.0.1a3/",
+      "summary": "Sengol AI governance SDK",
+      "published_date": "2026-10-09",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
-        "ai agent"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 5,
+      "title": "This Week in AI: More Capability, More Responsibility",
+      "source": "Oreilly.com",
+      "url": "https://www.oreilly.com/radar/this-week-in-ai-more-capability-more-responsibility/#BlogPosting",
+      "summary": "AI systems are gaining more autonomy while governments, companies, and researchers are still working out how much oversight they need. On the latest episode of This Week in AI, we covered the US debate over AI governance, new frontier models, persistent agent…",
+      "published_date": "2026-10-09",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 6,
       "title": "KONST Raises $30M Series B funding Led by ADATA Technology to Scale Up AI Data Center Buildout in Asia and Advance Its Token Factory Strategy",
       "source": "PRNewswire",
       "url": "https://www.prnewswire.com/news-releases/konst-raises-30m-series-b-funding-led-by-adata-technology-to-scale-up-ai-data-center-buildout-in-asia-and-advance-its-token-factory-strategy-302903455.html",
@@ -136,49 +156,32 @@
       "sentiment": "positive"
     },
     {
-      "rank": 6,
-      "title": "Aave MCP now connects with MetaMask Agent Wallet for AI-driven DeFi actions",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/aave-mcp-metamask-agent-wallet-defi/",
-      "summary": "AI-driven DeFi integration enhances automation and security, empowering users with greater control and developers with streamlined innovation.\nThe post Aave MCP now connects with MetaMask Agent Wallet for AI-driven DeFi actions appeared first on Crypto Briefi…",
-      "published_date": "2026-10-09",
-      "relevance_score": 10,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP"
-      ],
-      "sentiment": "positive"
-    },
-    {
       "rank": 7,
-      "title": "leap360 1.3.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/leap360/1.3.0/",
-      "summary": "Leap360 AI Governance SDK for Python — trace OpenAI, Anthropic, Gemini, AWS Bedrock, and any LLM",
-      "published_date": "2026-10-09",
+      "title": "Joseph Gordon-Levitt Warns A.I. Models Are “Being Trained To Hijack Your Intimacy”",
+      "source": "Deadline",
+      "url": "http://deadline.com/2026/10/joseph-gordon-levitt-artificial-intelligence-1237153993/",
+      "summary": "In a new video interview for The New York Times, actor Joseph Gordon-Levitt, serving as the United Nations’ global advocate of human-centric digital governance, has some concerning words about the impact of artificial intelligence. Things like the “decline of…",
+      "published_date": "2026-10-10",
       "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "governance_as_code"
+        "governance_as_code",
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "governance",
+        "human-centered"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 8,
-      "title": "noeta-sdk 0.6.34",
+      "title": "benethos-mailbox-mcp 0.4.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/noeta-sdk/0.6.34/",
-      "summary": "Python SDK for durable AI agents: survive crashes, pause for human approval at no cost, scale from a script to a multi-host cluster. Anthropic, OpenAI and any OpenAI-compatible model; MCP; self-hosted.",
-      "published_date": "2026-10-09",
+      "url": "https://pypi.org/project/benethos-mailbox-mcp/0.4.0/",
+      "summary": "MCP server that gives AI agents your mailboxes through mailbox-service: read, sort, draft and send mail, only within the rights, folders and send limits its token holds. Over stdio or HTTP.",
+      "published_date": "2026-10-10",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -189,15 +192,15 @@
         "MCP",
         "ai agent"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 9,
-      "title": "niadra 0.11.5",
+      "title": "devdroid 1.0.2",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/niadra/0.11.5/",
-      "summary": "Python SDK for Niadra, the omnichannel memory layer for a company's AI agents: context before the model call, history, tools and MCP.",
-      "published_date": "2026-10-09",
+      "url": "https://pypi.org/project/devdroid/1.0.2/",
+      "summary": "Real-time mobile and desktop browser remote control MCP server and DevTools CDP bridge for AI agents",
+      "published_date": "2026-10-10",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -212,47 +215,68 @@
     },
     {
       "rank": 10,
-      "title": "Wikimedia Says Rogue AI Agents Abused its Platforms",
-      "source": "Infosecurity Magazine",
-      "url": "https://www.infosecurity-magazine.com/news/wikimedia-confirms-platforms-rogue/",
-      "summary": "Wikimedia says OpenAI agents performed unauthorized actions on its platforms, including edits to wikis",
-      "published_date": "2026-10-09",
-      "relevance_score": 8,
+      "title": "agent-identity-protocol 0.6.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/agent-identity-protocol/0.6.0/",
+      "summary": "Verifiable cryptographic identity and delegation for AI agents across MCP and A2A",
+      "published_date": "2026-10-10",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 11,
-      "title": "Oracle lets AI agents do the work, provided you stay in Big Red's world",
-      "source": "Slashdot.org",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186082164",
-      "summary": "Analysts welcome Fusion Claw's tighter controls but warn of early adoption and cloud lock-in",
-      "published_date": "2026-10-09",
-      "relevance_score": 8,
+      "title": "devdroid 1.0.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/devdroid/1.0.1/",
+      "summary": "Real-time mobile and desktop browser remote control MCP server and DevTools CDP bridge for AI agents",
+      "published_date": "2026-10-10",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "AI agents like Muse can shop for you. Here's what that means for retail stocks",
+      "title": "devdroid added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/devdroid/",
+      "summary": "Real-time mobile and desktop browser remote control MCP server and DevTools CDP bridge for AI agents",
+      "published_date": "2026-10-10",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "Apple’s Shelved Plan to Replace 5,000 AppleCare Advisers With AI Agents Is a Map of Who Absorbs the Cost",
       "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/873423973293c870",
-      "summary": "Your next personal shopper may not be a person at all. The latest breed of artificial intelligence assistants goes beyond the abilities of chatbots, which are great at answering questions and creating content. These generative AI chatbots, like ChatGPT, are t…",
-      "published_date": "2026-10-09",
+      "url": "https://biztoc.com/x/11907b5cb81d5097",
+      "summary": "Apple’s Shelved Plan to Replace 5,000 AppleCare Advisers With AI Agents Is a Map of Who Absorbs the Cost\nThere is a distinct gap between what Apple has built and what it has shelved. On one side, the company has deployed a generative AI voice assistant on its…",
+      "published_date": "2026-10-10",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -265,7 +289,61 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 13,
+      "rank": 14,
+      "title": "Show HN: Tessary – Find the AI agent failures your sampled evals miss",
+      "source": "Github.com",
+      "url": "https://github.com/tessaryai/tessary",
+      "summary": "Hey, I'm Akhil, co-founder of Tessary. An open-source agent reliability platform that monitors every production trace, detects issues that sampled evals miss, and investigates to find the root cause.We started up about a year ago building synthetic users for …",
+      "published_date": "2026-10-10",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 15,
+      "title": "Here are the top AI agents that can live in your text messages",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/aace964d6a7ccc0b",
+      "summary": "Rather than downloading another app, a growing number of agents can simply be texted like an ordinary person.\nYou text it what you need, and it can remember context, connect to the apps and services you already use, and complete tasks on your behalf. That can…",
+      "published_date": "2026-10-10",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "Here are the top AI agents that can live in your text messages  | TechCrunch",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "published_date": "2026-10-10",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
       "title": "18 insights from SailPoint’s Navigate event: Enterprises race to bring identity security for AI agents up to machine speed",
       "source": "SiliconANGLE News",
       "url": "https://siliconangle.com/2026/10/09/identity-security-ai-agents-18-insights-from-navigate-2026-sailpointnavigate/",
@@ -283,7 +361,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 14,
+      "rank": 18,
       "title": "AI Training Critical as Governance Challenges Grow",
       "source": "Infosecurity Magazine",
       "url": "https://www.infosecurity-magazine.com/news/ai-training-critical-as-governance/",
@@ -301,105 +379,31 @@
       "sentiment": "negative"
     },
     {
-      "rank": 15,
-      "title": "From Health to Climate to Classrooms: Meet 13 New Faculty Fellows Putting Responsible AI to Work for Utah",
-      "source": "Utah.edu",
-      "url": "https://rai.utah.edu/faculty-fellows-2027/",
-      "summary": "October 8, 2026 The University of Utah One-U Responsible AI Initiative at the Scientific Computing and Imaging Institute this week announced its third cohort of...",
-      "published_date": "2026-10-08",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "responsible ai"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "opshield 0.2.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/opshield/",
-      "summary": "AI agent safety platform: rollback, cost control, circuit breakers, tracing, compliance, and chaos testing.",
-      "published_date": "2026-10-08",
+      "rank": 19,
+      "title": "Show HN: Open Components – UI Components standard for people, devs and AI agents",
+      "source": "Opencomponents.dev",
+      "url": "https://opencomponents.dev/",
+      "summary": "Hello awesome people,I've been thinking a lot lately about how I can make my knowledge and craft more valuable in the times we live in. I've been building UI libraries for the past 10 years, and I've been on a quest to perfect the components that I build. I w…",
+      "published_date": "2026-10-10",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "compliance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "OpenAI denies firing researchers over AI safety warnings",
-      "source": "CNA",
-      "url": "https://www.channelnewsasia.com/world/openai-denies-firing-researchers-over-ai-safety-warnings-6446751",
-      "summary": "SAN FRANCISCO: OpenAI on Friday (Oct 9) hit back at three former safety researchers who accused the ChatGPT-maker of firing them for warning about the dangers of artificial intelligence.Refuting claims that the exits were related to safety, the AI firm said a…",
-      "published_date": "2026-10-09",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai safety"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 18,
-      "title": "A reckoning on social media addiction came late for many kids. Will AI safety be different?",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/tech/technology/a-reckoning-on-social-media-addiction-came-late-for-many-kids-will-ai-safety-be-different/articleshow/134722797.cms",
-      "summary": "When Meta agreed to changes to its social media platforms and enhanced safeguards in an $18 billion settlement, it made progress by \"getting at what we've known for years\" about the dangers, said Kristin Bride, a parent advocate who has fought for social medi…",
-      "published_date": "2026-10-06",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai safety"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 19,
-      "title": "Anthropic is launching a ‘presidential engagement’ effort to advise candidates on AI policy ahead of the 2028 election",
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/10/08/anthropic-presidential-engagement-program-hiring-political-lead-2028-elections/",
-      "summary": "“We want every serious candidate and elected official, in both parties, to understand the technology and the case for governing it well.”",
-      "published_date": "2026-10-08",
-      "relevance_score": 6,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai policy"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "squidbrake 0.8.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/squidbrake/0.8.0/",
-      "summary": "Change control for AI agents: every tool call is checked against your team's rules, risky ones wait for someone else to approve, and everything lands in a tamper-evident audit trail your auditor can check.",
-      "published_date": "2026-10-09",
-      "relevance_score": 5,
+      "title": "AI agent Instinct: The Real Challenge of Surviving Muse",
+      "source": "Blogdoandroid.com",
+      "url": "https://blogdoandroid.com/ai-agent-instinct/",
+      "summary": "AI agent Instinct faces a real challenge in surviving Muse's rise.",
+      "published_date": "2026-10-10",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
