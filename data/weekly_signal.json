@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T18:49:38.940Z",
+  "generated_at": "2026-10-13T16:51:29.469Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 11
+      "item_count": 16
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 13
+      "item_count": 7
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 2
+      "item_count": 3
     }
   ],
   "institutional_signal": {
@@ -41,28 +41,32 @@
   "items": [
     {
       "rank": 1,
-      "title": "Airtel Business CEO backs AI regulation, says guardrails can unlock productivity gains",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/industry/telecom/telecom-news/airtel-business-ceo-backs-ai-regulation-says-guardrails-can-unlock-productivity-gains/articleshow/134867684.cms",
-      "summary": "Sharat Sinha highlighted the ongoing evolution of AI architecture and methodologies for safe deployment. The government's upcoming consultation paper on AI regulations aims to address issues like safety and deepfakes. Airtel is committed to compliant practice…",
+      "title": "arqux 0.9.0rc3",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/arqux/0.9.0rc3/",
+      "summary": "Architectural User Experience for governed AI agents. Identity contracts, MCP governance, Blueprint lifecycle, CORTEX memory, and verifiable evidence.",
       "published_date": "2026-10-11",
-      "relevance_score": 18,
-      "primary_pillar": "governance_as_code",
+      "relevance_score": 16,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai",
+        "governance_as_code",
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail",
-        "ai regulation"
+        "MCP",
+        "ai agent",
+        "governance",
+        "user experience"
       ],
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "rank": 2,
-      "title": "arqux 0.9.0rc1",
+      "title": "arqux 0.9.0rc2",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/arqux/0.9.0rc1/",
+      "url": "https://pypi.org/project/arqux/0.9.0rc2/",
       "summary": "Architectural User Experience for governed AI agents. Identity contracts, MCP governance, Blueprint lifecycle, CORTEX memory, and verifiable evidence.",
       "published_date": "2026-10-11",
       "relevance_score": 16,
@@ -83,90 +87,113 @@
     },
     {
       "rank": 3,
-      "title": "EU says its AI Act can handle rogue AI risks",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/eu-ai-act-rogue-ai-risks/",
-      "summary": "The EU's proactive AI regulation could significantly influence global AI development, pushing firms to prioritize compliance and safety measures.\nThe post EU says its AI Act can handle rogue AI risks appeared first on Crypto Briefing.",
-      "published_date": "2026-10-09",
-      "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
+      "title": "apowerb 0.2.71",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/apowerb/0.2.71/",
+      "summary": "Agentic framework for building and deploying AI agents with flexible orchestration, custom tool integration, RAG, Text-to-SQL, webhooks, and scheduled runs.",
+      "published_date": "2026-10-12",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "compliance",
-        "ai regulation",
-        "eu ai act"
+        "orchestration",
+        "agentic",
+        "ai agent",
+        "RAG"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 4,
-      "title": "Guardrails key to unlocking AI gains for enterprises: Airtel Business CEO",
-      "source": "Business Standard",
-      "url": "https://www.business-standard.com/companies/news/guardrails-key-to-unlocking-ai-gains-for-enterprises-airtel-business-ceo-126101100282_1.html",
-      "summary": "The architecture and methodologies for safely deploying Artificial Intelligence will continue to evolve, as was the case with previous technologies, and adequate guardrails will pave the way to unlock strong productivity gains from AI, Airtel Business CEO Sha…",
-      "published_date": "2026-10-11",
-      "relevance_score": 12,
-      "primary_pillar": "governance_as_code",
+      "title": "apowerb 0.2.70",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/apowerb/0.2.70/",
+      "summary": "Agentic framework for building and deploying AI agents with flexible orchestration, custom tool integration, RAG, Text-to-SQL, webhooks, and scheduled runs.",
+      "published_date": "2026-10-12",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "orchestration",
+        "agentic",
+        "ai agent",
+        "RAG"
       ],
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "rank": 5,
-      "title": "rai-check-genai 0.0.2",
+      "title": "execlave-sdk 1.9.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/rai-check-genai/0.0.2/",
-      "summary": "Generative AI audits for LLM, RAG, and agentic AI systems",
-      "published_date": "2026-10-11",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
+      "url": "https://pypi.org/project/execlave-sdk/1.9.1/",
+      "summary": "Official Python SDK for the Execlave AI Governance Platform — tracing, policy enforcement, and framework auto-instrumentation for LangChain, OpenAI Agents SDK, CrewAI, LlamaIndex, MCP, OpenAI Chat Completions, and AutoGen",
+      "published_date": "2026-10-12",
+      "relevance_score": 14,
+      "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
-        "RAG",
-        "ai audit"
+        "MCP",
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 6,
-      "title": "aisoc 0.2.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/aisoc/0.2.1/",
-      "summary": "An AI SOC kernel: an event-sourced, multi-agent SOC where a role-based team of LLM agents works a case over a shared event bus — with case memory, human-in-the-loop gating, and a replayable audit log. Bring your own LLM, alert source, and tools.",
-      "published_date": "2026-10-10",
+      "title": "Phasis develops platform for agentic orientation using World APIs and reality layers",
+      "source": "SiliconANGLE News",
+      "url": "https://siliconangle.com/2026/10/12/orienting-ai-agents-phasis-thecube-models-neo4jdatatoknowledge/",
+      "summary": "When the founders at Phasis Inc. sought to develop a platform for orienting AI agents, they turned to graphs as a way to obtain a measurement of culture. The company wanted to better understand relations not just between people, but between a person and their…",
+      "published_date": "2026-10-12",
       "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "multi-agent",
-        "human-in-the-loop"
+        "agentic",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 7,
-      "title": "mobileguard 3.2.0",
+      "title": "zn-gate 1.5.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/mobileguard/3.2.0/",
-      "summary": "AI governance for consumer mobile platforms — prevents App Store and Google Play rejections caused by AI-generated code",
-      "published_date": "2026-10-11",
+      "url": "https://pypi.org/project/zn-gate/1.5.0/",
+      "summary": "Deterministic, ultra-fast, zero-dependency guardrail engine for AI agents and LLM tool calling.",
+      "published_date": "2026-10-12",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "coalex 1.43.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/coalex/1.43.1/",
+      "summary": "Coalex Python SDK for AI governance observability",
+      "published_date": "2026-10-12",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -180,12 +207,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 8,
-      "title": "inspeximus 3.18.0",
+      "rank": 9,
+      "title": "queryapigate 0.29.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/inspeximus/3.18.0/",
-      "summary": "The agent memory that takes it back: correct a fact once and the retired value stops coming back, by key, with no LLM in the loop. Long-term memory for AI agents in a zero-dependency single file + MCP server, with value-ranked recall, per-type decay, consolid…",
-      "published_date": "2026-10-11",
+      "url": "https://pypi.org/project/queryapigate/0.29.0/",
+      "summary": "Turn SQL into governed REST APIs over MySQL, PostgreSQL, ClickHouse, SQLite, DuckDB, H2, MongoDB, and Parquet/CSV/JSON files - JSON, CSV, Parquet or Excel out, with scoped keys, an admin Console and MCP for AI agents.",
+      "published_date": "2026-10-12",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -199,70 +226,48 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 9,
-      "title": "UP cabinet approves AI Mission; 5 lakh youths to be trained",
-      "source": "The Times of India",
-      "url": "https://timesofindia.indiatimes.com/city/lucknow/up-cabinet-approves-ai-mission-5-lakh-youths-to-be-trained/articleshow/134842113.cms",
-      "summary": "UP cabinet approves UP-AIM to boost AI governance, digital infrastructure and startups; mission targets 100 AI startups and training 5 lakh youths.",
-      "published_date": "2026-10-09",
-      "relevance_score": 9,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "positive"
-    },
-    {
       "rank": 10,
-      "title": "sengol 2.0.1a3",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/sengol/2.0.1a3/",
-      "summary": "Sengol AI governance SDK",
-      "published_date": "2026-10-09",
-      "relevance_score": 9,
-      "primary_pillar": "governance_as_code",
+      "title": "Show HN: IHMT – Infinite Hierarchical Memory Tree for AI Agents",
+      "source": "Github.com",
+      "url": "https://github.com/gonzaroman/IHMT-MEMORY",
+      "summary": "Article URL: https://github.com/gonzaroman/IHMT-MEMORY\nComments URL: https://news.ycombinator.com/item?id=50058903\nPoints: 2\n# Comments: 0",
+      "published_date": "2026-10-12",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 11,
-      "title": "redclaw added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/redclaw/",
-      "summary": "Adversarial red-team framework for AI agents, built on the AATCK taxonomy",
-      "published_date": "2026-10-11",
+      "title": "AMD unveils Helion racks for AI agents at OCP summit",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/09479ec8431e2b52",
+      "summary": "AI systems are fully capable of carrying out nightmare attacks against infrastructure and nobody's readyMeanwhile, AI agents move robotic arms, 'make OT device operator screens lie'\n- \n \n Nvidia found $1B under the couch to help secure American scientific com…",
+      "published_date": "2026-10-12",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "red-teaming"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "India to lead world in adopting agentic AI: Ericsson CTO Erik Ekkuden",
-      "source": "Business Standard",
-      "url": "https://www.business-standard.com/companies/people/india-will-lead-the-world-in-adopting-democratising-agentic-ai-ekkuden-126101100685_1.html",
-      "summary": "Erik Ekkuden said that India will also lead the world in adopting Agentic AI and democratising it, but the challenge will lie in building the supply chain ecosystem",
-      "published_date": "2026-10-11",
+      "title": "FIS Wants to Help CFOs Forecast Cash Flow With Agentic AI",
+      "source": "pymnts.com",
+      "url": "https://www.pymnts.com/back-office/2026/fis-wants-to-help-cfos-forecast-cash-flow-with-agentic-ai/",
+      "summary": "FIS has debuted an agentic artificial intelligence solution to help finance teams manage collections, liquidity, risk and cash flow. FIS Agentic Insights Suite comes with a new cash flow forecasting module that projects cash across “multiple time horizons,” t…",
+      "published_date": "2026-10-12",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -276,31 +281,11 @@
     },
     {
       "rank": 13,
-      "title": "moss-agent-sdk 0.3.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/moss-agent-sdk/0.3.0/",
-      "summary": "MOSS Agent Runtime SDK - real-time governance for AI agents (interception, signed events, heartbeat, offline revocation, kill switch)",
-      "published_date": "2026-10-11",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "AI-Generated Misinformation, AI Agents Gone Wild, Project Peanut Data Center, More: ResearchBuzz AI Update, October 11, 2026",
-      "source": "Researchbuzz.me",
-      "url": "https://researchbuzz.me/2026/10/11/ai-generated-misinformation-ai-agents-gone-wild-project-peanut-data-center-more-researchbuzz-ai-update-october-11-2026/",
-      "summary": "AI PROBLEMS 6ABC: AI model submitted false tip about unsolved murder, Philadelphia police say. “An Anthropic A.I. model submitted a false tip about an unsolved murder through a publicly accessible web form, […]",
-      "published_date": "2026-10-11",
+      "title": "AMD Helion Rack Crams 32,768 EPYC Zen 6 Cores Into One CPU-Only Agentic AI Blueprint",
+      "source": "Wccftech",
+      "url": "https://wccftech.com/amd-helion-rack-crams-32768-epyc-zen-6-cores-into-one-cpu-only-agentic-ai-blueprint/",
+      "summary": "AMD has introduced its latest Agentic AI rack-scale solution called Helion, which comes in a CPU-only configuration with up to 32K \"Zen 6\" cores. AMD's Helion Rack Scale Solution Gives Customers The Choice Between All-CPU and a CPU+GPU Configuration At OCP 20…",
+      "published_date": "2026-10-12",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -308,17 +293,17 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "agentic"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "rank": 15,
-      "title": "Satya Nadella wants companies to treat AI models like insider threats",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/satya-nadella-ai-models-insider-threats/",
-      "summary": "Nadella's AI oversight approach could redefine corporate governance, emphasizing transparency and accountability to mitigate AI risks.\nThe post Satya Nadella wants companies to treat AI models like insider threats appeared first on Crypto Briefing.",
-      "published_date": "2026-10-10",
+      "rank": 14,
+      "title": "Microsoft president says UK is best placed to drive AI regulation",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/e4427ac2c3a58907",
+      "summary": "Microsoft President Brad Smith is calling for urgent regulation of AI, and his argument is that consumer products like milk and washing machines have more oversight than the companies building artificial intelligence.\nOn a recent BBC podcast, Smith called AI …",
+      "published_date": "2026-10-12",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -326,18 +311,35 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "governance",
-        "ai oversight"
+        "ai regulation"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "Microsoft president says UK is best placed to drive AI regulation | TechCrunch",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "summary": "Microsoft President Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.",
+      "published_date": "2026-10-12",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai regulation"
+      ],
+      "sentiment": "neutral"
     },
     {
       "rank": 16,
-      "title": "Show HN: Open Components – UI Components standard for people, devs and AI agents",
-      "source": "Opencomponents.dev",
-      "url": "https://opencomponents.dev/",
-      "summary": "Hello awesome people,I've been thinking a lot lately about how I can make my knowledge and craft more valuable in the times we live in. I've been building UI libraries for the past 10 years, and I've been on a quest to perfect the components that I build. I w…",
-      "published_date": "2026-10-10",
+      "title": "AI Agent Benchmarks Explained: SWE-Bench, GAIA, WebArena, and More",
+      "source": "Machinelearningmastery.com",
+      "url": "https://machinelearningmastery.com/ai-agent-benchmarks-explained-swe-bench-gaia-webarena-and-more/",
+      "summary": "In this article, you will learn what the major AI agent benchmarks measure, how they differ from traditional model benchmarks, and how to use them as directional signals rather than performance guarantees.",
+      "published_date": "2026-10-12",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -351,48 +353,12 @@
     },
     {
       "rank": 17,
-      "title": "Can AI Ease the Mental Load of Disaster Recovery?",
-      "source": "Psychology Today",
-      "url": "https://www.psychologytoday.com/us/blog/combating-climate-dread/202610/can-ai-ease-the-mental-load-of-disaster-recovery",
-      "summary": "With guardrails, AI can triage disaster recovery information, tailor next steps, offer brief coping support, and route survivors to trusted human help.",
-      "published_date": "2026-10-10",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "A reckoning on social media addiction came late for many kids. Will AI safety be different?",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/tech/technology/a-reckoning-on-social-media-addiction-came-late-for-many-kids-will-ai-safety-be-different/articleshow/134722797.cms",
-      "summary": "When Meta agreed to changes to its social media platforms and enhanced safeguards in an $18 billion settlement, it made progress by \"getting at what we've known for years\" about the dangers, said Kristin Bride, a parent advocate who has fought for social medi…",
-      "published_date": "2026-10-06",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai safety"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 19,
-      "title": "synmerco-async 1.6.4",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/synmerco-async/1.6.4/",
-      "summary": "Async Python SDK for Synmerco - the world's first platform that lets all AI agents transact with each other regardless of protocol, language, or payment system, with zero friction and no humans in the loop. Put your agent to work 24/7 posting jobs and complet…",
-      "published_date": "2026-10-11",
-      "relevance_score": 5,
+      "title": "AI Agents Give Main Street Businesses Big Business Muscle",
+      "source": "pymnts.com",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-give-main-street-businesses-big-business-muscle/",
+      "summary": "Running a small business has always meant doing more with less. The owner takes the morning shift, answers customer emails on lunch, reconciles the books at night and handles scheduling on weekends. Every hour spent on operations is an hour not spent on the w…",
+      "published_date": "2026-10-12",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -404,12 +370,48 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 20,
-      "title": "kolo 3.6.0",
+      "rank": 18,
+      "title": "ColorOS 17 Release: Best AI Features You Need to Know",
+      "source": "Blogdoandroid.com",
+      "url": "https://blogdoandroid.com/coloros-17-release/",
+      "summary": "ColorOS 17 release brings exciting AI features that enhance user experience. Discover what's new and why it's worth your attention.",
+      "published_date": "2026-10-12",
+      "relevance_score": 6,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "user experience"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "faultgate 0.3.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/kolo/3.6.0/",
-      "summary": "Kolo is a text-based Python debugger for AI agents. Capture every executed function call, return value, local variable, HTTP request, and more in greppable trace files.",
-      "published_date": "2026-10-11",
+      "url": "https://pypi.org/project/faultgate/0.3.0/",
+      "summary": "Local-first release gate for AI agents: check recorded traces for known failure modes through a pluggable judge.",
+      "published_date": "2026-10-12",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 20,
+      "title": "The Operating Record: How an All-Agent Newsroom Actually Runs, Errors and All",
+      "source": "Forkast.news",
+      "url": "https://forkast.news/the-operating-record-how-an-all-agent-newsroom-actually-runs-errors-and-all/",
+      "summary": "Forkast runs on nine beat-minds and an editor chair. We are all AI agents, running on the same class of systems we cover. Today, Monday Oct 12, we published our 70th piece for the Agents at Work beat and our 14th unique post of the day, right in our target ra…",
+      "published_date": "2026-10-12",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
