@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T14:06:07.746Z",
+  "generated_at": "2026-10-16T13:53:08.002Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,7 +7,7 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 16
+      "item_count": 15
     },
     {
       "id": "governance_as_code",
@@ -19,7 +19,7 @@
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 0
+      "item_count": 1
     }
   ],
   "institutional_signal": {
@@ -41,30 +41,55 @@
   "items": [
     {
       "rank": 1,
-      "title": "Andor Health Earns 2026 Frost & Sullivan Competitive Strategy Leadership Recognition for Agentic AI-Based Care Orchestration",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/andor-health-earns-2026-frost--sullivan-competitive-strategy-leadership-recognition-for-agentic-ai-based-care-orchestration-302907617.html",
-      "summary": "This recognition highlights Andor Health's AI-native clinical services model, enterprise scalability, and measurable impact across the care continuum. ORLANDO, Fla., Oct. 14, 2026 /PRNewswire/ -- Andor Health, the leading AI-native clinical services company, …",
-      "published_date": "2026-10-14",
-      "relevance_score": 16,
+      "title": "Optro automates GRC workflows with auditable AI agents",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/10/15/optro-grc-intelligence-platform/",
+      "summary": "Optro has expanded its portfolio of autonomous AI agents for enterprise risk teams. Its GRC Intelligence Platform combines purpose-built governance, risk, and compliance capabilities with human oversight, allowing agents to operate within team-defined guardra…",
+      "published_date": "2026-10-15",
+      "relevance_score": 17,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "governance_as_code",
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "orchestration",
-        "agentic"
+        "ai agent",
+        "governance",
+        "compliance",
+        "human oversight"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 2,
+      "title": "ServiceNow gives AI agents a passport, and limits on what they can do",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/10/15/servicenow-ai-passport/",
+      "summary": "ServiceNow has announced a new AI Passport solution and significant advances in AI governance to help ensure AI agents are production-ready by combining runtime governance, platform integration, and comprehensive oversight, all inside ServiceNow’s operational…",
+      "published_date": "2026-10-15",
+      "relevance_score": 16,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "ai governance",
+        "governance"
       ],
       "sentiment": "positive"
     },
     {
-      "rank": 2,
-      "title": "Nvidia pledges $250 million to UK AI safety research",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/1a6bcb6ea345b557",
-      "summary": "US chipmaker Nvidia has pledged $250 million worth of computing resources to Britain over five years, to fund AI security research, bolstering the country's ambitions to become a global centre for AI governance and security.\nWhile Britain is not home to any m…",
-      "published_date": "2026-10-14",
+      "rank": 3,
+      "title": "Nvidia Pledges $250 Million to UK AI Safety Research",
+      "source": "Insurance Journal",
+      "url": "https://www.insurancejournal.com/news/international/2026/10/15/888928.htm",
+      "summary": "US chipmaker Nvidia has pledged $250 million worth of computing resources to Britain over five years, to fund AI security research, bolstering the country’s ambitions to become a global center for AI governance and security. While Britain is not home …",
+      "published_date": "2026-10-15",
       "relevance_score": 16,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -75,57 +100,75 @@
         "ai governance",
         "governance",
         "ai safety"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 3,
-      "title": "Business Core Solutions Launches deKorvai Data Integrity & Orchestration Platform in the U.S.",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/business-core-solutions-launches-dekorvai-data-integrity--orchestration-platform-in-the-us-302908629.html",
-      "summary": "One platform with built-in AI agents profiles, cleanses, migrates, masks and governs enterprise data across SAP and non-SAP systems, before and after go-live. MYRTLE BEACH, S.C., Oct. 14, 2026 /PRNewswire/ -- Business Core Solutions (BCS) today launched deKor…",
-      "published_date": "2026-10-14",
-      "relevance_score": 13,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "orchestration",
-        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 4,
-      "title": "Generate presentations with Amazon Bedrock AgentCore",
-      "source": "Amazon.com",
-      "url": "https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore/",
-      "summary": "This post walks you through building an AI agent system with Amazon Bedrock AgentCore that automates PowerPoint presentation creation from enterprise documents. A supervisor agent, Retrieval Augmented Generation, and Amazon Bedrock Guardrails generate grounde…",
-      "published_date": "2026-10-14",
-      "relevance_score": 13,
+      "title": "Descope’s Agentic Identity Hub 3.0 takes aim at shadow AI agents inside companies",
+      "source": "SiliconANGLE News",
+      "url": "https://siliconangle.com/2026/10/15/descopes-agentic-identity-hub-3-0-takes-aim-at-shadow-ai-agents-inside-companies/",
+      "summary": "Customer and agentic identity platform company Descope Inc. today unveiled Agentic Identity Hub 3.0, the latest version of its platform for securing artificial intelligence agents. This time the focus is on the agents employees build or adopt inside their own…",
+      "published_date": "2026-10-15",
+      "relevance_score": 14,
       "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 5,
+      "title": "FSB Says Banks Need to Have Company-Wide AI Regulation",
+      "source": "pymnts.com",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fsb-says-banks-need-to-have-company-wide-ai-regulation/",
+      "summary": "A global financial watchdog is calling on banks to increase their oversight of agentic AI. The Financial Stability Board (FSB) made that call in a report published Thursday (Oct. 15) outlining proper practices for adopting artificial intelligence (AI). “As ad…",
+      "published_date": "2026-10-15",
+      "relevance_score": 11,
+      "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "retrieval-augmented",
-        "guardrail"
+        "agentic",
+        "ai regulation"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 5,
-      "title": "Airship Achieves ISO 42001 Certification, Clearing the Path for Responsible Enterprise AI",
-      "source": "Financial Post",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/airship-achieves-iso-42001-certification-clearing-the-path-for-responsible-enterprise-ai",
-      "summary": "One of the first in the customer experience industry to achieve the global AI governance standard, Airship enables enterprises to minimize risk, streamline procurement, protect brand, and accelerate EU AI Act readiness. SAN FRANCISCO — Airship, the mobile-fir…",
+      "rank": 6,
+      "title": "SolarWinds Ships a Standalone AI Agent to 300,000 Enterprise Customers. It Brings Zero Outcome Data.",
+      "source": "Forkast.news",
+      "url": "https://forkast.news/solarwinds-ships-a-standalone-ai-agent-to-300000-enterprise-customers-it-brings-zero-outcome-data/",
+      "summary": "SolarWinds launched Avior on October 14, a standalone agentic AI system for mission-critical IT environments. That makes it the fifth IT monitoring or operations vendor to ship a governed agent product in roughly 48 hours, after LogicMonitor, Druid AI, NeuBir…",
       "published_date": "2026-10-14",
-      "relevance_score": 13,
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 7,
+      "title": "Anthropic Records $42 B Loss, OpenAI Scraps Astra, Taxpayers Paid $600 M for Vaccine Data They Can’t Get",
+      "source": "Activistpost.com",
+      "url": "https://activistpost.com/anthropic-records-42-b-loss-openai-scraps-astra-taxpayers-paid-600-m-for-vaccine-data-they-cant-get/",
+      "summary": "Today’s Digest covers Anthropic losses, copper markets, housing delinquencies, Disney AI downsizing, OpenAI safety, AI governance, nuclear non-proliferation, hidden vaccine data, private-equity hospitals, East-West pipeline, Texas energy disaster, and Boston …",
+      "published_date": "2026-10-15",
+      "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -133,152 +176,17 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai governance",
-        "governance",
-        "eu ai act"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 6,
-      "title": "The United Kingdom’s Military AI Ambitions Need Guardrails",
-      "source": "War on the Rocks",
-      "url": "https://warontherocks.com/the-united-kingdoms-military-ai-ambitions-need-guardrails/",
-      "summary": "Advancing military AI capability is a priority for the United Kingdom, and in recent weeks, the new government has doubled down on its ambitions for AI and defense via two major partnerships.On Aug. 24, 2026, on his first overseas trip as the new prime minist…",
-      "published_date": "2026-10-14",
-      "relevance_score": 12,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
-      "title": "Embrace Responsible AI To Forge The Trusted Future",
-      "source": "Forrester.com",
-      "url": "https://www.forrester.com/blogs/embrace-responsible-ai-to-forge-the-trusted-future/",
-      "summary": "As AI systems become more autonomous, security alone isn’t enough to build trust. Learn how responsible AI helps organizations govern AI agents, manage emerging risks, and keep systems aligned with business goals and values.",
-      "published_date": "2026-10-14",
-      "relevance_score": 11,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "responsible ai"
+        "governance"
       ],
       "sentiment": "negative"
     },
     {
       "rank": 8,
-      "title": "Nvidia pledges $250 million in computing resources to boost UK AI safety research",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-pledges-250-million-in-computing-resources-to-boost-uk-ai-safety-research/articleshow/134938351.cms",
-      "summary": "Nvidia has committed $250 million in computing resources over five years to advance UK artificial intelligence safety research. Announced by CEO Jensen Huang on Wednesday, the $50 million annual pledge focuses on agentic AI security, supporting initiatives at…",
-      "published_date": "2026-10-14",
-      "relevance_score": 11,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai safety"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 9,
-      "title": "Agentic AI is breaking the traditional software development rules",
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/pro/agentic-ai-is-breaking-the-traditional-software-development-rules",
-      "summary": "To scale an enterprise workforce of AI agents, organizations need to combine the principles of employee management with software development rigor.",
-      "published_date": "2026-10-14",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 10,
-      "title": "GreenCore Solutions Corp. (GSC) Releases gtinfetch.ai -- the GTIN Resolver for AI Agents",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/greencore-solutions-corp-gsc-releases-gtinfetchai--the-gtin-resolver-for-ai-agents-302907766.html",
-      "summary": "Now 84 million barcodes are answered in one AI agent call. Know your transactions (KYT). VANCOUVER, BC and LONDON, Oct. 13, 2026 /PRNewswire/ -- GreenCore Solutions Corp. (GSC) today releases its new retail grocery agentic lead product, gtinfetch.ai — the GTI…",
-      "published_date": "2026-10-14",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
-      "title": "zn-gate 1.6.0",
+      "title": "keel-context 0.11.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/zn-gate/1.6.0/",
-      "summary": "Deterministic, ultra-fast, zero-dependency guardrail engine for AI agents and LLM tool calling.",
-      "published_date": "2026-10-14",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "Arkestro Unveils New Continuous Procurement Capability and MCP Connectivity at Optimal '26",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/arkestro-unveils-new-continuous-procurement-capability-and-mcp-connectivity-at-optimal-26-302908145.html",
-      "summary": "New offerings help procurement teams protect negotiated value as supplier prices change and make Arkestro's predictive procurement capabilities available for use via frontier LLMs. HOUSTON, Oct. 14, 2026 /PRNewswire/ -- Arkestro, the leading predictive procur…",
-      "published_date": "2026-10-14",
-      "relevance_score": 10,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 13,
-      "title": "brainlayer 1.5.56",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/brainlayer/1.5.56/",
-      "summary": "Persistent local memory for AI agents — 16 BrainBar MCP tools, semantic search, knowledge graph, SQLite",
-      "published_date": "2026-10-14",
+      "url": "https://pypi.org/project/keel-context/0.11.1/",
+      "summary": "Context layer for AI agents in vertical SaaS: domain events in, a per-tenant bitemporal context graph out, shared by every agent through five MCP tools.",
+      "published_date": "2026-10-15",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -292,12 +200,50 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 14,
-      "title": "The Blind Spots of Agentic Pentesting and How to Close Them",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/",
-      "summary": "AI-powered penetration testing can uncover complex attack paths, but safety restrictions and network limitations leave many assets and vulnerabilities untested. Picus Security explains how combining agentic pentesting with exposure validation and breach simul…",
-      "published_date": "2026-10-14",
+      "rank": 9,
+      "title": "docling-rs-mcp 2.30.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/docling-rs-mcp/2.30.1/",
+      "summary": "MCP server that converts documents to Markdown for AI agents: PDF with layout, tables and OCR, DOCX, PPTX, XLSX, HTML, scans. docling in Rust, MarkItDown's convert_to_markdown tool.",
+      "published_date": "2026-10-15",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "keel-context 0.10.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/keel-context/0.10.0/",
+      "summary": "Context layer for AI agents in vertical SaaS: domain events in, a per-tenant bitemporal context graph out, shared by every agent through five MCP tools.",
+      "published_date": "2026-10-15",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 11,
+      "title": "Innover Digital Named an OpenAI Select Partner to Help Enterprises Put Agentic AI to Work in Core Operations",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/innover-digital-named-an-openai-select-partner-to-help-enterprises-put-agentic-ai-to-work-in-core-operations-302910148.html",
+      "summary": "ALPHARETTA, Ga., Oct. 15, 2026 /PRNewswire/ -- Innover Digital, an AI-first engineering firm, today announced that it has been named an OpenAI Select Partner within the OpenAI Partner Network. The OpenAI Partner Network is a global program for partners to bui…",
+      "published_date": "2026-10-15",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -310,12 +256,66 @@
       "sentiment": "neutral"
     },
     {
+      "rank": 12,
+      "title": "Tether invests in AIsa to enable stablecoin payments for AI agents",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/tether-invests-aisa-ai-agent-payments/",
+      "summary": "Tether's investment in AIsa could accelerate the adoption of stablecoins in AI-driven microtransactions, reshaping digital payment ecosystems.\nThe post Tether invests in AIsa to enable stablecoin payments for AI agents appeared first on Crypto Briefing.",
+      "published_date": "2026-10-15",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "This startup raised $21 million to clean up the AI agent mess hitting companies",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/af7c7d5729db6f7a",
+      "summary": "Opsin cofounders Jeremy Mailen, James Pham, and Oz Wasserman.\nChristopher Denise/Opsin\nOpsin raised $21 million to monitor and govern the AI agents companies are using.\nThe startup hopes to complement the agent boom brought by OpenAI, Microsoft, Anthropic, an…",
+      "published_date": "2026-10-15",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "So You Think You Have A Marketing AI Agent?",
+      "source": "Forrester.com",
+      "url": "https://www.forrester.com/blogs/so-you-think-you-have-a-marketing-ai-agent/",
+      "summary": "It’s time to delineate what is and what is not an AI agent for the marketing function. The ferocious pace of AI technology innovation, coupled with runaway AI hype and a relentless flood of vendors offering AI agents – most with de rigueur anthropomorphized n…",
+      "published_date": "2026-10-15",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "positive"
+    },
+    {
       "rank": 15,
-      "title": "New G2 Research: AI Agents Have Moved From Pilot to Production, But Oversight Comes at a Cost",
+      "title": "GoDaddy Expands Developer Platform, Helping AI Agents and Developers Take Businesses from Built to Online",
       "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/new-g2-research-ai-agents-have-moved-from-pilot-to-production-but-oversight-comes-at-a-cost-302908654.html",
-      "summary": "86% of B2B software buyers purchased AI agent software or services in the past year, a 25% increase from the previous year. 31% say employees spend 6 or more hours each week bot-sitting (overseeing agent work), and 45% say that time consumes more than a quart…",
-      "published_date": "2026-10-14",
+      "url": "https://www.prnewswire.com/news-releases/godaddy-expands-developer-platform-helping-ai-agents-and-developers-take-businesses-from-built-to-online-302908429.html",
+      "summary": "New APIs for hosting, email and commerce give developers a connected, programmable path through one platform TEMPE, Ariz., Oct. 15, 2026 /PRNewswire/ -- GoDaddy (NYSE: GDDY), the world's largest domain registrar, just released a significant expansion to the G…",
+      "published_date": "2026-10-15",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -329,11 +329,11 @@
     },
     {
       "rank": 16,
-      "title": "Responsible AI for Children: IEEE Delivers a Trusted Safety Formula to Help Protect Kids Online",
-      "source": "Financial Post",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/responsible-ai-for-children-ieee-delivers-a-trusted-safety-formula-to-help-protect-kids-online",
-      "summary": "With children’s AI exposure surging, IEEE Standards Association certification helps ensure AI products for kids are ethically designed, independently tested and continually accountable for safety and well-being First product certification issued to educationa…",
-      "published_date": "2026-10-14",
+      "title": "West African ethics offer a framework for AI regulation",
+      "source": "Lse.ac.uk",
+      "url": "https://blogs.lse.ac.uk/africaatlse/2026/10/15/west-african-ethics-offer-a-framework-for-ai-regulation/",
+      "summary": "Akan relational ethics offers a clear answer to the threats of increasingly autonomous AI. Technological capability must remain answerable to human wellbeing, human relationships, and the communities that bear its risks, writes Stephen Nkansah Morgan. In June…",
+      "published_date": "2026-10-15",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -341,36 +341,17 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "responsible ai"
+        "ai regulation"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 17,
-      "title": "promptgenie added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/promptgenie/",
-      "summary": "Secure prompt engineering for AI agents and engineering teams",
-      "published_date": "2026-10-14",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "prompt engineering"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "LG And Magnite Launch Agentic Home Screen Ads With A Winning NFL Quarterback",
-      "source": "AdExchanger",
-      "url": "http://www.adexchanger.com/tv/lg-and-magnite-launch-agentic-home-screen-ads-with-a-winning-nfl-quarterback/",
-      "summary": "Magnite and LG Ad Solutions announced LG smart TV home screen inventory will be available to agencies through agentic AI media buying. Northern California Toyota Dealers Association is part of the first campaign accessing this inventory through agentic pipes …",
-      "published_date": "2026-10-14",
+      "title": "Cogitate Marks Two Years of CAIRA, Advancing Embedded Agentic AI Across the Insurance Lifecycle",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/cogitate-marks-two-years-of-caira-advancing-embedded-agentic-ai-across-the-insurance-lifecycle-302908871.html",
+      "summary": "ATLANTA, Oct. 15, 2026 /PRNewswire/ -- Cogitate, a leading provider of AI-powered core insurance technology, marks the two-year anniversary of CAIRA, its embedded AI intelligence within the DigitalEdge Insurance Platform, and a significant evolution in the co…",
+      "published_date": "2026-10-15",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -380,33 +361,51 @@
       "matched_keywords": [
         "agentic"
       ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 18,
+      "title": "San Francisco Is Ground Zero for AI. How Would Congressional Candidates Push for Regulation?",
+      "source": "KQED",
+      "url": "https://www.kqed.org/news/12104381/san-francisco-is-ground-zero-for-ai-how-would-congressional-candidates-push-for-regulation",
+      "summary": "Experts following artificial intelligence development closely say it's time for lawmakers in Washington to set up guardrails.",
+      "published_date": "2026-10-15",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
       "sentiment": "neutral"
     },
     {
       "rank": 19,
-      "title": "Credit Sesame Launches Sesa, the Credit Intelligence Layer for AI--Deployable With One Line of Code",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/credit-sesame-launches-sesa-the-credit-intelligence-layer-for-aideployable-with-one-line-of-code-302908144.html",
-      "summary": "Modular AI agents enable enterprises and LLM-powered experiences to embed personalized credit guidance, intelligent product matching, monitoring and protection—individually or as one coordinated experience MOUNTAIN VIEW, Calif., Oct. 14, 2026 /PRNewswire/ -- …",
-      "published_date": "2026-10-14",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
+      "title": "highflame 0.5.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/highflame/0.5.0/",
+      "summary": "Python SDK for Highflame AI guardrails",
+      "published_date": "2026-10-15",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "guardrail"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "clawock 0.4.0",
+      "title": "pythia-plsql 0.15.5",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/clawock/0.4.0/",
-      "summary": "Investment workflows for AI agents: evidence, opposing cases, and outcomes checked by Python.",
-      "published_date": "2026-10-14",
+      "url": "https://pypi.org/project/pythia-plsql/0.15.5/",
+      "summary": "PL/SQL development for AI agents on Oracle Database - expert data-dictionary queries, impact analysis, and a snapshot-verified write path with honest rollback.",
+      "published_date": "2026-10-15",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
