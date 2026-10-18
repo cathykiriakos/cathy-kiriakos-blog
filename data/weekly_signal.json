@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T13:08:43.966Z",
+  "generated_at": "2026-10-18T16:20:13.711Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,13 +7,13 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 14
+      "item_count": 13
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 8
+      "item_count": 10
     },
     {
       "id": "human_centric_design",
@@ -41,6 +41,52 @@
   "items": [
     {
       "rank": 1,
+      "title": "synomosai-governance-mcp 1.2.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/synomosai-governance-mcp/1.2.0/",
+      "summary": "SynomosAI Governance MCP — AI governance assessment tools for AI agents (A³ scorecard, ISO 42001 evidence chain, compliance checklist, passport lookup, PII scan, LGD knowledge). Pure stdlib, zero deps, stdio + Streamable HTTP.",
+      "published_date": "2026-10-17",
+      "relevance_score": 23,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "ai governance",
+        "governance",
+        "compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 2,
+      "title": "synomosai-governance-mcp added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/synomosai-governance-mcp/",
+      "summary": "SynomosAI Governance MCP — AI governance assessment tools for AI agents (A³ scorecard, ISO 42001 evidence chain, compliance checklist, passport lookup, PII scan, LGD knowledge). Pure stdlib, zero deps, stdio + Streamable HTTP.",
+      "published_date": "2026-10-17",
+      "relevance_score": 23,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "ai governance",
+        "governance",
+        "compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 3,
       "title": "The Digital Omnibus: Recalibrating Compliance for Agentic AI",
       "source": "Forkast.news",
       "url": "https://forkast.news/the-digital-omnibus-recalibrating-compliance-for-agentic-ai/",
@@ -62,7 +108,7 @@
       "sentiment": "negative"
     },
     {
-      "rank": 2,
+      "rank": 4,
       "title": "Anthropic IPO raises 401(k) concerns amid AI safety debate",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/anthropic-ipo-raises-401k-concerns-amid-ai-safety-debate/",
@@ -82,27 +128,27 @@
       "sentiment": "negative"
     },
     {
-      "rank": 3,
-      "title": "Best AI Agent Governance Tools in 2026: Reviews & Comparisons",
-      "source": "Sematext.com",
-      "url": "https://sematext.com/blog/best-ai-agent-governance-tools/",
-      "summary": "AI agents are becoming a huge category of software running inside our organizations. The problem is that many companies are adopting them faster than they can inventory, secure, and govern them. I have also heard that CIOs and CISOs in some organizations are …",
-      "published_date": "2026-10-16",
-      "relevance_score": 14,
+      "rank": 5,
+      "title": "hexastack-mcp 0.9.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/hexastack-mcp/0.9.0/",
+      "summary": "Model Context Protocol (MCP) adapter and AI agent tool integration for Hexastack",
+      "published_date": "2026-10-17",
+      "relevance_score": 15,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "governance"
+        "model context protocol",
+        "MCP",
+        "ai agent"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "kyvvu-engine 0.13.0",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/kyvvu-engine/0.13.0/",
@@ -118,44 +164,6 @@
         "ai governance",
         "governance",
         "eu ai act"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 5,
-      "title": "mdgraph-ai added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/mdgraph-ai/",
-      "summary": "A vectorless Open Knowledge Format (OKF) context engine for agentic AI",
-      "published_date": "2026-10-17",
-      "relevance_score": 10,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "context engine",
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 6,
-      "title": "mdgraph-ai 0.1.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/mdgraph-ai/0.1.0/",
-      "summary": "A vectorless Open Knowledge Format (OKF) context engine for agentic AI",
-      "published_date": "2026-10-17",
-      "relevance_score": 10,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "context engine",
-        "agentic"
       ],
       "sentiment": "neutral"
     },
@@ -218,10 +226,10 @@
     },
     {
       "rank": 10,
-      "title": "hol-guard 3.50.0a1",
+      "title": "jobstate added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/hol-guard/3.50.0a1/",
-      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+      "url": "https://pypi.org/project/jobstate/",
+      "summary": "Submit, watch and report on Slurm jobs from AI agents: an MCP server and CLI for JSC's JUPITER, JURECA, JUWELS and JUSUF",
       "published_date": "2026-10-17",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -237,10 +245,10 @@
     },
     {
       "rank": 11,
-      "title": "payaion-mcp 1.2.0",
+      "title": "jobstate 0.1.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/payaion-mcp/1.2.0/",
-      "summary": "MCP server for Payaion — file uploads, storage folders, marketplace listings, and paid downloads for AI agents on Base mainnet (USDC).",
+      "url": "https://pypi.org/project/jobstate/0.1.0/",
+      "summary": "Submit, watch and report on Slurm jobs from AI agents: an MCP server and CLI for JSC's JUPITER, JURECA, JUWELS and JUSUF",
       "published_date": "2026-10-17",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -256,10 +264,10 @@
     },
     {
       "rank": 12,
-      "title": "superlocalmemory 4.2.9",
+      "title": "plausible-mcp 0.1.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/superlocalmemory/4.2.9/",
-      "summary": "The governed memory brain for AI agents: one local memory for Claude Code, Codex, Cursor, Copilot, ChatGPT and any MCP client",
+      "url": "https://pypi.org/project/plausible-mcp/0.1.1/",
+      "summary": "Plausible Analytics MCP server: privacy-first website statistics, real-time visitors, breakdowns, and trendlines for AI agents.",
       "published_date": "2026-10-17",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -275,10 +283,10 @@
     },
     {
       "rank": 13,
-      "title": "screaming-frog-mcp 0.4.3",
+      "title": "bing-webmaster-mcp 0.1.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/screaming-frog-mcp/0.4.3/",
-      "summary": "Headless MCP server for Screaming Frog SEO Spider: run crawls, export and analyze crawl data via the CLI, no GUI session required. Built for scheduled audits, CI, and AI agents.",
+      "url": "https://pypi.org/project/bing-webmaster-mcp/0.1.1/",
+      "summary": "Bing Webmaster Tools & IndexNow API MCP server for AI agents: search performance, crawl issues, and instant URL indexing.",
       "published_date": "2026-10-17",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -294,46 +302,9 @@
     },
     {
       "rank": 14,
-      "title": "bazis-mcp 2.5.0",
+      "title": "llmslim 0.11.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/bazis-mcp/2.5.0/",
-      "summary": "MCP server of Bazis projects: the catalog of the Bazis packages and the facts and checks of the project for AI agents.",
-      "published_date": "2026-10-17",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "Websites are closing their doors to AI agents",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/f62d12a02c4cff0d",
-      "summary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what ha…",
-      "published_date": "2026-10-17",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "llmslim 0.10.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/llmslim/0.10.1/",
+      "url": "https://pypi.org/project/llmslim/0.11.1/",
       "summary": "Context compression and planning for RAG and AI agents: fit retrieved documents, chat history and tool output into a token budget.",
       "published_date": "2026-10-17",
       "relevance_score": 8,
@@ -349,11 +320,11 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 17,
-      "title": "Jamie Dimon Warns AI Agents That Make Payments on Your Behalf ‘May Not’ Act Properly: AI Revolution Like a ‘Tsunami’ That Must Be Managed",
+      "rank": 15,
+      "title": "Websites are closing their doors to AI agents",
       "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/0c66830569f80eb3",
-      "summary": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nJPMorgan Chase & Co. CEO Jamie Dimon cautioned that artificial intelligence agents allowed to make payments for customers would need their bank codes, putting…",
+      "url": "https://biztoc.com/x/6c0381288fd0c376",
+      "summary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what ha…",
       "published_date": "2026-10-17",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
@@ -365,6 +336,42 @@
         "ai agent"
       ],
       "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "Chinese Startup StepFun Launches a Phone Built Around an AI Agent, Not Apps",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381202/chinese-startup-stepfun-phone-ai-agent",
+      "summary": "StepFun's STEPX Neo opened for pre-orders in China on Oct. 13 at 3,999 yuan, with an AI agent built into the operating system instead of bolted on as an app.",
+      "published_date": "2026-10-17",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "California Gov Newsom boosts AI regulation as he eyes 2028 presidential run",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/economy/2026/10/17/california-gov-newsom-boosts-ai-regulation-as-he-eyes-2028-presidential-run",
+      "summary": "Newsom signed an executive order to examine kill switches for AI models and other measures he had earlier vetoed.",
+      "published_date": "2026-10-17",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai regulation"
+      ],
+      "sentiment": "positive"
     },
     {
       "rank": 18,
