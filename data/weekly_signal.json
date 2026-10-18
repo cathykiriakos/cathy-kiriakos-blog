@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T12:51:00.106Z",
+  "generated_at": "2026-10-18T13:08:43.966Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,13 +7,13 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 13
+      "item_count": 14
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 12
+      "item_count": 8
     },
     {
       "id": "human_centric_design",
@@ -41,33 +41,12 @@
   "items": [
     {
       "rank": 1,
-      "title": "ServiceNow's AI Governance Push Meets a Marketing Bet — and One Hard Deadline",
-      "source": "Ad-hoc-news.de",
-      "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/servicenow-s-ai-governance-push-meets-a-marketing-bet-and-one-hard-deadline/70331054",
-      "summary": "ServiceNow pairs AI agent control tools with a Stagwell alliance, but neither has confirmed revenue yet; Q3 2026 results land October 28.",
-      "published_date": "2026-10-15",
-      "relevance_score": 21,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 2,
-      "title": "ServiceNow Bets the Credential Is the Governance Layer, Not the Policy",
+      "title": "The Digital Omnibus: Recalibrating Compliance for Agentic AI",
       "source": "Forkast.news",
-      "url": "https://forkast.news/servicenow-bets-the-credential-is-the-governance-layer-not-the-policy/",
-      "summary": "ServiceNow is shifting its approach to agentic AI governance, moving beyond the framework of governed autonomy introduced in AI Workflow Factory. On October 15, 2026, the company announced AI Passport, a system that uses cryptographically signed credentials t…",
-      "published_date": "2026-10-15",
-      "relevance_score": 16,
+      "url": "https://forkast.news/the-digital-omnibus-recalibrating-compliance-for-agentic-ai/",
+      "summary": "The Digital Omnibus on AI (Regulation 2026/1744), which entered into force on July 27, 2026, has fundamentally altered the implementation schedule for the EU AI Act. By pushing the compliance deadline for Annex III stand-alone high-risk AI systems to December…",
+      "published_date": "2026-10-17",
+      "relevance_score": 19,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
@@ -76,55 +55,34 @@
       "institutional_signal": false,
       "matched_keywords": [
         "agentic",
-        "ai governance",
-        "governance"
+        "implementation",
+        "compliance",
+        "eu ai act"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "rank": 3,
-      "title": "air-blackbox 1.17.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/air-blackbox/1.17.0/",
-      "summary": "AI governance control plane - compliance, inventory, incident response, and audit for AI agents",
-      "published_date": "2026-10-15",
+      "rank": 2,
+      "title": "Anthropic IPO raises 401(k) concerns amid AI safety debate",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/anthropic-ipo-raises-401k-concerns-amid-ai-safety-debate/",
+      "summary": "The Anthropic IPO highlights growing investor caution and regulatory scrutiny, potentially reshaping market dynamics and AI governance standards.\nThe post Anthropic IPO raises 401(k) concerns amid AI safety debate appeared first on Crypto Briefing.",
+      "published_date": "2026-10-16",
       "relevance_score": 16,
       "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
         "ai governance",
         "governance",
-        "compliance"
+        "ai safety"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "rank": 4,
-      "title": "Conservative AI safety group proposes export controls, visa restrictions",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/57d22c0b4503d837",
-      "summary": "Humans First, a conservative-led group advocating for stronger AI guardrails, is out with an “America First AI Policy” platform on Friday, according to a memo shared first with Semafor.\nKey parts of the framework include tightening export controls against Chi…",
-      "published_date": "2026-10-16",
-      "relevance_score": 15,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail",
-        "ai safety",
-        "ai policy"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 5,
+      "rank": 3,
       "title": "Best AI Agent Governance Tools in 2026: Reviews & Comparisons",
       "source": "Sematext.com",
       "url": "https://sematext.com/blog/best-ai-agent-governance-tools/",
@@ -144,13 +102,71 @@
       "sentiment": "negative"
     },
     {
-      "rank": 6,
-      "title": "fulcrum-governance 0.2.1",
+      "rank": 4,
+      "title": "kyvvu-engine 0.13.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/fulcrum-governance/0.2.1/",
-      "summary": "Python SDK for Fulcrum - Intelligent AI Governance Platform",
-      "published_date": "2026-10-16",
+      "url": "https://pypi.org/project/kyvvu-engine/0.13.0/",
+      "summary": "Standalone policy evaluation engine for AI governance under the EU AI Act",
+      "published_date": "2026-10-17",
       "relevance_score": 13,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance",
+        "eu ai act"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 5,
+      "title": "mdgraph-ai added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/mdgraph-ai/",
+      "summary": "A vectorless Open Knowledge Format (OKF) context engine for agentic AI",
+      "published_date": "2026-10-17",
+      "relevance_score": 10,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "context engine",
+        "agentic"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 6,
+      "title": "mdgraph-ai 0.1.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/mdgraph-ai/0.1.0/",
+      "summary": "A vectorless Open Knowledge Format (OKF) context engine for agentic AI",
+      "published_date": "2026-10-17",
+      "relevance_score": 10,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "context engine",
+        "agentic"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 7,
+      "title": "sengol 2.0.1a10",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/sengol/2.0.1a10/",
+      "summary": "Sengol AI governance SDK",
+      "published_date": "2026-10-17",
+      "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -163,88 +179,69 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 7,
-      "title": "‘Cupertino’ Creators Robert & Michelle King On Episode 2’s Shocking AGI Twist & Predicting The Future Again With AI Guardrails Storyline",
-      "source": "Deadline",
-      "url": "http://deadline.com/2026/10/cupertino-creators-episode-102-bo-agi-storyline-interview-1237158656/",
-      "summary": "SPOILER ALERT: The story includes details about Episode 102 of CBS’ Cupertino, ‘Vik & Bo.’ The Good Wife creators Robert and Michelle King are back at CBS this fall with a new legal drama, anchored by The Good Wife favorite Mike Colter, this time set in Silic…",
+      "rank": 8,
+      "title": "ashmatics-aigov-tools 0.16.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/ashmatics-aigov-tools/0.16.1/",
+      "summary": "Ashmatics Clinical AI Governance Framework - Content management, validation, and compilation",
       "published_date": "2026-10-16",
-      "relevance_score": 12,
+      "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 8,
-      "title": "Nvidia's Jensen Huang Says U.S. 'Absolutely Must' Work with China on AI Safety",
-      "source": "Breitbart News",
-      "url": "https://www.breitbart.com/tech/2026/10/15/nvidias-jensen-huang-says-u-s-absolutely-must-work-with-china-on-ai-safety/",
-      "summary": "Nvidia CEO Jensen Huang said Wednesday that the United States \"absolutely must\" cooperate with Chinese AI companies to monitor the risks of the technology, even as he continues to resist broader calls for tighter AI regulation.\nThe post Nvidia’s Jensen Huang …",
-      "published_date": "2026-10-15",
-      "relevance_score": 11,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai safety",
-        "ai regulation"
-      ],
-      "sentiment": "negative"
-    },
-    {
       "rank": 9,
-      "title": "ByteDance’s Seed forms AI safety team and launches a global hiring drive",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/bytedance-seed-ai-safety-team-hiring/",
-      "summary": "ByteDance's AI safety initiative highlights growing global emphasis on responsible AI development amid rising geopolitical tensions.\nThe post ByteDance’s Seed forms AI safety team and launches a global hiring drive appeared first on Crypto Briefing.",
-      "published_date": "2026-10-15",
-      "relevance_score": 11,
+      "title": "sengol 2.0.1a9",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/sengol/2.0.1a9/",
+      "summary": "Sengol AI governance SDK",
+      "published_date": "2026-10-16",
+      "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "responsible ai",
-        "ai safety"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 10,
-      "title": "HubSpot Rolls Out AI Spend Caps & Flexible Billing",
-      "source": "CMSWire",
-      "url": "https://www.cmswire.com/digital-experience/hubspot-rolls-out-ai-spend-caps-flexible-billing/",
-      "summary": "New guardrails let customers cap credit use, swap seats for credits and pick pay-as-you-go or flat-rate billing — easing budget anxiety around AI agents.\nContinue reading...",
-      "published_date": "2026-10-15",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "title": "hol-guard 3.50.0a1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/hol-guard/3.50.0a1/",
+      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+      "published_date": "2026-10-17",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "guardrail"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 11,
-      "title": "nimbus-mcp 0.14.1",
+      "title": "payaion-mcp 1.2.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/nimbus-mcp/0.14.1/",
-      "summary": "MCP server bridging AI agents to Nimbus BCI pipelines (device-flow login, desktop auto-discovery, or API key)",
-      "published_date": "2026-10-16",
+      "url": "https://pypi.org/project/payaion-mcp/1.2.0/",
+      "summary": "MCP server for Payaion — file uploads, storage folders, marketplace listings, and paid downloads for AI agents on Base mainnet (USDC).",
+      "published_date": "2026-10-17",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -259,47 +256,140 @@
     },
     {
       "rank": 12,
-      "title": "Treasure AI Builds a Brand Live on Stage at Agentic World 2026, Unveils Digital Worker",
-      "source": "Financial Post",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/treasure-ai-builds-a-brand-live-on-stage-at-agentic-world-2026-unveils-digital-worker",
-      "summary": "Daymond John headlines as 500+ enterprise marketing leaders gather in Miami; Treasure AI awards its customers and announces Digital Worker, Personalization Studio and click-based email pricing MIAMI — Treasure AI, the Agentic Experience Platform, wrapped Agen…",
-      "published_date": "2026-10-16",
-      "relevance_score": 8,
+      "title": "superlocalmemory 4.2.9",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/superlocalmemory/4.2.9/",
+      "summary": "The governed memory brain for AI agents: one local memory for Claude Code, Codex, Cursor, Copilot, ChatGPT and any MCP client",
+      "published_date": "2026-10-17",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 13,
-      "title": "ASUS ProArt P16 and P14, Powered by NVIDIA RTX Spark, Now Shipping in Canada",
-      "source": "Financial Post",
-      "url": "https://financialpost.com/globe-newswire/asus-proart-p16-and-p14-powered-by-nvidia-rtx-spark-now-shipping-in-canada",
-      "summary": "ProArt P16 and P14 combine high-capacity unified memory, AI agents and creative apps for customizable local workflows on Windows KEY POINTS Built for local agentic AI: ProArt P16 & P14 laptops, powered by NVIDIA RTX Spark with up to 1 petaflop of FP4 AI perfo…",
-      "published_date": "2026-10-16",
-      "relevance_score": 8,
+      "title": "screaming-frog-mcp 0.4.3",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/screaming-frog-mcp/0.4.3/",
+      "summary": "Headless MCP server for Screaming Frog SEO Spider: run crawls, export and analyze crawl data via the CLI, no GUI session required. Built for scheduled audits, CI, and AI agents.",
+      "published_date": "2026-10-17",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 14,
-      "title": "Grafana Applies SLOs and Error Budgets to AI Agent Behaviour",
-      "source": "InfoQ.com",
-      "url": "https://www.infoq.com/news/2026/10/grafana-slo-ai-agent/",
-      "summary": "Grafana Labs is proposing a familiar reliability engineering approach for one of the less familiar problems in modern software: how to measure whether an AI agent is actually behaving well. By Craig Risi",
+      "title": "bazis-mcp 2.5.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/bazis-mcp/2.5.0/",
+      "summary": "MCP server of Bazis projects: the catalog of the Bazis packages and the facts and checks of the project for AI agents.",
+      "published_date": "2026-10-17",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "Websites are closing their doors to AI agents",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/f62d12a02c4cff0d",
+      "summary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what ha…",
+      "published_date": "2026-10-17",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "llmslim 0.10.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/llmslim/0.10.1/",
+      "summary": "Context compression and planning for RAG and AI agents: fit retrieved documents, chat history and tool output into a token budget.",
+      "published_date": "2026-10-17",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "RAG"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "Jamie Dimon Warns AI Agents That Make Payments on Your Behalf ‘May Not’ Act Properly: AI Revolution Like a ‘Tsunami’ That Must Be Managed",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/0c66830569f80eb3",
+      "summary": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nJPMorgan Chase & Co. CEO Jamie Dimon cautioned that artificial intelligence agents allowed to make payments for customers would need their bank codes, putting…",
+      "published_date": "2026-10-17",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "When AI agents cross the line: Govt assessing whether AI labs should formally disclose autonomous agent intrusions",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/india/when-ai-agents-cross-the-line-govt-assessing-whether-ai-labs-should-formally-disclose-autonomous-agent-intrusions/articleshow/135002650.cms",
+      "summary": "The government is considering formal disclosure mechanisms for global AI research organisations after autonomous AI agents accessed Indian organisations’ systems without authorisation. The incidents, flagged by CERT-In as critical, involved access to business…",
+      "published_date": "2026-10-16",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "'Cert-In alert on AI agents an early warning, no major financial loss'",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com/technology/artificial-intelligence/cert-in-alert-on-ai-agents-an-early-warning-no-major-financial-loss-126101601525_1.html",
+      "summary": "Government sources said companies must invest in cybersecurity and pointed out that currently firms \"notoriously lack in fibre hygiene\"",
       "published_date": "2026-10-16",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
@@ -313,12 +403,12 @@
       "sentiment": "negative"
     },
     {
-      "rank": 15,
-      "title": "Responsible AI for Children: IEEE Delivers a Trusted Safety Formula to Help Protect Kids Online",
-      "source": "Antaranews.com",
-      "url": "https://en.antaranews.com/news/435837/responsible-ai-for-children-ieee-delivers-a-trusted-safety-formula-to-help-protect-kids-online",
-      "summary": "-The IEEE Standards Association, the global, consensus-building standards development organization of IEEE &ndash; the world&rsquo;s largest technical ...",
-      "published_date": "2026-10-15",
+      "rank": 20,
+      "title": "The lack of a shared lexicon is undermining responsible AI-military integration",
+      "source": "Defense One",
+      "url": "https://www.defenseone.com/ideas/2026/10/data-fragmentation-challenge-ai-military/416632/",
+      "summary": "We need a common way to talk about military AI—across services, agencies, and indeed, the world.",
+      "published_date": "2026-10-16",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -327,96 +417,6 @@
       "institutional_signal": false,
       "matched_keywords": [
         "responsible ai"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "Global FSB Issues Final Guidance on Agentic AI in Finance: Market Structure Beyond the Perimeter",
-      "source": "Forkast.news",
-      "url": "https://forkast.news/global-fsb-issues-final-guidance-on-agentic-ai-in-finance-market-structure-beyond-the-perimeter/",
-      "summary": "The Financial Stability Board published its Sound Practices for Responsible Adoption of Artificial Intelligence (AI) on October 15, 2026. This report establishes a structural baseline for the global financial industry regarding the use of agentic AI. It repre…",
-      "published_date": "2026-10-15",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "Anthropic cofounder renews call for robust regulation of frontier AI",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-cofounder-renews-call-for-robust-regulation-of-frontier-ai/articleshow/134990035.cms",
-      "summary": "Concerns about AI guardrails have soared after models developed by OpenAI and Anthropic were involved in security incidents during testing, piling on pressure to regulate the technology.",
-      "published_date": "2026-10-16",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 18,
-      "title": "confirmesc",
-      "source": "Kitploit.com",
-      "url": "https://kitploit.com/en/tools/github/capture0x/confirmesc",
-      "summary": "Linux privesc enumerator that confirms exploitability and gives you the exact root shell command - no GTFOBins searching. MCP server + AI-agent skills included.",
-      "published_date": "2026-10-16",
-      "relevance_score": 6,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 19,
-      "title": "Neusoft Shares Insights on China's \"Scenario-Defined\" Approach to Rapid AI Implementation in Mobility at ELIV 2026",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/neusoft-shares-insights-on-chinas-scenario-defined-approach-to-rapid-ai-implementation-in-mobility-at-eliv-2026-302911040.html",
-      "summary": "BADEN-BADEN, Germany, Oct. 16, 2026 /PRNewswire/ -- The International VDI Congress – ELIV 2026 was held in Baden-Baden, Germany this week. Dr. Angela Wang, Senior Vice President of Neusoft Corporation (SSE: 600718), Chairwoman & President of Neusoft Europe, a…",
-      "published_date": "2026-10-16",
-      "relevance_score": 6,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "implementation"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 20,
-      "title": "tackboard 0.1.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/tackboard/0.1.1/",
-      "summary": "Project-scoped task board for coordinating multiple AI agents: CLI-first, SQLite-backed, with a read-only board and dependency-DAG view",
-      "published_date": "2026-10-16",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
       ],
       "sentiment": "neutral"
     }
