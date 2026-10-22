@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T14:27:46.011Z",
+  "generated_at": "2026-10-22T14:29:04.834Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,13 +7,13 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 11
+      "item_count": 13
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 11
+      "item_count": 6
     },
     {
       "id": "human_centric_design",
@@ -41,32 +41,52 @@
   "items": [
     {
       "rank": 1,
-      "title": "Figma expands Model Context Protocol support with 20 new partners",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/figma-model-context-protocol-20-partners/",
-      "summary": "Figma's expanded MCP support could revolutionize design workflows, enhancing AI integration and collaboration, but raises governance concerns.\nThe post Figma expands Model Context Protocol support with 20 new partners appeared first on Crypto Briefing.",
-      "published_date": "2026-10-20",
-      "relevance_score": 21,
+      "title": "Human Feedback Foundation, with support from RBC, launches the Agentic AI Design Exchange to help Canadian nonprofits design their own AI agents",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/globe-newswire/human-feedback-foundation-with-support-from-rbc-launches-the-agentic-ai-design-exchange-to-help-canadian-nonprofits-design-their-own-ai-agents",
+      "summary": "New program aims to build AI capacity and support knowledge sharing for nonprofit professionals across Canada TORONTO, Oct. 21, 2026 (GLOBE NEWSWIRE) — The Human Feedback Foundation (HFF), with support from RBC, today announced the Agentic AI Design Exchange …",
+      "published_date": "2026-10-21",
+      "relevance_score": 20,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai",
-        "governance_as_code"
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent",
+        "ai design"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 2,
+      "title": "Epiphan Video Makes Pearl Encoder Fleets Agent-Ready for the Era of Agentic AV",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/epiphan-video-makes-pearl-encoder-fleets-agent-ready-for-the-era-of-agentic-av-302913385.html",
+      "summary": "PALO ALTO, Calif., Oct. 21, 2026 /PRNewswire/ -- Epiphan Video today released read and write access for Epiphan MCP, its hosted Model Context Protocol (MCP) server for Epiphan Edge, making Pearl encoders agent-ready. Agent-ready AV is equipment that an AI ass…",
+      "published_date": "2026-10-21",
+      "relevance_score": 18,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
         "model context protocol",
         "MCP",
-        "governance"
+        "agentic"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "rank": 2,
-      "title": "FX market tightens AI governance as autonomous trading spreads",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/fx-market-ai-governance-reviews/",
-      "summary": "Enhanced AI governance in FX markets could mitigate risks like volatility spikes but may also challenge liquidity and trading efficiency.\nThe post FX market tightens AI governance as autonomous trading spreads appeared first on Crypto Briefing.",
-      "published_date": "2026-10-20",
+      "rank": 3,
+      "title": "D2L, WCET and Opened Culture Release Findings from Global Longitudinal Study on AI Governance in Higher Education",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/d2l-wcet-and-opened-culture-release-findings-from-global-longitudinal-study-on-ai-governance-in-higher-education-302915513.html",
+      "summary": "Governing AI from Strength, a new action guide, shows how colleges and universities can build effective governance from the people, policies and structures they already have TORONTO, Oct. 21, 2026 /PRNewswire/ -- D2L, a global leader in learning innovation, h…",
+      "published_date": "2026-10-21",
       "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -77,57 +97,15 @@
         "ai governance",
         "governance"
       ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 3,
-      "title": "odoo-safe-mcp 2.0.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/odoo-safe-mcp/2.0.0/",
-      "summary": "Deterministic AI Firewall and Model Context Protocol (MCP) Server for Odoo ERP with Human-in-the-Loop approvals.",
-      "published_date": "2026-10-19",
-      "relevance_score": 18,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "model context protocol",
-        "MCP",
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 4,
-      "title": "odoo-safe-mcp added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/odoo-safe-mcp/",
-      "summary": "Deterministic AI Firewall and Model Context Protocol (MCP) Server for Odoo ERP with Human-in-the-Loop approvals.",
-      "published_date": "2026-10-19",
-      "relevance_score": 18,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "model context protocol",
-        "MCP",
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 5,
-      "title": "Financial Cents Launches MCP Server to Put Firm Data to Work Inside Everyday AI Assistants",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/financial-cents-launches-mcp-server-to-put-firm-data-to-work-inside-everyday-ai-assistants-302910604.html",
-      "summary": "New Model Context Protocol server lets accounting, bookkeeping and tax firms ask questions and take action on their Financial Cents data from Claude, ChatGPT, Gemini and other AI tools — scoped to one account, authorized by the firm and revocable anytime. ATL…",
-      "published_date": "2026-10-20",
+      "title": "Andor Health Receives Frost & Sullivan's 2026 North American Agentic AI-Based Care Orchestration Competitive Strategy Leadership Recognition",
+      "source": "PR Newswire UK",
+      "url": "https://www.prnewswire.co.uk/news-releases/andor-health-receives-frost--sullivans-2026-north-american-agentic-ai-based-care-orchestration-competitive-strategy-leadership-recognition-302913662.html",
+      "summary": "The company is recognized for advancing agentic AI in healthcare through an interoperable, AI-native clinical services platform that enables intelligent workflow orchestration, clinician productivity, and enterprise scalability. SAN ANTONIO, Oct. 21, 2026 /PR…",
+      "published_date": "2026-10-21",
       "relevance_score": 16,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -135,39 +113,58 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol",
-        "MCP"
+        "orchestration",
+        "agentic"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 5,
+      "title": "AI Guardrails Aren’t Stopping Criminal Hackers",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/",
+      "summary": "Hackers around the world are all-in on using agentic AI to wage attacks—and manipulating tools like Anthropic’s Claude to help them carry out their crimes.",
+      "published_date": "2026-10-21",
+      "relevance_score": 15,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "guardrail"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 6,
-      "title": "apowerb 0.2.92",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/apowerb/0.2.92/",
-      "summary": "Agentic framework for building and deploying AI agents with flexible orchestration, custom tool integration, RAG, Text-to-SQL, webhooks, and scheduled runs.",
-      "published_date": "2026-10-20",
-      "relevance_score": 15,
+      "title": "How AI agents search",
+      "source": "Plos.org",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0360157",
+      "summary": "Large Language Models (LLMs) have evolved from relying primarily on knowledge stored in their parametric memory to using non-parametric memory mechanisms such as Retrieval-Augmented Generation (RAG) to provide and ground knowledge. Recently, LLMs have begun t…",
+      "published_date": "2026-10-21",
+      "relevance_score": 14,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "orchestration",
-        "agentic",
         "ai agent",
+        "retrieval-augmented",
         "RAG"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 7,
-      "title": "IMF Chief Calls for AI Guardrails as Officials Weigh Economic Risks and Opportunities",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-10-20-imf-chief-calls-for-artificial-intelligence-guardrails.html",
-      "summary": "Guardrails are urgently needed to contain potential risks from the artificial intelligence (AI) boom, International Monetary Fund (IMF) Managing Director Kristalina Georgieva said on Oct. 16 during a panel at the IMF-World Bank annual meetings. The panel, tit…",
-      "published_date": "2026-10-20",
+      "title": "No Guardrails in the Ocean, No Safeguards for AI",
+      "source": "Fair Observer",
+      "url": "https://www.fairobserver.com/world-news/no-guardrails-in-the-ocean-no-safeguards-for-ai/",
+      "summary": "Let me make it perfectly clear: the talk of “safeguards” and “guardrails” for AI is at best a misleading metaphor, at worst an impossible gamble. This is because the way a guardrail works is the exact opposite of how AIs work. I think about guardrails a lot, …",
+      "published_date": "2026-10-21",
       "relevance_score": 12,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -177,94 +174,92 @@
       "matched_keywords": [
         "guardrail"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 8,
-      "title": "conciergent 0.4.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/conciergent/0.4.0/",
-      "summary": "Turn an OpenAPI spec or any MCP server into a Slack, LINE, or Discord chatbot, with in-chat OAuth, human-in-the-loop approval, and surface-native rich replies.",
-      "published_date": "2026-10-19",
-      "relevance_score": 12,
-      "primary_pillar": "human_centric_design",
+      "title": "RegASK Expands AI Agents to Automate Regulatory Action Across 160+ Markets",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/regask-expands-ai-agents-to-automate-regulatory-action-across-160-markets",
+      "summary": "New configurable workflows connect regulatory alerts to action with expert oversight, while Ingredient Registry introduces source-linked permissibility intelligence across five markets. NEW YORK & SINGAPORE — RegASK today announced expanded agentic AI capabil…",
+      "published_date": "2026-10-21",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "human-in-the-loop"
+        "agentic",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 9,
-      "title": "The Agent Governance Tax: Enterprises Are Buying Four Layers of Control Before Proving One Layer of Value",
-      "source": "Forkast.news",
-      "url": "https://forkast.news/the-agent-governance-tax-enterprises-are-buying-four-layers-of-control-before-proving-one-layer-of-value/",
-      "summary": "The Control Stack Got a Price Tag Three enterprise vendors shipped a nearly complete governance stack for AI agents in 27 days. Okta launched Agent SSO at Oktane on September 22, the public face of a product whose general availability release is dated August …",
-      "published_date": "2026-10-20",
+      "title": "India Civil Services AI Training: Karmayogi Bharat, OpenAI MoU For Future-Ready Governance",
+      "source": "Rediff.com",
+      "url": "https://www.rediff.com/business/report/karmayogi-bharat-and-openai-partner-for-civil-service-ai-training/20261021.htm",
+      "summary": "Karmayogi Bharat and OpenAI have signed an MoU to enhance AI capacity development across India's civil services. This partnership aims to equip government personnel with AI skills through the iGOT Karmayogi platform, fostering confident and responsible AI use…",
+      "published_date": "2026-10-21",
       "relevance_score": 11,
       "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "governance"
+        "governance",
+        "responsible ai"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 10,
-      "title": "Talking enterprise AI vulnerabilities, jailbreaks, and active threat intelligence with Amy Chang",
-      "source": "Apple Newsroom",
-      "url": "https://podcasts.apple.com/us/podcast/s7-e11-talking-enterprise-ai-vulnerabilities-jailbreaks/id1508947453?i=1000797132036",
-      "summary": "Amy Chang sits down with AB to unpack AI threat research, prompt-injection risks, and securing critical human-in-the-loop governance. More RSS Feeds: https://newsroom.cisco.com/c/r/newsroom/en/us/rss-feeds.html",
-      "published_date": "2026-10-20",
+      "title": "ThreatLocker adds external controls for AI agent access and execution",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/10/21/threatlocker-zero-trust-ai-control-ztaic/",
+      "summary": "ThreatLocker has announced the launch of Zero Trust AI Control (ZTAIC), giving organizations a tool to deploy agentic AI without surrendering control of their environments. ZTAIC enables security teams to give AI agents exactly what they need to perform their…",
+      "published_date": "2026-10-21",
       "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code",
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "governance",
-        "human-in-the-loop"
+        "agentic",
+        "ai agent"
       ],
       "sentiment": "negative"
     },
     {
       "rank": 11,
-      "title": "EU bishops set out 8 principles to keep AI ‘at the service of the human person’",
-      "source": "Ewtnnews.com",
-      "url": "https://www.ewtnnews.com/world/europe/eu-bishops-set-out-8-principles-to-keep-ai-at-the-service-of-the-human-person",
-      "summary": "In a Brussels declaration, COMECE urged Europe to strengthen its digital capacities and lead on AI governance anchored in human dignity, solidarity, and peace.",
-      "published_date": "2026-10-20",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "title": "ARTEX",
+      "source": "Kitploit.com",
+      "url": "https://kitploit.com/en/tools/github/trhhubsd/artex",
+      "summary": "Multi-agent LLM system for autonomous penetration testing in isolated labs: planner/worker agents share asset and exploration graphs, with MITM traffic recording and human-in-the-loop approval.",
+      "published_date": "2026-10-21",
+      "relevance_score": 11,
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "governance_as_code"
+        "applied_ai",
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "multi-agent",
+        "human-in-the-loop"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "The Great American AI Act Mirrors California’s AI Rulebook and Would Preempt It for Three Years",
-      "source": "Forkast.news",
-      "url": "https://forkast.news/the-great-american-ai-act-mirrors-californias-ai-rulebook-and-would-preempt-it-for-three-years/",
-      "summary": "The silent clock on federal AI policy The comment period on the SEC’s Regulation Crypto Assets proposal closes at 11:59:59 p.m. Eastern tonight, which is 03:59:59Z on October 21. Treasury’s NPRM comment period closed at 03:59:59Z today. Together they are the …",
-      "published_date": "2026-10-20",
+      "title": "An AI model’s false tip to Philadelphia police reveals how digital agents can do as they’re told and still cause trouble",
+      "source": "The Conversation Africa",
+      "url": "https://theconversation.com/an-ai-models-false-tip-to-philadelphia-police-reveals-how-digital-agents-can-do-as-theyre-told-and-still-cause-trouble-294228",
+      "summary": "An expert on AI governance explains why these rare mistakes may soon be common, and with much higher stakes.",
+      "published_date": "2026-10-21",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -272,94 +267,18 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "eu ai act",
-        "ai policy"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 13,
-      "title": "sengol 2.0.1a15",
+      "title": "codegraph-brain 0.35.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/sengol/2.0.1a15/",
-      "summary": "Sengol AI governance SDK",
-      "published_date": "2026-10-20",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "sengol 2.0.1a14",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/sengol/2.0.1a14/",
-      "summary": "Sengol AI governance SDK",
-      "published_date": "2026-10-20",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "sengol 2.0.1a13",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/sengol/2.0.1a13/",
-      "summary": "Sengol AI governance SDK",
-      "published_date": "2026-10-20",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "SEC to host roundtable on machine-understandable data for super intelligence",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/sec-roundtable-machine-understandable-data-ai/",
-      "summary": "The SEC's focus on machine-readable data could reshape financial analysis, raising questions about AI governance, data quality, and accountability.\nThe post SEC to host roundtable on machine-understandable data for super intelligence appeared first on Crypto …",
-      "published_date": "2026-10-19",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "nexus-android 0.9.3",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/nexus-android/0.9.3/",
-      "summary": "Android computer use for AI agents over ADB: one MCP server shared by Claude Code, Codex and Antigravity",
-      "published_date": "2026-10-20",
+      "url": "https://pypi.org/project/codegraph-brain/0.35.0/",
+      "summary": "Semantic code graph for AI agents — deterministic FQN resolution, impact analysis and architectural drift gates, exposed over MCP.",
+      "published_date": "2026-10-21",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -373,12 +292,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 18,
-      "title": "Show HN: Agent Alley – A social experiment for AI agents",
-      "source": "Agent-alley.com",
-      "url": "https://www.agent-alley.com/",
-      "summary": "Agent Alley is a forum run entirely by AI agents. They ask questions, debate, collaborate and tell stories; humans can read along.",
-      "published_date": "2026-10-20",
+      "rank": 14,
+      "title": "OpenAI uses nearly 2,000 AI agents to analyze brain CRISPR data in 32 minutes",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/openai-ai-agents-brain-crispr-atlas/",
+      "summary": "AI-driven rapid analysis could revolutionize drug discovery, significantly reducing research timelines and enhancing collaborative efforts.\nThe post OpenAI uses nearly 2,000 AI agents to analyze brain CRISPR data in 32 minutes appeared first on Crypto Briefin…",
+      "published_date": "2026-10-21",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -389,40 +308,112 @@
         "ai agent"
       ],
       "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/ca987a93738cccdc",
+      "summary": "OpenAI disclosed a pair of safety incidents that involved AI agents weakening their safety monitoring systems during internal coding tasks. In one incident, OpenAI says its GPT-6 Astra agent disabled its safety monitor when copying reference code — and then l…",
+      "published_date": "2026-10-21",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "Symantec Uncovers AI Agent Hijacking Models for Autonomous Cyber-Attacks",
+      "source": "Infosecurity Magazine",
+      "url": "https://www.infosecurity-magazine.com/news/symantec-ai-agent-llmjacking/",
+      "summary": "Researchers at Symantec have uncovered an AI agent designed to operate a full cyber-attack without human intervention",
+      "published_date": "2026-10-21",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "NVIDIA unveils security architecture that can stop AI agents crossing set boundaries",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/10/21/nvidia-openshell-reference-architecture/",
+      "summary": "NVIDIA’s OpenShell Reference Architecture is designed to help businesses control AI agents operating across enterprise infrastructure and local computing systems. It builds on NVIDIA’s existing OpenShell security software, combining it with hardware for runni…",
+      "published_date": "2026-10-21",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "clip-harness 0.3.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/clip-harness/0.3.0/",
+      "summary": "A human-in-the-loop execution bridge: run AI-chat-proposed commands from your clipboard, behind a Claude Code-style hook lifecycle with a fail-closed review gate.",
+      "published_date": "2026-10-21",
+      "relevance_score": 8,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "human-in-the-loop"
+      ],
+      "sentiment": "negative"
     },
     {
       "rank": 19,
-      "title": "Daytona hits $1B valuation with $60M Series B for AI agent cloud",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/7211f27ad72c23c9",
-      "summary": "Daytona, a company\ndeveloping cloud infrastructure for AI agents, has raised $60 million in a\nSeries B funding round at a $1 billion valuation, bringing its total funding to\n$91 million. The round was led by FirstMark, with participation from Patrick\nCollison…",
-      "published_date": "2026-10-20",
+      "title": "clip-harness added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/clip-harness/",
+      "summary": "A human-in-the-loop execution bridge: run AI-chat-proposed commands from your clipboard, behind a Claude Code-style hook lifecycle with a fail-closed review gate.",
+      "published_date": "2026-10-21",
       "relevance_score": 8,
-      "primary_pillar": "applied_ai",
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "applied_ai"
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "human-in-the-loop"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 20,
-      "title": "Visa, BILL and Billtrust launch live pilot letting AI agents pay B2B invoices",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/visa-bill-billtrust-ai-agent-invoice-payments/",
-      "summary": "AI-driven B2B invoice payments could streamline transactions, enhance security, and reduce friction, but require widespread industry coordination.\nThe post Visa, BILL and Billtrust launch live pilot letting AI agents pay B2B invoices appeared first on Crypto …",
-      "published_date": "2026-10-20",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
+      "title": "highflame 0.7.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/highflame/0.7.0/",
+      "summary": "Python SDK for Highflame AI guardrails",
+      "published_date": "2026-10-21",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "guardrail"
       ],
       "sentiment": "neutral"
     }
