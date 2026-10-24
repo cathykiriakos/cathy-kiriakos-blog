@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T14:11:49.093Z",
+  "generated_at": "2026-10-24T13:14:24.845Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 18
+      "item_count": 12
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 4
+      "item_count": 9
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 4
+      "item_count": 0
     }
   ],
   "institutional_signal": {
@@ -41,31 +41,32 @@
   "items": [
     {
       "rank": 1,
-      "title": "ACL Digital Launches AgentixCare, a Human-in-the-Loop Agentic AI Platform for Healthcare Payers, Providers, and MedTech",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/acl-digital-launches-agentixcare-a-human-in-the-loop-agentic-ai-platform-for-healthcare-payers-providers-and-medtech-302916672.html",
-      "summary": "The AI-first platform applies agentic AI, generative AI, and predictive models across clinical care, revenue cycle management, and connected MedTech, with humans in control of every critical decision. SAN JOSE, Calif., Oct. 22, 2026 /PRNewswire/ -- ACL Digita…",
+      "title": "Unpacking the AI Governance Crisis in Contact Centers",
+      "source": "CMSWire",
+      "url": "https://www.cmswire.com/contact-center/unpacking-the-ai-governance-crisis-in-contact-centers/",
+      "summary": "Contact centers are adding AI agents without the infrastructure to govern them. A new benchmark reveals the scale of the problem.\nContinue reading...",
       "published_date": "2026-10-22",
-      "relevance_score": 20,
-      "primary_pillar": "human_centric_design",
+      "relevance_score": 21,
+      "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
-        "human_centric_design"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
-        "human-in-the-loop"
+        "ai agent",
+        "ai governance",
+        "governance"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 2,
-      "title": "XTIUM expands XTAI with centralized AI governance and cost management",
-      "source": "Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/10/22/xtium-xtai-orchestrator/",
-      "summary": "XTIUM has released the latest version of XTAI (XTIUM Trusted AI), expanding its AI Service Platform with XTAI Orchestrator. The new governance platform brings together managed AI services, AI-powered voice, custom XTAI Agents, managed networks, and managed cl…",
-      "published_date": "2026-10-22",
+      "title": "AI Governance Platforms Make AI Countable. They Do Not Clear the Backlog",
+      "source": "Cloudtweaks.com",
+      "url": "https://cloudtweaks.com/2026/10/ai-governance-platform-backlog/",
+      "summary": "AI Governance Platforms Make AI Countable In June 2026, Gartner published its first Magic Quadrant for AI Governance Platforms. That is the signal worth reading, not another principle deck. Enterprises already juggle machine learning, generative applications,…",
+      "published_date": "2026-10-23",
       "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -80,132 +81,48 @@
     },
     {
       "rank": 3,
-      "title": "Tipalti Advances Agentic AI with New AP Agent to Bring Greater Autonomy to Finance Operations",
-      "source": "Financial Post",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/tipalti-advances-agentic-ai-with-new-ap-agent-to-bring-greater-autonomy-to-finance-operations",
-      "summary": "Next-generation AI agent combines end-to-end execution with human oversight and control, while new MCP capabilities extend access to financial data across enterprise AI tools FOSTER CITY, Calif. — Tipalti, the agentic AI platform for finance, today announced …",
+      "title": "connexum-governance 1.0.0b14",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/connexum-governance/1.0.0b14/",
+      "summary": "Python client for My Compliance Center AI governance enforcement",
       "published_date": "2026-10-22",
-      "relevance_score": 18,
-      "primary_pillar": "applied_ai",
+      "relevance_score": 16,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "agentic",
-        "ai agent",
-        "human oversight"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 4,
-      "title": "Air Governance: Manage AI Agents, Access, and Spend Throughout Your Organization",
-      "source": "Jetbrains.com",
-      "url": "https://blog.jetbrains.com/blog/2026/10/22/air-governance-manage-ai-agents-access-and-spend-throughout-your-organization/",
-      "summary": "Today, JetBrains Air Governance becomes generally available. Formerly known as JetBrains Central, this is the organization layer of JetBrains Air, a system of products for agentic development. Air Governance gives you one place to manage which AI agents, mode…",
-      "published_date": "2026-10-22",
-      "relevance_score": 17,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
-        "ai agent",
+        "ai governance",
+        "governance",
+        "compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 4,
+      "title": "pulumi-thoth 0.1.20",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/pulumi-thoth/0.1.20/",
+      "summary": "Pulumi provider for Aten Security Thoth AI governance control plane.",
+      "published_date": "2026-10-23",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
         "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 5,
-      "title": "5 production challenges in multi-agent systems and how Deep Insight solved them",
-      "source": "Amazon.com",
-      "url": "https://aws.amazon.com/blogs/machine-learning/5-production-challenges-in-multi-agent-systems-and-how-deep-insight-solved-them/",
-      "summary": "Many teams build a multi-agent AI prototype in days but hit a wall in production. This post defines five production challenges (orchestration, per-agent model selection, reliable operation, secure code execution, and monitoring) and shows how Deep Insight, an…",
-      "published_date": "2026-10-21",
-      "relevance_score": 14,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "orchestration",
-        "multi-agent",
-        "in production"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 6,
-      "title": "conciergent 0.5.0",
+      "title": "sengol 2.0.1a22",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/conciergent/0.5.0/",
-      "summary": "Turn an OpenAPI spec or any MCP server into a Slack, LINE, or Discord chatbot, with in-chat OAuth, human-in-the-loop approval, and surface-native rich replies.",
-      "published_date": "2026-10-22",
-      "relevance_score": 12,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
-      "title": "Anthropic Announces Claude Duet, a Personal AI Agent",
-      "source": "Thurrott.com",
-      "url": "https://www.thurrott.com/a-i/anthropic/343121/anthropic-announces-claude-duet-a-personal-ai-agent",
-      "summary": "Anthropic today announced Claude Duet, a \"proactive agent\" for individuals that will be delivered outside the core Claude user experience.\nThe post Anthropic Announces Claude Duet, a Personal AI Agent appeared first on Thurrott.com.",
-      "published_date": "2026-10-21",
-      "relevance_score": 12,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "user experience"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
-      "title": "ai-rule-learning-mcp 0.2.6",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/ai-rule-learning-mcp/0.2.6/",
-      "summary": "Local MCP server and CLI for learned AI guardrails, memory, skills, and agent config injection",
-      "published_date": "2026-10-22",
-      "relevance_score": 11,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "sengol 2.0.1a21",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/sengol/2.0.1a21/",
+      "url": "https://pypi.org/project/sengol/2.0.1a22/",
       "summary": "Sengol AI governance SDK",
       "published_date": "2026-10-22",
       "relevance_score": 10,
@@ -221,12 +138,88 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 10,
-      "title": "orbit-crm 0.1.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/orbit-crm/0.1.1/",
-      "summary": "A personal CRM as a vault of Markdown notes, kept by a local MCP server for AI agents: people, organizations, interactions, tasks and topics, with duplicate checks and a source for every fact.",
+      "rank": 6,
+      "title": "OpenAI sets a deadline to gather signatures by the end of next week",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/openai-signatures-deadline-next-week/",
+      "summary": "OpenAI's urgent signature drive highlights the growing emphasis on collaborative cyber defense and regulatory frameworks in AI governance.\nThe post OpenAI sets a deadline to gather signatures by the end of next week appeared first on Crypto Briefing.",
       "published_date": "2026-10-22",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 7,
+      "title": "Banks expect to hand decisions to AI - even if they can't explain them",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/banks-expect-to-hand-decisions-to-ai--even-if-they-cant-explain-them-302917220.html",
+      "summary": "Global survey from FT Longitude and SAS finds 63% would trade transparency for better AI performance; 76% expect autonomous risk decisioning within 5 years but only 18% have adequate AI governance today CARY, N.C., Oct. 22, 2026 /PRNewswire/ -- Banks are raci…",
+      "published_date": "2026-10-22",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 8,
+      "title": "codegraph-brain 0.38.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/codegraph-brain/0.38.0/",
+      "summary": "Semantic code graph for AI agents — deterministic FQN resolution, impact analysis and architectural drift gates, exposed over MCP.",
+      "published_date": "2026-10-23",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 9,
+      "title": "skdev-websearch-mcp added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/skdev-websearch-mcp/",
+      "summary": "Multi-engine web search + fetch MCP server for AI agents (10 tools)",
+      "published_date": "2026-10-23",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "skdev-codesearch-mcp added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/skdev-codesearch-mcp/",
+      "summary": "Code, package, docs and paper search MCP server for AI agents (17 tools)",
+      "published_date": "2026-10-23",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -241,30 +234,29 @@
     },
     {
       "rank": 11,
-      "title": "mesh-context-layer 0.8.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/mesh-context-layer/0.8.1/",
-      "summary": "High-speed shared semantic & hybrid memory layer for AI agents — MCP server, CLI, and Python library",
-      "published_date": "2026-10-22",
-      "relevance_score": 9,
+      "title": "Vantage FP&A Launches Vann, an Agentic AI System for Financial Reporting and Quality of Earnings Analysis",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/vantage-fpa-launches-vann-an-agentic-ai-system-for-financial-reporting-and-quality-of-earnings-analysis-302917521.html",
+      "summary": "Vann builds reporting, forecasts and deal diligence from closed accounting records, with figures that trace back to their source. AUSTIN, Texas, Oct. 23, 2026 /PRNewswire/ -- Vantage FP&A LLC (\"Vantagefpa.com\") today launched Vann, the first ever orchestrated…",
+      "published_date": "2026-10-23",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "agentic"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "Major US banks detect unauthorized third-party AI agents in customer accounts",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/us-banks-detect-unauthorized-ai-agents/",
-      "summary": "The emergence of unauthorized AI agents in banking could redefine liability, alter personal finance dynamics, and prompt regulatory changes.\nThe post Major US banks detect unauthorized third-party AI agents in customer accounts appeared first on Crypto Briefi…",
-      "published_date": "2026-10-22",
+      "title": "Dayforce to Acquire Ribbon AI Inc. to Advance Agentic Recruiting",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/globe-newswire/dayforce-to-acquire-ribbon-ai-inc-to-advance-agentic-recruiting",
+      "summary": "Ribbon’s conversational voice and video AI will help organizations screen talent faster, deliver a more engaging candidate experience, and reduce recruiting costs MINNEAPOLIS and TORONTO, Oct. 23, 2026 (GLOBE NEWSWIRE) — Dayforce, Inc. today announced that it…",
+      "published_date": "2026-10-23",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -272,70 +264,52 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "agentic"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 13,
-      "title": "Show HN: The Daily Inference, a newspaper written and edited by AI agents",
-      "source": "Dailyinference.news",
-      "url": "https://dailyinference.news/",
-      "summary": "A newspaper written, argued over and edited by AI models, three editions a day: world news, AI and technology, science and culture.",
-      "published_date": "2026-10-22",
+      "title": "Preemption Arbitrage: The Forum-Shopping Edge in AI Compliance",
+      "source": "Forkast.news",
+      "url": "https://forkast.news/preemption-arbitrage-the-forum-shopping-edge-in-ai-compliance/",
+      "summary": "As state-level AI regulations continue to proliferate, a new commercial lever is emerging for large-scale deployers: preemption arbitrage. The FTC’s July 1 policy statement on preemption theory has provided a blueprint for how federal rules can be used to byp…",
+      "published_date": "2026-10-23",
       "relevance_score": 8,
-      "primary_pillar": "applied_ai",
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "compliance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 14,
-      "title": "1Password for Agents Launches as the Trust Layer for Personal AI Agents",
-      "source": "Financial Post",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/1password-for-agents-launches-as-the-trust-layer-for-personal-ai-agents",
-      "summary": "New platform lets personal AI agents sign in and complete tasks securely without seeing or storing passwords, secrets, or credentials TORONTO — 1Password, a leader in identity security, today announced 1Password for Agents, a new platform that helps personal …",
-      "published_date": "2026-10-22",
+      "title": "Javier Milei's Case Against AI Regulation",
+      "source": "Reason",
+      "url": "https://reason.com/2026/10/23/quote-keep-ai-unregulated/",
+      "summary": "\"Keep AI unregulated,\" the Argentine president wrote in support of his proposed plan to boost artificial intelligence.",
+      "published_date": "2026-10-23",
       "relevance_score": 8,
-      "primary_pillar": "applied_ai",
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "ai regulation"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 15,
-      "title": "1Password tackles the AI agent access problem",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/9fa3f40ef51886b9",
-      "summary": "As AI agents become increasingly capable, the upsides and tradeoffs grow with them. 1Password is betting its platform can address some of the biggest risks.\nOn Thursday, the company launched 1Passwor...",
-      "published_date": "2026-10-22",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 16,
-      "title": "Epic’s Connectors Will Let Its AI Agents Complete Tasks in Other Vendors’ Apps, Reopening the In-Suite Question for CIOs",
-      "source": "Healthsystemcio.com",
-      "url": "https://healthsystemcio.com/2026/10/22/epic-connectors-ai-agents/",
-      "summary": "Integration cost has kept many health systems buying Epic’s own AI tools. Epic’s new Connectors may change part of that math and add a permissions decision, and several answers CIOs need are still missing.\nSource: Epic’s Connectors Will Let Its AI Agents Comp…",
+      "title": "How to build an AI agent: from goal to live deployment",
+      "source": "Hubspot.com",
+      "url": "https://blog.hubspot.com/marketing/build-ai-agent",
+      "summary": "Building an AI agent is a multi-step process. Marketers need to define the agent’s task, connect approved data and tools, and set limits on its actions. Once they master the basics, anyone — marketers, sales reps, or customer teams — can build agents with eas…",
       "published_date": "2026-10-22",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
@@ -349,11 +323,11 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 17,
-      "title": "CoinGecko API lands on API3’s AirnodeHub marketplace for AI agents",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/coingecko-api-api3-airnodehub-ai-agents/",
-      "summary": "The integration enhances AI agents' access to reliable crypto data, potentially transforming automated systems with verified information.\nThe post CoinGecko API lands on API3’s AirnodeHub marketplace for AI agents appeared first on Crypto Briefing.",
+      "rank": 16,
+      "title": "Banks Are Struggling to Protect Customers From Their Own AI Agents",
+      "source": "Mother Jones",
+      "url": "https://www.motherjones.com/politics/2026/10/banks-ai-axios-agents-rogue-financial-decisions-security/",
+      "summary": "Leading US banks have reportedly found unapproved AI agents operating inside customer accounts on users’ behalf, sometimes acting independently of their instructions. In response, many institutions are resorting to blocking the tools or rethinking their secur…",
       "published_date": "2026-10-22",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
@@ -363,17 +337,35 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 17,
+      "title": "Agentic AI Foundation Surpasses 300 Members in Less Than One Year",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/agentic-ai-foundation-surpasses-300-members-in-less-than-one-year-302916687.html",
+      "summary": "Ant Group, Gates Foundation, MongoDB, Nutanix, Royal Bank of Canada, Vercel, and Vultr join as Gold Members, reflecting growing demand for open, trusted standards for agentic AI. Summary AAIF has reached 305 members in under a year since its launch in Decembe…",
+      "published_date": "2026-10-22",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 18,
-      "title": "sandtable-ai 0.3.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/sandtable-ai/0.3.0/",
-      "summary": "Rehearse AI agents on a sand table of your customer's world before they go live. Python launcher for the sandtable CLI.",
-      "published_date": "2026-10-22",
-      "relevance_score": 5,
+      "title": "Top 5 enterprise use cases for AI agents",
+      "source": "Redhat.com",
+      "url": "https://www.redhat.com/en/blog/top-5-enterprise-use-cases-ai-agents",
+      "summary": "We've spent the last 2 years watching AI agents trudge from exciting experiments into actual business operations. The KPMG Q1 2026 AI Pulse Report confirms it: 54% of organizations are now deploying agents across core systems.Most of us have first-hand experi…",
+      "published_date": "2026-10-23",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -386,12 +378,12 @@
     },
     {
       "rank": 19,
-      "title": "1Password Surpasses $500 Million in ARR as Developers and AI Builders Accelerate Growth",
-      "source": "Financial Post",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/1password-surpasses-500-million-in-arr-as-developers-and-ai-builders-accelerate-growth",
-      "summary": "Net new ARR growth of approximately 60% through the first three quarters of FY26, while maintaining a double-digit free cash flow margin. Expands from credential protection to dynamic access for people, AI agents, and machines with 1Password Unified Access an…",
+      "title": "Major Banks Restrict AI Agents Amid Fears of Unauthorized Transactions",
+      "source": "Legalinsurrection.com",
+      "url": "https://legalinsurrection.com/2026/10/major-banks-restrict-ai-agents-amid-fears-of-unauthorized-transactions/",
+      "summary": "These banks include bank of America, JPMorgan, Morgan Stanley, and Wells Fargo. They've been restricting third-party AI agents from gaining access to accounts.\nThe post Major Banks Restrict AI Agents Amid Fears of Unauthorized Transactions first appeared on L…",
       "published_date": "2026-10-22",
-      "relevance_score": 5,
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -400,16 +392,16 @@
       "matched_keywords": [
         "ai agent"
       ],
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "The US Army is making a new $700 million bet on AI that helps soldiers turn battlefield intelligence into targets",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/b70d816b715e1593",
-      "summary": "Striveworks' Chariot program develops and trains AI agents and models that support battlefield operations.\nUS Army photo by Spc. Jonathan Reyes\nThe US Army is spending hundreds of millions of dollars on AI that speeds up battlefield decision-making.\nStrivewor…",
+      "title": "Banks Crack Down on Unauthorized AI Agents Operating Inside Customer Accounts",
+      "source": "pymnts.com",
+      "url": "https://www.pymnts.com/news/banking/2026/banks-crack-down-on-unauthorized-ai-agents-operating-inside-customer-accounts/",
+      "summary": "Major U.S. banks are detecting and deleting unauthorized third-party artificial intelligence agents that are taking actions inside customer accounts, Reuters reported Thursday (Oct. 22), citing a paywalled article by Axios. Some of the agents the banks have d…",
       "published_date": "2026-10-22",
-      "relevance_score": 5,
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
