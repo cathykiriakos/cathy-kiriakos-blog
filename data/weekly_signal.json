@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T13:40:27.468Z",
+  "generated_at": "2026-10-25T16:56:00.330Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 12
+      "item_count": 9
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 8
+      "item_count": 12
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 0
+      "item_count": 1
     }
   ],
   "institutional_signal": {
@@ -79,20 +79,22 @@
     },
     {
       "rank": 3,
-      "title": "nextcloud-mcp-server 0.201.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/nextcloud-mcp-server/0.201.1/",
-      "summary": "Model Context Protocol (MCP) server for Nextcloud integration - enables AI assistants to interact with Nextcloud data",
+      "title": "IAB Europe finds 86% use AI for marketing, but only 48% have ad rules",
+      "source": "Ppc.land",
+      "url": "https://ppc.land/iab-europe-finds-86-use-ai-for-marketing-but-only-48-have-ad-rules/",
+      "summary": "Of 50 European ad businesses surveyed, 78% name an AI governance owner and 58% expect agentic buying within a year. How far does practice really lag ambition?",
       "published_date": "2026-10-24",
-      "relevance_score": 12,
-      "primary_pillar": "applied_ai",
+      "relevance_score": 13,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol",
-        "MCP"
+        "agentic",
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
@@ -153,10 +155,10 @@
     },
     {
       "rank": 7,
-      "title": "vaultwarden-mcp 0.2.4",
+      "title": "adguard-home-agent 0.17.7",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/vaultwarden-mcp/0.2.4/",
-      "summary": "Vaultwarden API + Bitwarden vault MCP Server and A2A Agent for Agentic AI!",
+      "url": "https://pypi.org/project/adguard-home-agent/0.17.7/",
+      "summary": "AdGuard Home MCP Server for Agentic AI!",
       "published_date": "2026-10-24",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -172,10 +174,10 @@
     },
     {
       "rank": 8,
-      "title": "spark-mcp 0.4.4",
+      "title": "sentinel-prox 0.2.4",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/spark-mcp/0.4.4/",
-      "summary": "Spark Connect (gRPC) API + MCP Server for Agentic AI!",
+      "url": "https://pypi.org/project/sentinel-prox/0.2.4/",
+      "summary": "Provenance-aware security proxy for AI agents: block prompt-injection actions at the MCP tool boundary.",
       "published_date": "2026-10-24",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -185,16 +187,16 @@
       "institutional_signal": false,
       "matched_keywords": [
         "MCP",
-        "agentic"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 9,
-      "title": "busybee-mcp 0.2.4",
+      "title": "taskpilot 0.1.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/busybee-mcp/0.2.4/",
-      "summary": "BusyBee Data MCP server — public social media data for AI agents (TikTok, Instagram, YouTube, X, Douyin, Xiaohongshu).",
+      "url": "https://pypi.org/project/taskpilot/0.1.0/",
+      "summary": "Fast, dependency-free workflows and AI agents for Python: plain functions wired by name, parallel by default, with retries, checkpoints, Ollama/OpenAI clients, MCP and A2A.",
       "published_date": "2026-10-24",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -210,10 +212,10 @@
     },
     {
       "rank": 10,
-      "title": "docling-rs-mcp 2.51.1",
+      "title": "taskpilot added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/docling-rs-mcp/2.51.1/",
-      "summary": "MCP server that converts documents to Markdown for AI agents: PDF with layout, tables and OCR, DOCX, PPTX, XLSX, HTML, scans. docling in Rust, MarkItDown's convert_to_markdown tool.",
+      "url": "https://pypi.org/project/taskpilot/",
+      "summary": "Fast, dependency-free workflows and AI agents for Python: plain functions wired by name, parallel by default, with retries, checkpoints, Ollama/OpenAI clients, MCP and A2A.",
       "published_date": "2026-10-24",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -229,177 +231,62 @@
     },
     {
       "rank": 11,
-      "title": "hol-guard 3.56.0a5",
+      "title": "mcp-server-splunk 0.3.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/hol-guard/3.56.0a5/",
-      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
+      "url": "https://pypi.org/project/mcp-server-splunk/0.3.0/",
+      "summary": "A Model Context Protocol server for Splunk - search, manage, and analyze Splunk data via LLMs",
       "published_date": "2026-10-24",
-      "relevance_score": 9,
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "model context protocol"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "salesforce-agent 2.3.4",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/salesforce-agent/2.3.4/",
-      "summary": "Salesforce REST/SOQL/Bulk API 2.0 connector + MCP Server + A2A Server for Agentic AI!",
+      "title": "ServiceNow’s Moment of Truth: Can Agentic AI Growth Justify a Premium 80x Earnings Multiple on Oct. 28?",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/15b3f36b750262a4",
+      "summary": "The post ServiceNow’s Moment of Truth: Can Agentic AI Growth Justify a Premium 80x Earnings Multiple on Oct. 28? appeared first on 24/7 Wall St..\nServiceNow (NYSE:NOW) reports third-quarter results on Wednesday, October 28, after the close. Shares climbed 11.…",
       "published_date": "2026-10-24",
-      "relevance_score": 9,
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
         "agentic"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 13,
-      "title": "jellyfin-mcp 2.3.4",
+      "title": "aegiscore-ai 0.1.3",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/jellyfin-mcp/2.3.4/",
-      "summary": "Jellyfin MCP Server for Agentic AI!",
+      "url": "https://pypi.org/project/aegiscore-ai/0.1.3/",
+      "summary": "Deterministic Agent Governance Gateway - Zero-Trust Policy Enclave for AI Agents",
       "published_date": "2026-10-24",
-      "relevance_score": 9,
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "agentic"
+        "ai agent",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 14,
-      "title": "twenty-mcp 2.3.5",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/twenty-mcp/2.3.5/",
-      "summary": "Twenty CRM REST/GraphQL MCP Server for Agentic AI!",
-      "published_date": "2026-10-24",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "sql-mcp 2.3.5",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/sql-mcp/2.3.5/",
-      "summary": "Generic SQL database (Postgres, MySQL/MariaDB, MSSQL, Oracle, SQLite) API + MCP Server for Agentic AI!",
-      "published_date": "2026-10-24",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "erpnext-agent 2.3.4",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/erpnext-agent/2.3.4/",
-      "summary": "ERPNext and Frappe REST/RPC MCP Server for Agentic AI!",
-      "published_date": "2026-10-24",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "caddy-mcp 2.3.5",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/caddy-mcp/2.3.5/",
-      "summary": "Caddy Reverse Proxy MCP Server for Agentic AI!",
-      "published_date": "2026-10-24",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "sengol 2.0.1a22",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/sengol/2.0.1a22/",
-      "summary": "Sengol AI governance SDK",
-      "published_date": "2026-10-22",
-      "relevance_score": 9,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 19,
-      "title": "OpenAI sets a deadline to gather signatures by the end of next week",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/openai-signatures-deadline-next-week/",
-      "summary": "OpenAI's urgent signature drive highlights the growing emphasis on collaborative cyber defense and regulatory frameworks in AI governance.\nThe post OpenAI sets a deadline to gather signatures by the end of next week appeared first on Crypto Briefing.",
-      "published_date": "2026-10-22",
-      "relevance_score": 9,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 20,
       "title": "SEBI plans Demat 2.0, graded compliance for brokers",
       "source": "BusinessLine",
       "url": "https://www.thehindubusinessline.com/markets/sebi-plans-demat-20-graded-compliance-for-brokers/article71619642.ece",
@@ -415,6 +302,115 @@
         "compliance"
       ],
       "sentiment": "positive"
+    },
+    {
+      "rank": 15,
+      "title": "Sebi reviews short selling, SLB rules; plans AI sandbox, bond market-making",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com/markets/news/sebi-short-selling-slb-ai-sandbox-market-making-tuhin-kanta-pandey-126102400650_1.html",
+      "summary": "The regulator is also finalising responsible AI guidelines, developing graded broker compliance norms and working on measures to improve capital efficiency and supervision",
+      "published_date": "2026-10-24",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "compliance",
+        "responsible ai"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "The Pentagon's guidelines for \"responsible AI\" aren't always followed, report shows",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/23/nx-s1-6012296/ai-department-of-defense-war",
+      "summary": "The Pentagon is building weapons and projects with AI capabilities that officials say don't always closely adhere to the agency's own guidelines for AI, according to a congressional watchdog report published in October.",
+      "published_date": "2026-10-23",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "responsible ai"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "Preemption Arbitrage: The Forum-Shopping Edge in AI Compliance",
+      "source": "Forkast.news",
+      "url": "https://forkast.news/preemption-arbitrage-the-forum-shopping-edge-in-ai-compliance/",
+      "summary": "As state-level AI regulations continue to proliferate, a new commercial lever is emerging for large-scale deployers: preemption arbitrage. The FTC’s July 1 policy statement on preemption theory has provided a blueprint for how federal rules can be used to byp…",
+      "published_date": "2026-10-23",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "Javier Milei's Case Against AI Regulation",
+      "source": "Reason",
+      "url": "https://reason.com/2026/10/23/quote-keep-ai-unregulated/",
+      "summary": "\"Keep AI unregulated,\" the Argentine president wrote in support of his proposed plan to boost artificial intelligence.",
+      "published_date": "2026-10-23",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai regulation"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 19,
+      "title": "prepro-auto 4.0.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/prepro-auto/4.0.0/",
+      "summary": "AI-assisted, human-in-the-loop preprocessing for tabular and time-series data — profile, clean, transform, forecast and export, with a reproducible pipeline, from a notebook or the web.",
+      "published_date": "2026-10-23",
+      "relevance_score": 8,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 20,
+      "title": "How to build an AI agent: from goal to live deployment",
+      "source": "Hubspot.com",
+      "url": "https://blog.hubspot.com/marketing/build-ai-agent",
+      "summary": "Building an AI agent is a multi-step process. Marketers need to define the agent’s task, connect approved data and tools, and set limits on its actions. Once they master the basics, anyone — marketers, sales reps, or customer teams — can build agents with eas…",
+      "published_date": "2026-10-22",
+      "relevance_score": 7,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
     }
   ]
 }
