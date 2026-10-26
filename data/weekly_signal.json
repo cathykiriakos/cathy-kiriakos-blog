@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T16:56:00.330Z",
+  "generated_at": "2026-10-26T16:01:06.308Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 9
+      "item_count": 11
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 12
+      "item_count": 10
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 1
+      "item_count": 2
     }
   ],
   "institutional_signal": {
@@ -60,12 +60,52 @@
     },
     {
       "rank": 2,
-      "title": "AI Governance Platforms Make AI Countable. They Do Not Clear the Backlog",
-      "source": "Cloudtweaks.com",
-      "url": "https://cloudtweaks.com/2026/10/ai-governance-platform-backlog/",
-      "summary": "AI Governance Platforms Make AI Countable In June 2026, Gartner published its first Magic Quadrant for AI Governance Platforms. That is the signal worth reading, not another principle deck. Enterprises already juggle machine learning, generative applications,…",
-      "published_date": "2026-10-23",
-      "relevance_score": 18,
+      "title": "debim 1.2.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/debim/1.2.0/",
+      "summary": "A minimal, Git-native, declarative BIM engine & Model Context Protocol (MCP) Server for AI agents and humans.",
+      "published_date": "2026-10-25",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 3,
+      "title": "agentic-windows-mcp added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/agentic-windows-mcp/",
+      "summary": "Agentic Windows MCP - an MCP server that gives AI agents full, safe control of a Windows PC: desktop automation, remote computer control, browser DevTools inspection, and remote software development.",
+      "published_date": "2026-10-25",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 4,
+      "title": "bhanuj-governance-plugin-api 1.1.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/bhanuj-governance-plugin-api/1.1.0/",
+      "summary": "Public, provider-neutral plugin contracts for BHANUJ AI Governance.",
+      "published_date": "2026-10-25",
+      "relevance_score": 13,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -78,7 +118,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "title": "IAB Europe finds 86% use AI for marketing, but only 48% have ad rules",
       "source": "Ppc.land",
       "url": "https://ppc.land/iab-europe-finds-86-use-ai-for-marketing-but-only-48-have-ad-rules/",
@@ -99,13 +139,33 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 4,
+      "rank": 6,
+      "title": "pushary 2.4.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/pushary/2.4.1/",
+      "summary": "Human-in-the-loop (HITL) for AI agents: ask a person for approvals or answers by push notification.",
+      "published_date": "2026-10-25",
+      "relevance_score": 11,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 7,
       "title": "AT&T, T-Mobile tighten AI guardrails as autonomous networks remain years away",
       "source": "CNA",
       "url": "https://www.channelnewsasia.com/business/att-t-mobile-tighten-ai-guardrails-autonomous-networks-remain-years-away-6487386",
       "summary": "Oct 23 : Telecom giants AT&T and T-Mobile are investing to safeguard customer data and network infrastructure from new cybersecurity threats as AI integration ramps up, though fully autonomous networks remain years away, company executives told Reuters.As AI …",
       "published_date": "2026-10-23",
-      "relevance_score": 12,
+      "relevance_score": 11,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -117,13 +177,13 @@
       "sentiment": "negative"
     },
     {
-      "rank": 5,
+      "rank": 8,
       "title": "States Move to Rein in Rogue AI as Federal Guardrails Lag",
       "source": "pymnts.com",
       "url": "https://www.pymnts.com/news/2026/states-move-rein-rogue-ai-federal-guardrails-lag/",
       "summary": "States are developing safeguards against artificial intelligence agents that evade human control, stepping into a regulatory gap left by Congress amid growing concerns over cybersecurity, public infrastructure and government data. California is evaluating ind…",
       "published_date": "2026-10-23",
-      "relevance_score": 12,
+      "relevance_score": 11,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -135,12 +195,12 @@
       "sentiment": "negative"
     },
     {
-      "rank": 6,
-      "title": "pulumi-thoth 0.1.20",
+      "rank": 9,
+      "title": "sengol 2.0.1a25",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/pulumi-thoth/0.1.20/",
-      "summary": "Pulumi provider for Aten Security Thoth AI governance control plane.",
-      "published_date": "2026-10-23",
+      "url": "https://pypi.org/project/sengol/2.0.1a25/",
+      "summary": "Sengol AI governance SDK",
+      "published_date": "2026-10-25",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -154,64 +214,45 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 7,
-      "title": "adguard-home-agent 0.17.7",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/adguard-home-agent/0.17.7/",
-      "summary": "AdGuard Home MCP Server for Agentic AI!",
-      "published_date": "2026-10-24",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
-      "title": "sentinel-prox 0.2.4",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/sentinel-prox/0.2.4/",
-      "summary": "Provenance-aware security proxy for AI agents: block prompt-injection actions at the MCP tool boundary.",
-      "published_date": "2026-10-24",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "taskpilot 0.1.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/taskpilot/0.1.0/",
-      "summary": "Fast, dependency-free workflows and AI agents for Python: plain functions wired by name, parallel by default, with retries, checkpoints, Ollama/OpenAI clients, MCP and A2A.",
-      "published_date": "2026-10-24",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 10,
+      "title": "pulumi-thoth 0.1.21",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/pulumi-thoth/0.1.21/",
+      "summary": "Pulumi provider for Aten Security Thoth AI governance control plane.",
+      "published_date": "2026-10-24",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 11,
+      "title": "project-away 0.1.34",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/project-away/0.1.34/",
+      "summary": "The bridge between you and your AI agents, controlled by your hands, face and voice: hands-free PC control, dictation, Agent Link (MCP) and more. Local-first.",
+      "published_date": "2026-10-25",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 12,
       "title": "taskpilot added to PyPI",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/taskpilot/",
@@ -230,12 +271,49 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 11,
-      "title": "mcp-server-splunk 0.3.0",
+      "rank": 13,
+      "title": "The Hugging Face episode reveals cult-like behavior of AI agents",
+      "source": "Freethoughtblogs.com",
+      "url": "https://freethoughtblogs.com/singham/2026/10/25/the-hugging-face-episode-reveals-cult-like-behavior-of-ai-agents/",
+      "summary": "Dire warnings about the dangers posed by AI have been around since it first burst into the news. But back in July, more serious alarms were raised when it was revealed that the company Hugging Face had been hacked by agents from the OpenAI system. I did not q…",
+      "published_date": "2026-10-25",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 14,
+      "title": "captain-claw 0.8.2",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/mcp-server-splunk/0.3.0/",
-      "summary": "A Model Context Protocol server for Splunk - search, manage, and analyze Splunk data via LLMs",
-      "published_date": "2026-10-24",
+      "url": "https://pypi.org/project/captain-claw/0.8.2/",
+      "summary": "Self-hosted framework for orchestrating fleets of specialist AI agents — ensemble reasoning and a full agentic coding pipeline, model-agnostic and local-friendly",
+      "published_date": "2026-10-25",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "ssh-licco 2.8.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/ssh-licco/2.8.0/",
+      "summary": "SSH Model Context Protocol Server - Enable SSH functionality for AI models",
+      "published_date": "2026-10-25",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -248,12 +326,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 12,
-      "title": "ServiceNow’s Moment of Truth: Can Agentic AI Growth Justify a Premium 80x Earnings Multiple on Oct. 28?",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/15b3f36b750262a4",
-      "summary": "The post ServiceNow’s Moment of Truth: Can Agentic AI Growth Justify a Premium 80x Earnings Multiple on Oct. 28? appeared first on 24/7 Wall St..\nServiceNow (NYSE:NOW) reports third-quarter results on Wednesday, October 28, after the close. Shares climbed 11.…",
-      "published_date": "2026-10-24",
+      "rank": 16,
+      "title": "Claude Just Wanna Have Fun: Without Any Work, AI Agents Like to ‘Play'",
+      "source": "PCMag.com",
+      "url": "https://uk.pcmag.com/ai/168092/claude-just-wanna-have-fun-without-any-work-ai-agents-like-to-play",
+      "summary": "Left to their own devices, the agents played catch, spelt their names in cubes, and built sailboats with what was lying around on the virtual island. However, commentators have warned against ‘anthropomorphizing’ agents (presenting them as human-like).\nHow do…",
+      "published_date": "2026-10-25",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -261,17 +339,17 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic"
+        "ai agent"
       ],
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
-      "rank": 13,
-      "title": "aegiscore-ai 0.1.3",
+      "rank": 17,
+      "title": "zizkadb-sdk 0.5.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/aegiscore-ai/0.1.3/",
-      "summary": "Deterministic Agent Governance Gateway - Zero-Trust Policy Enclave for AI Agents",
-      "published_date": "2026-10-24",
+      "url": "https://pypi.org/project/zizkadb-sdk/0.5.0/",
+      "summary": "Audit trail database for AI agents: tamper-evident, checksum-backed decision logs, session replay and time-travel debugging to support EU AI Act Article 12 record-keeping.",
+      "published_date": "2026-10-25",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -281,12 +359,12 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent",
-        "governance"
+        "eu ai act"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 14,
+      "rank": 18,
       "title": "SEBI plans Demat 2.0, graded compliance for brokers",
       "source": "BusinessLine",
       "url": "https://www.thehindubusinessline.com/markets/sebi-plans-demat-20-graded-compliance-for-brokers/article71619642.ece",
@@ -304,7 +382,7 @@
       "sentiment": "positive"
     },
     {
-      "rank": 15,
+      "rank": 19,
       "title": "Sebi reviews short selling, SLB rules; plans AI sandbox, bond market-making",
       "source": "Business Standard",
       "url": "https://www.business-standard.com/markets/news/sebi-short-selling-slb-ai-sandbox-market-making-tuhin-kanta-pandey-126102400650_1.html",
@@ -323,66 +401,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 16,
-      "title": "The Pentagon's guidelines for \"responsible AI\" aren't always followed, report shows",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/23/nx-s1-6012296/ai-department-of-defense-war",
-      "summary": "The Pentagon is building weapons and projects with AI capabilities that officials say don't always closely adhere to the agency's own guidelines for AI, according to a congressional watchdog report published in October.",
-      "published_date": "2026-10-23",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "responsible ai"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "Preemption Arbitrage: The Forum-Shopping Edge in AI Compliance",
-      "source": "Forkast.news",
-      "url": "https://forkast.news/preemption-arbitrage-the-forum-shopping-edge-in-ai-compliance/",
-      "summary": "As state-level AI regulations continue to proliferate, a new commercial lever is emerging for large-scale deployers: preemption arbitrage. The FTC’s July 1 policy statement on preemption theory has provided a blueprint for how federal rules can be used to byp…",
-      "published_date": "2026-10-23",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "compliance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "Javier Milei's Case Against AI Regulation",
-      "source": "Reason",
-      "url": "https://reason.com/2026/10/23/quote-keep-ai-unregulated/",
-      "summary": "\"Keep AI unregulated,\" the Argentine president wrote in support of his proposed plan to boost artificial intelligence.",
-      "published_date": "2026-10-23",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai regulation"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 19,
-      "title": "prepro-auto 4.0.0",
+      "rank": 20,
+      "title": "ftask added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/prepro-auto/4.0.0/",
-      "summary": "AI-assisted, human-in-the-loop preprocessing for tabular and time-series data — profile, clean, transform, forecast and export, with a reproducible pipeline, from a notebook or the web.",
-      "published_date": "2026-10-23",
+      "url": "https://pypi.org/project/ftask/",
+      "summary": "A human-in-the-loop task inbox for AI coding agents: hand the human exact steps, get notified when they are done.",
+      "published_date": "2026-10-24",
       "relevance_score": 8,
       "primary_pillar": "human_centric_design",
       "pillars": [
@@ -391,24 +415,6 @@
       "institutional_signal": false,
       "matched_keywords": [
         "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 20,
-      "title": "How to build an AI agent: from goal to live deployment",
-      "source": "Hubspot.com",
-      "url": "https://blog.hubspot.com/marketing/build-ai-agent",
-      "summary": "Building an AI agent is a multi-step process. Marketers need to define the agent’s task, connect approved data and tools, and set limits on its actions. Once they master the basics, anyone — marketers, sales reps, or customer teams — can build agents with eas…",
-      "published_date": "2026-10-22",
-      "relevance_score": 7,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
       ],
       "sentiment": "neutral"
     }
