@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T15:15:51.480Z",
+  "generated_at": "2026-10-28T15:51:21.620Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,13 +7,13 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 14
+      "item_count": 16
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 9
+      "item_count": 3
     },
     {
       "id": "human_centric_design",
@@ -41,20 +41,38 @@
   "items": [
     {
       "rank": 1,
-      "title": "SurgeONE.ai Unveils Avery Actions, the Industry's First Agentic AI for Compliance, Cybersecurity and Data Operations",
-      "source": "PRNewswire",
-      "url": "https://www.prnewswire.com/news-releases/surgeoneai-unveils-avery-actions-the-industrys-first-agentic-ai-for-compliance-cybersecurity-and-data-operations-302918585.html",
-      "summary": "Single platform to provide communications archiving, e-comms review, off-channel monitoring, risk and governance operations and AI governance. Qualified experts review Avery's output, with everything logged in a single exam record. MENLO PARK, Calif., Oct. 26…",
-      "published_date": "2026-10-26",
-      "relevance_score": 22,
+      "title": "Show HN: AGBoss Dependency injection and static validation for AI agents",
+      "source": "Github.com",
+      "url": "https://github.com/agbossjs/agboss",
+      "summary": "Spring-style TypeScript framework for mission-critical LangGraph AI agents — @Application DI, Path Scope Flow DSL, transactional LIFO sagas, FinOps budgets, MCP/RAG/A2A &amp; unit testing. - agboss...",
+      "published_date": "2026-10-27",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "RAG"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 2,
+      "title": "Three insights you may have missed from theCUBE’s coverage of Workiva’s Amplify event",
+      "source": "SiliconANGLE News",
+      "url": "https://siliconangle.com/2026/10/26/three-insights-you-may-have-missed-from-thecubes-coverage-of-workivas-amplify-event-amplify/",
+      "summary": "Enterprise AI governance is moving into the data, workflows and controls that determine what automated systems can do. As agents take on consequential work in finance, audit, compliance and sustainability, organizations need results that are grounded in busin…",
+      "published_date": "2026-10-27",
+      "relevance_score": 13,
       "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
         "ai governance",
         "governance",
         "compliance"
@@ -62,116 +80,13 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 2,
-      "title": "finos-mcp-aigf 0.3.2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/finos-mcp-aigf/0.3.2/",
-      "summary": "Read-only MCP server for the FINOS AI Governance Framework: risks, controls, crosswalks and search. Not affiliated with FINOS.",
-      "published_date": "2026-10-26",
-      "relevance_score": 14,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "negative"
-    },
-    {
       "rank": 3,
-      "title": "finos-mcp-aigf 0.3.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/finos-mcp-aigf/0.3.1/",
-      "summary": "Read-only MCP server for the FINOS AI Governance Framework: risks, controls, crosswalks and search. Not affiliated with FINOS.",
-      "published_date": "2026-10-25",
-      "relevance_score": 14,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 4,
-      "title": "finos-mcp-aigf 0.3.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/finos-mcp-aigf/0.3.0/",
-      "summary": "Read-only MCP server for the FINOS AI Governance Framework: risks, controls, crosswalks and search. Not affiliated with FINOS.",
-      "published_date": "2026-10-25",
-      "relevance_score": 14,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 5,
-      "title": "Governing the AI Context Layer: What CIO’s Need to Know",
-      "source": "Starcio.com",
-      "url": "https://drive.starcio.com/2026/10/governing-the-ai-context-layer/",
-      "summary": "Developing a context layer for AI agents requies information architecture and AI governance considerations. A Collibra survey identifies key AI governance concerns, such as instilling trust in AI, addressing data quality, and preparing for evolving regulation…",
-      "published_date": "2026-10-26",
+      "title": "AI agent security with policy-driven access control",
+      "source": "Redhat.com",
+      "url": "https://www.redhat.com/en/blog/ai-agent-security-policy-driven-access-control",
+      "summary": "Agentic AI deployments are accelerating across enterprises. Recent research from the Cloud Security Alliance shows 70% of organizations now have AI components in production, yet 82% lack real-time visibility into AI runtime behavior. Furthermore, only 21% of …",
+      "published_date": "2026-10-27",
       "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 6,
-      "title": "bhanuj-governance-plugin-api 1.1.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/bhanuj-governance-plugin-api/1.1.1/",
-      "summary": "Public, provider-neutral plugin contracts for BHANUJ AI Governance.",
-      "published_date": "2026-10-25",
-      "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
-      "title": "Dubai Chambers Launches World’s First Agentic AI Marketplace by a Chamber of Commerce",
-      "source": "Financial Post",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/dubai-chambers-launches-worlds-first-agentic-ai-marketplace-by-a-chamber-of-commerce",
-      "summary": "DUBAI, United Arab Emirates — Dubai Chambers has launched Chamber AI Hub, the world’s first Agentic AI marketplace developed by a chamber of commerce, enabling businesses in Dubai to access ready-to-use AI agents that independently perform a range of administ…",
-      "published_date": "2026-10-26",
-      "relevance_score": 11,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -179,19 +94,20 @@
       "institutional_signal": false,
       "matched_keywords": [
         "agentic",
-        "ai agent"
+        "ai agent",
+        "in production"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 8,
-      "title": "pushary 2.4.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/pushary/2.4.1/",
-      "summary": "Human-in-the-loop (HITL) for AI agents: ask a person for approvals or answers by push notification.",
-      "published_date": "2026-10-25",
-      "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
+      "rank": 4,
+      "title": "Amazon projects Alexa+ cloud costs of about $1.7 billion in 2026, weighs cuts to AI agent Moonraker",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/amazon-alexa-plus-cloud-costs-moonraker/",
+      "summary": "Amazon's cost-cutting measures for Alexa+ highlight the financial strain of advanced AI, potentially impacting innovation and user experience.\nThe post Amazon projects Alexa+ cloud costs of about $1.7 billion in 2026, weighs cuts to AI agent Moonraker appeare…",
+      "published_date": "2026-10-27",
+      "relevance_score": 12,
+      "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai",
         "human_centric_design"
@@ -199,17 +115,73 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent",
-        "human-in-the-loop"
+        "user experience"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 5,
+      "title": "Apple Creator Studio to Add MotionVFX, AI Assistants, and MCP Support in November",
+      "source": "MacStories",
+      "url": "https://www.macstories.net/news/apple-creator-studio-to-add-motionvfx-ai-assistants-and-mcp-support-in-november/",
+      "summary": "Source: Apple. In November, Apple Creator Studio will get its biggest update since its release in January. There’s a lot here, so let’s break it down by app. Final Cut Pro and Motion Source: Apple. Back in March, Apple acquired MotionVFX, a highly regarded pl…",
+      "published_date": "2026-10-27",
+      "relevance_score": 10,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 9,
-      "title": "Tinkr: run Laravel Tinker in any project and read the answer",
-      "source": "Tinkrapp.dev",
-      "url": "https://tinkrapp.dev/",
-      "summary": "Run PHP and Laravel Tinker snippets on your machine, in Docker or over SSH, and read the value that came back as a tree, a table or a graph. Free, open source, with an MCP server for AI agents.",
-      "published_date": "2026-10-26",
+      "rank": 6,
+      "title": "Use Fortinet Solutions to Secure Enterprise AI Workloads on Oracle Cloud Infrastructure",
+      "source": "Fortinet.com",
+      "url": "https://www.fortinet.com/blog/cloud-security/use-fortinet-solutions-to-secure-enterprise-ai-workloads-on-oracle-cloud-infrastructure",
+      "summary": "Fortinet solutions secure Oracle enterprise AI workloads, combining AI guardrails, governance, and cost control with Oracle Cloud Infrastructure services.…",
+      "published_date": "2026-10-27",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 7,
+      "title": "Meet Clate: the First Design Tool for Real-World Experiences",
+      "source": "Www.qt.io",
+      "url": "https://www.qt.io/blog/meet-clate-the-first-design-tool-for-real-world-experiences",
+      "summary": "Clate Beta is out today, free for everyone. It's a no-code, AI-native UX design tool built for embedded and HMI applications, with QML under the hood, so designers can stay in control of the full user experience.",
+      "published_date": "2026-10-27",
+      "relevance_score": 10,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "UX",
+        "user experience"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "moltrust-mcp-server 1.2.7",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/moltrust-mcp-server/1.2.7/",
+      "summary": "MCP server for MolTrust — Trust Infrastructure for AI Agents",
+      "published_date": "2026-10-27",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -223,49 +195,69 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 10,
-      "title": "GCCI pledges industry support to help build knowledge economy under Goa AI Policy",
-      "source": "The Times of India",
-      "url": "https://timesofindia.indiatimes.com/city/goa/gcci-pledges-industry-support-to-help-build-knowledge-economy-under-goa-ai-policy/articleshow/135197095.cms",
-      "summary": "GCCI backs Goa AI Policy and Mission 2027, citing Rs 250 crore fund, 50,000 AI professionals by 2030, CoEs, school AI labs, and responsible AI rules.",
-      "published_date": "2026-10-25",
+      "rank": 9,
+      "title": "buildwright 0.1.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/buildwright/0.1.0/",
+      "summary": "Per-agent model routing for AI agents: LangGraph orchestration, PydanticAI agents, LiteLLM-ready registry, Langfuse tracing",
+      "published_date": "2026-10-27",
       "relevance_score": 9,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "responsible ai",
-        "ai policy"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
-      "title": "Nevis raises $70M Series B to build AI agents for financial advisors",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/nevis-raises-70m-ai-financial-advisors/",
-      "summary": "AI-driven efficiency in wealth management could reshape advisor-client dynamics, enabling advisors to manage more clients or deepen existing relationships.\nThe post Nevis raises $70M Series B to build AI agents for financial advisors appeared first on Crypto …",
-      "published_date": "2026-10-26",
-      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "orchestration",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "buildwright added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/buildwright/",
+      "summary": "Per-agent model routing for AI agents: LangGraph orchestration, PydanticAI agents, LiteLLM-ready registry, Langfuse tracing",
+      "published_date": "2026-10-27",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "orchestration",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 11,
+      "title": "Show HN: Self-hosted Google Business Profile manager with agent approvals",
+      "source": "Github.com",
+      "url": "https://github.com/synectus/OpenGMB",
+      "summary": "Open-source Google Business Profile manager: reviews, posts, profile edits and rank tracking for every location, with approval rules before anything goes live and an MCP server for AI agents. Self-...",
+      "published_date": "2026-10-27",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
-      "summary": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]",
-      "published_date": "2026-10-26",
+      "title": "Show HN: Sectr – Serverless backend platform for easy deployment of AI agents",
+      "source": "Sectr.dev",
+      "url": "https://sectr.dev",
+      "summary": "Hey HN, I've been building Sectr, a backend-as-a-service for making it easy(ier) to develop and deploy AI agents. Deploying agents requires non-trivial systems design work. Consider a support agent: how do you stream messages to your frontend, how/where do yo…",
+      "published_date": "2026-10-27",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -279,46 +271,30 @@
     },
     {
       "rank": 13,
-      "title": "Indian IT companies see business in policing AI agents",
-      "source": "Livemint",
-      "url": "https://www.livemint.com/industry/infotech/indian-it-companies-see-business-in-policing-ai-agents-11792937073756.html",
-      "summary": "Tata Consultancy Services, Cognizant, HCLTech, and Tech Mahindra have each stated that managing AI agents and governing their use are emerging as new business opportunities",
-      "published_date": "2026-10-26",
+      "title": "piqrypt 1.11.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/piqrypt/1.11.0/",
+      "summary": "Trust infrastructure for autonomous AI agents: identity, observability, governance",
+      "published_date": "2026-10-27",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "ai agent",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 14,
-      "title": "ftask 0.2.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/ftask/0.2.0/",
-      "summary": "A human-in-the-loop task inbox for AI coding agents: hand the human exact steps, get notified when they are done.",
-      "published_date": "2026-10-26",
-      "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "Article: The Evolution of Agentic Harnesses: From Chains to Graph to Code",
-      "source": "InfoQ.com",
-      "url": "https://www.infoq.com/articles/agentic-ai-architecture-harness-evolution/",
-      "summary": "Agentic LLM systems have moved from linear prompt chains to graph-based workflows and, more recently, code-executing harnesses. Chains are simple but fragile, graphs add branching, retries, and validation, and code harnesses verify outputs through execution. …",
+      "title": "Powering Partner Potential in a World of Agentic AI",
+      "source": "Cisco.com",
+      "url": "https://blogs.cisco.com/news/powering-partner-potential-in-a-world-of-agentic-ai",
+      "summary": "At Cisco Partner Summit, we are advancingAgenticOps and secure networking capabilities to give partners more ways to turn network modernization into lasting customer value.",
       "published_date": "2026-10-26",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
@@ -332,61 +308,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 16,
-      "title": "Show HN: AgentTrust – Zero-trust security and human approvals for AI agents",
-      "source": "Github.com",
-      "url": "https://github.com/SRN0129/Agenttrust",
-      "summary": "Enterprise Zero-Trust Security, Cascading Delegation, Human Approvals & Verifiable Audit Infrastructure for Autonomous AI Agents - SRN0129/Agenttrust",
-      "published_date": "2026-10-25",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "Fortinet Expands AI Security with the FortiGuard Inline AI Security Service",
-      "source": "Financial Post",
-      "url": "https://financialpost.com/globe-newswire/fortinet-expands-ai-security-with-the-fortiguard-inline-ai-security-service",
-      "summary": "New cloud-delivered service brings advanced AI guardrails and inspection to FortiGate firewalls, backed by continued FortiAIGate innovation SUNNYVALE, Calif., Oct. 26, 2026 (GLOBE NEWSWIRE) — Fortinet® (NASDAQ: FTNT), the global cybersecurity leader driving t…",
-      "published_date": "2026-10-26",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 18,
-      "title": "Extending Network Security to AI Applications with FortiAIGate",
-      "source": "Fortinet.com",
-      "url": "https://www.fortinet.com/blog/secure-networking/extending-network-security-to-ai-applications-with-fortiaigate",
-      "summary": "FortiAIGate extends network security with AI guardrails that inspect prompts, responses, and tool calls to protect data and govern AI use.…",
-      "published_date": "2026-10-26",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 19,
+      "rank": 15,
       "title": "[Eugene Volokh] The Ancient and Honorable Art of AI Hallucination",
       "source": "Reason",
       "url": "https://reason.com/volokh/2026/10/22/the-ancient-and-honorable-art-of-ai-hallucination/",
@@ -402,12 +324,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 20,
-      "title": "How Calico AI is Tackling Apparel’s Biggest Bottlenecks",
-      "source": "WWD",
-      "url": "http://wwd.com/sourcing-journal/industry-news/calico-ai-is-tackling-apparels-biggest-bottlenecks-1239384992/",
-      "summary": "Calico positions itself as an end-to-end product-creation engine designed to replace outdated software with streamlined, agentic AI.",
-      "published_date": "2026-10-26",
+      "rank": 16,
+      "title": "lizard-sdk 1.0.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/lizard-sdk/1.0.1/",
+      "summary": "Python SDK for Lizard (lizard.build): cloud sandboxes for AI agents and code execution.",
+      "published_date": "2026-10-27",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -415,7 +337,79 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic"
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "airbyte-agent-sdk 0.1.383",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/airbyte-agent-sdk/0.1.383/",
+      "summary": "Airbyte Agent SDK: typed connectors that give AI agents access to 50+ third-party APIs",
+      "published_date": "2026-10-27",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "yapwrap 0.0.1a4",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/yapwrap/0.0.1a4/",
+      "summary": "Framework-agnostic streaming voice pipeline for AI agents",
+      "published_date": "2026-10-27",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "agentsentinel-sdk 0.6.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/agentsentinel-sdk/0.6.0/",
+      "summary": "Runtime authority and control for autonomous AI agents",
+      "published_date": "2026-10-27",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 20,
+      "title": "airbyte-agent-sdk 0.1.382",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/airbyte-agent-sdk/0.1.382/",
+      "summary": "Airbyte Agent SDK: typed connectors that give AI agents access to 50+ third-party APIs",
+      "published_date": "2026-10-27",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
       ],
       "sentiment": "neutral"
     }
