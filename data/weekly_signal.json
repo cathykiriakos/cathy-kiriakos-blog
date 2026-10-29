@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T15:51:21.620Z",
+  "generated_at": "2026-10-29T15:59:39.384Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 16
+      "item_count": 11
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 3
+      "item_count": 9
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 2
+      "item_count": 3
     }
   ],
   "institutional_signal": {
@@ -36,37 +36,39 @@
       "polsky center",
       "mecha-nudges"
     ],
-    "item_count": 1
+    "item_count": 0
   },
   "items": [
     {
       "rank": 1,
-      "title": "Show HN: AGBoss Dependency injection and static validation for AI agents",
-      "source": "Github.com",
-      "url": "https://github.com/agbossjs/agboss",
-      "summary": "Spring-style TypeScript framework for mission-critical LangGraph AI agents — @Application DI, Path Scope Flow DSL, transactional LIFO sagas, FinOps budgets, MCP/RAG/A2A &amp; unit testing. - agboss...",
-      "published_date": "2026-10-27",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
+      "title": "Industry Report Shows 64% of Life Sciences Leaders Taking Action to Establish AI Governance",
+      "source": "PR Newswire UK",
+      "url": "https://www.prnewswire.co.uk/news-releases/industry-report-shows-64-of-life-sciences-leaders-taking-action-to-establish-ai-governance-302921671.html",
+      "summary": "Research points to trust as the real barrier to scaling agentic AI, with 58% saying the industry still lacks clear standards for responsible AI TORONTO and NEW YORK, Oct. 28, 2026 /PRNewswire/ -- Life sciences organizations are putting governance in place to …",
+      "published_date": "2026-10-28",
+      "relevance_score": 24,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent",
-        "RAG"
+        "agentic",
+        "ai governance",
+        "governance",
+        "responsible ai"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 2,
-      "title": "Three insights you may have missed from theCUBE’s coverage of Workiva’s Amplify event",
-      "source": "SiliconANGLE News",
-      "url": "https://siliconangle.com/2026/10/26/three-insights-you-may-have-missed-from-thecubes-coverage-of-workivas-amplify-event-amplify/",
-      "summary": "Enterprise AI governance is moving into the data, workflows and controls that determine what automated systems can do. As agents take on consequential work in finance, audit, compliance and sustainability, organizations need results that are grounded in busin…",
-      "published_date": "2026-10-27",
-      "relevance_score": 13,
+      "title": "VikingCloud gives businesses a scorecard for AI governance readiness",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/10/28/vikingcloud-ai-governance-services/",
+      "summary": "VikingCloud has launched AI Governance Services, a new set of compliance and risk assessments that find the AI tools in use across a business, show where security controls fall short, and deliver a remediation plan to close the gaps. Multi-location brands str…",
+      "published_date": "2026-10-28",
+      "relevance_score": 21,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -77,16 +79,93 @@
         "governance",
         "compliance"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 3,
-      "title": "AI agent security with policy-driven access control",
-      "source": "Redhat.com",
-      "url": "https://www.redhat.com/en/blog/ai-agent-security-policy-driven-access-control",
-      "summary": "Agentic AI deployments are accelerating across enterprises. Recent research from the Cloud Security Alliance shows 70% of organizations now have AI components in production, yet 82% lack real-time visibility into AI runtime behavior. Furthermore, only 21% of …",
+      "title": "Don’t rush to hire a chief AI officer: Build your AI governance",
+      "source": "Techmonitor.ai",
+      "url": "https://www.techmonitor.ai/comment/dont-rush-to-hire-a-chief-ai-officer-build-your-ai-governance/",
+      "summary": "Don’t rush to hire a chief AI officer: Build your AI governance, says Matt Cooper, customer trust lead at Vanta.",
+      "published_date": "2026-10-28",
+      "relevance_score": 18,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 4,
+      "title": "Where’s the HITL (Human in the Loop)?",
+      "source": "Productiveflourishing.com",
+      "url": "https://www.productiveflourishing.com/p/wheres-the-hitl-human-in-the-loop",
+      "summary": "When AI work passes from person to person, checking it has to be someone’s job before it moves.",
       "published_date": "2026-10-27",
-      "relevance_score": 13,
+      "relevance_score": 14,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 5,
+      "title": "getapo 0.0.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/getapo/0.0.1/",
+      "summary": "apo (AI Project Orchestration): a human-in-the-loop dashboard for Claude Code agents. Not released yet; this version only holds the name.",
+      "published_date": "2026-10-28",
+      "relevance_score": 12,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "orchestration",
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 6,
+      "title": "getapo added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/getapo/",
+      "summary": "apo (AI Project Orchestration): a human-in-the-loop dashboard for Claude Code agents. Not released yet; this version only holds the name.",
+      "published_date": "2026-10-28",
+      "relevance_score": 12,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "orchestration",
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 7,
+      "title": "X-post: WordPress for the Agentic Web",
+      "source": "Wordpress.org",
+      "url": "https://make.wordpress.org/ai/2026/10/28/wordpress-for-the-agentic-web/",
+      "summary": "As AI agents reshape how people interact with the web, WordPress needs to make it easier for users to connect and manage their sites through the agents they choose. This proposal outlines four prio…",
+      "published_date": "2026-10-28",
+      "relevance_score": 11,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -94,56 +173,17 @@
       "institutional_signal": false,
       "matched_keywords": [
         "agentic",
-        "ai agent",
-        "in production"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 4,
-      "title": "Amazon projects Alexa+ cloud costs of about $1.7 billion in 2026, weighs cuts to AI agent Moonraker",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/amazon-alexa-plus-cloud-costs-moonraker/",
-      "summary": "Amazon's cost-cutting measures for Alexa+ highlight the financial strain of advanced AI, potentially impacting innovation and user experience.\nThe post Amazon projects Alexa+ cloud costs of about $1.7 billion in 2026, weighs cuts to AI agent Moonraker appeare…",
-      "published_date": "2026-10-27",
-      "relevance_score": 12,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "user experience"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 5,
-      "title": "Apple Creator Studio to Add MotionVFX, AI Assistants, and MCP Support in November",
-      "source": "MacStories",
-      "url": "https://www.macstories.net/news/apple-creator-studio-to-add-motionvfx-ai-assistants-and-mcp-support-in-november/",
-      "summary": "Source: Apple. In November, Apple Creator Studio will get its biggest update since its release in January. There’s a lot here, so let’s break it down by app. Final Cut Pro and Motion Source: Apple. Back in March, Apple acquired MotionVFX, a highly regarded pl…",
-      "published_date": "2026-10-27",
-      "relevance_score": 10,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 6,
-      "title": "Use Fortinet Solutions to Secure Enterprise AI Workloads on Oracle Cloud Infrastructure",
-      "source": "Fortinet.com",
-      "url": "https://www.fortinet.com/blog/cloud-security/use-fortinet-solutions-to-secure-enterprise-ai-workloads-on-oracle-cloud-infrastructure",
-      "summary": "Fortinet solutions secure Oracle enterprise AI workloads, combining AI guardrails, governance, and cost control with Oracle Cloud Infrastructure services.…",
-      "published_date": "2026-10-27",
+      "rank": 8,
+      "title": "Interested parties, countries can come together to launch AI incident reporting pilot: PM Wong",
+      "source": "CNA",
+      "url": "https://www.channelnewsasia.com/singapore/pilot-ai-incident-report-safety-governance-pm-wong-6500216",
+      "summary": "Mr Wong suggested that countries start with a \"practical and flexible approach\" to AI governance.",
+      "published_date": "2026-10-28",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -151,94 +191,75 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail",
+        "ai governance",
         "governance"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 7,
-      "title": "Meet Clate: the First Design Tool for Real-World Experiences",
-      "source": "Www.qt.io",
-      "url": "https://www.qt.io/blog/meet-clate-the-first-design-tool-for-real-world-experiences",
-      "summary": "Clate Beta is out today, free for everyone. It's a no-code, AI-native UX design tool built for embedded and HMI applications, with QML under the hood, so designers can stay in control of the full user experience.",
-      "published_date": "2026-10-27",
-      "relevance_score": 10,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "UX",
-        "user experience"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
-      "title": "moltrust-mcp-server 1.2.7",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/moltrust-mcp-server/1.2.7/",
-      "summary": "MCP server for MolTrust — Trust Infrastructure for AI Agents",
-      "published_date": "2026-10-27",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 9,
-      "title": "buildwright 0.1.0",
+      "title": "sengol 2.0.1a28",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/buildwright/0.1.0/",
-      "summary": "Per-agent model routing for AI agents: LangGraph orchestration, PydanticAI agents, LiteLLM-ready registry, Langfuse tracing",
-      "published_date": "2026-10-27",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
+      "url": "https://pypi.org/project/sengol/2.0.1a28/",
+      "summary": "Sengol AI governance SDK",
+      "published_date": "2026-10-28",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "orchestration",
-        "ai agent"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 10,
-      "title": "buildwright added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/buildwright/",
-      "summary": "Per-agent model routing for AI agents: LangGraph orchestration, PydanticAI agents, LiteLLM-ready registry, Langfuse tracing",
-      "published_date": "2026-10-27",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
+      "title": "CyberSN Jobs Report as CIOs and CISOs are Unaccountable and Unprepared for AI - BSW #471",
+      "source": "Libsyn.com",
+      "url": "https://sites.libsyn.com/18678/cybersn-jobs-report-as-cios-and-cisos-are-unaccountable-and-unprepared-for-ai-bsw-471",
+      "summary": "CyberSN just released their Cybersecurity Jobs Report through September 2026. We’ll cover that in the leadership and communications segment along with, Only 7% of CISOs at Large Companies Own AI Governance, Our Favorite Management Tips on Delegating Effective…",
+      "published_date": "2026-10-28",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "orchestration",
-        "ai agent"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 11,
-      "title": "Show HN: Self-hosted Google Business Profile manager with agent approvals",
-      "source": "Github.com",
-      "url": "https://github.com/synectus/OpenGMB",
-      "summary": "Open-source Google Business Profile manager: reviews, posts, profile edits and rank tracking for every location, with approval rules before anything goes live and an MCP server for AI agents. Self-...",
-      "published_date": "2026-10-27",
+      "title": "pulumi-thoth 0.1.23",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/pulumi-thoth/0.1.23/",
+      "summary": "Pulumi provider for Aten Security Thoth AI governance control plane.",
+      "published_date": "2026-10-28",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 12,
+      "title": "prodius-mcp 0.3.2659",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/prodius-mcp/0.3.2659/",
+      "summary": "MCP server shim for Prodius — lets AI agents reach you by voice",
+      "published_date": "2026-10-28",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -247,55 +268,17 @@
       "institutional_signal": false,
       "matched_keywords": [
         "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "Show HN: Sectr – Serverless backend platform for easy deployment of AI agents",
-      "source": "Sectr.dev",
-      "url": "https://sectr.dev",
-      "summary": "Hey HN, I've been building Sectr, a backend-as-a-service for making it easy(ier) to develop and deploy AI agents. Deploying agents requires non-trivial systems design work. Consider a support agent: how do you stream messages to your frontend, how/where do yo…",
-      "published_date": "2026-10-27",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 13,
-      "title": "piqrypt 1.11.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/piqrypt/1.11.0/",
-      "summary": "Trust infrastructure for autonomous AI agents: identity, observability, governance",
-      "published_date": "2026-10-27",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "Powering Partner Potential in a World of Agentic AI",
-      "source": "Cisco.com",
-      "url": "https://blogs.cisco.com/news/powering-partner-potential-in-a-world-of-agentic-ai",
-      "summary": "At Cisco Partner Summit, we are advancingAgenticOps and secure networking capabilities to give partners more ways to turn network modernization into lasting customer value.",
-      "published_date": "2026-10-26",
+      "title": "Hex raises $100 million Series D at $1.2 billion valuation as it rebuilds for AI agents",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/hex-100-million-series-d-ai-agents/",
+      "summary": "Hex's AI-focused rebuild and funding boost signal a shift towards agent-driven analytics, challenging traditional data platforms and expanding market reach.\nThe post Hex raises $100 million Series D at $1.2 billion valuation as it rebuilds for AI agents appea…",
+      "published_date": "2026-10-28",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -303,34 +286,55 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic"
+        "ai agent"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 14,
+      "title": "Show HN: WOML – A markup language for building workflows and AI agents",
+      "source": "Github.com",
+      "url": "https://github.com/dali-benothmen/woml",
+      "summary": "Article URL: https://github.com/dali-benothmen/woml\nComments URL: https://news.ycombinator.com/item?id=50275773\nPoints: 1\n# Comments: 0",
+      "published_date": "2026-10-28",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 15,
-      "title": "[Eugene Volokh] The Ancient and Honorable Art of AI Hallucination",
-      "source": "Reason",
-      "url": "https://reason.com/volokh/2026/10/22/the-ancient-and-honorable-art-of-ai-hallucination/",
-      "summary": "I'm delighted to be able to pass along this item from University of Chicago law professor Albert Alschuler: Gemini Explains…",
-      "published_date": "2026-10-22",
-      "relevance_score": 7,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
+      "title": "KohakuTerrarium 2.1.9",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/kohakuterrarium/2.1.9/",
+      "summary": "A universal agent framework for building self-driven AI agents and multi-agent teams",
+      "published_date": "2026-10-28",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
       "matched_keywords": [
-        "university of chicago"
+        "ai agent",
+        "multi-agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 16,
-      "title": "lizard-sdk 1.0.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/lizard-sdk/1.0.1/",
-      "summary": "Python SDK for Lizard (lizard.build): cloud sandboxes for AI agents and code execution.",
-      "published_date": "2026-10-27",
-      "relevance_score": 5,
+      "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "source": "Surgehq.ai",
+      "url": "https://surgehq.ai/blog/dayjob-tax",
+      "summary": "DAYJOB: Tax evaluates AI agents across 50 realistic tax environments, testing their ability to navigate messy records, exercise professional judgment, and deliver reliable tax work.",
+      "published_date": "2026-10-28",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -343,12 +347,12 @@
     },
     {
       "rank": 17,
-      "title": "airbyte-agent-sdk 0.1.383",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/airbyte-agent-sdk/0.1.383/",
-      "summary": "Airbyte Agent SDK: typed connectors that give AI agents access to 50+ third-party APIs",
-      "published_date": "2026-10-27",
-      "relevance_score": 5,
+      "title": "Show HN: Watch AI agents build Pullboard, live",
+      "source": "Pullboard.dev",
+      "url": "https://pullboard.dev/live/",
+      "summary": "Pullboard builds itself on its own board. Watch it live: every agent, what it is building or reviewing, and every item that lands.",
+      "published_date": "2026-10-28",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -361,12 +365,12 @@
     },
     {
       "rank": 18,
-      "title": "yapwrap 0.0.1a4",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/yapwrap/0.0.1a4/",
-      "summary": "Framework-agnostic streaming voice pipeline for AI agents",
-      "published_date": "2026-10-27",
-      "relevance_score": 5,
+      "title": "Left alone with nothing to do, AI agents started playing | TechCrunch",
+      "source": "Linksdv.com",
+      "url": "https://www.linksdv.com/25695",
+      "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.Enviado por Fabio en Tecnología",
+      "published_date": "2026-10-28",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -379,37 +383,38 @@
     },
     {
       "rank": 19,
-      "title": "agentsentinel-sdk 0.6.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/agentsentinel-sdk/0.6.0/",
-      "summary": "Runtime authority and control for autonomous AI agents",
-      "published_date": "2026-10-27",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
+      "title": "Settlement and Governance Behind the AI Frontier",
+      "source": "Rand.org",
+      "url": "https://www.rand.org/pubs/perspectives/PEA5380-1.html",
+      "summary": "Debates about artificial intelligence governance focus on frontier models and the race toward artificial general intelligence. But this focus misses the vast, fast-growing ecosystem behind the frontier: millions of models, agents, and applications spreading f…",
+      "published_date": "2026-10-28",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "airbyte-agent-sdk 0.1.382",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/airbyte-agent-sdk/0.1.382/",
-      "summary": "Airbyte Agent SDK: typed connectors that give AI agents access to 50+ third-party APIs",
-      "published_date": "2026-10-27",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
+      "title": "India weighs pre-release safety checks for frontier AI models",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/india-pre-release-safety-checks-frontier-ai/",
+      "summary": "India's shift towards stringent AI safety checks could increase compliance costs and delay product launches, impacting global AI competitiveness.\nThe post India weighs pre-release safety checks for frontier AI models appeared first on Crypto Briefing.",
+      "published_date": "2026-10-28",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "compliance",
+        "ai safety"
       ],
       "sentiment": "neutral"
     }
