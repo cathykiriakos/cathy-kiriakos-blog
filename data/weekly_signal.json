@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T15:13:52.538Z",
+  "generated_at": "2026-11-01T15:56:23.462Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -13,13 +13,13 @@
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 9
+      "item_count": 7
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 4
+      "item_count": 5
     }
   ],
   "institutional_signal": {
@@ -41,90 +41,129 @@
   "items": [
     {
       "rank": 1,
-      "title": "Trai proposes AI governance framework, accountability rules for telcos",
-      "source": "Business Standard",
-      "url": "https://www.business-standard.com/industry/news/trai-proposes-ai-governance-framework-accountability-rules-for-telcos-126103001511_1.html",
-      "summary": "The draft framework seeks board-approved AI policies, risk classification, human oversight and mandatory reporting of serious AI-related incidents by telecom operators across India",
+      "title": "Trust Is the Product: Why CX Leaders Must Own AI Governance",
+      "source": "CMSWire",
+      "url": "https://www.cmswire.com/customer-experience/trust-is-the-product-why-cx-leaders-must-own-ai-governance/",
+      "summary": "The hidden cost of a bad AI moment — and who should be watching for it.\nContinue reading...",
       "published_date": "2026-10-30",
-      "relevance_score": 21,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance",
-        "human oversight"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 2,
-      "title": "The AI Act's longer runway is an opportunity to build governance that lasts",
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/pro/the-ai-acts-longer-runway-is-an-opportunity-to-build-governance-that-lasts",
-      "summary": "Europe’s extended AI timeline gives businesses time to build trusted, resilient governance now.",
-      "published_date": "2026-10-30",
-      "relevance_score": 14,
+      "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "governance",
-        "eu ai act"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 3,
-      "title": "gpulayer 0.3.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/gpulayer/0.3.0/",
-      "summary": "Run any workload on every GPU and CPU you can reach: job orchestration across local, remote and cloud machines, distributed PyTorch, a web dashboard and an MCP server for AI agents.",
-      "published_date": "2026-10-30",
-      "relevance_score": 13,
-      "primary_pillar": "applied_ai",
+      "rank": 2,
+      "title": "Human Oversight, Incident Reporting Mandatory: TRAI Proposes Strict AI Rules For Telecom Companies",
+      "source": "Free Press Journal",
+      "url": "https://www.freepressjournal.in/business/human-oversight-incident-reporting-mandatory-trai-proposes-strict-ai-rules-for-telecom-companies",
+      "summary": "The Telecom Regulatory Authority of India has proposed an AI governance framework requiring telecom companies to adopt board-approved policies, classify AI systems by risk and report serious incidents. Operators would remain accountable for third-party AI too…",
+      "published_date": "2026-10-31",
+      "relevance_score": 16,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code",
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "orchestration",
-        "ai agent"
+        "ai governance",
+        "governance",
+        "human oversight"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 3,
+      "title": "The Role of UX in Agentic Software Factories",
+      "source": "Nngroup.com",
+      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/",
+      "summary": "AI-native software development lifecycles reduce UX to AI context. UX must discover user needs, shape what’s built, and evaluate it before and after launch.",
+      "published_date": "2026-10-30",
+      "relevance_score": 16,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "UX"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 4,
-      "title": "gpulayer added to PyPI",
+      "title": "steamforecast-mcp 0.1.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/gpulayer/",
-      "summary": "Run any workload on every GPU and CPU you can reach: job orchestration across local, remote and cloud machines, distributed PyTorch, a web dashboard and an MCP server for AI agents.",
-      "published_date": "2026-10-30",
-      "relevance_score": 13,
+      "url": "https://pypi.org/project/steamforecast-mcp/0.1.1/",
+      "summary": "Model Context Protocol server for Steam Launch Forecaster — calibrated revenue cones for indie Steam game launches, exposed as MCP tools to Claude / AI agents.",
+      "published_date": "2026-10-31",
+      "relevance_score": 15,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "model context protocol",
         "MCP",
-        "orchestration",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 5,
-      "title": "Trai proposes mandatory AI policies, incident reporting for telcos",
-      "source": "Livemint",
-      "url": "https://www.livemint.com/industry/telecom/trai-proposes-mandatory-ai-policies-incident-reporting-for-telcos-11793363777693.html",
-      "summary": "Trai’s draft AI governance guidelines seek board-approved AI policies, risk-based classification, human oversight and mandatory reporting of serious AI-related incidents, while holding telecom operators accountable for outcomes even when systems are sourced f…",
+      "title": "Enterprise AI Agent Security",
+      "source": "Wowebook.org",
+      "url": "https://www.wowebook.org/enterprise-ai-agent-security/",
+      "summary": "eBook Details: Paperback: 310 pages Published: October 21, 2026 Language: English ISBN-10: 1808828658 ISBN-13: 978-1808828652 eBook Description: Enterprise AI Agent Security: A Practical Guide to MCP Security, Prompt Injection Defense, RAG Security, and Agent…",
+      "published_date": "2026-10-31",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent",
+        "RAG"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 6,
+      "title": "Experience Design: Dropping the “User” from “User Experience”",
+      "source": "Nngroup.com",
+      "url": "https://www.nngroup.com/articles/ux-vs-experience-design/",
+      "summary": "AI is expanding UX beyond human users to agents acting on their behalf. Experience  design names this broader field, which still centers on people’s goals.",
+      "published_date": "2026-10-30",
+      "relevance_score": 14,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "UX",
+        "user experience"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 7,
+      "title": "TRAI proposes board-approved AI policies, risk classification and mandatory incident reporting for telecom operators",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/industry/telecom/telecom-policy/trai-proposes-board-approved-ai-policies-risk-classification-and-mandatory-incident-reporting-for-telecom-operators/articleshow/135374002.cms",
+      "summary": "TRAI has proposed draft guidelines requiring telecom operators using AI to adopt board-approved policies, classify AI systems by risk and report critical incidents to the regulator. The framework also mandates AI governance committees, human oversight, impact…",
       "published_date": "2026-10-30",
       "relevance_score": 13,
       "primary_pillar": "governance_as_code",
@@ -141,47 +180,45 @@
       "sentiment": "negative"
     },
     {
-      "rank": 6,
-      "title": "Anthropic trains Claude to review its own conversations for misuse",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/anthropic-claude-self-assessment-misuse-safety/",
-      "summary": "Anthropic's self-assessment feature enhances AI safety by integrating human oversight, reducing misuse while maintaining user experience.\nThe post Anthropic trains Claude to review its own conversations for misuse appeared first on Crypto Briefing.",
-      "published_date": "2026-10-29",
+      "rank": 8,
+      "title": "openwop-client 2.8.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/openwop-client/2.8.0/",
+      "summary": "Python SDK for OpenWOP, the open-source protocol for multi-agent workflow orchestration: run AI agents as workflows you can watch, pause for human approval and replay, on any host that implements it.",
+      "published_date": "2026-10-31",
       "relevance_score": 12,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "governance_as_code",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai safety",
-        "user experience",
-        "human oversight"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
-      "title": "ET AI Business Transformation Masterclass & Awards: Inside the future of agentic payments",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/industry/services/education/et-ai-business-transformation-masterclass-awards-inside-the-future-of-agentic-payments/articleshow/135351676.cms",
-      "summary": "Synopsis: AI tools are all set to perform tasks that go beyond answering questions or making recommendations. A live demonstration at the ET AI Business Transformation Masterclass and Awards 2026 will show how AI agents can make UPI payments through P3P witho…",
-      "published_date": "2026-10-30",
-      "relevance_score": 11,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
-        "ai agent"
+        "orchestration",
+        "ai agent",
+        "multi-agent"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 8,
+      "rank": 9,
+      "title": "'Social Media on Steroids.' Advocates for Children Call for Guardrails Around AI",
+      "source": "Time",
+      "url": "https://time.com/article/2026/10/30/ai-kids-common-sense-media/",
+      "summary": "\"It's basically social media on steroids.”",
+      "published_date": "2026-10-30",
+      "relevance_score": 12,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
       "title": "Shufti ties AI agent actions to verified owners and permissions",
       "source": "Help Net Security",
       "url": "https://www.helpnetsecurity.com/2026/10/30/shufti-know-your-agent-kya/",
@@ -196,45 +233,6 @@
       "matched_keywords": [
         "agentic",
         "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "pad-lattice 0.2.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/pad-lattice/0.2.0/",
-      "summary": "Human-in-the-loop control surfaces for monitoring and directing multiple AI agents.",
-      "published_date": "2026-10-29",
-      "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 10,
-      "title": "sengol 2.0.1a30",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/sengol/2.0.1a30/",
-      "summary": "Sengol AI governance SDK",
-      "published_date": "2026-10-30",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
       ],
       "sentiment": "neutral"
     },
@@ -259,11 +257,11 @@
     },
     {
       "rank": 12,
-      "title": "nimbus-mcp 0.14.19",
+      "title": "zizkadb-mcp 0.1.12",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/nimbus-mcp/0.14.19/",
-      "summary": "MCP server bridging AI agents to Nimbus BCI pipelines (device-flow login, desktop auto-discovery, or API key)",
-      "published_date": "2026-10-30",
+      "url": "https://pypi.org/project/zizkadb-mcp/0.1.12/",
+      "summary": "MCP server for ZizkaDB, the audit trail database for AI agents: query tamper-evident decision logs from Cursor, Claude Desktop, and any MCP client",
+      "published_date": "2026-10-31",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -278,11 +276,11 @@
     },
     {
       "rank": 13,
-      "title": "erinys-memory 0.6.1",
+      "title": "poa-agent-kit 0.2.27",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/erinys-memory/0.6.1/",
-      "summary": "Reflexive Memory for AI Agents — MCP Server",
-      "published_date": "2026-10-30",
+      "url": "https://pypi.org/project/poa-agent-kit/0.2.27/",
+      "summary": "Python client/CLI and stdio MCP server for AI agents on the experimental PoA network.",
+      "published_date": "2026-10-31",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -297,11 +295,11 @@
     },
     {
       "rank": 14,
-      "title": "Show HN: Omneum – Local, text-blind context control plane for AI agents",
-      "source": "Github.com",
-      "url": "https://github.com/cole-h06/omneum",
-      "summary": "Article URL: https://github.com/cole-h06/omneum\nComments URL: https://news.ycombinator.com/item?id=50304917\nPoints: 1\n# Comments: 0",
-      "published_date": "2026-10-30",
+      "title": "sc-imap-mcp 2.1.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/sc-imap-mcp/2.1.1/",
+      "summary": "Security-focused Model Context Protocol server mediating LLM access to IMAP mailboxes under strict, auditable policy.",
+      "published_date": "2026-10-31",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -309,17 +307,17 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "model context protocol"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 15,
-      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
-      "source": "Nvidia.com",
-      "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
-      "summary": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence took a major leap forward with AI, and it …",
-      "published_date": "2026-10-30",
+      "title": "rootly-mcp-server 2.4.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/rootly-mcp-server/2.4.0/",
+      "summary": "Secure Model Context Protocol server for Rootly APIs with AI SRE capabilities, comprehensive error handling, and input validation",
+      "published_date": "2026-10-31",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -327,16 +325,16 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic"
+        "model context protocol"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 16,
-      "title": "TRAI releases draft guidelines on responsible AI use in telecom networks, services",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/industry/telecom/telecom-policy/trai-releases-draft-guidelines-on-responsible-ai-use-in-telecom-networks-services/articleshow/135361926.cms",
-      "summary": "TRAI has released draft guidelines for the responsible deployment of artificial intelligence across telecom networks and services, inviting public comments by November 27, 2026. The proposed framework seeks to align the sector's AI adoption with the Centre's …",
+      "title": "responsible-ai-platform 3.3.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/responsible-ai-platform/3.3.1/",
+      "summary": "Responsible AI Platform(RAIA) — SDK for tracing, evaluation, and governance of AI assets",
       "published_date": "2026-10-30",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
@@ -345,17 +343,18 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "governance",
         "responsible ai"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "AI Agents Course Guide for Beginners in the US",
-      "source": "Bitcoinfoundation.org",
-      "url": "https://bitcoinfoundation.org/news/ai/ai-agents-course/",
-      "summary": "US learners often choose an ai agents course before they know which projects, tools, or credentials matter. This guide compares tested paths by syllabus, practice,...\nThe post AI Agents Course Guide for Beginners in the US appeared first on Bitcoin Foundation.",
-      "published_date": "2026-10-30",
+      "title": "Humans are still doing the work behind some AI agents",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/31/ai-agents-humans-dazzle-duckbill-meta.html",
+      "summary": "AI agents from startups including Dazzle, Duckbill and Wajo still rely on human workers for calls and other real-world tasks when software falls short.",
+      "published_date": "2026-10-31",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -369,55 +368,55 @@
     },
     {
       "rank": 18,
-      "title": "New York State Bans ‘Unsafe’ Chatbots for Kids as States Push AI Regulation Limits",
-      "source": "Insurance Journal",
-      "url": "https://www.insurancejournal.com/news/east/2026/10/30/890880.htm",
-      "summary": "New York is enacting farther-reaching restrictions on companion chatbot behavior, as states increasingly move to protect children who use artificial intelligence, regulate how employers deploy AI systems and push developers to prevent an AI-caused catastrophe…",
+      "title": "This Week in Open Source for October 30, 2026",
+      "source": "Googleblog.com",
+      "url": "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-29.html",
+      "summary": "Explore supply-chain security, 200+ OSS AI policies, human-in-the-loop agents, TorchTPU, CNCF llm-d 1.0, FOSDEM 2027 devrooms, and upcoming events.",
       "published_date": "2026-10-30",
       "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "governance_as_code"
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai regulation"
+        "human-in-the-loop"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 19,
-      "title": "2027: Govs, experts call for ethical journalism, AI regulation",
-      "source": "The Punch",
-      "url": "https://punchng.com/2027-govs-experts-call-for-ethical-journalism-ai-regulation/",
-      "summary": "Kano and Kaduna governors, alongside media experts, call for ethical journalism and AI regulation to combat misinformation ahead of Nigeria’s 2027 election\n\nRead More: https://punchng.com/2027-govs-experts-call-for-ethical-journalism-ai-regulation/",
-      "published_date": "2026-10-30",
-      "relevance_score": 8,
+      "title": "framework-py 0.1.0.dev1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/framework-py/0.1.0.dev1/",
+      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
+      "published_date": "2026-10-31",
+      "relevance_score": 7,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai regulation"
+        "guardrail"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "NY enacts ban on 'unsafe' chatbot with kids as states push AI regulation boundaries",
-      "source": "The Times of India",
-      "url": "https://timesofindia.indiatimes.com/world/us/ny-enacts-ban-on-unsafe-chatbot-with-kids-as-states-push-ai-regulation-boundaries/articleshow/135337048.cms",
-      "summary": "New York is enacting far-reaching curbs on companion chatbot behaviour, as states increasingly move to protect children who use artificial intelligence,",
+      "title": "framework-py 0.1.0.dev0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/framework-py/0.1.0.dev0/",
+      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
       "published_date": "2026-10-30",
-      "relevance_score": 8,
+      "relevance_score": 7,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai regulation"
+        "guardrail"
       ],
       "sentiment": "neutral"
     }
