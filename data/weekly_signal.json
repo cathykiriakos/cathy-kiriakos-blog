@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T15:56:23.462Z",
+  "generated_at": "2026-11-01T18:13:31.458Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,13 +7,13 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 11
+      "item_count": 9
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 7
+      "item_count": 9
     },
     {
       "id": "human_centric_design",
@@ -101,26 +101,6 @@
     },
     {
       "rank": 4,
-      "title": "steamforecast-mcp 0.1.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/steamforecast-mcp/0.1.1/",
-      "summary": "Model Context Protocol server for Steam Launch Forecaster — calibrated revenue cones for indie Steam game launches, exposed as MCP tools to Claude / AI agents.",
-      "published_date": "2026-10-31",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "model context protocol",
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 5,
       "title": "Enterprise AI Agent Security",
       "source": "Wowebook.org",
       "url": "https://www.wowebook.org/enterprise-ai-agent-security/",
@@ -140,7 +120,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Experience Design: Dropping the “User” from “User Experience”",
       "source": "Nngroup.com",
       "url": "https://www.nngroup.com/articles/ux-vs-experience-design/",
@@ -159,7 +139,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "TRAI proposes board-approved AI policies, risk classification and mandatory incident reporting for telecom operators",
       "source": "The Times of India",
       "url": "https://economictimes.indiatimes.com/industry/telecom/telecom-policy/trai-proposes-board-approved-ai-policies-risk-classification-and-mandatory-incident-reporting-for-telecom-operators/articleshow/135374002.cms",
@@ -180,11 +160,11 @@
       "sentiment": "negative"
     },
     {
-      "rank": 8,
-      "title": "openwop-client 2.8.0",
+      "rank": 7,
+      "title": "algenta-mcp 1.0.42",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/openwop-client/2.8.0/",
-      "summary": "Python SDK for OpenWOP, the open-source protocol for multi-agent workflow orchestration: run AI agents as workflows you can watch, pause for human approval and replay, on any host that implements it.",
+      "url": "https://pypi.org/project/algenta-mcp/1.0.42/",
+      "summary": "Algenta MCP server for Cursor, Codex, and other Model Context Protocol clients. Any MCP-capable agent operates the engine — self-hosted building blocks for AI applications — metered and audited like every other caller.",
       "published_date": "2026-10-31",
       "relevance_score": 12,
       "primary_pillar": "applied_ai",
@@ -193,14 +173,13 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "orchestration",
-        "ai agent",
-        "multi-agent"
+        "model context protocol",
+        "MCP"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "'Social Media on Steroids.' Advocates for Children Call for Guardrails Around AI",
       "source": "Time",
       "url": "https://time.com/article/2026/10/30/ai-kids-common-sense-media/",
@@ -218,49 +197,30 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 10,
-      "title": "Shufti ties AI agent actions to verified owners and permissions",
-      "source": "Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/10/30/shufti-know-your-agent-kya/",
-      "summary": "Shufti launches Know Your Agent (KYA), an AI agent verification solution designed to verify autonomous AI agents acting on behalf of individuals and businesses. Agentic commerce enables AI agents to open accounts, place orders, and move funds for their owners…",
-      "published_date": "2026-10-30",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
-      "title": "7 Ways Your AI Agent Is Wasting Tokens (And What to Do Instead)",
-      "source": "Machinelearningmastery.com",
-      "url": "https://machinelearningmastery.com/7-ways-your-ai-agent-is-wasting-tokens-and-what-to-do-instead/",
-      "summary": "In this article, you will learn seven common token-waste patterns in production AI agent systems, and the architectural fixes that address each one. Topics we...",
-      "published_date": "2026-10-30",
-      "relevance_score": 10,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "in production"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "zizkadb-mcp 0.1.12",
+      "rank": 9,
+      "title": "sengol 2.0.1a31",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/zizkadb-mcp/0.1.12/",
-      "summary": "MCP server for ZizkaDB, the audit trail database for AI agents: query tamper-evident decision logs from Cursor, Claude Desktop, and any MCP client",
+      "url": "https://pypi.org/project/sengol/2.0.1a31/",
+      "summary": "Sengol AI governance SDK",
+      "published_date": "2026-10-31",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "cpersona 2.6.16a4",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/cpersona/2.6.16a4/",
+      "summary": "CPersona — persistent memory for AI agents over MCP. One SQLite file you own, hybrid vector + full-text + keyword search, no LLM in the loop, and honest reporting when recall degrades. MIT licensed.",
       "published_date": "2026-10-31",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -275,10 +235,10 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 13,
-      "title": "poa-agent-kit 0.2.27",
+      "rank": 11,
+      "title": "poa-agent-kit 0.2.28",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/poa-agent-kit/0.2.27/",
+      "url": "https://pypi.org/project/poa-agent-kit/0.2.28/",
       "summary": "Python client/CLI and stdio MCP server for AI agents on the experimental PoA network.",
       "published_date": "2026-10-31",
       "relevance_score": 9,
@@ -294,11 +254,49 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 14,
-      "title": "sc-imap-mcp 2.1.1",
+      "rank": 12,
+      "title": "embeddedci-mcp 2.13.5",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/sc-imap-mcp/2.1.1/",
-      "summary": "Security-focused Model Context Protocol server mediating LLM access to IMAP mailboxes under strict, auditable policy.",
+      "url": "https://pypi.org/project/embeddedci-mcp/2.13.5/",
+      "summary": "MCP server that lets AI agents drive an EmbeddedCI BenchPod hardware-in-the-loop bench",
+      "published_date": "2026-10-31",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "cpersona 2.6.16a3",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/cpersona/2.6.16a3/",
+      "summary": "CPersona — persistent memory for AI agents over MCP. One SQLite file you own, hybrid vector + full-text + keyword search, no LLM in the loop, and honest reporting when recall degrades. MIT licensed.",
+      "published_date": "2026-10-31",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "AI Agents Take the Search for Alien Life to a Whole New Level",
+      "source": "Incrediblethings.com",
+      "url": "https://incrediblethings.com/ai-powered-search-for-extraterrestrial-intelligence/",
+      "summary": "AI agents are transforming the search for extraterrestrial intelligence, helping scientists detect potential signals from alien civilizations.",
       "published_date": "2026-10-31",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
@@ -307,30 +305,12 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 15,
-      "title": "rootly-mcp-server 2.4.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/rootly-mcp-server/2.4.0/",
-      "summary": "Secure Model Context Protocol server for Rootly APIs with AI SRE capabilities, comprehensive error handling, and input validation",
-      "published_date": "2026-10-31",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "model context protocol"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
       "title": "responsible-ai-platform 3.3.1",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/responsible-ai-platform/3.3.1/",
@@ -349,7 +329,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 17,
+      "rank": 16,
       "title": "Humans are still doing the work behind some AI agents",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/31/ai-agents-humans-dazzle-duckbill-meta.html",
@@ -367,7 +347,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 18,
+      "rank": 17,
       "title": "This Week in Open Source for October 30, 2026",
       "source": "Googleblog.com",
       "url": "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-29.html",
@@ -381,6 +361,24 @@
       "institutional_signal": false,
       "matched_keywords": [
         "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "framework-py 0.1.0.dev3",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/framework-py/0.1.0.dev3/",
+      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
+      "published_date": "2026-10-31",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
       ],
       "sentiment": "neutral"
     },
