@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T18:13:31.458Z",
+  "generated_at": "2026-11-02T19:20:25.635Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,7 +7,7 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 9
+      "item_count": 11
     },
     {
       "id": "governance_as_code",
@@ -19,7 +19,7 @@
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 5
+      "item_count": 2
     }
   ],
   "institutional_signal": {
@@ -41,11 +41,11 @@
   "items": [
     {
       "rank": 1,
-      "title": "Trust Is the Product: Why CX Leaders Must Own AI Governance",
-      "source": "CMSWire",
-      "url": "https://www.cmswire.com/customer-experience/trust-is-the-product-why-cx-leaders-must-own-ai-governance/",
-      "summary": "The hidden cost of a bad AI moment — and who should be watching for it.\nContinue reading...",
-      "published_date": "2026-10-30",
+      "title": "RWJBarnabas Health’s Adamson Says AI Governance Needs Value Gates Before Consumption Pricing Hits",
+      "source": "Healthsystemcio.com",
+      "url": "https://healthsystemcio.com/2026/11/01/ai-value-gates-consumption-pricing/",
+      "summary": "Rob Adamson, EVP and chief information officer at RWJBarnabas Health, discusses how his organization is preparing for AI consumption pricing. He explains the 90-day value test a model must pass to keep its compute, why a volume model priced discharge summariz…",
+      "published_date": "2026-11-01",
       "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -81,26 +81,45 @@
     },
     {
       "rank": 3,
-      "title": "The Role of UX in Agentic Software Factories",
-      "source": "Nngroup.com",
-      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/",
-      "summary": "AI-native software development lifecycles reduce UX to AI context. UX must discover user needs, shape what’s built, and evaluate it before and after launch.",
-      "published_date": "2026-10-30",
+      "title": "Scaling smart: How LLM developers are solving multi-agent orchestration bottlenecks",
+      "source": "TechRadar",
+      "url": "https://www.techradar.com/pro/scaling-smart-how-llm-developers-are-solving-multi-agent-orchestration-bottlenecks",
+      "summary": "We explore the challenges developers face with multi-agent orchestration and the strategies they use to overcome them.",
+      "published_date": "2026-11-01",
       "relevance_score": 16,
-      "primary_pillar": "human_centric_design",
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
-        "UX"
+        "orchestration",
+        "multi-agent"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 4,
+      "title": "webscout-mcp 2.1.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/webscout-mcp/2.1.0/",
+      "summary": "Self-healing web access layer for AI Agents: search, fetch, extract, progressive content delivery, provider routing, recovery, browser fallback, caching, and observability over the Model Context Protocol (MCP). Optional Jev shadow evaluator and vector/AI/brow…",
+      "published_date": "2026-11-01",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Enterprise AI Agent Security",
       "source": "Wowebook.org",
       "url": "https://www.wowebook.org/enterprise-ai-agent-security/",
@@ -120,72 +139,33 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 5,
-      "title": "Experience Design: Dropping the “User” from “User Experience”",
-      "source": "Nngroup.com",
-      "url": "https://www.nngroup.com/articles/ux-vs-experience-design/",
-      "summary": "AI is expanding UX beyond human users to agents acting on their behalf. Experience  design names this broader field, which still centers on people’s goals.",
-      "published_date": "2026-10-30",
-      "relevance_score": 14,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "UX",
-        "user experience"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 6,
-      "title": "TRAI proposes board-approved AI policies, risk classification and mandatory incident reporting for telecom operators",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/industry/telecom/telecom-policy/trai-proposes-board-approved-ai-policies-risk-classification-and-mandatory-incident-reporting-for-telecom-operators/articleshow/135374002.cms",
-      "summary": "TRAI has proposed draft guidelines requiring telecom operators using AI to adopt board-approved policies, classify AI systems by risk and report critical incidents to the regulator. The framework also mandates AI governance committees, human oversight, impact…",
-      "published_date": "2026-10-30",
-      "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance",
-        "human oversight"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 7,
-      "title": "algenta-mcp 1.0.42",
+      "title": "piihush 0.2.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/algenta-mcp/1.0.42/",
-      "summary": "Algenta MCP server for Cursor, Codex, and other Model Context Protocol clients. Any MCP-capable agent operates the engine — self-hosted building blocks for AI applications — metered and audited like every other caller.",
-      "published_date": "2026-10-31",
-      "relevance_score": 12,
+      "url": "https://pypi.org/project/piihush/0.2.0/",
+      "summary": "High-speed PII and secret masking for RAG, AI agents and LLM applications, written in Rust",
+      "published_date": "2026-11-01",
+      "relevance_score": 11,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol",
-        "MCP"
+        "ai agent",
+        "RAG",
+        "llm application"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "'Social Media on Steroids.' Advocates for Children Call for Guardrails Around AI",
       "source": "Time",
       "url": "https://time.com/article/2026/10/30/ai-kids-common-sense-media/",
       "summary": "\"It's basically social media on steroids.”",
       "published_date": "2026-10-30",
-      "relevance_score": 12,
+      "relevance_score": 11,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -193,6 +173,25 @@
       "institutional_signal": false,
       "matched_keywords": [
         "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "sengol 2.0.1a32",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/sengol/2.0.1a32/",
+      "summary": "Sengol AI governance SDK",
+      "published_date": "2026-11-01",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
@@ -217,30 +216,31 @@
     },
     {
       "rank": 10,
-      "title": "cpersona 2.6.16a4",
+      "title": "eternity-agentshield added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/cpersona/2.6.16a4/",
-      "summary": "CPersona — persistent memory for AI agents over MCP. One SQLite file you own, hybrid vector + full-text + keyword search, no LLM in the loop, and honest reporting when recall degrades. MIT licensed.",
-      "published_date": "2026-10-31",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
+      "url": "https://pypi.org/project/eternity-agentshield/",
+      "summary": "ETERNITY : AgentShield 2.0 — Enterprise Security Middleware & Guardrails SDK for Autonomous AI Agents",
+      "published_date": "2026-11-01",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "ai agent",
+        "guardrail"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 11,
-      "title": "poa-agent-kit 0.2.28",
+      "title": "aihydro-tools 2.8.6",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/poa-agent-kit/0.2.28/",
-      "summary": "Python client/CLI and stdio MCP server for AI agents on the experimental PoA network.",
-      "published_date": "2026-10-31",
+      "url": "https://pypi.org/project/aihydro-tools/2.8.6/",
+      "summary": "AI-Hydro: hydrological research tools as an MCP server for AI agents",
+      "published_date": "2026-11-01",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -255,104 +255,11 @@
     },
     {
       "rank": 12,
-      "title": "embeddedci-mcp 2.13.5",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/embeddedci-mcp/2.13.5/",
-      "summary": "MCP server that lets AI agents drive an EmbeddedCI BenchPod hardware-in-the-loop bench",
-      "published_date": "2026-10-31",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 13,
-      "title": "cpersona 2.6.16a3",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/cpersona/2.6.16a3/",
-      "summary": "CPersona — persistent memory for AI agents over MCP. One SQLite file you own, hybrid vector + full-text + keyword search, no LLM in the loop, and honest reporting when recall degrades. MIT licensed.",
-      "published_date": "2026-10-31",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "AI Agents Take the Search for Alien Life to a Whole New Level",
-      "source": "Incrediblethings.com",
-      "url": "https://incrediblethings.com/ai-powered-search-for-extraterrestrial-intelligence/",
-      "summary": "AI agents are transforming the search for extraterrestrial intelligence, helping scientists detect potential signals from alien civilizations.",
-      "published_date": "2026-10-31",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "responsible-ai-platform 3.3.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/responsible-ai-platform/3.3.1/",
-      "summary": "Responsible AI Platform(RAIA) — SDK for tracing, evaluation, and governance of AI assets",
-      "published_date": "2026-10-30",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "governance",
-        "responsible ai"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "Humans are still doing the work behind some AI agents",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/31/ai-agents-humans-dazzle-duckbill-meta.html",
-      "summary": "AI agents from startups including Dazzle, Duckbill and Wajo still rely on human workers for calls and other real-world tasks when software falls short.",
-      "published_date": "2026-10-31",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "This Week in Open Source for October 30, 2026",
-      "source": "Googleblog.com",
-      "url": "https://opensource.googleblog.com/2026/10/this-week-in-open-source-for-october-29.html",
-      "summary": "Explore supply-chain security, 200+ OSS AI policies, human-in-the-loop agents, TorchTPU, CNCF llm-d 1.0, FOSDEM 2027 devrooms, and upcoming events.",
-      "published_date": "2026-10-30",
+      "title": "Agilex 2X FPGA portfolio supports PCIe 7.0 and QuartusIQ AI design tool",
+      "source": "Linuxgizmos.com",
+      "url": "https://linuxgizmos.com/agilex-2x-fpga-portfolio-supports-pcie-7-0-and-quartusiq-ai-design-tool/",
+      "summary": "Agilex 2X is Altera’s latest FPGA and SoC portfolio, consisting of four device families for applications ranging from industrial control to high-performance computing. The first announced family, Agilex 27, incorporates 256Gbps transceivers, PCIe 7.0 support,…",
+      "published_date": "2026-11-01",
       "relevance_score": 8,
       "primary_pillar": "human_centric_design",
       "pillars": [
@@ -360,12 +267,66 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "human-in-the-loop"
+        "ai design"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 18,
+      "rank": 13,
+      "title": "AI agents bypassed crypto spending limits without human approval, researchers find in a new test",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/dcd7f1f86b009107",
+      "summary": "Vercel Security Checkpoint\ncle1::1793555071-jnfWi7waOCD10Ty2uk7bEA1YtuGtGVuU",
+      "published_date": "2026-11-01",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "101 Emerging Impacts: AI-Powered Business Growth in 2026 From Halloween Trick-or-Treating Traditions to the Future of Social Media Marketing, Agentic AI, Finance Automation & Online Entrepren",
+      "source": "Substack.com",
+      "url": "https://drratneshwarprasadsinha.substack.com/p/101-emerging-impacts-ai-powered-business",
+      "summary": "101 Emerging Impacts: AI-Powered Business Growth in 2026 From Halloween Trick-or-Treating Traditions to the Future of Social Media Marketing, Agentic AI, Finance Automation & Online Entreprensubstack.com",
+      "published_date": "2026-11-01",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 15,
+      "title": "Hire a Freelance WhatsApp Business API, Twilio, Telegram & Slack AI Agent Programmer",
+      "source": "Aldianfazrihady.com",
+      "url": "https://www.aldianfazrihady.com/en-us/blog/a11ce292-0000-4000-8000-000000000292/freelance-whatsapp-business-api-twilio-telegram-discord-ai-bot-programmer/",
+      "summary": "Companies automating customer support, field sales, appointment booking, and internal operations where their users already message daily frequently search to hire a freelance WhatsApp Business API, Twilio, Telegram & Slack AI agent programmer. I am Aldian Faz…",
+      "published_date": "2026-11-01",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
       "title": "framework-py 0.1.0.dev3",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/framework-py/0.1.0.dev3/",
@@ -383,7 +344,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 19,
+      "rank": 17,
       "title": "framework-py 0.1.0.dev1",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/framework-py/0.1.0.dev1/",
@@ -401,20 +362,56 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 20,
-      "title": "framework-py 0.1.0.dev0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/framework-py/0.1.0.dev0/",
-      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
-      "published_date": "2026-10-30",
-      "relevance_score": 7,
+      "rank": 18,
+      "title": "What Happens If Your Healthcare AI Goes Out of Alignment?",
+      "source": "Bradenkelley.com",
+      "url": "https://bradenkelley.com/2026/11/ai-alignment-in-healthcare/",
+      "summary": "GUEST POST from Arlen Meyers It’s pothole season so be careful when you are driving. If you hit a pothole, it might throw your front end out of alignment When your front end is out of alignment, it means the angles of your wheels are no longer set to the manu…",
+      "published_date": "2026-11-01",
+      "relevance_score": 6,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "alignment"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "mindroom 2026.11.46",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/mindroom/2026.11.46/",
+      "summary": "A universal interface for AI agents with persistent memory, where every conversation has a home",
+      "published_date": "2026-11-01",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 20,
+      "title": "thymus-memory added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/thymus-memory/",
+      "summary": "Memory poisoning protection for AI agents that keeps real updates flowing: keep, label and disclose contested claims instead of blocking them.",
+      "published_date": "2026-11-01",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
       ],
       "sentiment": "neutral"
     }
