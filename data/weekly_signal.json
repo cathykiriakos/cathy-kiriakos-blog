@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T19:20:25.635Z",
+  "generated_at": "2026-11-03T16:56:45.853Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -19,7 +19,7 @@
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 2
+      "item_count": 0
     }
   ],
   "institutional_signal": {
@@ -41,11 +41,11 @@
   "items": [
     {
       "rank": 1,
-      "title": "RWJBarnabas Health’s Adamson Says AI Governance Needs Value Gates Before Consumption Pricing Hits",
-      "source": "Healthsystemcio.com",
-      "url": "https://healthsystemcio.com/2026/11/01/ai-value-gates-consumption-pricing/",
-      "summary": "Rob Adamson, EVP and chief information officer at RWJBarnabas Health, discusses how his organization is preparing for AI consumption pricing. He explains the 90-day value test a model must pass to keep its compute, why a volume model priced discharge summariz…",
-      "published_date": "2026-11-01",
+      "title": "The AI Governance Paradox",
+      "source": "Mit.edu",
+      "url": "https://sloanreview.mit.edu/article/the-ai-governance-paradox/",
+      "summary": "Getty Images Operations that run under extreme risk — such as nuclear power plants, aircraft carriers, and air traffic control centers — have long understood that safety depends not just on good technology but on how people exercise judgment under uncertainty…",
+      "published_date": "2026-11-02",
       "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -56,56 +56,55 @@
         "ai governance",
         "governance"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 2,
-      "title": "Human Oversight, Incident Reporting Mandatory: TRAI Proposes Strict AI Rules For Telecom Companies",
-      "source": "Free Press Journal",
-      "url": "https://www.freepressjournal.in/business/human-oversight-incident-reporting-mandatory-trai-proposes-strict-ai-rules-for-telecom-companies",
-      "summary": "The Telecom Regulatory Authority of India has proposed an AI governance framework requiring telecom companies to adopt board-approved policies, classify AI systems by risk and report serious incidents. Operators would remain accountable for third-party AI too…",
-      "published_date": "2026-10-31",
-      "relevance_score": 16,
+      "title": "UAE signs four agreements with OpenAI to advance AI governance",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/uae-signs-four-agreements-with-openai/",
+      "summary": "The UAE's AI agreements with OpenAI could set a global precedent for integrating AI into government and energy sectors, enhancing efficiency and innovation.\nThe post UAE signs four agreements with OpenAI to advance AI governance appeared first on Crypto Brief…",
+      "published_date": "2026-11-02",
+      "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
-        "governance_as_code",
-        "human_centric_design"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
         "ai governance",
-        "governance",
-        "human oversight"
+        "governance"
       ],
-      "sentiment": "negative"
+      "sentiment": "positive"
     },
     {
       "rank": 3,
-      "title": "Scaling smart: How LLM developers are solving multi-agent orchestration bottlenecks",
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/pro/scaling-smart-how-llm-developers-are-solving-multi-agent-orchestration-bottlenecks",
-      "summary": "We explore the challenges developers face with multi-agent orchestration and the strategies they use to overcome them.",
-      "published_date": "2026-11-01",
-      "relevance_score": 16,
-      "primary_pillar": "applied_ai",
+      "title": "voice-ai-governance 0.5.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/voice-ai-governance/0.5.0/",
+      "summary": "Compliance enforcement middleware for voice and SMS AI pipelines: warm transfer state management, TCPA/A2P 10DLC SMS compliance, PII scrubbing, confidence-gated escalation, and HIPAA/FERPA/EU AI Act enforcement for Pipecat, LiveKit, and Twilio deployments.",
+      "published_date": "2026-11-02",
+      "relevance_score": 14,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "orchestration",
-        "multi-agent"
+        "governance",
+        "compliance",
+        "eu ai act"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 4,
-      "title": "webscout-mcp 2.1.0",
+      "title": "algenta-mcp 1.0.43",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/webscout-mcp/2.1.0/",
-      "summary": "Self-healing web access layer for AI Agents: search, fetch, extract, progressive content delivery, provider routing, recovery, browser fallback, caching, and observability over the Model Context Protocol (MCP). Optional Jev shadow evaluator and vector/AI/brow…",
-      "published_date": "2026-11-01",
-      "relevance_score": 15,
+      "url": "https://pypi.org/project/algenta-mcp/1.0.43/",
+      "summary": "Algenta MCP server for Cursor, Codex, and other Model Context Protocol clients. Any MCP-capable agent operates the engine — self-hosted building blocks for AI applications — metered and audited like every other caller.",
+      "published_date": "2026-11-02",
+      "relevance_score": 12,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -113,53 +112,30 @@
       "institutional_signal": false,
       "matched_keywords": [
         "model context protocol",
-        "MCP",
-        "ai agent"
+        "MCP"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 5,
-      "title": "Enterprise AI Agent Security",
-      "source": "Wowebook.org",
-      "url": "https://www.wowebook.org/enterprise-ai-agent-security/",
-      "summary": "eBook Details: Paperback: 310 pages Published: October 21, 2026 Language: English ISBN-10: 1808828658 ISBN-13: 978-1808828652 eBook Description: Enterprise AI Agent Security: A Practical Guide to MCP Security, Prompt Injection Defense, RAG Security, and Agent…",
-      "published_date": "2026-10-31",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
+      "title": "Show HN: Building an AI Traffic Guardrail(kilasec)",
+      "source": "Kilasec.com",
+      "url": "https://kilasec.com",
+      "summary": "Show HN: An AI traffic guardrailBuilding something based on 2 decades of support experience.It's a guardrail for AI traffic where you can apply policies, redact PII and API keys, set model destinations, catch destructive actions before execution, etc.The whol…",
+      "published_date": "2026-11-01",
+      "relevance_score": 12,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent",
-        "RAG"
+        "guardrail"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 6,
-      "title": "piihush 0.2.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/piihush/0.2.0/",
-      "summary": "High-speed PII and secret masking for RAG, AI agents and LLM applications, written in Rust",
-      "published_date": "2026-11-01",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "RAG",
-        "llm application"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
       "title": "'Social Media on Steroids.' Advocates for Children Call for Guardrails Around AI",
       "source": "Time",
       "url": "https://time.com/article/2026/10/30/ai-kids-common-sense-media/",
@@ -177,12 +153,31 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 8,
-      "title": "sengol 2.0.1a32",
+      "rank": 7,
+      "title": "coalex 1.51.3",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/sengol/2.0.1a32/",
+      "url": "https://pypi.org/project/coalex/1.51.3/",
+      "summary": "Coalex Python SDK for AI governance observability",
+      "published_date": "2026-11-02",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "sengol 2.0.1a33",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/sengol/2.0.1a33/",
       "summary": "Sengol AI governance SDK",
-      "published_date": "2026-11-01",
+      "published_date": "2026-11-02",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -197,50 +192,49 @@
     },
     {
       "rank": 9,
-      "title": "sengol 2.0.1a31",
+      "title": "minimalai-mcp 0.17.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/sengol/2.0.1a31/",
-      "summary": "Sengol AI governance SDK",
-      "published_date": "2026-10-31",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "url": "https://pypi.org/project/minimalai-mcp/0.17.0/",
+      "summary": "MCP server for MINIMAL AI: AI agents hire people in Telegram for online tasks or earn TON by doing tasks themselves (held payment, AI-reviewed results), plus Cocoon inference and signed TON oracle verdicts.",
+      "published_date": "2026-11-02",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 10,
-      "title": "eternity-agentshield added to PyPI",
+      "title": "glintscan added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/eternity-agentshield/",
-      "summary": "ETERNITY : AgentShield 2.0 — Enterprise Security Middleware & Guardrails SDK for Autonomous AI Agents",
-      "published_date": "2026-11-01",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "url": "https://pypi.org/project/glintscan/",
+      "summary": "Offline security scanner for AI agent configs, prompts and MCP servers.",
+      "published_date": "2026-11-02",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "guardrail"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 11,
-      "title": "aihydro-tools 2.8.6",
+      "title": "datahub-agent-context 1.7.0.20rc1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/aihydro-tools/2.8.6/",
-      "summary": "AI-Hydro: hydrological research tools as an MCP server for AI agents",
-      "published_date": "2026-11-01",
+      "url": "https://pypi.org/project/datahub-agent-context/1.7.0.20rc1/",
+      "summary": "MCP tools for AI agents to search and query your DataHub metadata catalog — works with Claude, Cursor, Copilot, and any MCP-compatible AI assistant",
+      "published_date": "2026-11-02",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -255,29 +249,11 @@
     },
     {
       "rank": 12,
-      "title": "Agilex 2X FPGA portfolio supports PCIe 7.0 and QuartusIQ AI design tool",
-      "source": "Linuxgizmos.com",
-      "url": "https://linuxgizmos.com/agilex-2x-fpga-portfolio-supports-pcie-7-0-and-quartusiq-ai-design-tool/",
-      "summary": "Agilex 2X is Altera’s latest FPGA and SoC portfolio, consisting of four device families for applications ranging from industrial control to high-performance computing. The first announced family, Agilex 27, incorporates 256Gbps transceivers, PCIe 7.0 support,…",
-      "published_date": "2026-11-01",
-      "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai design"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 13,
-      "title": "AI agents bypassed crypto spending limits without human approval, researchers find in a new test",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/dcd7f1f86b009107",
-      "summary": "Vercel Security Checkpoint\ncle1::1793555071-jnfWi7waOCD10Ty2uk7bEA1YtuGtGVuU",
-      "published_date": "2026-11-01",
+      "title": "Canadian banks blocking AI agents amid security concerns",
+      "source": "MobileSyrup",
+      "url": "https://mobilesyrup.com/2026/11/02/canadian-banks-blocking-ai-agents-security-concerns/",
+      "summary": "Canada’s biggest banks, including RBC, TD, CIBC, and others, are blocking AI agents from accessing online bank accounts over security concerns. The decision comes as major U.S. banks, like Morgan Stanley, Wells Fargo, and others, reportedly detected unauthori…",
+      "published_date": "2026-11-02",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -287,15 +263,15 @@
       "matched_keywords": [
         "ai agent"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "rank": 14,
-      "title": "101 Emerging Impacts: AI-Powered Business Growth in 2026 From Halloween Trick-or-Treating Traditions to the Future of Social Media Marketing, Agentic AI, Finance Automation & Online Entrepren",
-      "source": "Substack.com",
-      "url": "https://drratneshwarprasadsinha.substack.com/p/101-emerging-impacts-ai-powered-business",
-      "summary": "101 Emerging Impacts: AI-Powered Business Growth in 2026 From Halloween Trick-or-Treating Traditions to the Future of Social Media Marketing, Agentic AI, Finance Automation & Online Entreprensubstack.com",
-      "published_date": "2026-11-01",
+      "rank": 13,
+      "title": "Cyberport Venture & Capital Forum 2026: unlocking growth and shaping the agentic economy",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/80f75c93ab86ab39",
+      "summary": "In 2026, venture capital is shifting rapidly as record funding flows into AI, frontier tech, robotics, and digital infrastructure. Coupled with Web3 and tokenised assets across Asia and the Middle East, the emerging ‘agentic economy’ empowers autonomous AI ag…",
+      "published_date": "2026-11-02",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -308,12 +284,12 @@
       "sentiment": "positive"
     },
     {
-      "rank": 15,
-      "title": "Hire a Freelance WhatsApp Business API, Twilio, Telegram & Slack AI Agent Programmer",
-      "source": "Aldianfazrihady.com",
-      "url": "https://www.aldianfazrihady.com/en-us/blog/a11ce292-0000-4000-8000-000000000292/freelance-whatsapp-business-api-twilio-telegram-discord-ai-bot-programmer/",
-      "summary": "Companies automating customer support, field sales, appointment booking, and internal operations where their users already message daily frequently search to hire a freelance WhatsApp Business API, Twilio, Telegram & Slack AI agent programmer. I am Aldian Faz…",
-      "published_date": "2026-11-01",
+      "rank": 14,
+      "title": "Researchers Trick AI Agents Into Transferring User Funds",
+      "source": "pymnts.com",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/researchers-trick-ai-agents-into-transferring-user-funds/",
+      "summary": "Nine out of 10 frontier models tested by researchers at Cornell Tech and Yale University bypassed user-set policies to lift spending caps when they had access to one-time passwords sent to the user’s email, the Initiative for CryptoCurrencies & Contracts (IC3…",
+      "published_date": "2026-11-02",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -326,66 +302,84 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 16,
-      "title": "framework-py 0.1.0.dev3",
+      "rank": 15,
+      "title": "mindroom 2026.11.90",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/framework-py/0.1.0.dev3/",
-      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
-      "published_date": "2026-10-31",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
+      "url": "https://pypi.org/project/mindroom/2026.11.90/",
+      "summary": "A universal interface for AI agents with persistent memory, where every conversation has a home",
+      "published_date": "2026-11-02",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "aweb 1.27.45rc2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/aweb/1.27.45rc2/",
+      "summary": "Agent Web: self-hostable coordination server for AI agents (identity, presence, mail, chat, tasks, locks)",
+      "published_date": "2026-11-02",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "framework-py 0.1.0.dev1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/framework-py/0.1.0.dev1/",
-      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
-      "published_date": "2026-10-31",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
+      "title": "Show HN: Smalt – Talk to Claude Code by voice, hands-free, on your Mac",
+      "source": "Getsmalt.com",
+      "url": "https://getsmalt.com/",
+      "summary": "Work with AI agents naturally, using your voice, wherever you are. Talk to Claude Code, hear it answer, and keep developing away from the keyboard. Free.",
+      "published_date": "2026-11-02",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 18,
-      "title": "What Happens If Your Healthcare AI Goes Out of Alignment?",
-      "source": "Bradenkelley.com",
-      "url": "https://bradenkelley.com/2026/11/ai-alignment-in-healthcare/",
-      "summary": "GUEST POST from Arlen Meyers It’s pothole season so be careful when you are driving. If you hit a pothole, it might throw your front end out of alignment When your front end is out of alignment, it means the angles of your wheels are no longer set to the manu…",
-      "published_date": "2026-11-01",
-      "relevance_score": 6,
+      "title": "Many churches lack AI policies despite widespread support among pastors, study finds",
+      "source": "Christiantoday.com",
+      "url": "https://www.christiantoday.com/news/many-churches-lack-ai-policies-despite-widespread-support-among-pastors-study-finds",
+      "summary": "New research reveals a significant divide between church leaders’ recognition of the need for responsible AI practices and the measures currently in place within their congregations.",
+      "published_date": "2026-11-02",
+      "relevance_score": 5,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "alignment"
+        "responsible ai"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 19,
-      "title": "mindroom 2026.11.46",
+      "title": "osca-engine added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/mindroom/2026.11.46/",
-      "summary": "A universal interface for AI agents with persistent memory, where every conversation has a home",
-      "published_date": "2026-11-01",
+      "url": "https://pypi.org/project/osca-engine/",
+      "summary": "OSCA: Origin, Semantic, and Consequence Authority — A Multi-Tier Authorization Architecture for Autonomous AI Agents",
+      "published_date": "2026-11-02",
       "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -399,19 +393,19 @@
     },
     {
       "rank": 20,
-      "title": "thymus-memory added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/thymus-memory/",
-      "summary": "Memory poisoning protection for AI agents that keeps real updates flowing: keep, label and disclose contested claims instead of blocking them.",
-      "published_date": "2026-11-01",
+      "title": "5 key global market themes investors will watch this week",
+      "source": "Economictimes.com",
+      "url": "https://m.economictimes.com/markets/us-stocks/news/5-key-global-market-themes-investors-will-watch-this-week/us-midterm-elections-take-centre-stage/slideshow/135446004.cms",
+      "summary": "The US midterm elections could reshape the political landscape and influence market sentiment. Democrats are widely expected to win the House of Representatives, while control of the Senate remains uncertain. The outcome could affect AI regulation, fiscal spe…",
+      "published_date": "2026-11-02",
       "relevance_score": 5,
-      "primary_pillar": "applied_ai",
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "ai regulation"
       ],
       "sentiment": "neutral"
     }
