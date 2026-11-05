@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T16:59:51.866Z",
+  "generated_at": "2026-11-05T17:14:33.462Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,13 +7,13 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 12
+      "item_count": 16
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 10
+      "item_count": 6
     },
     {
       "id": "human_centric_design",
@@ -41,52 +41,33 @@
   "items": [
     {
       "rank": 1,
-      "title": "Show HN: Rigorix, Execution governance for AI agents, open-source engine",
-      "source": "Rigorix.eu",
-      "url": "https://rigorix.eu/",
-      "summary": "Execution governance for AI agents, inside an AI governance programme. Rigorix revalidates authority at dispatch and records a signed decision a third party can verify.",
-      "published_date": "2026-11-03",
-      "relevance_score": 19,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 2,
-      "title": "At Its Annual Summit, Everlaw Unveils Omni, Its Agentic AI Suite, But CEO Says Customers Are Even More Excited About Opening Its Platform To Other AI Tools",
-      "source": "Lawnext.com",
-      "url": "https://www.lawnext.com/2026/10/at-its-annual-summit-everlaw-unveils-omni-its-agentic-ai-suite-but-ceo-says-customers-are-even-more-excited-about-opening-its-platform-to-other-ai-tools.html",
-      "summary": "Everlaw charges nothing to use the Model Context Protocol connectors, neither to its users nor to the AI companies that integrate with it.\nThe post At Its Annual Summit, Everlaw Unveils Omni, Its Agentic AI Suite, But CEO Says Customers Are Even More Excited …",
-      "published_date": "2026-11-03",
-      "relevance_score": 14,
+      "title": "Four layers of context engineering for production AI agents: How Deep Insight applies them in working code",
+      "source": "Amazon.com",
+      "url": "https://aws.amazon.com/blogs/machine-learning/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working-code/",
+      "summary": "In production AI agents, context management is the real bottleneck. This post presents a four-layer context engineering framework (architecture, prompts, file-based tools, and verification agents), implemented in working code from Deep Insight, an open source…",
+      "published_date": "2026-11-04",
+      "relevance_score": 30,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol",
-        "agentic"
+        "context engine",
+        "context engineering",
+        "ai agent",
+        "in production"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 3,
-      "title": "kyvvu-engine 1.0.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/kyvvu-engine/1.0.0/",
-      "summary": "Standalone policy evaluation engine for AI governance under the EU AI Act",
-      "published_date": "2026-11-03",
-      "relevance_score": 13,
+      "rank": 2,
+      "title": "Goa to adopt AI governance to disburse government benefits and schemes",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/national/goa-to-adopt-ai-governance-to-disburse-government-benefits-and-schemes/article71666836.ece",
+      "summary": "Goa partners with Modern Data Company to deploy DataOS AI for smarter governance, targeting benefits delivery, education, tourism, and healthcare.",
+      "published_date": "2026-11-04",
+      "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -94,18 +75,94 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai governance",
-        "governance",
-        "eu ai act"
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 3,
+      "title": "agentic-windows-mcp 0.8.15",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/agentic-windows-mcp/0.8.15/",
+      "summary": "Agentic Windows MCP - an MCP server that gives AI agents full, safe control of a Windows PC: desktop automation, remote computer control, browser DevTools inspection, and remote software development.",
+      "published_date": "2026-11-04",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "agentic",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 4,
-      "title": "Cyara Debuts Trust Observability Platform for AI Agents",
-      "source": "CMSWire",
-      "url": "https://www.cmswire.com/contact-center/cyara-debuts-trust-platform-for-ai-agents/",
-      "summary": "New AI Trust Observability layer scores every live AI agent conversation for quality and compliance across any vendor.\nContinue reading...",
-      "published_date": "2026-11-02",
+      "title": "Redis Expands Redis Iris to Give AI Agents the Memory, Context, and Messaging They Need to get to Production",
+      "source": "PR Newswire UK",
+      "url": "https://www.prnewswire.co.uk/news-releases/redis-expands-redis-iris-to-give-ai-agents-the-memory-context-and-messaging-they-need-to-get-to-production-302925456.html",
+      "summary": "SAN FRANCISCO, Nov. 4, 2026 /PRNewswire/ -- Redis today announced the next chapter of Redis Iris, its real-time context engine for AI agents. Redis Iris now offers six customizable capabilities designed to be used together or independently, that give agents t…",
+      "published_date": "2026-11-04",
+      "relevance_score": 13,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "context engine",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 5,
+      "title": "Pliant Raises $80 Million to Open B2B Payments to AI Agents",
+      "source": "pymnts.com",
+      "url": "https://www.pymnts.com/news/investment-tracker/2026/pliant-raises-80-million-to-open-b2b-payments-to-ai-agents/",
+      "summary": "Pliant raised $80 million in a Series C funding round to deepen its B2B payment infrastructure’s capabilities around agentic payments and workflows, the company said in a Wednesday (Nov. 4) press release. The Berlin-headquartered company will also use the new…",
+      "published_date": "2026-11-04",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 6,
+      "title": "Securing the agentic enterprise with data lineage",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to …",
+      "published_date": "2026-11-04",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 7,
+      "title": "BlueFlag Security adds controls for AI agents working under developer identities",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/11/04/blueflag-ai-agent-governance/",
+      "summary": "BlueFlag Security has expanded AI Agent Governance that fully maps the access, behavior and oversight of both approved and shadow AI agents, including options for automated risk remediation. Activated within BlueFlag’s pioneering platform, customers can now g…",
+      "published_date": "2026-11-04",
       "relevance_score": 11,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -115,12 +172,12 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent",
-        "compliance"
+        "governance"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "rank": 5,
+      "rank": 8,
       "title": "'Social Media on Steroids.' Advocates for Children Call for Guardrails Around AI",
       "source": "Time",
       "url": "https://time.com/article/2026/10/30/ai-kids-common-sense-media/",
@@ -138,69 +195,70 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
-      "title": "kmcp added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/kmcp/",
-      "summary": "MCP server exposing Kali Linux penetration-testing tools to AI agents",
-      "published_date": "2026-11-03",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
-      "title": "kmcp 0.1.5.dev0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/kmcp/0.1.5.dev0/",
-      "summary": "MCP server exposing Kali Linux penetration-testing tools to AI agents",
-      "published_date": "2026-11-03",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
-      "title": "pentester-mcp added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/pentester-mcp/",
-      "summary": "Authorization-gated penetration testing MCP server for agentic AI",
-      "published_date": "2026-11-03",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 9,
-      "title": "Build a semantic layer for agentic AI with EDB Postgres AI and Amazon Bedrock AgentCore",
-      "source": "Amazon.com",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-with-edb-postgres-ai-and-amazon-bedrock-agentcore/",
-      "summary": "Learn how to build a governed semantic layer for agentic AI inside EDB Postgres AI and query it from a Strands Agents agent on Amazon Bedrock AgentCore. Business meaning, join paths, and access control all live in Postgres, with GRANT and row-level security e…",
-      "published_date": "2026-11-03",
+      "title": "sengol 2.0.1a35",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/sengol/2.0.1a35/",
+      "summary": "Sengol AI governance SDK",
+      "published_date": "2026-11-04",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "safepay added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/safepay/",
+      "summary": "A payment guardrail between an autonomous AI agent and PayPal: policy, live-web merchant check and intent reasoning before any money moves, with a hash-chained audit log.",
+      "published_date": "2026-11-04",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 11,
+      "title": "brainlayer 1.5.90",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/brainlayer/1.5.90/",
+      "summary": "Persistent local memory for AI agents — 16 BrainBar MCP tools, semantic search, knowledge graph, SQLite",
+      "published_date": "2026-11-04",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 12,
+      "title": "Phaze raises $8.75 million seed round led by a16z to build remote desktops for humans and AI agents",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/phaze-raises-seed-round-a16z-remote-desktop/",
+      "summary": "Phaze's funding highlights a shift towards shared, high-performance computing, potentially transforming remote work and AI collaboration dynamics.\nThe post Phaze raises $8.75 million seed round led by a16z to build remote desktops for humans and AI agents app…",
+      "published_date": "2026-11-04",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -208,17 +266,54 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 10,
-      "title": "sc-imap-mcp 2.2.1",
+      "rank": 13,
+      "title": "Show HN: Renor – one memory for all your AI agents",
+      "source": "Github.com",
+      "url": "https://github.com/renorai/renor-engine",
+      "summary": "Hey guys, I built Renor, one memory for all your agents, we got good results in benchmarks using less tokens.I built this because I was annoyed that my agents kept forgetting what I said and my existing solutions weren't good enough.It works by using a ledger…",
+      "published_date": "2026-11-04",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "New Ecommerce Tools: November 4, 2026",
+      "source": "Practical Ecommerce",
+      "url": "https://www.practicalecommerce.com/new-ecommerce-tools-november-4-2026",
+      "summary": "New services this week include AI agents, agentic commerce, B2B payments, live commerce, programmatic ads, product discovery, multichannel marketing, reviews, loyalty plans, and more.\nThe post New Ecommerce Tools: November 4, 2026 appeared first on Practical …",
+      "published_date": "2026-11-04",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "twelvetake-reaper-mcp 1.10.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/sc-imap-mcp/2.2.1/",
-      "summary": "Security-focused Model Context Protocol server mediating LLM access to IMAP mailboxes under strict, auditable policy.",
-      "published_date": "2026-11-03",
+      "url": "https://pypi.org/project/twelvetake-reaper-mcp/1.10.0/",
+      "summary": "Model Context Protocol server that enables AI assistants to control REAPER for mixing, mastering, MIDI composition and music production.",
+      "published_date": "2026-11-04",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -231,30 +326,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 11,
-      "title": "Designing responsible AI for learning",
-      "source": "Blog.google",
-      "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/",
-      "summary": "We’re bringing Guided Learning capabilities to Search and Google Classroom, and evolving our approach to school controls.",
-      "published_date": "2026-11-03",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "responsible ai"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "Orion Innovation Unveils the Next Generation of OI NEBULA™, Its Suite of Agentic SDLC Platforms",
-      "source": "PR Newswire UK",
-      "url": "https://www.prnewswire.co.uk/news-releases/orion-innovation-unveils-the-next-generation-of-oi-nebula-its-suite-of-agentic-sdlc-platforms-302927109.html",
-      "summary": "Proven with a select group of enterprise clients, the hardened and expanded suite of agentic SDLC platforms is now available ISELIN, N.J., Nov. 3, 2026 /PRNewswire/ -- Orion Innovation (\"Orion\"), a data and AI-enabled software engineering services partner, to…",
-      "published_date": "2026-11-03",
+      "rank": 16,
+      "title": "A New Workspace for Building with WordPress",
+      "source": "Wordpress.com",
+      "url": "https://wordpress.com/blog/2026/11/04/wordpress-studio-workspace/",
+      "summary": "In WordPress Studio, a website starts as a conversation. You describe what you want, and an AI agent builds a first version for you. To change something, just tell the agent what you’d like instead. If you’ve used an agentic coding tool recently, the latest v…",
+      "published_date": "2026-11-04",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -262,36 +339,18 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 13,
-      "title": "China plans investigation into AI applications for financial oversight",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/china-investigate-ai-financial-oversight/",
-      "summary": "China's AI oversight investigation could reshape financial regulation, emphasizing structured governance and impacting global AI practices.\nThe post China plans investigation into AI applications for financial oversight appeared first on Crypto Briefing.",
-      "published_date": "2026-11-03",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "governance",
-        "ai oversight"
+        "agentic",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 14,
-      "title": "Presentation: Beyond the Harness: Canvas for AI Agents",
-      "source": "InfoQ.com",
-      "url": "https://www.infoq.com/presentations/canvas-ai-agents/",
-      "summary": "Nimisha Asthagiri shares how applying proven product engineering and architecture principles creates a bounded canvas for AI agents. She explains how this model provides agents with bounded autonomy, continuous drift detection, and decision records to scale s…",
-      "published_date": "2026-11-03",
+      "rank": 17,
+      "title": "Citrix expands oversight of autonomous browsing and AI agent activity",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/11/04/citrix-ai-governance-capabilities/",
+      "summary": "Citrix has announced new capabilities across Citrix SecurSpaces, Citrix SecurAccess and Citrix Platform Flex designed to help organizations securely deploy AI agents, govern AI-powered work and scale adoption across the enterprise. These updates include an ex…",
+      "published_date": "2026-11-04",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -304,112 +363,58 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 15,
-      "title": "Scaling Agentic AI Globally: Tencent Connects Experience, Engineering, And Ecosystem",
-      "source": "Forrester.com",
-      "url": "https://www.forrester.com/blogs/scaling-agentic-ai-globally-tencent-connects-experience-engineering-and-ecosystem/",
-      "summary": "At last year’s Tencent Cloud International Summit, we described Tencent’s strategy as a tale of two engines: AI as the intelligent engine and globalization as the expansion engine. A year later, those engines remain important, but they are becoming more close…",
-      "published_date": "2026-11-03",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "IBM puts agentic workloads at the heart of its AI operating model",
-      "source": "SiliconANGLE News",
-      "url": "https://siliconangle.com/2026/11/03/ibm-connects-agentic-workloads-demands-always-on-ai-ibmaioperatingmodel/",
-      "summary": "Agentic workloads present a new operating challenge for enterprises putting artificial intelligence into production. As autonomous systems take on ongoing responsibilities, organizations must support decisions and actions across their data, applications and i…",
-      "published_date": "2026-11-03",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 17,
-      "title": "framework-py 0.1.0.dev6",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/framework-py/0.1.0.dev6/",
-      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
-      "published_date": "2026-11-03",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 18,
-      "title": "framework-py 0.1.0.dev5",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/framework-py/0.1.0.dev5/",
-      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
-      "published_date": "2026-11-03",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
+      "title": "As AI agents scale, Thoughtworks Technology Radar highlights the need for stronger controls",
+      "source": "PR Newswire UK",
+      "url": "https://www.prnewswire.co.uk/news-releases/as-ai-agents-scale-thoughtworks-technology-radar-highlights-the-need-for-stronger-controls-302928416.html",
+      "summary": "CHICAGO and LONDON, Nov. 4, 2026 /PRNewswire/ -- Thoughtworks, a global technology consultancy that integrates design, engineering and AI to drive digital innovation, today released volume 35 of its Technology Radar, a biannual report informed by the organisa…",
+      "published_date": "2026-11-04",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "ai agent"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 19,
-      "title": "highflame 0.11.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/highflame/0.11.0/",
-      "summary": "Python SDK for Highflame AI guardrails",
-      "published_date": "2026-11-03",
-      "relevance_score": 7,
+      "title": "The Gordian Knot of AI Alignment",
+      "source": "Common Dreams",
+      "url": "https://www.commondreams.org/opinion/solving-ai-alignment",
+      "summary": "As a psychologist, I have spent many years trying to understand human behavior, never imagining that one day I might also want to try to understand machine behavior.The issue of misaligned AI (i.e., AI not aligned with human values and goals) received conside…",
+      "published_date": "2026-11-04",
+      "relevance_score": 6,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "alignment"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "trusys 0.3.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/trusys/0.3.0/",
-      "summary": "A modular Python library for AI guardrails with input/output scanning capabilities",
-      "published_date": "2026-11-03",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
+      "title": "AI teams agreed on the wrong answer in 75% of debates — and lower token bills hid the failure",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/ai-teams-agreed-on-the-wrong-answer-in-75-of-debates-and-lower-token-bills-hid-the-failure",
+      "summary": "Outshift’s Vijoy Pandey explains why AI agents agree on wrong answers—and why enterprises need coordination beyond shared context and lower token costs.",
+      "published_date": "2026-11-04",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "ai agent"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ]
 }
