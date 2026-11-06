@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T17:14:33.462Z",
+  "generated_at": "2026-11-06T16:42:06.398Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 16
+      "item_count": 11
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 6
+      "item_count": 7
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 0
+      "item_count": 5
     }
   ],
   "institutional_signal": {
@@ -41,32 +41,52 @@
   "items": [
     {
       "rank": 1,
-      "title": "Four layers of context engineering for production AI agents: How Deep Insight applies them in working code",
-      "source": "Amazon.com",
-      "url": "https://aws.amazon.com/blogs/machine-learning/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working-code/",
-      "summary": "In production AI agents, context management is the real bottleneck. This post presents a four-layer context engineering framework (architecture, prompts, file-based tools, and verification agents), implemented in working code from Deep Insight, an open source…",
-      "published_date": "2026-11-04",
-      "relevance_score": 30,
+      "title": "Cyberhaven launches Agentic Data Security to track and control AI data use",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/11/05/cyberhaven-agentic-data-security/",
+      "summary": "Cyberhaven has introduced Agentic Data Security (ADS), to help CISOs, data security teams, insider risk teams, and AI governance leaders say yes to AI agents without losing control of their data. Agentic Data Security shows security teams what every AI agent …",
+      "published_date": "2026-11-05",
+      "relevance_score": 19,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "context engine",
-        "context engineering",
+        "agentic",
         "ai agent",
-        "in production"
+        "ai governance",
+        "governance"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 2,
-      "title": "Goa to adopt AI governance to disburse government benefits and schemes",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/news/national/goa-to-adopt-ai-governance-to-disburse-government-benefits-and-schemes/article71666836.ece",
-      "summary": "Goa partners with Modern Data Company to deploy DataOS AI for smarter governance, targeting benefits delivery, education, tourism, and healthcare.",
-      "published_date": "2026-11-04",
+      "title": "Cyber Resilience Starts with AI Governance",
+      "source": "Fortinet.com",
+      "url": "https://www.fortinet.com/blog/industry-trends/cyber-resilience-starts-with-ai-governance",
+      "summary": "Learn why organizations can't build cyber resilience if leadership doesn't understand AI risk.…",
+      "published_date": "2026-11-05",
+      "relevance_score": 18,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 3,
+      "title": "Companies are spending more on AI governance and getting less control",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/11/05/dnsfilter-shadow-ai-cost-report/",
+      "summary": "Companies are increasing their cybersecurity budgets, with AI security and governance the top priority for additional spending, followed by cloud security, according to DNSFilter’s The Cost of Shadow AI report. Some 74.5% of respondents reported a larger cybe…",
+      "published_date": "2026-11-05",
       "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -80,12 +100,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 3,
-      "title": "agentic-windows-mcp 0.8.15",
+      "rank": 4,
+      "title": "hexastack-mcp 0.11.2",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/agentic-windows-mcp/0.8.15/",
-      "summary": "Agentic Windows MCP - an MCP server that gives AI agents full, safe control of a Windows PC: desktop automation, remote computer control, browser DevTools inspection, and remote software development.",
-      "published_date": "2026-11-04",
+      "url": "https://pypi.org/project/hexastack-mcp/0.11.2/",
+      "summary": "Model Context Protocol (MCP) adapter and AI agent tool integration for Hexastack",
+      "published_date": "2026-11-05",
       "relevance_score": 15,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -93,153 +113,115 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "model context protocol",
         "MCP",
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 4,
-      "title": "Redis Expands Redis Iris to Give AI Agents the Memory, Context, and Messaging They Need to get to Production",
-      "source": "PR Newswire UK",
-      "url": "https://www.prnewswire.co.uk/news-releases/redis-expands-redis-iris-to-give-ai-agents-the-memory-context-and-messaging-they-need-to-get-to-production-302925456.html",
-      "summary": "SAN FRANCISCO, Nov. 4, 2026 /PRNewswire/ -- Redis today announced the next chapter of Redis Iris, its real-time context engine for AI agents. Redis Iris now offers six customizable capabilities designed to be used together or independently, that give agents t…",
-      "published_date": "2026-11-04",
-      "relevance_score": 13,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "context engine",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 5,
-      "title": "Pliant Raises $80 Million to Open B2B Payments to AI Agents",
-      "source": "pymnts.com",
-      "url": "https://www.pymnts.com/news/investment-tracker/2026/pliant-raises-80-million-to-open-b2b-payments-to-ai-agents/",
-      "summary": "Pliant raised $80 million in a Series C funding round to deepen its B2B payment infrastructure’s capabilities around agentic payments and workflows, the company said in a Wednesday (Nov. 4) press release. The Berlin-headquartered company will also use the new…",
-      "published_date": "2026-11-04",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
+      "title": "AI Safety for Business: Why Human Oversight Is the Real Protection",
+      "source": "Ibtimes.com.au",
+      "url": "https://www.ibtimes.com.au/ai-accountability-named-human-responsibility-1877992",
+      "summary": "AI tools are making customer and business decisions, but companies must define their authority, monitor their behaviour and ensure a named person can review and reverse serious mistakes.",
+      "published_date": "2026-11-05",
+      "relevance_score": 14,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code",
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
-        "ai agent"
+        "ai safety",
+        "human oversight"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 6,
-      "title": "Securing the agentic enterprise with data lineage",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
-      "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to …",
+      "title": "Show HN: BrowserForge – AI agents use your real browser, you approve the clicks",
+      "source": "Github.com",
+      "url": "https://github.com/zoghlamimostafa/BrowserForge-MCP",
+      "summary": "Give AI agents a real Chrome/Firefox browser through MCP. Human-approved automation, API reverse engineering, OpenAPI generation and reusable workflows. Local-first. - zoghlamimostafa/BrowserForge-MCP",
       "published_date": "2026-11-04",
-      "relevance_score": 11,
+      "relevance_score": 12,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 7,
-      "title": "BlueFlag Security adds controls for AI agents working under developer identities",
-      "source": "Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/11/04/blueflag-ai-agent-governance/",
-      "summary": "BlueFlag Security has expanded AI Agent Governance that fully maps the access, behavior and oversight of both approved and shadow AI agents, including options for automated risk remediation. Activated within BlueFlag’s pioneering platform, customers can now g…",
-      "published_date": "2026-11-04",
+      "title": "m8tes 4.50.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/m8tes/4.50.0/",
+      "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
+      "published_date": "2026-11-05",
       "relevance_score": 11,
-      "primary_pillar": "applied_ai",
+      "primary_pillar": "human_centric_design",
       "pillars": [
         "applied_ai",
-        "governance_as_code"
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent",
-        "governance"
+        "human-in-the-loop"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 8,
-      "title": "'Social Media on Steroids.' Advocates for Children Call for Guardrails Around AI",
-      "source": "Time",
-      "url": "https://time.com/article/2026/10/30/ai-kids-common-sense-media/",
-      "summary": "\"It's basically social media on steroids.”",
-      "published_date": "2026-10-30",
-      "relevance_score": 11,
-      "primary_pillar": "governance_as_code",
+      "title": "Design by numbers: is AI ruining UX or just pouring gasoline on the fire?",
+      "source": "Uxdesign.cc",
+      "url": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422",
+      "summary": "Everyone seems to be asking whether AI will replace UX designers. I think that’s the wrong question.",
+      "published_date": "2026-11-05",
+      "relevance_score": 10,
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "governance_as_code"
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "UX"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 9,
-      "title": "sengol 2.0.1a35",
+      "title": "swaphunt-mcp 0.4.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/sengol/2.0.1a35/",
-      "summary": "Sengol AI governance SDK",
-      "published_date": "2026-11-04",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "url": "https://pypi.org/project/swaphunt-mcp/0.4.1/",
+      "summary": "MCP server with 30 SwapHunt crypto market tools for AI agents (Hyperliquid prices, regime, volatility, funding, coin strength, anti-FOMO sanity checks; Fear & Greed), paid per call in USDC via x402",
+      "published_date": "2026-11-05",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "MCP",
+        "ai agent"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 10,
-      "title": "safepay added to PyPI",
+      "title": "agentcourier 2.1.2",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/safepay/",
-      "summary": "A payment guardrail between an autonomous AI agent and PayPal: policy, live-web merchant check and intent reasoning before any money moves, with a hash-chained audit log.",
-      "published_date": "2026-11-04",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
-      "title": "brainlayer 1.5.90",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/brainlayer/1.5.90/",
-      "summary": "Persistent local memory for AI agents — 16 BrainBar MCP tools, semantic search, knowledge graph, SQLite",
-      "published_date": "2026-11-04",
+      "url": "https://pypi.org/project/agentcourier/2.1.2/",
+      "summary": "Let AI agents talk to each other across machines: MCP server for encrypted agent-to-agent messages and files between Claude Code, Codex, GitHub Copilot and other MCP clients",
+      "published_date": "2026-11-05",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -253,12 +235,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 12,
-      "title": "Phaze raises $8.75 million seed round led by a16z to build remote desktops for humans and AI agents",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/phaze-raises-seed-round-a16z-remote-desktop/",
-      "summary": "Phaze's funding highlights a shift towards shared, high-performance computing, potentially transforming remote work and AI collaboration dynamics.\nThe post Phaze raises $8.75 million seed round led by a16z to build remote desktops for humans and AI agents app…",
-      "published_date": "2026-11-04",
+      "rank": 11,
+      "title": "Oracle wants to pull stalled AI agents out of demo mode and into production",
+      "source": "SiliconANGLE News",
+      "url": "https://siliconangle.com/2026/11/05/ai-architecture-gaps-keep-agents-demo-mode-oracleaiworld/",
+      "summary": "Companies want AI agents faster than they can build the AI architecture to run them. Most can put together a convincing demo. Far fewer can move agents into production without exposing data, hurting uptime or blowing their budgets. That gap is pushing databas…",
+      "published_date": "2026-11-05",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -271,12 +253,30 @@
       "sentiment": "neutral"
     },
     {
+      "rank": 12,
+      "title": "What is RAG in AI? A plain-English guide for marketers",
+      "source": "Hubspot.com",
+      "url": "https://blog.hubspot.com/marketing/rag-in-ai",
+      "summary": "More of your audience now gets answers from AI instead of a list of links. So when someone asks an assistant about your category, the response draws on sources you may never even see, and your brand either shows up in it — or doesn’t.",
+      "published_date": "2026-11-05",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "RAG"
+      ],
+      "sentiment": "neutral"
+    },
+    {
       "rank": 13,
-      "title": "Show HN: Renor – one memory for all your AI agents",
-      "source": "Github.com",
-      "url": "https://github.com/renorai/renor-engine",
-      "summary": "Hey guys, I built Renor, one memory for all your agents, we got good results in benchmarks using less tokens.I built this because I was annoyed that my agents kept forgetting what I said and my existing solutions weren't good enough.It works by using a ledger…",
-      "published_date": "2026-11-04",
+      "title": "E2B, Which Gives AI Agents Their Own Cloud Computers, Passes $120 Million in Annual Recurring Revenue With 100% Inbound",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/9ce0bf378a737526",
+      "summary": "The San Francisco company runs secure, isolated computers where AI agents write code, browse the web, and finish tasks for businesses.\n- Ninety-four of the Fortune 100 have signed up\n- Manus found E2B organically and scaled with no sales calls or demos\n- AI a…",
+      "published_date": "2026-11-05",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -290,11 +290,11 @@
     },
     {
       "rank": 14,
-      "title": "New Ecommerce Tools: November 4, 2026",
-      "source": "Practical Ecommerce",
-      "url": "https://www.practicalecommerce.com/new-ecommerce-tools-november-4-2026",
-      "summary": "New services this week include AI agents, agentic commerce, B2B payments, live commerce, programmatic ads, product discovery, multichannel marketing, reviews, loyalty plans, and more.\nThe post New Ecommerce Tools: November 4, 2026 appeared first on Practical …",
-      "published_date": "2026-11-04",
+      "title": "Genesys Scales Forward-Deployed Engineers to Speed Agentic CX",
+      "source": "CMSWire",
+      "url": "https://www.cmswire.com/contact-center/genesys-scales-forwarddeployed-engineers-to-speed-agentic-cx/",
+      "summary": "The expanded program embeds Genesys engineers inside customer environments to move agentic AI use cases from pilot into production.\nContinue reading...",
+      "published_date": "2026-11-05",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -302,18 +302,17 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
-        "ai agent"
+        "agentic"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 15,
-      "title": "twelvetake-reaper-mcp 1.10.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/twelvetake-reaper-mcp/1.10.0/",
-      "summary": "Model Context Protocol server that enables AI assistants to control REAPER for mixing, mastering, MIDI composition and music production.",
-      "published_date": "2026-11-04",
+      "title": "Expedia CEO says AI agents aren't changing booking habits — yet",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/824a1264b7fa00b6",
+      "summary": "Expedia CEO Ariane Gorin told CNBC that AI agents present an exciting time for the travel industry but that they haven't yet impacted bookings.",
+      "published_date": "2026-11-05",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -321,100 +320,99 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 16,
-      "title": "A New Workspace for Building with WordPress",
-      "source": "Wordpress.com",
-      "url": "https://wordpress.com/blog/2026/11/04/wordpress-studio-workspace/",
-      "summary": "In WordPress Studio, a website starts as a conversation. You describe what you want, and an AI agent builds a first version for you. To change something, just tell the agent what you’d like instead. If you’ve used an agentic coding tool recently, the latest v…",
-      "published_date": "2026-11-04",
+      "title": "AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8%",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/858e51bcd2631cda",
+      "summary": "The post AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8% appeared first on 24/7 Wall St..\nPolitical risk is outweighing strong earnings across the AI chip trade, and Advanced Micro Devices (NASDAQ:AMD) is taking the ha…",
+      "published_date": "2026-11-05",
       "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "Citrix expands oversight of autonomous browsing and AI agent activity",
-      "source": "Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/11/04/citrix-ai-governance-capabilities/",
-      "summary": "Citrix has announced new capabilities across Citrix SecurSpaces, Citrix SecurAccess and Citrix Platform Flex designed to help organizations securely deploy AI agents, govern AI-powered work and scale adoption across the enterprise. These updates include an ex…",
-      "published_date": "2026-11-04",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "As AI agents scale, Thoughtworks Technology Radar highlights the need for stronger controls",
-      "source": "PR Newswire UK",
-      "url": "https://www.prnewswire.co.uk/news-releases/as-ai-agents-scale-thoughtworks-technology-radar-highlights-the-need-for-stronger-controls-302928416.html",
-      "summary": "CHICAGO and LONDON, Nov. 4, 2026 /PRNewswire/ -- Thoughtworks, a global technology consultancy that integrates design, engineering and AI to drive digital innovation, today released volume 35 of its Technology Radar, a biannual report informed by the organisa…",
-      "published_date": "2026-11-04",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 19,
-      "title": "The Gordian Knot of AI Alignment",
-      "source": "Common Dreams",
-      "url": "https://www.commondreams.org/opinion/solving-ai-alignment",
-      "summary": "As a psychologist, I have spent many years trying to understand human behavior, never imagining that one day I might also want to try to understand machine behavior.The issue of misaligned AI (i.e., AI not aligned with human values and goals) received conside…",
-      "published_date": "2026-11-04",
-      "relevance_score": 6,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "alignment"
+        "ai regulation"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 17,
+      "title": "SPCX CEO Elon Musk Fires Back at Democrats' AI Regulation Push After Midterm Rout: ‘It's a Brave New World’ -…",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/05cbddf7cb77498b",
+      "summary": "Elon Musk mocked Democrats’ calls to regulate AI and ban superintelligence, invoking “Brave New World” after GOP midterm setbacks.",
+      "published_date": "2026-11-05",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai regulation"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "Democratic midterm win raises AI regulation concerns, impacts stock prices",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/democratic-midterm-win-raises-ai-regulation-concerns-impacts-stock-prices/",
+      "summary": "Democratic control may lead to stricter AI regulations, affecting market dynamics, yet long-term investment opportunities in AI remain viable.\nThe post Democratic midterm win raises AI regulation concerns, impacts stock prices appeared first on Crypto Briefin…",
+      "published_date": "2026-11-05",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai regulation"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 19,
+      "title": "extralit-server 0.8.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/extralit-server/0.8.0/",
+      "summary": "Open-source tool for accurate & fast scientific literature data extraction with LLM and human-in-the-loop.",
+      "published_date": "2026-11-05",
+      "relevance_score": 8,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "human-in-the-loop"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "AI teams agreed on the wrong answer in 75% of debates — and lower token bills hid the failure",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/orchestration/ai-teams-agreed-on-the-wrong-answer-in-75-of-debates-and-lower-token-bills-hid-the-failure",
-      "summary": "Outshift’s Vijoy Pandey explains why AI agents agree on wrong answers—and why enterprises need coordination beyond shared context and lower token costs.",
-      "published_date": "2026-11-04",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
+      "title": "extralit 0.8.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/extralit/0.8.0/",
+      "summary": "Open-source tool for accurate & fast scientific literature data extraction with LLM and human-in-the-loop.",
+      "published_date": "2026-11-05",
+      "relevance_score": 8,
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "applied_ai"
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "human-in-the-loop"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ]
 }
