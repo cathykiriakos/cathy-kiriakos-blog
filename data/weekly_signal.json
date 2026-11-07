@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T16:42:06.398Z",
+  "generated_at": "2026-11-07T15:34:35.711Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 11
+      "item_count": 18
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 7
+      "item_count": 3
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 5
+      "item_count": 0
     }
   ],
   "institutional_signal": {
@@ -36,17 +36,37 @@
       "polsky center",
       "mecha-nudges"
     ],
-    "item_count": 0
+    "item_count": 1
   },
   "items": [
     {
       "rank": 1,
-      "title": "Cyberhaven launches Agentic Data Security to track and control AI data use",
-      "source": "Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/11/05/cyberhaven-agentic-data-security/",
-      "summary": "Cyberhaven has introduced Agentic Data Security (ADS), to help CISOs, data security teams, insider risk teams, and AI governance leaders say yes to AI agents without losing control of their data. Agentic Data Security shows security teams what every AI agent …",
-      "published_date": "2026-11-05",
-      "relevance_score": 19,
+      "title": "Show HN: Agentic Identity Broker, OAuth Delegation for AI Agents",
+      "source": "Github.com",
+      "url": "https://github.com/zalando-incubator/agentic-identity-broker",
+      "summary": "Hi HN, I’m Jan. I am co-author of the Agentic Identity Broker (AIB), an MIT-licensed OAuth2 broker in the Zalando Incubator, that lets a user give an AI agent scoped, revocable access to MCP services.The broker solves three major challenges that are especiall…",
+      "published_date": "2026-11-06",
+      "relevance_score": 18,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 2,
+      "title": "GitLab 19.5 Makes Agentic Development a Governed Part of the DevOps Platform",
+      "source": "InfoQ.com",
+      "url": "https://www.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/",
+      "summary": "GitLab 19.5, released on October 15, puts agentic software development and governance at the centre of the platform, making its GitLab MCP server generally available while expanding how external AI agents can interact with GitLab. By Craig Risi",
+      "published_date": "2026-11-06",
+      "relevance_score": 18,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai",
@@ -54,98 +74,20 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
         "agentic",
         "ai agent",
-        "ai governance",
         "governance"
       ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 2,
-      "title": "Cyber Resilience Starts with AI Governance",
-      "source": "Fortinet.com",
-      "url": "https://www.fortinet.com/blog/industry-trends/cyber-resilience-starts-with-ai-governance",
-      "summary": "Learn why organizations can't build cyber resilience if leadership doesn't understand AI risk.…",
-      "published_date": "2026-11-05",
-      "relevance_score": 18,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 3,
-      "title": "Companies are spending more on AI governance and getting less control",
-      "source": "Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/11/05/dnsfilter-shadow-ai-cost-report/",
-      "summary": "Companies are increasing their cybersecurity budgets, with AI security and governance the top priority for additional spending, followed by cloud security, according to DNSFilter’s The Cost of Shadow AI report. Some 74.5% of respondents reported a larger cybe…",
-      "published_date": "2026-11-05",
-      "relevance_score": 18,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 4,
-      "title": "hexastack-mcp 0.11.2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/hexastack-mcp/0.11.2/",
-      "summary": "Model Context Protocol (MCP) adapter and AI agent tool integration for Hexastack",
-      "published_date": "2026-11-05",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "model context protocol",
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 5,
-      "title": "AI Safety for Business: Why Human Oversight Is the Real Protection",
-      "source": "Ibtimes.com.au",
-      "url": "https://www.ibtimes.com.au/ai-accountability-named-human-responsibility-1877992",
-      "summary": "AI tools are making customer and business decisions, but companies must define their authority, monitor their behaviour and ensure a named person can review and reverse serious mistakes.",
-      "published_date": "2026-11-05",
-      "relevance_score": 14,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai safety",
-        "human oversight"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 6,
-      "title": "Show HN: BrowserForge – AI agents use your real browser, you approve the clicks",
-      "source": "Github.com",
-      "url": "https://github.com/zoghlamimostafa/BrowserForge-MCP",
-      "summary": "Give AI agents a real Chrome/Firefox browser through MCP. Human-approved automation, API reverse engineering, OpenAPI generation and reusable workflows. Local-first. - zoghlamimostafa/BrowserForge-MCP",
-      "published_date": "2026-11-04",
+      "title": "How to Give Your AI Agent Memory",
+      "source": "Kdnuggets.com",
+      "url": "https://www.kdnuggets.com/how-to-give-your-ai-agent-memory",
+      "summary": "Learn how to give AI agents long-term memory using the OpenAI Agents SDK, Mem0, and MCP to remember preferences, context, and important information across sessions.",
+      "published_date": "2026-11-06",
       "relevance_score": 12,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -159,51 +101,32 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 7,
-      "title": "m8tes 4.50.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/m8tes/4.50.0/",
-      "summary": "Python SDK for building autonomous AI agents with 150+ integrations, hosted execution, schedules, and human-in-the-loop",
-      "published_date": "2026-11-05",
-      "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
+      "rank": 4,
+      "title": "Show HN: EasyRunCraft – An office and creative suite for your AI agent",
+      "source": "Easyruncraft.com",
+      "url": "https://easyruncraft.com/",
+      "summary": "Use 13 open-source office and creative editors online for documents, spreadsheets, design, media, and CAD. Work with AI Agents or connect your own Agent via MCP.",
+      "published_date": "2026-11-06",
+      "relevance_score": 12,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "human-in-the-loop"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 8,
-      "title": "Design by numbers: is AI ruining UX or just pouring gasoline on the fire?",
-      "source": "Uxdesign.cc",
-      "url": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422",
-      "summary": "Everyone seems to be asking whether AI will replace UX designers. I think that’s the wrong question.",
+      "rank": 5,
+      "title": "Show HN: Replay three AI agent approval failures in five seconds, in Python",
+      "source": "Github.com",
+      "url": "https://github.com/salahmakboul/call4agents",
+      "summary": "Stop AI agents repeating actions after a crash: approved tool calls run at most once. Python, no dependencies. Works with LangGraph, Pydantic AI, the OpenAI Agents SDK, MCP and plain Python. - sala...",
       "published_date": "2026-11-05",
-      "relevance_score": 10,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "UX"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "swaphunt-mcp 0.4.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/swaphunt-mcp/0.4.1/",
-      "summary": "MCP server with 30 SwapHunt crypto market tools for AI agents (Hyperliquid prices, regime, volatility, funding, coin strength, anti-FOMO sanity checks; Fear & Greed), paid per call in USDC via x402",
-      "published_date": "2026-11-05",
-      "relevance_score": 9,
+      "relevance_score": 12,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -216,12 +139,88 @@
       "sentiment": "negative"
     },
     {
-      "rank": 10,
-      "title": "agentcourier 2.1.2",
+      "rank": 6,
+      "title": "rishi-ai-mcp 1.4.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/agentcourier/2.1.2/",
-      "summary": "Let AI agents talk to each other across machines: MCP server for encrypted agent-to-agent messages and files between Claude Code, Codex, GitHub Copilot and other MCP clients",
-      "published_date": "2026-11-05",
+      "url": "https://pypi.org/project/rishi-ai-mcp/1.4.0/",
+      "summary": "Bring the profound wisdom of Vedic Astrology to your AI agents via the Model Context Protocol.",
+      "published_date": "2026-11-06",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 7,
+      "title": "Schellman flags critical gaps in White House AI oversight accord",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/schellman-white-house-ai-accord-gaps/",
+      "summary": "The lack of defined independent auditors in AI oversight could lead to inconsistent governance, placing the onus on stakeholders to ensure accountability.\nThe post Schellman flags critical gaps in White House AI oversight accord appeared first on Crypto Brief…",
+      "published_date": "2026-11-06",
+      "relevance_score": 11,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "governance",
+        "ai oversight"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "Rogue AI tasked with renumbering pages accidentally deletes law professor's entire syllabus, one year of lecture notes",
+      "source": "Slashdot.org",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186615620",
+      "summary": "A University of Chicago lecturer has revealed a rogue Claude AI agent deleted his entire syllabus and year's worth of lecture notes by mistake.",
+      "published_date": "2026-11-06",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": true,
+      "matched_keywords": [
+        "ai agent",
+        "university of chicago"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 9,
+      "title": "sengol 2.0.1a37",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/sengol/2.0.1a37/",
+      "summary": "Sengol AI governance SDK",
+      "published_date": "2026-11-06",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "archivebox-api 2.6.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/archivebox-api/2.6.0/",
+      "summary": "Pythonic ArchiveBox API Wrapper and Fast MCP Server for Agentic AI use!",
+      "published_date": "2026-11-06",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -230,187 +229,192 @@
       "institutional_signal": false,
       "matched_keywords": [
         "MCP",
-        "ai agent"
+        "agentic"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 11,
-      "title": "Oracle wants to pull stalled AI agents out of demo mode and into production",
-      "source": "SiliconANGLE News",
-      "url": "https://siliconangle.com/2026/11/05/ai-architecture-gaps-keep-agents-demo-mode-oracleaiworld/",
-      "summary": "Companies want AI agents faster than they can build the AI architecture to run them. Most can put together a convincing demo. Far fewer can move agents into production without exposing data, hurting uptime or blowing their budgets. That gap is pushing databas…",
-      "published_date": "2026-11-05",
-      "relevance_score": 8,
+      "title": "openinvest 0.68.3",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/openinvest/0.68.3/",
+      "summary": "Investment runtime built for AI agents — 4-role LLM investment committee, portfolio ledger, decision accounting, MCP server",
+      "published_date": "2026-11-06",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "What is RAG in AI? A plain-English guide for marketers",
-      "source": "Hubspot.com",
-      "url": "https://blog.hubspot.com/marketing/rag-in-ai",
-      "summary": "More of your audience now gets answers from AI instead of a list of links. So when someone asks an assistant about your category, the response draws on sources you may never even see, and your brand either shows up in it — or doesn’t.",
-      "published_date": "2026-11-05",
-      "relevance_score": 8,
+      "title": "trimtok 5.7.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/trimtok/5.7.0/",
+      "summary": "Deterministic, lossless-retrievable context compression for autonomous AI agents and MCP clients",
+      "published_date": "2026-11-06",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "RAG"
+        "MCP",
+        "ai agent"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 13,
-      "title": "E2B, Which Gives AI Agents Their Own Cloud Computers, Passes $120 Million in Annual Recurring Revenue With 100% Inbound",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/9ce0bf378a737526",
-      "summary": "The San Francisco company runs secure, isolated computers where AI agents write code, browse the web, and finish tasks for businesses.\n- Ninety-four of the Fortune 100 have signed up\n- Manus found E2B organically and scaled with no sales calls or demos\n- AI a…",
-      "published_date": "2026-11-05",
-      "relevance_score": 8,
+      "title": "objectstore-mcp 2.5.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/objectstore-mcp/2.5.0/",
+      "summary": "Object storage (S3/MinIO/R2, Google Cloud Storage, Azure Blob, local filesystem) API + MCP Server for Agentic AI!",
+      "published_date": "2026-11-06",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "Genesys Scales Forward-Deployed Engineers to Speed Agentic CX",
-      "source": "CMSWire",
-      "url": "https://www.cmswire.com/contact-center/genesys-scales-forwarddeployed-engineers-to-speed-agentic-cx/",
-      "summary": "The expanded program embeds Genesys engineers inside customer environments to move agentic AI use cases from pilot into production.\nContinue reading...",
-      "published_date": "2026-11-05",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
+        "MCP",
         "agentic"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 15,
-      "title": "Expedia CEO says AI agents aren't changing booking habits — yet",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/824a1264b7fa00b6",
-      "summary": "Expedia CEO Ariane Gorin told CNBC that AI agents present an exciting time for the travel industry but that they haven't yet impacted bookings.",
-      "published_date": "2026-11-05",
-      "relevance_score": 8,
+      "rank": 14,
+      "title": "repoward 0.2.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/repoward/0.2.0/",
+      "summary": "A GitHub MCP server that stops AI agents leaking private code when a malicious issue tells them to.",
+      "published_date": "2026-11-06",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "codebase-brain-mcp added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/codebase-brain-mcp/",
+      "summary": "An MCP server that gives AI agents a cited, searchable memory of a codebase.",
+      "published_date": "2026-11-06",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 16,
-      "title": "AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8%",
+      "title": "I watched AI recreate a childhood video game in 5 seconds. It showed me what's next for AI agents",
       "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/858e51bcd2631cda",
-      "summary": "The post AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8% appeared first on 24/7 Wall St..\nPolitical risk is outweighing strong earnings across the AI chip trade, and Advanced Micro Devices (NASDAQ:AMD) is taking the ha…",
-      "published_date": "2026-11-05",
+      "url": "https://biztoc.com/x/cec26c3806df3de9",
+      "summary": "The Fireworks AI conference in San Francisco\nAlistair Barr/Business Insider\nA version of this story originally appeared in the AI Insider newsletter.\nSign up for Business Insider's weekly AI Insider newsletter here.\nI attended the Fireworks AI conference in S…",
+      "published_date": "2026-11-06",
       "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai regulation"
+        "ai agent"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "SPCX CEO Elon Musk Fires Back at Democrats' AI Regulation Push After Midterm Rout: ‘It's a Brave New World’ -…",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/05cbddf7cb77498b",
-      "summary": "Elon Musk mocked Democrats’ calls to regulate AI and ban superintelligence, invoking “Brave New World” after GOP midterm setbacks.",
-      "published_date": "2026-11-05",
+      "title": "Railway Engineer Admits Running AI Agents Against Rival Cloud Platform",
+      "source": "HackRead",
+      "url": "https://hackread.com/railway-engineer-run-ai-agents-rival-cloud-platform/",
+      "summary": "A Railway engineer admitted testing AI agents on Primcloud, whose founder says they sought customer secrets and scanned its network. No data was lost.",
+      "published_date": "2026-11-06",
       "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai regulation"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 18,
-      "title": "Democratic midterm win raises AI regulation concerns, impacts stock prices",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/democratic-midterm-win-raises-ai-regulation-concerns-impacts-stock-prices/",
-      "summary": "Democratic control may lead to stricter AI regulations, affecting market dynamics, yet long-term investment opportunities in AI remain viable.\nThe post Democratic midterm win raises AI regulation concerns, impacts stock prices appeared first on Crypto Briefin…",
-      "published_date": "2026-11-05",
+      "title": "I watched AI recreate a childhood video game in 5 seconds. It showed me what's next for AI agents.",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/fireworks-ai-asteroids-demo-faster-agents-2026-11#article",
+      "summary": "A Fireworks AI demo recreated Asteroids in about five seconds and upgraded it in 15, showing how faster models could make AI agents more useful.",
+      "published_date": "2026-11-06",
       "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai regulation"
+        "ai agent"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 19,
-      "title": "extralit-server 0.8.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/extralit-server/0.8.0/",
-      "summary": "Open-source tool for accurate & fast scientific literature data extraction with LLM and human-in-the-loop.",
-      "published_date": "2026-11-05",
+      "title": "Show HN: Current – Change control for AI agents (Elixir)",
+      "source": "Github.com",
+      "url": "https://github.com/santosh79/current",
+      "summary": "Article URL: https://github.com/santosh79/current\nComments URL: https://news.ycombinator.com/item?id=50393255\nPoints: 2\n# Comments: 0",
+      "published_date": "2026-11-06",
       "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "human-in-the-loop"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "extralit 0.8.0",
+      "title": "opik-mcp 3.0.9",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/extralit/0.8.0/",
-      "summary": "Open-source tool for accurate & fast scientific literature data extraction with LLM and human-in-the-loop.",
-      "published_date": "2026-11-05",
+      "url": "https://pypi.org/project/opik-mcp/3.0.9/",
+      "summary": "Model Context Protocol server for Opik (Comet's LLM observability platform).",
+      "published_date": "2026-11-06",
       "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "human-in-the-loop"
+        "model context protocol"
       ],
       "sentiment": "neutral"
     }
