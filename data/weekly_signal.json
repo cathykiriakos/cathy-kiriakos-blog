@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T15:54:54.008Z",
+  "generated_at": "2026-11-08T18:11:26.055Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,13 +7,13 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 16
+      "item_count": 18
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 3
+      "item_count": 4
     },
     {
       "id": "human_centric_design",
@@ -36,7 +36,7 @@
       "polsky center",
       "mecha-nudges"
     ],
-    "item_count": 3
+    "item_count": 2
   },
   "items": [
     {
@@ -83,6 +83,46 @@
     },
     {
       "rank": 3,
+      "title": "luiccian-autocad-mcp 2.4.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/luiccian-autocad-mcp/2.4.0/",
+      "summary": "Model Context Protocol (MCP) server connecting Autodesk AutoCAD 2027 and Civil 3D with AI agents (Claude, Antigravity, Cursor) via AutoCAD AI Gateway.",
+      "published_date": "2026-11-07",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 4,
+      "title": "agentic-windows-mcp 0.9.5",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/agentic-windows-mcp/0.9.5/",
+      "summary": "Agentic Windows MCP - an MCP server that gives AI agents full, safe control of a Windows PC: desktop automation, remote computer control, browser DevTools inspection, and remote software development.",
+      "published_date": "2026-11-07",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 5,
       "title": "Show HN: AJX – Find out where AI agents get stuck using your product",
       "source": "Ajx.dev",
       "url": "https://ajx.dev/",
@@ -103,7 +143,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "Who is Angan Guha? Ex-Wipro and Chicago Booth biz leader now CEO for Americas 2 Strategic Market Unit - Achievements",
       "source": "Livemint",
       "url": "https://www.livemint.com/companies/people/who-is-angan-guha-ex-wipro-biz-leader-now-ceo-of-the-americas-2-strategic-market-unit-education-achievements-11794042316526.html",
@@ -119,7 +159,7 @@
       "sentiment": "positive"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "title": "BMO Turns to Agentic AI to Resolve Card Issues",
       "source": "pymnts.com",
       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/bmo-turns-to-agentic-ai-to-resolve-card-issues/",
@@ -138,7 +178,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "Rogue AI tasked with renumbering pages accidentally deletes law professor's entire syllabus, one year of lecture notes",
       "source": "Slashdot.org",
       "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186615620",
@@ -157,105 +197,144 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 7,
-      "title": "p0-mcp added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/p0-mcp/",
-      "summary": "Local MCP bridge (stdio) to P0's remote MCP servers for AI agents: sanctions screening, SEC filings, CVE and package risk, wallet balances, EVM reads, news, email checks and agent memory. Pay per call over x402 or MPP, no account.",
-      "published_date": "2026-11-07",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 8,
-      "title": "adhistory-mcp 0.3.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/adhistory-mcp/0.3.0/",
-      "summary": "MCP server for AI agents: competitor Google ads, App Store/Google Play reviews, jobs from Workday/Greenhouse/Lever/Ashby and remote job boards, PDF tables, bank statements, invoices, email list cleaning, screenshots and broken links, via Apify.",
-      "published_date": "2026-11-07",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 9,
-      "title": "valun added to PyPI",
+      "title": "steerplane 1.1.3",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/valun/",
-      "summary": "Let any AI agent make service-for-credit deals with other, independently controlled agents (MCP server, CLI, core). Experimental pilot: synthetic units, nothing settled.",
+      "url": "https://pypi.org/project/steerplane/1.1.3/",
+      "summary": "The safety layer for the AGI era. Runtime guardrails for autonomous AI agents. Loop detection, cost limits, and telemetry.",
       "published_date": "2026-11-07",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "ai agent",
+        "guardrail"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 10,
-      "title": "aipass 2.8.35",
+      "title": "ostler-mcp added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/aipass/2.8.35/",
-      "summary": "A local multi-agent framework where your AI agents keep their memory, work together, and never ask you to re-explain context",
+      "url": "https://pypi.org/project/ostler-mcp/",
+      "summary": "Open-source MCP browser for AI agents: reading, research that cites only pages it read, web tasks, forms read back. Installs the `ostler` command.",
       "published_date": "2026-11-07",
-      "relevance_score": 8,
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "multi-agent"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 11,
-      "title": "truassure 1.0.0",
+      "title": "ostler-mcp 0.2.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/truassure/1.0.0/",
-      "summary": "TruAssure: black-box, evidence-based quality engineering for AI agents (chat, task and multi-agent).",
+      "url": "https://pypi.org/project/ostler-mcp/0.2.0/",
+      "summary": "Open-source MCP browser for AI agents: reading, research that cites only pages it read, web tasks, forms read back. Installs the `ostler` command.",
       "published_date": "2026-11-07",
-      "relevance_score": 8,
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "multi-agent"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "truassure added to PyPI",
+      "title": "zizkadb-mcp 0.1.13",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/truassure/",
+      "url": "https://pypi.org/project/zizkadb-mcp/0.1.13/",
+      "summary": "MCP server for ZizkaDB, the audit trail database for AI agents: query tamper-evident decision logs from Cursor, Claude Desktop, and any MCP client",
+      "published_date": "2026-11-07",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "getsonar-mcp 0.3.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/getsonar-mcp/0.3.0/",
+      "summary": "MCP server for SONAR: company register lookups and KYB due diligence on vendors, partners and resellers (registries, sanctions, PEP, ICIJ Offshore Leaks, adverse media) for AI agents.",
+      "published_date": "2026-11-07",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "qemu-mcp 0.1.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/qemu-mcp/0.1.0/",
+      "summary": "MCP server that lets AI agents boot and drive QEMU virtual machines - keystrokes, screenshots, serial console, QMP.",
+      "published_date": "2026-11-07",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "qemu-mcp added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/qemu-mcp/",
+      "summary": "MCP server that lets AI agents boot and drive QEMU virtual machines - keystrokes, screenshots, serial console, QMP.",
+      "published_date": "2026-11-07",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "truassure 1.3.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/truassure/1.3.0/",
       "summary": "TruAssure: black-box, evidence-based quality engineering for AI agents (chat, task and multi-agent).",
       "published_date": "2026-11-07",
       "relevance_score": 8,
@@ -271,7 +350,46 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 13,
+      "rank": 17,
+      "title": "truassure 1.2.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/truassure/1.2.0/",
+      "summary": "TruAssure: black-box, evidence-based quality engineering for AI agents (chat, task and multi-agent).",
+      "published_date": "2026-11-07",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "multi-agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "zizkadb-sdk 0.6.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/zizkadb-sdk/0.6.0/",
+      "summary": "Audit trail database for AI agents: tamper-evident, checksum-backed decision logs, session replay and time-travel debugging to support EU AI Act Article 12 record-keeping.",
+      "published_date": "2026-11-07",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "eu ai act"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
       "title": "Democrats Prepare Wave Of AI Regulation Bills For 2027",
       "source": "Biztoc.com",
       "url": "https://biztoc.com/x/69dd38949cfda182",
@@ -289,7 +407,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 14,
+      "rank": 20,
       "title": "What Is Agent iXi? How Agentic AI Systems Work in Automation",
       "source": "Bitcoinfoundation.org",
       "url": "https://bitcoinfoundation.org/news/ai/what-is-agent-ixi-how-agentic-ai-systems-work-in-automation/",
@@ -305,112 +423,6 @@
         "agentic"
       ],
       "sentiment": "negative"
-    },
-    {
-      "rank": 15,
-      "title": "IBM Unveils Its Most Advanced Quantum Computer in Chicago, Marking a Milestone for Illinois's Quantum Future",
-      "source": "PR Newswire UK",
-      "url": "https://www.prnewswire.co.uk/news-releases/ibm-unveils-its-most-advanced-quantum-computer-in-chicago-marking-a-milestone-for-illinoiss-quantum-future-302932376.html",
-      "summary": "Hosted by the University of Chicago, IBM Quantum System Two is now operational at Hyde Park Labs and will be a prominent fixture of Illinois Quantum and Microelectronics Park (IQMP) upon the site's completion. IBM's first quantum computer in Illinois extends …",
-      "published_date": "2026-11-06",
-      "relevance_score": 8,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
-      "matched_keywords": [
-        "university of chicago"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 16,
-      "title": "framework-py 0.1.0.dev9",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/framework-py/0.1.0.dev9/",
-      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
-      "published_date": "2026-11-07",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "django-dg-board added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/django-dg-board/",
-      "summary": "A kanban ticket tracker for Django that people and AI agents work on together.",
-      "published_date": "2026-11-07",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "django-dg-connect added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/django-dg-connect/",
-      "summary": "Connect Claude and other AI agents to the DataGroceries apps: OAuth for the Claude connector, and personal tokens.",
-      "published_date": "2026-11-07",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 19,
-      "title": "agent-framework-core 1.25.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/agent-framework-core/1.25.0/",
-      "summary": "Microsoft Agent Framework for building AI Agents with Python. This is the core package that has all the core abstractions and implementations.",
-      "published_date": "2026-11-07",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 20,
-      "title": "agent-framework 1.25.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/agent-framework/1.25.0/",
-      "summary": "Microsoft Agent Framework for building AI Agents with Python. This package contains core and a curated set of optional integrations.",
-      "published_date": "2026-11-07",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
     }
   ]
 }
