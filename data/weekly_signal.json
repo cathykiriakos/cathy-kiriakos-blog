@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T15:34:35.711Z",
+  "generated_at": "2026-11-08T15:54:54.008Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,7 +7,7 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 18
+      "item_count": 16
     },
     {
       "id": "governance_as_code",
@@ -19,7 +19,7 @@
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 0
+      "item_count": 1
     }
   ],
   "institutional_signal": {
@@ -36,38 +36,38 @@
       "polsky center",
       "mecha-nudges"
     ],
-    "item_count": 1
+    "item_count": 3
   },
   "items": [
     {
       "rank": 1,
-      "title": "Show HN: Agentic Identity Broker, OAuth Delegation for AI Agents",
-      "source": "Github.com",
-      "url": "https://github.com/zalando-incubator/agentic-identity-broker",
-      "summary": "Hi HN, I’m Jan. I am co-author of the Agentic Identity Broker (AIB), an MIT-licensed OAuth2 broker in the Zalando Incubator, that lets a user give an AI agent scoped, revocable access to MCP services.The broker solves three major challenges that are especiall…",
+      "title": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate",
+      "source": "Amazon.com",
+      "url": "https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/",
+      "summary": "Learn how to build a serverless Model Context Protocol (MCP) server on Amazon ECS with AWS Fargate that gives AI agents secure, metadata-driven access to an enterprise data lake. Exposing a new dataset requires only a JSON file, with no per-dataset integratio…",
       "published_date": "2026-11-06",
-      "relevance_score": 18,
+      "relevance_score": 22,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "model context protocol",
         "MCP",
-        "agentic",
         "ai agent"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 2,
-      "title": "GitLab 19.5 Makes Agentic Development a Governed Part of the DevOps Platform",
-      "source": "InfoQ.com",
-      "url": "https://www.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/",
-      "summary": "GitLab 19.5, released on October 15, puts agentic software development and governance at the centre of the platform, making its GitLab MCP server generally available while expanding how external AI agents can interact with GitLab. By Craig Risi",
-      "published_date": "2026-11-06",
-      "relevance_score": 18,
-      "primary_pillar": "applied_ai",
+      "title": "santismm-knowledge-mcp 0.6.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/santismm-knowledge-mcp/0.6.1/",
+      "summary": "MCP access to the Santismm Knowledge Platform (harness engineering, agentic AI patterns, reference architectures, AI governance) — a zero-dependency stdio proxy to the hosted, always-fresh endpoint.",
+      "published_date": "2026-11-07",
+      "relevance_score": 17,
+      "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
         "governance_as_code"
@@ -76,108 +76,69 @@
       "matched_keywords": [
         "MCP",
         "agentic",
-        "ai agent",
+        "ai governance",
         "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 3,
-      "title": "How to Give Your AI Agent Memory",
-      "source": "Kdnuggets.com",
-      "url": "https://www.kdnuggets.com/how-to-give-your-ai-agent-memory",
-      "summary": "Learn how to give AI agents long-term memory using the OpenAI Agents SDK, Mem0, and MCP to remember preferences, context, and important information across sessions.",
+      "title": "Show HN: AJX – Find out where AI agents get stuck using your product",
+      "source": "Ajx.dev",
+      "url": "https://ajx.dev/",
+      "summary": "Hi HN. I made AJX (Agent Journey Experience). It is a CLI and skill bundle that you run to test what your product feels like to use from the point of view of an agent, and you get back a list of \"asks\" that would improve your product from an agentic usability…",
       "published_date": "2026-11-06",
-      "relevance_score": 12,
+      "relevance_score": 14,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "agentic",
+        "ai agent",
+        "usability"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 4,
-      "title": "Show HN: EasyRunCraft – An office and creative suite for your AI agent",
-      "source": "Easyruncraft.com",
-      "url": "https://easyruncraft.com/",
-      "summary": "Use 13 open-source office and creative editors online for documents, spreadsheets, design, media, and CAD. Work with AI Agents or connect your own Agent via MCP.",
-      "published_date": "2026-11-06",
+      "title": "Who is Angan Guha? Ex-Wipro and Chicago Booth biz leader now CEO for Americas 2 Strategic Market Unit - Achievements",
+      "source": "Livemint",
+      "url": "https://www.livemint.com/companies/people/who-is-angan-guha-ex-wipro-biz-leader-now-ceo-of-the-americas-2-strategic-market-unit-education-achievements-11794042316526.html",
+      "summary": "Wipro has appointed former executive Angan Guha to lead its Americas 2 Strategic Market Unit, nearly four years after he left the IT major to join Birlasoft. His return comes amid slowing revenue growth in the business.",
+      "published_date": "2026-11-07",
       "relevance_score": 12,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
+      "primary_pillar": "institutional_signal",
+      "pillars": [],
+      "institutional_signal": true,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "chicago booth"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 5,
-      "title": "Show HN: Replay three AI agent approval failures in five seconds, in Python",
-      "source": "Github.com",
-      "url": "https://github.com/salahmakboul/call4agents",
-      "summary": "Stop AI agents repeating actions after a crash: approved tool calls run at most once. Python, no dependencies. Works with LangGraph, Pydantic AI, the OpenAI Agents SDK, MCP and plain Python. - sala...",
-      "published_date": "2026-11-05",
-      "relevance_score": 12,
+      "title": "BMO Turns to Agentic AI to Resolve Card Issues",
+      "source": "pymnts.com",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/bmo-turns-to-agentic-ai-to-resolve-card-issues/",
+      "summary": "BMO is employing an artificial intelligence (AI) agent to help clients resolve credit card transaction issues. The bank’s AI Agent Assist, announced Friday (Nov. 6), is designed for in-house use by employees and uses agentic AI to help those workers spend les…",
+      "published_date": "2026-11-06",
+      "relevance_score": 11,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
+        "agentic",
         "ai agent"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 6,
-      "title": "rishi-ai-mcp 1.4.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/rishi-ai-mcp/1.4.0/",
-      "summary": "Bring the profound wisdom of Vedic Astrology to your AI agents via the Model Context Protocol.",
-      "published_date": "2026-11-06",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "model context protocol",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 7,
-      "title": "Schellman flags critical gaps in White House AI oversight accord",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/schellman-white-house-ai-accord-gaps/",
-      "summary": "The lack of defined independent auditors in AI oversight could lead to inconsistent governance, placing the onus on stakeholders to ensure accountability.\nThe post Schellman flags critical gaps in White House AI oversight accord appeared first on Crypto Brief…",
-      "published_date": "2026-11-06",
-      "relevance_score": 11,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "governance",
-        "ai oversight"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
       "title": "Rogue AI tasked with renumbering pages accidentally deletes law professor's entire syllabus, one year of lecture notes",
       "source": "Slashdot.org",
       "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186615620",
@@ -196,69 +157,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 9,
-      "title": "sengol 2.0.1a37",
+      "rank": 7,
+      "title": "p0-mcp added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/sengol/2.0.1a37/",
-      "summary": "Sengol AI governance SDK",
-      "published_date": "2026-11-06",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 10,
-      "title": "archivebox-api 2.6.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/archivebox-api/2.6.0/",
-      "summary": "Pythonic ArchiveBox API Wrapper and Fast MCP Server for Agentic AI use!",
-      "published_date": "2026-11-06",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
-      "title": "openinvest 0.68.3",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/openinvest/0.68.3/",
-      "summary": "Investment runtime built for AI agents — 4-role LLM investment committee, portfolio ledger, decision accounting, MCP server",
-      "published_date": "2026-11-06",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "trimtok 5.7.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/trimtok/5.7.0/",
-      "summary": "Deterministic, lossless-retrievable context compression for autonomous AI agents and MCP clients",
-      "published_date": "2026-11-06",
+      "url": "https://pypi.org/project/p0-mcp/",
+      "summary": "Local MCP bridge (stdio) to P0's remote MCP servers for AI agents: sanctions screening, SEC filings, CVE and package risk, wallet balances, EVM reads, news, email checks and agent memory. Pay per call over x402 or MPP, no account.",
+      "published_date": "2026-11-07",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -272,12 +176,12 @@
       "sentiment": "negative"
     },
     {
-      "rank": 13,
-      "title": "objectstore-mcp 2.5.0",
+      "rank": 8,
+      "title": "adhistory-mcp 0.3.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/objectstore-mcp/2.5.0/",
-      "summary": "Object storage (S3/MinIO/R2, Google Cloud Storage, Azure Blob, local filesystem) API + MCP Server for Agentic AI!",
-      "published_date": "2026-11-06",
+      "url": "https://pypi.org/project/adhistory-mcp/0.3.0/",
+      "summary": "MCP server for AI agents: competitor Google ads, App Store/Google Play reviews, jobs from Workday/Greenhouse/Lever/Ashby and remote job boards, PDF tables, bank statements, invoices, email list cleaning, screenshots and broken links, via Apify.",
+      "published_date": "2026-11-07",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -286,55 +190,111 @@
       "institutional_signal": false,
       "matched_keywords": [
         "MCP",
-        "agentic"
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 9,
+      "title": "valun added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/valun/",
+      "summary": "Let any AI agent make service-for-credit deals with other, independently controlled agents (MCP server, CLI, core). Experimental pilot: synthetic units, nothing settled.",
+      "published_date": "2026-11-07",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "aipass 2.8.35",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/aipass/2.8.35/",
+      "summary": "A local multi-agent framework where your AI agents keep their memory, work together, and never ask you to re-explain context",
+      "published_date": "2026-11-07",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "multi-agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 11,
+      "title": "truassure 1.0.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/truassure/1.0.0/",
+      "summary": "TruAssure: black-box, evidence-based quality engineering for AI agents (chat, task and multi-agent).",
+      "published_date": "2026-11-07",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "multi-agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 12,
+      "title": "truassure added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/truassure/",
+      "summary": "TruAssure: black-box, evidence-based quality engineering for AI agents (chat, task and multi-agent).",
+      "published_date": "2026-11-07",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "multi-agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "Democrats Prepare Wave Of AI Regulation Bills For 2027",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/69dd38949cfda182",
+      "summary": "House Democrats are preparing a series of artificial intelligence regulations for introduction when they take control of Congress in January 2027. \nProposed measures include mandatory safety testing, liability requirements and greater oversight of data-centre…",
+      "published_date": "2026-11-06",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai regulation"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 14,
-      "title": "repoward 0.2.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/repoward/0.2.0/",
-      "summary": "A GitHub MCP server that stops AI agents leaking private code when a malicious issue tells them to.",
-      "published_date": "2026-11-06",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "codebase-brain-mcp added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/codebase-brain-mcp/",
-      "summary": "An MCP server that gives AI agents a cited, searchable memory of a codebase.",
-      "published_date": "2026-11-06",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "I watched AI recreate a childhood video game in 5 seconds. It showed me what's next for AI agents",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/cec26c3806df3de9",
-      "summary": "The Fireworks AI conference in San Francisco\nAlistair Barr/Business Insider\nA version of this story originally appeared in the AI Insider newsletter.\nSign up for Business Insider's weekly AI Insider newsletter here.\nI attended the Fireworks AI conference in S…",
-      "published_date": "2026-11-06",
+      "title": "What Is Agent iXi? How Agentic AI Systems Work in Automation",
+      "source": "Bitcoinfoundation.org",
+      "url": "https://bitcoinfoundation.org/news/ai/what-is-agent-ixi-how-agentic-ai-systems-work-in-automation/",
+      "summary": "Learn how agentic AI systems work in automation through Bosch Rexroth’s Agent iXi, including its workflow, tools, controls, and adoption risks today.\nThe post What Is Agent iXi? How Agentic AI Systems Work in Automation appeared first on Bitcoin Foundation.",
+      "published_date": "2026-11-07",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -342,18 +302,52 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "agentic"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 15,
+      "title": "IBM Unveils Its Most Advanced Quantum Computer in Chicago, Marking a Milestone for Illinois's Quantum Future",
+      "source": "PR Newswire UK",
+      "url": "https://www.prnewswire.co.uk/news-releases/ibm-unveils-its-most-advanced-quantum-computer-in-chicago-marking-a-milestone-for-illinoiss-quantum-future-302932376.html",
+      "summary": "Hosted by the University of Chicago, IBM Quantum System Two is now operational at Hyde Park Labs and will be a prominent fixture of Illinois Quantum and Microelectronics Park (IQMP) upon the site's completion. IBM's first quantum computer in Illinois extends …",
+      "published_date": "2026-11-06",
+      "relevance_score": 8,
+      "primary_pillar": "institutional_signal",
+      "pillars": [],
+      "institutional_signal": true,
+      "matched_keywords": [
+        "university of chicago"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 16,
+      "title": "framework-py 0.1.0.dev9",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/framework-py/0.1.0.dev9/",
+      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
+      "published_date": "2026-11-07",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 17,
-      "title": "Railway Engineer Admits Running AI Agents Against Rival Cloud Platform",
-      "source": "HackRead",
-      "url": "https://hackread.com/railway-engineer-run-ai-agents-rival-cloud-platform/",
-      "summary": "A Railway engineer admitted testing AI agents on Primcloud, whose founder says they sought customer secrets and scanned its network. No data was lost.",
-      "published_date": "2026-11-06",
-      "relevance_score": 8,
+      "title": "django-dg-board added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/django-dg-board/",
+      "summary": "A kanban ticket tracker for Django that people and AI agents work on together.",
+      "published_date": "2026-11-07",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -366,12 +360,12 @@
     },
     {
       "rank": 18,
-      "title": "I watched AI recreate a childhood video game in 5 seconds. It showed me what's next for AI agents.",
-      "source": "Business Insider",
-      "url": "https://www.businessinsider.com/fireworks-ai-asteroids-demo-faster-agents-2026-11#article",
-      "summary": "A Fireworks AI demo recreated Asteroids in about five seconds and upgraded it in 15, showing how faster models could make AI agents more useful.",
-      "published_date": "2026-11-06",
-      "relevance_score": 8,
+      "title": "django-dg-connect added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/django-dg-connect/",
+      "summary": "Connect Claude and other AI agents to the DataGroceries apps: OAuth for the Claude connector, and personal tokens.",
+      "published_date": "2026-11-07",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -384,12 +378,12 @@
     },
     {
       "rank": 19,
-      "title": "Show HN: Current – Change control for AI agents (Elixir)",
-      "source": "Github.com",
-      "url": "https://github.com/santosh79/current",
-      "summary": "Article URL: https://github.com/santosh79/current\nComments URL: https://news.ycombinator.com/item?id=50393255\nPoints: 2\n# Comments: 0",
-      "published_date": "2026-11-06",
-      "relevance_score": 8,
+      "title": "agent-framework-core 1.25.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/agent-framework-core/1.25.0/",
+      "summary": "Microsoft Agent Framework for building AI Agents with Python. This is the core package that has all the core abstractions and implementations.",
+      "published_date": "2026-11-07",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -402,19 +396,19 @@
     },
     {
       "rank": 20,
-      "title": "opik-mcp 3.0.9",
+      "title": "agent-framework 1.25.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/opik-mcp/3.0.9/",
-      "summary": "Model Context Protocol server for Opik (Comet's LLM observability platform).",
-      "published_date": "2026-11-06",
-      "relevance_score": 8,
+      "url": "https://pypi.org/project/agent-framework/1.25.0/",
+      "summary": "Microsoft Agent Framework for building AI Agents with Python. This package contains core and a curated set of optional integrations.",
+      "published_date": "2026-11-07",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol"
+        "ai agent"
       ],
       "sentiment": "neutral"
     }
