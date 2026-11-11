@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T16:55:47.524Z",
+  "generated_at": "2026-11-11T17:01:04.512Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,13 +7,13 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 10
+      "item_count": 12
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 6
+      "item_count": 5
     },
     {
       "id": "human_centric_design",
@@ -36,71 +36,11 @@
       "polsky center",
       "mecha-nudges"
     ],
-    "item_count": 5
+    "item_count": 3
   },
   "items": [
     {
       "rank": 1,
-      "title": "'This represents an important evolution in AI governance': Infosys lays out how your business can thrive with the new generation of autonomous AI agents",
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/pro/this-represents-an-important-evolution-in-ai-governance-infosys-lays-out-how-your-business-can-thrive-with-the-new-generation-of-autonomous-ai-agents",
-      "summary": "Infosys tells us how your business can prepare for the age of autonomous AI agents.",
-      "published_date": "2026-11-09",
-      "relevance_score": 24,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 2,
-      "title": "Trump says AI risks are manageable and signals openness to guardrails",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/trump-ai-risks-manageable-guardrails/",
-      "summary": "Trump's openness to AI regulation suggests a shift towards bipartisan cooperation, balancing innovation with global competitiveness concerns.\nThe post Trump says AI risks are manageable and signals openness to guardrails appeared first on Crypto Briefing.",
-      "published_date": "2026-11-09",
-      "relevance_score": 15,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail",
-        "ai regulation"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 3,
-      "title": "Article: Agentic AI Architecture: Current Challenges and Future Opportunities",
-      "source": "InfoQ.com",
-      "url": "https://www.infoq.com/articles/agentic-ai-architecture-challenges-opportunities/",
-      "summary": "Agentic AI architecture extends microservices and cloud-native architectures with AI agents that work with context, memory, and protocols such as MCP and A2A. The article covers bounded-context integration, task-dependent coordination strategies, new security…",
-      "published_date": "2026-11-09",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 4,
       "title": "New in AI: UChicago Rethinks Writing, EIU Students Want Faculty Rules",
       "source": "Inside Higher Ed",
       "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/11/09/new-ai-chicago-rethinks-writing-eiu",
@@ -116,7 +56,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 5,
+      "rank": 2,
       "title": "Who is Angan Guha? Ex-Wipro and Chicago Booth biz leader now CEO for Americas 2 Strategic Market Unit - Achievements",
       "source": "Livemint",
       "url": "https://www.livemint.com/companies/people/who-is-angan-guha-ex-wipro-biz-leader-now-ceo-of-the-americas-2-strategic-market-unit-education-achievements-11794042316526.html",
@@ -132,12 +72,12 @@
       "sentiment": "positive"
     },
     {
-      "rank": 6,
-      "title": "Marco Rubio calls for industry-led partnerships on AI, not regulation",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/rubio-industry-led-ai-partnerships-g7/",
-      "summary": "Rubio's stance may accelerate AI innovation but raises concerns about insufficient oversight, potentially impacting global AI governance dynamics.\nThe post Marco Rubio calls for industry-led partnerships on AI, not regulation appeared first on Crypto Briefing.",
-      "published_date": "2026-11-09",
+      "rank": 3,
+      "title": "sengol 2.0.1a41",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/sengol/2.0.1a41/",
+      "summary": "Sengol AI governance SDK",
+      "published_date": "2026-11-10",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -151,7 +91,44 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 7,
+      "rank": 4,
+      "title": "Australia weighs mandatory incident reporting for AI companies",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/australia-mandatory-ai-incident-reporting/",
+      "summary": "Mandatory AI incident reporting in Australia could enhance transparency, accountability, and global standardization in AI governance.\nThe post Australia weighs mandatory incident reporting for AI companies appeared first on Crypto Briefing.",
+      "published_date": "2026-11-10",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 5,
+      "title": "One Identity Unveils Identity Manager 10.0 LTS with AI and Modern UX",
+      "source": "Next Big Future",
+      "url": "https://www.nextbigfuture.com/2026/11/one-identity-unveils-identity-manager-10-0-lts-with-ai-and-modern-ux.html",
+      "summary": "Alisa Viejo, California, 10th November 2026, CyberNewswire",
+      "published_date": "2026-11-10",
+      "relevance_score": 10,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "UX"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 6,
       "title": "Rogue AI tasked with renumbering pages accidentally deletes law professor's entire syllabus, one year of lecture notes",
       "source": "Slashdot.org",
       "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186615620",
@@ -170,87 +147,31 @@
       "sentiment": "neutral"
     },
     {
+      "rank": 7,
+      "title": "zotero-mcp-server 0.17.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/zotero-mcp-server/0.17.0/",
+      "summary": "Zotero MCP server and CLI: chat with your Zotero research library in Claude, ChatGPT, Cursor, Codex and other AI agents",
+      "published_date": "2026-11-10",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
       "rank": 8,
-      "title": "layered-memory-mcp 3.8.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/layered-memory-mcp/3.8.0/",
-      "summary": "Layered Memory MCP Server — Durable common-core memory for AI agents: L0 index, L1 knowledge, TODO and provenance, with deterministic persistence routing",
-      "published_date": "2026-11-09",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "hol-guard 3.60.0a62",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/hol-guard/3.60.0a62/",
-      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs.",
-      "published_date": "2026-11-09",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 10,
-      "title": "brainlayer 1.5.93",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/brainlayer/1.5.93/",
-      "summary": "Persistent local memory for AI agents — 16 BrainBar MCP tools, semantic search, knowledge graph, SQLite",
-      "published_date": "2026-11-09",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
-      "title": "Rubio speaks out against AI regulation at G7",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/6131a43d838400ae",
-      "summary": "United States Secretary of State Marco Rubio said on Monday that he discussed artificial intelligence at the Group of Seven foreign ministers' meeting in France, insisting that the G7 needs \"industry-...",
-      "published_date": "2026-11-09",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai regulation"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "Red Hat adds agentic AI operations, stronger security in OpenShift 5 and RHEL updates",
-      "source": "SiliconANGLE News",
-      "url": "https://siliconangle.com/2026/11/09/red-hat-adds-agentic-ai-operations-stronger-security-in-openshift-5-and-rhel-updates/",
-      "summary": "Red Hat Inc. today announced a major update to its OpenShift Kubernetes-based application development platform that adds artificial intelligence-powered troubleshooting, stronger security controls and simplified upgrades as the company seeks to make its hybri…",
-      "published_date": "2026-11-09",
+      "title": "AMD Verano “EPYC 9006 LP” CPUs Are Architected For The Agentic AI Era: Up To 192 Cores With LPDDR5X SOCAMM2 Memory Support",
+      "source": "Wccftech",
+      "url": "https://wccftech.com/amd-verano-epyc-9006-lp-cpus-agentic-ai-up-to-192-cores-lpddr5x-memory/",
+      "summary": "AMD is unveiling more details of its Verano \"EPYC 9006 LP\" CPUs, which feature up to 192 cores, LPDDR5X memory support & made for Agentic AI. AMD Verano CPU Architecture Disclosed: Up To 6 \"Zen 6\" CCDs With Up To 192 Cores, & Perf/$ Optimized LPDDR5X SOCAMM2 …",
+      "published_date": "2026-11-10",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -263,12 +184,120 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 13,
-      "title": "US Stock Futures Mixed as Investors Assess Berkshire Hathaway Earnings, Nvidia Reports and AI Regulation Plans: Dow Jones, S&P, Nasdaq, Wall Street",
+      "rank": 9,
+      "title": "IBM and Microsoft Launch AI Agent Platform",
+      "source": "pymnts.com",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ibm-and-microsoft-launch-ai-agent-platform/",
+      "summary": "IBM and Microsoft on Tuesday (Nov. 10) introduced Imagine Enterprise, an artificial intelligence (AI) agent platform combining more than 6,000 prebuilt AI agents and related assets with Microsoft’s cloud infrastructure to help banks, insurers and retailers au…",
+      "published_date": "2026-11-10",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "Giorgio Pagano: How do you extend an existing Drupal site with AI agents?",
+      "source": "Giorgiopagano.org",
+      "url": "https://giorgiopagano.org/en/articles/how-do-you-extend-existing-drupal-site-ai-agents",
+      "summary": "The owner of a 3D printing workshop could no longer keep up with client requests. Printing took little of that time. Most of it went into retyping an address on the GLS portal, digging through WhatsApp for a measurement sent days earlier, and opening the slic…",
+      "published_date": "2026-11-10",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 11,
+      "title": "eBay appears to have shut the door on third-party AI agents",
       "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/9101499e4be3c156",
-      "summary": "US stock futures were mixed on Monday, November 9, 2026, as investors prepared for inflation data, corporate earnings and developments affecting the technology and cryptocurrency sectors.\nAt 3:42 a.m. Eastern Time, S&P 500 futures were up 0.35%, while Nasdaq …",
-      "published_date": "2026-11-09",
+      "url": "https://biztoc.com/x/68e2d5b1c5138944",
+      "summary": "eBay appears to have blocked AI agents, including Meta’s Muse, from browsing on the platform — the latest speed bump in the AI agent race.\neBay appears to have shut the door on third-party AI agents\nSilicon Valley is promising an AI agent revolution, but reta…",
+      "published_date": "2026-11-10",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 12,
+      "title": "Almost nobody uses AI agents to order food or rides on apps like Uber",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/1ae031ebd1ed9be8",
+      "summary": "AI agents were the source of four ride-hailing trips during one of the company's busiest weeks.\nDavid Paul Morris/Bloomberg via Getty Images\nAI agents aren't taking off on apps like Uber and DoorDash.\nThe AI tools have generated hundreds of food and ride-hail…",
+      "published_date": "2026-11-10",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "The Outside View: How New AI Oversight Could Ripple Into Retail",
+      "source": "WWD",
+      "url": "http://wwd.com/business-news/technology/ai-oversight-impact-fashion-retail-1239407689/",
+      "summary": "New AI oversight from Congress could reshape fashion and retail, impacting data-driven pricing, consumer protection policies and more.",
+      "published_date": "2026-11-10",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai oversight"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "Will Anthropic’s IPO Lead to Better AI Regulation?",
+      "source": "Project Syndicate",
+      "url": "https://www.project-syndicate.org/commentary/investors-in-anthropic-ipo-will-have-financial-incentive-to-demand-ai-safety-regulation-by-angela-huyue-zhang-2026-11",
+      "summary": "When frontier AI labs go public, ordinary people’s investments and pensions become tied to their valuations and stock prices. While excessive regulation could undermine a firm’s growth, catastrophic accidents caused by inadequate safety measures could do the …",
+      "published_date": "2026-11-10",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai regulation"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 15,
+      "title": "Why Europe’s Emphasis on AI Regulation Could Teach the U.S. and China a Thing or Two",
+      "source": "Entrepreneur",
+      "url": "https://eu.entrepreneur.com/technology/why-europes-emphasis-on-ai-regulation-could-teach-the-u-s-and-china-a-thing-or-two",
+      "summary": "The EU has provided a blueprint that’s only becoming increasingly pertinent as more cases of high-profile cybersecurity breaches become apparent.",
+      "published_date": "2026-11-10",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -281,30 +310,30 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 14,
-      "title": "AI safety partnership: OpenAI’s Proven Steps Forward",
-      "source": "Blogdoandroid.com",
-      "url": "https://blogdoandroid.com/ai-safety-partnership/",
-      "summary": "AI safety partnership is crucial as OpenAI collaborates with experts to enhance safety measures in AI development.",
-      "published_date": "2026-11-09",
+      "rank": 16,
+      "title": "Zingtree Debuts Governed Agentic AI for Contact Centers",
+      "source": "CMSWire",
+      "url": "https://www.cmswire.com/contact-center/zingtree-debuts-governed-agentic-ai-for-contact-centers/",
+      "summary": "New platform pairs deterministic rules with AI reasoning to give regulated CX teams auditable control over autonomous agents.\nContinue reading...",
+      "published_date": "2026-11-10",
       "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai safety"
+        "agentic"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 15,
-      "title": "Recent AI agent experiments reveal a risky future of machine 'teamwork' inside corporations",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/08/ai-agents-risks.html",
-      "summary": "AI agents are now working together on a regular basis. Research shows they are not always seeking the same goal, or operating with ethics.",
-      "published_date": "2026-11-08",
+      "rank": 17,
+      "title": "Google DeepMind melds humans and AI agents to vet Signal's secure messaging techniques",
+      "source": "Theregister.com",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/10/google-deepmind-melds-humans-and-ai-agents-to-vet-signals-secure-messaging-techniques/5308625",
+      "summary": "Post-quantum handshake and Triple Ratchet get a formal security check",
+      "published_date": "2026-11-10",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -314,10 +343,28 @@
       "matched_keywords": [
         "ai agent"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "rank": 16,
+      "rank": 18,
+      "title": "Presentation: Batch Intelligence at Scale: Cost-Efficient Multi-Agent LLM Workflows with Built-In Resilience",
+      "source": "InfoQ.com",
+      "url": "https://www.infoq.com/presentations/scaling-multi-agent-llm-batch/",
+      "summary": "Aditya Mulik explains how Walmart Global Tech deployed multi-agent LLM workflows across 4,700 stores for nightly batch inventory forecasting. He discusses tackling production hurdles - schema violations, cross-department data mismatches, and network drops - v…",
+      "published_date": "2026-11-10",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "multi-agent"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 19,
       "title": "Google DeepMind’s Alex Imas says AI agents may yield only 4% to 5% GDP growth",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/deepmind-alex-imas-ai-agents-gdp-growth/",
@@ -335,72 +382,22 @@
       "sentiment": "positive"
     },
     {
-      "rank": 17,
-      "title": "Red Hat Developer Hub 2.1: Agent ready, extended support, new plugin architectures",
-      "source": "Redhat.com",
-      "url": "https://www.redhat.com/en/blog/red-hat-developer-hub-21-agent-ready-extended-support-new-plugin-architectures",
-      "summary": "AI has made code generation significantly faster. However, without enterprise context, this new speed fails to translate to business outcomes. Lack of context creates a quality gap that is estimated to cost 3 to 10 times more per feature than a context engine…",
-      "published_date": "2026-11-09",
-      "relevance_score": 7,
+      "rank": 20,
+      "title": "What Brian Armstrong Sees Ahead for Coinbase (COIN) in an Agentic Economy",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/e059bbdbbbfabd56",
+      "summary": "We just published a list of the 10 Best AI-Powered Financial Stocks to Buy According to Analysts and Coinbase (NASDAQ:COIN) ranked 6th on this list.\nBanks and lenders have spent years promising that artificial intelligence will cut costs and speed up decision…",
+      "published_date": "2026-11-10",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "context engine"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 18,
-      "title": "AI is changing what it takes to get hired as a mathematician",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/6657dbecc7b3f1ac",
-      "summary": "A math professor at the University of Chicago says AI is changing hiring processes in academia.\nJacek Boczarski/Anadolu via Getty Images\nMathematicians are struggling as AI upends their field.\nOne professor says that mathematicians need to develop better comm…",
-      "published_date": "2026-11-07",
-      "relevance_score": 7,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
-      "matched_keywords": [
-        "university of chicago"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 19,
-      "title": "IBM Unveils Its Most Advanced Quantum Computer in Chicago, Marking a Milestone for Illinois's Quantum Future",
-      "source": "PR Newswire UK",
-      "url": "https://www.prnewswire.co.uk/news-releases/ibm-unveils-its-most-advanced-quantum-computer-in-chicago-marking-a-milestone-for-illinoiss-quantum-future-302932376.html",
-      "summary": "Hosted by the University of Chicago, IBM Quantum System Two is now operational at Hyde Park Labs and will be a prominent fixture of Illinois Quantum and Microelectronics Park (IQMP) upon the site's completion. IBM's first quantum computer in Illinois extends …",
-      "published_date": "2026-11-06",
-      "relevance_score": 7,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
-      "matched_keywords": [
-        "university of chicago"
+        "agentic"
       ],
       "sentiment": "positive"
-    },
-    {
-      "rank": 20,
-      "title": "'Getting the job done should also be a natural thing': Zoom lays out its plans to use AI and context to be even more of a useful workplace assistant",
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/pro/getting-the-job-done-should-also-be-a-natural-thing",
-      "summary": "Zoom's next era looks to enrich the user experience with greater AI tools and insights than ever before.",
-      "published_date": "2026-11-08",
-      "relevance_score": 6,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "user experience"
-      ],
-      "sentiment": "neutral"
     }
   ]
 }
