@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:29:39.463Z",
+  "generated_at": "2026-11-13T17:04:12.086Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 11
+      "item_count": 13
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 6
+      "item_count": 7
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 2
+      "item_count": 1
     }
   ],
   "institutional_signal": {
@@ -36,36 +36,39 @@
       "polsky center",
       "mecha-nudges"
     ],
-    "item_count": 5
+    "item_count": 3
   },
   "items": [
     {
       "rank": 1,
-      "title": "AI Governance Has A Strategy Problem",
-      "source": "Forrester.com",
-      "url": "https://www.forrester.com/blogs/ai-governance-has-a-strategy-problem/",
-      "summary": "The good news: AI governance is on the enterprise agenda. The problem: it still isn’t embedded deeply enough in enterprise AI strategy.   According to Forrester’s most recent data, only 42% of AI decision-makers say governance strategy is included in their or…",
-      "published_date": "2026-11-10",
-      "relevance_score": 18,
+      "title": "Vanta launches AI Governance, Risk Quantification and a Vanta Agent for entire jobs",
+      "source": "SiliconANGLE News",
+      "url": "https://siliconangle.com/2026/11/12/vanta-launches-ai-governance-risk-quantification-and-a-vanta-agent-for-entire-jobs/",
+      "summary": "Compliance automation company Vanta Inc. today launched AI Governance by Vanta, a product on its Agentic Trust Platform said to give security teams a single view of every artificial intelligence system in a company. Also making their debut at VantaCon 2026 in…",
+      "published_date": "2026-11-12",
+      "relevance_score": 24,
       "primary_pillar": "governance_as_code",
       "pillars": [
+        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "agentic",
         "ai governance",
-        "governance"
+        "governance",
+        "compliance"
       ],
       "sentiment": "negative"
     },
     {
       "rank": 2,
-      "title": "AI agents carry memory and storage like people, so their data needs guarding while in use",
-      "source": "SiliconANGLE News",
-      "url": "https://siliconangle.com/2026/11/11/cloud-engineering-teams-must-protect-ai-agent-data-use-kubeconna/",
-      "summary": "As AI agents move into production on Kubernetes, cloud engineering teams at financial companies face a security problem that encryption alone can’t solve. Container orchestration has become the default foundation for AI workloads, and the data those agents us…",
-      "published_date": "2026-11-11",
-      "relevance_score": 12,
+      "title": "Build autonomous AI agents with Amazon Bedrock and Spring AI",
+      "source": "Amazon.com",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai/",
+      "summary": "Learn how Java developers can build production-ready autonomous AI agents using Amazon Bedrock and Spring AI. This post walks through tool calling, conversation memory, resilience patterns, and multi-agent orchestration, then deploys the agent to AWS with Ama…",
+      "published_date": "2026-11-12",
+      "relevance_score": 15,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -73,19 +76,20 @@
       "institutional_signal": false,
       "matched_keywords": [
         "orchestration",
-        "ai agent"
+        "ai agent",
+        "multi-agent"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 3,
-      "title": "Beyond the Kill Switch: Containing AI Agents at Machine Speed",
-      "source": "Fortinet.com",
-      "url": "https://www.fortinet.com/blog/industry-trends/beyond-the-kill-switch-containing-ai-agents-at-machine-speed",
-      "summary": "Fortinet explores how graduated containment, independent enforcement, and human oversight can limit AI agent harm and preserve business continuity.…",
-      "published_date": "2026-11-11",
+      "title": "pad-lattice 0.2.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/pad-lattice/0.2.1/",
+      "summary": "Human-in-the-loop control surfaces for monitoring and directing multiple AI agents.",
+      "published_date": "2026-11-12",
       "relevance_score": 11,
-      "primary_pillar": "applied_ai",
+      "primary_pillar": "human_centric_design",
       "pillars": [
         "applied_ai",
         "human_centric_design"
@@ -93,29 +97,29 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent",
-        "human oversight"
+        "human-in-the-loop"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 4,
-      "title": "Coinbase adds auto-stop and product permissions to its AI agent controls",
+      "title": "United Airlines restricts AI agents’ access over security concerns",
       "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/coinbase-agent-controls-auto-stop-permissions/",
-      "summary": "Coinbase's enhanced AI controls could boost user trust and safety, potentially increasing adoption of AI-driven trading solutions.\nThe post Coinbase adds auto-stop and product permissions to its AI agent controls appeared first on Crypto Briefing.",
-      "published_date": "2026-11-11",
+      "url": "https://cryptobriefing.com/united-airlines-restricts-ai-agents-access/",
+      "summary": "United Airlines' AI restrictions highlight growing industry concerns over data security and regulatory compliance, impacting digital autonomy.\nThe post United Airlines restricts AI agents’ access over security concerns appeared first on Crypto Briefing.",
+      "published_date": "2026-11-12",
       "relevance_score": 11,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai",
-        "human_centric_design"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent",
-        "user trust"
+        "compliance"
       ],
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
       "rank": 5,
@@ -151,11 +155,11 @@
     },
     {
       "rank": 7,
-      "title": "panoptis 0.4.2",
+      "title": "cerbia 0.7.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/panoptis/0.4.2/",
-      "summary": "PANOPTIS (formerly AgentWatch): Pre-Execution Guardrail & Observability Layer for AI Agents",
-      "published_date": "2026-11-11",
+      "url": "https://pypi.org/project/cerbia/0.7.0/",
+      "summary": "Reusable LLM security scanning library — language-agnostic guardrails for AI agents",
+      "published_date": "2026-11-12",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -171,30 +175,49 @@
     },
     {
       "rank": 8,
-      "title": "Rogue AI tasked with renumbering pages accidentally deletes law professor's entire syllabus, one year of lecture notes",
-      "source": "Slashdot.org",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186615620",
-      "summary": "A University of Chicago lecturer has revealed a rogue Claude AI agent deleted his entire syllabus and year's worth of lecture notes by mistake.",
-      "published_date": "2026-11-06",
+      "title": "trust3-ai-collector-sdk 0.2.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/trust3-ai-collector-sdk/0.2.0/",
+      "summary": "Python SDK for pushing AI-asset inventory snapshots to Trust3 AI governance.",
+      "published_date": "2026-11-12",
       "relevance_score": 10,
-      "primary_pillar": "applied_ai",
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
-      "institutional_signal": true,
+      "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "university of chicago"
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 9,
-      "title": "antd-mcp 0.1.1",
+      "title": "sengol 2.0.1a43",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/antd-mcp/0.1.1/",
-      "summary": "MCP server that lets AI agents store and fetch data on the Autonomi network through the antd daemon",
-      "published_date": "2026-11-11",
+      "url": "https://pypi.org/project/sengol/2.0.1a43/",
+      "summary": "Sengol AI governance SDK",
+      "published_date": "2026-11-12",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+      "source": "Github.com",
+      "url": "https://github.com/simpsoka/zigzag",
+      "summary": "Free, open-source embroidery software for Mac and Windows. Turn SVG artwork into machine embroidery, edit stitches visually, and create designs with AI agents via MCP. - simpsoka/zigzag",
+      "published_date": "2026-11-12",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -208,48 +231,31 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 10,
-      "title": "StitchStudio raises $8M for AI agents that do insurers’ paperwork",
-      "source": "The Next Web",
-      "url": "https://thenextweb.com/news/stitchstudio-8m-insurance-ai-agents-voyager-capital",
-      "summary": "Oregon-based StitchStudio raised $8M led by Voyager Capital to grow its AI agents for insurers and brokers, which handle quotes, onboarding and billing.",
-      "published_date": "2026-11-11",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 11,
-      "title": "Show HN: An audit for AI agents headed into air-gapped networks",
-      "source": "Github.com",
-      "url": "https://github.com/PrashnaLabs/agent-blast-radius",
-      "summary": "Check your AI agent for vulnerabilities before it goes into an air-gapped environment: boundary crossings plus the blast radius inside the enclave. Claude Code plugin / Agent Skill. - PrashnaLabs/a...",
-      "published_date": "2026-11-11",
-      "relevance_score": 8,
+      "title": "jellyfin-mcp 2.3.9",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/jellyfin-mcp/2.3.9/",
+      "summary": "Jellyfin MCP Server for Agentic AI!",
+      "published_date": "2026-11-12",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent"
+        "MCP",
+        "agentic"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "UAEF: A framework-agnostic system for closed-loop evaluation of AI agents",
-      "source": "Amazon.com",
-      "url": "https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents/",
-      "summary": "The Universal Agent Evaluation Framework (UAEF) is a framework-agnostic system for evaluating AI agents. UAEF converts each framework's traces into one canonical format, scores them with 36 built-in metrics across 7 dimensions, and stores results so teams can…",
-      "published_date": "2026-11-11",
+      "title": "Adobe's New AI Agent Is a Giant Leap in the Wrong Direction for Artists",
+      "source": "PCMag.com",
+      "url": "https://uk.pcmag.com/ai/168363/adobes-new-ai-agent-is-a-giant-leap-in-the-wrong-direction-for-artists",
+      "summary": "Creative Agent can now build mood boards, edit video, and run on its own. That's great news for Adobe's bottom line and bad news for the people who make art.\nAdobe went big with this year's Max conference, which serves as a showcase for its creative software …",
+      "published_date": "2026-11-12",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -263,67 +269,30 @@
     },
     {
       "rank": 13,
-      "title": "U.S. AI Safety Center Reports to White House, Raising Independence Concerns",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-11-11-us-ai-safety-center-reports-to-white-house.html",
-      "summary": "The tiny U.S. government division charged with assessing the safety of new artificial intelligence offerings has been asked to informally report to a White House office, according to two former government officials who spoke to The Associated Press on conditi…",
-      "published_date": "2026-11-11",
+      "title": "Federal Reserve’s Barr warns of agentic AI challenges for banks",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/fed-barr-agentic-ai-banks-challenges/",
+      "summary": "Fed Governor Barr warns banks face serious challenges ensuring agentic AI follows customer instructions accurately in a highly regulated\nThe post Federal Reserve’s Barr warns of agentic AI challenges for banks appeared first on Crypto Briefing.",
+      "published_date": "2026-11-12",
       "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai safety"
+        "agentic"
       ],
       "sentiment": "negative"
     },
     {
       "rank": 14,
-      "title": "New York Launches Nation's First State AI Testing Program",
-      "source": "Slashdot.org",
-      "url": "https://yro.slashdot.org/story/26/11/10/2058226/new-york-launches-nations-first-state-ai-testing-program",
-      "summary": "New York is launching a state-backed AI safety research center at Binghamton University that will independently study and test AI systems, develop safety and security techniques, and train researchers in responsible AI. \"While the federal government fails to …",
-      "published_date": "2026-11-10",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "responsible ai",
-        "ai safety"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 15,
-      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect | TechCrunch",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
-      "summary": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
-      "published_date": "2026-11-10",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai safety"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "agent-control-panel 0.1.4",
+      "title": "vismriti added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/agent-control-panel/0.1.4/",
-      "summary": "Agent Control Panel SDK for Python: monitor AI agents in production and pause, resume, stop or swap their model without redeploying",
-      "published_date": "2026-11-11",
-      "relevance_score": 7,
+      "url": "https://pypi.org/project/vismriti/",
+      "summary": "DPDP-ready consent, purpose limitation and right-to-erasure for RAG and AI agents",
+      "published_date": "2026-11-12",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -331,12 +300,84 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent",
-        "in production"
+        "RAG"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "Presentation: Opening the Black Box: Critical Explainability for AI Agent Tool Selection with Kiji Inspector",
+      "source": "InfoQ.com",
+      "url": "https://www.infoq.com/presentations/explainable-ai-llm-agent-decisions/",
+      "summary": "Hannes Hapke shares how Dataiku’s open-source Kiji Inspector applies Sparse Autoencoders (SAEs) directly to decision tokens to expose why agents pick specific tools. Moving past superficial chain-of-thought narratives, he discusses causal ablation, layer acti…",
+      "published_date": "2026-11-12",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "GitHub Agentic Autofix and the question of who owns a bad AI patch",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/11/12/marcelo-oliveira-github-agentic-autofix/",
+      "summary": "In this Help Net Security interview, Marcelo Oliveira, VP of Product Management at GitHub, talks about who is accountable when an AI-generated patch fixes one flaw and introduces another. He explains how Agentic Autofix re-runs detection engines and project t…",
+      "published_date": "2026-11-12",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 17,
+      "title": "framework-py 0.1.0.dev19",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/framework-py/0.1.0.dev19/",
+      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
+      "published_date": "2026-11-12",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "framework-py 0.1.0.dev18",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/framework-py/0.1.0.dev18/",
+      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
+      "published_date": "2026-11-12",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
       "title": "Google DeepMind’s Alex Imas says AI agents may yield only 4% to 5% GDP growth",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/deepmind-alex-imas-ai-agents-gdp-growth/",
@@ -354,7 +395,7 @@
       "sentiment": "positive"
     },
     {
-      "rank": 18,
+      "rank": 20,
       "title": "AI is changing what it takes to get hired as a mathematician",
       "source": "Biztoc.com",
       "url": "https://biztoc.com/x/6657dbecc7b3f1ac",
@@ -366,40 +407,6 @@
       "institutional_signal": true,
       "matched_keywords": [
         "university of chicago"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 19,
-      "title": "IBM Unveils Its Most Advanced Quantum Computer in Chicago, Marking a Milestone for Illinois's Quantum Future",
-      "source": "PR Newswire UK",
-      "url": "https://www.prnewswire.co.uk/news-releases/ibm-unveils-its-most-advanced-quantum-computer-in-chicago-marking-a-milestone-for-illinoiss-quantum-future-302932376.html",
-      "summary": "Hosted by the University of Chicago, IBM Quantum System Two is now operational at Hyde Park Labs and will be a prominent fixture of Illinois Quantum and Microelectronics Park (IQMP) upon the site's completion. IBM's first quantum computer in Illinois extends …",
-      "published_date": "2026-11-06",
-      "relevance_score": 7,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
-      "matched_keywords": [
-        "university of chicago"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 20,
-      "title": "Nvidia CEO Jensen Huang might hang on as CEO. But his influence on U.S. AI policy is over",
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/11/10/nvidia-ceo-jensen-huang-might-hang-on-as-ceo-but-his-influence-on-u-s-ai-policy-is-over/",
-      "summary": "A spy scandal jeopardized Nvidia CEO Jensen Huang. Even if he survives atop Nvidia, a key opponent of export controls and advocate for open-source AI has been laid low.",
-      "published_date": "2026-11-11",
-      "relevance_score": 6,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai policy"
       ],
       "sentiment": "neutral"
     }
