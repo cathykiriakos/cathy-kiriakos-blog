@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T17:04:12.086Z",
+  "generated_at": "2026-11-14T15:42:22.231Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -13,13 +13,13 @@
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 7
+      "item_count": 6
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 1
+      "item_count": 3
     }
   ],
   "institutional_signal": {
@@ -36,17 +36,57 @@
       "polsky center",
       "mecha-nudges"
     ],
-    "item_count": 3
+    "item_count": 1
   },
   "items": [
     {
       "rank": 1,
-      "title": "Vanta launches AI Governance, Risk Quantification and a Vanta Agent for entire jobs",
-      "source": "SiliconANGLE News",
-      "url": "https://siliconangle.com/2026/11/12/vanta-launches-ai-governance-risk-quantification-and-a-vanta-agent-for-entire-jobs/",
-      "summary": "Compliance automation company Vanta Inc. today launched AI Governance by Vanta, a product on its Agentic Trust Platform said to give security teams a single view of every artificial intelligence system in a company. Also making their debut at VantaCon 2026 in…",
-      "published_date": "2026-11-12",
-      "relevance_score": 24,
+      "title": "mcp-atlassian 0.24.4",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/mcp-atlassian/0.24.4/",
+      "summary": "The Model Context Protocol (MCP) Atlassian integration is an open-source implementation that bridges Atlassian products (Jira and Confluence) with AI language models following Anthropic's MCP specification. This project enables secure, contextual AI interacti…",
+      "published_date": "2026-11-13",
+      "relevance_score": 14,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP",
+        "implementation"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 2,
+      "title": "voice-ai-governance 0.6.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/voice-ai-governance/0.6.0/",
+      "summary": "Compliance enforcement middleware for voice and SMS AI pipelines: warm transfer state management, TCPA/A2P 10DLC SMS compliance, PII scrubbing, confidence-gated escalation, and HIPAA/FERPA/EU AI Act enforcement for Pipecat, LiveKit, and Twilio deployments.",
+      "published_date": "2026-11-13",
+      "relevance_score": 14,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "governance",
+        "compliance",
+        "eu ai act"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 3,
+      "title": "regulated-ai-governance 0.47.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/regulated-ai-governance/0.47.1/",
+      "summary": "Comprehensive governance framework for AI agents operating in FERPA, HIPAA, GDPR, GLBA, ISO 42001, and 10+ regulated environments",
+      "published_date": "2026-11-13",
+      "relevance_score": 11,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
@@ -54,75 +94,13 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
-        "ai governance",
-        "governance",
-        "compliance"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 2,
-      "title": "Build autonomous AI agents with Amazon Bedrock and Spring AI",
-      "source": "Amazon.com",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai/",
-      "summary": "Learn how Java developers can build production-ready autonomous AI agents using Amazon Bedrock and Spring AI. This post walks through tool calling, conversation memory, resilience patterns, and multi-agent orchestration, then deploys the agent to AWS with Ama…",
-      "published_date": "2026-11-12",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "orchestration",
         "ai agent",
-        "multi-agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 3,
-      "title": "pad-lattice 0.2.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/pad-lattice/0.2.1/",
-      "summary": "Human-in-the-loop control surfaces for monitoring and directing multiple AI agents.",
-      "published_date": "2026-11-12",
-      "relevance_score": 11,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "human-in-the-loop"
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 4,
-      "title": "United Airlines restricts AI agents’ access over security concerns",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/united-airlines-restricts-ai-agents-access/",
-      "summary": "United Airlines' AI restrictions highlight growing industry concerns over data security and regulatory compliance, impacting digital autonomy.\nThe post United Airlines restricts AI agents’ access over security concerns appeared first on Crypto Briefing.",
-      "published_date": "2026-11-12",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "compliance"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 5,
       "title": "New in AI: UChicago Rethinks Writing, EIU Students Want Faculty Rules",
       "source": "Inside Higher Ed",
       "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/11/09/new-ai-chicago-rethinks-writing-eiu",
@@ -138,28 +116,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
-      "title": "Who is Angan Guha? Ex-Wipro and Chicago Booth biz leader now CEO for Americas 2 Strategic Market Unit - Achievements",
-      "source": "Livemint",
-      "url": "https://www.livemint.com/companies/people/who-is-angan-guha-ex-wipro-biz-leader-now-ceo-of-the-americas-2-strategic-market-unit-education-achievements-11794042316526.html",
-      "summary": "Wipro has appointed former executive Angan Guha to lead its Americas 2 Strategic Market Unit, nearly four years after he left the IT major to join Birlasoft. His return comes amid slowing revenue growth in the business.",
-      "published_date": "2026-11-07",
-      "relevance_score": 11,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
-      "matched_keywords": [
-        "chicago booth"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 7,
-      "title": "cerbia 0.7.0",
+      "rank": 5,
+      "title": "auditail 0.2.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/cerbia/0.7.0/",
-      "summary": "Reusable LLM security scanning library — language-agnostic guardrails for AI agents",
-      "published_date": "2026-11-12",
+      "url": "https://pypi.org/project/auditail/0.2.0/",
+      "summary": "Guardrails that block risky actions, plus a tamper-evident audit trail for autonomous AI agents.",
+      "published_date": "2026-11-13",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -171,15 +133,54 @@
         "ai agent",
         "guardrail"
       ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 6,
+      "title": "auditail added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/auditail/",
+      "summary": "Guardrails that block risky actions, plus a tamper-evident audit trail for autonomous AI agents.",
+      "published_date": "2026-11-13",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "guardrail"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 7,
+      "title": "sengol 2.0.1a44",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/sengol/2.0.1a44/",
+      "summary": "Sengol AI governance SDK",
+      "published_date": "2026-11-13",
+      "relevance_score": 10,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai governance",
+        "governance"
+      ],
       "sentiment": "neutral"
     },
     {
       "rank": 8,
-      "title": "trust3-ai-collector-sdk 0.2.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/trust3-ai-collector-sdk/0.2.0/",
-      "summary": "Python SDK for pushing AI-asset inventory snapshots to Trust3 AI governance.",
-      "published_date": "2026-11-12",
+      "title": "Trump’s AI task force weighs how to get critical sectors to report AI-powered cyberattacks",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/trump-ai-task-force-ai-cyberattack-reporting/",
+      "summary": "The task force's focus on voluntary disclosure and legal protections could shape future cybersecurity norms and influence AI governance policies.\nThe post Trump’s AI task force weighs how to get critical sectors to report AI-powered cyberattacks appeared firs…",
+      "published_date": "2026-11-13",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -194,30 +195,30 @@
     },
     {
       "rank": 9,
-      "title": "sengol 2.0.1a43",
+      "title": "clevertech-mcp-server 0.4.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/sengol/2.0.1a43/",
-      "summary": "Sengol AI governance SDK",
-      "published_date": "2026-11-12",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "url": "https://pypi.org/project/clevertech-mcp-server/0.4.0/",
+      "summary": "CleverTech MCP server — Canadian government data for AI agents: property, permits, zoning, business registry, and GPS ↔ DLS conversion. Free tier available.",
+      "published_date": "2026-11-13",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 10,
-      "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
-      "source": "Github.com",
-      "url": "https://github.com/simpsoka/zigzag",
-      "summary": "Free, open-source embroidery software for Mac and Windows. Turn SVG artwork into machine embroidery, edit stitches visually, and create designs with AI agents via MCP. - simpsoka/zigzag",
-      "published_date": "2026-11-12",
+      "title": "mcai-knowledge 0.3.7",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/mcai-knowledge/0.3.7/",
+      "summary": "MCAI Engine: structured, citable knowledge assets callable by AI agents via MCP",
+      "published_date": "2026-11-13",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -232,30 +233,29 @@
     },
     {
       "rank": 11,
-      "title": "jellyfin-mcp 2.3.9",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/jellyfin-mcp/2.3.9/",
-      "summary": "Jellyfin MCP Server for Agentic AI!",
-      "published_date": "2026-11-12",
-      "relevance_score": 9,
+      "title": "A Microsoft executive showed how AI agents can help travelers avoid Airbnb fees",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/e6b7bc9d856aa030",
+      "summary": "Airbnb CEO Brian Chesky.\nStefanie Keenan/Getty Images for Airbnb\nA version of this story originally appeared in the AI Insider newsletter.\nSign up for Business Insider's weekly AI Insider newsletter here.\nHere's a clever way to save money on your next vacatio…",
+      "published_date": "2026-11-13",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "agentic"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "Adobe's New AI Agent Is a Giant Leap in the Wrong Direction for Artists",
-      "source": "PCMag.com",
-      "url": "https://uk.pcmag.com/ai/168363/adobes-new-ai-agent-is-a-giant-leap-in-the-wrong-direction-for-artists",
-      "summary": "Creative Agent can now build mood boards, edit video, and run on its own. That's great news for Adobe's bottom line and bad news for the people who make art.\nAdobe went big with this year's Max conference, which serves as a showcase for its creative software …",
-      "published_date": "2026-11-12",
+      "title": "OpenAI launches ChatGPT Wallet, allowing its 'dots' AI agents to make purchases for users",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/883925c348dea204",
+      "summary": "OpenAI's ChatGPT Wallet partners with American Express, Mastercard and Visa, and those cardholders keep their existing credit card rewards.",
+      "published_date": "2026-11-13",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -269,11 +269,11 @@
     },
     {
       "rank": 13,
-      "title": "Federal Reserve’s Barr warns of agentic AI challenges for banks",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/fed-barr-agentic-ai-banks-challenges/",
-      "summary": "Fed Governor Barr warns banks face serious challenges ensuring agentic AI follows customer instructions accurately in a highly regulated\nThe post Federal Reserve’s Barr warns of agentic AI challenges for banks appeared first on Crypto Briefing.",
-      "published_date": "2026-11-12",
+      "title": "Epic built the Unreal Engine 5.9 preview in about a week, mostly with AI agents, and shipped it with a known-issues list",
+      "source": "Lockergnome.com",
+      "url": "https://lockergnome.com/epic-unreal-engine-5-9-megajam-preview-first-release-built-mostly-by-agents/",
+      "summary": "A handful of engineers directed fleets of agents to port tooling from the UE6 branch and add a Web target, timed for Epic's AI MegaJam, which opened this week.",
+      "published_date": "2026-11-13",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -281,17 +281,17 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic"
+        "ai agent"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 14,
-      "title": "vismriti added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/vismriti/",
-      "summary": "DPDP-ready consent, purpose limitation and right-to-erasure for RAG and AI agents",
-      "published_date": "2026-11-12",
+      "title": "United Airlines blocks unauthorized personal AI agents from booking flights, citing shared MileagePlus logins and the in-person bag check",
+      "source": "Lockergnome.com",
+      "url": "https://lockergnome.com/united-airlines-bans-ai-agents-booking-flights-check-in/",
+      "summary": "Fares stay bookable on Kayak, Hopper and Google Flights, and an aviation analyst says the airline is also dodging the bill for bot searches and one more middleman.",
+      "published_date": "2026-11-13",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -299,18 +299,17 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "RAG"
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 15,
-      "title": "Presentation: Opening the Black Box: Critical Explainability for AI Agent Tool Selection with Kiji Inspector",
-      "source": "InfoQ.com",
-      "url": "https://www.infoq.com/presentations/explainable-ai-llm-agent-decisions/",
-      "summary": "Hannes Hapke shares how Dataiku’s open-source Kiji Inspector applies Sparse Autoencoders (SAEs) directly to decision tokens to expose why agents pick specific tools. Moving past superficial chain-of-thought narratives, he discusses causal ablation, layer acti…",
-      "published_date": "2026-11-12",
+      "title": "How one AI agent exposed five critical enterprise security gaps",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+      "summary": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practica…",
+      "published_date": "2026-11-13",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -324,66 +323,12 @@
     },
     {
       "rank": 16,
-      "title": "GitHub Agentic Autofix and the question of who owns a bad AI patch",
-      "source": "Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/11/12/marcelo-oliveira-github-agentic-autofix/",
-      "summary": "In this Help Net Security interview, Marcelo Oliveira, VP of Product Management at GitHub, talks about who is accountable when an AI-generated patch fixes one flaw and introduces another. He explains how Agentic Autofix re-runs detection engines and project t…",
-      "published_date": "2026-11-12",
+      "title": "IBM and Microsoft Launch Imagine Enterprise With More Than 6,000 Prebuilt AI Agents and Assets",
+      "source": "Storagereview.com",
+      "url": "https://www.storagereview.com/news/ibm-microsoft-imagine-enterprise-ai-agent-platform",
+      "summary": "IBM and Microsoft announced Imagine Enterprise, a platform for building, running, and governing AI agents that carry out industry-specific business processes. IBM Consulting contributes more than 6,000 prebuilt AI agents and assets built on IBM Consulting Adv…",
+      "published_date": "2026-11-13",
       "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "framework-py 0.1.0.dev19",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/framework-py/0.1.0.dev19/",
-      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
-      "published_date": "2026-11-12",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "framework-py 0.1.0.dev18",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/framework-py/0.1.0.dev18/",
-      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
-      "published_date": "2026-11-12",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 19,
-      "title": "Google DeepMind’s Alex Imas says AI agents may yield only 4% to 5% GDP growth",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/deepmind-alex-imas-ai-agents-gdp-growth/",
-      "summary": "AI's impact on GDP may be modest, but its potential to enhance overall welfare and reshape economic structures is significant.\nThe post Google DeepMind’s Alex Imas says AI agents may yield only 4% to 5% GDP growth appeared first on Crypto Briefing.",
-      "published_date": "2026-11-09",
-      "relevance_score": 7,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -392,21 +337,77 @@
       "matched_keywords": [
         "ai agent"
       ],
-      "sentiment": "positive"
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "New York Protests, Public Lands and Data Centers, AI Agent Dialects, More: ResearchBuzz AI Update, November 12, 2026",
+      "source": "Researchbuzz.me",
+      "url": "https://researchbuzz.me/2026/11/12/new-york-protests-public-lands-and-data-centers-ai-agent-dialects-more-researchbuzz-ai-update-november-12-2026/",
+      "summary": "ANTI-AI SENTIMENT Yonkers Times: New Yorkers Hound Schumer at Home over Data Center Deal. “On Friday morning, protestors gathered outside Senator Schumer’s Brooklyn home with an AI data center prop to demand […]",
+      "published_date": "2026-11-13",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "kobil-agent-audit 1.2.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/kobil-agent-audit/1.2.0/",
+      "summary": "Audit, Observability & Human-in-the-Loop for the KOBIL AI Trust Platform",
+      "published_date": "2026-11-13",
+      "relevance_score": 8,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "kobil-agent-audit added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/kobil-agent-audit/",
+      "summary": "Audit, Observability & Human-in-the-Loop for the KOBIL AI Trust Platform",
+      "published_date": "2026-11-13",
+      "relevance_score": 8,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "AI is changing what it takes to get hired as a mathematician",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/6657dbecc7b3f1ac",
-      "summary": "A math professor at the University of Chicago says AI is changing hiring processes in academia.\nJacek Boczarski/Anadolu via Getty Images\nMathematicians are struggling as AI upends their field.\nOne professor says that mathematicians need to develop better comm…",
-      "published_date": "2026-11-07",
-      "relevance_score": 7,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
+      "title": "dagentos 0.17.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/dagentos/0.17.0/",
+      "summary": "A control plane for durable, observable, human-in-the-loop LLM agent workflows",
+      "published_date": "2026-11-12",
+      "relevance_score": 8,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
       "matched_keywords": [
-        "university of chicago"
+        "human-in-the-loop"
       ],
       "sentiment": "neutral"
     }
