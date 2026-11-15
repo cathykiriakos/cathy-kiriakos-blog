@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T16:12:24.584Z",
+  "generated_at": "2026-11-15T19:13:17.281Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,13 +7,13 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 14
+      "item_count": 15
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 7
+      "item_count": 6
     },
     {
       "id": "human_centric_design",
@@ -82,21 +82,20 @@
     },
     {
       "rank": 3,
-      "title": "voice-ai-governance 0.6.0",
+      "title": "lrvx-mcp 0.12.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/voice-ai-governance/0.6.0/",
-      "summary": "Compliance enforcement middleware for voice and SMS AI pipelines: warm transfer state management, TCPA/A2P 10DLC SMS compliance, PII scrubbing, confidence-gated escalation, and HIPAA/FERPA/EU AI Act enforcement for Pipecat, LiveKit, and Twilio deployments.",
-      "published_date": "2026-11-13",
-      "relevance_score": 14,
-      "primary_pillar": "governance_as_code",
+      "url": "https://pypi.org/project/lrvx-mcp/0.12.1/",
+      "summary": "Model Context Protocol server for lrvx — gives AI agents grounded access to indicators, error codes, and the C API.",
+      "published_date": "2026-11-14",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "governance",
-        "compliance",
-        "eu ai act"
+        "model context protocol",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
@@ -177,10 +176,10 @@
     },
     {
       "rank": 8,
-      "title": "lookproof-mcp 0.2.0",
+      "title": "n24q02m-wet 3.22.0b3",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/lookproof-mcp/0.2.0/",
-      "summary": "MCP server with 23 Lookproof DNS and mail security checks for AI agents (SPF, DKIM, DMARC, MTA-STS, DNSSEC, TLS), with a Lookproof API key or paid per call in USDC via x402",
+      "url": "https://pypi.org/project/n24q02m-wet/3.22.0b3/",
+      "summary": "Open-source MCP server for AI agents: web search, content extraction, and library docs.",
       "published_date": "2026-11-14",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -196,10 +195,10 @@
     },
     {
       "rank": 9,
-      "title": "trust-engine-mcp 0.2.2",
+      "title": "victor-ai 0.29.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/trust-engine-mcp/0.2.2/",
-      "summary": "Free MCP server for AI agents: model retirement dates with sources, public cost-vs-quality benchmark, local usage-cost analysis and a free pilot request.",
+      "url": "https://pypi.org/project/victor-ai/0.29.1/",
+      "summary": "Open-source agentic AI framework with multi-provider support, workflow orchestration, and extensible tool system",
       "published_date": "2026-11-14",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -208,17 +207,17 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "orchestration",
+        "agentic"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 10,
-      "title": "docusense-mcp 0.1.1",
+      "title": "clevertech-mcp-server 0.4.3",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/docusense-mcp/0.1.1/",
-      "summary": "MCP server that lets AI agents read your PDFs and docs in sections, not wholesale: ~20x fewer tokens, hash-verified citations, version diffs",
+      "url": "https://pypi.org/project/clevertech-mcp-server/0.4.3/",
+      "summary": "CleverTech MCP server — Canadian government data for AI agents: property, permits, zoning, business registry, and GPS ↔ DLS conversion. Free tier available.",
       "published_date": "2026-11-14",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -234,80 +233,6 @@
     },
     {
       "rank": 11,
-      "title": "docusense-mcp 0.1.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/docusense-mcp/",
-      "summary": "MCP server that lets AI agents read your PDFs and docs in sections, not wholesale: ~20x fewer tokens, hash-verified citations, version diffs",
-      "published_date": "2026-11-14",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "buildwright 0.9.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/buildwright/0.9.0/",
-      "summary": "Per-agent model routing for AI agents: LangGraph orchestration, PydanticAI agents, LiteLLM-ready registry, Langfuse tracing",
-      "published_date": "2026-11-14",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "orchestration",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 13,
-      "title": "AI-Primed – Audit your site for AI agent reachability and get ready-to-use fixes",
-      "source": "Betalist.com",
-      "url": "https://betalist.com/startups/ai-primed",
-      "summary": "Audit your site for AI agent reachability and get ready-to-use fixes",
-      "published_date": "2026-11-14",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/090f4fc312a7a2aa",
-      "summary": "ChatGPT can now shop for you. On Friday, OpenAI launched a new wallet feature that lets its agents, called dots, help you decide what to buy and then complete the purchase on your behalf. The option will initially be available to a limited number of U.S. Chat…",
-      "published_date": "2026-11-14",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
       "title": "The Security Jobs Growing Around Enterprise AI Agents",
       "source": "HackRead",
       "url": "https://hackread.com/security-jobs-growing-around-enterprise-ai-agents/",
@@ -325,7 +250,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 16,
+      "rank": 12,
       "title": "IBM and Microsoft Launch Imagine Enterprise With More Than 6,000 Prebuilt AI Agents and Assets",
       "source": "Storagereview.com",
       "url": "https://www.storagereview.com/news/ibm-microsoft-imagine-enterprise-ai-agent-platform",
@@ -343,7 +268,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 17,
+      "rank": 13,
       "title": "kobil-agent-audit 1.2.0",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/kobil-agent-audit/1.2.0/",
@@ -361,7 +286,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 18,
+      "rank": 14,
       "title": "framework-py 0.1.0.dev21",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/framework-py/0.1.0.dev21/",
@@ -379,7 +304,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 19,
+      "rank": 15,
       "title": "Google DeepMind’s Alex Imas says AI agents may yield only 4% to 5% GDP growth",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/deepmind-alex-imas-ai-agents-gdp-growth/",
@@ -397,7 +322,7 @@
       "sentiment": "positive"
     },
     {
-      "rank": 20,
+      "rank": 16,
       "title": "Policymakers must give teachers a stronger voice on AI policy in schools",
       "source": "Antaranews.com",
       "url": "https://en.antaranews.com/news/442479/policymakers-must-give-teachers-a-stronger-voice-on-ai-policy-in-schools",
@@ -411,6 +336,78 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai policy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "padam-nocturne 0.5.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/padam-nocturne/0.5.0/",
+      "summary": "Local memory for AI agents in one SQLite file: masks secrets, holds injected orders for the owner's review, forgets one record at a time (on Arweave, by destroying its key)",
+      "published_date": "2026-11-14",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "brain-framework 24.0.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/brain-framework/24.0.0/",
+      "summary": "Brain Framework is a local-first brain for you and your AI agents. It collects evidence from your tools into plain files you own, connects them through an ontology you declare, lets any agent harness search and read offline, and wakes your harness when declar…",
+      "published_date": "2026-11-14",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "agentcrash-core 0.3.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/agentcrash-core/0.3.0/",
+      "summary": "Chaos engineering for tool-using AI agents: deterministic fault injection, hash-chained traces, invariant verdicts, and policy replay.",
+      "published_date": "2026-11-14",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 20,
+      "title": "ncp-sdk 1.7.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/ncp-sdk/1.7.0/",
+      "summary": "SDK for building and deploying AI agents on the NCP platform",
+      "published_date": "2026-11-14",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
       ],
       "sentiment": "neutral"
     }
