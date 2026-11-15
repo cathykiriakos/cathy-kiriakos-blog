@@ -2,7 +2,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import { Mail, MapPin, Calendar, Heart } from 'lucide-react';
+import { Briefcase, MapPin, Calendar, Heart } from 'lucide-react';
 
 const About = () => {
   return (
@@ -87,16 +87,20 @@ const About = () => {
                 <h3 className="text-xl font-semibold text-foreground mb-4">About Me</h3>
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
+                    <Briefcase className="h-5 w-5 text-primary" />
+                    <span className="text-muted-foreground">Director, Center for Applied AI, Chicago Booth</span>
+                  </div>
+                  <div className="flex items-center gap-3">
                     <Calendar className="h-5 w-5 text-primary" />
                     <span className="text-muted-foreground">Building Ni Data since 2024</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <MapPin className="h-5 w-5 text-primary" />
-                    <span className="text-muted-foreground">Chicago, IL</span>
+                    <span className="text-muted-foreground">Oak Park, IL</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Heart className="h-5 w-5 text-primary" />
-                    <span className="text-muted-foreground">Data Innovator & Tech Enthusiast</span>
+                    <span className="text-muted-foreground">AI & Data Engineering Leader</span>
                   </div>
                 </div>
               </div>
