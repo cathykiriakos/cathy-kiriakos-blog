@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T15:42:22.231Z",
+  "generated_at": "2026-11-15T16:12:24.584Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 13
+      "item_count": 14
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 6
+      "item_count": 7
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 3
+      "item_count": 2
     }
   ],
   "institutional_signal": {
@@ -41,26 +41,47 @@
   "items": [
     {
       "rank": 1,
-      "title": "mcp-atlassian 0.24.4",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/mcp-atlassian/0.24.4/",
-      "summary": "The Model Context Protocol (MCP) Atlassian integration is an open-source implementation that bridges Atlassian products (Jira and Confluence) with AI language models following Anthropic's MCP specification. This project enables secure, contextual AI interacti…",
+      "title": "Agentic AI Governance Doesn’t Have to Be Complicated. Most of It Comes Down to These 4 Questions.",
+      "source": "Entrepreneur",
+      "url": "https://www.entrepreneur.com/business-news/tech/agentic-ai-governance-frameworks-questions",
+      "summary": "Agentic AI governance frameworks look complicated, but every one asks your business the same four questions.",
       "published_date": "2026-11-13",
-      "relevance_score": 14,
-      "primary_pillar": "applied_ai",
+      "relevance_score": 24,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "model context protocol",
-        "MCP",
-        "implementation"
+        "agentic",
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 2,
+      "title": "Exclusive: Onyx Security brings AI agent governance to Glean’s enterprise AI platform",
+      "source": "SiliconANGLE News",
+      "url": "https://siliconangle.com/2026/11/13/exclusive-onyx-security-brings-ai-agent-governance-to-gleans-enterprise-ai-platform/",
+      "summary": "AI agent security startup Onyx Security Inc. today announced an integration with enterprise artificial intelligence platform company Glean Technologies Inc. to help enterprises govern the AI agents they build and run on Glean. Onyx and Glean are pitching the …",
+      "published_date": "2026-11-13",
+      "relevance_score": 14,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 3,
       "title": "voice-ai-governance 0.6.0",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/voice-ai-governance/0.6.0/",
@@ -80,27 +101,27 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 3,
-      "title": "regulated-ai-governance 0.47.1",
+      "rank": 4,
+      "title": "pingwa 0.4.3",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/regulated-ai-governance/0.47.1/",
-      "summary": "Comprehensive governance framework for AI agents operating in FERPA, HIPAA, GDPR, GLBA, ISO 42001, and 10+ regulated environments",
+      "url": "https://pypi.org/project/pingwa/0.4.3/",
+      "summary": "WhatsApp notifications for AI agents with zero setup — no Meta account, no templates, curl to WhatsApp in 60s. Two-way human-in-the-loop.",
       "published_date": "2026-11-13",
       "relevance_score": 11,
-      "primary_pillar": "governance_as_code",
+      "primary_pillar": "human_centric_design",
       "pillars": [
         "applied_ai",
-        "governance_as_code"
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent",
-        "governance"
+        "human-in-the-loop"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "New in AI: UChicago Rethinks Writing, EIU Students Want Faculty Rules",
       "source": "Inside Higher Ed",
       "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/11/09/new-ai-chicago-rethinks-writing-eiu",
@@ -116,27 +137,26 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 5,
-      "title": "auditail 0.2.0",
+      "rank": 6,
+      "title": "sengol 2.0.1a45",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/auditail/0.2.0/",
-      "summary": "Guardrails that block risky actions, plus a tamper-evident audit trail for autonomous AI agents.",
-      "published_date": "2026-11-13",
+      "url": "https://pypi.org/project/sengol/2.0.1a45/",
+      "summary": "Sengol AI governance SDK",
+      "published_date": "2026-11-14",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "guardrail"
+        "ai governance",
+        "governance"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "auditail added to PyPI",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/auditail/",
@@ -156,50 +176,31 @@
       "sentiment": "negative"
     },
     {
-      "rank": 7,
-      "title": "sengol 2.0.1a44",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/sengol/2.0.1a44/",
-      "summary": "Sengol AI governance SDK",
-      "published_date": "2026-11-13",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 8,
-      "title": "Trump’s AI task force weighs how to get critical sectors to report AI-powered cyberattacks",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/trump-ai-task-force-ai-cyberattack-reporting/",
-      "summary": "The task force's focus on voluntary disclosure and legal protections could shape future cybersecurity norms and influence AI governance policies.\nThe post Trump’s AI task force weighs how to get critical sectors to report AI-powered cyberattacks appeared firs…",
-      "published_date": "2026-11-13",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "title": "lookproof-mcp 0.2.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/lookproof-mcp/0.2.0/",
+      "summary": "MCP server with 23 Lookproof DNS and mail security checks for AI agents (SPF, DKIM, DMARC, MTA-STS, DNSSEC, TLS), with a Lookproof API key or paid per call in USDC via x402",
+      "published_date": "2026-11-14",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 9,
-      "title": "clevertech-mcp-server 0.4.0",
+      "title": "trust-engine-mcp 0.2.2",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/clevertech-mcp-server/0.4.0/",
-      "summary": "CleverTech MCP server — Canadian government data for AI agents: property, permits, zoning, business registry, and GPS ↔ DLS conversion. Free tier available.",
-      "published_date": "2026-11-13",
+      "url": "https://pypi.org/project/trust-engine-mcp/0.2.2/",
+      "summary": "Free MCP server for AI agents: model retirement dates with sources, public cost-vs-quality benchmark, local usage-cost analysis and a free pilot request.",
+      "published_date": "2026-11-14",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -214,11 +215,11 @@
     },
     {
       "rank": 10,
-      "title": "mcai-knowledge 0.3.7",
+      "title": "docusense-mcp 0.1.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/mcai-knowledge/0.3.7/",
-      "summary": "MCAI Engine: structured, citable knowledge assets callable by AI agents via MCP",
-      "published_date": "2026-11-13",
+      "url": "https://pypi.org/project/docusense-mcp/0.1.1/",
+      "summary": "MCP server that lets AI agents read your PDFs and docs in sections, not wholesale: ~20x fewer tokens, hash-verified citations, version diffs",
+      "published_date": "2026-11-14",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -233,47 +234,49 @@
     },
     {
       "rank": 11,
-      "title": "A Microsoft executive showed how AI agents can help travelers avoid Airbnb fees",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/e6b7bc9d856aa030",
-      "summary": "Airbnb CEO Brian Chesky.\nStefanie Keenan/Getty Images for Airbnb\nA version of this story originally appeared in the AI Insider newsletter.\nSign up for Business Insider's weekly AI Insider newsletter here.\nHere's a clever way to save money on your next vacatio…",
-      "published_date": "2026-11-13",
-      "relevance_score": 8,
+      "title": "docusense-mcp 0.1.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/docusense-mcp/",
+      "summary": "MCP server that lets AI agents read your PDFs and docs in sections, not wholesale: ~20x fewer tokens, hash-verified citations, version diffs",
+      "published_date": "2026-11-14",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "OpenAI launches ChatGPT Wallet, allowing its 'dots' AI agents to make purchases for users",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/883925c348dea204",
-      "summary": "OpenAI's ChatGPT Wallet partners with American Express, Mastercard and Visa, and those cardholders keep their existing credit card rewards.",
-      "published_date": "2026-11-13",
-      "relevance_score": 8,
+      "title": "buildwright 0.9.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/buildwright/0.9.0/",
+      "summary": "Per-agent model routing for AI agents: LangGraph orchestration, PydanticAI agents, LiteLLM-ready registry, Langfuse tracing",
+      "published_date": "2026-11-14",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "orchestration",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 13,
-      "title": "Epic built the Unreal Engine 5.9 preview in about a week, mostly with AI agents, and shipped it with a known-issues list",
-      "source": "Lockergnome.com",
-      "url": "https://lockergnome.com/epic-unreal-engine-5-9-megajam-preview-first-release-built-mostly-by-agents/",
-      "summary": "A handful of engineers directed fleets of agents to port tooling from the UE6 branch and add a Web target, timed for Epic's AI MegaJam, which opened this week.",
-      "published_date": "2026-11-13",
+      "title": "AI-Primed – Audit your site for AI agent reachability and get ready-to-use fixes",
+      "source": "Betalist.com",
+      "url": "https://betalist.com/startups/ai-primed",
+      "summary": "Audit your site for AI agent reachability and get ready-to-use fixes",
+      "published_date": "2026-11-14",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -287,11 +290,11 @@
     },
     {
       "rank": 14,
-      "title": "United Airlines blocks unauthorized personal AI agents from booking flights, citing shared MileagePlus logins and the in-person bag check",
-      "source": "Lockergnome.com",
-      "url": "https://lockergnome.com/united-airlines-bans-ai-agents-booking-flights-check-in/",
-      "summary": "Fares stay bookable on Kayak, Hopper and Google Flights, and an aviation analyst says the airline is also dodging the bill for bot searches and one more middleman.",
-      "published_date": "2026-11-13",
+      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/090f4fc312a7a2aa",
+      "summary": "ChatGPT can now shop for you. On Friday, OpenAI launched a new wallet feature that lets its agents, called dots, help you decide what to buy and then complete the purchase on your behalf. The option will initially be available to a limited number of U.S. Chat…",
+      "published_date": "2026-11-14",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -305,11 +308,11 @@
     },
     {
       "rank": 15,
-      "title": "How one AI agent exposed five critical enterprise security gaps",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
-      "summary": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practica…",
-      "published_date": "2026-11-13",
+      "title": "The Security Jobs Growing Around Enterprise AI Agents",
+      "source": "HackRead",
+      "url": "https://hackread.com/security-jobs-growing-around-enterprise-ai-agents/",
+      "summary": "Two years ago, most company AI use happened in a chat window. Today, AI assistants read shared mailboxes, search SharePoint, open support tickets and, in some",
+      "published_date": "2026-11-14",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -341,24 +344,6 @@
     },
     {
       "rank": 17,
-      "title": "New York Protests, Public Lands and Data Centers, AI Agent Dialects, More: ResearchBuzz AI Update, November 12, 2026",
-      "source": "Researchbuzz.me",
-      "url": "https://researchbuzz.me/2026/11/12/new-york-protests-public-lands-and-data-centers-ai-agent-dialects-more-researchbuzz-ai-update-november-12-2026/",
-      "summary": "ANTI-AI SENTIMENT Yonkers Times: New Yorkers Hound Schumer at Home over Data Center Deal. “On Friday morning, protestors gathered outside Senator Schumer’s Brooklyn home with an AI data center prop to demand […]",
-      "published_date": "2026-11-13",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
       "title": "kobil-agent-audit 1.2.0",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/kobil-agent-audit/1.2.0/",
@@ -376,38 +361,56 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 19,
-      "title": "kobil-agent-audit added to PyPI",
+      "rank": 18,
+      "title": "framework-py 0.1.0.dev21",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/kobil-agent-audit/",
-      "summary": "Audit, Observability & Human-in-the-Loop for the KOBIL AI Trust Platform",
+      "url": "https://pypi.org/project/framework-py/0.1.0.dev21/",
+      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
       "published_date": "2026-11-13",
-      "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "human_centric_design"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "human-in-the-loop"
+        "guardrail"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 20,
-      "title": "dagentos 0.17.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/dagentos/0.17.0/",
-      "summary": "A control plane for durable, observable, human-in-the-loop LLM agent workflows",
-      "published_date": "2026-11-12",
-      "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
+      "rank": 19,
+      "title": "Google DeepMind’s Alex Imas says AI agents may yield only 4% to 5% GDP growth",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/deepmind-alex-imas-ai-agents-gdp-growth/",
+      "summary": "AI's impact on GDP may be modest, but its potential to enhance overall welfare and reshape economic structures is significant.\nThe post Google DeepMind’s Alex Imas says AI agents may yield only 4% to 5% GDP growth appeared first on Crypto Briefing.",
+      "published_date": "2026-11-09",
+      "relevance_score": 7,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "human-in-the-loop"
+        "ai agent"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 20,
+      "title": "Policymakers must give teachers a stronger voice on AI policy in schools",
+      "source": "Antaranews.com",
+      "url": "https://en.antaranews.com/news/442479/policymakers-must-give-teachers-a-stronger-voice-on-ai-policy-in-schools",
+      "summary": "Policymakers should work closely with teachers to shape policy for the AI age in schools, and invest in comprehensive, sustained teacher professional learning ...",
+      "published_date": "2026-11-13",
+      "relevance_score": 6,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai policy"
       ],
       "sentiment": "neutral"
     }
