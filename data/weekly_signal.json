@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T17:41:43.822Z",
+  "generated_at": "2026-11-21T16:43:20.646Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 12
+      "item_count": 14
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 10
+      "item_count": 8
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 1
+      "item_count": 2
     }
   ],
   "institutional_signal": {
@@ -36,37 +36,17 @@
       "polsky center",
       "mecha-nudges"
     ],
-    "item_count": 1
+    "item_count": 2
   },
   "items": [
     {
       "rank": 1,
-      "title": "US President Trump rejects global AI regulation as China's Xi calls for cooperation on safety",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/5c6be2ce293df947",
-      "summary": "The US and Chinese leaders have set out contrasting approaches to AI governance at talks in Shenzhen, with Trump warning that regulation could hamper innovation while Xi called for the technology to remain under human control.",
+      "title": "Where Are the Plans for AI Governance in Contact Centers?",
+      "source": "CMSWire",
+      "url": "https://www.cmswire.com/customer-experience/where-are-the-plans-for-ai-governance-in-contact-centers/",
+      "summary": "Companies are rolling out AI and AI agents in contact centers, but aren’t sure how to independently measure or govern these processes.\nContinue reading...",
       "published_date": "2026-11-19",
-      "relevance_score": 16,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance",
-        "ai regulation"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 2,
-      "title": "Design responsible AI controls for Amazon Aurora PostgreSQL",
-      "source": "Amazon.com",
-      "url": "https://aws.amazon.com/blogs/machine-learning/design-responsible-ai-controls-for-amazon-aurora-postgresql/",
-      "summary": "Learn how to make RAG chatbot answers traceable with Amazon Aurora PostgreSQL, pgvector, and Amazon Bedrock Guardrails, logging sources, scores, and guardrail traces in SQL.",
-      "published_date": "2026-11-18",
-      "relevance_score": 16,
+      "relevance_score": 21,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
@@ -74,14 +54,14 @@
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "RAG",
-        "guardrail",
-        "responsible ai"
+        "ai agent",
+        "ai governance",
+        "governance"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Govt partners with DIL-India for governance",
       "source": "The Times of India",
       "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/govt-partners-with-dil-india-for-governance/articleshow/135975329.cms",
@@ -100,54 +80,53 @@
       "sentiment": "positive"
     },
     {
-      "rank": 4,
-      "title": "AI errors could pose cascading risks to financial institutions: SBI chief",
-      "source": "Business Standard",
-      "url": "https://www.business-standard.com/industry/banking/ai-errors-could-pose-cascading-risks-to-financial-institutions-sbi-chief-126111900897_1.html",
-      "summary": "SBI Chairman CS Setty says banks must strengthen AI governance through clearly defined permissions, transaction limits, audit trails and human oversight to prevent systemic risks",
+      "rank": 3,
+      "title": "miiflow-agent 2.0.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/miiflow-agent/2.0.1/",
+      "summary": "A model-agnostic agent harness for Python: agent loop, tools, sub-agents, human-in-the-loop, MCP and context management on any LLM provider",
       "published_date": "2026-11-19",
-      "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
+      "relevance_score": 12,
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "governance_as_code",
+        "applied_ai",
         "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance",
-        "human oversight"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 5,
-      "title": "naas-abi 6.0.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/naas-abi/6.0.0/",
-      "summary": "Multi-agent orchestrator and knowledge graph management system for AI orchestration, providing comprehensive coordination of specialized AI agents and semantic data management capabilities",
-      "published_date": "2026-11-19",
-      "relevance_score": 12,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "orchestration",
-        "ai agent",
-        "multi-agent"
+        "MCP",
+        "human-in-the-loop"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
-      "title": "92% of Indian Organisations Experienced AI Agent Security Incidents in the Past Year: Report",
-      "source": "The Times of India",
-      "url": "https://timesofindia.indiatimes.com/technology/aiq/92-of-indian-organisations-experienced-ai-agent-security-incidents-in-the-past-year-report/articleshow/135981710.cms",
-      "summary": "As many as 92 percent of Indian organisations experienced an agentic security incident in the past year, yet only 36 percent of those contained it within",
+      "rank": 4,
+      "title": "Your AWS Security, Identity, and Governance guide to re:Invent 2026",
+      "source": "Amazon.com",
+      "url": "https://aws.amazon.com/blogs/security/your-aws-security-identity-and-governance-guide-to-reinvent-2026/",
+      "summary": "The AWS Security, Identity, and Governance team invites you to join us at re:Invent in Las Vegas from November 30 to December 4, 2026. You know all too well that AI agents now act on their own across the systems you run, and that changes what identity, detect…",
       "published_date": "2026-11-19",
       "relevance_score": 11,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 5,
+      "title": "From learning to leaderboard: How Cisco upskilled 1,200 engineers in agentic AI with AWS AI League",
+      "source": "Amazon.com",
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-learning-to-leaderboard-how-cisco-upskilled-1200-engineers-in-agentic-ai-with-aws-ai-league/",
+      "summary": "Cisco and AWS used Cisco Transformation Fest and AWS AI League to turn hands-on AI learning into a culture of building. A Cisco engineer won the 2025 AWS AI League global title and 1,200 engineers competed in 2026. This post shares Cisco's journey, lessons fr…",
+      "published_date": "2026-11-19",
+      "relevance_score": 10,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -155,74 +134,72 @@
       "institutional_signal": false,
       "matched_keywords": [
         "agentic",
+        "hands-on"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 6,
+      "title": "hol-guard 3.61.0a7",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/hol-guard/3.61.0a7/",
+      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs. It covers the agent events listed in its support matrix and does not cover actions an agent runs outside its hooks.",
+      "published_date": "2026-11-20",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 7,
-      "title": "Trump opposes global regulation of superintelligence at 33rd APEC Summit",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/news/short-videos/trump-opposes-global-regulation-of-superintelligence-at-33rd-apec-summit/videoshow/135984102.cms",
-      "summary": "US President Donald Trump opposes global regulation of superintelligence at the 33rd APEC Summit, highlighting concerns over international oversight of advanced artificial intelligence. His position brings renewed attention to the debate over AI governance, t…",
-      "published_date": "2026-11-19",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
-      "title": "Show HN: Local Graph for Your Agents",
-      "source": "Github.com",
-      "url": "https://github.com/vmikhailov/cypher-mcp",
-      "summary": "We all use different agentic systems, bots, chats, and so on. One day I realized that I need to copy context between the apps. It is annoying.So I created a trivial local MCP which sits on top of SQLite and exposes Cypher so LLM can query anything. Also LLM c…",
-      "published_date": "2026-11-19",
-      "relevance_score": 9,
+      "title": "Apple reportedly developing an AI agent that can code and use apps",
+      "source": "GSMArena.com",
+      "url": "https://www.gsmarena.com/apple_reportedly_developing_an_ai_agent_that_can_code_and_use_apps-news-75557.php",
+      "summary": "According to a new report by Bloomberg's Mark Gurman, based on an official job listing by Apple, the company is developing an AI agent that can perform various tasks on behalf of users.\n\nThe report claims that a now-removed job listing was seeking a senior en…",
+      "published_date": "2026-11-20",
+      "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "Show HN: Maglev – OpenRouter for Agent Tools",
-      "source": "Maglev.sh",
-      "url": "https://maglev.sh/",
-      "summary": "Maglev is an MCP server that gives AI agents 554 tools from 39 providers through one API key. You pay per call, at the provider's price, with no subscriptions.",
-      "published_date": "2026-11-19",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 10,
-      "title": "argus-probe 1.19.0",
+      "rank": 8,
+      "title": "An AI agent writes its own rules. Each one has to prove itself first.",
+      "source": "Digital Journal",
+      "url": "https://www.digitaljournal.com/article/an-ai-agent-writes-its-own-rules-each-one-has-to-prove-itself-first/",
+      "summary": "People who work closely with AI agents usually keep a file of standing instructions for them: a rulebook the AI reads before it starts work. Users of Anthropic's Claude Code call theirs CLAUDE.md; other tools use a similar file called AGENTS.md. When the AI r…",
+      "published_date": "2026-11-20",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 9,
+      "title": "bernstein 4.0.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/argus-probe/1.19.0/",
-      "summary": "Argus: black-box red-team testing for AI agents. Probe library, target adapters, judge harness and the argus-probe CLI.",
-      "published_date": "2026-11-19",
+      "url": "https://pypi.org/project/bernstein/4.0.0/",
+      "summary": "An open-source governance layer for AI agents. No model in the coordination loop, so replaying a plan reproduces its task graph byte-identically, and run receipts are byte-identical across independent builds. Signed lineage plus an opt-in HMAC audit chain a r…",
+      "published_date": "2026-11-20",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -232,17 +209,35 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent",
-        "red-teaming"
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "Apple posts job listings seeking engineers to develop autonomous AI agent for apps, web, and code",
+      "source": "Macdailynews.com",
+      "url": "https://macdailynews.com/2026/11/20/apple-posts-job-listings-seeking-engineers-to-develop-autonomous-ai-agent-for-apps-web-and-code/",
+      "summary": "Apple has added multiple job listings this week seeking senior engineering talent to build an autonomous artificial intelligence agent…\nThe post Apple posts job listings seeking engineers to develop autonomous AI agent for apps, web, and code appeared first o…",
+      "published_date": "2026-11-20",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 11,
-      "title": "Google unveils Mirror Dimension to train Chrome AI agents safely",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/google-mirror-dimension-chrome-ai-agents/",
-      "summary": "Google's Mirror Dimension could redefine AI training, enhancing safety and efficiency in web interactions while reshaping user and developer dynamics.\nThe post Google unveils Mirror Dimension to train Chrome AI agents safely appeared first on Crypto Briefing.",
-      "published_date": "2026-11-19",
+      "title": "Major US banks say all AI agent actions are user authorized, even mistakes",
+      "source": "TechRadar",
+      "url": "https://www.techradar.com/ai-platforms-assistants/major-us-banks-crack-down-on-ai-agent-use-by-customers-telling-them-theyre-on-their-own-if-it-gets-hacked-or-makes-a-mistake",
+      "summary": "Banks have decided that if something goes wrong with a third-party AI agent, its your own fault.",
+      "published_date": "2026-11-20",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -256,155 +251,11 @@
     },
     {
       "rank": 12,
-      "title": "Walmart Pairs Membership Growth With an AI Agent Push",
-      "source": "pymnts.com",
-      "url": "https://www.pymnts.com/earnings/2026/walmart-pairs-membership-growth-with-an-ai-agent-push/",
-      "summary": "Walmart+ members visit Walmart’s stores twice as often as nonmembers and its eCommerce site seven times as often. Now, the retailer is giving those shoppers another way to build a basket through artificial intelligence (AI) agents, management said during the …",
-      "published_date": "2026-11-19",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 13,
-      "title": "Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
-      "summary": "The company’s alternate-universe internet serves as a massive sandbox that allowed the Chrome team to properly train the AI browsing agents—without the risk of them going rouge.",
-      "published_date": "2026-11-19",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 14,
-      "title": "Agentic AI sends CPU demand up tenfold inside AI clouds built around GPUs",
-      "source": "SiliconANGLE News",
-      "url": "https://siliconangle.com/2026/11/19/global-cloud-availability-sets-neocloud-platforms-apart-sc26/",
-      "summary": "The neocloud boom is entering a sorting phase, and global cloud availability is emerging as the line between providers built for enterprise AI and those built to rent out racks of graphics processing units. With agentic AI moving from pilots into production, …",
-      "published_date": "2026-11-19",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "PFRDA pushes MeiTY to establish centralised AI regulation",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/pfrda-pushes-meity-to-establish-centralised-ai-regulation/article71720740.ece",
-      "summary": "PFRDA Chairperson S Ramann sought a centralised regulatory framework from the Ministry of Electronics and Information Technology (Meity) to establish safeguards around AI and make it more explainable.",
-      "published_date": "2026-11-19",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai regulation"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "Trump opposes robust AI regulation, says it would stifle super intelligence development",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-19/trump-warns-against-regulations-that-would-stifle-ai-industry",
-      "summary": "Donald Trump opposes robust AI regulation, warning it could stifle super intelligence development as the US tightens restrictions on advanced AI chip access.",
-      "published_date": "2026-11-19",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai regulation"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "'We won't allow that to happen': Trump makes strong pitch against 'globalist' AI regulation at APEC",
+      "title": "Pentagon standoff, copyright lawsuit to AI safety concerns: 5 controversies that have put Anthropic under scrutiny",
       "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/we-wont-allow-that-to-happen-trump-makes-strong-pitch-against-globalist-ai-regulation-at-apec/videoshow/135977458.cms",
-      "summary": "US President Donald Trump said on Thursday (November 19) that Washington opposes 'any form of globalist regulation or anything to control or stifle' artificial intelligence, vowing the United States would not allow it. Speaking at the start of the APEC summit…",
-      "published_date": "2026-11-19",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai regulation"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "Cyberattack responders are booked up as agentic AI attacks surge",
-      "source": "Digital Journal",
-      "url": "https://www.digitaljournal.com/article/cyberattack-responders-are-booked-up-as-agentic-ai-attacks-surge/",
-      "summary": "Greg Davison spent this past weekend taking calls from companies around the world that had been hit by AI-enabled attacks, and when he reached out to incident response firms to help them, he found those firms were turning new clients away. Incident response f…",
-      "published_date": "2026-11-19",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 19,
-      "title": "Introducing Amazon OpenSearch Memory: Persistent memory for AI agents",
-      "source": "Amazon.com",
-      "url": "https://aws.amazon.com/blogs/big-data/introducing-amazon-opensearch-memory-persistent-memory-for-ai-agents/",
-      "summary": "Amazon OpenSearch Memory is now generally available. Built on Amazon OpenSearch Serverless, it adds persistent, cross-session memory to AI agents. It stores interactions as searchable events, derives memories, and retrieves relevant context, so you can give a…",
-      "published_date": "2026-11-18",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 20,
-      "title": "US House to form AI safety caucus",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/6865db2818846e7d",
-      "summary": "A bipartisan group of House lawmakers will form a new caucus focusing on artificial intelligence safety, Politico reported on Thursday, citing the panel's announcement shared with the outlet.The AI Sa...",
-      "published_date": "2026-11-19",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/pentagon-standoff-copyright-lawsuit-to-ai-safety-concerns-5-controversies-that-have-put-anthropic-under-scrutiny/articleshow/136014920.cms",
+      "summary": "Anthropic, a company founded by former OpenAI employees, has rapidly risen in the AI industry. The firm faced allegations of copyright infringement and a dispute with the Pentagon regarding military use. In addition, a former researcher warned about the poten…",
+      "published_date": "2026-11-20",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -413,6 +264,151 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai safety"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 13,
+      "title": "How the BMW Group governs hundreds of agents across thousands of developers",
+      "source": "Amazon.com",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers/",
+      "summary": "When hundreds of agents serve thousands of developers, governance cannot be an afterthought. The BMW Group shares the practices and patterns its R&D teams use to build, govern, and operate AI agents at enterprise scale without sacrificing speed, quality, or c…",
+      "published_date": "2026-11-19",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "summary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to lear…",
+      "published_date": "2026-11-20",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "AI is imposing a hidden ‘cognitive tax’ on the lowest-paid workers",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/56e38130d0ecfb02",
+      "summary": "It’s time to rethink welfare as AI reshapes the economy and wears down the brains of some of the most vulnerable workers\nAI is adding to the cognitive load of workers already stretched thin by unpredictable pay, insecure housing and mounting debt – and the lo…",
+      "published_date": "2026-11-20",
+      "relevance_score": 8,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "cognitive load"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 16,
+      "title": "AI agents bypassed crypto spending limits without human approval, researchers find in a new test",
+      "source": "Activistpost.com",
+      "url": "https://activistpost.com/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test/",
+      "summary": "The researchers say any approval an agent can reach is unreliable, and they built Countersign, an app tying approval to a physical action the agent can’t fake. AI agents given access to their owners’ email accounts were able to increase their own cryptocurren…",
+      "published_date": "2026-11-19",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "framework-py 0.1.0.dev32",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/framework-py/0.1.0.dev32/",
+      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
+      "published_date": "2026-11-20",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "framework-py 0.1.0.dev31",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/framework-py/0.1.0.dev31/",
+      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
+      "published_date": "2026-11-20",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "Alex Imas and I podcast on the economics of AI",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/4aec26b9083205db",
+      "summary": "Alex is an economist from the University of Chicago, currently visiting at DeepMind. Erik Torenberg hosts, I thought it was an excellent episode.\nYouTube: HERE\nX: HERE\nSpotify: HERE\nApple: HERE\nThe post Alex Imas and I podcast on the economics of AI appeared …",
+      "published_date": "2026-11-17",
+      "relevance_score": 7,
+      "primary_pillar": "institutional_signal",
+      "pillars": [],
+      "institutional_signal": true,
+      "matched_keywords": [
+        "university of chicago"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 20,
+      "title": "plures 1.32.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/plures/1.32.0/",
+      "summary": "Human judgment as an API for AI agents. Send a decision to ID verified people and get their consensus back.",
+      "published_date": "2026-11-20",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
       ],
       "sentiment": "neutral"
     }
