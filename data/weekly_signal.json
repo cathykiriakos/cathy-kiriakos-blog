@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T17:00:59.589Z",
+  "generated_at": "2026-11-22T20:05:38.080Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 16
+      "item_count": 11
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 4
+      "item_count": 8
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 3
+      "item_count": 2
     }
   ],
   "institutional_signal": {
@@ -81,46 +81,6 @@
     },
     {
       "rank": 3,
-      "title": "kachedb-mcp 0.6.1",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/kachedb-mcp/0.6.1/",
-      "summary": "High-performance Model Context Protocol (MCP) server for KacheDB — in-memory cache & SIMD semantic memory for AI agents",
-      "published_date": "2026-11-21",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "model context protocol",
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 4,
-      "title": "kachedb-mcp 0.6.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/kachedb-mcp/0.6.0/",
-      "summary": "High-performance Model Context Protocol (MCP) server for KacheDB — in-memory cache & SIMD semantic memory for AI agents",
-      "published_date": "2026-11-21",
-      "relevance_score": 15,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "model context protocol",
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 5,
       "title": "Govt partners with DIL-India for governance",
       "source": "The Times of India",
       "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/govt-partners-with-dil-india-for-governance/articleshow/135975329.cms",
@@ -139,51 +99,87 @@
       "sentiment": "positive"
     },
     {
-      "rank": 6,
-      "title": "llama-index-tools-vericto 0.1.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/llama-index-tools-vericto/0.1.0/",
-      "summary": "An integration package connecting Vericto (database guardrails for AI agents) and LlamaIndex: check every SQL statement against Vericto's rules before it runs.",
+      "rank": 4,
+      "title": "What is an Agent Harness? The Agent Loop Explained | Agentic Marketing Blog",
+      "source": "Agentic-marketing.app",
+      "url": "https://agentic-marketing.app/blog/what-is-an-agent-harness-the-agent-loop-explained",
+      "summary": "A deep technical guide to agent harnesses and the agent loop — the core execution pattern powering production AI agents. Learn the architecture, failure modes, and engineering trade-offs from first principles.",
+      "published_date": "2026-11-21",
+      "relevance_score": 11,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 5,
+      "title": "HEARTBOT AI Wins Chunghwa Telecom Special Award at Meet Neo Star 2026",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/edc798208fb889cc",
+      "summary": "Named to the top 30 from more than 200 startups, AnyInsight won over judges with its zero-trust approach to AI governance\nTAIPEI, Nov. 22, 2026 /PRNewswire/ -- HEARTBOT AI has won the Chunghwa Telecom Special Award at Meet Neo Star 2026, the startup competiti…",
       "published_date": "2026-11-21",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "guardrail"
+        "ai governance",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 6,
+      "title": "control-expert-mcp 0.9.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/control-expert-mcp/0.9.2/",
+      "summary": "MCP server exposing EcoStruxure Control Expert (Unity Pro) to AI agents via the UDE COM automation API",
+      "published_date": "2026-11-21",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 7,
-      "title": "llama-index-tools-vericto added to PyPI",
+      "title": "orm-lens 1.18.2",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/llama-index-tools-vericto/",
-      "summary": "An integration package connecting Vericto (database guardrails for AI agents) and LlamaIndex: check every SQL statement against Vericto's rules before it runs.",
+      "url": "https://pypi.org/project/orm-lens/1.18.2/",
+      "summary": "Static analysis + MCP server for Django and SQLAlchemy models. ER diagrams, N+1, migration risk for Django migrations and Alembic, blast radius and schema drift for CI, terminals and AI agents. No DB, no app boot. Free and MIT.",
       "published_date": "2026-11-21",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "guardrail"
+        "MCP",
+        "ai agent"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 8,
-      "title": "aria-mcp-server 0.3.0",
+      "title": "hol-guard 3.61.0a15",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/aria-mcp-server/0.3.0/",
-      "summary": "MCP server for clinical research: PubMed, ClinicalTrials.gov and ISRCTN search for AI agents",
+      "url": "https://pypi.org/project/hol-guard/3.61.0a15/",
+      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs. It covers the agent events listed in its support matrix and does not cover actions an agent runs outside its hooks.",
       "published_date": "2026-11-21",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
@@ -199,86 +195,10 @@
     },
     {
       "rank": 9,
-      "title": "som-window-mcp 0.3.1",
+      "title": "ableton-studio-mcp 2.2.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/som-window-mcp/0.3.1/",
-      "summary": "Read-only MCP server that lets AI agents see Windows desktop UI: window list, UI Automation tree, and occlusion-proof screenshots.",
-      "published_date": "2026-11-21",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 10,
-      "title": "vinted-mcp 0.2.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/vinted-mcp/0.2.0/",
-      "summary": "MCP server for Vinted: search, item details, favourites, messages, offers, orders and listing management for AI agents. Also ships a CLI and a typed Python client.",
-      "published_date": "2026-11-21",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 11,
-      "title": "open-action-consent 0.6.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/open-action-consent/0.6.0/",
-      "summary": "Open Action Consent: a verifiable yes for actions AI agents take for people. Core SDK plus MCP, browser, approval page, OpenAI Agents, LangGraph and LiteLLM integrations.",
-      "published_date": "2026-11-21",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 12,
-      "title": "adhistory-mcp 0.11.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/adhistory-mcp/0.11.0/",
-      "summary": "MCP server for AI agents: competitor Google ads, App Store/Google Play reviews, jobs from Workday/Greenhouse/Lever/Ashby/BambooHR and remote job boards, FDA recalls, SEC EDGAR filings, journalist requests, PDF tables, bank statements, invoices, email list cle…",
-      "published_date": "2026-11-21",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 13,
-      "title": "dcert-mcp 4.0.14",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/dcert-mcp/4.0.14/",
-      "summary": "dcert-mcp is a Model Context Protocol server that gives AI assistants the dcert certificate and TLS tools.",
+      "url": "https://pypi.org/project/ableton-studio-mcp/2.2.0/",
+      "summary": "Ableton Live integration through the Model Context Protocol — AI music production: compose, arrange, mix, master and analyse in Ableton Live",
       "published_date": "2026-11-21",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
@@ -292,7 +212,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 14,
+      "rank": 10,
       "title": "Show HN: An interactive architecture diagram of your codebase and infra",
       "source": "Github.com",
       "url": "https://github.com/mrzdevcore/intent-graph",
@@ -310,7 +230,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 15,
+      "rank": 11,
       "title": "Meta’s AI agents ran over 1,000 experiments in a month but improved search by just 0.23%",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/metas-ai-agents-ran-over-1000-experiments-in-a-month-but-improved-search-by-just-0-23/",
@@ -328,7 +248,7 @@
       "sentiment": "positive"
     },
     {
-      "rank": 16,
+      "rank": 12,
       "title": "Signal slams door on prying AI agents to protect privacy",
       "source": "Theregister.com",
       "url": "https://www.theregister.com/security/2026/11/20/signal-slams-door-on-prying-ai-agents-to-protect-privacy/5311466",
@@ -346,7 +266,7 @@
       "sentiment": "negative"
     },
     {
-      "rank": 17,
+      "rank": 13,
       "title": "Signal Is Blocking Screenshots to Protect Your Messages from AI Agents",
       "source": "CNET",
       "url": "https://www.cnet.com/tech/services-and-software/signal-text-message-screenshots/",
@@ -364,7 +284,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 18,
+      "rank": 14,
       "title": "Signal to restrict screenshots over AI agent concerns – again",
       "source": "ZDNet",
       "url": "https://www.zdnet.com/innovation/signal-restricts-screenshots-over-ai-agent-concerns/",
@@ -382,7 +302,7 @@
       "sentiment": "negative"
     },
     {
-      "rank": 19,
+      "rank": 15,
       "title": "Signal is blocking Gemini and Siri AI from reading your screen",
       "source": "The Verge",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
@@ -401,20 +321,92 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 20,
-      "title": "AI is imposing a hidden ‘cognitive tax’ on the lowest-paid workers",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/56e38130d0ecfb02",
-      "summary": "It’s time to rethink welfare as AI reshapes the economy and wears down the brains of some of the most vulnerable workers\nAI is adding to the cognitive load of workers already stretched thin by unpredictable pay, insecure housing and mounting debt – and the lo…",
-      "published_date": "2026-11-20",
-      "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
+      "rank": 16,
+      "title": "framework-py 0.1.0.dev38",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/framework-py/0.1.0.dev38/",
+      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
+      "published_date": "2026-11-21",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "human_centric_design"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "cognitive load"
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "framework-py 0.1.0.dev37",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/framework-py/0.1.0.dev37/",
+      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
+      "published_date": "2026-11-21",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "framework-py 0.1.0.dev36",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/framework-py/0.1.0.dev36/",
+      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
+      "published_date": "2026-11-21",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "framework-py 0.1.0.dev35",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/framework-py/0.1.0.dev35/",
+      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
+      "published_date": "2026-11-21",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 20,
+      "title": "framework-py 0.1.0.dev34",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/framework-py/0.1.0.dev34/",
+      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
+      "published_date": "2026-11-21",
+      "relevance_score": 7,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail"
       ],
       "sentiment": "neutral"
     }
