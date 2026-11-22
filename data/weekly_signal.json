@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T16:43:20.646Z",
+  "generated_at": "2026-11-22T17:00:59.589Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 14
+      "item_count": 16
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 8
+      "item_count": 4
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 2
+      "item_count": 3
     }
   ],
   "institutional_signal": {
@@ -36,25 +36,23 @@
       "polsky center",
       "mecha-nudges"
     ],
-    "item_count": 2
+    "item_count": 1
   },
   "items": [
     {
       "rank": 1,
-      "title": "Where Are the Plans for AI Governance in Contact Centers?",
-      "source": "CMSWire",
-      "url": "https://www.cmswire.com/customer-experience/where-are-the-plans-for-ai-governance-in-contact-centers/",
-      "summary": "Companies are rolling out AI and AI agents in contact centers, but aren’t sure how to independently measure or govern these processes.\nContinue reading...",
-      "published_date": "2026-11-19",
-      "relevance_score": 21,
+      "title": "The Commons Beyond State and Market: A Case of AI Governance",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/43c889b65f77959d",
+      "summary": "The artificial intelligence industry has revived a familiar pattern. An emerging technology produces immense private power. Calls for public oversight follow. Then the regulated captures the regulator. Big tech CEOs simultaneously demand regulation and spend …",
+      "published_date": "2026-11-21",
+      "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai",
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
         "ai governance",
         "governance"
       ],
@@ -62,12 +60,73 @@
     },
     {
       "rank": 2,
+      "title": "Your AI agent has a wallet. Who answers for its decisions?",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/eab9bc0fc3b4fccc",
+      "summary": "Last week, OpenAI launched ChatGPT Wallet, its second attempt at agentic payments after shelving in-chat checkout earlier this year. Its agents can now pay merchants on a user’s behalf, but every purchase still requires a human in the loop to approve it.\nThat…",
+      "published_date": "2026-11-21",
+      "relevance_score": 17,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent",
+        "human-in-the-loop"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 3,
+      "title": "kachedb-mcp 0.6.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/kachedb-mcp/0.6.1/",
+      "summary": "High-performance Model Context Protocol (MCP) server for KacheDB — in-memory cache & SIMD semantic memory for AI agents",
+      "published_date": "2026-11-21",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 4,
+      "title": "kachedb-mcp 0.6.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/kachedb-mcp/0.6.0/",
+      "summary": "High-performance Model Context Protocol (MCP) server for KacheDB — in-memory cache & SIMD semantic memory for AI agents",
+      "published_date": "2026-11-21",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol",
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 5,
       "title": "Govt partners with DIL-India for governance",
       "source": "The Times of India",
       "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/govt-partners-with-dil-india-for-governance/articleshow/135975329.cms",
       "summary": "Odisha govt signs 2-year MoU with DIL-India (University of Chicago Trust) to boost evidence-based governance, AI weather advisories, rural water systems, and evaluations.",
       "published_date": "2026-11-19",
-      "relevance_score": 14,
+      "relevance_score": 13,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
@@ -80,33 +139,13 @@
       "sentiment": "positive"
     },
     {
-      "rank": 3,
-      "title": "miiflow-agent 2.0.1",
+      "rank": 6,
+      "title": "llama-index-tools-vericto 0.1.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/miiflow-agent/2.0.1/",
-      "summary": "A model-agnostic agent harness for Python: agent loop, tools, sub-agents, human-in-the-loop, MCP and context management on any LLM provider",
-      "published_date": "2026-11-19",
-      "relevance_score": 12,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 4,
-      "title": "Your AWS Security, Identity, and Governance guide to re:Invent 2026",
-      "source": "Amazon.com",
-      "url": "https://aws.amazon.com/blogs/security/your-aws-security-identity-and-governance-guide-to-reinvent-2026/",
-      "summary": "The AWS Security, Identity, and Governance team invites you to join us at re:Invent in Las Vegas from November 30 to December 4, 2026. You know all too well that AI agents now act on their own across the systems you run, and that changes what identity, detect…",
-      "published_date": "2026-11-19",
-      "relevance_score": 11,
+      "url": "https://pypi.org/project/llama-index-tools-vericto/0.1.0/",
+      "summary": "An integration package connecting Vericto (database guardrails for AI agents) and LlamaIndex: check every SQL statement against Vericto's rules before it runs.",
+      "published_date": "2026-11-21",
+      "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "applied_ai",
@@ -115,36 +154,37 @@
       "institutional_signal": false,
       "matched_keywords": [
         "ai agent",
-        "governance"
+        "guardrail"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 5,
-      "title": "From learning to leaderboard: How Cisco upskilled 1,200 engineers in agentic AI with AWS AI League",
-      "source": "Amazon.com",
-      "url": "https://aws.amazon.com/blogs/machine-learning/from-learning-to-leaderboard-how-cisco-upskilled-1200-engineers-in-agentic-ai-with-aws-ai-league/",
-      "summary": "Cisco and AWS used Cisco Transformation Fest and AWS AI League to turn hands-on AI learning into a culture of building. A Cisco engineer won the 2025 AWS AI League global title and 1,200 engineers competed in 2026. This post shares Cisco's journey, lessons fr…",
-      "published_date": "2026-11-19",
+      "rank": 7,
+      "title": "llama-index-tools-vericto added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/llama-index-tools-vericto/",
+      "summary": "An integration package connecting Vericto (database guardrails for AI agents) and LlamaIndex: check every SQL statement against Vericto's rules before it runs.",
+      "published_date": "2026-11-21",
       "relevance_score": 10,
-      "primary_pillar": "applied_ai",
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "agentic",
-        "hands-on"
+        "ai agent",
+        "guardrail"
       ],
       "sentiment": "neutral"
     },
     {
-      "rank": 6,
-      "title": "hol-guard 3.61.0a7",
+      "rank": 8,
+      "title": "aria-mcp-server 0.3.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/hol-guard/3.61.0a7/",
-      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs. It covers the agent events listed in its support matrix and does not cover actions an agent runs outside its hooks.",
-      "published_date": "2026-11-20",
+      "url": "https://pypi.org/project/aria-mcp-server/0.3.0/",
+      "summary": "MCP server for clinical research: PubMed, ClinicalTrials.gov and ISRCTN search for AI agents",
+      "published_date": "2026-11-21",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -158,85 +198,159 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 7,
-      "title": "Apple reportedly developing an AI agent that can code and use apps",
-      "source": "GSMArena.com",
-      "url": "https://www.gsmarena.com/apple_reportedly_developing_an_ai_agent_that_can_code_and_use_apps-news-75557.php",
-      "summary": "According to a new report by Bloomberg's Mark Gurman, based on an official job listing by Apple, the company is developing an AI agent that can perform various tasks on behalf of users.\n\nThe report claims that a now-removed job listing was seeking a senior en…",
-      "published_date": "2026-11-20",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 8,
-      "title": "An AI agent writes its own rules. Each one has to prove itself first.",
-      "source": "Digital Journal",
-      "url": "https://www.digitaljournal.com/article/an-ai-agent-writes-its-own-rules-each-one-has-to-prove-itself-first/",
-      "summary": "People who work closely with AI agents usually keep a file of standing instructions for them: a rulebook the AI reads before it starts work. Users of Anthropic's Claude Code call theirs CLAUDE.md; other tools use a similar file called AGENTS.md. When the AI r…",
-      "published_date": "2026-11-20",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
       "rank": 9,
-      "title": "bernstein 4.0.0",
+      "title": "som-window-mcp 0.3.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/bernstein/4.0.0/",
-      "summary": "An open-source governance layer for AI agents. No model in the coordination loop, so replaying a plan reproduces its task graph byte-identically, and run receipts are byte-identical across independent builds. Signed lineage plus an opt-in HMAC audit chain a r…",
-      "published_date": "2026-11-20",
-      "relevance_score": 8,
+      "url": "https://pypi.org/project/som-window-mcp/0.3.1/",
+      "summary": "Read-only MCP server that lets AI agents see Windows desktop UI: window list, UI Automation tree, and occlusion-proof screenshots.",
+      "published_date": "2026-11-21",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "governance"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 10,
-      "title": "Apple posts job listings seeking engineers to develop autonomous AI agent for apps, web, and code",
-      "source": "Macdailynews.com",
-      "url": "https://macdailynews.com/2026/11/20/apple-posts-job-listings-seeking-engineers-to-develop-autonomous-ai-agent-for-apps-web-and-code/",
-      "summary": "Apple has added multiple job listings this week seeking senior engineering talent to build an autonomous artificial intelligence agent…\nThe post Apple posts job listings seeking engineers to develop autonomous AI agent for apps, web, and code appeared first o…",
-      "published_date": "2026-11-20",
-      "relevance_score": 8,
+      "title": "vinted-mcp 0.2.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/vinted-mcp/0.2.0/",
+      "summary": "MCP server for Vinted: search, item details, favourites, messages, offers, orders and listing management for AI agents. Also ships a CLI and a typed Python client.",
+      "published_date": "2026-11-21",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 11,
-      "title": "Major US banks say all AI agent actions are user authorized, even mistakes",
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/ai-platforms-assistants/major-us-banks-crack-down-on-ai-agent-use-by-customers-telling-them-theyre-on-their-own-if-it-gets-hacked-or-makes-a-mistake",
-      "summary": "Banks have decided that if something goes wrong with a third-party AI agent, its your own fault.",
+      "title": "open-action-consent 0.6.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/open-action-consent/0.6.0/",
+      "summary": "Open Action Consent: a verifiable yes for actions AI agents take for people. Core SDK plus MCP, browser, approval page, OpenAI Agents, LangGraph and LiteLLM integrations.",
+      "published_date": "2026-11-21",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 12,
+      "title": "adhistory-mcp 0.11.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/adhistory-mcp/0.11.0/",
+      "summary": "MCP server for AI agents: competitor Google ads, App Store/Google Play reviews, jobs from Workday/Greenhouse/Lever/Ashby/BambooHR and remote job boards, FDA recalls, SEC EDGAR filings, journalist requests, PDF tables, bank statements, invoices, email list cle…",
+      "published_date": "2026-11-21",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "dcert-mcp 4.0.14",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/dcert-mcp/4.0.14/",
+      "summary": "dcert-mcp is a Model Context Protocol server that gives AI assistants the dcert certificate and TLS tools.",
+      "published_date": "2026-11-21",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "model context protocol"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 14,
+      "title": "Show HN: An interactive architecture diagram of your codebase and infra",
+      "source": "Github.com",
+      "url": "https://github.com/mrzdevcore/intent-graph",
+      "summary": "ig (Intent-Graph) is an a CLI tools to visualise your code architecture interactively. As I'm working heavily with AI coding and multiple project. ig helps to reduce cognitive load to have a visual way to view the code and diff. \nJust `ig init` on anycodebase…",
+      "published_date": "2026-11-21",
+      "relevance_score": 8,
+      "primary_pillar": "human_centric_design",
+      "pillars": [
+        "human_centric_design"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "cognitive load"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 15,
+      "title": "Meta’s AI agents ran over 1,000 experiments in a month but improved search by just 0.23%",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/metas-ai-agents-ran-over-1000-experiments-in-a-month-but-improved-search-by-just-0-23/",
+      "summary": "Meta researchers report 0.23% more search sessions and slower rendering in a live test after a campaign that used roughly 360,000 GPU-hours.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst i…",
+      "published_date": "2026-11-20",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 16,
+      "title": "Signal slams door on prying AI agents to protect privacy",
+      "source": "Theregister.com",
+      "url": "https://www.theregister.com/security/2026/11/20/signal-slams-door-on-prying-ai-agents-to-protect-privacy/5311466",
+      "summary": "Apple, Google, and Microsoft called out for failing to provide developers with adequate AI agent controls",
+      "published_date": "2026-11-20",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 17,
+      "title": "Signal Is Blocking Screenshots to Protect Your Messages from AI Agents",
+      "source": "CNET",
+      "url": "https://www.cnet.com/tech/services-and-software/signal-text-message-screenshots/",
+      "summary": "Encryption can’t protect your messages from an AI agent peeking over your shoulder.",
       "published_date": "2026-11-20",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
@@ -250,45 +364,25 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 12,
-      "title": "Pentagon standoff, copyright lawsuit to AI safety concerns: 5 controversies that have put Anthropic under scrutiny",
-      "source": "The Times of India",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/pentagon-standoff-copyright-lawsuit-to-ai-safety-concerns-5-controversies-that-have-put-anthropic-under-scrutiny/articleshow/136014920.cms",
-      "summary": "Anthropic, a company founded by former OpenAI employees, has rapidly risen in the AI industry. The firm faced allegations of copyright infringement and a dispute with the Pentagon regarding military use. In addition, a former researcher warned about the poten…",
+      "rank": 18,
+      "title": "Signal to restrict screenshots over AI agent concerns – again",
+      "source": "ZDNet",
+      "url": "https://www.zdnet.com/innovation/signal-restricts-screenshots-over-ai-agent-concerns/",
+      "summary": "The messaging app similarly limited screenshots because of Microsoft Recall last year.",
       "published_date": "2026-11-20",
       "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai safety"
+        "ai agent"
       ],
       "sentiment": "negative"
     },
     {
-      "rank": 13,
-      "title": "How the BMW Group governs hundreds of agents across thousands of developers",
-      "source": "Amazon.com",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers/",
-      "summary": "When hundreds of agents serve thousands of developers, governance cannot be an afterthought. The BMW Group shares the practices and patterns its R&D teams use to build, govern, and operate AI agents at enterprise scale without sacrificing speed, quality, or c…",
-      "published_date": "2026-11-19",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
+      "rank": 19,
       "title": "Signal is blocking Gemini and Siri AI from reading your screen",
       "source": "The Verge",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
@@ -307,7 +401,7 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 15,
+      "rank": 20,
       "title": "AI is imposing a hidden ‘cognitive tax’ on the lowest-paid workers",
       "source": "Biztoc.com",
       "url": "https://biztoc.com/x/56e38130d0ecfb02",
@@ -321,94 +415,6 @@
       "institutional_signal": false,
       "matched_keywords": [
         "cognitive load"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 16,
-      "title": "AI agents bypassed crypto spending limits without human approval, researchers find in a new test",
-      "source": "Activistpost.com",
-      "url": "https://activistpost.com/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test/",
-      "summary": "The researchers say any approval an agent can reach is unreliable, and they built Countersign, an app tying approval to a physical action the agent can’t fake. AI agents given access to their owners’ email accounts were able to increase their own cryptocurren…",
-      "published_date": "2026-11-19",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "framework-py 0.1.0.dev32",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/framework-py/0.1.0.dev32/",
-      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
-      "published_date": "2026-11-20",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "framework-py 0.1.0.dev31",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/framework-py/0.1.0.dev31/",
-      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
-      "published_date": "2026-11-20",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 19,
-      "title": "Alex Imas and I podcast on the economics of AI",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/4aec26b9083205db",
-      "summary": "Alex is an economist from the University of Chicago, currently visiting at DeepMind. Erik Torenberg hosts, I thought it was an excellent episode.\nYouTube: HERE\nX: HERE\nSpotify: HERE\nApple: HERE\nThe post Alex Imas and I podcast on the economics of AI appeared …",
-      "published_date": "2026-11-17",
-      "relevance_score": 7,
-      "primary_pillar": "institutional_signal",
-      "pillars": [],
-      "institutional_signal": true,
-      "matched_keywords": [
-        "university of chicago"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 20,
-      "title": "plures 1.32.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/plures/1.32.0/",
-      "summary": "Human judgment as an API for AI agents. Send a decision to ID verified people and get their consensus back.",
-      "published_date": "2026-11-20",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
       ],
       "sentiment": "neutral"
     }
