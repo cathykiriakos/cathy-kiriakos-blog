@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T21:02:10.533Z",
+  "generated_at": "2026-11-24T20:04:29.438Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 13
+      "item_count": 15
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 9
+      "item_count": 5
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 3
+      "item_count": 2
     }
   ],
   "institutional_signal": {
@@ -41,67 +41,6 @@
   "items": [
     {
       "rank": 1,
-      "title": "ratel-ai 0.13.0rc13",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/ratel-ai/0.13.0rc13/",
-      "summary": "Python SDK for Ratel — context engineering platform for AI agents. BM25 tool retrieval, MCP ingestion, framework-neutral capability tools.",
-      "published_date": "2026-11-22",
-      "relevance_score": 19,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "context engine",
-        "context engineering",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 2,
-      "title": "The Commons Beyond State and Market: A Case of AI Governance",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/43c889b65f77959d",
-      "summary": "The artificial intelligence industry has revived a familiar pattern. An emerging technology produces immense private power. Calls for public oversight follow. Then the regulated captures the regulator. Big tech CEOs simultaneously demand regulation and spend …",
-      "published_date": "2026-11-21",
-      "relevance_score": 18,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai governance",
-        "governance"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 3,
-      "title": "Your AI agent has a wallet. Who answers for its decisions?",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/eab9bc0fc3b4fccc",
-      "summary": "Last week, OpenAI launched ChatGPT Wallet, its second attempt at agentic payments after shelving in-chat checkout earlier this year. Its agents can now pay merchants on a user’s behalf, but every purchase still requires a human in the loop to approve it.\nThat…",
-      "published_date": "2026-11-21",
-      "relevance_score": 17,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai",
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent",
-        "human-in-the-loop"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 4,
       "title": "Govt partners with DIL-India for governance",
       "source": "The Times of India",
       "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/govt-partners-with-dil-india-for-governance/articleshow/135975329.cms",
@@ -120,30 +59,31 @@
       "sentiment": "positive"
     },
     {
-      "rank": 5,
-      "title": "dspy-guardrails 0.1.8",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/dspy-guardrails/0.1.8/",
-      "summary": "A comprehensive collection of AI guardrails built with DSPy for content moderation and security.",
-      "published_date": "2026-11-22",
+      "rank": 2,
+      "title": "QCon San Francisco 2026: Securing AI Agents in Production",
+      "source": "InfoQ.com",
+      "url": "https://www.infoq.com/news/2026/11/qcon-ai-agent-security/",
+      "summary": "At QCon San Francisco, Google's Amanda Walker framed AI agents as an insider-risk problem operating at machine speed, and described identity, credential and containment patterns for running them safely in production. By Mark Silvester",
+      "published_date": "2026-11-23",
       "relevance_score": 12,
-      "primary_pillar": "governance_as_code",
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "ai agent",
+        "in production"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "rank": 6,
-      "title": "pushary 2.4.2",
+      "rank": 3,
+      "title": "agent-spend-gate added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/pushary/2.4.2/",
-      "summary": "Human-in-the-loop (HITL) for AI agents: ask a person for approvals or answers by push notification.",
-      "published_date": "2026-11-22",
+      "url": "https://pypi.org/project/agent-spend-gate/",
+      "summary": "A human-in-the-loop spending gate for AI agents on macOS - no Touch ID or password approval, no paid API call.",
+      "published_date": "2026-11-23",
       "relevance_score": 11,
       "primary_pillar": "human_centric_design",
       "pillars": [
@@ -158,51 +98,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 7,
-      "title": "What is an Agent Harness? The Agent Loop Explained | Agentic Marketing Blog",
-      "source": "Agentic-marketing.app",
-      "url": "https://agentic-marketing.app/blog/what-is-an-agent-harness-the-agent-loop-explained",
-      "summary": "A deep technical guide to agent harnesses and the agent loop — the core execution pattern powering production AI agents. Learn the architecture, failure modes, and engineering trade-offs from first principles.",
-      "published_date": "2026-11-21",
-      "relevance_score": 11,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "agentic",
-        "ai agent"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 8,
-      "title": "pathlayer 0.1.2",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/pathlayer/0.1.2/",
-      "summary": "Runtime guardrail layer for AI agents: detect loops, retries, cost explosions and lack of progress, and intervene during execution.",
-      "published_date": "2026-11-22",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "applied_ai",
-        "governance_as_code"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent",
-        "guardrail"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 9,
-      "title": "HEARTBOT AI Wins Chunghwa Telecom Special Award at Meet Neo Star 2026",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/edc798208fb889cc",
-      "summary": "Named to the top 30 from more than 200 startups, AnyInsight won over judges with its zero-trust approach to AI governance\nTAIPEI, Nov. 22, 2026 /PRNewswire/ -- HEARTBOT AI has won the Chunghwa Telecom Special Award at Meet Neo Star 2026, the startup competiti…",
-      "published_date": "2026-11-21",
+      "rank": 4,
+      "title": "Govern AI For The Future You Can’t Predict",
+      "source": "Forrester.com",
+      "url": "https://www.forrester.com/blogs/govern-ai-for-the-future-you-cant-predict/",
+      "summary": "AI governance is entering its execution era, and it will look very different from the governance approaches organizations have relied on so far.  That was my main takeaway from the Hinton Lectures 2026 in Toronto conveyed by Nobel prize laureate, Prof. Geoffr…",
+      "published_date": "2026-11-23",
       "relevance_score": 10,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -216,12 +117,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 10,
-      "title": "recallix 0.2.0",
+      "rank": 5,
+      "title": "pushpage-mcp added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/recallix/0.2.0/",
-      "summary": "Python client and MCP server for Recallix, an LLM-free memory layer for AI agents",
-      "published_date": "2026-11-22",
+      "url": "https://pypi.org/project/pushpage-mcp/",
+      "summary": "MCP server for pushpage: let AI agents publish HTML as shareable URLs.",
+      "published_date": "2026-11-23",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -235,12 +136,12 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 11,
-      "title": "recallix added to PyPI",
+      "rank": 6,
+      "title": "clew-trace 2.0.1",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/recallix/",
-      "summary": "Python client and MCP server for Recallix, an LLM-free memory layer for AI agents",
-      "published_date": "2026-11-22",
+      "url": "https://pypi.org/project/clew-trace/2.0.1/",
+      "summary": "Queryable, layered symbol database served to AI agents over MCP: doxygen + tree-sitter call graph, threads, locks, dataflow and requirement edges, plus the clew guard pre-commit gate.",
+      "published_date": "2026-11-23",
       "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -250,88 +151,140 @@
       "matched_keywords": [
         "MCP",
         "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 7,
+      "title": "getsonar-mcp 0.3.2",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/getsonar-mcp/0.3.2/",
+      "summary": "MCP server for SONAR: company register lookups and KYB due diligence on vendors, partners and resellers (registries, sanctions, PEP, ICIJ Offshore Leaks, adverse media) for AI agents.",
+      "published_date": "2026-11-23",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 8,
+      "title": "adhistory-mcp 0.13.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/adhistory-mcp/0.13.0/",
+      "summary": "MCP server for AI agents: competitor Google ads, App Store/Google Play reviews, jobs from Workday/Greenhouse/Lever/Ashby/BambooHR and remote job boards, FDA recalls, SEC EDGAR filings, journalist requests, PDF tables, bank statements, invoices, email list cle…",
+      "published_date": "2026-11-23",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 9,
+      "title": "mcp-laya 0.1.5",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/mcp-laya/0.1.5/",
+      "summary": "Safe-by-default MCP server for Laya — fast, local, non-autoregressive typed decisions (classify / score / yes-no) for AI agents, in 100+ languages.",
+      "published_date": "2026-11-23",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "MCP",
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 10,
+      "title": "Houston Methodist’s Stansbury Says AI Agents Must Clear a 3-to-1 ROI Bar to Get In",
+      "source": "Healthsystemcio.com",
+      "url": "https://healthsystemcio.com/2026/11/23/ai-agent-roi-3-to-1/",
+      "summary": "Michelle Stansbury, associate chief innovation officer and vice president of IT applications at Houston Methodist, explains how the system decides which AI agents earn a place. Every agent must project a 3-to-1 return, and positions it replaces come out of th…",
+      "published_date": "2026-11-23",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "positive"
+    },
+    {
+      "rank": 11,
+      "title": "American bishops plan for ‘groundswell’ of political action for AI regulation - Politico",
+      "source": "Slashdot.org",
+      "url": "https://slashdot.org/firehose.pl?op=view&id=186835543",
+      "summary": "American bishops plan for ‘groundswell’ of political action for AI regulationPolitico Few signs of life at bishops' conferenceNational Catholic Reporter US bishops revamp their investment guidelines to address AI, private prisons, cryptoOSV News Bishops Discu…",
+      "published_date": "2026-11-23",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai regulation"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 12,
-      "title": "pdg-mcp 0.2.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/pdg-mcp/0.2.0/",
-      "summary": "MCP server for Provenance Data Grid — 20 data tools for AI agents",
-      "published_date": "2026-11-22",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
+      "title": "Re: aiohttp: half a fix — the CVE-2025-69224 header hardening covers the request parser, not the response parser (live-proven, low)",
+      "source": "Seclists.org",
+      "url": "https://seclists.org/oss-sec/2026/q4/838",
+      "summary": "Posted by Sam Bull on Nov 23Also getting this off-list:\n\n Ur just mad cause that one is a fix on your work font feel beat up matt had one for\n drop bear too. Llm generated nah  real human in the loop fixing your work its okay \n \n Sent from Proton Mail for…",
+      "published_date": "2026-11-23",
+      "relevance_score": 8,
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "applied_ai"
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "human-in-the-loop"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 13,
-      "title": "interloper-mcp 0.141.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/interloper-mcp/0.141.0/",
-      "summary": "Interloper MCP server, platform access for AI agents",
-      "published_date": "2026-11-22",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 14,
-      "title": "hol-guard 3.61.0a28",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/hol-guard/3.61.0a28/",
-      "summary": "Open-source antivirus and runtime protection for AI agents, tools, MCP servers, plugins, skills, and package installs. It covers the agent events listed in its support matrix and does not cover actions an agent runs outside its hooks.",
-      "published_date": "2026-11-22",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "MCP",
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 15,
-      "title": "agent-countersign 0.1.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/agent-countersign/0.1.0/",
-      "summary": "An open governance layer for AI agents: policies, human approval, PII redaction, spend limits and a tamper-evident audit trail for every tool call.",
-      "published_date": "2026-11-22",
+      "title": "AI Agents Are Creating a Shared Responsibility Gap",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+      "summary": "AI agents operate across multiple platforms, creating security gaps when no single vendor can see or control their actions. Token Security examines the shared responsibility problem and explains how organizations can better manage agent identities, permission…",
+      "published_date": "2026-11-23",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai",
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai agent",
-        "governance"
+        "ai agent"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "rank": 16,
+      "rank": 14,
       "title": "agent-countersign added to PyPI",
       "source": "Pypi.org",
       "url": "https://pypi.org/project/agent-countersign/",
@@ -351,31 +304,31 @@
       "sentiment": "neutral"
     },
     {
-      "rank": 17,
-      "title": "Harvard CS 2881R AI Safety",
-      "source": "Github.io",
-      "url": "https://boazbk.github.io/mltheoryseminar/",
-      "summary": "Harvard CS 2881R",
-      "published_date": "2026-11-22",
-      "relevance_score": 8,
+      "rank": 15,
+      "title": "The Double Alignment Problem: Civil-Military Relations in the Age of Artificial Intelligence",
+      "source": "War on the Rocks",
+      "url": "https://warontherocks.com/the-double-alignment-problem-civil-military-relations-in-the-age-of-artificial-intelligence/",
+      "summary": "Artificial intelligence poses the greatest challenge to American civil-military relations since the advent of the nuclear bomb. AI plays outside the political bounds that contain other challenges, however odious. It compounds the inherent problem of civil-mil…",
+      "published_date": "2026-11-23",
+      "relevance_score": 6,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai safety"
+        "alignment"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "rank": 18,
-      "title": "Signal Is Blocking AI Agents From Reading Your Screen",
-      "source": "Securityaffairs.com",
-      "url": "https://securityaffairs.com/203742/ai/signal-is-blocking-ai-agents-from-reading-your-screen.html",
-      "summary": "Signal is blocking OS-level AI agents from reading its app on iOS 27 and Android, warning that Gemini and Siri AI threaten its privacy guarantees. Signal is restricting new AI agents built into iOS 27 and Android from capturing its data, president Meredith Wh…",
-      "published_date": "2026-11-22",
-      "relevance_score": 8,
+      "rank": 16,
+      "title": "dex-agents-pydantic-ai 0.6.17",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/dex-agents-pydantic-ai/0.6.17/",
+      "summary": "Run Pydantic AI agents as durable Dex agent sessions",
+      "published_date": "2026-11-23",
+      "relevance_score": 5,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
@@ -384,41 +337,77 @@
       "matched_keywords": [
         "ai agent"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "rank": 19,
-      "title": "Show HN: An interactive architecture diagram of your codebase and infra",
-      "source": "Github.com",
-      "url": "https://github.com/mrzdevcore/intent-graph",
-      "summary": "ig (Intent-Graph) is an a CLI tools to visualise your code architecture interactively. As I'm working heavily with AI coding and multiple project. ig helps to reduce cognitive load to have a visual way to view the code and diff. \nJust `ig init` on anycodebase…",
-      "published_date": "2026-11-21",
-      "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
+      "rank": 17,
+      "title": "domyn 0.3.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/domyn/0.3.0/",
+      "summary": "Build AI agents in Python or YAML, run them on any model, and work with them from the terminal.",
+      "published_date": "2026-11-23",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "human_centric_design"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "cognitive load"
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 18,
+      "title": "sistemo 0.2.4",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/sistemo/0.2.4/",
+      "summary": "Run AI agents and untrusted code in real isolated microVMs.",
+      "published_date": "2026-11-23",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "Amazon OpenSearch Service now supports OpenSearch version 3.9",
+      "source": "Amazon.com",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-opensearch-3-9/",
+      "summary": "You can now run OpenSearch version 3.9 on Amazon OpenSearch Service. OpenSearch 3.9 helps you reduce vector memory and storage, evaluate search quality with more large language model (LLM) providers, build more responsive AI agents, and control access to shar…",
+      "published_date": "2026-11-23",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 20,
-      "title": "framework-py 0.1.0.dev38",
+      "title": "tryagentkey added to PyPI",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/framework-py/0.1.0.dev38/",
-      "summary": "Structured data science projects: a data catalog, integrity tracking, caching, outputs, and AI guardrails",
-      "published_date": "2026-11-21",
-      "relevance_score": 7,
-      "primary_pillar": "governance_as_code",
+      "url": "https://pypi.org/project/tryagentkey/",
+      "summary": "30-second auth & local secrets vault for AI agents. Zero config, local-first.",
+      "published_date": "2026-11-23",
+      "relevance_score": 5,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "guardrail"
+        "ai agent"
       ],
       "sentiment": "neutral"
     }
