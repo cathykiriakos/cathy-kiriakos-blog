@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T19:04:27.143Z",
+  "generated_at": "2026-11-26T18:56:17.476Z",
   "window_days": 7,
   "item_count": 20,
   "pillars": [
@@ -7,19 +7,19 @@
       "id": "applied_ai",
       "name": "Applied AI",
       "description": "Hands-on implementation, Model Context Protocol (MCP), context engines, and orchestration.",
-      "item_count": 11
+      "item_count": 12
     },
     {
       "id": "governance_as_code",
       "name": "Governance-as-Code",
       "description": "Deploying programmatic, agentic constraints for AI at scale, guardrails, and automated compliance.",
-      "item_count": 7
+      "item_count": 9
     },
     {
       "id": "human_centric_design",
       "name": "Human-Centric Design",
       "description": "UX for AI, cognitive load protection, and human-in-the-loop systems.",
-      "item_count": 2
+      "item_count": 4
     }
   ],
   "institutional_signal": {
@@ -36,241 +36,220 @@
       "polsky center",
       "mecha-nudges"
     ],
-    "item_count": 1
+    "item_count": 0
   },
   "items": [
     {
       "rank": 1,
-      "title": "Simplifying agent access while keeping organizations in control: MCP servers, CLI, standardized usage tiers, and admin policies",
-      "source": "Googleblog.com",
-      "url": "http://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html",
-      "summary": "As AI agents transform how people work, we want to make it simple for developers to build agentic workflows while keeping organizations in control of their data in Google Workspace. We are making Wor…",
-      "published_date": "2026-11-24",
-      "relevance_score": 16,
-      "primary_pillar": "applied_ai",
+      "title": "aigis-cli 3.1.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/aigis-cli/3.1.0/",
+      "summary": "AI governance guardrails for coding agents. Framework-aligned security and compliance patterns from NIST AI RMF, OWASP Top 10 for LLMs, and ISO/IEC 42001.",
+      "published_date": "2026-11-25",
+      "relevance_score": 18,
+      "primary_pillar": "governance_as_code",
       "pillars": [
-        "applied_ai"
+        "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "agentic",
-        "ai agent"
+        "guardrail",
+        "ai governance",
+        "governance",
+        "compliance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 2,
-      "title": "Govt partners with DIL-India for governance",
-      "source": "The Times of India",
-      "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/govt-partners-with-dil-india-for-governance/articleshow/135975329.cms",
-      "summary": "Odisha govt signs 2-year MoU with DIL-India (University of Chicago Trust) to boost evidence-based governance, AI weather advisories, rural water systems, and evaluations.",
-      "published_date": "2026-11-19",
-      "relevance_score": 13,
-      "primary_pillar": "governance_as_code",
-      "pillars": [
-        "governance_as_code"
-      ],
-      "institutional_signal": true,
-      "matched_keywords": [
-        "governance",
-        "university of chicago"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 3,
-      "title": "FROM FIDUCIARY DUTY TO AI AND DEFENCE, NEW RESEARCH REVEALS THE DECISIONS SHAPING RESPONSIBLE INVESTING IN CANADA",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/1f3162ab87694071",
-      "summary": "Survey of Canadian institutional investors finds more respondents linking responsible investment to fiduciary duty, AI governance policies taking shape",
-      "published_date": "2026-11-24",
-      "relevance_score": 10,
+      "title": "aigis-cli 3.0.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/aigis-cli/3.0.1/",
+      "summary": "AI governance guardrails for coding agents. Framework-aligned security and compliance patterns from NIST AI RMF, OWASP Top 10 for LLMs, and ISO/IEC 42001.",
+      "published_date": "2026-11-25",
+      "relevance_score": 18,
       "primary_pillar": "governance_as_code",
       "pillars": [
         "governance_as_code"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "guardrail",
         "ai governance",
-        "governance"
+        "governance",
+        "compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 3,
+      "title": "aigis-cli 3.0.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/aigis-cli/3.0.0/",
+      "summary": "AI governance guardrails for coding agents. Framework-aligned security and compliance patterns from NIST AI RMF, OWASP Top 10 for LLMs, and ISO/IEC 42001.",
+      "published_date": "2026-11-25",
+      "relevance_score": 18,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "guardrail",
+        "ai governance",
+        "governance",
+        "compliance"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 4,
-      "title": "coalex 1.51.6",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/coalex/1.51.6/",
-      "summary": "Coalex Python SDK for AI governance observability",
-      "published_date": "2026-11-24",
-      "relevance_score": 10,
+      "title": "Anthropic CEO Dario Amodei warns against handing governance to AI",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/anthropic-dario-amodei-ai-governance-warning/",
+      "summary": "Amodei's caution highlights the need for careful AI governance, emphasizing human oversight to prevent potential misuse and ethical dilemmas.\nThe post Anthropic CEO Dario Amodei warns against handing governance to AI appeared first on Crypto Briefing.",
+      "published_date": "2026-11-25",
+      "relevance_score": 16,
       "primary_pillar": "governance_as_code",
       "pillars": [
-        "governance_as_code"
+        "governance_as_code",
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
         "ai governance",
-        "governance"
+        "governance",
+        "human oversight"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 5,
-      "title": "UN chief Guterres calls for a global AI risk framework within a year",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/un-guterres-global-ai-risk-framework/",
-      "summary": "A global AI risk framework could accelerate international cooperation, ensuring equitable AI governance and addressing rapid technological advances.\nThe post UN chief Guterres calls for a global AI risk framework within a year appeared first on Crypto Briefin…",
-      "published_date": "2026-11-24",
-      "relevance_score": 10,
-      "primary_pillar": "governance_as_code",
+      "title": "windows-control-center-mcp 1.0.1",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/windows-control-center-mcp/1.0.1/",
+      "summary": "A local Windows Control Center Model Context Protocol (MCP) server for Antigravity, Claude Desktop, Cursor, and AI agents.",
+      "published_date": "2026-11-25",
+      "relevance_score": 15,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai governance",
-        "governance"
+        "model context protocol",
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 6,
-      "title": "Govern AI For The Future You Can’t Predict",
-      "source": "Forrester.com",
-      "url": "https://www.forrester.com/blogs/govern-ai-for-the-future-you-cant-predict/",
-      "summary": "AI governance is entering its execution era, and it will look very different from the governance approaches organizations have relied on so far.  That was my main takeaway from the Hinton Lectures 2026 in Toronto conveyed by Nobel prize laureate, Prof. Geoffr…",
-      "published_date": "2026-11-23",
-      "relevance_score": 10,
+      "title": "India voices concern over instrumentalisation of technology for strategic one-upmanship",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/info-tech/india-voices-concern-over-instrumentalisation-of-technology-for-strategic-one-upmanship/article71741026.ece",
+      "summary": "India flags risks of tech instrumentalisation for strategic rivalry, calls for human-centric, lawful AI governance and safeguards in global security.",
+      "published_date": "2026-11-25",
+      "relevance_score": 15,
       "primary_pillar": "governance_as_code",
       "pillars": [
-        "governance_as_code"
+        "governance_as_code",
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
         "ai governance",
-        "governance"
+        "governance",
+        "human-centered"
       ],
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "rank": 7,
-      "title": "interloper-mcp 0.145.0",
+      "title": "isa-agent-sdk 0.6.9",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/interloper-mcp/0.145.0/",
-      "summary": "Interloper MCP server, platform access for AI agents",
-      "published_date": "2026-11-24",
-      "relevance_score": 9,
+      "url": "https://pypi.org/project/isa-agent-sdk/0.6.9/",
+      "summary": "isA Agent SDK - Build AI agents with human-in-the-loop capabilities, MCP integration, and advanced features",
+      "published_date": "2026-11-25",
+      "relevance_score": 15,
       "primary_pillar": "applied_ai",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
         "MCP",
-        "ai agent"
+        "ai agent",
+        "human-in-the-loop"
       ],
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "rank": 8,
-      "title": "n24q02m-wet 3.24.0b2",
+      "title": "aegis-runtime 0.6.0",
       "source": "Pypi.org",
-      "url": "https://pypi.org/project/n24q02m-wet/3.24.0b2/",
-      "summary": "Open-source MCP server for AI agents: web search, content extraction, and library docs.",
-      "published_date": "2026-11-24",
-      "relevance_score": 9,
-      "primary_pillar": "applied_ai",
+      "url": "https://pypi.org/project/aegis-runtime/0.6.0/",
+      "summary": "Zero-trust deterministic flight controller for AI agents: circuit breakers, state locks, human-in-the-loop approvals, policy-as-code, atomic rollbacks, and SHA-256 audit logs.",
+      "published_date": "2026-11-25",
+      "relevance_score": 11,
+      "primary_pillar": "human_centric_design",
       "pillars": [
-        "applied_ai"
+        "applied_ai",
+        "human_centric_design"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "MCP",
-        "ai agent"
+        "ai agent",
+        "human-in-the-loop"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 9,
-      "title": "Snowden on steroids: AI agents in phones trigger surveillance fears - POLITICO.eu",
-      "source": "Slashdot.org",
-      "url": "https://slashdot.org/firehose.pl?op=view&id=186853427",
-      "summary": "Snowden on steroids: AI agents in phones trigger surveillance fearsPOLITICO.eu Signal joins United Airlines, banks in limiting AI agents over customer risksCNBC Signal is Serious About Protecting Your PrivacySignal Messenger Signal Starts Blocking AI Agent Sc…",
-      "published_date": "2026-11-24",
-      "relevance_score": 8,
+      "title": "estus 0.1.0",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/estus/0.1.0/",
+      "summary": "Stdio MCP server that gives AI agents structured, policy-gated Linux operations over your own SSH",
+      "published_date": "2026-11-25",
+      "relevance_score": 9,
       "primary_pillar": "applied_ai",
       "pillars": [
         "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
+        "MCP",
         "ai agent"
       ],
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "rank": 10,
-      "title": "Signs Point Toward AI Safety Crackdown From Swamp",
-      "source": "The Daily Caller",
-      "url": "https://dailycaller.com/2026/11/24/big-tech-congress-ai-safety-crackdown/",
-      "summary": "It’s likely the swamp will roll out artificial intelligence safety rules, experts say, and even the White House could be on board.",
-      "published_date": "2026-11-24",
-      "relevance_score": 8,
-      "primary_pillar": "governance_as_code",
+      "title": "estus added to PyPI",
+      "source": "Pypi.org",
+      "url": "https://pypi.org/project/estus/",
+      "summary": "Stdio MCP server that gives AI agents structured, policy-gated Linux operations over your own SSH",
+      "published_date": "2026-11-25",
+      "relevance_score": 9,
+      "primary_pillar": "applied_ai",
       "pillars": [
-        "governance_as_code"
+        "applied_ai"
       ],
       "institutional_signal": false,
       "matched_keywords": [
-        "ai safety"
+        "MCP",
+        "ai agent"
       ],
       "sentiment": "neutral"
     },
     {
       "rank": 11,
-      "title": "How AI is changing Indian courts and why human oversight still matters in passing judgements",
-      "source": "The Times of India",
-      "url": "https://timesofindia.indiatimes.com/legal/news/how-ai-is-changing-indian-courts-and-why-human-oversight-still-matters-in-passing-judgements/articleshow/136126530.cms",
-      "summary": "The Supreme Court of India has introduced draft regulations to govern the use of Artificial Intelligence in courts. These regulations aim to address concerns related to accuracy, privacy, and accountability in legal processes. As AI tools become more common, …",
-      "published_date": "2026-11-24",
-      "relevance_score": 8,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "human oversight"
-      ],
-      "sentiment": "negative"
-    },
-    {
-      "rank": 12,
-      "title": "Houston Methodist’s Stansbury Says AI Agents Must Clear a 3-to-1 ROI Bar to Get In",
-      "source": "Healthsystemcio.com",
-      "url": "https://healthsystemcio.com/2026/11/23/ai-agent-roi-3-to-1/",
-      "summary": "Michelle Stansbury, associate chief innovation officer and vice president of IT applications at Houston Methodist, explains how the system decides which AI agents earn a place. Every agent must project a 3-to-1 return, and positions it replaces come out of th…",
-      "published_date": "2026-11-23",
-      "relevance_score": 8,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "positive"
-    },
-    {
-      "rank": 13,
-      "title": "Show HN: NetBeans-Native AI Agent for Enterprise Java",
-      "source": "Apache.org",
-      "url": "https://plugins.netbeans.apache.org/catalogue/?id=141",
-      "summary": "Pure Java, Apache Licensed, Multi Model, Multi Modal Harness with JIT code execution for LLM generated code.\n\nComments URL: https://news.ycombinator.com/item?id=50632046\nPoints: 2\n# Comments: 3",
-      "published_date": "2026-11-24",
+      "title": "Autonomous AI agents are giving everyday hackers ‘nation-state’ firepower, cyber expert reveals",
+      "source": "Fox News",
+      "url": "https://www.foxnews.com/us/autonomous-ai-agents-giving-everyday-hackers-nation-state-firepower-cyber-expert-reveals",
+      "summary": "Cybersecurity expert John Walsh of IGEL says AI gives individuals the power to disrupt critical infrastructure once held only by nation-states.",
+      "published_date": "2026-11-25",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -283,12 +262,48 @@
       "sentiment": "neutral"
     },
     {
+      "rank": 12,
+      "title": "Google builds a new toll booth for AI agents. Could Microsoft follow?",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/24ff6d950ce05087",
+      "summary": "A motorist pays a toll on the Ohio Turnpike in 1955. Seven decades later, Google is building a digital toll booth for AI agents.\nAP\nGoogle imposes new limits and fees on AI agents accessing Gmail, Drive, and Calendar.\nThe charges could raise costs for OpenAI,…",
+      "published_date": "2026-11-25",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 13,
+      "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+      "source": "Microsoft.com",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+      "summary": "The AI-powered penetration testing framework ARTEX has been abused by threat actors like Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, and Salt Typhoon to accelerate their existing workflows related to network reconnaissance, credential at…",
+      "published_date": "2026-11-25",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic"
+      ],
+      "sentiment": "negative"
+    },
+    {
       "rank": 14,
-      "title": "An AI Agent Broke Into a Security Nonprofit. Here’s What Kept the Damage Contained.",
-      "source": "Offsec.com",
-      "url": "https://www.offsec.com/blog/divd-attack/",
-      "summary": "OffSec researcher Alex \"Sickness\" Uifalvi says AI is shrinking the time from new flaw to working exploit. Learn why. \nThe post An AI Agent Broke Into a Security Nonprofit. Here’s What Kept the Damage Contained. appeared first on OffSec.",
-      "published_date": "2026-11-24",
+      "title": "Vibe Coding for Business Analytics: Custom CRM Dashboards, Reporting Apps, and AI Agents",
+      "source": "Kdnuggets.com",
+      "url": "https://www.kdnuggets.com/2026/11/vibe-coding-for-business-analytics-custom-crm-dashboards-reporting-apps-and-ai-agents",
+      "summary": "Discover how Alaio Vibecode, an AI app builder for Bitrix24, helps teams create custom CRM analytics dashboards, reporting tools, lead scoring apps, and AI agents.",
+      "published_date": "2026-11-25",
       "relevance_score": 8,
       "primary_pillar": "applied_ai",
       "pillars": [
@@ -302,11 +317,104 @@
     },
     {
       "rank": 15,
-      "title": "Ex-RBI chief Raghuram Rajan sees Nvidia governance risk in Huang's return",
-      "source": "Business Standard",
-      "url": "https://www.business-standard.com/world-news/ex-rbi-chief-raghuram-rajan-sees-nvidia-governance-risk-in-huang-s-return-126112400550_1.html",
-      "summary": "The former RBI governor questioned whether Nvidia would maintain checks and balances on Huang and investigate potential wrongdoing, while raising concerns over returns on debt-funded AI investment",
-      "published_date": "2026-11-24",
+      "title": "Show HN: ClearFills – Let AI manage your portfolio without your broker password",
+      "source": "Clearfills.com",
+      "url": "https://clearfills.com/",
+      "summary": "Agentic Wealth & Execution OS and deterministic Ed25519 pre-trade risk firewall sitting between AI agents (Claude, Cursor, ChatGPT, Codex, TradingAgents, ai-hedge-fund) and brokerage or prediction-market venues (IBKR, Alpaca, Polymarket, Kalshi). Provides OAu…",
+      "published_date": "2026-11-25",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic",
+        "ai agent"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 16,
+      "title": "AI Regulation Is No Longer Only the Legal Team’s Job",
+      "source": "Biztoc.com",
+      "url": "https://biztoc.com/x/b576423a6a1f0055",
+      "summary": "These are the current and forthcoming rules every leader needs to know before 2027.",
+      "published_date": "2026-11-25",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai regulation"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 17,
+      "title": "Taking AI Safety Seriously",
+      "source": "The American Prospect",
+      "url": "https://prospect.org/2026/11/25/taking-ai-safety-seriously/",
+      "summary": "If you are truly concerned with artificial intelligence tearing down humanity, lots of policy positions come into focus.\nThe post Taking AI Safety Seriously appeared first on The American Prospect.",
+      "published_date": "2026-11-25",
+      "relevance_score": 8,
+      "primary_pillar": "governance_as_code",
+      "pillars": [
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai safety"
+      ],
+      "sentiment": "negative"
+    },
+    {
+      "rank": 18,
+      "title": "Altimetrik Achieves the AWS Agentic AI Specialization - The Tribune",
+      "source": "The Tribune India",
+      "url": "https://www.tribuneindia.com/news/business/altimetrik-achieves-the-aws-agentic-ai-specialization/",
+      "summary": "Bengaluru (Karnataka) [India], November 25: Altimetrik, an AI engineering company, has achieved the Amazon Web Services (AWS) Agentic AI Specialization in Agentic AI Consulting Services, a category within the AWS AI Competency. This specialization recognizes …",
+      "published_date": "2026-11-25",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "agentic"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 19,
+      "title": "Why a platform-based approach matters for production readiness",
+      "source": "TechRadar",
+      "url": "https://www.techradar.com/pro/why-a-platform-based-approach-matters-for-production-readiness",
+      "summary": "Exploring how enterprises can evaluate AI agents across accuracy, reliability, cost, governance and production readiness.",
+      "published_date": "2026-11-25",
+      "relevance_score": 8,
+      "primary_pillar": "applied_ai",
+      "pillars": [
+        "applied_ai",
+        "governance_as_code"
+      ],
+      "institutional_signal": false,
+      "matched_keywords": [
+        "ai agent",
+        "governance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "rank": 20,
+      "title": "Raghuram Rajan Raises Corporate Governance Concerns At Nvidia",
+      "source": "Free Press Journal",
+      "url": "https://www.freepressjournal.in/business/raghuram-rajan-raises-corporate-governance-concerns-at-nvidia",
+      "summary": "Raghuram Rajan raised concerns over government intervention, inadequate oversight and debt-funded artificial intelligence investments, cautioning that excessive investor optimism, mounting systemic risks and potential cybersecurity threats could undermine the…",
+      "published_date": "2026-11-25",
       "relevance_score": 8,
       "primary_pillar": "governance_as_code",
       "pillars": [
@@ -317,96 +425,6 @@
         "governance"
       ],
       "sentiment": "negative"
-    },
-    {
-      "rank": 16,
-      "title": "Open Channels FM: AI, Accessibility, And Open Source Futures",
-      "source": "Openchannels.fm",
-      "url": "https://openchannels.fm/ai-accessibility-and-open-source-futures/",
-      "summary": "Anne Bovelett and Raitis Sevelis share thoughts on AI, accessibility and open source sustainability",
-      "published_date": "2026-11-24",
-      "relevance_score": 6,
-      "primary_pillar": "human_centric_design",
-      "pillars": [
-        "human_centric_design"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "accessibility"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 17,
-      "title": "mindroom 2026.11.571",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/mindroom/2026.11.571/",
-      "summary": "A universal interface for AI agents with persistent memory, where every conversation has a home",
-      "published_date": "2026-11-24",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 18,
-      "title": "lamakore added to PyPI",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/lamakore/",
-      "summary": "Reserved name for Lamakore - the open-source local-first desktop control plane for AI agents.",
-      "published_date": "2026-11-24",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 19,
-      "title": "lamakore 0.0.0",
-      "source": "Pypi.org",
-      "url": "https://pypi.org/project/lamakore/0.0.0/",
-      "summary": "Reserved name for Lamakore - the open-source local-first desktop control plane for AI agents.",
-      "published_date": "2026-11-24",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "rank": 20,
-      "title": "XAI founders unveil startup to predict future events",
-      "source": "Biztoc.com",
-      "url": "https://biztoc.com/x/0a7cc31df5d4758a",
-      "summary": "Former founding members of xAI on Tuesday announced the launch of a new artificial intelligence startup focused on forecasting future events.Epochal's Time Portal allows AI agents to browse the intern...",
-      "published_date": "2026-11-24",
-      "relevance_score": 5,
-      "primary_pillar": "applied_ai",
-      "pillars": [
-        "applied_ai"
-      ],
-      "institutional_signal": false,
-      "matched_keywords": [
-        "ai agent"
-      ],
-      "sentiment": "neutral"
     }
   ]
 }
